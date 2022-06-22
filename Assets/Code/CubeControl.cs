@@ -83,40 +83,16 @@ public class CubeControl : MonoBehaviour
 
                                 Debug.DrawLine(firstTouchedCube.position, secondTouchedCube.position, Color.magenta, 5f, false);
 
-                                float firstAngle = Vector3.SignedAngle(firstTouchedCube.localPosition, selectedCubeGroupJoint.position, rubicCube.transform.up);
-                                float secondAngle = Vector3.SignedAngle(secondTouchedCube.localPosition, selectedCubeGroupJoint.position, rubicCube.transform.up);
-                                Debug.Log("first:" + firstAngle + " second:" + secondAngle);
+                                #region vector3.cross 2 vetörün çapraz çarpýmý. Yani iki vectöre dik olan 3. bir vectör döner. Bu sayede dönme yönünü bulabiliyoruz.
+                                
+                                //iki vectöre inen dikmeyi bulunca selectedcube'in ekseni ile karþýlaþtýrýp çarpýyoruz. Bu sayede zýt yönlüler ise tersi yönde dönüþ saðlanýyor.
+                                Vector3 side1 = firstTouchedCube.position - selectedCubeGroupJoint.position;
+                                Vector3 side2 = secondTouchedCube.position - selectedCubeGroupJoint.position;
 
-
-                                if (firstAngle < secondAngle)
-                                {
-                                    selectedAxis = Vector3.Scale(selectedAxis, new Vector3(0, -1, 0));
-                                }
-
-                                if (firstAngle * secondAngle > 0 && firstAngle < secondAngle)
-                                {
-                                    selectedAxis = Vector3.Scale(selectedAxis, new Vector3(0, -1, 0));
-                                }
-                                else if (firstAngle * secondAngle < 0 && Mathf.Abs(firstAngle) < Mathf.Abs(secondAngle))
-                                {
-                                    selectedAxis = Vector3.Scale(selectedAxis, new Vector3(0, -1, 0));
-                                }
-
-                                Vector3 firstCubePixel = Camera.main.WorldToScreenPoint(firstTouchedCube.position);
-                                Vector3 secondCubePixel = Camera.main.WorldToScreenPoint(secondTouchedCube.position);
-                                float selectedCubeDeltaX = secondCubePixel.x - firstCubePixel.x;
-                                float selectedCubeDeltaY = secondCubePixel.y - firstCubePixel.y;
-
-                                #region Y ekseni (bottom, middle,top) için düzgün çalýþýyor
-                                Debug.Log("yatay " + Mathf.Sign(rubicCube.transform.up.y));
-                                if (firstCubePixel.x < secondCubePixel.x)
-                                {
-                                    selectedAxis = Vector3.Scale(selectedAxis, new Vector3(0, -1, 0));
-                                }
-
-                                selectedAxis = new Vector3(0, selectedAxis.y * Mathf.Sign(rubicCube.transform.up.y), 0);
+                                Vector3 cross = Vector3.Cross(side1, side2).normalized;
                                 #endregion
 
+                                selectedAxis = new Vector3(selectedAxis.x * Mathf.Sign(cross.x) * Mathf.Sign(selectedCubeGroupJoint.right.x), selectedAxis.y * Mathf.Sign(cross.y) * Mathf.Sign(selectedCubeGroupJoint.up.y), selectedAxis.z * Mathf.Sign(cross.z) * Mathf.Sign(selectedCubeGroupJoint.forward.z));
 
                                 startRotate();
 
@@ -126,7 +102,6 @@ public class CubeControl : MonoBehaviour
 
                     }
                 }
-
             }
 
             if (touch.phase == TouchPhase.Ended)
