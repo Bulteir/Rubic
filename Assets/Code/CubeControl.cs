@@ -24,6 +24,8 @@ public class CubeControl : MonoBehaviour
     Transform firstTouchedCube;
     Transform secondTouchedCube;
     public GameObject rubicCube;
+    public int shuffleStepCount;//toplam kaç kez karýþtýracak
+    int shuffleStep = 0;//þuan karýþtýrmada kaçýncý adýmda
 
     private void Update()
     {
@@ -84,7 +86,7 @@ public class CubeControl : MonoBehaviour
                                 Debug.DrawLine(firstTouchedCube.position, secondTouchedCube.position, Color.magenta, 5f, false);
 
                                 #region vector3.cross 2 vetörün çapraz çarpýmý. Yani iki vectöre dik olan 3. bir vectör döner. Bu sayede dönme yönünü bulabiliyoruz.
-                                
+
                                 //iki vectöre inen dikmeyi bulunca selectedcube'in ekseni ile karþýlaþtýrýp çarpýyoruz. Bu sayede zýt yönlüler ise tersi yönde dönüþ saðlanýyor.
                                 Vector3 side1 = firstTouchedCube.position - selectedCubeGroupJoint.position;
                                 Vector3 side2 = secondTouchedCube.position - selectedCubeGroupJoint.position;
@@ -136,5 +138,57 @@ public class CubeControl : MonoBehaviour
         isRotateStarted = true;
         rotateAngle = 0;
         acceleration = 1;
+    }
+
+    public void shuffleCube()
+    {
+        StartCoroutine(shuffleCoroutine());
+    }
+    
+    IEnumerator shuffleCoroutine()
+    {
+        while (shuffleStep < shuffleStepCount)
+        {
+            Debug.Log("girdi");
+
+            if (isRotateStarted == false)
+            {
+                Debug.Log("girdi");
+
+                int randomGroupJoint = Random.Range(0, 9);
+
+                List<GameObject> joints = new List<GameObject>{bottomGroupJoint,
+                                                        horizontalMiddleGroupJoint,
+                                                        topGroupJoint,
+                                                        rightGroupJoint,
+                                                        verticalMiddleGroupJoint,
+                                                        leftGroupJoint,
+                                                        frontGroupJoint,
+                                                        frontMiddleGroupJoint,
+                                                        backGroupJoint};
+
+                Transform randomSelectedGroupJoint = joints[randomGroupJoint].transform;
+
+                selectedCubeGroupJoint = randomSelectedGroupJoint;
+
+                List<GameObject> insideCubesFromGroup = selectedCubeGroupJoint.GetComponent<RotationGroupDetect>().insideCubes;
+
+                foreach (var cube in insideCubesFromGroup)
+                {
+                    cube.transform.parent = selectedCubeGroupJoint.transform.parent;
+                }
+                selectedAxis = randomSelectedGroupJoint.GetComponent<RotationGroupDetect>().rotationAxis;
+
+                int randomDirection = Random.Range(0, 2);
+
+                if (randomDirection == 0)
+                    selectedAxis = Vector3.Scale(selectedAxis, new Vector3(-1, -1, -1));
+               
+                shuffleStep++;
+                startRotate();
+                yield return new WaitUntil(() => isRotateStarted == false);
+            }
+        }
+        shuffleStep = 0;
     }
 }
