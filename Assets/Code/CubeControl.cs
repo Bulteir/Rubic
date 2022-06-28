@@ -120,9 +120,13 @@ public class CubeControl : MonoBehaviour
         {
             if (rotateAngle < targetAngle)
             {
-                selectedCubeGroupJoint.transform.parent.Rotate((rotateSpeed + acceleration) * selectedAxis.x, (rotateSpeed + acceleration) * selectedAxis.y, (rotateSpeed + acceleration) * selectedAxis.z, Space.Self);
-                rotateAngle += rotateSpeed + acceleration;
-                acceleration += 1;
+                float rotationValue = rotateSpeed + acceleration;
+                if (targetAngle - rotateAngle < acceleration + rotateSpeed)
+                    rotationValue = targetAngle - rotateAngle;
+
+                selectedCubeGroupJoint.transform.parent.Rotate(rotationValue * selectedAxis.x, rotationValue * selectedAxis.y, rotationValue * selectedAxis.z, Space.Self);
+                rotateAngle += rotationValue;
+                acceleration += rotateSpeed;
             }
             else
             {
@@ -144,17 +148,14 @@ public class CubeControl : MonoBehaviour
     {
         StartCoroutine(shuffleCoroutine());
     }
-    
     IEnumerator shuffleCoroutine()
     {
+        float firstRotationSpeed = rotateSpeed;
+        rotateSpeed = firstRotationSpeed + 5;
         while (shuffleStep < shuffleStepCount)
         {
-            Debug.Log("girdi");
-
             if (isRotateStarted == false)
             {
-                Debug.Log("girdi");
-
                 int randomGroupJoint = Random.Range(0, 9);
 
                 List<GameObject> joints = new List<GameObject>{bottomGroupJoint,
@@ -190,5 +191,6 @@ public class CubeControl : MonoBehaviour
             }
         }
         shuffleStep = 0;
+        rotateSpeed = firstRotationSpeed;
     }
 }
