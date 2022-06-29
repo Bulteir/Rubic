@@ -40,7 +40,7 @@ public class CubeCameraControl : MonoBehaviour
                 Ray ray = Camera.main.ScreenPointToRay(touch.position);
                 if (Physics.Raycast(ray, out raycastHit, 100f))
                 {
-                    if (raycastHit.transform.gameObject.tag != GlobalVariable.rubicCube && raycastHit.transform.gameObject.tag != GlobalVariable.groupJoint)
+                    if (raycastHit.transform.gameObject.tag != GlobalVariable.rubicCube && raycastHit.transform.gameObject.tag != GlobalVariable.groupJoint && raycastHit.transform.gameObject.tag != GlobalVariable.touchHelper)
                     {
                         dragRubicCube = true;
                         toucedRubicCube = false;

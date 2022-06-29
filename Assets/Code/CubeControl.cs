@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CubeControl : MonoBehaviour
 {
@@ -26,6 +27,12 @@ public class CubeControl : MonoBehaviour
     public GameObject rubicCube;
     public int shuffleStepCount;//toplam kaç kez karýþtýracak
     int shuffleStep = 0;//þuan karýþtýrmada kaçýncý adýmda
+    GameObject[] touchHelpers;
+
+    private void Start()
+    {
+        touchHelpers = GameObject.FindGameObjectsWithTag(GlobalVariable.touchHelper);
+    }
 
     private void Update()
     {
@@ -52,6 +59,11 @@ public class CubeControl : MonoBehaviour
                     if (raycastHit.collider.gameObject.tag == GlobalVariable.rubicCube)
                     {
                         firstTouchedCube = raycastHit.collider.transform;
+
+                        foreach (var item in touchHelpers)
+                        {
+                            item.layer = LayerMask.NameToLayer("Default");
+                        }
                     }
                 }
             }
@@ -62,7 +74,7 @@ public class CubeControl : MonoBehaviour
                 Ray ray = Camera.main.ScreenPointToRay(touch.position);
                 if (Physics.Raycast(ray, out raycastHit, Mathf.Infinity))
                 {
-                    if (raycastHit.collider.gameObject.tag == GlobalVariable.rubicCube && raycastHit.collider.transform != firstTouchedCube)
+                    if ((raycastHit.collider.gameObject.tag == GlobalVariable.rubicCube || raycastHit.collider.gameObject.tag == GlobalVariable.touchHelper) && raycastHit.collider.transform != firstTouchedCube)
                     {
                         secondTouchedCube = raycastHit.collider.transform;
                         List<Transform> firstCubeGroupJoints = firstTouchedCube.GetComponent<ClickDetect>().groupJoints;
@@ -110,6 +122,10 @@ public class CubeControl : MonoBehaviour
             {
                 firstTouchedCube = null;
                 secondTouchedCube = null;
+                foreach (var item in touchHelpers)
+                {
+                    item.layer = LayerMask.NameToLayer("Ignore Raycast");
+                }
             }
         }
     }
@@ -144,11 +160,11 @@ public class CubeControl : MonoBehaviour
         acceleration = 1;
     }
 
-    public void shuffleCube()
+    public void shuffleCube(Button button)
     {
-        StartCoroutine(shuffleCoroutine());
+        StartCoroutine(shuffleCoroutine(button));
     }
-    IEnumerator shuffleCoroutine()
+    IEnumerator shuffleCoroutine(Button button)
     {
         float firstRotationSpeed = rotateSpeed;
         rotateSpeed = firstRotationSpeed + 5;
@@ -192,5 +208,6 @@ public class CubeControl : MonoBehaviour
         }
         shuffleStep = 0;
         rotateSpeed = firstRotationSpeed;
+        button.interactable = true;
     }
 }
