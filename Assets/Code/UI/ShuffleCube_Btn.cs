@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class ShuffleCube_Btn : MonoBehaviour
 {
     public Transform RubicCube;
-    public GameObject counter;
     public void onClick()
     {
-        Button shuffle_btn = gameObject.GetComponent<Button>();
-        shuffle_btn.interactable = false;
-        RubicCube.GetComponent<CubeControl>().shuffleCube(shuffle_btn);
+        //Button shuffle_btn = gameObject.GetComponent<Button>();
+        //shuffle_btn.interactable = false;
+        //RubicCube.GetComponent<CubeControl>().shuffleCube(shuffle_btn);
+        Application.Quit();
     }
 }

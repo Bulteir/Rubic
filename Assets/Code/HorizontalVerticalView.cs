@@ -16,7 +16,6 @@ public class HorizontalVerticalView : MonoBehaviour
     public GameObject shuffle_btnLandscapePrefab;
     bool isOrientationPortrait;
 
-
     void Start()
     {
         if (Screen.orientation == ScreenOrientation.LandscapeLeft || Screen.orientation == ScreenOrientation.LandscapeRight)

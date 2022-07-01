@@ -27,21 +27,18 @@ public class CubeControl : MonoBehaviour
     public GameObject rubicCube;
     public int shuffleStepCount;//toplam kaç kez karýþtýracak
     int shuffleStep = 0;//þuan karýþtýrmada kaçýncý adýmda
-    GameObject[] touchHelpers;
-
-    private void Start()
-    {
-        touchHelpers = GameObject.FindGameObjectsWithTag(GlobalVariable.touchHelper);
-    }
+    public GameObject counter;
 
     private void Update()
     {
-        cubeSwipe();
+        if(GlobalVariable.gameState == GlobalVariable.gameState_inGame)
+            cubeSwipe();
     }
 
     private void FixedUpdate()
     {
-        Rotate();
+        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
+            Rotate();
     }
 
     void cubeSwipe()
@@ -59,11 +56,6 @@ public class CubeControl : MonoBehaviour
                     if (raycastHit.collider.gameObject.tag == GlobalVariable.rubicCube)
                     {
                         firstTouchedCube = raycastHit.collider.transform;
-
-                        foreach (var item in touchHelpers)
-                        {
-                            item.layer = LayerMask.NameToLayer("Default");
-                        }
                     }
                 }
             }
@@ -122,10 +114,6 @@ public class CubeControl : MonoBehaviour
             {
                 firstTouchedCube = null;
                 secondTouchedCube = null;
-                foreach (var item in touchHelpers)
-                {
-                    item.layer = LayerMask.NameToLayer("Ignore Raycast");
-                }
             }
         }
     }
@@ -209,5 +197,7 @@ public class CubeControl : MonoBehaviour
         shuffleStep = 0;
         rotateSpeed = firstRotationSpeed;
         button.interactable = true;
+        counter.GetComponent<Counter>().resetCounter();
+        counter.GetComponent<Counter>().startCounter();
     }
 }

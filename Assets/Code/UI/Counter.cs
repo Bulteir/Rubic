@@ -19,13 +19,13 @@ public class Counter : MonoBehaviour
     void Start()
     {
         text = gameObject.GetComponent<TMP_Text>();
-        startCounter();
+        //startCounter();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(isStarted == true)
+        if(isStarted == true && GlobalVariable.gameState == GlobalVariable.gameState_inGame)
         {
             count += Time.deltaTime;
             miliSecond = (count % 1) * 1000;

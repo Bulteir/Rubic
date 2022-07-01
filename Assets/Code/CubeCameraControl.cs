@@ -19,14 +19,10 @@ public class CubeCameraControl : MonoBehaviour
     bool dragRubicCube = false;
     bool toucedRubicCube = false;
 
-    private void Start()
-    {
-
-    }
-
     private void Update()
     {
-        controlWithTouch();
+        if(GlobalVariable.gameState == GlobalVariable.gameState_inGame)
+            controlWithTouch();
     }
 
     void controlWithTouch()
