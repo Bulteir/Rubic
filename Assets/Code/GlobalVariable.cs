@@ -12,5 +12,11 @@ public static class GlobalVariable
     public const int gameState_PauseMenu = 2;
     public const int gameState_SettingsMenu = 3;
     public const int gameState_BestTimesMenu = 3;
-
+    
+    //arayüz tasarýmý yapýlan telefon redmi note 7 -- DD(Default Device)
+    public const float DDScreenWitdh = 2340;
+    public const float DDScreenHeight = 1080;
+    public const float DDbuttonWidth = 750;
+    public const float DDbuttonHeight = 150;
+    public const float DDfontSize = 72;
 }

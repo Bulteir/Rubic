@@ -52,6 +52,7 @@ public class HorizontalVerticalView : MonoBehaviour
         cam.GetComponent<Camera>().fieldOfView = camLandscapePrefab.GetComponent<Camera>().fieldOfView;
         counter.GetComponent<RectTransform>().anchoredPosition = counterLandscapePrefab.GetComponent<RectTransform>().anchoredPosition;
         shuffle_btn.GetComponent<RectTransform>().anchoredPosition = shuffle_btnLandscapePrefab.GetComponent<RectTransform>().anchoredPosition;
+        gameObject.GetComponent<MenuControl>().uiScaleOptimizer();
     }
 
     void setPortraitSettings ()
@@ -61,5 +62,6 @@ public class HorizontalVerticalView : MonoBehaviour
         cam.GetComponent<Camera>().fieldOfView = camPortraitPrefab.GetComponent<Camera>().fieldOfView;
         counter.GetComponent<RectTransform>().anchoredPosition = counterPortraitPrefab.GetComponent<RectTransform>().anchoredPosition;
         shuffle_btn.GetComponent<RectTransform>().anchoredPosition = shuffle_btnPortraitPrefab.GetComponent<RectTransform>().anchoredPosition;
+        gameObject.GetComponent<MenuControl>().uiScaleOptimizer();
     }
 }
