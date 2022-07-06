@@ -28,10 +28,11 @@ public class CubeControl : MonoBehaviour
     public int shuffleStepCount;//toplam kaç kez karýþtýracak
     int shuffleStep = 0;//þuan karýþtýrmada kaçýncý adýmda
     public GameObject counter;
+    public GameObject rubicCubePrefab;
 
     private void Update()
     {
-        if(GlobalVariable.gameState == GlobalVariable.gameState_inGame)
+        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
             cubeSwipe();
     }
 
@@ -188,7 +189,7 @@ public class CubeControl : MonoBehaviour
 
                 if (randomDirection == 0)
                     selectedAxis = Vector3.Scale(selectedAxis, new Vector3(-1, -1, -1));
-               
+
                 shuffleStep++;
                 startRotate();
                 yield return new WaitUntil(() => isRotateStarted == false);
@@ -199,5 +200,93 @@ public class CubeControl : MonoBehaviour
         button.interactable = true;
         counter.GetComponent<Counter>().resetCounter();
         counter.GetComponent<Counter>().startCounter();
+    }
+
+    public void resetRubicCube(Transform cube)
+    {
+        List<Transform> rubicCubeItems = new List<Transform>();
+        List<Transform> rubicCubePrefabItems = new List<Transform>();
+
+        //rubik küpün tüm elemanlarýný bir listeye ekler
+        rubicToList(cube, rubicCubeItems);
+
+        //rubik küp prefabýnýn tüm elemanlarýný bir listeye ekler
+        rubicToList(rubicCubePrefab.transform, rubicCubePrefabItems);
+
+        foreach (var item in rubicCubeItems)
+        {
+            //herbir rubik küp elementinin position ve rotation'ýnýný en baþtaki haline getiriyoruz 
+            Transform itemPrefab = rubicCubePrefabItems.Find(x => x.name == item.name);
+            if (itemPrefab != null)
+            {
+                item.position = itemPrefab.position;
+                item.rotation = itemPrefab.rotation;
+            }
+
+            //herbir rubik küp elementinin parentýný en baþtaki haline getiriyoruz 
+            if (itemPrefab.parent != null)
+            {
+                Transform parentItem = rubicCubeItems.Find(x => x.name == itemPrefab.parent.name);
+                if (parentItem != null)
+                {
+                    item.parent = parentItem;
+                }
+            }
+        }
+    }
+
+    public void resetRubicCube(Transform cube, bool afterShuffleCube, Button button)
+    {
+        List<Transform> rubicCubeItems = new List<Transform>();
+        List<Transform> rubicCubePrefabItems = new List<Transform>();
+
+        //rubik küpün tüm elemanlarýný bir listeye ekler
+        rubicToList(cube, rubicCubeItems);
+
+        //rubik küp prefabýnýn tüm elemanlarýný bir listeye ekler
+        rubicToList(rubicCubePrefab.transform, rubicCubePrefabItems);
+
+        foreach (var item in rubicCubeItems)
+        {
+            //herbir rubik küp elementinin position ve rotation'ýnýný en baþtaki haline getiriyoruz 
+            Transform itemPrefab = rubicCubePrefabItems.Find(x => x.name == item.name);
+            if (itemPrefab != null)
+            {
+                item.position = itemPrefab.position;
+                item.rotation = itemPrefab.rotation;
+            }
+
+            //herbir rubik küp elementinin parentýný en baþtaki haline getiriyoruz 
+            if (itemPrefab.parent != null)
+            {
+                Transform parentItem = rubicCubeItems.Find(x => x.name == itemPrefab.parent.name);
+                if (parentItem != null)
+                {
+                    item.parent = parentItem;
+                }
+            }
+        }
+
+        if (afterShuffleCube)
+        {
+            StartCoroutine(restartSuffleHelper(button));
+        }
+    }
+
+    IEnumerator restartSuffleHelper(Button button)
+    {
+        yield return new WaitForFixedUpdate();
+        shuffleCube(button);
+    }
+
+    void rubicToList(Transform cube, List<Transform> itemsList)
+    {
+        itemsList.Add(cube);
+        int childCount = cube.childCount;
+        for (int i = 0; i < childCount; i++)
+        {
+            Transform child = cube.GetChild(i);
+            rubicToList(child, itemsList);
+        }
     }
 }

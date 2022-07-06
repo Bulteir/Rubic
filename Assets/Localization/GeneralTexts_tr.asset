@@ -34,6 +34,18 @@ MonoBehaviour:
     m_Localized: "\xC7\u0131k\u0131\u015F"
     m_Metadata:
       m_Items: []
+  - m_Id: 1364218614898688
+    m_Localized: Devam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1364802793365504
+    m_Localized: "Ana Men\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1365462611910656
+    m_Localized: "Yeniden Ba\u015Flat"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

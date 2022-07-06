@@ -6,14 +6,9 @@ using UnityEngine;
 public class HorizontalVerticalView : MonoBehaviour
 {
     public Camera cam;
-    public GameObject counter;
-    public GameObject shuffle_btn;
     public GameObject camPortraitPrefab;
     public GameObject camLandscapePrefab;
-    public GameObject counterPortraitPrefab;
-    public GameObject counterLandscapePrefab;
-    public GameObject shuffle_btnPortraitPrefab;
-    public GameObject shuffle_btnLandscapePrefab;
+
     bool isOrientationPortrait;
 
     void Start()
@@ -50,9 +45,6 @@ public class HorizontalVerticalView : MonoBehaviour
         cam.transform.position = camLandscapePrefab.transform.position;
         cam.transform.rotation = camLandscapePrefab.transform.rotation;
         cam.GetComponent<Camera>().fieldOfView = camLandscapePrefab.GetComponent<Camera>().fieldOfView;
-        counter.GetComponent<RectTransform>().anchoredPosition = counterLandscapePrefab.GetComponent<RectTransform>().anchoredPosition;
-        shuffle_btn.GetComponent<RectTransform>().anchoredPosition = shuffle_btnLandscapePrefab.GetComponent<RectTransform>().anchoredPosition;
-        gameObject.GetComponent<MenuControl>().uiScaleOptimizer();
     }
 
     void setPortraitSettings ()
@@ -60,8 +52,5 @@ public class HorizontalVerticalView : MonoBehaviour
         cam.transform.position = camPortraitPrefab.transform.position;
         cam.transform.rotation = camPortraitPrefab.transform.rotation;
         cam.GetComponent<Camera>().fieldOfView = camPortraitPrefab.GetComponent<Camera>().fieldOfView;
-        counter.GetComponent<RectTransform>().anchoredPosition = counterPortraitPrefab.GetComponent<RectTransform>().anchoredPosition;
-        shuffle_btn.GetComponent<RectTransform>().anchoredPosition = shuffle_btnPortraitPrefab.GetComponent<RectTransform>().anchoredPosition;
-        gameObject.GetComponent<MenuControl>().uiScaleOptimizer();
     }
 }

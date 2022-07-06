@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class CubeCameraControl : MonoBehaviour
 {
@@ -18,10 +19,18 @@ public class CubeCameraControl : MonoBehaviour
 
     bool dragRubicCube = false;
     bool toucedRubicCube = false;
+    public bool isEnteredPauseButton = false;
 
+    void Start()
+    {
+        Undo.RegisterFullObjectHierarchyUndo(gameObject, "rubicCubeFirstPosition");
+        Undo.FlushUndoRecordObjects();
+    }
+    
     private void Update()
     {
-        if(GlobalVariable.gameState == GlobalVariable.gameState_inGame)
+
+        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
             controlWithTouch();
     }
 
@@ -40,6 +49,8 @@ public class CubeCameraControl : MonoBehaviour
                     {
                         dragRubicCube = true;
                         toucedRubicCube = false;
+                        isEnteredPauseButton = false;
+
                     }
                     else
                     {
@@ -51,6 +62,8 @@ public class CubeCameraControl : MonoBehaviour
                 }
                 else
                 {
+                    isEnteredPauseButton = false;
+
                     dragRubicCube = true;
                     toucedRubicCube = false;
                 }
@@ -66,7 +79,7 @@ public class CubeCameraControl : MonoBehaviour
                 cube.Rotate(Camera.main.transform.right, yRotation, Space.World);
             }
 
-            if (touch.phase == TouchPhase.Ended) 
+            if (touch.phase == TouchPhase.Ended)
             {
                 lastXRotationVal = xRotation;
                 lastYRotationVal = yRotation;
@@ -74,7 +87,7 @@ public class CubeCameraControl : MonoBehaviour
             }
         }
 
-        if (dragRubicCube == false && toucedRubicCube == false)
+        if (dragRubicCube == false && toucedRubicCube == false && isEnteredPauseButton == false)
         {
             if (Mathf.Abs(lastXRotationVal) > 0.01f)
             {
