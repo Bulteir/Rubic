@@ -9,7 +9,7 @@ public class PauseMenu_MainMenu_Btn : MonoBehaviour
     public GameObject rubicCube;
     public void onClick()
     {
-        rubicCube.GetComponentInChildren<CubeControl>().resetRubicCube(rubicCube.transform);
+        rubicCube.GetComponentInChildren<CubeControl>().resetRubicCube();
         counter.GetComponent<Counter>().resetCounter();
         GlobalVariable.gameState = GlobalVariable.gameState_MainMenu;
     }

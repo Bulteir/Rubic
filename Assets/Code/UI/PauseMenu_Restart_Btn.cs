@@ -10,7 +10,7 @@ public class PauseMenu_Restart_Btn : MonoBehaviour
 
     public void onClick()
     {
-        rubicCube.GetComponentInChildren<CubeControl>().resetRubicCube(rubicCube.transform,true, gameObject.GetComponent<Button>());
+        rubicCube.GetComponentInChildren<CubeControl>().resetRubicCube(gameObject.GetComponent<Button>());
         counter.GetComponent<Counter>().resetCounter();
         GlobalVariable.gameState = GlobalVariable.gameState_inGame;
     }

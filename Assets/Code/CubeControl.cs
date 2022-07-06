@@ -24,11 +24,30 @@ public class CubeControl : MonoBehaviour
     Vector3 selectedAxis;
     Transform firstTouchedCube;
     Transform secondTouchedCube;
+    
     public GameObject rubicCube;
+    
     public int shuffleStepCount;//toplam kaç kez karýþtýracak
     int shuffleStep = 0;//þuan karýþtýrmada kaçýncý adýmda
+    
     public GameObject counter;
+
     public GameObject rubicCubePrefab;
+    List<Transform> rubicCubeItems;
+    List<Transform> rubicCubePrefabItems;
+
+    public List<GameObject> faceColorDetectors;
+
+    void Start()
+    {
+        rubicCubeItems = new List<Transform>();
+        rubicCubePrefabItems = new List<Transform>();
+
+        //rubik küpün tüm elemanlarýný bir listeye ekler
+        rubicToList(transform.parent, rubicCubeItems);
+        //rubik küp prefabýnýn tüm elemanlarýný bir listeye ekler
+        rubicToList(rubicCubePrefab.transform, rubicCubePrefabItems);
+    }
 
     private void Update()
     {
@@ -139,6 +158,7 @@ public class CubeControl : MonoBehaviour
                 isRotateStarted = false;
                 firstTouchedCube = null;
                 secondTouchedCube = null;
+                isResolveCube();
             }
         }
     }
@@ -202,17 +222,8 @@ public class CubeControl : MonoBehaviour
         counter.GetComponent<Counter>().startCounter();
     }
 
-    public void resetRubicCube(Transform cube)
+    public void resetRubicCube()
     {
-        List<Transform> rubicCubeItems = new List<Transform>();
-        List<Transform> rubicCubePrefabItems = new List<Transform>();
-
-        //rubik küpün tüm elemanlarýný bir listeye ekler
-        rubicToList(cube, rubicCubeItems);
-
-        //rubik küp prefabýnýn tüm elemanlarýný bir listeye ekler
-        rubicToList(rubicCubePrefab.transform, rubicCubePrefabItems);
-
         foreach (var item in rubicCubeItems)
         {
             //herbir rubik küp elementinin position ve rotation'ýnýný en baþtaki haline getiriyoruz 
@@ -235,17 +246,8 @@ public class CubeControl : MonoBehaviour
         }
     }
 
-    public void resetRubicCube(Transform cube, bool afterShuffleCube, Button button)
+    public void resetRubicCube(Button button)
     {
-        List<Transform> rubicCubeItems = new List<Transform>();
-        List<Transform> rubicCubePrefabItems = new List<Transform>();
-
-        //rubik küpün tüm elemanlarýný bir listeye ekler
-        rubicToList(cube, rubicCubeItems);
-
-        //rubik küp prefabýnýn tüm elemanlarýný bir listeye ekler
-        rubicToList(rubicCubePrefab.transform, rubicCubePrefabItems);
-
         foreach (var item in rubicCubeItems)
         {
             //herbir rubik küp elementinin position ve rotation'ýnýný en baþtaki haline getiriyoruz 
@@ -266,11 +268,7 @@ public class CubeControl : MonoBehaviour
                 }
             }
         }
-
-        if (afterShuffleCube)
-        {
-            StartCoroutine(restartSuffleHelper(button));
-        }
+        StartCoroutine(restartSuffleHelper(button));
     }
 
     IEnumerator restartSuffleHelper(Button button)
@@ -289,4 +287,33 @@ public class CubeControl : MonoBehaviour
             rubicToList(child, itemsList);
         }
     }
+
+    void isResolveCube()
+    {
+        int resolvedFace = 0;
+        foreach (var detector in faceColorDetectors)
+        {
+            if (detector.GetComponent<CubeFaceColorDetect>().blue == 9)
+                resolvedFace++;
+            else if (detector.GetComponent<CubeFaceColorDetect>().red == 9)
+                resolvedFace++;
+            else if (detector.GetComponent<CubeFaceColorDetect>().green == 9)
+                resolvedFace++;
+            else if (detector.GetComponent<CubeFaceColorDetect>().yellow == 9)
+                resolvedFace++;
+            else if (detector.GetComponent<CubeFaceColorDetect>().white == 9)
+                resolvedFace++;
+            else if (detector.GetComponent<CubeFaceColorDetect>().orange == 9)
+                resolvedFace++;
+        }
+
+        if (resolvedFace == 6)
+        {
+            Debug.Log("Tebrikler Kazandýnýz");
+        }
+    }
+
+
+
+
 }
