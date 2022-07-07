@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using UnityEngine.Localization.Settings;
 
 public class CubeControl : MonoBehaviour
 {
@@ -24,12 +26,12 @@ public class CubeControl : MonoBehaviour
     Vector3 selectedAxis;
     Transform firstTouchedCube;
     Transform secondTouchedCube;
-    
+
     public GameObject rubicCube;
-    
+
     public int shuffleStepCount;//toplam kaç kez karýþtýracak
     int shuffleStep = 0;//þuan karýþtýrmada kaçýncý adýmda
-    
+
     public GameObject counter;
 
     public GameObject rubicCubePrefab;
@@ -37,6 +39,12 @@ public class CubeControl : MonoBehaviour
     List<Transform> rubicCubePrefabItems;
 
     public List<GameObject> faceColorDetectors;
+
+    public float victoryExplodeForce;
+    public float victoryExplodeRange;
+    public TMP_Text victoryMessage;
+    public int resolveMoves;
+    public TMP_Text Moves;
 
     void Start()
     {
@@ -167,6 +175,11 @@ public class CubeControl : MonoBehaviour
         isRotateStarted = true;
         rotateAngle = 0;
         acceleration = 1;
+        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && shuffleStep == 0)
+        {
+            resolveMoves++;
+            Moves.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
+        }
     }
 
     public void shuffleCube(Button button)
@@ -243,6 +256,13 @@ public class CubeControl : MonoBehaviour
                     item.parent = parentItem;
                 }
             }
+
+            if(item.GetComponent<Rigidbody>() && item.GetComponent<BoxCollider>() && item.tag == GlobalVariable.rubicCube)
+            {
+                item.GetComponent<Rigidbody>().isKinematic = true;
+                item.GetComponent<Rigidbody>().useGravity = false;
+                item.GetComponent<BoxCollider>().isTrigger = true;
+            }
         }
     }
 
@@ -309,11 +329,25 @@ public class CubeControl : MonoBehaviour
 
         if (resolvedFace == 6)
         {
-            Debug.Log("Tebrikler Kazandýnýz");
+            VictoryCelebration();
         }
     }
 
+    void VictoryCelebration()
+    {
+        List<Transform> tempItems = rubicCubeItems.FindAll(x => x.tag == GlobalVariable.rubicCube && x.GetComponent<ClickDetect>());
 
-
+        foreach (var item in tempItems)
+        {
+            item.GetComponent<Rigidbody>().isKinematic = false;
+            item.GetComponent<Rigidbody>().useGravity = true;
+            item.GetComponent<Rigidbody>().AddExplosionForce(victoryExplodeForce, rubicCube.transform.position, victoryExplodeRange);
+            item.GetComponent<BoxCollider>().isTrigger = false;
+        }
+        victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
+            LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
+            LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
+        GlobalVariable.gameState = GlobalVariable.gameState_Victory;
+    }
 
 }

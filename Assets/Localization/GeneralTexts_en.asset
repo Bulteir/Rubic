@@ -46,6 +46,18 @@ MonoBehaviour:
     m_Localized: Restart
     m_Metadata:
       m_Items: []
+  - m_Id: 2098395517804544
+    m_Localized: Congratulations!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2121094487072768
+    m_Localized: 'Time:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2121162128613376
+    m_Localized: 'Moves:'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -46,6 +46,18 @@ MonoBehaviour:
     m_Localized: "Yeniden Ba\u015Flat"
     m_Metadata:
       m_Items: []
+  - m_Id: 2098395517804544
+    m_Localized: Tebrikler!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2121094487072768
+    m_Localized: "S\xFCre:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2121162128613376
+    m_Localized: 'Hamle:'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -13,6 +13,7 @@ public class MenuControl : MonoBehaviour
     public GameObject inGameUIPanel;
     public GameObject settingsPanel;
     public GameObject counterPanel;
+    public GameObject victoryUIPanel;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class MenuControl : MonoBehaviour
             settingsPanel.SetActive(false);
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
         {
@@ -33,6 +35,7 @@ public class MenuControl : MonoBehaviour
             settingsPanel.SetActive(false);
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(true);
+            victoryUIPanel.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_PauseMenu)
         {
@@ -42,6 +45,17 @@ public class MenuControl : MonoBehaviour
             settingsPanel.SetActive(false);
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(true);
+            victoryUIPanel.SetActive(false);
+        }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_Victory)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(false);
+            bestTimePanel.SetActive(false);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(true);
         }
     }
 
@@ -56,6 +70,7 @@ public class MenuControl : MonoBehaviour
             settingsPanel.SetActive(false);
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && inGameUIPanel.activeSelf == false)
         {
@@ -65,6 +80,7 @@ public class MenuControl : MonoBehaviour
             settingsPanel.SetActive(false);
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(true);
+            victoryUIPanel.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_PauseMenu && pauseMenuPanel.activeSelf == false)
         {
@@ -74,6 +90,17 @@ public class MenuControl : MonoBehaviour
             settingsPanel.SetActive(false);
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(true);
+            victoryUIPanel.SetActive(false);
+        }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_Victory && victoryUIPanel.activeSelf == false)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(false);
+            bestTimePanel.SetActive(false);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(true);
         }
     }
 

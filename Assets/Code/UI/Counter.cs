@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Localization.Settings;
 
 public class Counter : MonoBehaviour
 {
@@ -14,6 +14,8 @@ public class Counter : MonoBehaviour
     int hour;
 
     bool isStarted = false;
+
+    public GameObject rubicCube;
 
     // Start is called before the first frame update
     void Start()
@@ -55,5 +57,9 @@ public class Counter : MonoBehaviour
         count = 0;
         text.text = string.Format("{0:00}:{1:00}:{2:000}", 0, 0, 0);
         isStarted = false;
+
+        rubicCube.GetComponent<CubeControl>().resolveMoves = 0;
+        rubicCube.GetComponentInChildren<CubeControl>().Moves.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") +
+    rubicCube.GetComponentInChildren<CubeControl>().resolveMoves;
     }
 }

@@ -43,6 +43,18 @@ MonoBehaviour:
     m_Key: Restart
     m_Metadata:
       m_Items: []
+  - m_Id: 2098395517804544
+    m_Key: Congratulations!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2121094487072768
+    m_Key: 'Time:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2121162128613376
+    m_Key: 'Moves:'
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
