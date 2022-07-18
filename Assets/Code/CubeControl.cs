@@ -194,7 +194,7 @@ public class CubeControl : MonoBehaviour
         {
             if (isRotateStarted == false)
             {
-                int randomGroupJoint = Random.Range(0, 9);
+                int randomGroupJoint = UnityEngine.Random.Range(0, 9);
 
                 List<GameObject> joints = new List<GameObject>{bottomGroupJoint,
                                                         horizontalMiddleGroupJoint,
@@ -218,7 +218,7 @@ public class CubeControl : MonoBehaviour
                 }
                 selectedAxis = randomSelectedGroupJoint.GetComponent<RotationGroupDetect>().rotationAxis;
 
-                int randomDirection = Random.Range(0, 2);
+                int randomDirection = UnityEngine.Random.Range(0, 2);
 
                 if (randomDirection == 0)
                     selectedAxis = Vector3.Scale(selectedAxis, new Vector3(-1, -1, -1));
@@ -257,7 +257,7 @@ public class CubeControl : MonoBehaviour
                 }
             }
 
-            if(item.GetComponent<Rigidbody>() && item.GetComponent<BoxCollider>() && item.tag == GlobalVariable.rubicCube)
+            if (item.GetComponent<Rigidbody>() && item.GetComponent<BoxCollider>() && item.tag == GlobalVariable.rubicCube)
             {
                 item.GetComponent<Rigidbody>().isKinematic = true;
                 item.GetComponent<Rigidbody>().useGravity = false;
@@ -344,10 +344,92 @@ public class CubeControl : MonoBehaviour
             item.GetComponent<Rigidbody>().AddExplosionForce(victoryExplodeForce, rubicCube.transform.position, victoryExplodeRange);
             item.GetComponent<BoxCollider>().isTrigger = false;
         }
+
         victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
             LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
             LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
         GlobalVariable.gameState = GlobalVariable.gameState_Victory;
+
+        SaveBestTime(counter.GetComponent<TMP_Text>().text, resolveMoves);
+    }
+
+    [System.Serializable]
+    public struct BestTimesStruct
+    {
+        public string time;
+        public int moves;
+        public string RecordTime;
+    }
+
+    [System.Serializable]
+    public class JsonableListWrapper<T>
+    {
+        public List<T> list;
+        public JsonableListWrapper(List<T> list) => this.list = list;
+    }
+
+    void SaveBestTime(string time, int moves)
+    {
+
+        string json = PlayerPrefs.GetString("Bests");
+        List<BestTimesStruct> bestTimesList = new List<BestTimesStruct>();
+        if (json != "")
+        {
+            bestTimesList = JsonUtility.FromJson<JsonableListWrapper<BestTimesStruct>>(json).list;
+
+            BestTimesStruct newBestTime = new BestTimesStruct();
+            newBestTime.moves = moves;
+            newBestTime.time = time;
+            newBestTime.RecordTime = System.DateTime.UtcNow.ToShortDateString();
+            bestTimesList.Add(newBestTime);
+
+            bestTimesList.Sort((x, y) => x.time.CompareTo(y.time));
+
+            if (bestTimesList.Count > 5)
+            {
+                if (bestTimesList[5].time != time)
+                {
+                    victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
+                        LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "New Best Time") + "\n" +
+                        LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
+                        LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
+                }
+                bestTimesList.RemoveAt(5);
+            }
+            else
+            {
+                victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
+                       LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "New Best Time") + "\n" +
+                       LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
+                       LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
+            }
+        }
+        else
+        {
+            BestTimesStruct newBestTime = new BestTimesStruct();
+            newBestTime.moves = moves;
+            newBestTime.time = time;
+            newBestTime.RecordTime = System.DateTime.Today.ToShortDateString();
+            bestTimesList.Add(newBestTime);
+
+            victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
+                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "New Best Time") + "\n" +
+                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
+                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
+        }
+
+        string tempJson = JsonUtility.ToJson(new JsonableListWrapper<BestTimesStruct>(bestTimesList));
+
+        PlayerPrefs.SetString("Bests", tempJson);
+        PlayerPrefs.Save();
+    }
+
+    public void showJsonBests()
+    {
+        string json = PlayerPrefs.GetString("Bests");
+        List<BestTimesStruct> tempList = JsonUtility.FromJson<JsonableListWrapper<BestTimesStruct>>(json).list;
+        if (json != "")
+            Debug.Log(json);
     }
 
 }

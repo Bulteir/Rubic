@@ -58,6 +58,10 @@ MonoBehaviour:
     m_Localized: 'Moves:'
     m_Metadata:
       m_Items: []
+  - m_Id: 6153450298531840
+    m_Localized: New Best Time
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -58,6 +58,10 @@ MonoBehaviour:
     m_Localized: 'Hamle:'
     m_Metadata:
       m_Items: []
+  - m_Id: 6153450298531840
+    m_Localized: "Yeni En \u0130yi S\xFCre"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

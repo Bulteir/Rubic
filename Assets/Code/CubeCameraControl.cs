@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
 
 public class CubeCameraControl : MonoBehaviour
 {
@@ -20,12 +19,6 @@ public class CubeCameraControl : MonoBehaviour
     bool dragRubicCube = false;
     bool toucedRubicCube = false;
     public bool isEnteredPauseButton = false;
-
-    void Start()
-    {
-        Undo.RegisterFullObjectHierarchyUndo(gameObject, "rubicCubeFirstPosition");
-        Undo.FlushUndoRecordObjects();
-    }
     
     private void Update()
     {

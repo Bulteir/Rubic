@@ -55,6 +55,10 @@ MonoBehaviour:
     m_Key: 'Moves:'
     m_Metadata:
       m_Items: []
+  - m_Id: 6153450298531840
+    m_Key: New Best Time
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -30,15 +30,15 @@ public class Counter : MonoBehaviour
         if(isStarted == true && GlobalVariable.gameState == GlobalVariable.gameState_inGame)
         {
             count += Time.deltaTime;
-            miliSecond = (count % 1) * 1000;
+            miliSecond = (count % 1) * 100;
             second = (int)count % 60;
             minute = ((int)count / 60) % 60;
             hour = ((int)count / 3600) % 24;
 
             if (hour == 0)
-                text.text = string.Format("{0:00}:{1:00}:{2:000}", minute, second, miliSecond);
+                text.text = string.Format("{0:00}:{1:00}:{2:00}", minute, second, miliSecond);
             else
-                text.text = string.Format("{0:00}:{1:00}:{2:00}:{3:000}", hour, minute, second, miliSecond);
+                text.text = string.Format("{0:00}:{1:00}:{2:00}:{3:00}", hour, minute, second, miliSecond);
         }
     }
 
@@ -55,7 +55,7 @@ public class Counter : MonoBehaviour
     public void resetCounter()
     {
         count = 0;
-        text.text = string.Format("{0:00}:{1:00}:{2:000}", 0, 0, 0);
+        text.text = string.Format("{0:00}:{1:00}:{2:00}", 0, 0, 0);
         isStarted = false;
 
         rubicCube.GetComponent<CubeControl>().resolveMoves = 0;
