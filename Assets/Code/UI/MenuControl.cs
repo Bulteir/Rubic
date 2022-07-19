@@ -57,6 +57,26 @@ public class MenuControl : MonoBehaviour
             counterPanel.SetActive(false);
             victoryUIPanel.SetActive(true);
         }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_BestTimesMenu)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(false);
+            bestTimePanel.SetActive(true);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
+        }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_SettingsMenu)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(true);
+            bestTimePanel.SetActive(false);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -101,6 +121,26 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(false);
             victoryUIPanel.SetActive(true);
+        }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_BestTimesMenu && bestTimePanel.activeSelf == false)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(false);
+            bestTimePanel.SetActive(true);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
+        }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_SettingsMenu && settingsPanel.activeSelf == false)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(true);
+            bestTimePanel.SetActive(false);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
         }
     }
 

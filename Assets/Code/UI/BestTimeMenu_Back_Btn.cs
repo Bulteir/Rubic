@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Temp_DeteRecords : MonoBehaviour
+public class BestTimeMenu_Back_Btn : MonoBehaviour
 {
     public void onClick()
     {
-        PlayerPrefs.DeleteAll();
+        GlobalVariable.gameState = GlobalVariable.gameState_MainMenu;
     }
 }

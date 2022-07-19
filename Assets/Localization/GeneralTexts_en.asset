@@ -62,6 +62,30 @@ MonoBehaviour:
     m_Localized: New Best Time
     m_Metadata:
       m_Items: []
+  - m_Id: 6275343735316480
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6283340314304512
+    m_Localized: Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6283414272466944
+    m_Localized: Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6283515262918656
+    m_Localized: Date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6633171406807040
+    m_Localized: Delete Best Times
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6644202380189696
+    m_Localized: All best time deleted.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -380,7 +380,7 @@ public class CubeControl : MonoBehaviour
             BestTimesStruct newBestTime = new BestTimesStruct();
             newBestTime.moves = moves;
             newBestTime.time = time;
-            newBestTime.RecordTime = System.DateTime.UtcNow.ToShortDateString();
+            newBestTime.RecordTime = System.DateTime.Today.ToShortDateString();
             bestTimesList.Add(newBestTime);
 
             bestTimesList.Sort((x, y) => x.time.CompareTo(y.time));
@@ -424,12 +424,41 @@ public class CubeControl : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-    public void showJsonBests()
+    public void getBestTimes(TMP_Text bestTimeLabel)
     {
         string json = PlayerPrefs.GetString("Bests");
-        List<BestTimesStruct> tempList = JsonUtility.FromJson<JsonableListWrapper<BestTimesStruct>>(json).list;
+
+        string bestTimesString = "       " + LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time") + "           " +
+                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Move") + "	    " +
+                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Date") + "\n";
+
         if (json != "")
-            Debug.Log(json);
+        {
+            List<BestTimesStruct> bestTimes = JsonUtility.FromJson<JsonableListWrapper<BestTimesStruct>>(json).list;
+
+            for (int i = 0; i < bestTimes.Count; i++)
+            {
+                bestTimesString += (i + 1) + "- " + bestTimes[i].time + "\t\t" + bestTimes[i].moves + "\t" + bestTimes[i].RecordTime + "\n";
+            }
+
+            for (int i = bestTimes.Count; i < 5; i++)
+            {
+                bestTimesString += (i + 1) + "-" + "\t-" + "\t\t-\t        -\n";
+            }
+
+            bestTimeLabel.text = bestTimesString;
+        }
+        else
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                bestTimesString += (i + 1) + "-" + "\t-" + "\t\t-\t        -\n";
+            }
+
+            bestTimeLabel.text = bestTimesString;
+
+        }
+
     }
 
 }
