@@ -86,6 +86,26 @@ MonoBehaviour:
     m_Localized: "T\xFCm en iyi s\xFCreler silindi."
     m_Metadata:
       m_Items: []
+  - m_Id: 6821374403272704
+    m_Localized: "Dil Se\xE7in"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6833866684751872
+    m_Localized: "Kalite Ayar\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853212618350592
+    m_Localized: "D\xFC\u015F\xFCk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853276841533440
+    m_Localized: Orta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853336765554688
+    m_Localized: "Y\xFCksek"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

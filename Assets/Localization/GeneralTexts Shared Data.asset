@@ -83,6 +83,26 @@ MonoBehaviour:
     m_Key: Best Time Deleted
     m_Metadata:
       m_Items: []
+  - m_Id: 6821374403272704
+    m_Key: Select Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6833866684751872
+    m_Key: Quality Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853212618350592
+    m_Key: Low_Q
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853276841533440
+    m_Key: Medium_Q
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853336765554688
+    m_Key: High_Q
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

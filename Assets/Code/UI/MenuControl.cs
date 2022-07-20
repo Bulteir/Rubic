@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Localization.Settings;
 
 public class MenuControl : MonoBehaviour
 {
@@ -14,6 +15,22 @@ public class MenuControl : MonoBehaviour
     public GameObject settingsPanel;
     public GameObject counterPanel;
     public GameObject victoryUIPanel;
+
+    void Awake()
+    {
+        string selectedLangVal = PlayerPrefs.GetString("SelectedLang");
+        if (selectedLangVal != "")
+        {
+            LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[int.Parse(selectedLangVal)];
+        }
+
+        string selectedQualityVal = PlayerPrefs.GetString("SelectedQuality");
+        if (selectedQualityVal != "")
+        {
+            QualitySettings.SetQualityLevel(int.Parse(selectedQualityVal));
+        }
+
+    }
 
     void Start()
     {

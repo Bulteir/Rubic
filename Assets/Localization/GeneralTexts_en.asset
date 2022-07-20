@@ -35,7 +35,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1364218614898688
-    m_Localized: "Resume\t"
+    m_Localized: Resume
     m_Metadata:
       m_Items: []
   - m_Id: 1364802793365504
@@ -84,6 +84,26 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6644202380189696
     m_Localized: All best time deleted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6821374403272704
+    m_Localized: Select Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6833866684751872
+    m_Localized: Quality Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853212618350592
+    m_Localized: Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853276841533440
+    m_Localized: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853336765554688
+    m_Localized: High
     m_Metadata:
       m_Items: []
   references:
