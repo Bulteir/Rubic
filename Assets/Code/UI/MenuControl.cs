@@ -34,6 +34,7 @@ public class MenuControl : MonoBehaviour
 
     void Start()
     {
+        
         if (GlobalVariable.gameState == GlobalVariable.gameState_MainMenu)
         {
             inGameUIPanel.SetActive(false);

@@ -26,11 +26,12 @@ public class SettingMenu_Quality_Dropdown : MonoBehaviour
             QualitySettings.SetQualityLevel(5);
             PlayerPrefs.SetString("SelectedQuality", "5");
         }
+        PlayerPrefs.Save();
     }
 
     void OnEnable()
     {
-        UpdateQualityOptions();  
+        UpdateQualityOptions();
     }
     
     public void UpdateQualityOptions()
@@ -38,6 +39,23 @@ public class SettingMenu_Quality_Dropdown : MonoBehaviour
         qualityDropdownList.options[0].text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Low_Q");
         qualityDropdownList.options[1].text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Medium_Q");
         qualityDropdownList.options[2].text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "High_Q");
+        
+        if(qualityDropdownList.value != -1)
+        {
+            if(qualityDropdownList.value == 0)
+            {
+                qualityDropdownList.captionText.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Low_Q");
+            }
+            else if (qualityDropdownList.value == 1)
+            {
+                qualityDropdownList.captionText.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Medium_Q");
+            }
+            else if (qualityDropdownList.value == 2)
+            {
+                qualityDropdownList.captionText.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "High_Q");
+            }    
+        }
+        
     }
 
 }

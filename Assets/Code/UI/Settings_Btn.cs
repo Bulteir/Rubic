@@ -13,6 +13,5 @@ public class Settings_Btn : MonoBehaviour
         GlobalVariable.gameState = GlobalVariable.gameState_SettingsMenu;
         languageDropdownList.value = -1;
         qaulityDropdownList.value = -1;
-
     }
 }

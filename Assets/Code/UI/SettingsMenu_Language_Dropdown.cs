@@ -22,6 +22,7 @@ public class SettingsMenu_Language_Dropdown : MonoBehaviour
             LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[1];
             PlayerPrefs.SetString("SelectedLang", "1");
         }
+        PlayerPrefs.Save();
         qualityDropdownList.GetComponent<SettingMenu_Quality_Dropdown>().UpdateQualityOptions();
     }
 }
