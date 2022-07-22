@@ -106,6 +106,18 @@ MonoBehaviour:
     m_Localized: High
     m_Metadata:
       m_Items: []
+  - m_Id: 7539844495364096
+    m_Localized: Normal Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7539922702356480
+    m_Localized: Challenge Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7741719559720960
+    m_Localized: Time's Up!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -15,6 +15,8 @@ public class MenuControl : MonoBehaviour
     public GameObject settingsPanel;
     public GameObject counterPanel;
     public GameObject victoryUIPanel;
+    public GameObject newGameMenuPanel;
+    public GameObject timesUpUI;
 
     void Awake()
     {
@@ -29,12 +31,10 @@ public class MenuControl : MonoBehaviour
         {
             QualitySettings.SetQualityLevel(int.Parse(selectedQualityVal));
         }
-
     }
 
     void Start()
     {
-        
         if (GlobalVariable.gameState == GlobalVariable.gameState_MainMenu)
         {
             inGameUIPanel.SetActive(false);
@@ -44,6 +44,8 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(false);
             victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
         {
@@ -54,6 +56,8 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(true);
             victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_PauseMenu)
         {
@@ -64,6 +68,8 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(true);
             victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_Victory)
         {
@@ -74,6 +80,8 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(false);
             victoryUIPanel.SetActive(true);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_BestTimesMenu)
         {
@@ -84,6 +92,8 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(true);
             counterPanel.SetActive(false);
             victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_SettingsMenu)
         {
@@ -94,6 +104,32 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(false);
             victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
+        }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_NewGameMenu)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(false);
+            bestTimePanel.SetActive(false);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(true);
+            timesUpUI.SetActive(false);
+        }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_TimesUp)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(false);
+            bestTimePanel.SetActive(false);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(true);
         }
     }
 
@@ -109,6 +145,8 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(false);
             victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && inGameUIPanel.activeSelf == false)
         {
@@ -119,6 +157,8 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(true);
             victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_PauseMenu && pauseMenuPanel.activeSelf == false)
         {
@@ -129,6 +169,8 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(true);
             victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_Victory && victoryUIPanel.activeSelf == false)
         {
@@ -139,6 +181,8 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(false);
             victoryUIPanel.SetActive(true);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_BestTimesMenu && bestTimePanel.activeSelf == false)
         {
@@ -149,6 +193,8 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(true);
             counterPanel.SetActive(false);
             victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_SettingsMenu && settingsPanel.activeSelf == false)
         {
@@ -159,6 +205,32 @@ public class MenuControl : MonoBehaviour
             bestTimePanel.SetActive(false);
             counterPanel.SetActive(false);
             victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
+        }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_NewGameMenu && newGameMenuPanel.activeSelf == false)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(false);
+            bestTimePanel.SetActive(false);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(true);
+            timesUpUI.SetActive(false);
+        }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_TimesUp && timesUpUI.activeSelf == false)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(false);
+            bestTimePanel.SetActive(false);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(true);
         }
     }
 

@@ -103,6 +103,18 @@ MonoBehaviour:
     m_Key: High_Q
     m_Metadata:
       m_Items: []
+  - m_Id: 7539844495364096
+    m_Key: Normal Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7539922702356480
+    m_Key: Challenge Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7741719559720960
+    m_Key: Time's Up
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

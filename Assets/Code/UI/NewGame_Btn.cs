@@ -2,18 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Localization.Settings;
 
 public class NewGame_Btn : MonoBehaviour
 {
-    public Transform RubicCube;
+    public Button challenge_Btn;
     public void onClick()
     {
-        GlobalVariable.gameState = GlobalVariable.gameState_inGame;
-        Button newGame_Btn = gameObject.GetComponent<Button>();
-        RubicCube.GetComponent<CubeControl>().resolveMoves = 0;
-        RubicCube.GetComponentInChildren<CubeControl>().Moves.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") +
-    RubicCube.GetComponentInChildren<CubeControl>().resolveMoves;
-        RubicCube.GetComponent<CubeControl>().shuffleCube(newGame_Btn);
+        GlobalVariable.gameState = GlobalVariable.gameState_NewGameMenu;
+
+        string json = PlayerPrefs.GetString("Bests");
+        if (json == "")
+        {
+            challenge_Btn.interactable = false;
+        }
+        else
+        {
+            challenge_Btn.interactable = true;
+        }
+
     }
 }

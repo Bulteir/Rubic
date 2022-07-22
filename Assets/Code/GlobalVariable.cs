@@ -14,5 +14,7 @@ public static class GlobalVariable
     public const int gameState_SettingsMenu = 3;
     public const int gameState_BestTimesMenu = 4;
     public const int gameState_Victory = 5;
+    public const int gameState_NewGameMenu = 6;
+    public const int gameState_TimesUp = 7;
 
 }
