@@ -19,7 +19,7 @@ public class CubeControl : MonoBehaviour
 
     float targetAngle = 90f;
     public float rotateSpeed = 1f;
-    bool isRotateStarted = false;
+    public bool isRotateStarted = false;
     Transform selectedCubeGroupJoint;
     float rotateAngle;
     float acceleration = 1;
@@ -456,9 +456,137 @@ public class CubeControl : MonoBehaviour
             }
 
             bestTimeLabel.text = bestTimesString;
+        }
+    }
 
+    public void rotateForKociemba(string solution)
+    {
+        StartCoroutine(rotateHelperForKociemba(solution));
+    }
+
+    IEnumerator rotateHelperForKociemba(string solution)
+    {
+        if (isRotateStarted == false)
+        {
+            string[] resolveSteps = solution.Split(" ");
+
+            foreach (var item in resolveSteps)
+            {
+                bool clockwise = true;
+                if (item != "")
+                {
+                    if (item.Contains("F"))
+                        selectedCubeGroupJoint = frontGroupJoint.transform;
+                    else if (item.Contains("B"))
+                        selectedCubeGroupJoint = backGroupJoint.transform;
+                    else if (item.Contains("R"))
+                        selectedCubeGroupJoint = rightGroupJoint.transform;
+                    else if (item.Contains("L"))
+                        selectedCubeGroupJoint = leftGroupJoint.transform;
+                    else if (item.Contains("U"))
+                        selectedCubeGroupJoint = topGroupJoint.transform;
+                    else if (item.Contains("D"))
+                        selectedCubeGroupJoint = bottomGroupJoint.transform;
+
+                    if (item.Contains("\'"))
+                        clockwise = false;
+                    else if (item.Contains("2"))
+                    {
+                        rotateHelpersHelperForKociemba(clockwise);
+                        yield return new WaitUntil(() => isRotateStarted == false);
+                    }
+
+                    rotateHelpersHelperForKociemba(clockwise);
+                    yield return new WaitUntil(() => isRotateStarted == false);
+                }
+            }
+        }
+    }
+
+    void rotateHelpersHelperForKociemba(bool rotateClockWise)
+    {
+        List<GameObject> insideCubesFromGroup = selectedCubeGroupJoint.GetComponent<RotationGroupDetect>().insideCubes;
+
+        foreach (var cube in insideCubesFromGroup)
+        {
+            cube.transform.parent = selectedCubeGroupJoint.transform.parent;
+        }
+        selectedAxis = selectedCubeGroupJoint.GetComponent<RotationGroupDetect>().rotationAxisForKociembaResolver;
+
+        if (rotateClockWise == false)
+            selectedAxis = Vector3.Scale(selectedAxis, new Vector3(-1, -1, -1));
+
+        startRotate();
+    }
+
+    public void rotateAndFixCubeForKociembaStart(List<Transform> faceDetectors, Transform solve_Btn)
+    {
+        StartCoroutine(rotateAndFixCubeForKociemba(faceDetectors, solve_Btn));
+    }
+
+    IEnumerator rotateAndFixCubeForKociemba(List<Transform> faceDetectors, Transform solve_Btn)
+    {
+        #region doðru çözüm için gerekli olan front face orta küpü düzeltiyoruz.
+        while (faceDetectors[2].GetChild(4).GetComponent<SearchStringHelper>().SearchString != "F")
+        {
+            if (faceDetectors[2].GetChild(4).GetComponent<SearchStringHelper>().SearchString == "L")//frontFace orta küp detektörü
+            {
+                selectedCubeGroupJoint = horizontalMiddleGroupJoint.transform;
+                rotateHelpersHelperForKociemba(true);
+            }
+            else if (faceDetectors[2].GetChild(4).GetComponent<SearchStringHelper>().SearchString == "R")
+            {
+                selectedCubeGroupJoint = horizontalMiddleGroupJoint.transform;
+                rotateHelpersHelperForKociemba(false);
+            }
+            else if (faceDetectors[2].GetChild(4).GetComponent<SearchStringHelper>().SearchString == "U")
+            {
+                selectedCubeGroupJoint = verticalMiddleGroupJoint.transform;
+                rotateHelpersHelperForKociemba(true);
+            }
+            else if (faceDetectors[2].GetChild(4).GetComponent<SearchStringHelper>().SearchString == "D")
+            {
+                selectedCubeGroupJoint = verticalMiddleGroupJoint.transform;
+                rotateHelpersHelperForKociemba(false);
+            }
+            else if (faceDetectors[2].GetChild(4).GetComponent<SearchStringHelper>().SearchString == "B")
+            {
+                selectedCubeGroupJoint = horizontalMiddleGroupJoint.transform;
+                rotateHelpersHelperForKociemba(true);
+                yield return new WaitUntil(() => isRotateStarted == false);
+                rotateHelpersHelperForKociemba(true);
+            }
+            yield return new WaitUntil(() => isRotateStarted == false);
+        }
+        #endregion
+
+        #region doðru çözüm için gerekli olan front face orta küpü düzeltiyoruz.
+        while (faceDetectors[0].GetChild(4).GetComponent<SearchStringHelper>().SearchString != "U")
+        {
+            if (faceDetectors[0].GetChild(4).GetComponent<SearchStringHelper>().SearchString == "R")
+            {
+                selectedCubeGroupJoint = frontMiddleGroupJoint.transform;
+                rotateHelpersHelperForKociemba(true);
+            }
+            else if (faceDetectors[0].GetChild(4).GetComponent<SearchStringHelper>().SearchString == "L")
+            {
+                selectedCubeGroupJoint = frontMiddleGroupJoint.transform;
+                rotateHelpersHelperForKociemba(false);
+            }
+            else if (faceDetectors[0].GetChild(4).GetComponent<SearchStringHelper>().SearchString == "D")
+            {
+                selectedCubeGroupJoint = frontMiddleGroupJoint.transform;
+                rotateHelpersHelperForKociemba(true);
+                yield return new WaitUntil(() => isRotateStarted == false);
+                rotateHelpersHelperForKociemba(true);
+            }
+            yield return new WaitUntil(() => isRotateStarted == false);
         }
 
+        string solution = solve_Btn.GetComponent<Solve_Btn>().getSolution();
+
+        #endregion
+        rotateForKociemba(solution);
     }
 
 }

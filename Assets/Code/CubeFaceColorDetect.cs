@@ -10,9 +10,8 @@ public class CubeFaceColorDetect : MonoBehaviour
     public int yellow;
     public int white;
     public int orange;
-
+    
     List<Transform> faceColors;
-
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +58,16 @@ public class CubeFaceColorDetect : MonoBehaviour
             else if (other.transform.name.Contains("Orange"))
                 orange--;
         }
+    }
+
+    public string getSearchSubStrings()
+    {
+        string searchString = "";
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            searchString += transform.GetChild(i).GetComponent<SearchStringHelper>().SearchString;
+        }
+        return searchString;
     }
 
 }

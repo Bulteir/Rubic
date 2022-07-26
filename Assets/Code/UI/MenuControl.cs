@@ -4,6 +4,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.Localization.Settings;
+using Kociemba;
+using System.Threading.Tasks;
 
 public class MenuControl : MonoBehaviour
 {
@@ -18,6 +20,9 @@ public class MenuControl : MonoBehaviour
     public GameObject newGameMenuPanel;
     public GameObject timesUpUI;
 
+    public Button solve_Btn;
+    bool isLoadedKociembaTables = false;
+
     void Awake()
     {
         string selectedLangVal = PlayerPrefs.GetString("SelectedLang");
@@ -31,6 +36,21 @@ public class MenuControl : MonoBehaviour
         {
             QualitySettings.SetQualityLevel(int.Parse(selectedQualityVal));
         }
+      
+        Task.Factory.StartNew(() => LoadKociembaTables());
+    }
+
+    //Kociemba tablolarýný oyun baþladýðý anda paralele bir thread kullanarak oluþturuyoruz. Bu sayede vakit hem kazannýlýyor hem de oyun takýlmýyor. 
+    private async void LoadKociembaTables()
+    {
+        await Task.Delay(0);
+        string info = "";
+        string searchString = "UUUUUULLLURRURRURRFFFFFFFFFRRRDDDDDDLLDLLDLLDBBBBBBBBB";
+        //bir kere pcde table'lalrý oluþturup apk içinde telefona attým. Bu sayede süreden aþýrý tasarruf saðladým. Telefonda kullanýlabilir hale geldi.
+        //Þuan builTable:True olsa da tablo oluþturmuyor. Yorum satýrýna aldým.
+        string solution = SearchRunTime.solution(searchString, out info,buildTables:true);
+        Debug.Log("Kociemba tables is ready");
+        isLoadedKociembaTables = true;
     }
 
     void Start()
@@ -136,6 +156,9 @@ public class MenuControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isLoadedKociembaTables && solve_Btn.interactable == false)
+            solve_Btn.interactable = true;
+
         if (GlobalVariable.gameState == GlobalVariable.gameState_MainMenu && mainMenuPanel.activeSelf == false)
         {
             inGameUIPanel.SetActive(false);

@@ -6,6 +6,7 @@ public class RotationGroupDetect : MonoBehaviour
 {
     public List<GameObject> insideCubes;
     public Vector3 rotationAxis;
+    public Vector3 rotationAxisForKociembaResolver;
 
     private void Start()
     {
