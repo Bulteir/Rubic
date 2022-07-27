@@ -6,7 +6,7 @@ using UnityEngine.Localization.Settings;
 
 public class Counter : MonoBehaviour
 {
-    TMP_Text text;
+    public TMP_Text text;
     float count;
     float miliSecond;
     int second;
@@ -18,16 +18,10 @@ public class Counter : MonoBehaviour
 
     public GameObject rubicCube;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        text = gameObject.GetComponent<TMP_Text>();
-    }
-
     // Update is called once per frame
     void Update()
     {
-        if (isStarted == true && GlobalVariable.gameState == GlobalVariable.gameState_inGame && isChallengeModeActive == false)
+        if (isStarted == true && isChallengeModeActive == false && GlobalVariable.gameState == GlobalVariable.gameState_inGame)
         {
             count += Time.deltaTime;
             miliSecond = (count % 1) * 100;

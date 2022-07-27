@@ -115,6 +115,10 @@ MonoBehaviour:
     m_Key: Time's Up
     m_Metadata:
       m_Items: []
+  - m_Id: 9379223668969472
+    m_Key: Hint
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

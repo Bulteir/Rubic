@@ -46,6 +46,9 @@ public class CubeControl : MonoBehaviour
     public int resolveMoves;
     public TMP_Text Moves;
 
+    bool isShuffleRotation = false;
+    public Button solve_Btn;
+
     void Start()
     {
         rubicCubeItems = new List<Transform>();
@@ -133,7 +136,6 @@ public class CubeControl : MonoBehaviour
                                 break;
                             }
                         }
-
                     }
                 }
             }
@@ -166,7 +168,8 @@ public class CubeControl : MonoBehaviour
                 isRotateStarted = false;
                 firstTouchedCube = null;
                 secondTouchedCube = null;
-                isResolveCube();
+                if(isShuffleRotation == false)
+                    isResolveCube();
             }
         }
     }
@@ -188,6 +191,9 @@ public class CubeControl : MonoBehaviour
     }
     IEnumerator shuffleCoroutine(Button button)
     {
+        isShuffleRotation = true;
+        if (solve_Btn.interactable == true)
+            GlobalVariable.solve_Btn_isTouchable = false;
         float firstRotationSpeed = rotateSpeed;
         rotateSpeed = firstRotationSpeed + 5;
         while (shuffleStep < shuffleStepCount)
@@ -230,7 +236,11 @@ public class CubeControl : MonoBehaviour
         }
         shuffleStep = 0;
         rotateSpeed = firstRotationSpeed;
-        button.interactable = true;
+        if(button != solve_Btn)
+            button.interactable = true;
+        if (solve_Btn.interactable == false)
+            GlobalVariable.solve_Btn_isTouchable = true;
+        isShuffleRotation = false;
         counter.GetComponent<Counter>().resetCounter();
         counter.GetComponent<Counter>().startCounter();
     }
@@ -330,6 +340,7 @@ public class CubeControl : MonoBehaviour
         if (resolvedFace == 6)
         {
             VictoryCelebration();
+            GlobalVariable.solve_Btn_isTouchable = true;
         }
     }
 
@@ -379,7 +390,7 @@ public class CubeControl : MonoBehaviour
 
             BestTimesStruct newBestTime = new BestTimesStruct();
             newBestTime.moves = moves;
-            newBestTime.time = time;
+            newBestTime.time = time.Replace("\n", "");
             newBestTime.RecordTime = System.DateTime.Today.ToShortDateString();
             bestTimesList.Add(newBestTime);
 
@@ -438,7 +449,7 @@ public class CubeControl : MonoBehaviour
 
             for (int i = 0; i < bestTimes.Count; i++)
             {
-                bestTimesString += (i + 1) + "- " + bestTimes[i].time + "\t\t" + bestTimes[i].moves + "\t" + bestTimes[i].RecordTime + "\n";
+                bestTimesString += (i + 1) + "- " + bestTimes[i].time.Replace("\n", "") + "\t\t" + bestTimes[i].moves + "\t" + bestTimes[i].RecordTime + "\n";
             }
 
             for (int i = bestTimes.Count; i < 5; i++)
@@ -582,10 +593,9 @@ public class CubeControl : MonoBehaviour
             }
             yield return new WaitUntil(() => isRotateStarted == false);
         }
+        #endregion
 
         string solution = solve_Btn.GetComponent<Solve_Btn>().getSolution();
-
-        #endregion
         rotateForKociemba(solution);
     }
 

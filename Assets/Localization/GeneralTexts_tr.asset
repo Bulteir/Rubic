@@ -118,6 +118,10 @@ MonoBehaviour:
     m_Localized: "S\xFCre Doldu!"
     m_Metadata:
       m_Items: []
+  - m_Id: 9379223668969472
+    m_Localized: "\u0130pucu"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

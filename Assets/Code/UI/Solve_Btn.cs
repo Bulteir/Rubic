@@ -18,8 +18,11 @@ public class Solve_Btn : MonoBehaviour
     //küpümüzün down=> yeþil
     //search string yazýlma sýrasý Up,Right,Front,Down,Left,Back
 
+    
     public void onClick()
     {
+        GlobalVariable.solve_Btn_isTouchable = false;
+
         string solution = getSolution();
         if (solution.Contains("Error"))
         {
@@ -37,14 +40,13 @@ public class Solve_Btn : MonoBehaviour
         rubicCube.GetComponent<CubeControl>().shuffleStepCount = 1;
         while (solution.Contains("Error"))
         {
-            Debug.Log("shuffle");
             rubicCube.GetComponent<CubeControl>().shuffleCube(solve_Btn);
             yield return new WaitUntil(() => rubicCube.GetComponent<CubeControl>().isRotateStarted == false);
 
             solution = getSolution();
         }
         rubicCube.GetComponent<CubeControl>().shuffleStepCount = orjinalShuffleCount;
-
+        
         rubicCube.GetComponent<CubeControl>().rotateAndFixCubeForKociembaStart(faceDetectors, transform);
     }
 
