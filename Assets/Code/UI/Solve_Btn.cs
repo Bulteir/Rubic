@@ -18,15 +18,15 @@ public class Solve_Btn : MonoBehaviour
     //küpümüzün down=> yeþil
     //search string yazýlma sýrasý Up,Right,Front,Down,Left,Back
 
-    
     public void onClick()
     {
-        GlobalVariable.solve_Btn_isTouchable = false;
+        solve_Btn.interactable = false;
 
         string solution = getSolution();
         if (solution.Contains("Error"))
         {
-            StartCoroutine(shuffleOneStep(solution));
+            PlayerPrefs.DeleteKey("Solution");
+            StartCoroutine(shuffleOneStepForEveryTouch(solution));
         }
         else
         {
@@ -34,20 +34,15 @@ public class Solve_Btn : MonoBehaviour
         }
     }
 
-    IEnumerator shuffleOneStep(string solution)
+    IEnumerator shuffleOneStepForEveryTouch(string solution)
     {
         int orjinalShuffleCount = rubicCube.GetComponent<CubeControl>().shuffleStepCount;
         rubicCube.GetComponent<CubeControl>().shuffleStepCount = 1;
-        while (solution.Contains("Error"))
-        {
-            rubicCube.GetComponent<CubeControl>().shuffleCube(solve_Btn);
-            yield return new WaitUntil(() => rubicCube.GetComponent<CubeControl>().isRotateStarted == false);
-
-            solution = getSolution();
-        }
+        rubicCube.GetComponent<CubeControl>().shuffleCube(solve_Btn);
+        yield return new WaitUntil(() => rubicCube.GetComponent<CubeControl>().isRotateStarted == false);
+        solution = getSolution();
+        solve_Btn.interactable = true;
         rubicCube.GetComponent<CubeControl>().shuffleStepCount = orjinalShuffleCount;
-        
-        rubicCube.GetComponent<CubeControl>().rotateAndFixCubeForKociembaStart(faceDetectors, transform);
     }
 
     public string getSolution()

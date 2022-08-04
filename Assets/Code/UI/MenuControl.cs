@@ -51,7 +51,6 @@ public class MenuControl : MonoBehaviour
         string solution = SearchRunTime.solution(searchString, out info,buildTables:true);
         Debug.Log("Kociemba tables is ready");
         isLoadedKociembaTables = true;
-        GlobalVariable.solve_Btn_isTouchable = true;
     }
 
     void Start()
@@ -157,13 +156,9 @@ public class MenuControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isLoadedKociembaTables && GlobalVariable.solve_Btn_isTouchable == true)
+        if (isLoadedKociembaTables)
         {
             solve_Btn.interactable = true;
-        }
-        else if (isLoadedKociembaTables && GlobalVariable.solve_Btn_isTouchable == false)
-        {
-            solve_Btn.interactable = false;
         }
 
         if (GlobalVariable.gameState == GlobalVariable.gameState_MainMenu && mainMenuPanel.activeSelf == false)

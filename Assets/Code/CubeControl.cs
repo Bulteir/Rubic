@@ -131,6 +131,9 @@ public class CubeControl : MonoBehaviour
 
                                 selectedAxis = new Vector3(selectedAxis.x * Mathf.Sign(cross.x) * Mathf.Sign(selectedCubeGroupJoint.right.x), selectedAxis.y * Mathf.Sign(cross.y) * Mathf.Sign(selectedCubeGroupJoint.up.y), selectedAxis.z * Mathf.Sign(cross.z) * Mathf.Sign(selectedCubeGroupJoint.forward.z));
 
+                                //oluþturulan çözüm stringi sonrasýnda elle müdahalle olduðunda yeniden çözüm stringi hesaplatmak için
+                                PlayerPrefs.DeleteKey("Solution");
+
                                 startRotate();
 
                                 break;
@@ -168,7 +171,7 @@ public class CubeControl : MonoBehaviour
                 isRotateStarted = false;
                 firstTouchedCube = null;
                 secondTouchedCube = null;
-                if(isShuffleRotation == false)
+                if (isShuffleRotation == false)
                     isResolveCube();
             }
         }
@@ -192,10 +195,11 @@ public class CubeControl : MonoBehaviour
     IEnumerator shuffleCoroutine(Button button)
     {
         isShuffleRotation = true;
-        if (solve_Btn.interactable == true)
-            GlobalVariable.solve_Btn_isTouchable = false;
+
         float firstRotationSpeed = rotateSpeed;
-        rotateSpeed = firstRotationSpeed + 5;
+        if (button != solve_Btn)
+            rotateSpeed = firstRotationSpeed + 5;
+
         while (shuffleStep < shuffleStepCount)
         {
             if (isRotateStarted == false)
@@ -236,10 +240,8 @@ public class CubeControl : MonoBehaviour
         }
         shuffleStep = 0;
         rotateSpeed = firstRotationSpeed;
-        if(button != solve_Btn)
+        if (button != solve_Btn)
             button.interactable = true;
-        if (solve_Btn.interactable == false)
-            GlobalVariable.solve_Btn_isTouchable = true;
         isShuffleRotation = false;
         counter.GetComponent<Counter>().resetCounter();
         counter.GetComponent<Counter>().startCounter();
@@ -340,7 +342,6 @@ public class CubeControl : MonoBehaviour
         if (resolvedFace == 6)
         {
             VictoryCelebration();
-            GlobalVariable.solve_Btn_isTouchable = true;
         }
     }
 
@@ -472,36 +473,35 @@ public class CubeControl : MonoBehaviour
 
     public void rotateForKociemba(string solution)
     {
-        StartCoroutine(rotateHelperForKociemba(solution));
+        StartCoroutine(rotateHelperForKociembaForEveryTouch(solution));
     }
 
-    IEnumerator rotateHelperForKociemba(string solution)
+    IEnumerator rotateHelperForKociembaForEveryTouch(string solution)
     {
         if (isRotateStarted == false)
         {
             string[] resolveSteps = solution.Split(" ");
-
-            foreach (var item in resolveSteps)
+            bool clockwise = true;
+            if (resolveSteps.Length > 0)
             {
-                bool clockwise = true;
-                if (item != "")
+                if (resolveSteps[0] != "")
                 {
-                    if (item.Contains("F"))
+                    if (resolveSteps[0].Contains("F"))
                         selectedCubeGroupJoint = frontGroupJoint.transform;
-                    else if (item.Contains("B"))
+                    else if (resolveSteps[0].Contains("B"))
                         selectedCubeGroupJoint = backGroupJoint.transform;
-                    else if (item.Contains("R"))
+                    else if (resolveSteps[0].Contains("R"))
                         selectedCubeGroupJoint = rightGroupJoint.transform;
-                    else if (item.Contains("L"))
+                    else if (resolveSteps[0].Contains("L"))
                         selectedCubeGroupJoint = leftGroupJoint.transform;
-                    else if (item.Contains("U"))
+                    else if (resolveSteps[0].Contains("U"))
                         selectedCubeGroupJoint = topGroupJoint.transform;
-                    else if (item.Contains("D"))
+                    else if (resolveSteps[0].Contains("D"))
                         selectedCubeGroupJoint = bottomGroupJoint.transform;
 
-                    if (item.Contains("\'"))
+                    if (resolveSteps[0].Contains("\'"))
                         clockwise = false;
-                    else if (item.Contains("2"))
+                    else if (resolveSteps[0].Contains("2"))
                     {
                         rotateHelpersHelperForKociemba(clockwise);
                         yield return new WaitUntil(() => isRotateStarted == false);
@@ -509,6 +509,15 @@ public class CubeControl : MonoBehaviour
 
                     rotateHelpersHelperForKociemba(clockwise);
                     yield return new WaitUntil(() => isRotateStarted == false);
+
+                    string solutionString = "";
+                    for (int i = 1; i < resolveSteps.Length; i++)
+                    {
+                        solutionString += resolveSteps[i] + " ";
+                    }
+
+                    PlayerPrefs.SetString("Solution", solutionString);
+                    PlayerPrefs.Save();
                 }
             }
         }
@@ -532,13 +541,13 @@ public class CubeControl : MonoBehaviour
 
     public void rotateAndFixCubeForKociembaStart(List<Transform> faceDetectors, Transform solve_Btn)
     {
-        StartCoroutine(rotateAndFixCubeForKociemba(faceDetectors, solve_Btn));
+        StartCoroutine(rotateAndFixCubeForKociembaForEveryTouch(faceDetectors, solve_Btn));
     }
 
-    IEnumerator rotateAndFixCubeForKociemba(List<Transform> faceDetectors, Transform solve_Btn)
+    IEnumerator rotateAndFixCubeForKociembaForEveryTouch(List<Transform> faceDetectors, Transform solve_Btn)
     {
-        #region doðru çözüm için gerekli olan front face orta küpü düzeltiyoruz.
-        while (faceDetectors[2].GetChild(4).GetComponent<SearchStringHelper>().SearchString != "F")
+        yield return new WaitUntil(() => isRotateStarted == false);
+        if (faceDetectors[2].GetChild(4).GetComponent<SearchStringHelper>().SearchString != "F") //doðru çözüm için gerekli olan front face orta küpü düzeltiyoruz.
         {
             if (faceDetectors[2].GetChild(4).GetComponent<SearchStringHelper>().SearchString == "L")//frontFace orta küp detektörü
             {
@@ -567,12 +576,8 @@ public class CubeControl : MonoBehaviour
                 yield return new WaitUntil(() => isRotateStarted == false);
                 rotateHelpersHelperForKociemba(true);
             }
-            yield return new WaitUntil(() => isRotateStarted == false);
         }
-        #endregion
-
-        #region doðru çözüm için gerekli olan front face orta küpü düzeltiyoruz.
-        while (faceDetectors[0].GetChild(4).GetComponent<SearchStringHelper>().SearchString != "U")
+        else if (faceDetectors[0].GetChild(4).GetComponent<SearchStringHelper>().SearchString != "U") //doðru çözüm için gerekli olan top face orta küpü düzeltiyoruz.
         {
             if (faceDetectors[0].GetChild(4).GetComponent<SearchStringHelper>().SearchString == "R")
             {
@@ -591,12 +596,20 @@ public class CubeControl : MonoBehaviour
                 yield return new WaitUntil(() => isRotateStarted == false);
                 rotateHelpersHelperForKociemba(true);
             }
-            yield return new WaitUntil(() => isRotateStarted == false);
         }
-        #endregion
+        else
+        {
+            string solution = PlayerPrefs.GetString("Solution");
+            if (solution == "")
+            {
+                solution = solve_Btn.GetComponent<Solve_Btn>().getSolution();
+                PlayerPrefs.SetString("Solution", solution);
+                PlayerPrefs.Save();
+            }
 
-        string solution = solve_Btn.GetComponent<Solve_Btn>().getSolution();
-        rotateForKociemba(solution);
+            rotateForKociemba(solution);
+        }
     }
+
 
 }
