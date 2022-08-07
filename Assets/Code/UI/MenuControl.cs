@@ -21,7 +21,8 @@ public class MenuControl : MonoBehaviour
     public GameObject timesUpUI;
 
     public Button solve_Btn;
-    bool isLoadedKociembaTables = false;
+    public bool isLoadedKociembaTables = false;
+    bool isSolveButtonActiveFirstTime = false;
 
     void Awake()
     {
@@ -44,6 +45,7 @@ public class MenuControl : MonoBehaviour
     private async void LoadKociembaTables()
     {
         await Task.Delay(0);
+        isSolveButtonActiveFirstTime = false;
         string info = "";
         string searchString = "UUUUUULLLURRURRURRFFFFFFFFFRRRDDDDDDLLDLLDLLDBBBBBBBBB";
         //bir kere pcde table'lalrý oluþturup apk içinde telefona attým. Bu sayede süreden aþýrý tasarruf saðladým. Telefonda kullanýlabilir hale geldi.
@@ -156,9 +158,10 @@ public class MenuControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isLoadedKociembaTables)
+        if (isLoadedKociembaTables == true && isSolveButtonActiveFirstTime == false)
         {
             solve_Btn.interactable = true;
+            isSolveButtonActiveFirstTime = true;
         }
 
         if (GlobalVariable.gameState == GlobalVariable.gameState_MainMenu && mainMenuPanel.activeSelf == false)

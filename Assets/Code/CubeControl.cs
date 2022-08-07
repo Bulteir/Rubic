@@ -48,6 +48,7 @@ public class CubeControl : MonoBehaviour
 
     bool isShuffleRotation = false;
     public Button solve_Btn;
+    public GameObject GeneralControls;
 
     void Start()
     {
@@ -173,6 +174,15 @@ public class CubeControl : MonoBehaviour
                 secondTouchedCube = null;
                 if (isShuffleRotation == false)
                     isResolveCube();
+                if (solve_Btn.GetComponent<Solve_Btn>().isSolvingStepActive && solve_Btn.GetComponent<Solve_Btn>().isDoubleSolvingStep == false)
+                {
+                    solve_Btn.interactable = true;
+                    solve_Btn.GetComponent<Solve_Btn>().isSolvingStepActive = false;
+                }
+                else
+                {
+                    solve_Btn.GetComponent<Solve_Btn>().isDoubleSolvingStep = false;
+                }
             }
         }
     }
@@ -242,9 +252,9 @@ public class CubeControl : MonoBehaviour
         rotateSpeed = firstRotationSpeed;
         if (button != solve_Btn)
             button.interactable = true;
-        isShuffleRotation = false;
         counter.GetComponent<Counter>().resetCounter();
         counter.GetComponent<Counter>().startCounter();
+        isShuffleRotation = false;
     }
 
     public void resetRubicCube()
@@ -300,6 +310,12 @@ public class CubeControl : MonoBehaviour
                 }
             }
         }
+
+        if (GeneralControls.GetComponent<MenuControl>().isLoadedKociembaTables == true)
+        {
+            solve_Btn.interactable = true;
+        }
+        
         StartCoroutine(restartSuffleHelper(button));
     }
 
@@ -504,6 +520,7 @@ public class CubeControl : MonoBehaviour
                     else if (resolveSteps[0].Contains("2"))
                     {
                         rotateHelpersHelperForKociemba(clockwise);
+                        solve_Btn.GetComponent<Solve_Btn>().isDoubleSolvingStep = true;
                         yield return new WaitUntil(() => isRotateStarted == false);
                     }
 
@@ -536,7 +553,7 @@ public class CubeControl : MonoBehaviour
         if (rotateClockWise == false)
             selectedAxis = Vector3.Scale(selectedAxis, new Vector3(-1, -1, -1));
 
-        startRotate();
+        startRotate(); 
     }
 
     public void rotateAndFixCubeForKociembaStart(List<Transform> faceDetectors, Transform solve_Btn)
@@ -544,8 +561,9 @@ public class CubeControl : MonoBehaviour
         StartCoroutine(rotateAndFixCubeForKociembaForEveryTouch(faceDetectors, solve_Btn));
     }
 
-    IEnumerator rotateAndFixCubeForKociembaForEveryTouch(List<Transform> faceDetectors, Transform solve_Btn)
+    IEnumerator rotateAndFixCubeForKociembaForEveryTouch(List<Transform> faceDetectors, Transform solveBtn)
     {
+        solve_Btn.interactable = false;
         yield return new WaitUntil(() => isRotateStarted == false);
         if (faceDetectors[2].GetChild(4).GetComponent<SearchStringHelper>().SearchString != "F") //doðru çözüm için gerekli olan front face orta küpü düzeltiyoruz.
         {
@@ -606,10 +624,7 @@ public class CubeControl : MonoBehaviour
                 PlayerPrefs.SetString("Solution", solution);
                 PlayerPrefs.Save();
             }
-
             rotateForKociemba(solution);
         }
     }
-
-
 }

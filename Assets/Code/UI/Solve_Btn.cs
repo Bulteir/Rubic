@@ -9,6 +9,8 @@ public class Solve_Btn : MonoBehaviour
     public List<Transform> faceDetectors;
     public Transform rubicCube;
     public Button solve_Btn;
+    public bool isSolvingStepActive = false;
+    public bool isDoubleSolvingStep = false;
 
     //küpümüzün up=> beyaz
     //küpümüzün front=> mavi
@@ -21,16 +23,19 @@ public class Solve_Btn : MonoBehaviour
     public void onClick()
     {
         solve_Btn.interactable = false;
-
-        string solution = getSolution();
-        if (solution.Contains("Error"))
+        isSolvingStepActive = true;
+        if (rubicCube.GetComponent<CubeControl>().isRotateStarted == false)
         {
-            PlayerPrefs.DeleteKey("Solution");
-            StartCoroutine(shuffleOneStepForEveryTouch(solution));
-        }
-        else
-        {
-            rubicCube.GetComponent<CubeControl>().rotateAndFixCubeForKociembaStart(faceDetectors, transform);
+            string solution = getSolution();
+            if (solution.Contains("Error"))
+            {
+                PlayerPrefs.DeleteKey("Solution");
+                StartCoroutine(shuffleOneStepForEveryTouch(solution));
+            }
+            else
+            {
+                rubicCube.GetComponent<CubeControl>().rotateAndFixCubeForKociembaStart(faceDetectors, transform);
+            }
         }
     }
 
@@ -41,7 +46,6 @@ public class Solve_Btn : MonoBehaviour
         rubicCube.GetComponent<CubeControl>().shuffleCube(solve_Btn);
         yield return new WaitUntil(() => rubicCube.GetComponent<CubeControl>().isRotateStarted == false);
         solution = getSolution();
-        solve_Btn.interactable = true;
         rubicCube.GetComponent<CubeControl>().shuffleStepCount = orjinalShuffleCount;
     }
 

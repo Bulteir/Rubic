@@ -10194,6 +10194,7 @@ MonoBehaviour:
   newGameMenuPanel: {fileID: 1770661323}
   timesUpUI: {fileID: 1868612331}
   solve_Btn: {fileID: 427636002}
+  isLoadedKociembaTables: 0
 --- !u!1 &1403027111
 GameObject:
   m_ObjectHideFlags: 0
@@ -20544,6 +20545,7 @@ MonoBehaviour:
   resolveMoves: 0
   Moves: {fileID: 2259247}
   solve_Btn: {fileID: 427636002}
+  GeneralControls: {fileID: 1375183382}
 --- !u!1 &6628803816552915608
 GameObject:
   m_ObjectHideFlags: 0
