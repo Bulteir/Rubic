@@ -178,6 +178,7 @@ public class CubeControl : MonoBehaviour
                 {
                     solve_Btn.interactable = true;
                     solve_Btn.GetComponent<Solve_Btn>().isSolvingStepActive = false;
+                    solve_Btn.GetComponent<Solve_Btn>().SetSolvingQuantityBtnInteractable(true);
                 }
                 else
                 {
@@ -205,10 +206,16 @@ public class CubeControl : MonoBehaviour
     IEnumerator shuffleCoroutine(Button button)
     {
         isShuffleRotation = true;
-
+   
         float firstRotationSpeed = rotateSpeed;
         if (button != solve_Btn)
             rotateSpeed = firstRotationSpeed + 5;
+
+        if (shuffleStepCount > 1 && GeneralControls.GetComponent<MenuControl>().isLoadedKociembaTables)//yeni oyun ve restarttan gelen shuffle'dýr
+        {
+            solve_Btn.interactable = false;
+            solve_Btn.GetComponent<Solve_Btn>().SetSolvingQuantityBtnInteractable(false);
+        }
 
         while (shuffleStep < shuffleStepCount)
         {
@@ -254,6 +261,11 @@ public class CubeControl : MonoBehaviour
             button.interactable = true;
         counter.GetComponent<Counter>().resetCounter();
         counter.GetComponent<Counter>().startCounter();
+        if (shuffleStepCount > 1 && GeneralControls.GetComponent<MenuControl>().isLoadedKociembaTables)//yeni oyun ve restarttan gelen shuffle'dýr
+        {
+            solve_Btn.interactable = true;
+            solve_Btn.GetComponent<Solve_Btn>().SetSolvingQuantityBtnInteractable(true);
+        }
         isShuffleRotation = false;
     }
 
@@ -314,8 +326,9 @@ public class CubeControl : MonoBehaviour
         if (GeneralControls.GetComponent<MenuControl>().isLoadedKociembaTables == true)
         {
             solve_Btn.interactable = true;
+            solve_Btn.GetComponent<Solve_Btn>().SetSolvingQuantityBtnInteractable(true);
         }
-        
+
         StartCoroutine(restartSuffleHelper(button));
     }
 
@@ -563,7 +576,6 @@ public class CubeControl : MonoBehaviour
 
     IEnumerator rotateAndFixCubeForKociembaForEveryTouch(List<Transform> faceDetectors, Transform solveBtn)
     {
-        solve_Btn.interactable = false;
         yield return new WaitUntil(() => isRotateStarted == false);
         if (faceDetectors[2].GetChild(4).GetComponent<SearchStringHelper>().SearchString != "F") //doðru çözüm için gerekli olan front face orta küpü düzeltiyoruz.
         {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Kociemba;
 using UnityEngine.UI;
+using TMPro;
 
 public class Solve_Btn : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Solve_Btn : MonoBehaviour
     public Button solve_Btn;
     public bool isSolvingStepActive = false;
     public bool isDoubleSolvingStep = false;
+    public Button SolvingQuantity_Btn;
 
     //küpümüzün up=> beyaz
     //küpümüzün front=> mavi
@@ -22,10 +24,17 @@ public class Solve_Btn : MonoBehaviour
 
     public void onClick()
     {
-        solve_Btn.interactable = false;
-        isSolvingStepActive = true;
-        if (rubicCube.GetComponent<CubeControl>().isRotateStarted == false)
+        int solvingQuantity = PlayerPrefs.GetInt("SolvingQuantity");
+        if (rubicCube.GetComponent<CubeControl>().isRotateStarted == false && solvingQuantity > 0)
         {
+            solve_Btn.interactable = false;
+            isSolvingStepActive = true;
+            SetSolvingQuantityBtnInteractable(false);
+            solvingQuantity--;
+            PlayerPrefs.SetInt("SolvingQuantity", solvingQuantity);
+            PlayerPrefs.Save();
+            SolvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = solvingQuantity.ToString();
+
             string solution = getSolution();
             if (solution.Contains("Error"))
             {
@@ -36,6 +45,14 @@ public class Solve_Btn : MonoBehaviour
             {
                 rubicCube.GetComponent<CubeControl>().rotateAndFixCubeForKociembaStart(faceDetectors, transform);
             }
+        }
+        else if (solvingQuantity == 0)
+        {
+            Debug.Log("Reklam");
+            solvingQuantity = GlobalVariable.defaultSolvingQuantity;
+            PlayerPrefs.SetInt("SolvingQuantity", solvingQuantity);
+            PlayerPrefs.Save();
+            SolvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = solvingQuantity.ToString();
         }
     }
 
@@ -60,5 +77,17 @@ public class Solve_Btn : MonoBehaviour
         string info = "";
         string solution = SearchRunTime.solution(searchString, out info);
         return solution;
+    }
+
+    public void SetSolvingQuantityBtnInteractable (bool interactable)
+    {
+        if(interactable)
+        {
+            SolvingQuantity_Btn.image.color = new Color(255f/255f, 0, 0, 255f/255f);
+        }
+        else
+        {
+            SolvingQuantity_Btn.image.color = new Color(255f / 255f, 0, 0, 128f / 255f);
+        }
     }
 }

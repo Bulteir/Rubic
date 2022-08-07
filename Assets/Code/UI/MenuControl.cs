@@ -37,7 +37,7 @@ public class MenuControl : MonoBehaviour
         {
             QualitySettings.SetQualityLevel(int.Parse(selectedQualityVal));
         }
-      
+
         Task.Factory.StartNew(() => LoadKociembaTables());
     }
 
@@ -162,6 +162,7 @@ public class MenuControl : MonoBehaviour
         {
             solve_Btn.interactable = true;
             isSolveButtonActiveFirstTime = true;
+            solve_Btn.GetComponent<Solve_Btn>().SetSolvingQuantityBtnInteractable(true);
         }
 
         if (GlobalVariable.gameState == GlobalVariable.gameState_MainMenu && mainMenuPanel.activeSelf == false)
