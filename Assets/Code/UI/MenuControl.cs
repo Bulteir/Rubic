@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 
 public class MenuControl : MonoBehaviour
 {
-
     public GameObject mainMenuPanel;
     public GameObject pauseMenuPanel;
     public GameObject bestTimePanel;
@@ -23,6 +22,7 @@ public class MenuControl : MonoBehaviour
     public Button solve_Btn;
     public bool isLoadedKociembaTables = false;
     bool isSolveButtonActiveFirstTime = false;
+    public GameObject rubicCube;
 
     void Awake()
     {
@@ -159,7 +159,7 @@ public class MenuControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isLoadedKociembaTables == true && isSolveButtonActiveFirstTime == false)
+        if (isLoadedKociembaTables == true && isSolveButtonActiveFirstTime == false && rubicCube.GetComponent<CubeControl>().isShuffleRotation == false)
         {
             solve_Btn.interactable = true;
             isSolveButtonActiveFirstTime = true;

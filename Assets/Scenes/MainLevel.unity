@@ -6798,6 +6798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rubicCube: {fileID: 6286836113854766334}
   counter: {fileID: 521512488}
+  solvingQuantity_Btn: {fileID: 433802343}
 --- !u!114 &825512581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10326,6 +10327,7 @@ MonoBehaviour:
   timesUpUI: {fileID: 1868612331}
   solve_Btn: {fileID: 427636002}
   isLoadedKociembaTables: 0
+  rubicCube: {fileID: 6286836113854766334}
 --- !u!114 &1375183387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20990,6 +20992,7 @@ MonoBehaviour:
   victoryMessage: {fileID: 71135563}
   resolveMoves: 0
   Moves: {fileID: 2259247}
+  isShuffleRotation: 0
   solve_Btn: {fileID: 427636002}
   GeneralControls: {fileID: 1375183382}
 --- !u!1 &6628803816552915608

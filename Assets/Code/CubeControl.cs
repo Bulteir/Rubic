@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Localization.Settings;
+using System;
 
 public class CubeControl : MonoBehaviour
 {
@@ -46,7 +47,7 @@ public class CubeControl : MonoBehaviour
     public int resolveMoves;
     public TMP_Text Moves;
 
-    bool isShuffleRotation = false;
+    public bool isShuffleRotation = false;
     public Button solve_Btn;
     public GameObject GeneralControls;
 
@@ -258,9 +259,12 @@ public class CubeControl : MonoBehaviour
         shuffleStep = 0;
         rotateSpeed = firstRotationSpeed;
         if (button != solve_Btn)
+        {
             button.interactable = true;
-        counter.GetComponent<Counter>().resetCounter();
-        counter.GetComponent<Counter>().startCounter();
+            counter.GetComponent<Counter>().resetCounter();
+            counter.GetComponent<Counter>().startCounter();
+        }
+
         if (shuffleStepCount > 1 && GeneralControls.GetComponent<MenuControl>().isLoadedKociembaTables)//yeni oyun ve restarttan gelen shuffle'dýr
         {
             solve_Btn.interactable = true;
@@ -386,12 +390,22 @@ public class CubeControl : MonoBehaviour
             item.GetComponent<BoxCollider>().isTrigger = false;
         }
 
-        victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
-            LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
-            LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
-        GlobalVariable.gameState = GlobalVariable.gameState_Victory;
+        if(counter.GetComponent<Counter>().isChallengeModeActive)
+        {
+            string json = PlayerPrefs.GetString("Bests");
+            List<CubeControl.BestTimesStruct> bestTimesList = new List<CubeControl.BestTimesStruct>();
+            bestTimesList = JsonUtility.FromJson<CubeControl.JsonableListWrapper<CubeControl.BestTimesStruct>>(json).list;
 
-        SaveBestTime(counter.GetComponent<TMP_Text>().text, resolveMoves);
+            string bestTime = counter.GetComponent<Counter>().GetDifferenceTwoTimes(bestTimesList[0].time, counter.GetComponent<TMP_Text>().text);
+
+            SaveBestTime(bestTime, resolveMoves);
+            GlobalVariable.gameState = GlobalVariable.gameState_Victory;
+        }
+        else
+        {
+            SaveBestTime(counter.GetComponent<TMP_Text>().text, resolveMoves);
+            GlobalVariable.gameState = GlobalVariable.gameState_Victory;
+        }
     }
 
     [System.Serializable]
@@ -432,7 +446,7 @@ public class CubeControl : MonoBehaviour
                 {
                     victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
                         LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "New Best Time") + "\n" +
-                        LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
+                        LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + time + " " +
                         LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
                 }
                 bestTimesList.RemoveAt(5);
@@ -441,7 +455,7 @@ public class CubeControl : MonoBehaviour
             {
                 victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
                        LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "New Best Time") + "\n" +
-                       LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
+                       LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + time + " " +
                        LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
             }
         }
@@ -455,7 +469,7 @@ public class CubeControl : MonoBehaviour
 
             victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
                 LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "New Best Time") + "\n" +
-                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
+                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + time + " " +
                 LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
         }
 

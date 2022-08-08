@@ -66,7 +66,6 @@ public class Counter : MonoBehaviour
 
     public void resetCounter()
     {
-
         if (isChallengeModeActive == false)
         {
             count = 0;
@@ -104,5 +103,43 @@ public class Counter : MonoBehaviour
             hour = int.Parse(parsedTime[parsedTime.Length - 4]);
             count += hour * 3600;
         }
+    }
+
+    float GetTotalDeltaTimeFromBestTime(string time)
+    {
+        string[] parsedTime = time.Split(":");
+
+        int _miliSecond = int.Parse(parsedTime[parsedTime.Length - 1]);
+        int _second = int.Parse(parsedTime[parsedTime.Length - 2]);
+        int _minute = int.Parse(parsedTime[parsedTime.Length - 3]);
+
+        float _count = (_miliSecond / 100f) + (_second) + (_minute * 60);
+
+        if (parsedTime.Length > 3)
+        {
+            int _hour = int.Parse(parsedTime[parsedTime.Length - 4]);
+            _count += _hour * 3600;
+        }
+        return _count;
+    }
+
+    public string GetDifferenceTwoTimes(string time1, string time2)
+    {
+        string result = "";
+        float time1DeltaTime = GetTotalDeltaTimeFromBestTime(time1);
+        float time2DeltaTime = GetTotalDeltaTimeFromBestTime(time2);
+
+        float _count = time1DeltaTime - time2DeltaTime;
+        float _miliSecond = (_count % 1) * 100;
+        int _second = (int)_count % 60;
+        int _minute = ((int)_count / 60) % 60;
+        int _hour = ((int)_count / 3600) % 24;
+
+        if (hour == 0)
+            result = string.Format("{0:00}:{1:00}:{2:00}", _minute, _second, _miliSecond);
+        else
+            result = string.Format("{0:00}:{1:00}:{2:00}:{3:00}", _hour, _minute, _second, _miliSecond);
+
+        return result;
     }
 }

@@ -18,8 +18,6 @@ public class Solve_Btn : MonoBehaviour
     public Button SolvingQuantity_Btn;
     public GameObject GeneralControls;
 
-    //private RewardedAd rewardedAd;
-
     //küpümüzün up=> beyaz
     //küpümüzün front=> mavi
     //küpümüzün left=> sarý
@@ -28,19 +26,8 @@ public class Solve_Btn : MonoBehaviour
     //küpümüzün down=> yeþil
     //search string yazýlma sýrasý Up,Right,Front,Down,Left,Back
 
-    //void Start()
-    //{
-    //    rewardedAd = new RewardedAd("ca-app-pub-3940256099942544/5224354917");//test app id
-
-    //    AdRequest request = new AdRequest.Builder().Build();
-
-    //    rewardedAd.LoadAd(request);
-
-    //}
-
     public void onClick()
     {
-
         int solvingQuantity = PlayerPrefs.GetInt("SolvingQuantity");
 
         if (rubicCube.GetComponent<CubeControl>().isRotateStarted == false && solvingQuantity > 0)
