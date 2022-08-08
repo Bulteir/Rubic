@@ -4,6 +4,9 @@ using UnityEngine;
 using Kociemba;
 using UnityEngine.UI;
 using TMPro;
+//using GoogleMobileAds.Api;
+//using GoogleMobileAds.Common;
+
 
 public class Solve_Btn : MonoBehaviour
 {
@@ -13,6 +16,9 @@ public class Solve_Btn : MonoBehaviour
     public bool isSolvingStepActive = false;
     public bool isDoubleSolvingStep = false;
     public Button SolvingQuantity_Btn;
+    public GameObject GeneralControls;
+
+    //private RewardedAd rewardedAd;
 
     //küpümüzün up=> beyaz
     //küpümüzün front=> mavi
@@ -22,9 +28,21 @@ public class Solve_Btn : MonoBehaviour
     //küpümüzün down=> yeþil
     //search string yazýlma sýrasý Up,Right,Front,Down,Left,Back
 
+    //void Start()
+    //{
+    //    rewardedAd = new RewardedAd("ca-app-pub-3940256099942544/5224354917");//test app id
+
+    //    AdRequest request = new AdRequest.Builder().Build();
+
+    //    rewardedAd.LoadAd(request);
+
+    //}
+
     public void onClick()
     {
+
         int solvingQuantity = PlayerPrefs.GetInt("SolvingQuantity");
+
         if (rubicCube.GetComponent<CubeControl>().isRotateStarted == false && solvingQuantity > 0)
         {
             solve_Btn.interactable = false;
@@ -45,14 +63,14 @@ public class Solve_Btn : MonoBehaviour
             {
                 rubicCube.GetComponent<CubeControl>().rotateAndFixCubeForKociembaStart(faceDetectors, transform);
             }
+
+            if (solvingQuantity == 1)//son bir tane hak kalýnca reklam istiyoruz.
+                GeneralControls.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
+
         }
         else if (solvingQuantity == 0)
         {
-            Debug.Log("Reklam");
-            solvingQuantity = GlobalVariable.defaultSolvingQuantity;
-            PlayerPrefs.SetInt("SolvingQuantity", solvingQuantity);
-            PlayerPrefs.Save();
-            SolvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = solvingQuantity.ToString();
+            GeneralControls.GetComponent<AdMobController>().ShowRewardedAd();//Reklamý gösteriyoruz.
         }
     }
 
@@ -89,5 +107,14 @@ public class Solve_Btn : MonoBehaviour
         {
             SolvingQuantity_Btn.image.color = new Color(255f / 255f, 0, 0, 128f / 255f);
         }
+    }
+
+    public void SuccesedRewardedAd()
+    {
+        int solvingQuantity = PlayerPrefs.GetInt("SolvingQuantity");
+        solvingQuantity = GlobalVariable.defaultSolvingQuantity;
+        PlayerPrefs.SetInt("SolvingQuantity", solvingQuantity);
+        PlayerPrefs.Save();
+        SolvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = solvingQuantity.ToString();
     }
 }

@@ -17,4 +17,7 @@ public static class GlobalVariable
     public const int gameState_NewGameMenu = 6;
     public const int gameState_TimesUp = 7;
     public const int defaultSolvingQuantity = 5;
+    //test idler
+    //public const string AndroidAdUnitId = "ca-app-pub-3940256099942544/5224354917";
+    //public const string IphoneAdUnitId = "ca-app-pub-3940256099942544/1712485313";
 }
