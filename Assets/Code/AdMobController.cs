@@ -34,11 +34,11 @@ public class AdMobController : MonoBehaviour
         List<String> deviceIds = new List<String>() { AdRequest.TestDeviceSimulator };
 
         // Add some test device IDs (replace with your own device IDs).
-        #if UNITY_IPHONE
-                deviceIds.Add("96e23e80653bb28980d3f40beb58915c");
-        #elif UNITY_ANDROID
-                deviceIds.Add("f1ae2d48-7ac3-4039-a3b9-25498efb7db1");
-        #endif
+        //#if UNITY_IPHONE
+        //        deviceIds.Add("96e23e80653bb28980d3f40beb58915c");
+        //#elif UNITY_ANDROID
+        //        deviceIds.Add("75EF8D155528C04DACBBA6F36F433035");
+        //#endif
 
         // Configure TagForChildDirectedTreatment and test device IDs.
         RequestConfiguration requestConfiguration =
@@ -69,6 +69,7 @@ public class AdMobController : MonoBehaviour
             RequestAndLoadRewardedAd();
         });
     }
+
     #endregion
 
     #region HELPER METHODS
@@ -89,21 +90,15 @@ public class AdMobController : MonoBehaviour
         PrintStatus("Requesting Banner ad.");
 
         // These ad units are configured to always serve test ads.
-        string adUnitId = "";
-        if (Application.platform == RuntimePlatform.WindowsEditor)
-        {
-            adUnitId = "unused";
-        }
-        else if (Application.platform == RuntimePlatform.Android)
-        {
-            adUnitId = "";
-        }
-        else if (Application.platform == RuntimePlatform.IPhonePlayer)
-        {
-            adUnitId = "";
-        }
-        else
-            adUnitId = "unexpected_platform";
+        #if UNITY_EDITOR
+                string adUnitId = "unused";
+        #elif UNITY_ANDROID
+                string adUnitId = "";
+        #elif UNITY_IPHONE
+                string adUnitId = "";
+        #else
+                string adUnitId = "unexpected_platform";
+        #endif
 
         // Clean up banner before reusing
         if (bannerView != null)
@@ -164,21 +159,15 @@ public class AdMobController : MonoBehaviour
     {
         PrintStatus("Requesting Interstitial ad.");
 
-        string adUnitId = "";
-        if (Application.platform == RuntimePlatform.WindowsEditor)
-        {
-            adUnitId = "unused";
-        }
-        else if (Application.platform == RuntimePlatform.Android)
-        {
-            adUnitId = "";
-        }
-        else if (Application.platform == RuntimePlatform.IPhonePlayer)
-        {
-            adUnitId = "";
-        }
-        else
-            adUnitId = "unexpected_platform";
+        #if UNITY_EDITOR
+                string adUnitId = "unused";
+        #elif UNITY_ANDROID
+                string adUnitId = "";
+        #elif UNITY_IPHONE
+                string adUnitId = "";
+        #else
+                string adUnitId = "unexpected_platform";
+        #endif
 
         // Clean up interstitial before using it
         if (interstitialAd != null)
@@ -257,22 +246,15 @@ public class AdMobController : MonoBehaviour
     public void RequestAndLoadRewardedAd()
     {
         PrintStatus("Requesting Rewarded ad.");
-
-        string adUnitId = "";
-        if (Application.platform == RuntimePlatform.WindowsEditor)
-        {
-            adUnitId = "unused";
-        }
-        else if (Application.platform == RuntimePlatform.Android)
-        {
-            adUnitId = "ca-app-pub-3475441178822227/9510898940";
-        }
-        else if(Application.platform == RuntimePlatform.IPhonePlayer)
-        {
-            adUnitId = "";
-        }
-        else
-            adUnitId = "unexpected_platform";
+        #if UNITY_EDITOR
+                string adUnitId = "unused";
+        #elif UNITY_ANDROID
+                        string adUnitId = "ca-app-pub-3475441178822227/9510898940";
+        #elif UNITY_IPHONE
+                        string adUnitId = "";
+        #else
+                        string adUnitId = "unexpected_platform";
+        #endif
 
         // create new rewarded ad instance
         rewardedAd = new RewardedAd(adUnitId);
@@ -342,21 +324,15 @@ public class AdMobController : MonoBehaviour
         PrintStatus("Requesting Rewarded Interstitial ad.");
 
         // These ad units are configured to always serve test ads.
-        string adUnitId = "";
-        if (Application.platform == RuntimePlatform.WindowsEditor)
-        {
-            adUnitId = "unused";
-        }
-        else if (Application.platform == RuntimePlatform.Android)
-        {
-            adUnitId = "";
-        }
-        else if (Application.platform == RuntimePlatform.IPhonePlayer)
-        {
-            adUnitId = "";
-        }
-        else
-            adUnitId = "unexpected_platform";
+        #if UNITY_EDITOR
+                string adUnitId = "unused";
+        #elif UNITY_ANDROID
+                    string adUnitId = "";
+        #elif UNITY_IPHONE
+                    string adUnitId = "";
+        #else
+                    string adUnitId = "unexpected_platform";
+        #endif
 
         // Create an interstitial.
         RewardedInterstitialAd.LoadAd(adUnitId, CreateAdRequest(), (rewardedInterstitialAd, error) =>
@@ -448,22 +424,15 @@ public class AdMobController : MonoBehaviour
     public void RequestAndLoadAppOpenAd()
     {
         PrintStatus("Requesting App Open ad.");
-        string adUnitId = "";
-        if (Application.platform == RuntimePlatform.WindowsEditor)
-        {
-            adUnitId = "unused";
-        }
-        else if (Application.platform == RuntimePlatform.Android)
-        {
-            adUnitId = "";
-        }
-        else if (Application.platform == RuntimePlatform.IPhonePlayer)
-        {
-            adUnitId = "";
-        }
-        else
-            adUnitId = "unexpected_platform";
-
+        #if UNITY_EDITOR
+                string adUnitId = "unused";
+        #elif UNITY_ANDROID
+                string adUnitId = "";
+        #elif UNITY_IPHONE
+                string adUnitId = "";
+        #else
+                string adUnitId = "unexpected_platform";
+        #endif
         // create new app open ad instance
         AppOpenAd.LoadAd(adUnitId,
                          ScreenOrientation.Portrait,
@@ -566,6 +535,7 @@ public class AdMobController : MonoBehaviour
     private void PrintStatus(string message)
     {
         Debug.Log(message);
+        statusText.text = message;
         MobileAdsEventExecutor.ExecuteInUpdate(() =>
         {
             statusText.text = message;

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectSettings>
-  <projectSetting name="com.google.external-dependency-managerAnalyticsEnabled" value="False" />
+  <projectSetting name="com.google.external-dependency-managerAnalyticsCookie" value="4d1d41ea61a2445ea1bb29bf63e3faeb" />
+  <projectSetting name="com.google.external-dependency-managerAnalyticsEnabled" value="True" />
   <projectSetting name="Google.IOSResolver.VerboseLoggingEnabled" value="False" />
   <projectSetting name="Google.PackageManagerResolver.Enable" value="True" />
   <projectSetting name="Google.PackageManagerResolver.PromptToAddRegistries" value="True" />
@@ -10,7 +11,7 @@
   <projectSetting name="GooglePlayServices.AndroidPackageInstallationEnabled" value="True" />
   <projectSetting name="GooglePlayServices.AutoResolutionDisabledWarning" value="True" />
   <projectSetting name="GooglePlayServices.AutoResolveOnBuild" value="True" />
-  <projectSetting name="GooglePlayServices.AutoResolverEnabled" value="True" />
+  <projectSetting name="GooglePlayServices.AutoResolverEnabled" value="False" />
   <projectSetting name="GooglePlayServices.ExplodeAars" value="True" />
   <projectSetting name="GooglePlayServices.LocalMavenRepoDir" value="Assets/GeneratedLocalRepo" />
   <projectSetting name="GooglePlayServices.PatchAndroidManifest" value="True" />
@@ -18,6 +19,6 @@
   <projectSetting name="GooglePlayServices.PatchPropertiesTemplateGradle" value="True" />
   <projectSetting name="GooglePlayServices.PromptBeforeAutoResolution" value="False" />
   <projectSetting name="GooglePlayServices.UseGradleDaemon" value="False" />
-  <projectSetting name="GooglePlayServices.UseJetifier" value="False" />
+  <projectSetting name="GooglePlayServices.UseJetifier" value="True" />
   <projectSetting name="GooglePlayServices.VerboseLogging" value="False" />
 </projectSettings>
