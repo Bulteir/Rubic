@@ -9,6 +9,7 @@ public class TimesUpUI_Restart_Btn : MonoBehaviour
     public GameObject rubicCube;
     public GameObject counter;
     public Button solvingQuantity_Btn;
+    public GameObject GeneralControls;
 
     public void onClick()
     {
@@ -18,5 +19,6 @@ public class TimesUpUI_Restart_Btn : MonoBehaviour
         PlayerPrefs.SetInt("SolvingQuantity", GlobalVariable.defaultSolvingQuantity);
         PlayerPrefs.Save();
         solvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = GlobalVariable.defaultSolvingQuantity.ToString();
+        GeneralControls.GetComponent<AdMobController>().ShowInterstitialAd();
     }
 }

@@ -8,6 +8,7 @@ public class NewGameMenu_ChallengeMode_Btn : MonoBehaviour
 {
     public Transform RubicCube;
     public Transform Counter;
+    public GameObject GeneralControls;
 
     public void onClick()
     {
@@ -25,5 +26,6 @@ public class NewGameMenu_ChallengeMode_Btn : MonoBehaviour
         Counter.GetComponent<Counter>().text.text = bestTimesList[0].time;
         
         RubicCube.GetComponent<CubeControl>().shuffleCube(challengeMode_Btn);
+        GeneralControls.GetComponent<AdMobController>().RequestAndLoadInterstitialAd();
     }
 }

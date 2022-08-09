@@ -23,7 +23,6 @@ public class AdMobController : MonoBehaviour
     public UnityEvent OnAdFailedToShowEvent;
     public UnityEvent OnUserEarnedRewardEvent;
     public UnityEvent OnAdClosedEvent;
-    public TMPro.TMP_Text statusText;
 
     #region UNITY MONOBEHAVIOR METHODS
 
@@ -64,9 +63,8 @@ public class AdMobController : MonoBehaviour
         // the next Update() loop.
         MobileAdsEventExecutor.ExecuteInUpdate(() =>
         {
-            statusText.text = "Initialization complete.";
-            //RequestBannerAd();
-            RequestAndLoadRewardedAd();
+            //statusText.text = "Initialization complete.";
+            //RequestAndLoadRewardedAd();
         });
     }
 
@@ -162,11 +160,11 @@ public class AdMobController : MonoBehaviour
         #if UNITY_EDITOR
                 string adUnitId = "unused";
         #elif UNITY_ANDROID
-                string adUnitId = "";
+                        string adUnitId = "ca-app-pub-3475441178822227/6017913476";
         #elif UNITY_IPHONE
-                string adUnitId = "";
+                        string adUnitId = "";
         #else
-                string adUnitId = "unexpected_platform";
+                        string adUnitId = "unexpected_platform";
         #endif
 
         // Clean up interstitial before using it
@@ -197,6 +195,7 @@ public class AdMobController : MonoBehaviour
         {
             PrintStatus("Interstitial ad closed.");
             OnAdClosedEvent.Invoke();
+            RequestAndLoadInterstitialAd();
         };
         interstitialAd.OnAdDidRecordImpression += (sender, args) =>
         {
@@ -535,10 +534,10 @@ public class AdMobController : MonoBehaviour
     private void PrintStatus(string message)
     {
         Debug.Log(message);
-        statusText.text = message;
+        //statusText.text = message;
         MobileAdsEventExecutor.ExecuteInUpdate(() =>
         {
-            statusText.text = message;
+            //statusText.text = message;
         });
     }
 
