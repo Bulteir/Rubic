@@ -57,6 +57,7 @@ public class Solve_Btn : MonoBehaviour
         }
         else if (solvingQuantity == 0)
         {
+            GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_solve;
             GeneralControls.GetComponent<AdMobController>().ShowRewardedAd();//Reklamý gösteriyoruz.
         }
     }
@@ -98,10 +99,13 @@ public class Solve_Btn : MonoBehaviour
 
     public void SuccesedRewardedAd()
     {
-        int solvingQuantity = PlayerPrefs.GetInt("SolvingQuantity");
-        solvingQuantity = GlobalVariable.defaultSolvingQuantity;
-        PlayerPrefs.SetInt("SolvingQuantity", solvingQuantity);
-        PlayerPrefs.Save();
-        SolvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = solvingQuantity.ToString();
+        if(GlobalVariable.rewardAdState == GlobalVariable.rewardAdState_solve)
+        {
+            int solvingQuantity = PlayerPrefs.GetInt("SolvingQuantity");
+            solvingQuantity = GlobalVariable.defaultSolvingQuantity;
+            PlayerPrefs.SetInt("SolvingQuantity", solvingQuantity);
+            PlayerPrefs.Save();
+            SolvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = solvingQuantity.ToString();
+        }
     }
 }

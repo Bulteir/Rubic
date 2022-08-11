@@ -39,6 +39,23 @@ public class MenuControl : MonoBehaviour
         }
 
         Task.Factory.StartNew(() => LoadKociembaTables());
+
+        string veryEasyJokerQuantity = PlayerPrefs.GetString("VeryEasyJoker");
+        if (veryEasyJokerQuantity == "")
+        {
+            veryEasyJokerQuantity = "1";
+            PlayerPrefs.SetString("VeryEasyJoker", veryEasyJokerQuantity);
+            PlayerPrefs.Save();
+        }
+
+        string easyJokerQuantity = PlayerPrefs.GetString("EasyJoker");
+        if (easyJokerQuantity == "")
+        {
+            easyJokerQuantity = "3";
+            PlayerPrefs.SetString("EasyJoker", easyJokerQuantity);
+            PlayerPrefs.Save();
+        }
+
     }
 
     //Kociemba tablolarýný oyun baþladýðý anda paralele bir thread kullanarak oluþturuyoruz. Bu sayede vakit hem kazannýlýyor hem de oyun takýlmýyor. 
@@ -57,7 +74,6 @@ public class MenuControl : MonoBehaviour
 
     void Start()
     {
-
         if (GlobalVariable.gameState == GlobalVariable.gameState_MainMenu)
         {
             inGameUIPanel.SetActive(false);

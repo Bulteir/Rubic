@@ -399,11 +399,16 @@ public class CubeControl : MonoBehaviour
 
             string bestTime = counter.GetComponent<Counter>().GetDifferenceTwoTimes(bestTimesList[0].time, counter.GetComponent<TMP_Text>().text);
 
+
             SaveBestTime(bestTime, resolveMoves);
             GlobalVariable.gameState = GlobalVariable.gameState_Victory;
         }
         else
         {
+            victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
+                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
+                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
+
             SaveBestTime(counter.GetComponent<TMP_Text>().text, resolveMoves);
             GlobalVariable.gameState = GlobalVariable.gameState_Victory;
         }

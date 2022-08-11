@@ -17,7 +17,13 @@ public static class GlobalVariable
     public const int gameState_NewGameMenu = 6;
     public const int gameState_TimesUp = 7;
     public const int defaultSolvingQuantity = 5;
-    //test idler
-    //public const string AndroidAdUnitId = "ca-app-pub-3940256099942544/5224354917";
-    //public const string IphoneAdUnitId = "ca-app-pub-3940256099942544/1712485313";
+
+    public static int rewardAdState = rewardAdState_idle;
+    public const int rewardAdState_idle = 0;
+    public const int rewardAdState_solve = 1;
+    public const int rewardAdState_veryEasyJoker = 2;
+    public const int rewardAdState_easyJoker = 3;
+
+    public const int defaultShuffleStepCount = 20;
+
 }

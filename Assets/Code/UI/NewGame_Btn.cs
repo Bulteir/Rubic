@@ -8,6 +8,11 @@ public class NewGame_Btn : MonoBehaviour
 {
     public Button challenge_Btn;
     public Button solvingQuantity_Btn;
+    public GameObject generalControls;
+    public Button veryEasyJokerQuantity_Btn;
+    public Button easyJokerQuantity_Btn;
+    public Transform rubicCube;
+
     public void onClick()
     {
         GlobalVariable.gameState = GlobalVariable.gameState_NewGameMenu;
@@ -23,6 +28,15 @@ public class NewGame_Btn : MonoBehaviour
         }
         PlayerPrefs.SetInt("SolvingQuantity", GlobalVariable.defaultSolvingQuantity);
         PlayerPrefs.Save();
+        rubicCube.GetComponent<CubeControl>().shuffleStepCount = GlobalVariable.defaultShuffleStepCount;
+        generalControls.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
         solvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = GlobalVariable.defaultSolvingQuantity.ToString();
+        
+        veryEasyJokerQuantity_Btn.GetComponentInChildren<TMP_Text>().text = PlayerPrefs.GetString("VeryEasyJoker");
+        easyJokerQuantity_Btn.GetComponentInChildren<TMP_Text>().text = PlayerPrefs.GetString("EasyJoker");
+        GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_idle;
+        easyJokerQuantity_Btn.transform.parent.GetComponent<Button>().interactable = true;
+        veryEasyJokerQuantity_Btn.transform.parent.GetComponent<Button>().interactable = true;
+
     }
 }
