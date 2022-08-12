@@ -3362,7 +3362,7 @@ GameObject:
   - component: {fileID: 443474171}
   m_Layer: 2
   m_Name: backFaceDetect
-  m_TagString: Untagged
+  m_TagString: FaceDetect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6093,7 +6093,7 @@ GameObject:
   - component: {fileID: 695555136}
   m_Layer: 2
   m_Name: downFaceDetect
-  m_TagString: Untagged
+  m_TagString: FaceDetect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11919,7 +11919,7 @@ GameObject:
   - component: {fileID: 1488057193}
   m_Layer: 2
   m_Name: frontFaceDetect
-  m_TagString: Untagged
+  m_TagString: FaceDetect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13223,7 +13223,7 @@ GameObject:
   - component: {fileID: 1610800013}
   m_Layer: 2
   m_Name: leftFaceDetect
-  m_TagString: Untagged
+  m_TagString: FaceDetect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14454,7 +14454,7 @@ GameObject:
   - component: {fileID: 1824958564}
   m_Layer: 2
   m_Name: topFaceDetect
-  m_TagString: Untagged
+  m_TagString: FaceDetect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16786,7 +16786,7 @@ GameObject:
   - component: {fileID: 2109203794}
   m_Layer: 2
   m_Name: rightFaceDetect
-  m_TagString: Untagged
+  m_TagString: FaceDetect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

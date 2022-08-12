@@ -7,7 +7,7 @@ public static class GlobalVariable
     public const string groupJoint = "GroupJoint";
     public const string touchHelper = "TouchHelper";
     public const string resolveHelper = "ResolveHelper";
-    //public const string ui = "UI";
+    public const string FaceDetect = "FaceDetect";
 
     public static int gameState = gameState_MainMenu;
     public const int gameState_inGame = 0;

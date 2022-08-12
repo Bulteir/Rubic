@@ -64,7 +64,7 @@ public class CubeControl : MonoBehaviour
 
     private void Update()
     {
-        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
+        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && rubicCube.GetComponent<CubeCameraControl>().isTiltRubicCube == false)
             cubeSwipe();
     }
 

@@ -8,7 +8,7 @@ TagManager:
   - GroupJoint
   - TouchHelper
   - ResolveHelper
-  - UI
+  - FaceDetect
   layers:
   - Default
   - TransparentFX
