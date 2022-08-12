@@ -19,7 +19,8 @@ public class CubeCameraControl : MonoBehaviour
     bool dragRubicCube = false;
     bool toucedRubicCube = false;
     public bool isEnteredPauseButton = false;
-    
+    public bool isEnteredSolveButton = false;
+
     private void Update()
     {
 
@@ -43,7 +44,7 @@ public class CubeCameraControl : MonoBehaviour
                         dragRubicCube = true;
                         toucedRubicCube = false;
                         isEnteredPauseButton = false;
-
+                        isEnteredSolveButton = false;
                     }
                     else
                     {
@@ -56,6 +57,7 @@ public class CubeCameraControl : MonoBehaviour
                 else
                 {
                     isEnteredPauseButton = false;
+                    isEnteredSolveButton = false;
 
                     dragRubicCube = true;
                     toucedRubicCube = false;
@@ -80,7 +82,7 @@ public class CubeCameraControl : MonoBehaviour
             }
         }
 
-        if (dragRubicCube == false && toucedRubicCube == false && isEnteredPauseButton == false)
+        if (dragRubicCube == false && toucedRubicCube == false && isEnteredPauseButton == false && isEnteredSolveButton == false)
         {
             if (Mathf.Abs(lastXRotationVal) > 0.01f)
             {

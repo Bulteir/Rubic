@@ -28,6 +28,8 @@ public class Solve_Btn : MonoBehaviour
 
     public void onClick()
     {
+        rubicCube.parent.GetComponent<CubeCameraControl>().isEnteredSolveButton = true;
+
         int solvingQuantity = PlayerPrefs.GetInt("SolvingQuantity");
 
         if (rubicCube.GetComponent<CubeControl>().isRotateStarted == false && solvingQuantity > 0)

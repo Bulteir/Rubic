@@ -275,6 +275,9 @@ public class CubeControl : MonoBehaviour
 
     public void resetRubicCube()
     {
+        StopAllCoroutines();
+        isRotateStarted = false;
+        shuffleStep = 0;
         foreach (var item in rubicCubeItems)
         {
             //herbir rubik küp elementinin position ve rotation'ýnýný en baþtaki haline getiriyoruz 

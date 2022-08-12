@@ -2857,7 +2857,7 @@ GameObject:
   - component: {fileID: 427636005}
   m_Layer: 5
   m_Name: Solve
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3018,7 +3018,7 @@ GameObject:
   - component: {fileID: 433154546}
   m_Layer: 5
   m_Name: Pause
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22149,6 +22149,7 @@ MonoBehaviour:
   lerpVal: 5
   lerpValMobile: 5
   isEnteredPauseButton: 0
+  isEnteredSolveButton: 0
 --- !u!65 &6628803816678767238
 BoxCollider:
   m_ObjectHideFlags: 0
