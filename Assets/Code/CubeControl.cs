@@ -26,7 +26,6 @@ public class CubeControl : MonoBehaviour
     float acceleration = 1;
     Vector3 selectedAxis;
     Transform firstTouchedCube;
-    Transform secondTouchedCube;
 
     public GameObject rubicCube;
 
@@ -51,6 +50,9 @@ public class CubeControl : MonoBehaviour
     public Button solve_Btn;
     public GameObject GeneralControls;
 
+    public float smoothCubeSwipeSensivity = 0.5f;
+    bool isSmoothCubeSwipeMoved = false;
+
     void Start()
     {
         rubicCubeItems = new List<Transform>();
@@ -74,6 +76,7 @@ public class CubeControl : MonoBehaviour
             Rotate();
     }
 
+    Vector3 firstTouchedPoint;
     void cubeSwipe()
     {
         if (Input.touchCount > 0)
@@ -89,66 +92,148 @@ public class CubeControl : MonoBehaviour
                     if (raycastHit.collider.gameObject.tag == GlobalVariable.rubicCube)
                     {
                         firstTouchedCube = raycastHit.collider.transform;
+                        firstTouchedPoint = raycastHit.point;
+                        isSmoothCubeSwipeMoved = false;
                     }
                 }
             }
 
-            if (touch.phase == TouchPhase.Moved && isRotateStarted == false && firstTouchedCube != null && secondTouchedCube == null)
-            {
-                RaycastHit raycastHit;
-                Ray ray = Camera.main.ScreenPointToRay(touch.position);
-                if (Physics.Raycast(ray, out raycastHit, Mathf.Infinity))
-                {
-                    if ((raycastHit.collider.gameObject.tag == GlobalVariable.rubicCube || raycastHit.collider.gameObject.tag == GlobalVariable.touchHelper) && raycastHit.collider.transform != firstTouchedCube)
-                    {
-                        secondTouchedCube = raycastHit.collider.transform;
-                        List<Transform> firstCubeGroupJoints = firstTouchedCube.GetComponent<ClickDetect>().groupJoints;
-                        List<Transform> secondCubeGroupJoints = secondTouchedCube.GetComponent<ClickDetect>().groupJoints;
-
-                        foreach (var joint in firstCubeGroupJoints)
-                        {
-
-                            if (secondCubeGroupJoints.Contains(joint) && Vector3.Scale(joint.GetComponent<RotationGroupDetect>().rotationAxis, rubicCube.transform.InverseTransformVector(raycastHit.normal)) == Vector3.zero)
-                            {
-                                selectedCubeGroupJoint = joint;
-
-                                List<GameObject> insideCubesFromGroup = selectedCubeGroupJoint.GetComponent<RotationGroupDetect>().insideCubes;
-
-                                foreach (var cube in insideCubesFromGroup)
-                                {
-                                    cube.transform.parent = selectedCubeGroupJoint.transform.parent;
-                                }
-                                selectedAxis = joint.GetComponent<RotationGroupDetect>().rotationAxis;
-
-                                Debug.DrawLine(firstTouchedCube.position, secondTouchedCube.position, Color.magenta, 5f, false);
-
-                                #region vector3.cross 2 vetörün çapraz çarpýmý. Yani iki vectöre dik olan 3. bir vectör döner. Bu sayede dönme yönünü bulabiliyoruz.
-
-                                //iki vectöre inen dikmeyi bulunca selectedcube'in ekseni ile karþýlaþtýrýp çarpýyoruz. Bu sayede zýt yönlüler ise tersi yönde dönüþ saðlanýyor.
-                                Vector3 side1 = firstTouchedCube.position - selectedCubeGroupJoint.position;
-                                Vector3 side2 = secondTouchedCube.position - selectedCubeGroupJoint.position;
-
-                                Vector3 cross = Vector3.Cross(side1, side2).normalized;
-                                #endregion
-
-                                selectedAxis = new Vector3(selectedAxis.x * Mathf.Sign(cross.x) * Mathf.Sign(selectedCubeGroupJoint.right.x), selectedAxis.y * Mathf.Sign(cross.y) * Mathf.Sign(selectedCubeGroupJoint.up.y), selectedAxis.z * Mathf.Sign(cross.z) * Mathf.Sign(selectedCubeGroupJoint.forward.z));
-
-                                //oluþturulan çözüm stringi sonrasýnda elle müdahalle olduðunda yeniden çözüm stringi hesaplatmak için
-                                PlayerPrefs.DeleteKey("Solution");
-
-                                startRotate();
-
-                                break;
-                            }
-                        }
-                    }
-                }
-            }
+            SmootCubeSwipe(touch);
 
             if (touch.phase == TouchPhase.Ended)
             {
                 firstTouchedCube = null;
-                secondTouchedCube = null;
+                isSmoothCubeSwipeMoved = false;
+            }
+        }
+    }
+
+    void SmootCubeSwipe(Touch touch)
+    {
+        if (touch.phase == TouchPhase.Moved && isRotateStarted == false && firstTouchedCube != null && isSmoothCubeSwipeMoved == false)
+        {
+            RaycastHit raycastHit;
+            Ray ray = Camera.main.ScreenPointToRay(touch.position);
+            if (Physics.Raycast(ray, out raycastHit, Mathf.Infinity))
+            {
+                if ((raycastHit.collider.gameObject.tag == GlobalVariable.rubicCube || raycastHit.collider.gameObject.tag == GlobalVariable.touchHelper))
+                {
+                    Vector3 secondTouchedPoint = raycastHit.point;
+                    Debug.DrawLine(firstTouchedPoint, secondTouchedPoint, Color.red, 5f, false);
+
+                    Vector3 deltaTouchPositon = firstTouchedPoint - secondTouchedPoint;
+
+                    //dokunma hassasiyetini ayarlýyoruz. Ne kadar hareketten sonra dönme olacak
+                    if (Math.Abs(deltaTouchPositon.x) > smoothCubeSwipeSensivity || Math.Abs(deltaTouchPositon.y) > smoothCubeSwipeSensivity || Math.Abs(deltaTouchPositon.z) > smoothCubeSwipeSensivity)
+                    {
+                        isSmoothCubeSwipeMoved = true;
+
+                        float touchDirectionGroupJoint = -1;
+
+                        //dokunulan küpün ait olduðu tüm group jointler içinde dolaþýyoruz
+                        foreach (var item in firstTouchedCube.GetComponent<ClickDetect>().groupJoints)
+                        {
+                            Vector3 groupJointRotationAxis = item.GetComponent<RotationGroupDetect>().rotationAxis;
+
+                            //dokunulan küpün ait olduðu herbir group jointin tüm axisleri ile dokunma yönünü arasýndaki açýyý buluyoruz. 
+                            float groupJointTouchDirectionUp = Vector3.Angle(firstTouchedPoint - secondTouchedPoint, item.position - (item.position + (item.up * 10f)));
+                            float groupJointTouchDirectionForward = Vector3.Angle(firstTouchedPoint - secondTouchedPoint, item.position - (item.position + (item.forward * 10f)));
+                            float groupJointTouchDirectionRight = Vector3.Angle(firstTouchedPoint - secondTouchedPoint, item.position - (item.position + (item.right * 10f)));
+                            
+                            bool reverseUpDirecton = false;
+                            bool reverseForwardDirecton = false;
+                            bool reverseRightDirecton = false;
+
+                            //açý 90'dan büyükse group jointin dönme axisinegöre ters yönde dönmelidir.
+                            if (groupJointTouchDirectionUp > 90)// bu durumda ters yönlüdür.
+                            {
+                                groupJointTouchDirectionUp = 180 - groupJointTouchDirectionUp;
+                                reverseUpDirecton = true;
+                            }
+
+                            if (groupJointTouchDirectionForward > 90)// bu durumda ters yönlüdür.
+                            {
+                                groupJointTouchDirectionForward = 180 - groupJointTouchDirectionForward;
+                                reverseForwardDirecton = true;
+                            }
+
+                            if (groupJointTouchDirectionRight > 90)// bu durumda ters yönlüdür.
+                            {
+                                groupJointTouchDirectionRight = 180 - groupJointTouchDirectionRight;
+                                reverseRightDirecton = true;
+                            }
+
+                            Vector3 groupJointTouchDirection = Vector3.zero;
+                            // en dar açý bize herbir group jointin hangi axisi yönünde dokunma yönü olduðunu verir.
+                            if (groupJointTouchDirectionUp < groupJointTouchDirectionForward && groupJointTouchDirectionUp < groupJointTouchDirectionRight)
+                            {
+                                if (reverseUpDirecton)
+                                    groupJointTouchDirection = item.up * -1;
+                                else
+                                    groupJointTouchDirection = item.up;
+                            }
+                            else if (groupJointTouchDirectionForward < groupJointTouchDirectionUp && groupJointTouchDirectionForward < groupJointTouchDirectionRight)
+                            {
+                                if (reverseForwardDirecton)
+                                    groupJointTouchDirection = item.forward * -1;
+                                else
+                                    groupJointTouchDirection = item.forward;
+                            }
+                            else if (groupJointTouchDirectionRight < groupJointTouchDirectionUp && groupJointTouchDirectionRight < groupJointTouchDirectionForward)
+                            {
+                                if (reverseRightDirecton)
+                                    groupJointTouchDirection = item.right * -1;
+                                else
+                                    groupJointTouchDirection = item.right;
+                            }
+
+                            //dokunulan yüzün normali ile dokunma yönünün hangi axis üzerine döneceðini verir.
+                            Vector3 side1 = item.position - (item.position + raycastHit.normal);
+                            Vector3 side2 = item.position - (item.position + groupJointTouchDirection);
+                            Vector3 cross = Vector3.Cross(side1, side2).normalized;
+
+                            //dokunulan küpün ait olduðu group jointin dönme axisi
+                            Vector3 itemRotationAxis = Vector3.zero;
+                            if (groupJointRotationAxis == Vector3.up)
+                            {
+                                itemRotationAxis = item.up;
+                            }
+                            else if (groupJointRotationAxis == Vector3.forward)
+                            {
+                                itemRotationAxis = item.forward;
+                            }
+                            else if (groupJointRotationAxis == Vector3.right)
+                            {
+                                itemRotationAxis = item.right;
+                            }
+
+                            //dokunma yönü ve dokunulan yüzeyin normaline göre belirlediðimiz dönme axisi ile foreach ile dolaþýlan group jointin dönme axisi arasýndaki açýyý buluyoruz.
+                            touchDirectionGroupJoint = Vector3.Angle(item.position - (item.position + cross), item.position - (item.position + itemRotationAxis));
+
+                            //eðer belirlediðimiz axis ile item'ýn dönme aixsi arasýndaki açý 0 yada 180 ise selectedGropJointimizi ve selected axisimizi bulmuþ oluyoruz 
+                            if (touchDirectionGroupJoint == 0 || touchDirectionGroupJoint == 180)
+                            {
+                                selectedCubeGroupJoint = item;
+                                selectedAxis = groupJointRotationAxis;
+
+                                if (touchDirectionGroupJoint == 180)
+                                    selectedAxis = selectedAxis * -1;
+
+                                break;
+                            }
+                        }
+
+                        List<GameObject> insideCubesFromGroup = selectedCubeGroupJoint.GetComponent<RotationGroupDetect>().insideCubes;
+
+                        foreach (var cube in insideCubesFromGroup)
+                        {
+                            cube.transform.parent = selectedCubeGroupJoint.transform.parent;
+                        }
+
+                        PlayerPrefs.DeleteKey("Solution");
+                        startRotate();
+                    }                
+                }
             }
         }
     }
@@ -172,7 +257,6 @@ public class CubeControl : MonoBehaviour
                 selectedAxis = Vector3.zero;
                 isRotateStarted = false;
                 firstTouchedCube = null;
-                secondTouchedCube = null;
                 if (isShuffleRotation == false)
                     isResolveCube();
                 if (solve_Btn.GetComponent<Solve_Btn>().isSolvingStepActive && solve_Btn.GetComponent<Solve_Btn>().isDoubleSolvingStep == false)
@@ -207,7 +291,7 @@ public class CubeControl : MonoBehaviour
     IEnumerator shuffleCoroutine(Button button)
     {
         isShuffleRotation = true;
-   
+
         float firstRotationSpeed = rotateSpeed;
         if (button != solve_Btn)
             rotateSpeed = firstRotationSpeed + 5;
@@ -394,7 +478,7 @@ public class CubeControl : MonoBehaviour
             item.GetComponent<BoxCollider>().isTrigger = false;
         }
 
-        if(counter.GetComponent<Counter>().isChallengeModeActive)
+        if (counter.GetComponent<Counter>().isChallengeModeActive)
         {
             string json = PlayerPrefs.GetString("Bests");
             List<CubeControl.BestTimesStruct> bestTimesList = new List<CubeControl.BestTimesStruct>();
@@ -589,7 +673,7 @@ public class CubeControl : MonoBehaviour
         if (rotateClockWise == false)
             selectedAxis = Vector3.Scale(selectedAxis, new Vector3(-1, -1, -1));
 
-        startRotate(); 
+        startRotate();
     }
 
     public void rotateAndFixCubeForKociembaStart(List<Transform> faceDetectors, Transform solve_Btn)
