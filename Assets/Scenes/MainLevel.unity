@@ -11004,8 +11004,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1691794112}
-  camPortraitPrefab: {fileID: 4808939711904343327, guid: 28d4c1e3b3e59794da5626ca5dc2c476, type: 3}
-  camLandscapePrefab: {fileID: 5252292358236271185, guid: 6ba38b88cb77bf1479dc19f9a111a740, type: 3}
+  camPortraitPrefab: {fileID: 9067010448428252890, guid: ad504e48a5abb414e9a6047d4d0e1d8f, type: 3}
+  camLandscapePrefab: {fileID: 5017723532042656596, guid: 0919cdc6efcf9fe42a18daacea2f0fc0, type: 3}
 --- !u!4 &1375183384
 Transform:
   m_ObjectHideFlags: 0
@@ -21982,6 +21982,7 @@ MonoBehaviour:
   isShuffleRotation: 0
   solve_Btn: {fileID: 427636002}
   GeneralControls: {fileID: 1375183382}
+  smoothCubeSwipeSensivity: 0.5
 --- !u!1 &6628803816552915608
 GameObject:
   m_ObjectHideFlags: 0
@@ -22150,6 +22151,7 @@ MonoBehaviour:
   lerpValMobile: 5
   isEnteredPauseButton: 0
   isEnteredSolveButton: 0
+  isTiltRubicCube: 0
 --- !u!65 &6628803816678767238
 BoxCollider:
   m_ObjectHideFlags: 0
