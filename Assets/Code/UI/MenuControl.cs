@@ -24,6 +24,13 @@ public class MenuControl : MonoBehaviour
     bool isSolveButtonActiveFirstTime = false;
     public GameObject rubicCube;
 
+    public Camera mainCamera;
+    public Camera menuCamera;
+    public Canvas canvas;
+    public Light menuCubeLight;
+    public GameObject menuCube;
+
+
     void Awake()
     {
         string selectedLangVal = PlayerPrefs.GetString("SelectedLang");
@@ -85,6 +92,9 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMenuCameraActive();
+            menuCube.SetActive(true);
+            //menuCube.GetComponentInChildren<MainMenuCubeAnimation>().resetRubicCube();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
         {
@@ -97,6 +107,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMainCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_PauseMenu)
         {
@@ -109,6 +121,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMainCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_Victory)
         {
@@ -121,6 +135,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(true);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMainCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_BestTimesMenu)
         {
@@ -133,6 +149,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMenuCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_SettingsMenu)
         {
@@ -145,6 +163,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMenuCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_NewGameMenu)
         {
@@ -157,6 +177,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(true);
             timesUpUI.SetActive(false);
+            SetMenuCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_TimesUp)
         {
@@ -169,6 +191,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(true);
+            SetMainCameraActive();
+            menuCube.SetActive(false);
         }
     }
 
@@ -193,6 +217,9 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMenuCameraActive();
+            menuCube.SetActive(true);
+            menuCube.GetComponentInChildren<MainMenuCubeAnimation>().resetRubicCube();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && inGameUIPanel.activeSelf == false)
         {
@@ -205,6 +232,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMainCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_PauseMenu && pauseMenuPanel.activeSelf == false)
         {
@@ -217,6 +246,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMainCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_Victory && victoryUIPanel.activeSelf == false)
         {
@@ -229,6 +260,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(true);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMainCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_BestTimesMenu && bestTimePanel.activeSelf == false)
         {
@@ -241,6 +274,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMenuCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_SettingsMenu && settingsPanel.activeSelf == false)
         {
@@ -253,6 +288,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            SetMenuCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_NewGameMenu && newGameMenuPanel.activeSelf == false)
         {
@@ -265,6 +302,8 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(true);
             timesUpUI.SetActive(false);
+            SetMenuCameraActive();
+            menuCube.SetActive(false);
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_TimesUp && timesUpUI.activeSelf == false)
         {
@@ -277,7 +316,26 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(true);
+            SetMainCameraActive();
+            menuCube.SetActive(false);
         }
+    }
+
+    void SetMenuCameraActive()
+    {
+        menuCamera.targetDisplay = 0;
+        mainCamera.targetDisplay = 1;
+        canvas.renderMode = RenderMode.ScreenSpaceCamera;
+        canvas.worldCamera = menuCamera;
+        menuCubeLight.gameObject.SetActive(true);
+    }
+    void SetMainCameraActive()
+    {
+        menuCamera.targetDisplay = 1;
+        mainCamera.targetDisplay = 0;
+        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        canvas.worldCamera = mainCamera;
+        menuCubeLight.gameObject.SetActive(false);
     }
 
 }

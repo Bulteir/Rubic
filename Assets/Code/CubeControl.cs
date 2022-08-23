@@ -294,7 +294,7 @@ public class CubeControl : MonoBehaviour
 
         float firstRotationSpeed = rotateSpeed;
         if (button != solve_Btn)
-            rotateSpeed = firstRotationSpeed + 5;
+            rotateSpeed = 5;
 
         if (shuffleStepCount > 1 && GeneralControls.GetComponent<MenuControl>().isLoadedKociembaTables)//yeni oyun ve restarttan gelen shuffle'dýr
         {
