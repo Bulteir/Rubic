@@ -21,10 +21,12 @@ public class NewGame_Btn : MonoBehaviour
         if (json == "")
         {
             challenge_Btn.interactable = false;
+            challenge_Btn.GetComponent<NewGameMenu_ChallengeMode_Btn>().SetChallangeModeBtnInteractable(false);
         }
         else
         {
             challenge_Btn.interactable = true;
+            challenge_Btn.GetComponent<NewGameMenu_ChallengeMode_Btn>().SetChallangeModeBtnInteractable(true);
         }
         PlayerPrefs.SetInt("SolvingQuantity", GlobalVariable.defaultSolvingQuantity);
         PlayerPrefs.Save();
@@ -37,6 +39,5 @@ public class NewGame_Btn : MonoBehaviour
         GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_idle;
         easyJokerQuantity_Btn.transform.parent.GetComponent<Button>().interactable = true;
         veryEasyJokerQuantity_Btn.transform.parent.GetComponent<Button>().interactable = true;
-
     }
 }

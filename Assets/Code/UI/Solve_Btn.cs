@@ -13,6 +13,7 @@ public class Solve_Btn : MonoBehaviour
     public List<Transform> faceDetectors;
     public Transform rubicCube;
     public Button solve_Btn;
+    public TMP_Text solve_Btn_Text;
     public bool isSolvingStepActive = false;
     public bool isDoubleSolvingStep = false;
     public Button SolvingQuantity_Btn;
@@ -92,10 +93,12 @@ public class Solve_Btn : MonoBehaviour
         if(interactable)
         {
             SolvingQuantity_Btn.image.color = new Color(255f/255f, 0, 0, 255f/255f);
+            solve_Btn_Text.GetComponent<TMP_Text>().color = new Color(255f / 255f, 255f / 255f, 255f / 255f, 255f / 255f);
         }
         else
         {
             SolvingQuantity_Btn.image.color = new Color(255f / 255f, 0, 0, 128f / 255f);
+            solve_Btn_Text.GetComponent<TMP_Text>().color = new Color(255f / 255f, 255f / 255f, 255f / 255f, 128f / 255f);
         }
     }
 

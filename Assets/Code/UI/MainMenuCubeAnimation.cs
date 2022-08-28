@@ -132,7 +132,6 @@ public class MainMenuCubeAnimation : MonoBehaviour
 
     public void resetRubicCube()
     {
-        Debug.Log(rubicCubeItems);
         foreach (var item in rubicCubeItems)
         {
             //herbir rubik küp elementinin position ve rotation'ýnýný en baþtaki haline getiriyoruz 

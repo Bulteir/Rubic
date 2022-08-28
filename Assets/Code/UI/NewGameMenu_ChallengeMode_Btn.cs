@@ -9,6 +9,7 @@ public class NewGameMenu_ChallengeMode_Btn : MonoBehaviour
     public Transform RubicCube;
     public Transform Counter;
     public GameObject GeneralControls;
+    public Button challangeModeBtn;
 
     public void onClick()
     {
@@ -27,5 +28,17 @@ public class NewGameMenu_ChallengeMode_Btn : MonoBehaviour
         
         RubicCube.GetComponent<CubeControl>().shuffleCube(challengeMode_Btn);
         GeneralControls.GetComponent<AdMobController>().RequestAndLoadInterstitialAd();
+    }
+
+    public void SetChallangeModeBtnInteractable(bool interactable)
+    {
+        if (interactable)
+        {
+            challangeModeBtn.GetComponentInChildren<TMPro.TMP_Text>().color = new Color(255f / 255f, 255f / 255f, 255f / 255f, 255f / 255f);
+        }
+        else
+        {
+            challangeModeBtn.GetComponentInChildren<TMPro.TMP_Text>().color = new Color(255f / 255f, 255f / 255f, 255f / 255f, 128f / 255f);
+        }
     }
 }
