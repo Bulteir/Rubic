@@ -16,7 +16,7 @@ public class MainMenuCubeAnimation : MonoBehaviour
     public GameObject backGroupJoint;
 
     float targetAngle = 90f;
-    public float rotateSpeed = 1f;
+    public float rotateSpeed = 0.5f;
     bool isRotateStarted = false;
 
     Transform selectedCubeGroupJoint;

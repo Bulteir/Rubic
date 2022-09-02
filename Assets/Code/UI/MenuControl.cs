@@ -29,7 +29,15 @@ public class MenuControl : MonoBehaviour
     public Canvas canvas;
     public Light menuCubeLight;
     public GameObject menuCube;
+    public GameObject counter;
 
+    public AudioSource menuMusic;
+    public AudioSource buttonClick;
+    public AudioSource cubeSnap;
+    public AudioSource normalModeMusic;
+    public AudioSource appleuse;
+    public AudioSource challengeModeMusic;
+    public AudioSource timesUp;
 
     void Awake()
     {
@@ -94,7 +102,7 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
             menuCube.SetActive(true);
-            //menuCube.GetComponentInChildren<MainMenuCubeAnimation>().resetRubicCube();
+            menuMusic.Play();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
         {
@@ -220,6 +228,17 @@ public class MenuControl : MonoBehaviour
             SetMenuCameraActive();
             menuCube.SetActive(true);
             menuCube.GetComponentInChildren<MainMenuCubeAnimation>().resetRubicCube();
+            //sesler ve müzikler
+            if (!menuMusic.isPlaying)
+                menuMusic.Play();
+            if (normalModeMusic.isPlaying)
+                normalModeMusic.Stop();
+            if (challengeModeMusic.isPlaying)
+                challengeModeMusic.Stop();
+            if (appleuse.isPlaying)
+                appleuse.Stop();
+            if (timesUp.isPlaying)
+                timesUp.Stop();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && inGameUIPanel.activeSelf == false)
         {
@@ -234,6 +253,22 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMainCameraActive();
             menuCube.SetActive(false);
+            if (menuMusic.isPlaying)
+                menuMusic.Stop();
+            if(counter.GetComponent<Counter>().isChallengeModeActive)
+            {
+                if (!challengeModeMusic.isPlaying)
+                    challengeModeMusic.Play();
+            }
+            else
+            {
+                if (!normalModeMusic.isPlaying)
+                    normalModeMusic.Play();
+            }
+            if (appleuse.isPlaying)
+                appleuse.Stop();
+            if (timesUp.isPlaying)
+                timesUp.Stop();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_PauseMenu && pauseMenuPanel.activeSelf == false)
         {
@@ -248,6 +283,16 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMainCameraActive();
             menuCube.SetActive(false);
+            if (!menuMusic.isPlaying)
+                menuMusic.Play();
+            if (normalModeMusic.isPlaying)
+                normalModeMusic.Pause();
+            if (challengeModeMusic.isPlaying)
+                challengeModeMusic.Pause();
+            if (appleuse.isPlaying)
+                appleuse.Stop();
+            if (timesUp.isPlaying)
+                timesUp.Stop();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_Victory && victoryUIPanel.activeSelf == false)
         {
@@ -262,6 +307,16 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMainCameraActive();
             menuCube.SetActive(false);
+            if (menuMusic.isPlaying)
+                menuMusic.Stop();
+            if (normalModeMusic.isPlaying)
+                normalModeMusic.Stop();
+            if (challengeModeMusic.isPlaying)
+                challengeModeMusic.Stop();
+            if (!appleuse.isPlaying)
+                appleuse.Play();
+            if (timesUp.isPlaying)
+                timesUp.Stop();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_BestTimesMenu && bestTimePanel.activeSelf == false)
         {
@@ -276,6 +331,16 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
             menuCube.SetActive(false);
+            if (!menuMusic.isPlaying)
+                menuMusic.Play();
+            if (normalModeMusic.isPlaying)
+                normalModeMusic.Stop();
+            if (challengeModeMusic.isPlaying)
+                challengeModeMusic.Stop();
+            if (appleuse.isPlaying)
+                appleuse.Stop();
+            if (timesUp.isPlaying)
+                timesUp.Stop();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_SettingsMenu && settingsPanel.activeSelf == false)
         {
@@ -290,6 +355,16 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
             menuCube.SetActive(false);
+            if (!menuMusic.isPlaying)
+                menuMusic.Play();
+            if (normalModeMusic.isPlaying)
+                normalModeMusic.Stop();
+            if (challengeModeMusic.isPlaying)
+                challengeModeMusic.Stop();
+            if (appleuse.isPlaying)
+                appleuse.Stop();
+            if (timesUp.isPlaying)
+                timesUp.Stop();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_NewGameMenu && newGameMenuPanel.activeSelf == false)
         {
@@ -304,6 +379,16 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
             menuCube.SetActive(false);
+            if (!menuMusic.isPlaying)
+                menuMusic.Play();
+            if (normalModeMusic.isPlaying)
+                normalModeMusic.Stop();
+            if (challengeModeMusic.isPlaying)
+                challengeModeMusic.Stop();
+            if (appleuse.isPlaying)
+                appleuse.Stop();
+            if (timesUp.isPlaying)
+                timesUp.Stop();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_TimesUp && timesUpUI.activeSelf == false)
         {
@@ -318,6 +403,16 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(true);
             SetMainCameraActive();
             menuCube.SetActive(false);
+            if (menuMusic.isPlaying)
+                menuMusic.Stop();
+            if (normalModeMusic.isPlaying)
+                normalModeMusic.Stop();
+            if (challengeModeMusic.isPlaying)
+                challengeModeMusic.Stop();
+            if (appleuse.isPlaying)
+                appleuse.Stop();
+            if (!timesUp.isPlaying)
+                timesUp.Play();
         }
     }
 
@@ -338,4 +433,13 @@ public class MenuControl : MonoBehaviour
         menuCubeLight.gameObject.SetActive(false);
     }
 
+    public void PlayButtonClickSound()
+    {
+        buttonClick.Play();
+    }
+
+    public void PlayCubeSnapSound()
+    {
+        cubeSnap.Play();
+    }
 }

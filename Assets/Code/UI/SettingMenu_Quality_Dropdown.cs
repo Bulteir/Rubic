@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Localization.Settings;
+using UnityEngine.EventSystems;
 
 public class SettingMenu_Quality_Dropdown : MonoBehaviour
 {
@@ -55,7 +56,6 @@ public class SettingMenu_Quality_Dropdown : MonoBehaviour
                 qualityDropdownList.captionText.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "High_Q");
             }    
         }
-        
     }
-
 }
+

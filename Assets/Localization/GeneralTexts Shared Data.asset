@@ -119,6 +119,14 @@ MonoBehaviour:
     m_Key: Hint
     m_Metadata:
       m_Items: []
+  - m_Id: 22889074260889600
+    m_Key: Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22889118418522112
+    m_Key: Very Easy
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

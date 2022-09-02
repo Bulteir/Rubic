@@ -257,6 +257,8 @@ public class CubeControl : MonoBehaviour
                 selectedAxis = Vector3.zero;
                 isRotateStarted = false;
                 firstTouchedCube = null;
+                GeneralControls.GetComponent<MenuControl>().PlayCubeSnapSound();
+
                 if (isShuffleRotation == false)
                     isResolveCube();
                 if (solve_Btn.GetComponent<Solve_Btn>().isSolvingStepActive && solve_Btn.GetComponent<Solve_Btn>().isDoubleSolvingStep == false)
