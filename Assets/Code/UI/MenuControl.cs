@@ -28,6 +28,7 @@ public class MenuControl : MonoBehaviour
     public Camera menuCamera;
     public Canvas canvas;
     public Light menuCubeLight;
+    public GameObject menuCubePrefab;
     public GameObject menuCube;
     public GameObject counter;
 
@@ -101,7 +102,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
-            menuCube.SetActive(true);
+            //CreateMenuCube();
             menuMusic.Play();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
@@ -116,7 +117,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMainCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_PauseMenu)
         {
@@ -130,7 +131,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMainCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_Victory)
         {
@@ -144,7 +145,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMainCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_BestTimesMenu)
         {
@@ -158,7 +159,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_SettingsMenu)
         {
@@ -172,7 +173,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_NewGameMenu)
         {
@@ -186,7 +187,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(true);
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_TimesUp)
         {
@@ -200,7 +201,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(true);
             SetMainCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
         }
     }
 
@@ -226,8 +227,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
-            menuCube.SetActive(true);
-            menuCube.GetComponentInChildren<MainMenuCubeAnimation>().resetRubicCube();
+            CreateMenuCube();
             //sesler ve müzikler
             if (!menuMusic.isPlaying)
                 menuMusic.Play();
@@ -252,7 +252,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMainCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
             if (menuMusic.isPlaying)
                 menuMusic.Stop();
             if(counter.GetComponent<Counter>().isChallengeModeActive)
@@ -282,7 +282,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMainCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
             if (!menuMusic.isPlaying)
                 menuMusic.Play();
             if (normalModeMusic.isPlaying)
@@ -306,7 +306,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMainCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
             if (menuMusic.isPlaying)
                 menuMusic.Stop();
             if (normalModeMusic.isPlaying)
@@ -330,7 +330,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
             if (!menuMusic.isPlaying)
                 menuMusic.Play();
             if (normalModeMusic.isPlaying)
@@ -354,7 +354,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
             if (!menuMusic.isPlaying)
                 menuMusic.Play();
             if (normalModeMusic.isPlaying)
@@ -378,7 +378,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(true);
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
             if (!menuMusic.isPlaying)
                 menuMusic.Play();
             if (normalModeMusic.isPlaying)
@@ -402,7 +402,7 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(true);
             SetMainCameraActive();
-            menuCube.SetActive(false);
+            DestroyMenuCube();
             if (menuMusic.isPlaying)
                 menuMusic.Stop();
             if (normalModeMusic.isPlaying)
@@ -441,5 +441,18 @@ public class MenuControl : MonoBehaviour
     public void PlayCubeSnapSound()
     {
         cubeSnap.Play();
+    }
+
+    void CreateMenuCube()
+    {
+        menuCube = Instantiate(menuCubePrefab, menuCubePrefab.transform.position, menuCubePrefab.transform.rotation);
+    }
+
+    void DestroyMenuCube()
+    {
+        if (menuCube)
+        {
+            Destroy(menuCube);
+        }
     }
 }

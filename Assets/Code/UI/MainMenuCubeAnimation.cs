@@ -50,7 +50,6 @@ public class MainMenuCubeAnimation : MonoBehaviour
             Rotate();
             transform.parent.RotateAround(transform.parent.position, new Vector3(0, 1, 0), 1f);
         }
-
     }
 
     public void shuffleCube()
@@ -128,46 +127,6 @@ public class MainMenuCubeAnimation : MonoBehaviour
         isRotateStarted = true;
         rotateAngle = 0;
         acceleration = 1;
-    }
-
-    public void resetRubicCube()
-    {
-        foreach (var item in rubicCubeItems)
-        {
-            //herbir rubik küp elementinin position ve rotation'ýnýný en baþtaki haline getiriyoruz 
-            Transform itemPrefab = rubicCubePrefabItems.Find(x => x.name == item.name);
-            if (itemPrefab != null)
-            {
-                item.position = itemPrefab.position;
-                item.rotation = itemPrefab.rotation;
-            }
-
-            //herbir rubik küp elementinin parentýný en baþtaki haline getiriyoruz 
-            if (itemPrefab.parent != null)
-            {
-                Transform parentItem = rubicCubeItems.Find(x => x.name == itemPrefab.parent.name);
-                if (parentItem != null)
-                {
-                    item.parent = parentItem;
-                }
-            }
-
-            if (item.GetComponent<Rigidbody>() && item.GetComponent<BoxCollider>() && item.tag == GlobalVariable.rubicCube)
-            {
-                item.GetComponent<Rigidbody>().isKinematic = true;
-                item.GetComponent<Rigidbody>().useGravity = false;
-                item.GetComponent<BoxCollider>().isTrigger = true;
-            }
-        }
-        StartCoroutine(restartSuffleHelper());
-    }
-
-    IEnumerator restartSuffleHelper()
-    {
-        yield return new WaitForFixedUpdate();
-        StopCoroutine(shuffleCoroutineMenuCube());
-        yield return new WaitUntil(() => isRotateStarted == false);
-        shuffleCube();
     }
 
     void rubicToList(Transform cube, List<Transform> itemsList)
