@@ -28,4 +28,11 @@ public static class GlobalVariable
 
     public const int defaultShuffleStepCount = 20;
 
+    public static int musicState = musicState_On;
+    public const int musicState_Off = 0;
+    public const int musicState_On = 1;
+
+    public static int soundEffectState = soundEffect_On;
+    public const int soundEffect_Off = 0;
+    public const int soundEffect_On = 1;
 }

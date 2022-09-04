@@ -71,7 +71,6 @@ public class MenuControl : MonoBehaviour
             PlayerPrefs.SetString("EasyJoker", easyJokerQuantity);
             PlayerPrefs.Save();
         }
-
     }
 
     //Kociemba tablolarýný oyun baþladýðý anda paralele bir thread kullanarak oluþturuyoruz. Bu sayede vakit hem kazannýlýyor hem de oyun takýlmýyor. 
@@ -102,8 +101,9 @@ public class MenuControl : MonoBehaviour
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
-            //CreateMenuCube();
-            menuMusic.Play();
+            int music = int.Parse(PlayerPrefs.GetString("Music"));
+            if (music == 1)
+                menuMusic.Play();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
         {
@@ -229,8 +229,13 @@ public class MenuControl : MonoBehaviour
             SetMenuCameraActive();
             CreateMenuCube();
             //sesler ve müzikler
-            if (!menuMusic.isPlaying)
-                menuMusic.Play();
+            int music = int.Parse(PlayerPrefs.GetString("Music"));
+            if (music == 1)
+            {
+                if (!menuMusic.isPlaying)
+                    menuMusic.Play();
+            }
+
             if (normalModeMusic.isPlaying)
                 normalModeMusic.Stop();
             if (challengeModeMusic.isPlaying)
@@ -255,16 +260,22 @@ public class MenuControl : MonoBehaviour
             DestroyMenuCube();
             if (menuMusic.isPlaying)
                 menuMusic.Stop();
-            if(counter.GetComponent<Counter>().isChallengeModeActive)
+
+            int music = int.Parse(PlayerPrefs.GetString("Music"));
+            if (music == 1)
             {
-                if (!challengeModeMusic.isPlaying)
-                    challengeModeMusic.Play();
+                if (counter.GetComponent<Counter>().isChallengeModeActive)
+                {
+                    if (!challengeModeMusic.isPlaying)
+                        challengeModeMusic.Play();
+                }
+                else
+                {
+                    if (!normalModeMusic.isPlaying)
+                        normalModeMusic.Play();
+                }
             }
-            else
-            {
-                if (!normalModeMusic.isPlaying)
-                    normalModeMusic.Play();
-            }
+               
             if (appleuse.isPlaying)
                 appleuse.Stop();
             if (timesUp.isPlaying)
@@ -283,8 +294,13 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
-            if (!menuMusic.isPlaying)
-                menuMusic.Play();
+            int music = int.Parse(PlayerPrefs.GetString("Music"));
+            if (music == 1)
+            {
+                if (!menuMusic.isPlaying)
+                    menuMusic.Play();
+            }
+
             if (normalModeMusic.isPlaying)
                 normalModeMusic.Pause();
             if (challengeModeMusic.isPlaying)
@@ -313,8 +329,12 @@ public class MenuControl : MonoBehaviour
                 normalModeMusic.Stop();
             if (challengeModeMusic.isPlaying)
                 challengeModeMusic.Stop();
-            if (!appleuse.isPlaying)
-                appleuse.Play();
+            int soundEffect = int.Parse(PlayerPrefs.GetString("SoundEffect"));
+            if (soundEffect == 1)
+            {
+                if (!appleuse.isPlaying)
+                    appleuse.Play();
+            }
             if (timesUp.isPlaying)
                 timesUp.Stop();
         }
@@ -331,8 +351,13 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
             DestroyMenuCube();
-            if (!menuMusic.isPlaying)
-                menuMusic.Play();
+
+            int music = int.Parse(PlayerPrefs.GetString("Music"));
+            if (music == 1)
+            {
+                if (!menuMusic.isPlaying)
+                    menuMusic.Play();
+            }
             if (normalModeMusic.isPlaying)
                 normalModeMusic.Stop();
             if (challengeModeMusic.isPlaying)
@@ -355,8 +380,12 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
             DestroyMenuCube();
-            if (!menuMusic.isPlaying)
-                menuMusic.Play();
+            int music = int.Parse(PlayerPrefs.GetString("Music"));
+            if (music == 1)
+            {
+                if (!menuMusic.isPlaying)
+                    menuMusic.Play();
+            }
             if (normalModeMusic.isPlaying)
                 normalModeMusic.Stop();
             if (challengeModeMusic.isPlaying)
@@ -379,8 +408,12 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
             DestroyMenuCube();
-            if (!menuMusic.isPlaying)
-                menuMusic.Play();
+            int music = int.Parse(PlayerPrefs.GetString("Music"));
+            if (music == 1)
+            {
+                if (!menuMusic.isPlaying)
+                    menuMusic.Play();
+            }
             if (normalModeMusic.isPlaying)
                 normalModeMusic.Stop();
             if (challengeModeMusic.isPlaying)
@@ -411,8 +444,12 @@ public class MenuControl : MonoBehaviour
                 challengeModeMusic.Stop();
             if (appleuse.isPlaying)
                 appleuse.Stop();
-            if (!timesUp.isPlaying)
-                timesUp.Play();
+            int soundEffect = int.Parse(PlayerPrefs.GetString("SoundEffect"));
+            if (soundEffect == 1)
+            {
+                if (!timesUp.isPlaying)
+                    timesUp.Play();
+            }
         }
     }
 
@@ -435,12 +472,20 @@ public class MenuControl : MonoBehaviour
 
     public void PlayButtonClickSound()
     {
-        buttonClick.Play();
+        int soundEffect = int.Parse(PlayerPrefs.GetString("SoundEffect"));
+        if (soundEffect == 1)
+        {
+            buttonClick.Play();
+        }
     }
 
     public void PlayCubeSnapSound()
     {
-        cubeSnap.Play();
+        int soundEffect = int.Parse(PlayerPrefs.GetString("SoundEffect"));
+        if (soundEffect == 1)
+        {
+            cubeSnap.Play();
+        }
     }
 
     void CreateMenuCube()
