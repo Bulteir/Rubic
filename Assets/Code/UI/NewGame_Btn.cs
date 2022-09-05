@@ -31,9 +31,7 @@ public class NewGame_Btn : MonoBehaviour
         PlayerPrefs.SetInt("SolvingQuantity", GlobalVariable.defaultSolvingQuantity);
         PlayerPrefs.Save();
         rubicCube.GetComponent<CubeControl>().shuffleStepCount = GlobalVariable.defaultShuffleStepCount;
-        generalControls.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
         solvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = GlobalVariable.defaultSolvingQuantity.ToString();
-        
         veryEasyJokerQuantity_Btn.GetComponentInChildren<TMP_Text>().text = PlayerPrefs.GetString("VeryEasyJoker");
         easyJokerQuantity_Btn.GetComponentInChildren<TMP_Text>().text = PlayerPrefs.GetString("EasyJoker");
         GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_idle;

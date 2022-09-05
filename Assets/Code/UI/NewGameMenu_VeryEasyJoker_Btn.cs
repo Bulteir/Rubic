@@ -9,30 +9,31 @@ public class NewGameMenu_VeryEasyJoker_Btn : MonoBehaviour
     public GameObject generalControls;
     public Button jokerQuantity;
     public Button veryEasyButton;
-
+    bool adIsReady = false;
     public void onClick()
     {
+        Debug.Log("ad ready:" + adIsReady);
+
         if (GlobalVariable.rewardAdState != GlobalVariable.rewardAdState_veryEasyJoker && GlobalVariable.rewardAdState != GlobalVariable.rewardAdState_easyJoker)
         {
-            veryEasyButton.interactable = false;
             GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_veryEasyJoker;
-
             int veryEasyJokerQuantity = int.Parse(PlayerPrefs.GetString("VeryEasyJoker"));
             if (veryEasyJokerQuantity > 0)
             {
+                veryEasyButton.interactable = false;
                 veryEasyJokerQuantity--;
                 PlayerPrefs.SetString("VeryEasyJoker", veryEasyJokerQuantity.ToString());
                 PlayerPrefs.Save();
                 rubicCube.GetComponent<CubeControl>().shuffleStepCount = 5;
             }
-            else
+            else if (adIsReady)
             {
+                adIsReady = false;
                 generalControls.GetComponent<AdMobController>().ShowRewardedAd();
                 generalControls.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
             }
             jokerQuantity.GetComponentInChildren<TMPro.TMP_Text>().text = veryEasyJokerQuantity.ToString();
         }
-
     }
 
     public void SetVeryEasyJokerQuantity()
@@ -45,5 +46,16 @@ public class NewGameMenu_VeryEasyJoker_Btn : MonoBehaviour
             PlayerPrefs.Save();
             jokerQuantity.GetComponentInChildren<TMPro.TMP_Text>().text = PlayerPrefs.GetString("VeryEasyJoker");
         }
+    }
+
+    public void adFailed()
+    {
+        veryEasyButton.interactable = true;
+        GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_idle;
+        generalControls.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
+    }
+    public void adLoaded()
+    {
+        adIsReady = true;
     }
 }

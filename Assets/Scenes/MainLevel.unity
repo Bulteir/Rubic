@@ -1426,7 +1426,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &120320651
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10699,7 +10699,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 21300000, guid: 28a3f21c0c29d73449397f038c293dcf, type: 3}
     m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 21300000, guid: 323a1b922a6c77348a27599a95ceaae8, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -10789,6 +10789,7 @@ MonoBehaviour:
   counter: {fileID: 521512488}
   solvingQuantity_Btn: {fileID: 433802343}
   GeneralControls: {fileID: 1375183382}
+  restart_Btn: {fileID: 1022124948}
 --- !u!1 &1033471155
 GameObject:
   m_ObjectHideFlags: 0
@@ -13394,13 +13395,61 @@ MonoBehaviour:
       m_Calls: []
   OnAdFailedToLoadEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 130281515}
+        m_TargetAssemblyTypeName: NewGameMenu_EasyJoker_Btn, Assembly-CSharp
+        m_MethodName: adFailed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 542982059}
+        m_TargetAssemblyTypeName: NewGameMenu_VeryEasyJoker_Btn, Assembly-CSharp
+        m_MethodName: adFailed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
   OnAdOpeningEvent:
     m_PersistentCalls:
       m_Calls: []
   OnAdFailedToShowEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 130281515}
+        m_TargetAssemblyTypeName: NewGameMenu_EasyJoker_Btn, Assembly-CSharp
+        m_MethodName: adFailed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 542982059}
+        m_TargetAssemblyTypeName: NewGameMenu_VeryEasyJoker_Btn, Assembly-CSharp
+        m_MethodName: adFailed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
   OnUserEarnedRewardEvent:
     m_PersistentCalls:
       m_Calls:
@@ -13443,6 +13492,9 @@ MonoBehaviour:
   OnAdClosedEvent:
     m_PersistentCalls:
       m_Calls: []
+  easyButton: {fileID: 130281510}
+  veryEasyButton: {fileID: 542982054}
+  restartButton: {fileID: 1022124946}
 --- !u!1 &1403027111
 GameObject:
   m_ObjectHideFlags: 0

@@ -89,6 +89,13 @@ public class MenuControl : MonoBehaviour
 
     void Start()
     {
+        int easyJokerQuantity = int.Parse(PlayerPrefs.GetString("EasyJoker"));
+        int veryEasyJokerQuantity = int.Parse(PlayerPrefs.GetString("VeryEasyJoker"));
+        if (easyJokerQuantity == 0 || veryEasyJokerQuantity == 0)
+        {
+            transform.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
+        }
+
         if (GlobalVariable.gameState == GlobalVariable.gameState_MainMenu)
         {
             inGameUIPanel.SetActive(false);
@@ -244,6 +251,13 @@ public class MenuControl : MonoBehaviour
                 appleuse.Stop();
             if (timesUp.isPlaying)
                 timesUp.Stop();
+
+            int easyJokerQuantity = int.Parse(PlayerPrefs.GetString("EasyJoker"));
+            int veryEasyJokerQuantity = int.Parse(PlayerPrefs.GetString("VeryEasyJoker"));
+            if (easyJokerQuantity == 0 || veryEasyJokerQuantity == 0)
+            {
+                transform.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
+            }
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && inGameUIPanel.activeSelf == false)
         {

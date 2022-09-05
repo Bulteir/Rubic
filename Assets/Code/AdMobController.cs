@@ -23,6 +23,9 @@ public class AdMobController : MonoBehaviour
     public UnityEvent OnAdFailedToShowEvent;
     public UnityEvent OnUserEarnedRewardEvent;
     public UnityEvent OnAdClosedEvent;
+    public GameObject easyButton;
+    public GameObject veryEasyButton;
+    public GameObject restartButton;
 
     #region UNITY MONOBEHAVIOR METHODS
 
@@ -180,6 +183,7 @@ public class AdMobController : MonoBehaviour
         {
             PrintStatus("Interstitial ad loaded.");
             OnAdLoadedEvent.Invoke();
+            restartButton.GetComponent<PauseMenu_Restart_Btn>().adLoaded();
         };
         interstitialAd.OnAdFailedToLoad += (sender, args) =>
         {
@@ -262,6 +266,8 @@ public class AdMobController : MonoBehaviour
         rewardedAd.OnAdLoaded += (sender, args) =>
         {
             PrintStatus("Reward ad loaded.");
+            easyButton.GetComponent<NewGameMenu_EasyJoker_Btn>().adLoaded();
+            veryEasyButton.GetComponent<NewGameMenu_VeryEasyJoker_Btn>().adLoaded();
             OnAdLoadedEvent.Invoke();
         };
         rewardedAd.OnAdFailedToLoad += (sender, args) =>
