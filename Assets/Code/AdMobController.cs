@@ -162,13 +162,13 @@ public class AdMobController : MonoBehaviour
 
         #if UNITY_EDITOR
                 string adUnitId = "unused";
-        #elif UNITY_ANDROID
+#elif UNITY_ANDROID
                         string adUnitId = "ca-app-pub-3475441178822227/6017913476";
-        #elif UNITY_IPHONE
-                        string adUnitId = "";
-        #else
+#elif UNITY_IPHONE
+                        string adUnitId = "ca-app-pub-3475441178822227/3540673347";
+#else
                         string adUnitId = "unexpected_platform";
-        #endif
+#endif
 
         // Clean up interstitial before using it
         if (interstitialAd != null)
@@ -251,13 +251,13 @@ public class AdMobController : MonoBehaviour
         PrintStatus("Requesting Rewarded ad.");
         #if UNITY_EDITOR
                 string adUnitId = "unused";
-        #elif UNITY_ANDROID
+#elif UNITY_ANDROID
                         string adUnitId = "ca-app-pub-3475441178822227/9510898940";
-        #elif UNITY_IPHONE
-                        string adUnitId = "";
-        #else
+#elif UNITY_IPHONE
+                        string adUnitId = "ca-app-pub-3475441178822227/5888183825";
+#else
                         string adUnitId = "unexpected_platform";
-        #endif
+#endif
 
         // create new rewarded ad instance
         rewardedAd = new RewardedAd(adUnitId);
