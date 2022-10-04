@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.Localization.Settings;
 using Kociemba;
 using System.Threading.Tasks;
+using Unity.Advertisement.IosSupport;
 
 public class MenuControl : MonoBehaviour
 {
@@ -71,6 +72,20 @@ public class MenuControl : MonoBehaviour
             PlayerPrefs.SetString("EasyJoker", easyJokerQuantity);
             PlayerPrefs.Save();
         }
+        string music = PlayerPrefs.GetString("Music");
+        if (music == "")
+        {
+            music = "1";
+            PlayerPrefs.SetString("Music", music);
+            PlayerPrefs.Save();
+        }
+        string soundEffect = PlayerPrefs.GetString("SoundEffect");
+        if (soundEffect == "")
+        {
+            soundEffect = "1";
+            PlayerPrefs.SetString("SoundEffect", soundEffect);
+            PlayerPrefs.Save();
+        }
     }
 
     //Kociemba tablolarýný oyun baþladýðý anda paralele bir thread kullanarak oluþturuyoruz. Bu sayede vakit hem kazannýlýyor hem de oyun takýlmýyor. 
@@ -89,6 +104,18 @@ public class MenuControl : MonoBehaviour
 
     void Start()
     {
+
+        #region iosta reklam gösterebilmek için gerekli olan izin kontrolü
+#if UNITY_IOS
+        // check with iOS to see if the user has accepted or declined tracking
+        var status = ATTrackingStatusBinding.GetAuthorizationTrackingStatus();
+
+        if (status == ATTrackingStatusBinding.AuthorizationTrackingStatus.NOT_DETERMINED)
+        {
+            ATTrackingStatusBinding.RequestAuthorizationTracking();
+        }
+#endif
+        #endregion
         int easyJokerQuantity = int.Parse(PlayerPrefs.GetString("EasyJoker"));
         int veryEasyJokerQuantity = int.Parse(PlayerPrefs.GetString("VeryEasyJoker"));
         if (easyJokerQuantity == 0 || veryEasyJokerQuantity == 0)

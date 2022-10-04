@@ -13426,8 +13426,8 @@ MonoBehaviour:
   OnAdFailedToShowEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 130281515}
-        m_TargetAssemblyTypeName: NewGameMenu_EasyJoker_Btn, Assembly-CSharp
+      - m_Target: {fileID: 542982059}
+        m_TargetAssemblyTypeName: NewGameMenu_VeryEasyJoker_Btn, Assembly-CSharp
         m_MethodName: adFailed
         m_Mode: 1
         m_Arguments:
@@ -13438,8 +13438,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 542982059}
-        m_TargetAssemblyTypeName: NewGameMenu_VeryEasyJoker_Btn, Assembly-CSharp
+      - m_Target: {fileID: 130281515}
+        m_TargetAssemblyTypeName: NewGameMenu_EasyJoker_Btn, Assembly-CSharp
         m_MethodName: adFailed
         m_Mode: 1
         m_Arguments:

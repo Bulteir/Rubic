@@ -48,6 +48,12 @@ public class NewGameMenu_EasyJoker_Btn : MonoBehaviour
 
     public void adFailed()
     {
+        StartCoroutine(requestAdAgain());
+    }
+
+    IEnumerator requestAdAgain()
+    {
+        yield return new WaitForSeconds(5);
         easyButton.interactable = true;
         GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_idle;
         generalControls.GetComponent<AdMobController>().RequestAndLoadRewardedAd();

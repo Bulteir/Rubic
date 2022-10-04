@@ -35,12 +35,13 @@ public class AdMobController : MonoBehaviour
 
         List<String> deviceIds = new List<String>() { AdRequest.TestDeviceSimulator };
 
-        // Add some test device IDs (replace with your own device IDs).
-        //#if UNITY_IPHONE
-        //        deviceIds.Add("96e23e80653bb28980d3f40beb58915c");
-        //#elif UNITY_ANDROID
-        //        deviceIds.Add("75EF8D155528C04DACBBA6F36F433035");
-        //#endif
+        //xcodeda çýkan 1c3bfadf7ecd1fa38134feb494a6be32
+        //Add some test device IDs(replace with your own device IDs).
+#if UNITY_IPHONE
+        deviceIds.Add("DF229BBF2B1642998DFF3FFA52D9CD30");
+//#elif UNITY_ANDROID
+//                deviceIds.Add("75EF8D155528C04DACBBA6F36F433035");
+#endif
 
         // Configure TagForChildDirectedTreatment and test device IDs.
         RequestConfiguration requestConfiguration =
