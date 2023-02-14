@@ -6,7 +6,9 @@ using UnityEngine.UI;
 using UnityEngine.Localization.Settings;
 using Kociemba;
 using System.Threading.Tasks;
+#if UNITY_IOS
 using Unity.Advertisement.IosSupport;
+#endif
 
 public class MenuControl : MonoBehaviour
 {
@@ -105,7 +107,7 @@ public class MenuControl : MonoBehaviour
     void Start()
     {
 
-        #region iosta reklam gösterebilmek için gerekli olan izin kontrolü
+#region iosta reklam gösterebilmek için gerekli olan izin kontrolü
 #if UNITY_IOS
         // check with iOS to see if the user has accepted or declined tracking
         var status = ATTrackingStatusBinding.GetAuthorizationTrackingStatus();
@@ -115,7 +117,7 @@ public class MenuControl : MonoBehaviour
             ATTrackingStatusBinding.RequestAuthorizationTracking();
         }
 #endif
-        #endregion
+#endregion
         int easyJokerQuantity = int.Parse(PlayerPrefs.GetString("EasyJoker"));
         int veryEasyJokerQuantity = int.Parse(PlayerPrefs.GetString("VeryEasyJoker"));
         if (easyJokerQuantity == 0 || veryEasyJokerQuantity == 0)
@@ -496,16 +498,20 @@ public class MenuControl : MonoBehaviour
 
     void SetMenuCameraActive()
     {
-        menuCamera.targetDisplay = 0;
-        mainCamera.targetDisplay = 1;
+        //menuCamera.targetDisplay = 0;
+        //mainCamera.targetDisplay = 1;
+        menuCamera.gameObject.SetActive(true);
+        mainCamera.gameObject.SetActive(false);
         canvas.renderMode = RenderMode.ScreenSpaceCamera;
         canvas.worldCamera = menuCamera;
         menuCubeLight.gameObject.SetActive(true);
     }
     void SetMainCameraActive()
     {
-        menuCamera.targetDisplay = 1;
-        mainCamera.targetDisplay = 0;
+        //menuCamera.targetDisplay = 1;
+        //mainCamera.targetDisplay = 0;
+        menuCamera.gameObject.SetActive(false);
+        mainCamera.gameObject.SetActive(true);
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
         canvas.worldCamera = mainCamera;
         menuCubeLight.gameObject.SetActive(false);

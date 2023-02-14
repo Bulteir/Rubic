@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeanTransition", "LeanTransition.csproj", "{F6A9B77F-9856-08BB-ECF8-52425429F1C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B135A838-CFFE-4580-E653-24186FEA5E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW.Common", "CW.Common.csproj", "{996E5994-96DE-0C62-19F5-C976C598911F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeanCommon", "LeanCommon.csproj", "{CF1E3F1A-7615-05B3-AF82-C7A223759316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeanGUI", "LeanGUI.csproj", "{63AB6121-90F2-2BDA-E1F8-79A0679C10BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMobileAds.Editor", "GoogleMobileAds.Editor.csproj", "{FEDE59F0-7864-1B7E-8A3C-BB3EF09C8323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeanTransition.Editor", "LeanTransition.Editor.csproj", "{A3FD5D6D-3189-7882-43CA-2975518AE733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A9B77F-9856-08BB-ECF8-52425429F1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A9B77F-9856-08BB-ECF8-52425429F1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A9B77F-9856-08BB-ECF8-52425429F1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A9B77F-9856-08BB-ECF8-52425429F1C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B135A838-CFFE-4580-E653-24186FEA5E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B135A838-CFFE-4580-E653-24186FEA5E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B135A838-CFFE-4580-E653-24186FEA5E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B135A838-CFFE-4580-E653-24186FEA5E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996E5994-96DE-0C62-19F5-C976C598911F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996E5994-96DE-0C62-19F5-C976C598911F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996E5994-96DE-0C62-19F5-C976C598911F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996E5994-96DE-0C62-19F5-C976C598911F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1E3F1A-7615-05B3-AF82-C7A223759316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1E3F1A-7615-05B3-AF82-C7A223759316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1E3F1A-7615-05B3-AF82-C7A223759316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1E3F1A-7615-05B3-AF82-C7A223759316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63AB6121-90F2-2BDA-E1F8-79A0679C10BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AB6121-90F2-2BDA-E1F8-79A0679C10BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AB6121-90F2-2BDA-E1F8-79A0679C10BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AB6121-90F2-2BDA-E1F8-79A0679C10BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDE59F0-7864-1B7E-8A3C-BB3EF09C8323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDE59F0-7864-1B7E-8A3C-BB3EF09C8323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDE59F0-7864-1B7E-8A3C-BB3EF09C8323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDE59F0-7864-1B7E-8A3C-BB3EF09C8323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FD5D6D-3189-7882-43CA-2975518AE733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FD5D6D-3189-7882-43CA-2975518AE733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FD5D6D-3189-7882-43CA-2975518AE733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FD5D6D-3189-7882-43CA-2975518AE733}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
