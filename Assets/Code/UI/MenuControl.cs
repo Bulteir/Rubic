@@ -154,6 +154,7 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
+            transform.GetComponent<AdMobController>().RequestBannerAd();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_PauseMenu)
         {
@@ -264,6 +265,7 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
             CreateMenuCube();
+            transform.GetComponent<AdMobController>().DestroyBannerAd();
             //sesler ve müzikler
             int music = int.Parse(PlayerPrefs.GetString("Music"));
             if (music == 1)
@@ -301,6 +303,7 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
+            transform.GetComponent<AdMobController>().RequestBannerAd();
             if (menuMusic.isPlaying)
                 menuMusic.Stop();
 

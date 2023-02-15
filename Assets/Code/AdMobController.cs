@@ -68,7 +68,7 @@ public class AdMobController : MonoBehaviour
         MobileAdsEventExecutor.ExecuteInUpdate(() =>
         {
             //statusText.text = "Initialization complete.";
-            //RequestAndLoadRewardedAd();
+            //RequestBannerAd();
         });
     }
 
@@ -94,13 +94,13 @@ public class AdMobController : MonoBehaviour
         // These ad units are configured to always serve test ads.
         #if UNITY_EDITOR
                 string adUnitId = "unused";
-        #elif UNITY_ANDROID
-                string adUnitId = "";
-        #elif UNITY_IPHONE
-                string adUnitId = "";
-        #else
+#elif UNITY_ANDROID
+                string adUnitId = "ca-app-pub-3475441178822227/4856408108";
+#elif UNITY_IPHONE
+                string adUnitId = "ca-app-pub-3475441178822227/4869970105";
+#else
                 string adUnitId = "unexpected_platform";
-        #endif
+#endif
 
         // Clean up banner before reusing
         if (bannerView != null)
@@ -108,8 +108,8 @@ public class AdMobController : MonoBehaviour
             bannerView.Destroy();
         }
 
-        // Create a 320x50 banner at top of the screen
-        bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Top);
+        AdSize adaptiveSize = AdSize.GetCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(AdSize.FullWidth);
+        bannerView = new BannerView(adUnitId, adaptiveSize, AdPosition.Bottom);
 
         // Add Event Handlers
         bannerView.OnAdLoaded += (sender, args) =>
