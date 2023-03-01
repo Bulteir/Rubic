@@ -1,7 +1,8 @@
+using GoogleMobileAds.Api;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using UnityEditor.Presets;
+
 
 public class HorizontalVerticalView : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class HorizontalVerticalView : MonoBehaviour
     public GameObject camLandscapePrefab;
 
     bool isOrientationPortrait;
+    IEnumerator BannerRequest;
 
     void Start()
     {
@@ -32,11 +34,31 @@ public class HorizontalVerticalView : MonoBehaviour
         {
             isOrientationPortrait = false;
             setLandscapeSettings();
+            if (GlobalVariable.gameState == GlobalVariable.gameState_inGame) // banner reklamýnýn telefon döndürüldüðünde tekrar çaðrýlmasý için kullanýlacak
+            {
+                transform.GetComponent<AdMobController>().DestroyBannerAd();
+                if (BannerRequest != null)
+                {
+                    StopCoroutine(BannerRequest);
+                }                
+                BannerRequest = RequestBannner();
+                StartCoroutine(BannerRequest);
+            }
         }
         else if ((Screen.orientation == ScreenOrientation.Portrait || Screen.orientation == ScreenOrientation.PortraitUpsideDown) && isOrientationPortrait == false)
         {
             isOrientationPortrait = true;
             setPortraitSettings();
+            if (GlobalVariable.gameState == GlobalVariable.gameState_inGame) // banner reklamýnýn telefon döndürüldüðünde tekrar çaðrýlmasý için kullanýlacak
+            {
+                transform.GetComponent<AdMobController>().DestroyBannerAd();
+                if (BannerRequest != null)
+                {
+                    StopCoroutine(BannerRequest);
+                }
+                BannerRequest = RequestBannner();
+                StartCoroutine(BannerRequest);
+            }
         }
     }
 
@@ -52,5 +74,12 @@ public class HorizontalVerticalView : MonoBehaviour
         cam.transform.position = camPortraitPrefab.transform.position;
         cam.transform.rotation = camPortraitPrefab.transform.rotation;
         cam.GetComponent<Camera>().fieldOfView = camPortraitPrefab.GetComponent<Camera>().fieldOfView;
+    }
+
+    IEnumerator RequestBannner()
+    {
+        yield return new WaitForSeconds(5);
+        transform.GetComponent<AdMobController>().RequestBannerAd();
+        BannerRequest = null;
     }
 }

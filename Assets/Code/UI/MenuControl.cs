@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.Localization.Settings;
 using Kociemba;
 using System.Threading.Tasks;
+using System;
 #if UNITY_IOS
 using Unity.Advertisement.IosSupport;
 #endif
@@ -99,7 +100,7 @@ public class MenuControl : MonoBehaviour
         string searchString = "UUUUUULLLURRURRURRFFFFFFFFFRRRDDDDDDLLDLLDLLDBBBBBBBBB";
         //bir kere pcde table'lalrý oluþturup apk içinde telefona attým. Bu sayede süreden aþýrý tasarruf saðladým. Telefonda kullanýlabilir hale geldi.
         //Þuan builTable:True olsa da tablo oluþturmuyor. Yorum satýrýna aldým.
-        string solution = SearchRunTime.solution(searchString, out info,buildTables:true);
+        string solution = SearchRunTime.solution(searchString, out info, buildTables: true);
         Debug.Log("Kociemba tables is ready");
         isLoadedKociembaTables = true;
     }
@@ -107,7 +108,8 @@ public class MenuControl : MonoBehaviour
     void Start()
     {
 
-#region iosta reklam gösterebilmek için gerekli olan izin kontrolü
+
+        #region iosta reklam gösterebilmek için gerekli olan izin kontrolü
 #if UNITY_IOS
         // check with iOS to see if the user has accepted or declined tracking
         var status = ATTrackingStatusBinding.GetAuthorizationTrackingStatus();
@@ -117,7 +119,7 @@ public class MenuControl : MonoBehaviour
             ATTrackingStatusBinding.RequestAuthorizationTracking();
         }
 #endif
-#endregion
+        #endregion
         int easyJokerQuantity = int.Parse(PlayerPrefs.GetString("EasyJoker"));
         int veryEasyJokerQuantity = int.Parse(PlayerPrefs.GetString("VeryEasyJoker"));
         if (easyJokerQuantity == 0 || veryEasyJokerQuantity == 0)
@@ -321,7 +323,7 @@ public class MenuControl : MonoBehaviour
                         normalModeMusic.Play();
                 }
             }
-               
+
             if (appleuse.isPlaying)
                 appleuse.Stop();
             if (timesUp.isPlaying)
@@ -340,6 +342,8 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
+            transform.GetComponent<AdMobController>().DestroyBannerAd();
+
             int music = int.Parse(PlayerPrefs.GetString("Music"));
             if (music == 1)
             {

@@ -12,7 +12,7 @@ public class AdMobController : MonoBehaviour
     private readonly TimeSpan APPOPEN_TIMEOUT = TimeSpan.FromHours(4);
     private DateTime appOpenExpireTime;
     private AppOpenAd appOpenAd;
-    private BannerView bannerView;
+    public BannerView bannerView;
     private InterstitialAd interstitialAd;
     private RewardedAd rewardedAd;
     private RewardedInterstitialAd rewardedInterstitialAd;
