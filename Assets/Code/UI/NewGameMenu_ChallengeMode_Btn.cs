@@ -27,7 +27,8 @@ public class NewGameMenu_ChallengeMode_Btn : MonoBehaviour
         Counter.GetComponent<Counter>().text.text = bestTimesList[0].time;
         
         RubicCube.GetComponent<CubeControl>().shuffleCube(challengeMode_Btn);
-        GeneralControls.GetComponent<AdMobController>().RequestAndLoadInterstitialAd();
+        GeneralControls.GetComponent<AdMobInterstitialAdController>().LoadAd();
+
     }
 
     public void SetChallangeModeBtnInteractable(bool interactable)

@@ -38,7 +38,7 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 };
 struct IntPtr_t 
 {
-	void* ___m_value_0;
+	void* ___m_value;
 };
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
 {
@@ -52,15 +52,15 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 };
 struct unitytls_x509_ref_t9CEB17766B4144117333AB50379B21A357FA4333 
 {
-	uint64_t ___handle_0;
+	uint64_t ___handle;
 };
 struct unitytls_x509list_ref_t6C5C1CF0B720516A681CB741104A164FD8B3CF17 
 {
-	uint64_t ___handle_0;
+	uint64_t ___handle;
 };
 struct IntPtr_t_StaticFields
 {
-	intptr_t ___Zero_1;
+	intptr_t ___Zero;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

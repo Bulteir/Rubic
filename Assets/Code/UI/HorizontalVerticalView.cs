@@ -36,7 +36,7 @@ public class HorizontalVerticalView : MonoBehaviour
             setLandscapeSettings();
             if (GlobalVariable.gameState == GlobalVariable.gameState_inGame) // banner reklamýnýn telefon döndürüldüðünde tekrar çaðrýlmasý için kullanýlacak
             {
-                transform.GetComponent<AdMobController>().DestroyBannerAd();
+                transform.GetComponent<AdMobBannerViewController>().DestroyAd();
                 if (BannerRequest != null)
                 {
                     StopCoroutine(BannerRequest);
@@ -51,7 +51,7 @@ public class HorizontalVerticalView : MonoBehaviour
             setPortraitSettings();
             if (GlobalVariable.gameState == GlobalVariable.gameState_inGame) // banner reklamýnýn telefon döndürüldüðünde tekrar çaðrýlmasý için kullanýlacak
             {
-                transform.GetComponent<AdMobController>().DestroyBannerAd();
+                transform.GetComponent<AdMobBannerViewController>().DestroyAd();
                 if (BannerRequest != null)
                 {
                     StopCoroutine(BannerRequest);
@@ -79,7 +79,7 @@ public class HorizontalVerticalView : MonoBehaviour
     IEnumerator RequestBannner()
     {
         yield return new WaitForSeconds(5);
-        transform.GetComponent<AdMobController>().RequestBannerAd();
+        transform.GetComponent<AdMobBannerViewController>().LoadAd();
         BannerRequest = null;
     }
 }

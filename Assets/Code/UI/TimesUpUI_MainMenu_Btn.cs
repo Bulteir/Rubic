@@ -11,6 +11,6 @@ public class TimesUpUI_MainMenu_Btn : MonoBehaviour
     {
         rubicCube.GetComponent<CubeControl>().resetRubicCube();
         GlobalVariable.gameState = GlobalVariable.gameState_MainMenu;
-        GeneralControls.GetComponent<AdMobController>().ShowInterstitialAd();
+        GeneralControls.GetComponent<AdMobInterstitialAdController>().ShowAd();
     }
 }

@@ -124,7 +124,7 @@ public class MenuControl : MonoBehaviour
         int veryEasyJokerQuantity = int.Parse(PlayerPrefs.GetString("VeryEasyJoker"));
         if (easyJokerQuantity == 0 || veryEasyJokerQuantity == 0)
         {
-            transform.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
+            transform.GetComponent<AdMobRewardedAdController>().LoadAd();
         }
 
         if (GlobalVariable.gameState == GlobalVariable.gameState_MainMenu)
@@ -156,7 +156,7 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
-            transform.GetComponent<AdMobController>().RequestBannerAd();
+            transform.GetComponent<AdMobBannerViewController>().LoadAd();
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_PauseMenu)
         {
@@ -267,7 +267,7 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMenuCameraActive();
             CreateMenuCube();
-            transform.GetComponent<AdMobController>().DestroyBannerAd();
+            transform.GetComponent<AdMobBannerViewController>().DestroyAd();
             //sesler ve müzikler
             int music = int.Parse(PlayerPrefs.GetString("Music"));
             if (music == 1)
@@ -289,7 +289,7 @@ public class MenuControl : MonoBehaviour
             int veryEasyJokerQuantity = int.Parse(PlayerPrefs.GetString("VeryEasyJoker"));
             if (easyJokerQuantity == 0 || veryEasyJokerQuantity == 0)
             {
-                transform.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
+                transform.GetComponent<AdMobRewardedAdController>().LoadAd();
             }
         }
         else if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && inGameUIPanel.activeSelf == false)
@@ -305,7 +305,7 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
-            transform.GetComponent<AdMobController>().RequestBannerAd();
+            transform.GetComponent<AdMobBannerViewController>().LoadAd();
             if (menuMusic.isPlaying)
                 menuMusic.Stop();
 
@@ -342,7 +342,7 @@ public class MenuControl : MonoBehaviour
             timesUpUI.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
-            transform.GetComponent<AdMobController>().DestroyBannerAd();
+            transform.GetComponent<AdMobBannerViewController>().DestroyAd();
 
             int music = int.Parse(PlayerPrefs.GetString("Music"));
             if (music == 1)

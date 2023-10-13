@@ -24,7 +24,7 @@ public class PauseMenu_Restart_Btn : MonoBehaviour
             PlayerPrefs.Save();
             solvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = GlobalVariable.defaultSolvingQuantity.ToString();
             if (adIsReady)
-                GeneralControls.GetComponent<AdMobController>().ShowInterstitialAd();
+                GeneralControls.GetComponent<AdMobInterstitialAdController>().ShowAd();
         }
     }
 

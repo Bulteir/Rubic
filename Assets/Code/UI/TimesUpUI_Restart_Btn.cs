@@ -19,6 +19,6 @@ public class TimesUpUI_Restart_Btn : MonoBehaviour
         PlayerPrefs.SetInt("SolvingQuantity", GlobalVariable.defaultSolvingQuantity);
         PlayerPrefs.Save();
         solvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = GlobalVariable.defaultSolvingQuantity.ToString();
-        GeneralControls.GetComponent<AdMobController>().ShowInterstitialAd();
+        GeneralControls.GetComponent<AdMobInterstitialAdController>().ShowAd();
     }
 }

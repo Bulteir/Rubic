@@ -29,8 +29,8 @@ public class NewGameMenu_VeryEasyJoker_Btn : MonoBehaviour
             else if (adIsReady)
             {
                 adIsReady = false;
-                generalControls.GetComponent<AdMobController>().ShowRewardedAd();
-                generalControls.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
+                generalControls.GetComponent<AdMobRewardedAdController>().ShowAd();
+                generalControls.GetComponent<AdMobRewardedAdController>().LoadAd();
             }
             jokerQuantity.GetComponentInChildren<TMPro.TMP_Text>().text = veryEasyJokerQuantity.ToString();
         }
@@ -58,7 +58,7 @@ public class NewGameMenu_VeryEasyJoker_Btn : MonoBehaviour
         yield return new WaitForSeconds(5);
         veryEasyButton.interactable = true;
         GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_idle;
-        generalControls.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
+        generalControls.GetComponent<AdMobRewardedAdController>().LoadAd();
     }
     public void adLoaded()
     {

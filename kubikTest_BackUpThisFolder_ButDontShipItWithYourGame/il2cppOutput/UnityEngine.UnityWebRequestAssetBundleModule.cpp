@@ -11,6 +11,7 @@
 
 
 
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
@@ -32,8 +33,10 @@ struct UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09;
 IL2CPP_EXTERN_C RuntimeClass* DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral0BB65972F14A2F3D2FC2C6B9F0DB6FC90955D868;
 IL2CPP_EXTERN_C String_t* _stringLiteral3781CFEEF925855A4B7284E1783A7D715A6333F6;
 IL2CPP_EXTERN_C String_t* _stringLiteral7332B675802A1BF6F3B744C748D24F45B779C484;
+IL2CPP_EXTERN_C const RuntimeMethod* DownloadHandlerAssetBundle_GetData_m31E29D90C0EA4ACAF65EB86F423464FC46717B25_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DownloadHandlerAssetBundle_GetText_m8E10F95D9293C3406521AD495600762CEC2E88DC_RuntimeMethod_var;
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com;
 struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com;
@@ -41,6 +44,7 @@ struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 struct UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_com;
 
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 
 IL2CPP_EXTERN_C_BEGIN
 IL2CPP_EXTERN_C_END
@@ -55,21 +59,21 @@ struct U3CModuleU3E_tA3EED36B70F256012F5BB9BC014BD75FF7BF2C66
 };
 struct String_t  : public RuntimeObject
 {
-	int32_t ____stringLength_4;
-	Il2CppChar ____firstChar_5;
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
 };
 struct UnityWebRequestAssetBundle_t53F46F7F69F894F1B22F3FBBD2565D7B67A5C6A8  : public RuntimeObject
 {
 };
 struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
 {
-	String_t* ___m_String_16;
-	String_t* ___m_originalUnicodeString_17;
-	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_18;
-	String_t* ___m_DnsSafeHost_19;
-	uint64_t ___m_Flags_20;
-	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_21;
-	bool ___m_iriParsing_22;
+	String_t* ___m_String;
+	String_t* ___m_originalUnicodeString;
+	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax;
+	String_t* ___m_DnsSafeHost;
+	uint64_t ___m_Flags;
+	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info;
+	bool ___m_iriParsing;
 };
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
@@ -82,20 +86,24 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 };
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
-	bool ___m_value_0;
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
 };
 struct Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 
 {
-	uint64_t ___u64_0_0;
-	uint64_t ___u64_1_1;
+	uint64_t ___u64_0;
+	uint64_t ___u64_1;
 };
 struct IntPtr_t 
 {
-	void* ___m_value_0;
+	void* ___m_value;
 };
 struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
 {
-	uint32_t ___m_value_0;
+	uint32_t ___m_value;
 };
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
 {
@@ -109,123 +117,123 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 };
 struct CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91 
 {
-	String_t* ___m_Name_0;
-	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Hash_1;
+	String_t* ___m_Name;
+	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Hash;
 };
 struct CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91_marshaled_pinvoke
 {
-	char* ___m_Name_0;
-	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Hash_1;
+	char* ___m_Name;
+	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Hash;
 };
 struct CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91_marshaled_com
 {
-	Il2CppChar* ___m_Name_0;
-	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Hash_1;
+	Il2CppChar* ___m_Name;
+	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Hash;
 };
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804  : public RuntimeObject
 {
-	intptr_t ___m_Ptr_0;
+	intptr_t ___m_Ptr;
 };
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_pinvoke
 {
-	intptr_t ___m_Ptr_0;
+	intptr_t ___m_Ptr;
 };
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com
 {
-	intptr_t ___m_Ptr_0;
+	intptr_t ___m_Ptr;
 };
 struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB  : public RuntimeObject
 {
-	intptr_t ___m_Ptr_0;
+	intptr_t ___m_Ptr;
 };
 struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_pinvoke
 {
-	intptr_t ___m_Ptr_0;
+	intptr_t ___m_Ptr;
 };
 struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com
 {
-	intptr_t ___m_Ptr_0;
+	intptr_t ___m_Ptr;
 };
 struct Exception_t  : public RuntimeObject
 {
-	String_t* ____className_1;
-	String_t* ____message_2;
-	RuntimeObject* ____data_3;
-	Exception_t* ____innerException_4;
-	String_t* ____helpURL_5;
-	RuntimeObject* ____stackTrace_6;
-	String_t* ____stackTraceString_7;
-	String_t* ____remoteStackTraceString_8;
-	int32_t ____remoteStackIndex_9;
-	RuntimeObject* ____dynamicMethods_10;
-	int32_t ____HResult_11;
-	String_t* ____source_12;
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
-	int32_t ___caught_in_unmanaged_16;
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
 };
 struct Exception_t_marshaled_pinvoke
 {
-	char* ____className_1;
-	char* ____message_2;
-	RuntimeObject* ____data_3;
-	Exception_t_marshaled_pinvoke* ____innerException_4;
-	char* ____helpURL_5;
-	Il2CppIUnknown* ____stackTrace_6;
-	char* ____stackTraceString_7;
-	char* ____remoteStackTraceString_8;
-	int32_t ____remoteStackIndex_9;
-	Il2CppIUnknown* ____dynamicMethods_10;
-	int32_t ____HResult_11;
-	char* ____source_12;
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	Il2CppSafeArray* ___native_trace_ips_15;
-	int32_t ___caught_in_unmanaged_16;
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
 };
 struct Exception_t_marshaled_com
 {
-	Il2CppChar* ____className_1;
-	Il2CppChar* ____message_2;
-	RuntimeObject* ____data_3;
-	Exception_t_marshaled_com* ____innerException_4;
-	Il2CppChar* ____helpURL_5;
-	Il2CppIUnknown* ____stackTrace_6;
-	Il2CppChar* ____stackTraceString_7;
-	Il2CppChar* ____remoteStackTraceString_8;
-	int32_t ____remoteStackIndex_9;
-	Il2CppIUnknown* ____dynamicMethods_10;
-	int32_t ____HResult_11;
-	Il2CppChar* ____source_12;
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	Il2CppSafeArray* ___native_trace_ips_15;
-	int32_t ___caught_in_unmanaged_16;
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
-	intptr_t ___m_CachedPtr_0;
+	intptr_t ___m_CachedPtr;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
 {
-	intptr_t ___m_CachedPtr_0;
+	intptr_t ___m_CachedPtr;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
-	intptr_t ___m_CachedPtr_0;
+	intptr_t ___m_CachedPtr;
 };
 struct UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6  : public RuntimeObject
 {
-	intptr_t ___m_Ptr_0;
+	intptr_t ___m_Ptr;
 };
 struct UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_pinvoke
 {
-	intptr_t ___m_Ptr_0;
+	intptr_t ___m_Ptr;
 };
 struct UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_com
 {
-	intptr_t ___m_Ptr_0;
+	intptr_t ___m_Ptr;
 };
 struct AssetBundle_tB38418819A49060CD738CB21541649340F082943  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -244,81 +252,113 @@ struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Excep
 };
 struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F  : public RuntimeObject
 {
-	intptr_t ___m_Ptr_0;
-	DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* ___m_DownloadHandler_1;
-	UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6* ___m_UploadHandler_2;
-	CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804* ___m_CertificateHandler_3;
-	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri_4;
-	bool ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_11;
-	bool ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_12;
-	bool ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_13;
+	intptr_t ___m_Ptr;
+	DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* ___m_DownloadHandler;
+	UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6* ___m_UploadHandler;
+	CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804* ___m_CertificateHandler;
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri;
+	bool ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField;
+	bool ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField;
+	bool ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField;
 };
 struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_pinvoke
 {
-	intptr_t ___m_Ptr_0;
-	DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_pinvoke ___m_DownloadHandler_1;
-	UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_pinvoke ___m_UploadHandler_2;
-	CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_pinvoke ___m_CertificateHandler_3;
-	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri_4;
-	int32_t ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_11;
-	int32_t ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_12;
-	int32_t ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_13;
+	intptr_t ___m_Ptr;
+	DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_pinvoke ___m_DownloadHandler;
+	UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_pinvoke ___m_UploadHandler;
+	CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_pinvoke ___m_CertificateHandler;
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri;
+	int32_t ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField;
+	int32_t ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField;
+	int32_t ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField;
 };
 struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_com
 {
-	intptr_t ___m_Ptr_0;
-	DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com* ___m_DownloadHandler_1;
-	UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_com* ___m_UploadHandler_2;
-	CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com* ___m_CertificateHandler_3;
-	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri_4;
-	int32_t ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_11;
-	int32_t ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_12;
-	int32_t ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_13;
+	intptr_t ___m_Ptr;
+	DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com* ___m_DownloadHandler;
+	UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_com* ___m_UploadHandler;
+	CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com* ___m_CertificateHandler;
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri;
+	int32_t ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField;
+	int32_t ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField;
+	int32_t ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField;
 };
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 };
 struct String_t_StaticFields
 {
-	String_t* ___Empty_6;
+	String_t* ___Empty;
 };
 struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 {
-	String_t* ___UriSchemeFile_0;
-	String_t* ___UriSchemeFtp_1;
-	String_t* ___UriSchemeGopher_2;
-	String_t* ___UriSchemeHttp_3;
-	String_t* ___UriSchemeHttps_4;
-	String_t* ___UriSchemeWs_5;
-	String_t* ___UriSchemeWss_6;
-	String_t* ___UriSchemeMailto_7;
-	String_t* ___UriSchemeNews_8;
-	String_t* ___UriSchemeNntp_9;
-	String_t* ___UriSchemeNetTcp_10;
-	String_t* ___UriSchemeNetPipe_11;
-	String_t* ___SchemeDelimiter_12;
-	bool ___s_ConfigInitialized_23;
-	bool ___s_ConfigInitializing_24;
-	int32_t ___s_IdnScope_25;
-	bool ___s_IriParsing_26;
-	bool ___useDotNetRelativeOrAbsolute_27;
-	bool ___IsWindowsFileSystem_29;
-	RuntimeObject* ___s_initLock_30;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
+	String_t* ___UriSchemeFile;
+	String_t* ___UriSchemeFtp;
+	String_t* ___UriSchemeGopher;
+	String_t* ___UriSchemeHttp;
+	String_t* ___UriSchemeHttps;
+	String_t* ___UriSchemeWs;
+	String_t* ___UriSchemeWss;
+	String_t* ___UriSchemeMailto;
+	String_t* ___UriSchemeNews;
+	String_t* ___UriSchemeNntp;
+	String_t* ___UriSchemeNetTcp;
+	String_t* ___UriSchemeNetPipe;
+	String_t* ___SchemeDelimiter;
+	bool ___s_ConfigInitialized;
+	bool ___s_ConfigInitializing;
+	int32_t ___s_IdnScope;
+	bool ___s_IriParsing;
+	bool ___useDotNetRelativeOrAbsolute;
+	bool ___IsWindowsFileSystem;
+	RuntimeObject* ___s_initLock;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars;
 };
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
-	String_t* ___TrueString_5;
-	String_t* ___FalseString_6;
+	String_t* ___TrueString;
+	String_t* ___FalseString;
 };
 struct IntPtr_t_StaticFields
 {
-	intptr_t ___Zero_1;
+	intptr_t ___Zero;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
 
 
 
@@ -351,7 +391,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_mE174750CF02
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 57013
+// Method Definition Index: 57518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestAssetBundle_GetAssetBundle_mA08565578A5E7A07140D4C6327FD9B51E14D99F9 (String_t* ___0_uri, const RuntimeMethod* method) 
 {
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* V_0 = NULL;
@@ -369,7 +409,7 @@ IL_000b:
 		return L_2;
 	}
 }
-// Method Definition Index: 57014
+// Method Definition Index: 57519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestAssetBundle_GetAssetBundle_m9045968CDEE1AEF16CA76EFA17061D9D4C21FE30 (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_uri, const RuntimeMethod* method) 
 {
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* V_0 = NULL;
@@ -387,7 +427,7 @@ IL_000b:
 		return L_2;
 	}
 }
-// Method Definition Index: 57015
+// Method Definition Index: 57520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestAssetBundle_GetAssetBundle_m1701951B58D909D4FE4C62B86F4BF86C101DAB6B (String_t* ___0_uri, uint32_t ___1_crc, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -420,7 +460,7 @@ IL_0019:
 		return L_6;
 	}
 }
-// Method Definition Index: 57016
+// Method Definition Index: 57521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestAssetBundle_GetAssetBundle_m6F1692B41861FA9CAD924EDC0D48E94532A002AC (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_uri, uint32_t ___1_crc, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -456,7 +496,7 @@ IL_001e:
 		return L_7;
 	}
 }
-// Method Definition Index: 57017
+// Method Definition Index: 57522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestAssetBundle_GetAssetBundle_m54C9037C71250E352D7A1947E4594C927A4E0925 (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_uri, CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91 ___1_cachedAssetBundle, uint32_t ___2_crc, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -503,33 +543,33 @@ IL_001f:
 #endif
 IL2CPP_EXTERN_C void DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshal_pinvoke(const DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C& unmarshaled, DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshaled_pinvoke& marshaled)
 {
-	marshaled.___m_Ptr_0 = unmarshaled.___m_Ptr_0;
+	marshaled.___m_Ptr = unmarshaled.___m_Ptr;
 }
 IL2CPP_EXTERN_C void DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshal_pinvoke_back(const DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshaled_pinvoke& marshaled, DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C& unmarshaled)
 {
 	intptr_t unmarshaledm_Ptr_temp_0;
 	memset((&unmarshaledm_Ptr_temp_0), 0, sizeof(unmarshaledm_Ptr_temp_0));
-	unmarshaledm_Ptr_temp_0 = marshaled.___m_Ptr_0;
-	unmarshaled.___m_Ptr_0 = unmarshaledm_Ptr_temp_0;
+	unmarshaledm_Ptr_temp_0 = marshaled.___m_Ptr;
+	unmarshaled.___m_Ptr = unmarshaledm_Ptr_temp_0;
 }
 IL2CPP_EXTERN_C void DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshal_pinvoke_cleanup(DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshaled_pinvoke& marshaled)
 {
 }
 IL2CPP_EXTERN_C void DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshal_com(const DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C& unmarshaled, DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshaled_com& marshaled)
 {
-	marshaled.___m_Ptr_0 = unmarshaled.___m_Ptr_0;
+	marshaled.___m_Ptr = unmarshaled.___m_Ptr;
 }
 IL2CPP_EXTERN_C void DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshal_com_back(const DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshaled_com& marshaled, DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C& unmarshaled)
 {
 	intptr_t unmarshaledm_Ptr_temp_0;
 	memset((&unmarshaledm_Ptr_temp_0), 0, sizeof(unmarshaledm_Ptr_temp_0));
-	unmarshaledm_Ptr_temp_0 = marshaled.___m_Ptr_0;
-	unmarshaled.___m_Ptr_0 = unmarshaledm_Ptr_temp_0;
+	unmarshaledm_Ptr_temp_0 = marshaled.___m_Ptr;
+	unmarshaled.___m_Ptr = unmarshaledm_Ptr_temp_0;
 }
 IL2CPP_EXTERN_C void DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshal_com_cleanup(DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 57018
+// Method Definition Index: 57523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAssetBundle_Create_mAE1EAD7D5059AB28C1271055B8010DC7121E61C6 (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* ___0_obj, String_t* ___1_url, uint32_t ___2_crc, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*DownloadHandlerAssetBundle_Create_mAE1EAD7D5059AB28C1271055B8010DC7121E61C6_ftn) (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C*, String_t*, uint32_t);
@@ -539,7 +579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAssetBundle_Create_mA
 	intptr_t icallRetVal = _il2cpp_icall_func(___0_obj, ___1_url, ___2_crc);
 	return icallRetVal;
 }
-// Method Definition Index: 57019
+// Method Definition Index: 57524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAssetBundle_CreateCached_m2223962440CA598D8360BBC6B0C7AB57DAA71C32 (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* ___0_obj, String_t* ___1_url, String_t* ___2_name, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___3_hash, uint32_t ___4_crc, const RuntimeMethod* method) 
 {
 	{
@@ -552,7 +592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAssetBundle_CreateCac
 		return L_4;
 	}
 }
-// Method Definition Index: 57020
+// Method Definition Index: 57525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle_InternalCreateAssetBundle_m563CE0AFADE34C6EC1DDFE3B548880E0194968B0 (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, String_t* ___0_url, uint32_t ___1_crc, const RuntimeMethod* method) 
 {
 	{
@@ -560,11 +600,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle_InternalCreat
 		uint32_t L_1 = ___1_crc;
 		intptr_t L_2;
 		L_2 = DownloadHandlerAssetBundle_Create_mAE1EAD7D5059AB28C1271055B8010DC7121E61C6(__this, L_0, L_1, NULL);
-		((DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB*)__this)->___m_Ptr_0 = L_2;
+		((DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB*)__this)->___m_Ptr = L_2;
 		return;
 	}
 }
-// Method Definition Index: 57021
+// Method Definition Index: 57526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle_InternalCreateAssetBundleCached_m31658EBFF60F6E044DEF618E94332377959B2850 (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, String_t* ___0_url, String_t* ___1_name, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___2_hash, uint32_t ___3_crc, const RuntimeMethod* method) 
 {
 	{
@@ -574,11 +614,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle_InternalCreat
 		uint32_t L_3 = ___3_crc;
 		intptr_t L_4;
 		L_4 = DownloadHandlerAssetBundle_CreateCached_m2223962440CA598D8360BBC6B0C7AB57DAA71C32(__this, L_0, L_1, L_2, L_3, NULL);
-		((DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB*)__this)->___m_Ptr_0 = L_4;
+		((DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB*)__this)->___m_Ptr = L_4;
 		return;
 	}
 }
-// Method Definition Index: 57022
+// Method Definition Index: 57527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle__ctor_m48C37228D1A7F6B0CE2E3D1B65F49FE34DA4069F (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, String_t* ___0_url, uint32_t ___1_crc, const RuntimeMethod* method) 
 {
 	{
@@ -589,7 +629,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle__ctor_m48C372
 		return;
 	}
 }
-// Method Definition Index: 57023
+// Method Definition Index: 57528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle__ctor_mB0E3A11A3124CD8FBA475FC66E7459C78BD003A5 (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, String_t* ___0_url, CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91 ___1_cachedBundle, uint32_t ___2_crc, const RuntimeMethod* method) 
 {
 	{
@@ -604,7 +644,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle__ctor_mB0E3A1
 		return;
 	}
 }
-// Method Definition Index: 57024
+// Method Definition Index: 57529
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* DownloadHandlerAssetBundle_GetData_m31E29D90C0EA4ACAF65EB86F423464FC46717B25 (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0BB65972F14A2F3D2FC2C6B9F0DB6FC90955D868)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DownloadHandlerAssetBundle_GetData_m31E29D90C0EA4ACAF65EB86F423464FC46717B25_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 57530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DownloadHandlerAssetBundle_GetText_m8E10F95D9293C3406521AD495600762CEC2E88DC (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -613,7 +662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DownloadHandlerAssetBundle_GetText_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DownloadHandlerAssetBundle_GetText_m8E10F95D9293C3406521AD495600762CEC2E88DC_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 57025
+// Method Definition Index: 57531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AssetBundle_tB38418819A49060CD738CB21541649340F082943* DownloadHandlerAssetBundle_get_assetBundle_m9D07F738F7014C26AF2B7FD89132FD1CB5DDE0FE (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, const RuntimeMethod* method) 
 {
 	typedef AssetBundle_tB38418819A49060CD738CB21541649340F082943* (*DownloadHandlerAssetBundle_get_assetBundle_m9D07F738F7014C26AF2B7FD89132FD1CB5DDE0FE_ftn) (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C*);
@@ -623,7 +672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AssetBundle_tB38418819A49060CD738CB2154164934
 	AssetBundle_tB38418819A49060CD738CB21541649340F082943* icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
-// Method Definition Index: 57026
+// Method Definition Index: 57532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DownloadHandlerAssetBundle_get_autoLoadAssetBundle_m2639C74CDA9554AD6CB1EC1C7CBD1AAEB8518E2D (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, const RuntimeMethod* method) 
 {
 	typedef bool (*DownloadHandlerAssetBundle_get_autoLoadAssetBundle_m2639C74CDA9554AD6CB1EC1C7CBD1AAEB8518E2D_ftn) (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C*);
@@ -633,7 +682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DownloadHandlerAssetBundle_get_autoLoadA
 	bool icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
-// Method Definition Index: 57027
+// Method Definition Index: 57533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle_set_autoLoadAssetBundle_m33EFE2889EEC8AC2C81066DB7FF415AA315B53AE (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*DownloadHandlerAssetBundle_set_autoLoadAssetBundle_m33EFE2889EEC8AC2C81066DB7FF415AA315B53AE_ftn) (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C*, bool);
@@ -642,7 +691,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle_set_autoLoadA
 	_il2cpp_icall_func = (DownloadHandlerAssetBundle_set_autoLoadAssetBundle_m33EFE2889EEC8AC2C81066DB7FF415AA315B53AE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Networking.DownloadHandlerAssetBundle::set_autoLoadAssetBundle(System.Boolean)");
 	_il2cpp_icall_func(__this, ___0_value);
 }
-// Method Definition Index: 57028
+// Method Definition Index: 57534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DownloadHandlerAssetBundle_get_isDownloadComplete_mBB1BB4E3CE2DD3096D7B7D08D126A7CF5F6E4D9A (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, const RuntimeMethod* method) 
 {
 	typedef bool (*DownloadHandlerAssetBundle_get_isDownloadComplete_mBB1BB4E3CE2DD3096D7B7D08D126A7CF5F6E4D9A_ftn) (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C*);
@@ -652,7 +701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DownloadHandlerAssetBundle_get_isDownloa
 	bool icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
-// Method Definition Index: 57029
+// Method Definition Index: 57535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAssetBundle_CreateCached_Injected_mC703DBCA3F725338364D3E9B37AF916E4272F250 (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* ___0_obj, String_t* ___1_url, String_t* ___2_name, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40* ___3_hash, uint32_t ___4_crc, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*DownloadHandlerAssetBundle_CreateCached_Injected_mC703DBCA3F725338364D3E9B37AF916E4272F250_ftn) (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C*, String_t*, String_t*, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40*, uint32_t);

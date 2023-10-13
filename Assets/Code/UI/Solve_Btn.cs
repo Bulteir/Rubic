@@ -55,13 +55,13 @@ public class Solve_Btn : MonoBehaviour
             }
 
             if (solvingQuantity == 1)//son bir tane hak kalýnca reklam istiyoruz.
-                GeneralControls.GetComponent<AdMobController>().RequestAndLoadRewardedAd();
+            GeneralControls.GetComponent<AdMobRewardedAdController>().LoadAd();
 
         }
         else if (solvingQuantity == 0)
         {
             GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_solve;
-            GeneralControls.GetComponent<AdMobController>().ShowRewardedAd();//Reklamý gösteriyoruz.
+            GeneralControls.GetComponent<AdMobRewardedAdController>().ShowAd();//Reklamý gösteriyoruz.
         }
     }
 

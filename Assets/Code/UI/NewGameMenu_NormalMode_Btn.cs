@@ -20,6 +20,6 @@ public class NewGameMenu_NormalMode_Btn : MonoBehaviour
         RubicCube.GetComponent<CubeControl>().shuffleCube(normalMode_Btn);
         counter.GetComponent<Counter>().isChallengeModeActive = false;
         counter.GetComponent<Counter>().resetCounter();
-        GeneralControls.GetComponent<AdMobController>().RequestAndLoadInterstitialAd();
+        GeneralControls.GetComponent<AdMobInterstitialAdController>().LoadAd();
     }
 }

@@ -463,7 +463,7 @@ public class CubeControl : MonoBehaviour
 
         if (resolvedFace == 6)
         {
-            GeneralControls.GetComponent<AdMobController>().RequestAndLoadInterstitialAd();
+            GeneralControls.GetComponent<AdMobInterstitialAdController>().LoadAd();
             VictoryCelebration();
         }
     }
