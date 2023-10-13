@@ -30,9 +30,9 @@ public class Counter : MonoBehaviour
             hour = ((int)count / 3600) % 24;
 
             if (hour == 0)
-                text.text = string.Format("{0:00}:{1:00}:{2:00}", minute, second, miliSecond);
+                text.text = string.Format("{0:00}:{1:00}:{2:00}", minute, second, (int)miliSecond);
             else
-                text.text = string.Format("{0:00}:{1:00}:{2:00}:{3:00}", hour, minute, second, miliSecond);
+                text.text = string.Format("{0:00}:{1:00}:{2:00}:{3:00}", hour, minute, second, (int)miliSecond);
         }
         else if (isStarted == true && isChallengeModeActive == true && GlobalVariable.gameState == GlobalVariable.gameState_inGame)
         {
@@ -42,9 +42,9 @@ public class Counter : MonoBehaviour
             hour = ((int)count / 3600) % 24;
 
             if (hour == 0)
-                text.text = string.Format("{0:00}:{1:00}:{2:00}", minute, second, miliSecond);
+                text.text = string.Format("{0:00}:{1:00}:{2:00}", minute, second, (int)miliSecond);
             else
-                text.text = string.Format("{0:00}:{1:00}:{2:00}:{3:00}", hour, minute, second, miliSecond);
+                text.text = string.Format("{0:00}:{1:00}:{2:00}:{3:00}", hour, minute, second, (int)miliSecond);
             count -= Time.deltaTime;
             if (count < 0)
             {
