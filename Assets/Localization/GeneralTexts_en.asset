@@ -150,6 +150,14 @@ MonoBehaviour:
     m_Localized: Name
     m_Metadata:
       m_Items: []
+  - m_Id: 172127872003211264
+    m_Localized: Enter Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172132179427590144
+    m_Localized: Change User Name
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

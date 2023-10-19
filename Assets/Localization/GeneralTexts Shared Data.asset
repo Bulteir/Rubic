@@ -147,6 +147,14 @@ MonoBehaviour:
     m_Key: Name
     m_Metadata:
       m_Items: []
+  - m_Id: 172127872003211264
+    m_Key: EnterText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172132179427590144
+    m_Key: ChangeUserNameInfo
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

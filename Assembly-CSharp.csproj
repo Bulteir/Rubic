@@ -90,6 +90,7 @@
     <Compile Include="Assets\Code\UI\SettingMenu_Quality_Dropdown.cs" />
     <Compile Include="Assets\Code\UI\NewGameMenu_Back_Btn.cs" />
     <Compile Include="Assets\Code\UI\Settings_Btn.cs" />
+    <Compile Include="Assets\Code\UI\SettingMenu_UserNameChangeConfirm_Btn.cs" />
     <Compile Include="Assets\Code\UI\PauseMenu_Continue_Btn.cs" />
     <Compile Include="Assets\Code\UI\LeaderboardMenu_Back_Btn.cs" />
     <Compile Include="Assets\Code\AdMob\AdMobBannerViewController.cs" />
