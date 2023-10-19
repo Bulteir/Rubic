@@ -18,6 +18,8 @@ public static class GlobalVariable
     public const int gameState_Victory = 5;
     public const int gameState_NewGameMenu = 6;
     public const int gameState_TimesUp = 7;
+    public const int gameState_LeaderboardMenu = 8;
+
     public const int defaultSolvingQuantity = 5;
 
     public static int rewardAdState = rewardAdState_idle;
@@ -35,4 +37,7 @@ public static class GlobalVariable
     public static int soundEffectState = soundEffect_On;
     public const int soundEffect_Off = 0;
     public const int soundEffect_On = 1;
+
+    public const string LeaderboardId_BestTime = "BestTimeMonthly";
+    public static bool internetAvaible = true;
 }

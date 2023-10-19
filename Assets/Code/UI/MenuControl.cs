@@ -16,6 +16,7 @@ public class MenuControl : MonoBehaviour
     public GameObject mainMenuPanel;
     public GameObject pauseMenuPanel;
     public GameObject bestTimePanel;
+    public GameObject leaderboardPanel;
     public GameObject inGameUIPanel;
     public GameObject settingsPanel;
     public GameObject counterPanel;
@@ -138,6 +139,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMenuCameraActive();
             int music = int.Parse(PlayerPrefs.GetString("Music"));
             if (music == 1)
@@ -154,6 +156,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
             transform.GetComponent<AdMobBannerViewController>().LoadAd();
@@ -169,6 +172,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
         }
@@ -183,6 +187,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(true);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
         }
@@ -197,6 +202,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMenuCameraActive();
             DestroyMenuCube();
         }
@@ -211,6 +217,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMenuCameraActive();
             DestroyMenuCube();
         }
@@ -225,6 +232,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(true);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMenuCameraActive();
             DestroyMenuCube();
         }
@@ -239,6 +247,22 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(true);
+            leaderboardPanel.SetActive(false);
+            SetMainCameraActive();
+            DestroyMenuCube();
+        }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_LeaderboardMenu)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(false);
+            bestTimePanel.SetActive(false);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(true);
             SetMainCameraActive();
             DestroyMenuCube();
         }
@@ -265,6 +289,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMenuCameraActive();
             CreateMenuCube();
             transform.GetComponent<AdMobBannerViewController>().DestroyAd();
@@ -303,6 +328,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
             transform.GetComponent<AdMobBannerViewController>().LoadAd();
@@ -340,6 +366,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
             transform.GetComponent<AdMobBannerViewController>().DestroyAd();
@@ -371,6 +398,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(true);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMainCameraActive();
             DestroyMenuCube();
             if (menuMusic.isPlaying)
@@ -399,6 +427,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMenuCameraActive();
             DestroyMenuCube();
 
@@ -428,6 +457,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMenuCameraActive();
             DestroyMenuCube();
             int music = int.Parse(PlayerPrefs.GetString("Music"));
@@ -456,6 +486,7 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(true);
             timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(false);
             SetMenuCameraActive();
             DestroyMenuCube();
             int music = int.Parse(PlayerPrefs.GetString("Music"));
@@ -484,6 +515,36 @@ public class MenuControl : MonoBehaviour
             victoryUIPanel.SetActive(false);
             newGameMenuPanel.SetActive(false);
             timesUpUI.SetActive(true);
+            leaderboardPanel.SetActive(false);
+            SetMainCameraActive();
+            DestroyMenuCube();
+            if (menuMusic.isPlaying)
+                menuMusic.Stop();
+            if (normalModeMusic.isPlaying)
+                normalModeMusic.Stop();
+            if (challengeModeMusic.isPlaying)
+                challengeModeMusic.Stop();
+            if (appleuse.isPlaying)
+                appleuse.Stop();
+            int soundEffect = int.Parse(PlayerPrefs.GetString("SoundEffect"));
+            if (soundEffect == 1)
+            {
+                if (!timesUp.isPlaying)
+                    timesUp.Play();
+            }
+        }
+        else if (GlobalVariable.gameState == GlobalVariable.gameState_LeaderboardMenu && leaderboardPanel.activeSelf == false)
+        {
+            inGameUIPanel.SetActive(false);
+            mainMenuPanel.SetActive(false);
+            pauseMenuPanel.SetActive(false);
+            settingsPanel.SetActive(false);
+            bestTimePanel.SetActive(false);
+            counterPanel.SetActive(false);
+            victoryUIPanel.SetActive(false);
+            newGameMenuPanel.SetActive(false);
+            timesUpUI.SetActive(false);
+            leaderboardPanel.SetActive(true);
             SetMainCameraActive();
             DestroyMenuCube();
             if (menuMusic.isPlaying)

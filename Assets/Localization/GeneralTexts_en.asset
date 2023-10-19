@@ -130,6 +130,26 @@ MonoBehaviour:
     m_Localized: Very Easy
     m_Metadata:
       m_Items: []
+  - m_Id: 171152258383347712
+    m_Localized: Leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171461845925888000
+    m_Localized: Total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172037271698145280
+    m_Localized: Monthly Leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172072201979297792
+    m_Localized: Rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172072361199271936
+    m_Localized: Name
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

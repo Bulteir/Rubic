@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\Code\UI\MenuControl.cs" />
     <Compile Include="Assets\Code\UI\SettingsMenu_Music_Btn.cs" />
+    <Compile Include="Assets\Code\InternetAvailabilityController.cs" />
     <Compile Include="Assets\Code\UI\Solve_Btn.cs" />
     <Compile Include="Assets\Code\UI\NewGameMenu_VeryEasyJoker_Btn.cs" />
     <Compile Include="Assets\Code\UI\SettingsMenu_Language_Dropdown.cs" />
@@ -84,11 +85,13 @@
     <Compile Include="Assets\Code\AdMob\AdMobControllerSKD8.cs" />
     <Compile Include="Assets\Code\UI\SettingsMenu_DeleteBestTimes_Btn.cs" />
     <Compile Include="Assets\Code\UI\SettingsMenu_SoundEffect_Btn.cs" />
+    <Compile Include="Assets\Code\UI\LeaderboardMenu_Btn.cs" />
     <Compile Include="Assets\Code\UI\NewGameMenu_NormalMode_Btn.cs" />
     <Compile Include="Assets\Code\UI\SettingMenu_Quality_Dropdown.cs" />
     <Compile Include="Assets\Code\UI\NewGameMenu_Back_Btn.cs" />
     <Compile Include="Assets\Code\UI\Settings_Btn.cs" />
     <Compile Include="Assets\Code\UI\PauseMenu_Continue_Btn.cs" />
+    <Compile Include="Assets\Code\UI\LeaderboardMenu_Back_Btn.cs" />
     <Compile Include="Assets\Code\AdMob\AdMobBannerViewController.cs" />
     <Compile Include="Assets\Code\Kociemba\K_Search.cs" />
     <Compile Include="Assets\Code\Kociemba\K_CubieCube.cs" />
@@ -102,6 +105,7 @@
     <Compile Include="Assets\Code\UI\Counter.cs" />
     <Compile Include="Assets\Code\UI\PauseMenu_MainMenu_Btn.cs" />
     <Compile Include="Assets\Code\AdMob\AdMobInterstitialAdController.cs" />
+    <Compile Include="Assets\Code\LeaderboardController.cs" />
     <Compile Include="Assets\Code\AdMob\AdMobUMPController.cs" />
     <Compile Include="Assets\Code\SearchStringHelper.cs" />
     <Compile Include="Assets\Code\UI\TimesUpUI_MainMenu_Btn.cs" />
@@ -792,38 +796,71 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>E:\Program Files\Unity Hub\Editor\2022.3.10f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Advertisement.IosSupport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Advertisement.IosSupport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Localization.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Localization.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Advertisement.IosSupport">
       <HintPath>Library\ScriptAssemblies\Unity.Advertisement.IosSupport.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Advertisement.IosSupport.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Advertisement.IosSupport.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ResourceManager">
-      <HintPath>Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline">
-      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Localization">
       <HintPath>Library\ScriptAssemblies\Unity.Localization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Localization.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Localization.Editor.dll</HintPath>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -834,17 +871,8 @@
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
@@ -852,32 +880,23 @@
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Addressables.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Services.Authentication">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Authentication.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -885,17 +904,28 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Leaderboards">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Leaderboards.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Leaderboards.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Leaderboards.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Addressables">
       <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="LeanTransition.csproj">
+      <Project>{F6A9B77F-9856-08BB-ECF8-52425429F1C2}</Project>
+      <Name>LeanTransition</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{CF1E3F1A-7615-05B3-AF82-C7A223759316}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="LeanTransition.Editor.csproj">
       <Project>{A3FD5D6D-3189-7882-43CA-2975518AE733}</Project>
       <Name>LeanTransition.Editor</Name>
@@ -904,10 +934,6 @@
       <Project>{63AB6121-90F2-2BDA-E1F8-79A0679C10BF}</Project>
       <Name>LeanGUI</Name>
     </ProjectReference>
-    <ProjectReference Include="LeanTransition.csproj">
-      <Project>{F6A9B77F-9856-08BB-ECF8-52425429F1C2}</Project>
-      <Name>LeanTransition</Name>
-    </ProjectReference>
     <ProjectReference Include="CW.Common.csproj">
       <Project>{996E5994-96DE-0C62-19F5-C976C598911F}</Project>
       <Name>CW.Common</Name>
@@ -915,10 +941,6 @@
     <ProjectReference Include="GoogleMobileAds.Editor.csproj">
       <Project>{FEDE59F0-7864-1B7E-8A3C-BB3EF09C8323}</Project>
       <Name>GoogleMobileAds.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="LeanCommon.csproj">
-      <Project>{CF1E3F1A-7615-05B3-AF82-C7A223759316}</Project>
-      <Name>LeanCommon</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

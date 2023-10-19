@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Localization.Settings;
 using System;
+using UnityEditor.Localization.Plugins.XLIFF.Common;
+using UnityEditor.Localization.Plugins.XLIFF.V12;
 
 public class CubeControl : MonoBehaviour
 {
@@ -492,12 +494,35 @@ public class CubeControl : MonoBehaviour
             SaveBestTime(bestTime, resolveMoves);
             GlobalVariable.gameState = GlobalVariable.gameState_Victory;
         }
-        else
+        else //normal mod
         {
             victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
                 LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
                 LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
 
+            int totalMiliSecond = 0;
+            //sayacý mili saniyeye dönüþtürüp o þekilde kaydediyoruz.
+            string [] times = counter.GetComponent<TMP_Text>().text.Split(':');
+            if (times.Length > 3)//sayaçta saat vardýr
+            {
+                totalMiliSecond += Int32.Parse(times[0]) * 3600 * 100; // saat
+                totalMiliSecond += Int32.Parse(times[1]) * 60*100; // dakika
+                totalMiliSecond += Int32.Parse(times[2]) * 100; //saniye
+                totalMiliSecond += Int32.Parse(times[3]); //milisaniye
+            }
+            else // sayaçta milisaniye,saniye, dakika vardýr.
+            {
+                totalMiliSecond += Int32.Parse(times[0]) * 60*100; // dakika
+                totalMiliSecond += Int32.Parse(times[1]) * 100; // saniye
+                totalMiliSecond += Int32.Parse(times[2]); //milisaniye
+            }
+
+            double score = totalMiliSecond + (resolveMoves * 0.001);
+
+            if (shuffleStepCount > 10)//joker kullanýlmamýþtýr. Joker kullanýmýndan kaynaklý çok düþük süreleri eklemeyelim.
+            {
+                GeneralControls.GetComponent<LeaderboardController>().AddScore(score);
+            }
             SaveBestTime(counter.GetComponent<TMP_Text>().text, resolveMoves);
             GlobalVariable.gameState = GlobalVariable.gameState_Victory;
         }
