@@ -4,6 +4,7 @@ using UnityEngine;
 using Kociemba;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Localization.Settings;
 //using GoogleMobileAds.Api;
 //using GoogleMobileAds.Common;
 
@@ -18,6 +19,7 @@ public class Solve_Btn : MonoBehaviour
     public bool isDoubleSolvingStep = false;
     public Button SolvingQuantity_Btn;
     public GameObject GeneralControls;
+    public GameObject Counter;
 
     //küpümüzün up=> beyaz
     //küpümüzün front=> mavi
@@ -31,17 +33,11 @@ public class Solve_Btn : MonoBehaviour
     {
         rubicCube.parent.GetComponent<CubeCameraControl>().isEnteredSolveButton = true;
 
-        int solvingQuantity = PlayerPrefs.GetInt("SolvingQuantity");
-
-        if (rubicCube.GetComponent<CubeControl>().isRotateStarted == false && solvingQuantity > 0)
+        if (PlayerPrefs.GetString("NoAdsActive") == "1" && rubicCube.GetComponent<CubeControl>().isRotateStarted == false)
         {
             solve_Btn.interactable = false;
             isSolvingStepActive = true;
             SetSolvingQuantityBtnInteractable(false);
-            solvingQuantity--;
-            PlayerPrefs.SetInt("SolvingQuantity", solvingQuantity);
-            PlayerPrefs.Save();
-            SolvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = solvingQuantity.ToString();
 
             string solution = getSolution();
             if (solution.Contains("Error"))
@@ -53,15 +49,45 @@ public class Solve_Btn : MonoBehaviour
             {
                 rubicCube.GetComponent<CubeControl>().rotateAndFixCubeForKociembaStart(faceDetectors, transform);
             }
-
-            if (solvingQuantity == 1)//son bir tane hak kalýnca reklam istiyoruz.
-            GeneralControls.GetComponent<AdMobRewardedAdController>().LoadAd();
-
+            AddTimeToCounter();
         }
-        else if (solvingQuantity == 0)
+        else
         {
-            GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_solve;
-            GeneralControls.GetComponent<AdMobRewardedAdController>().ShowAd();//Reklamý gösteriyoruz.
+            int solvingQuantity = PlayerPrefs.GetInt("SolvingQuantity");
+
+            if (rubicCube.GetComponent<CubeControl>().isRotateStarted == false && solvingQuantity > 0)
+            {
+                solve_Btn.interactable = false;
+                isSolvingStepActive = true;
+                SetSolvingQuantityBtnInteractable(false);
+                solvingQuantity--;
+                PlayerPrefs.SetInt("SolvingQuantity", solvingQuantity);
+                PlayerPrefs.Save();
+                SolvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = solvingQuantity.ToString();
+
+                string solution = getSolution();
+                if (solution.Contains("Error"))
+                {
+                    PlayerPrefs.DeleteKey("Solution");
+                    StartCoroutine(shuffleOneStepForEveryTouch(solution));
+                }
+                else
+                {
+                    rubicCube.GetComponent<CubeControl>().rotateAndFixCubeForKociembaStart(faceDetectors, transform);
+                }
+
+                if (solvingQuantity == 1)//son bir tane hak kalýnca reklam istiyoruz.
+                {
+                    GeneralControls.GetComponent<AdMobRewardedAdController>().LoadAd();             
+                }
+                AddTimeToCounter();
+
+            }
+            else if (solvingQuantity == 0)
+            {
+                GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_solve;
+                GeneralControls.GetComponent<AdMobRewardedAdController>().ShowAd();//Reklamý gösteriyoruz.
+            }
         }
     }
 
@@ -73,6 +99,8 @@ public class Solve_Btn : MonoBehaviour
         yield return new WaitUntil(() => rubicCube.GetComponent<CubeControl>().isRotateStarted == false);
         solution = getSolution();
         rubicCube.GetComponent<CubeControl>().shuffleStepCount = orjinalShuffleCount;
+        rubicCube.GetComponent<CubeControl>().resolveMoves++;
+        rubicCube.GetComponent<CubeControl>().Moves.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + rubicCube.GetComponent<CubeControl>().resolveMoves;
     }
 
     public string getSolution()
@@ -88,11 +116,11 @@ public class Solve_Btn : MonoBehaviour
         return solution;
     }
 
-    public void SetSolvingQuantityBtnInteractable (bool interactable)
+    public void SetSolvingQuantityBtnInteractable(bool interactable)
     {
-        if(interactable)
+        if (interactable)
         {
-            SolvingQuantity_Btn.image.color = new Color(255f/255f, 0, 0, 255f/255f);
+            SolvingQuantity_Btn.image.color = new Color(255f / 255f, 0, 0, 255f / 255f);
             solve_Btn_Text.GetComponent<TMP_Text>().color = new Color(255f / 255f, 255f / 255f, 255f / 255f, 255f / 255f);
         }
         else
@@ -104,7 +132,7 @@ public class Solve_Btn : MonoBehaviour
 
     public void SuccesedRewardedAd()
     {
-        if(GlobalVariable.rewardAdState == GlobalVariable.rewardAdState_solve)
+        if (GlobalVariable.rewardAdState == GlobalVariable.rewardAdState_solve)
         {
             int solvingQuantity = PlayerPrefs.GetInt("SolvingQuantity");
             solvingQuantity = GlobalVariable.defaultSolvingQuantity;
@@ -112,5 +140,17 @@ public class Solve_Btn : MonoBehaviour
             PlayerPrefs.Save();
             SolvingQuantity_Btn.GetComponentInChildren<TMP_Text>().text = solvingQuantity.ToString();
         }
+    }
+
+    //özellikle no ads eþyasý alýnýnca ipucu butonuna seri þekilde basýlmasý ile rubik küp hýzlý bir þekilde çözülebiliyor. Bu da leaderboardda hile gibi oluyor.
+    //Bunu engellemek için ipucu butonuna basýldýðýnda sayaca 30 saniye ekleyelim.
+    void AddTimeToCounter()
+    {
+        if (Counter.GetComponent<Counter>().isChallengeModeActive == false)
+        {
+            //30 saniye
+            Counter.GetComponent<Counter>().count += 30;
+        }
+
     }
 }

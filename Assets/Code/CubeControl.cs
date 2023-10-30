@@ -5,8 +5,6 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Localization.Settings;
 using System;
-using UnityEditor.Localization.Plugins.XLIFF.Common;
-using UnityEditor.Localization.Plugins.XLIFF.V12;
 
 public class CubeControl : MonoBehaviour
 {
@@ -465,7 +463,10 @@ public class CubeControl : MonoBehaviour
 
         if (resolvedFace == 6)
         {
-            GeneralControls.GetComponent<AdMobInterstitialAdController>().LoadAd();
+            if (PlayerPrefs.GetString("NoAdsActive") != "1")
+            {
+                GeneralControls.GetComponent<AdMobInterstitialAdController>().LoadAd();
+            }
             VictoryCelebration();
         }
     }

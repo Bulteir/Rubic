@@ -155,6 +155,30 @@ MonoBehaviour:
     m_Key: ChangeUserNameInfo
     m_Metadata:
       m_Items: []
+  - m_Id: 172483892982448128
+    m_Key: Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172491486270717952
+    m_Key: IAP_joker_easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172492649556738048
+    m_Key: IAP_joker_very_easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172492770201698304
+    m_Key: IAP_no_ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172492805547098112
+    m_Key: IAP_increase_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173953351924449280
+    m_Key: Restore Purchase
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -115,8 +115,6 @@ struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
 struct FingerU5BU5D_tB9DD3197CFB643A5397B3C530FC3D15D708A6F70;
 struct ShaderVariantU5BU5D_tAF687F033CF4A9649E81F2EC3648FB651C203E19;
 struct StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2;
-struct FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A;
-struct MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713;
 struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F;
 struct BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1;
 struct BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832;
@@ -178,7 +176,7 @@ struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 struct Type_t;
 struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
-struct UnitySourceGeneratedAssemblyMonoScriptTypes_t0825C65CF93BCA1AF6CF45054C0DA0AAFF2D5DF4;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t1990F9DB75D9972442F3921AC9EE23EADAC41438;
 struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
@@ -188,12 +186,13 @@ struct Link_t3E237FC972997681510F43C6555571385C91BE05;
 struct ShaderVariant_t6769B81CC1796DDA824E49C12E3E8E9A6D5CB1F2;
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24;
-struct MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_2_t8E07914D7090FF200FE84404EEEFAF3CE183C9F3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var;
@@ -202,7 +201,6 @@ IL2CPP_EXTERN_C RuntimeClass* CwInputManager_t92456D41A22047264E18E84F135DB75F3E
 IL2CPP_EXTERN_C RuntimeClass* CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var;
@@ -217,7 +215,6 @@ IL2CPP_EXTERN_C RuntimeClass* List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C_i
 IL2CPP_EXTERN_C RuntimeClass* List_1_tC680578DF5BE74D065C4E2D69136193826885358_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
@@ -232,63 +229,18 @@ IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C String_t* _stringLiteral002D55A2DA6D060AB076D19BCC6390E5A529AAD7;
-IL2CPP_EXTERN_C String_t* _stringLiteral1019711E3F3E65281C7DCC666453C7CDAFB11638;
-IL2CPP_EXTERN_C String_t* _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tFD27DF8533BFF626B9D00B2AAA69EB68C7ED841F____2F3FE4E5C7A2C84B2D4055DAD3F804AC74C8E6BAC6B3827C0F4EAC5E2B551479_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tFD27DF8533BFF626B9D00B2AAA69EB68C7ED841F____E41E38A0011F577A5BF4FD01A4DF553F8FDC95A396FBB4C52E1835E02C6211B5_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral18CB9DCCBE4C6D07F0E9FEB150B09A9AE69921E7;
-IL2CPP_EXTERN_C String_t* _stringLiteral1BEB5ACBD9424E58A24FDC398F6914C86F153085;
-IL2CPP_EXTERN_C String_t* _stringLiteral1E4B09E606D487EA195F25164B80225116748ACE;
-IL2CPP_EXTERN_C String_t* _stringLiteral2811C9B7A89DA5BD10AE6CB10251580AD3DC1259;
-IL2CPP_EXTERN_C String_t* _stringLiteral281E2A04791ECDA45ACFCF6E56B11C2225282A91;
 IL2CPP_EXTERN_C String_t* _stringLiteral2D4198942C13D7ECBA4C8E0C0BFB5C51204A710D;
-IL2CPP_EXTERN_C String_t* _stringLiteral3079CD1845D0AF30699A12057A08B046AF4DD71A;
-IL2CPP_EXTERN_C String_t* _stringLiteral33A97454BC999DFA1C25069CA8E1CD07461FD6AB;
-IL2CPP_EXTERN_C String_t* _stringLiteral3488C6FBFA1EC7F3EFF35C0FDD4D395E17D5061C;
-IL2CPP_EXTERN_C String_t* _stringLiteral3DC211E48DBB5405961639BA7048C716300CFFCA;
-IL2CPP_EXTERN_C String_t* _stringLiteral42B64D31FDC9935EE88C3FB6C87ECB291581C5BB;
-IL2CPP_EXTERN_C String_t* _stringLiteral4C53ACF13A1071E762E7687CB5D0D2038A14D7CE;
-IL2CPP_EXTERN_C String_t* _stringLiteral4C813942569725040C63A1A3B0E4D9C5C78B6977;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E911FAC2FACF1A59F259BF1BA9A057B95AFE630;
 IL2CPP_EXTERN_C String_t* _stringLiteral51CBDF1AF6B79F813F7DD92FE05A6534E5F9A75F;
-IL2CPP_EXTERN_C String_t* _stringLiteral56EA2DF7F25218676D96986D18EF181A2B34838E;
 IL2CPP_EXTERN_C String_t* _stringLiteral60D7303A8BF0AE95E631B05826EE533A93F3D62E;
-IL2CPP_EXTERN_C String_t* _stringLiteral62DB97828DCE03220B3EDC71A9342D0E450E9B9F;
-IL2CPP_EXTERN_C String_t* _stringLiteral639535E21C9AC3F65571D92EDD0AE42DB83D5B6C;
 IL2CPP_EXTERN_C String_t* _stringLiteral64056F676276236BDF448145DA92C1E5FD112B5E;
-IL2CPP_EXTERN_C String_t* _stringLiteral68B26AAE4AAB5C41546C8C7837C46D092AD54438;
-IL2CPP_EXTERN_C String_t* _stringLiteral73F32405D11F9BCB3CFBAD74C0D49CC826052004;
-IL2CPP_EXTERN_C String_t* _stringLiteral7400FB1CE91FFF7C81580718BF0DA7C1DEEE0DDE;
 IL2CPP_EXTERN_C String_t* _stringLiteral75DFD766D995E2CBB4A75B2EC72629FE2B24A238;
-IL2CPP_EXTERN_C String_t* _stringLiteral76A7FE14968C81FC820BDCE893157BFB41A6BA38;
-IL2CPP_EXTERN_C String_t* _stringLiteral79FF8D9F44F48C504500C2E884BBEA20A8D67EE7;
-IL2CPP_EXTERN_C String_t* _stringLiteral8089EA66292BBF5D0383822E7607FCE33106A4E0;
-IL2CPP_EXTERN_C String_t* _stringLiteral833198D2EFC27F185EFE244DD1DE72CF9CB2D5ED;
-IL2CPP_EXTERN_C String_t* _stringLiteral8F13D769F67C3EA2097B88C206FD20C2811236BF;
-IL2CPP_EXTERN_C String_t* _stringLiteral940F7267BE340B7952FC8FC4FDAFF181408C9CE7;
-IL2CPP_EXTERN_C String_t* _stringLiteral9497461573B49D46E5EBFC7DA4B4AC43FA35E88D;
-IL2CPP_EXTERN_C String_t* _stringLiteral9B6256751B1F153BA79A289328078A1526E3C8B7;
-IL2CPP_EXTERN_C String_t* _stringLiteral9F9595154F680437DECB0E1AF9CF297C3928A1A7;
-IL2CPP_EXTERN_C String_t* _stringLiteralB85E78C75EF1A6F636689BD88A9D6C2A3B2B0A1B;
 IL2CPP_EXTERN_C String_t* _stringLiteralC1D19615EC4094F2C6E7D12448A74C558353F82C;
 IL2CPP_EXTERN_C String_t* _stringLiteralC2C868D2A91533BB109F1C341D64973B6E35E98A;
-IL2CPP_EXTERN_C String_t* _stringLiteralC4E214B19F4C8AA260BEC8E904D1DE02F83DA1E8;
-IL2CPP_EXTERN_C String_t* _stringLiteralC7B4B4EC3AEFC8E1FC240EAAB6CC77E291870133;
-IL2CPP_EXTERN_C String_t* _stringLiteralC92FE95A98ED5D34B96484CC6744DEB694BB1064;
-IL2CPP_EXTERN_C String_t* _stringLiteralCF1BF7FD74D31DE93504A3DC8B3567D0FFBF14AE;
-IL2CPP_EXTERN_C String_t* _stringLiteralD8C0BA26F422F19C0E7C3E356143EEC6DCD0C6DE;
-IL2CPP_EXTERN_C String_t* _stringLiteralDA7B24E5FA9742F0E7CD5ABCA590B4A853C93548;
-IL2CPP_EXTERN_C String_t* _stringLiteralDEC387E8714B21FC2E8CC1370FB9B3B18F5DC5FC;
-IL2CPP_EXTERN_C String_t* _stringLiteralE6285E454F5F53DC146612CC00F1FE071ADDDBEF;
-IL2CPP_EXTERN_C String_t* _stringLiteralE8394D7E8C0BFB263C568CA5C97CCE84A1C5566E;
-IL2CPP_EXTERN_C String_t* _stringLiteralEB573DEBF88301CF57571FEDF367EB5C6161D6A9;
 IL2CPP_EXTERN_C String_t* _stringLiteralEBE8F6847C314C91BB3146DCB16C31E2EF0920BA;
-IL2CPP_EXTERN_C String_t* _stringLiteralED379DD5A01FD76C66A11FA46BDC000F811E32FF;
-IL2CPP_EXTERN_C String_t* _stringLiteralEE71910C7E19B0D89B96AF6011CDFDAF6EA1CF1C;
-IL2CPP_EXTERN_C String_t* _stringLiteralF01B3F65981BD5345CDFBA0817B54BE384C2A598;
-IL2CPP_EXTERN_C String_t* _stringLiteralF45475005DAC4B00E010D324B7652468761DEB66;
-IL2CPP_EXTERN_C String_t* _stringLiteralF4EC1703F3E60EDBAA05BC1E54B2F3A7933A3E48;
-IL2CPP_EXTERN_C String_t* _stringLiteralF794DCEB7ADE5AC612D14F140F19FAB755AE4F54;
-IL2CPP_EXTERN_C String_t* _stringLiteralF79C38394181F8A161156663CB6003FCA58D6052;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9_RuntimeMethod_var;
@@ -351,19 +303,12 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__11_3_m687D07F0122D16
 IL2CPP_EXTERN_C const RuntimeType* CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
-struct MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3;;
-struct MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_com;
-struct MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_com;;
-struct MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_pinvoke;
-struct MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_pinvoke;;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct CwDemoButtonBuilderU5BU5D_tF5E59AFE67CDAF29D2B82A85203E530DB017FF51;
 struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7;
-struct FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A;
-struct MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713;
 
 IL2CPP_EXTERN_C_BEGIN
 IL2CPP_EXTERN_C_END
@@ -378,84 +323,87 @@ struct U3CModuleU3E_t6E3670869A5521727E3BA92C232064BD208D99D7
 };
 struct List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514  : public RuntimeObject
 {
-	CwRootU5BU5D_t956957F93CC79431DD243233FFC6160A945DB7BC* ____items_1;
-	int32_t ____size_2;
-	int32_t ____version_3;
-	RuntimeObject* ____syncRoot_4;
+	CwRootU5BU5D_t956957F93CC79431DD243233FFC6160A945DB7BC* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B  : public RuntimeObject
 {
-	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ____items_1;
-	int32_t ____size_2;
-	int32_t ____version_3;
-	RuntimeObject* ____syncRoot_4;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C  : public RuntimeObject
 {
-	MaterialPropertyBlockU5BU5D_t6911DDC471FC23F2AF58FF0140ED595529EC5F5B* ____items_1;
-	int32_t ____size_2;
-	int32_t ____version_3;
-	RuntimeObject* ____syncRoot_4;
+	MaterialPropertyBlockU5BU5D_t6911DDC471FC23F2AF58FF0140ED595529EC5F5B* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 {
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items_1;
-	int32_t ____size_2;
-	int32_t ____version_3;
-	RuntimeObject* ____syncRoot_4;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct List_1_t8292C421BBB00D7661DC07462822936152BAB446  : public RuntimeObject
 {
-	RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7* ____items_1;
-	int32_t ____size_2;
-	int32_t ____version_3;
-	RuntimeObject* ____syncRoot_4;
+	RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782  : public RuntimeObject
 {
-	FingerU5BU5D_tB9DD3197CFB643A5397B3C530FC3D15D708A6F70* ____items_1;
-	int32_t ____size_2;
-	int32_t ____version_3;
-	RuntimeObject* ____syncRoot_4;
+	FingerU5BU5D_tB9DD3197CFB643A5397B3C530FC3D15D708A6F70* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct List_1_tC680578DF5BE74D065C4E2D69136193826885358  : public RuntimeObject
 {
-	ShaderVariantU5BU5D_tAF687F033CF4A9649E81F2EC3648FB651C203E19* ____items_1;
-	int32_t ____size_2;
-	int32_t ____version_3;
-	RuntimeObject* ____syncRoot_4;
+	ShaderVariantU5BU5D_tAF687F033CF4A9649E81F2EC3648FB651C203E19* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5  : public RuntimeObject
 {
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____array_0;
-	int32_t ____size_1;
-	int32_t ____version_2;
-	RuntimeObject* ____syncRoot_3;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____array;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct Stack_1_t4F59A5B1750539B0DD1D273213DCD86BF7E7B24F  : public RuntimeObject
 {
-	RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* ____array_0;
-	int32_t ____size_1;
-	int32_t ____version_2;
-	RuntimeObject* ____syncRoot_3;
+	RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* ____array;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B  : public RuntimeObject
 {
-	FingerU5BU5D_tB9DD3197CFB643A5397B3C530FC3D15D708A6F70* ____array_0;
-	int32_t ____size_1;
-	int32_t ____version_2;
-	RuntimeObject* ____syncRoot_3;
+	FingerU5BU5D_tB9DD3197CFB643A5397B3C530FC3D15D708A6F70* ____array;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct Stack_1_tF66BF0D229FF13394778E80C8E92796D62188D68  : public RuntimeObject
 {
-	StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* ____array_0;
-	int32_t ____size_1;
-	int32_t ____version_2;
-	RuntimeObject* ____syncRoot_3;
+	StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* ____array;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_tFD27DF8533BFF626B9D00B2AAA69EB68C7ED841F  : public RuntimeObject
+{
 };
 struct AbstractEventData_tAE1A127ED657117548181D29FFE4B1B14D8E67F7  : public RuntimeObject
 {
-	bool ___m_Used_0;
+	bool ___m_Used;
 };
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
 {
@@ -474,10 +422,10 @@ struct MemberInfo_t  : public RuntimeObject
 };
 struct String_t  : public RuntimeObject
 {
-	int32_t ____stringLength_4;
-	Il2CppChar ____firstChar_5;
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
 };
-struct UnitySourceGeneratedAssemblyMonoScriptTypes_t0825C65CF93BCA1AF6CF45054C0DA0AAFF2D5DF4  : public RuntimeObject
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t1990F9DB75D9972442F3921AC9EE23EADAC41438  : public RuntimeObject
 {
 };
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
@@ -494,133 +442,133 @@ struct U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A  : public RuntimeObject
 };
 struct Link_t3E237FC972997681510F43C6555571385C91BE05  : public RuntimeObject
 {
-	Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* ___Finger_0;
+	Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* ___Finger;
 };
 struct ShaderVariant_t6769B81CC1796DDA824E49C12E3E8E9A6D5CB1F2  : public RuntimeObject
 {
-	int32_t ___Pipe_0;
-	String_t* ___Code_1;
-	int32_t ___Hash_2;
-	bool ___Dirty_3;
+	int32_t ___Pipe;
+	String_t* ___Code;
+	int32_t ___Hash;
+	bool ___Dirty;
 };
 struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
 {
-	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list_0;
-	int32_t ____index_1;
-	int32_t ____version_2;
-	RuntimeObject* ____current_3;
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
 };
 struct Enumerator_tA5BE4CE583707833650D140AD9212E11536B3580 
 {
-	List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* ____list_0;
-	int32_t ____index_1;
-	int32_t ____version_2;
-	Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* ____current_3;
+	List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* ____current;
 };
 struct Enumerator_tFD28CF9130F696DFD4257E9B009E41C75FA3C2B9 
 {
-	List_1_tC680578DF5BE74D065C4E2D69136193826885358* ____list_0;
-	int32_t ____index_1;
-	int32_t ____version_2;
-	ShaderVariant_t6769B81CC1796DDA824E49C12E3E8E9A6D5CB1F2* ____current_3;
+	List_1_tC680578DF5BE74D065C4E2D69136193826885358* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	ShaderVariant_t6769B81CC1796DDA824E49C12E3E8E9A6D5CB1F2* ____current;
 };
 struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F  : public AbstractEventData_tAE1A127ED657117548181D29FFE4B1B14D8E67F7
 {
-	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___m_EventSystem_1;
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___m_EventSystem;
 };
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
-	bool ___m_value_0;
+	bool ___m_value;
 };
 struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
 {
-	uint8_t ___m_value_0;
+	uint8_t ___m_value;
 };
 struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
 {
-	float ___r_0;
-	float ___g_1;
-	float ___b_2;
-	float ___a_3;
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
 };
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
-	double ___m_value_0;
+	double ___m_value;
 };
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
 {
-	int32_t ___m_value_0;
+	int32_t ___m_value;
 };
 struct IntPtr_t 
 {
-	void* ___m_value_0;
+	void* ___m_value;
 };
 struct LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB 
 {
-	int32_t ___m_Mask_0;
+	int32_t ___m_Mask;
 };
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 };
 struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
 {
-	float ___x_0;
-	float ___y_1;
-	float ___z_2;
-	float ___w_3;
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
 };
 struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
 {
-	float ___m_XMin_0;
-	float ___m_YMin_1;
-	float ___m_Width_2;
-	float ___m_Height_3;
+	float ___m_XMin;
+	float ___m_YMin;
+	float ___m_Width;
+	float ___m_Height;
 };
 struct RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46 
 {
-	int32_t ___U3CwidthU3Ek__BackingField_0;
-	int32_t ___U3CheightU3Ek__BackingField_1;
-	int32_t ___U3CmsaaSamplesU3Ek__BackingField_2;
-	int32_t ___U3CvolumeDepthU3Ek__BackingField_3;
-	int32_t ___U3CmipCountU3Ek__BackingField_4;
-	int32_t ____graphicsFormat_5;
-	int32_t ___U3CstencilFormatU3Ek__BackingField_6;
-	int32_t ___U3CdepthStencilFormatU3Ek__BackingField_7;
-	int32_t ___U3CdimensionU3Ek__BackingField_8;
-	int32_t ___U3CshadowSamplingModeU3Ek__BackingField_9;
-	int32_t ___U3CvrUsageU3Ek__BackingField_10;
-	int32_t ____flags_11;
-	int32_t ___U3CmemorylessU3Ek__BackingField_12;
+	int32_t ___U3CwidthU3Ek__BackingField;
+	int32_t ___U3CheightU3Ek__BackingField;
+	int32_t ___U3CmsaaSamplesU3Ek__BackingField;
+	int32_t ___U3CvolumeDepthU3Ek__BackingField;
+	int32_t ___U3CmipCountU3Ek__BackingField;
+	int32_t ____graphicsFormat;
+	int32_t ___U3CstencilFormatU3Ek__BackingField;
+	int32_t ___U3CdepthStencilFormatU3Ek__BackingField;
+	int32_t ___U3CdimensionU3Ek__BackingField;
+	int32_t ___U3CshadowSamplingModeU3Ek__BackingField;
+	int32_t ___U3CvrUsageU3Ek__BackingField;
+	int32_t ____flags;
+	int32_t ___U3CmemorylessU3Ek__BackingField;
 };
 struct Scene_tA1DC762B79745EB5140F054C884855B922318356 
 {
-	int32_t ___m_Handle_0;
+	int32_t ___m_Handle;
 };
 struct ShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0 
 {
-	int32_t ___m_Id_0;
+	int32_t ___m_Id;
 };
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
-	float ___m_value_0;
+	float ___m_value;
 };
 struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
 {
-	float ___x_0;
-	float ___y_1;
+	float ___x;
+	float ___y;
 };
 struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
 {
-	float ___x_2;
-	float ___y_3;
-	float ___z_4;
+	float ___x;
+	float ___y;
+	float ___z;
 };
 struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
 {
-	float ___x_1;
-	float ___y_2;
-	float ___z_3;
-	float ___w_4;
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
 };
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
 {
@@ -632,271 +580,296 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
 };
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D1363_t071127B47420C9212F635AB9436FD822620C5994 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D1363_t071127B47420C9212F635AB9436FD822620C5994__padding[1363];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D714_t3B5AAA50419AD32F06F38F6D95CF55EF73758607 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D714_t3B5AAA50419AD32F06F38F6D95CF55EF73758607__padding[714];
+	};
+};
+#pragma pack(pop, tp)
 struct Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 
 {
-	int32_t ___FingerCount_0;
-	bool ___FingerInvert_1;
-	int32_t ___FingerGesture_2;
-	float ___FingerSensitivity_3;
-	int32_t ___KeyNegative_4;
-	int32_t ___KeyPositive_5;
-	int32_t ___KeyNegativeAlt_6;
-	int32_t ___KeyPositiveAlt_7;
-	float ___KeySensitivity_8;
+	int32_t ___FingerCount;
+	bool ___FingerInvert;
+	int32_t ___FingerGesture;
+	float ___FingerSensitivity;
+	int32_t ___KeyNegative;
+	int32_t ___KeyPositive;
+	int32_t ___KeyNegativeAlt;
+	int32_t ___KeyPositiveAlt;
+	float ___KeySensitivity;
 };
 struct Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshaled_pinvoke
 {
-	int32_t ___FingerCount_0;
-	int32_t ___FingerInvert_1;
-	int32_t ___FingerGesture_2;
-	float ___FingerSensitivity_3;
-	int32_t ___KeyNegative_4;
-	int32_t ___KeyPositive_5;
-	int32_t ___KeyNegativeAlt_6;
-	int32_t ___KeyPositiveAlt_7;
-	float ___KeySensitivity_8;
+	int32_t ___FingerCount;
+	int32_t ___FingerInvert;
+	int32_t ___FingerGesture;
+	float ___FingerSensitivity;
+	int32_t ___KeyNegative;
+	int32_t ___KeyPositive;
+	int32_t ___KeyNegativeAlt;
+	int32_t ___KeyPositiveAlt;
+	float ___KeySensitivity;
 };
 struct Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshaled_com
 {
-	int32_t ___FingerCount_0;
-	int32_t ___FingerInvert_1;
-	int32_t ___FingerGesture_2;
-	float ___FingerSensitivity_3;
-	int32_t ___KeyNegative_4;
-	int32_t ___KeyPositive_5;
-	int32_t ___KeyNegativeAlt_6;
-	int32_t ___KeyPositiveAlt_7;
-	float ___KeySensitivity_8;
+	int32_t ___FingerCount;
+	int32_t ___FingerInvert;
+	int32_t ___FingerGesture;
+	float ___FingerSensitivity;
+	int32_t ___KeyNegative;
+	int32_t ___KeyPositive;
+	int32_t ___KeyNegativeAlt;
+	int32_t ___KeyPositiveAlt;
+	float ___KeySensitivity;
 };
 struct Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD 
 {
-	bool ___UseFinger_0;
-	bool ___UseMouse_1;
-	int32_t ___UseKey_2;
+	bool ___UseFinger;
+	bool ___UseMouse;
+	int32_t ___UseKey;
 };
 struct Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshaled_pinvoke
 {
-	int32_t ___UseFinger_0;
-	int32_t ___UseMouse_1;
-	int32_t ___UseKey_2;
+	int32_t ___UseFinger;
+	int32_t ___UseMouse;
+	int32_t ___UseKey;
 };
 struct Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshaled_com
 {
-	int32_t ___UseFinger_0;
-	int32_t ___UseMouse_1;
-	int32_t ___UseKey_2;
+	int32_t ___UseFinger;
+	int32_t ___UseMouse;
+	int32_t ___UseKey;
 };
 struct UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182 
 {
-	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem_0;
-	bool ___sendEvents_1;
-	bool ___createPanelGameObjectsOnStart_2;
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	bool ___sendEvents;
+	bool ___createPanelGameObjectsOnStart;
 };
 struct UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_pinvoke
 {
-	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem_0;
-	int32_t ___sendEvents_1;
-	int32_t ___createPanelGameObjectsOnStart_2;
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
 };
 struct UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_com
 {
-	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem_0;
-	int32_t ___sendEvents_1;
-	int32_t ___createPanelGameObjectsOnStart_2;
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
 };
 struct State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 
 {
-	int32_t ___s0_0;
-	int32_t ___s1_1;
-	int32_t ___s2_2;
-	int32_t ___s3_3;
+	int32_t ___s0;
+	int32_t ___s1;
+	int32_t ___s2;
+	int32_t ___s3;
 };
-struct FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B 
+struct MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3 
 {
-	String_t* ___filePath_0;
-	MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* ___monoScriptInfos_1;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
 };
-struct FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshaled_pinvoke
+struct MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshaled_pinvoke
 {
-	char* ___filePath_0;
-	MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_pinvoke* ___monoScriptInfos_1;
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
 };
-struct FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshaled_com
+struct MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshaled_com
 {
-	Il2CppChar* ___filePath_0;
-	MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_com* ___monoScriptInfos_1;
-};
-struct MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 
-{
-	String_t* ___nameSpace_0;
-	String_t* ___className_1;
-	bool ___isPartial_2;
-};
-struct MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_pinvoke
-{
-	char* ___nameSpace_0;
-	char* ___className_1;
-	int32_t ___isPartial_2;
-};
-struct MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_com
-{
-	Il2CppChar* ___nameSpace_0;
-	Il2CppChar* ___className_1;
-	int32_t ___isPartial_2;
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
 };
 struct CwSeedAttribute_t5AA3D84E6DFD26D130FF5BC1A392D63F4779DD79  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 };
 struct Delegate_t  : public RuntimeObject
 {
-	Il2CppMethodPointer ___method_ptr_0;
-	intptr_t ___invoke_impl_1;
-	RuntimeObject* ___m_target_2;
-	intptr_t ___method_3;
-	intptr_t ___delegate_trampoline_4;
-	intptr_t ___extra_arg_5;
-	intptr_t ___method_code_6;
-	intptr_t ___interp_method_7;
-	intptr_t ___interp_invoke_impl_8;
-	MethodInfo_t* ___method_info_9;
-	MethodInfo_t* ___original_method_info_10;
-	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
-	bool ___method_is_virtual_12;
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
 };
 struct Delegate_t_marshaled_pinvoke
 {
-	intptr_t ___method_ptr_0;
-	intptr_t ___invoke_impl_1;
-	Il2CppIUnknown* ___m_target_2;
-	intptr_t ___method_3;
-	intptr_t ___delegate_trampoline_4;
-	intptr_t ___extra_arg_5;
-	intptr_t ___method_code_6;
-	intptr_t ___interp_method_7;
-	intptr_t ___interp_invoke_impl_8;
-	MethodInfo_t* ___method_info_9;
-	MethodInfo_t* ___original_method_info_10;
-	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
-	int32_t ___method_is_virtual_12;
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
 };
 struct Delegate_t_marshaled_com
 {
-	intptr_t ___method_ptr_0;
-	intptr_t ___invoke_impl_1;
-	Il2CppIUnknown* ___m_target_2;
-	intptr_t ___method_3;
-	intptr_t ___delegate_trampoline_4;
-	intptr_t ___extra_arg_5;
-	intptr_t ___method_code_6;
-	intptr_t ___interp_method_7;
-	intptr_t ___interp_invoke_impl_8;
-	MethodInfo_t* ___method_info_9;
-	MethodInfo_t* ___original_method_info_10;
-	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
-	int32_t ___method_is_virtual_12;
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
 };
 struct MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D  : public RuntimeObject
 {
-	intptr_t ___m_Ptr_0;
+	intptr_t ___m_Ptr;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
-	intptr_t ___m_CachedPtr_0;
+	intptr_t ___m_CachedPtr;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
 {
-	intptr_t ___m_CachedPtr_0;
+	intptr_t ___m_CachedPtr;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
-	intptr_t ___m_CachedPtr_0;
+	intptr_t ___m_CachedPtr;
 };
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject_0;
-	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module_1;
-	float ___distance_2;
-	float ___index_3;
-	int32_t ___depth_4;
-	int32_t ___sortingGroupID_5;
-	int32_t ___sortingGroupOrder_6;
-	int32_t ___sortingLayer_7;
-	int32_t ___sortingOrder_8;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
-	int32_t ___displayIndex_12;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
 };
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject_0;
-	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module_1;
-	float ___distance_2;
-	float ___index_3;
-	int32_t ___depth_4;
-	int32_t ___sortingGroupID_5;
-	int32_t ___sortingGroupOrder_6;
-	int32_t ___sortingLayer_7;
-	int32_t ___sortingOrder_8;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
-	int32_t ___displayIndex_12;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
 };
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject_0;
-	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module_1;
-	float ___distance_2;
-	float ___index_3;
-	int32_t ___depth_4;
-	int32_t ___sortingGroupID_5;
-	int32_t ___sortingGroupOrder_6;
-	int32_t ___sortingLayer_7;
-	int32_t ___sortingOrder_8;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
-	int32_t ___displayIndex_12;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
 };
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
-	intptr_t ___value_0;
+	intptr_t ___value;
 };
 struct ScriptableRenderContext_t5AB09B3602BEB456E0DC3D53926D3A3BDAF08E36 
 {
-	intptr_t ___m_Ptr_1;
+	intptr_t ___m_Ptr;
 };
 struct Touch_t03E51455ED508492B3F278903A0114FA0E87B417 
 {
-	int32_t ___m_FingerId_0;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Position_1;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_RawPosition_2;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PositionDelta_3;
-	float ___m_TimeDelta_4;
-	int32_t ___m_TapCount_5;
-	int32_t ___m_Phase_6;
-	int32_t ___m_Type_7;
-	float ___m_Pressure_8;
-	float ___m_maximumPossiblePressure_9;
-	float ___m_Radius_10;
-	float ___m_RadiusVariance_11;
-	float ___m_AltitudeAngle_12;
-	float ___m_AzimuthAngle_13;
+	int32_t ___m_FingerId;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Position;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_RawPosition;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PositionDelta;
+	float ___m_TimeDelta;
+	int32_t ___m_TapCount;
+	int32_t ___m_Phase;
+	int32_t ___m_Type;
+	float ___m_Pressure;
+	float ___m_maximumPossiblePressure;
+	float ___m_Radius;
+	float ___m_RadiusVariance;
+	float ___m_AltitudeAngle;
+	float ___m_AzimuthAngle;
 };
 struct Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8  : public RuntimeObject
 {
-	int32_t ___Index_0;
-	float ___Pressure_1;
-	bool ___Down_2;
-	bool ___Up_3;
-	float ___Age_4;
-	bool ___StartedOverGui_5;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___StartScreenPosition_6;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___ScreenPosition_7;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___ScreenPositionOld_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___ScreenPositionOldOld_9;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___ScreenPositionOldOldOld_10;
+	int32_t ___Index;
+	float ___Pressure;
+	bool ___Down;
+	bool ___Up;
+	float ___Age;
+	bool ___StartedOverGui;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___StartScreenPosition;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___ScreenPosition;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___ScreenPositionOld;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___ScreenPositionOldOld;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___ScreenPositionOldOldOld;
 };
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -909,51 +882,52 @@ struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12D
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
-	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
 };
 struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
 {
-	Delegate_t_marshaled_pinvoke** ___delegates_13;
+	Delegate_t_marshaled_pinvoke** ___delegates;
 };
 struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
-	Delegate_t_marshaled_com** ___delegates_13;
+	Delegate_t_marshaled_com** ___delegates;
 };
 struct PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB  : public BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerEnterU3Ek__BackingField_2;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PointerPress_3;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3ClastPressU3Ek__BackingField_4;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CrawPointerPressU3Ek__BackingField_5;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerDragU3Ek__BackingField_6;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerClickU3Ek__BackingField_7;
-	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___U3CpointerCurrentRaycastU3Ek__BackingField_8;
-	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___U3CpointerPressRaycastU3Ek__BackingField_9;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___hovered_10;
-	bool ___U3CeligibleForClickU3Ek__BackingField_11;
-	int32_t ___U3CpointerIdU3Ek__BackingField_12;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CpositionU3Ek__BackingField_13;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CdeltaU3Ek__BackingField_14;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CpressPositionU3Ek__BackingField_15;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CworldPositionU3Ek__BackingField_16;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CworldNormalU3Ek__BackingField_17;
-	float ___U3CclickTimeU3Ek__BackingField_18;
-	int32_t ___U3CclickCountU3Ek__BackingField_19;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CscrollDeltaU3Ek__BackingField_20;
-	bool ___U3CuseDragThresholdU3Ek__BackingField_21;
-	bool ___U3CdraggingU3Ek__BackingField_22;
-	int32_t ___U3CbuttonU3Ek__BackingField_23;
-	float ___U3CpressureU3Ek__BackingField_24;
-	float ___U3CtangentialPressureU3Ek__BackingField_25;
-	float ___U3CaltitudeAngleU3Ek__BackingField_26;
-	float ___U3CazimuthAngleU3Ek__BackingField_27;
-	float ___U3CtwistU3Ek__BackingField_28;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CtiltU3Ek__BackingField_29;
-	int32_t ___U3CpenStatusU3Ek__BackingField_30;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CradiusU3Ek__BackingField_31;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CradiusVarianceU3Ek__BackingField_32;
-	bool ___U3CfullyExitedU3Ek__BackingField_33;
-	bool ___U3CreenteredU3Ek__BackingField_34;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerEnterU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PointerPress;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3ClastPressU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CrawPointerPressU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerDragU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerClickU3Ek__BackingField;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___U3CpointerCurrentRaycastU3Ek__BackingField;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___U3CpointerPressRaycastU3Ek__BackingField;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___hovered;
+	bool ___U3CeligibleForClickU3Ek__BackingField;
+	int32_t ___U3CdisplayIndexU3Ek__BackingField;
+	int32_t ___U3CpointerIdU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CpositionU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CdeltaU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CpressPositionU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CworldPositionU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CworldNormalU3Ek__BackingField;
+	float ___U3CclickTimeU3Ek__BackingField;
+	int32_t ___U3CclickCountU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CscrollDeltaU3Ek__BackingField;
+	bool ___U3CuseDragThresholdU3Ek__BackingField;
+	bool ___U3CdraggingU3Ek__BackingField;
+	int32_t ___U3CbuttonU3Ek__BackingField;
+	float ___U3CpressureU3Ek__BackingField;
+	float ___U3CtangentialPressureU3Ek__BackingField;
+	float ___U3CaltitudeAngleU3Ek__BackingField;
+	float ___U3CazimuthAngleU3Ek__BackingField;
+	float ___U3CtwistU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CtiltU3Ek__BackingField;
+	int32_t ___U3CpenStatusU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CradiusU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CradiusVarianceU3Ek__BackingField;
+	bool ___U3CfullyExitedU3Ek__BackingField;
+	bool ___U3CreenteredU3Ek__BackingField;
 };
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -978,7 +952,7 @@ struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DE
 };
 struct Type_t  : public MemberInfo_t
 {
-	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
 };
 struct Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA  : public MulticastDelegate_t
 {
@@ -997,19 +971,19 @@ struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t
 };
 struct CwGuide_tADAE12929861125B3834733C71D601334D82CD90  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
 {
-	String_t* ___LongName_4;
-	String_t* ___ShortName_5;
-	TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* ___Documentation_6;
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___icon_7;
-	String_t* ___version_8;
+	String_t* ___LongName;
+	String_t* ___ShortName;
+	TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* ___Documentation;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___icon;
+	String_t* ___version;
 };
 struct CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
 {
-	String_t* ___title_4;
-	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___target_5;
-	int32_t ___variantHash_6;
-	int32_t ___projectHash_7;
-	List_1_tC680578DF5BE74D065C4E2D69136193826885358* ___variants_8;
+	String_t* ___title;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___target;
+	int32_t ___variantHash;
+	int32_t ___projectHash;
+	List_1_tC680578DF5BE74D065C4E2D69136193826885358* ___variants;
 };
 struct RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
 {
@@ -1037,430 +1011,387 @@ struct CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094  : public Behaviour
 };
 struct Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
-	int32_t ___m_BakedIndex_4;
+	int32_t ___m_BakedIndex;
 };
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
-	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource_4;
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
 };
 struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5  : public Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1
 {
 };
 struct CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	bool ___listen_5;
-	float ___damping_6;
-	float ___sensitivity_7;
-	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___pitchControls_8;
-	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___yawControls_9;
-	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___rollControls_10;
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___remainingDelta_11;
+	bool ___listen;
+	float ___damping;
+	float ___sensitivity;
+	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___pitchControls;
+	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___yawControls;
+	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___rollControls;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___remainingDelta;
 };
 struct CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	bool ___listen_5;
-	float ___damping_6;
-	float ___sensitivity_7;
-	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___horizontalControls_8;
-	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___depthControls_9;
-	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___verticalControls_10;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___remainingDelta_11;
+	bool ___listen;
+	float ___damping;
+	float ___sensitivity;
+	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___horizontalControls;
+	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___depthControls;
+	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___verticalControls;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___remainingDelta;
 };
 struct CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	bool ___listen_5;
-	float ___damping_6;
-	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___pitchControls_7;
-	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___yawControls_8;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___remainingDelta_9;
+	bool ___listen;
+	float ___damping;
+	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___pitchControls;
+	Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___yawControls;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___remainingDelta;
 };
 struct CwChild_tFBB37E0BA7F868194791F56E93632B3C5B0DED1E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 };
 struct CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	bool ___upgradeInputModule_5;
-	bool ___changeExposureInHDRP_6;
-	bool ___changeVisualEnvironmentInHDRP_7;
-	bool ___changeFogInHDRP_8;
-	bool ___changeCloudsInHDRP_9;
-	bool ___changeMotionBlurInHDRP_10;
-	bool ___upgradeLightsInHDRP_11;
-	bool ___upgradeCamerasInHDRP_12;
+	bool ___upgradeInputModule;
+	bool ___changeExposureInHDRP;
+	bool ___changeVisualEnvironmentInHDRP;
+	bool ___changeFogInHDRP;
+	bool ___changeCloudsInHDRP;
+	bool ___changeMotionBlurInHDRP;
+	bool ___upgradeLightsInHDRP;
+	bool ___upgradeCamerasInHDRP;
 };
 struct CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	int32_t ___link_5;
-	String_t* ___urlTarget_6;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___isolateTarget_7;
-	int32_t ___isolateToggle_8;
-	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___cachedCanvasGroup_9;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___previousChild_10;
+	int32_t ___link;
+	String_t* ___urlTarget;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___isolateTarget;
+	int32_t ___isolateToggle;
+	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___cachedCanvasGroup;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___previousChild;
 };
 struct CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___buttonPrefab_5;
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___buttonRoot_6;
-	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___icon_7;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color_8;
-	String_t* ___overrideName_9;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___clone_10;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___buttonPrefab;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___buttonRoot;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___icon;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
+	String_t* ___overrideName;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___clone;
 };
 struct CwDepthTextureMode_t74333179816412F75BA3FAED1933DC492EF916AB  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	int32_t ___depthMode_5;
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cachedCamera_6;
+	int32_t ___depthMode;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cachedCamera;
 };
 struct CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	int32_t ___follow_5;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___target_6;
-	float ___damping_7;
-	bool ___rotate_8;
-	bool ___ignoreZ_9;
-	int32_t ___followIn_10;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___localPosition_11;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___localRotation_12;
+	int32_t ___follow;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___target;
+	float ___damping;
+	bool ___rotate;
+	bool ___ignoreZ;
+	int32_t ___followIn;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___localPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___localRotation;
 };
 struct CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___guiLayers_5;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___guiLayers;
 };
 struct CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	float ___multiplier_5;
-	float ___intensityInStandard_6;
-	float ___intensityInURP_7;
-	float ___intensityInHDRP_8;
-	Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* ___cachedLight_9;
-	bool ___cachedLightSet_10;
+	float ___multiplier;
+	float ___intensityInStandard;
+	float ___intensityInURP;
+	float ___intensityInHDRP;
+	Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* ___cachedLight;
+	bool ___cachedLightSet;
 };
 struct CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 };
 struct CwRotate_t9872DFBCB65F0E9740EE9D7F26C15743212DCD91  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_5;
-	int32_t ___relativeTo_6;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity;
+	int32_t ___relativeTo;
 };
 struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 };
 struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
 {
-	List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F* ___m_SystemInputModules_5;
-	BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1* ___m_CurrentInputModule_6;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_FirstSelected_8;
-	bool ___m_sendNavigationEvents_9;
-	int32_t ___m_DragThreshold_10;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CurrentSelected_11;
-	bool ___m_HasFocus_12;
-	bool ___m_SelectionGuard_13;
-	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___m_DummyData_14;
-	bool ___m_Started_17;
-	bool ___m_IsTrackingUIToolkitPanels_18;
+	List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F* ___m_SystemInputModules;
+	BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1* ___m_CurrentInputModule;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_FirstSelected;
+	bool ___m_sendNavigationEvents;
+	int32_t ___m_DragThreshold;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CurrentSelected;
+	bool ___m_HasFocus;
+	bool ___m_SelectionGuard;
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___m_DummyData;
+	bool ___m_Started;
+	bool ___m_IsTrackingUIToolkitPanels;
 };
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
 {
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material_7;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color_8;
-	bool ___m_SkipLayoutUpdate_9;
-	bool ___m_SkipMaterialUpdate_10;
-	bool ___m_RaycastTarget_11;
-	bool ___m_RaycastTargetCache_12;
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding_13;
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform_14;
-	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer_15;
-	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas_16;
-	bool ___m_VertsDirty_17;
-	bool ___m_MaterialDirty_18;
-	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback_19;
-	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback_20;
-	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback_21;
-	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh_24;
-	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs_25;
-	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner_26;
-	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField_27;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
 };
 struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
 {
-	bool ___m_ShouldRecalculateStencil_28;
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial_29;
-	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask_30;
-	bool ___m_Maskable_31;
-	bool ___m_IsMaskingGraphic_32;
-	bool ___m_IncludeForMasking_33;
-	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged_34;
-	bool ___m_ShouldRecalculate_35;
-	int32_t ___m_StencilValue_36;
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners_37;
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
 };
 struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
 {
-	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite_39;
-	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_OverrideSprite_40;
-	int32_t ___m_Type_41;
-	bool ___m_PreserveAspect_42;
-	bool ___m_FillCenter_43;
-	int32_t ___m_FillMethod_44;
-	float ___m_FillAmount_45;
-	bool ___m_FillClockwise_46;
-	int32_t ___m_FillOrigin_47;
-	float ___m_AlphaHitTestMinimumThreshold_48;
-	bool ___m_Tracked_49;
-	bool ___m_UseSpriteMesh_50;
-	float ___m_PixelsPerUnitMultiplier_51;
-	float ___m_CachedReferencePixelsPerUnit_52;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_OverrideSprite;
+	int32_t ___m_Type;
+	bool ___m_PreserveAspect;
+	bool ___m_FillCenter;
+	int32_t ___m_FillMethod;
+	float ___m_FillAmount;
+	bool ___m_FillClockwise;
+	int32_t ___m_FillOrigin;
+	float ___m_AlphaHitTestMinimumThreshold;
+	bool ___m_Tracked;
+	bool ___m_UseSpriteMesh;
+	float ___m_PixelsPerUnitMultiplier;
+	float ___m_CachedReferencePixelsPerUnit;
 };
 struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
 {
-	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData_38;
-	String_t* ___m_Text_39;
-	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache_40;
-	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout_41;
-	bool ___m_DisableFontTextureRebuiltCallback_43;
-	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts_44;
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData;
+	String_t* ___m_Text;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout;
+	bool ___m_DisableFontTextureRebuiltCallback;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts;
 };
 struct List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514_StaticFields
 {
-	CwRootU5BU5D_t956957F93CC79431DD243233FFC6160A945DB7BC* ___s_emptyArray_5;
+	CwRootU5BU5D_t956957F93CC79431DD243233FFC6160A945DB7BC* ___s_emptyArray;
 };
 struct List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B_StaticFields
 {
-	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___s_emptyArray_5;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___s_emptyArray;
 };
 struct List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C_StaticFields
 {
-	MaterialPropertyBlockU5BU5D_t6911DDC471FC23F2AF58FF0140ED595529EC5F5B* ___s_emptyArray_5;
+	MaterialPropertyBlockU5BU5D_t6911DDC471FC23F2AF58FF0140ED595529EC5F5B* ___s_emptyArray;
 };
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
 {
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
 };
 struct List_1_t8292C421BBB00D7661DC07462822936152BAB446_StaticFields
 {
-	RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7* ___s_emptyArray_5;
+	RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7* ___s_emptyArray;
 };
 struct List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782_StaticFields
 {
-	FingerU5BU5D_tB9DD3197CFB643A5397B3C530FC3D15D708A6F70* ___s_emptyArray_5;
+	FingerU5BU5D_tB9DD3197CFB643A5397B3C530FC3D15D708A6F70* ___s_emptyArray;
 };
 struct List_1_tC680578DF5BE74D065C4E2D69136193826885358_StaticFields
 {
-	ShaderVariantU5BU5D_tAF687F033CF4A9649E81F2EC3648FB651C203E19* ___s_emptyArray_5;
+	ShaderVariantU5BU5D_tAF687F033CF4A9649E81F2EC3648FB651C203E19* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_tFD27DF8533BFF626B9D00B2AAA69EB68C7ED841F_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D1363_t071127B47420C9212F635AB9436FD822620C5994 ___2F3FE4E5C7A2C84B2D4055DAD3F804AC74C8E6BAC6B3827C0F4EAC5E2B551479;
+	__StaticArrayInitTypeSizeU3D714_t3B5AAA50419AD32F06F38F6D95CF55EF73758607 ___E41E38A0011F577A5BF4FD01A4DF553F8FDC95A396FBB4C52E1835E02C6211B5;
 };
 struct CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields
 {
-	Stack_1_tF66BF0D229FF13394778E80C8E92796D62188D68* ___seedStates_0;
-	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ___tempMaterials_1;
-	List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* ___tempProperties_2;
-	Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___OnCameraPreRender_3;
-	Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___OnCameraPostRender_4;
-	Stack_1_t4F59A5B1750539B0DD1D273213DCD86BF7E7B24F* ___actives_5;
-	int32_t ___uniqueSeed_6;
-	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ___materials_7;
+	Stack_1_tF66BF0D229FF13394778E80C8E92796D62188D68* ___seedStates;
+	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ___tempMaterials;
+	List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* ___tempProperties;
+	Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___OnCameraPreRender;
+	Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___OnCameraPostRender;
+	Stack_1_t4F59A5B1750539B0DD1D273213DCD86BF7E7B24F* ___actives;
+	int32_t ___uniqueSeed;
+	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ___materials;
 };
 struct String_t_StaticFields
 {
-	String_t* ___Empty_6;
+	String_t* ___Empty;
 };
 struct U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields
 {
-	U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* ___U3CU3E9_0;
+	U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* ___U3CU3E9;
 };
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
-	String_t* ___TrueString_5;
-	String_t* ___FalseString_6;
+	String_t* ___TrueString;
+	String_t* ___FalseString;
 };
 struct IntPtr_t_StaticFields
 {
-	intptr_t ___Zero_1;
+	intptr_t ___Zero;
 };
 struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
 {
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
 };
 struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
 {
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
 };
 struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 {
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 {
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
 };
 struct ScriptableRenderContext_t5AB09B3602BEB456E0DC3D53926D3A3BDAF08E36_StaticFields
 {
-	ShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0 ___kRenderTypeTag_0;
+	ShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0 ___kRenderTypeTag;
 };
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
 {
-	int32_t ___GenerateAllMips_4;
+	int32_t ___GenerateAllMips;
 };
 struct Type_t_StaticFields
 {
-	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
-	Il2CppChar ___Delimiter_1;
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
-	RuntimeObject* ___Missing_3;
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
+	Il2CppChar ___Delimiter;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
+	RuntimeObject* ___Missing;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
 };
 struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
 {
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull_8;
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender_9;
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender_10;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
 };
 struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
 {
-	ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24* ___reapplyDrivenProperties_4;
+	ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24* ___reapplyDrivenProperties;
 };
 struct CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields
 {
-	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___OnFingerDown_6;
-	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___OnFingerUpdate_7;
-	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___OnFingerUp_8;
-	List_1_t8292C421BBB00D7661DC07462822936152BAB446* ___tempRaycastResults_11;
-	PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___tempPointerEventData_12;
-	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___tempEventSystem_13;
-	List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* ___fingers_14;
-	List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* ___filteredFingers_15;
-	Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B* ___pool_16;
+	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___OnFingerDown;
+	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___OnFingerUpdate;
+	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___OnFingerUp;
+	List_1_t8292C421BBB00D7661DC07462822936152BAB446* ___tempRaycastResults;
+	PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___tempPointerEventData;
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___tempEventSystem;
+	List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* ___fingers;
+	List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* ___filteredFingers;
+	Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B* ___pool;
 };
 struct CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields
 {
-	List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* ___instances_5;
+	List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* ___instances;
 };
 struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_StaticFields
 {
-	List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3* ___m_EventSystems_7;
-	Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC* ___s_RaycastComparer_15;
-	UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182 ___s_UIToolkitOverride_16;
+	List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3* ___m_EventSystems;
+	Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC* ___s_RaycastComparer;
+	UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182 ___s_UIToolkitOverride;
 };
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
 {
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultUI_5;
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture_6;
-	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh_22;
-	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper_23;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultUI;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh;
+	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper;
 };
 struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields
 {
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_ETC1DefaultUI_38;
-	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_VertScratch_53;
-	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_UVScratch_54;
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Xy_55;
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Uv_56;
-	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___m_TrackedTexturelessImages_57;
-	bool ___s_Initialized_58;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_ETC1DefaultUI;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_VertScratch;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_UVScratch;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Xy;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Uv;
+	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___m_TrackedTexturelessImages;
+	bool ___s_Initialized;
 };
 struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
 {
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText_42;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-struct FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A  : public RuntimeArray
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
 {
-	ALIGN_FIELD (8) FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B m_Items[1];
+	ALIGN_FIELD (8) uint8_t m_Items[1];
 
-	inline FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B GetAt(il2cpp_array_size_t index) const
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items[index];
 	}
-	inline FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B* GetAddressAt(il2cpp_array_size_t index)
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items + index;
 	}
-	inline void SetAt(il2cpp_array_size_t index, FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B value)
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___filePath_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___monoScriptInfos_1), (void*)NULL);
-		#endif
 	}
-	inline FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B GetAtUnchecked(il2cpp_array_size_t index) const
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
 	{
 		return m_Items[index];
 	}
-	inline FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
 	{
 		return m_Items + index;
 	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B value)
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
 	{
 		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___filePath_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___monoScriptInfos_1), (void*)NULL);
-		#endif
-	}
-};
-struct MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713  : public RuntimeArray
-{
-	ALIGN_FIELD (8) MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 m_Items[1];
-
-	inline MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___nameSpace_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___className_1), (void*)NULL);
-		#endif
-	}
-	inline MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___nameSpace_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___className_1), (void*)NULL);
-		#endif
 	}
 };
 struct CwDemoButtonBuilderU5BU5D_tF5E59AFE67CDAF29D2B82A85203E530DB017FF51  : public RuntimeArray
@@ -1495,38 +1426,6 @@ struct CwDemoButtonBuilderU5BU5D_tF5E59AFE67CDAF29D2B82A85203E530DB017FF51  : pu
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-};
-struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
-{
-	ALIGN_FIELD (8) uint8_t m_Items[1];
-
-	inline uint8_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
-	{
-		m_Items[index] = value;
 	}
 };
 struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D  : public RuntimeArray
@@ -1615,9 +1514,9 @@ struct RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7  : public R
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_GameObject_0), (void*)NULL);
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_GameObject), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___module_1), (void*)NULL);
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___module), (void*)NULL);
 		#endif
 	}
 	inline RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 GetAtUnchecked(il2cpp_array_size_t index) const
@@ -1631,19 +1530,13 @@ struct RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7  : public R
 	inline void SetAtUnchecked(il2cpp_array_size_t index, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 value)
 	{
 		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_GameObject_0), (void*)NULL);
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_GameObject), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___module_1), (void*)NULL);
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___module), (void*)NULL);
 		#endif
 	}
 };
 
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_pinvoke(const MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3& unmarshaled, MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_pinvoke& marshaled);
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_pinvoke_back(const MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_pinvoke& marshaled, MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3& unmarshaled);
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_pinvoke_cleanup(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_pinvoke& marshaled);
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_com(const MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3& unmarshaled, MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_com& marshaled);
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_com_back(const MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_com& marshaled, MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3& unmarshaled);
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_com_cleanup(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_com& marshaled);
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
@@ -1681,6 +1574,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_AddRange_m1F76B300133150E6046C5FE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_EnsureThisComponentExists_m29439AE8543388E4EABAA3D4BE955566970C7A2E (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_AddToDelta_mF770BB1372203E15F3635FBD9EB839D1079A29A6 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) ;
@@ -2150,522 +2044,42 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52784
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnitySourceGeneratedAssemblyMonoScriptTypes_IsEditorOnly_m20D1EF9762FD206B01914E877954156B305B425D (const RuntimeMethod* method) 
-{
-	{
-		return (bool)0;
-	}
-}
-// Method Definition Index: 52785
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* UnitySourceGeneratedAssemblyMonoScriptTypes_Get_m1EFFD2A860888AA7B418229FF5E8FAEE5231ED32 (const RuntimeMethod* method) 
+// Method Definition Index: 56954
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBAAAF638210412459DF7A2A56C4F8B185D9182BF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral002D55A2DA6D060AB076D19BCC6390E5A529AAD7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1019711E3F3E65281C7DCC666453C7CDAFB11638);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1BEB5ACBD9424E58A24FDC398F6914C86F153085);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E4B09E606D487EA195F25164B80225116748ACE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2811C9B7A89DA5BD10AE6CB10251580AD3DC1259);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral281E2A04791ECDA45ACFCF6E56B11C2225282A91);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3079CD1845D0AF30699A12057A08B046AF4DD71A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral33A97454BC999DFA1C25069CA8E1CD07461FD6AB);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3488C6FBFA1EC7F3EFF35C0FDD4D395E17D5061C);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3DC211E48DBB5405961639BA7048C716300CFFCA);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral42B64D31FDC9935EE88C3FB6C87ECB291581C5BB);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C53ACF13A1071E762E7687CB5D0D2038A14D7CE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C813942569725040C63A1A3B0E4D9C5C78B6977);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral56EA2DF7F25218676D96986D18EF181A2B34838E);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral62DB97828DCE03220B3EDC71A9342D0E450E9B9F);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral639535E21C9AC3F65571D92EDD0AE42DB83D5B6C);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral68B26AAE4AAB5C41546C8C7837C46D092AD54438);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral73F32405D11F9BCB3CFBAD74C0D49CC826052004);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7400FB1CE91FFF7C81580718BF0DA7C1DEEE0DDE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral76A7FE14968C81FC820BDCE893157BFB41A6BA38);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral79FF8D9F44F48C504500C2E884BBEA20A8D67EE7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8089EA66292BBF5D0383822E7607FCE33106A4E0);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral833198D2EFC27F185EFE244DD1DE72CF9CB2D5ED);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8F13D769F67C3EA2097B88C206FD20C2811236BF);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral940F7267BE340B7952FC8FC4FDAFF181408C9CE7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9497461573B49D46E5EBFC7DA4B4AC43FA35E88D);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B6256751B1F153BA79A289328078A1526E3C8B7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9F9595154F680437DECB0E1AF9CF297C3928A1A7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB85E78C75EF1A6F636689BD88A9D6C2A3B2B0A1B);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC4E214B19F4C8AA260BEC8E904D1DE02F83DA1E8);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC7B4B4EC3AEFC8E1FC240EAAB6CC77E291870133);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC92FE95A98ED5D34B96484CC6744DEB694BB1064);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF1BF7FD74D31DE93504A3DC8B3567D0FFBF14AE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD8C0BA26F422F19C0E7C3E356143EEC6DCD0C6DE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA7B24E5FA9742F0E7CD5ABCA590B4A853C93548);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDEC387E8714B21FC2E8CC1370FB9B3B18F5DC5FC);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6285E454F5F53DC146612CC00F1FE071ADDDBEF);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE8394D7E8C0BFB263C568CA5C97CCE84A1C5566E);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEB573DEBF88301CF57571FEDF367EB5C6161D6A9);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEBE8F6847C314C91BB3146DCB16C31E2EF0920BA);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralED379DD5A01FD76C66A11FA46BDC000F811E32FF);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEE71910C7E19B0D89B96AF6011CDFDAF6EA1CF1C);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF01B3F65981BD5345CDFBA0817B54BE384C2A598);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF45475005DAC4B00E010D324B7652468761DEB66);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF4EC1703F3E60EDBAA05BC1E54B2F3A7933A3E48);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF794DCEB7ADE5AC612D14F140F19FAB755AE4F54);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF79C38394181F8A161156663CB6003FCA58D6052);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tFD27DF8533BFF626B9D00B2AAA69EB68C7ED841F____2F3FE4E5C7A2C84B2D4055DAD3F804AC74C8E6BAC6B3827C0F4EAC5E2B551479_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tFD27DF8533BFF626B9D00B2AAA69EB68C7ED841F____E41E38A0011F577A5BF4FD01A4DF553F8FDC95A396FBB4C52E1835E02C6211B5_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B V_0;
+	MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 V_1;
-	memset((&V_1), 0, sizeof(V_1));
 	{
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_0 = (FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A*)(FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A*)SZArrayNew(FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A_il2cpp_TypeInfo_var, (uint32_t)((int32_t)19));
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_1 = L_0;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral639535E21C9AC3F65571D92EDD0AE42DB83D5B6C;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral639535E21C9AC3F65571D92EDD0AE42DB83D5B6C);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_2 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_3 = L_2;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteralDA7B24E5FA9742F0E7CD5ABCA590B4A853C93548;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralDA7B24E5FA9742F0E7CD5ABCA590B4A853C93548);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_4 = V_1;
-		NullCheck(L_3);
-		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_4);
-		(&V_0)->___monoScriptInfos_1 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_3);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_5 = V_0;
-		NullCheck(L_1);
-		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_5);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_6 = L_1;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral8089EA66292BBF5D0383822E7607FCE33106A4E0;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral8089EA66292BBF5D0383822E7607FCE33106A4E0);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_7 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_8 = L_7;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteralEB573DEBF88301CF57571FEDF367EB5C6161D6A9;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralEB573DEBF88301CF57571FEDF367EB5C6161D6A9);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_9 = V_1;
-		NullCheck(L_8);
-		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_9);
-		(&V_0)->___monoScriptInfos_1 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_8);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_10 = V_0;
-		NullCheck(L_6);
-		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(1), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_10);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_11 = L_6;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral940F7267BE340B7952FC8FC4FDAFF181408C9CE7;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral940F7267BE340B7952FC8FC4FDAFF181408C9CE7);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_12 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_13 = L_12;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteral79FF8D9F44F48C504500C2E884BBEA20A8D67EE7;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral79FF8D9F44F48C504500C2E884BBEA20A8D67EE7);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_14 = V_1;
-		NullCheck(L_13);
-		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_14);
-		(&V_0)->___monoScriptInfos_1 = L_13;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_13);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_15 = V_0;
-		NullCheck(L_11);
-		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(2), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_15);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_16 = L_11;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteralE6285E454F5F53DC146612CC00F1FE071ADDDBEF;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteralE6285E454F5F53DC146612CC00F1FE071ADDDBEF);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_17 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_18 = L_17;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteralC92FE95A98ED5D34B96484CC6744DEB694BB1064;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralC92FE95A98ED5D34B96484CC6744DEB694BB1064);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_19 = V_1;
-		NullCheck(L_18);
-		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_19);
-		(&V_0)->___monoScriptInfos_1 = L_18;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_18);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_20 = V_0;
-		NullCheck(L_16);
-		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(3), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_20);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_21 = L_16;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral833198D2EFC27F185EFE244DD1DE72CF9CB2D5ED;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral833198D2EFC27F185EFE244DD1DE72CF9CB2D5ED);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_22 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_23 = L_22;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteral33A97454BC999DFA1C25069CA8E1CD07461FD6AB;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral33A97454BC999DFA1C25069CA8E1CD07461FD6AB);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_24 = V_1;
-		NullCheck(L_23);
-		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_24);
-		(&V_0)->___monoScriptInfos_1 = L_23;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_23);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_25 = V_0;
-		NullCheck(L_21);
-		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(4), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_25);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_26 = L_21;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral73F32405D11F9BCB3CFBAD74C0D49CC826052004;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral73F32405D11F9BCB3CFBAD74C0D49CC826052004);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_27 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_28 = L_27;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteralCF1BF7FD74D31DE93504A3DC8B3567D0FFBF14AE;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralCF1BF7FD74D31DE93504A3DC8B3567D0FFBF14AE);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_29 = V_1;
-		NullCheck(L_28);
-		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_29);
-		(&V_0)->___monoScriptInfos_1 = L_28;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_28);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_30 = V_0;
-		NullCheck(L_26);
-		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(5), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_30);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_31 = L_26;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral9497461573B49D46E5EBFC7DA4B4AC43FA35E88D;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral9497461573B49D46E5EBFC7DA4B4AC43FA35E88D);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_32 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_33 = L_32;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteralF01B3F65981BD5345CDFBA0817B54BE384C2A598;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralF01B3F65981BD5345CDFBA0817B54BE384C2A598);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_34 = V_1;
-		NullCheck(L_33);
-		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_34);
-		(&V_0)->___monoScriptInfos_1 = L_33;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_33);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_35 = V_0;
-		NullCheck(L_31);
-		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(6), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_35);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_36 = L_31;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral281E2A04791ECDA45ACFCF6E56B11C2225282A91;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral281E2A04791ECDA45ACFCF6E56B11C2225282A91);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_37 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_38 = L_37;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteral9B6256751B1F153BA79A289328078A1526E3C8B7;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral9B6256751B1F153BA79A289328078A1526E3C8B7);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_39 = V_1;
-		NullCheck(L_38);
-		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_39);
-		(&V_0)->___monoScriptInfos_1 = L_38;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_38);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_40 = V_0;
-		NullCheck(L_36);
-		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(7), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_40);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_41 = L_36;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral8F13D769F67C3EA2097B88C206FD20C2811236BF;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral8F13D769F67C3EA2097B88C206FD20C2811236BF);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_42 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)5);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_43 = L_42;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteral62DB97828DCE03220B3EDC71A9342D0E450E9B9F;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral62DB97828DCE03220B3EDC71A9342D0E450E9B9F);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_44 = V_1;
-		NullCheck(L_43);
-		(L_43)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_44);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_45 = L_43;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteralF79C38394181F8A161156663CB6003FCA58D6052;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteralF79C38394181F8A161156663CB6003FCA58D6052);
-		(&V_1)->___className_1 = _stringLiteralEE71910C7E19B0D89B96AF6011CDFDAF6EA1CF1C;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralEE71910C7E19B0D89B96AF6011CDFDAF6EA1CF1C);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_46 = V_1;
-		NullCheck(L_45);
-		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(1), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_46);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_47 = L_45;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteralF79C38394181F8A161156663CB6003FCA58D6052;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteralF79C38394181F8A161156663CB6003FCA58D6052);
-		(&V_1)->___className_1 = _stringLiteralB85E78C75EF1A6F636689BD88A9D6C2A3B2B0A1B;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralB85E78C75EF1A6F636689BD88A9D6C2A3B2B0A1B);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_48 = V_1;
-		NullCheck(L_47);
-		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(2), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_48);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_49 = L_47;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteralF79C38394181F8A161156663CB6003FCA58D6052;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteralF79C38394181F8A161156663CB6003FCA58D6052);
-		(&V_1)->___className_1 = _stringLiteralF794DCEB7ADE5AC612D14F140F19FAB755AE4F54;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralF794DCEB7ADE5AC612D14F140F19FAB755AE4F54);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_50 = V_1;
-		NullCheck(L_49);
-		(L_49)->SetAt(static_cast<il2cpp_array_size_t>(3), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_50);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_51 = L_49;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteralF79C38394181F8A161156663CB6003FCA58D6052;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteralF79C38394181F8A161156663CB6003FCA58D6052);
-		(&V_1)->___className_1 = _stringLiteralC4E214B19F4C8AA260BEC8E904D1DE02F83DA1E8;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralC4E214B19F4C8AA260BEC8E904D1DE02F83DA1E8);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_52 = V_1;
-		NullCheck(L_51);
-		(L_51)->SetAt(static_cast<il2cpp_array_size_t>(4), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_52);
-		(&V_0)->___monoScriptInfos_1 = L_51;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_51);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_53 = V_0;
-		NullCheck(L_41);
-		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(8), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_53);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_54 = L_41;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteralF4EC1703F3E60EDBAA05BC1E54B2F3A7933A3E48;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteralF4EC1703F3E60EDBAA05BC1E54B2F3A7933A3E48);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_55 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_56 = L_55;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteralE8394D7E8C0BFB263C568CA5C97CCE84A1C5566E;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralE8394D7E8C0BFB263C568CA5C97CCE84A1C5566E);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_57 = V_1;
-		NullCheck(L_56);
-		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_57);
-		(&V_0)->___monoScriptInfos_1 = L_56;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_56);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_58 = V_0;
-		NullCheck(L_54);
-		(L_54)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_58);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_59 = L_54;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral56EA2DF7F25218676D96986D18EF181A2B34838E;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral56EA2DF7F25218676D96986D18EF181A2B34838E);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_60 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_61 = L_60;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteralC7B4B4EC3AEFC8E1FC240EAAB6CC77E291870133;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralC7B4B4EC3AEFC8E1FC240EAAB6CC77E291870133);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_62 = V_1;
-		NullCheck(L_61);
-		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_62);
-		(&V_0)->___monoScriptInfos_1 = L_61;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_61);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_63 = V_0;
-		NullCheck(L_59);
-		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_63);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_64 = L_59;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral4C53ACF13A1071E762E7687CB5D0D2038A14D7CE;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral4C53ACF13A1071E762E7687CB5D0D2038A14D7CE);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_65 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)2);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_66 = L_65;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteral68B26AAE4AAB5C41546C8C7837C46D092AD54438;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral68B26AAE4AAB5C41546C8C7837C46D092AD54438);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_67 = V_1;
-		NullCheck(L_66);
-		(L_66)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_67);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_68 = L_66;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteralF45475005DAC4B00E010D324B7652468761DEB66;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteralF45475005DAC4B00E010D324B7652468761DEB66);
-		(&V_1)->___className_1 = _stringLiteral3079CD1845D0AF30699A12057A08B046AF4DD71A;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral3079CD1845D0AF30699A12057A08B046AF4DD71A);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_69 = V_1;
-		NullCheck(L_68);
-		(L_68)->SetAt(static_cast<il2cpp_array_size_t>(1), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_69);
-		(&V_0)->___monoScriptInfos_1 = L_68;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_68);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_70 = V_0;
-		NullCheck(L_64);
-		(L_64)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_70);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_71 = L_64;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral4C813942569725040C63A1A3B0E4D9C5C78B6977;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral4C813942569725040C63A1A3B0E4D9C5C78B6977);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_72 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_73 = L_72;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteralEBE8F6847C314C91BB3146DCB16C31E2EF0920BA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralEBE8F6847C314C91BB3146DCB16C31E2EF0920BA);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_74 = V_1;
-		NullCheck(L_73);
-		(L_73)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_74);
-		(&V_0)->___monoScriptInfos_1 = L_73;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_73);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_75 = V_0;
-		NullCheck(L_71);
-		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_75);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_76 = L_71;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteralED379DD5A01FD76C66A11FA46BDC000F811E32FF;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteralED379DD5A01FD76C66A11FA46BDC000F811E32FF);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_77 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_78 = L_77;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteral9F9595154F680437DECB0E1AF9CF297C3928A1A7;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral9F9595154F680437DECB0E1AF9CF297C3928A1A7);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_79 = V_1;
-		NullCheck(L_78);
-		(L_78)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_79);
-		(&V_0)->___monoScriptInfos_1 = L_78;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_78);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_80 = V_0;
-		NullCheck(L_76);
-		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_80);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_81 = L_76;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteralD8C0BA26F422F19C0E7C3E356143EEC6DCD0C6DE;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteralD8C0BA26F422F19C0E7C3E356143EEC6DCD0C6DE);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_82 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_83 = L_82;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteral2811C9B7A89DA5BD10AE6CB10251580AD3DC1259;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral2811C9B7A89DA5BD10AE6CB10251580AD3DC1259);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_84 = V_1;
-		NullCheck(L_83);
-		(L_83)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_84);
-		(&V_0)->___monoScriptInfos_1 = L_83;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_83);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_85 = V_0;
-		NullCheck(L_81);
-		(L_81)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_85);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_86 = L_81;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral7400FB1CE91FFF7C81580718BF0DA7C1DEEE0DDE;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral7400FB1CE91FFF7C81580718BF0DA7C1DEEE0DDE);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_87 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_88 = L_87;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteral002D55A2DA6D060AB076D19BCC6390E5A529AAD7;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral002D55A2DA6D060AB076D19BCC6390E5A529AAD7);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_89 = V_1;
-		NullCheck(L_88);
-		(L_88)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_89);
-		(&V_0)->___monoScriptInfos_1 = L_88;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_88);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_90 = V_0;
-		NullCheck(L_86);
-		(L_86)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_90);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_91 = L_86;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral1019711E3F3E65281C7DCC666453C7CDAFB11638;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral1019711E3F3E65281C7DCC666453C7CDAFB11638);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_92 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_93 = L_92;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteralDEC387E8714B21FC2E8CC1370FB9B3B18F5DC5FC;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteralDEC387E8714B21FC2E8CC1370FB9B3B18F5DC5FC);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_94 = V_1;
-		NullCheck(L_93);
-		(L_93)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_94);
-		(&V_0)->___monoScriptInfos_1 = L_93;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_93);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_95 = V_0;
-		NullCheck(L_91);
-		(L_91)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)16)), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_95);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_96 = L_91;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral1BEB5ACBD9424E58A24FDC398F6914C86F153085;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral1BEB5ACBD9424E58A24FDC398F6914C86F153085);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_97 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)1);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_98 = L_97;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteral76A7FE14968C81FC820BDCE893157BFB41A6BA38;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral76A7FE14968C81FC820BDCE893157BFB41A6BA38);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_99 = V_1;
-		NullCheck(L_98);
-		(L_98)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_99);
-		(&V_0)->___monoScriptInfos_1 = L_98;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_98);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_100 = V_0;
-		NullCheck(L_96);
-		(L_96)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_100);
-		FileMonoScriptsU5BU5D_t87EFBC6B0DAE7378218A52B7AE388567D108AC0A* L_101 = L_96;
-		il2cpp_codegen_initobj((&V_0), sizeof(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B));
-		(&V_0)->___filePath_0 = _stringLiteral42B64D31FDC9935EE88C3FB6C87ECB291581C5BB;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___filePath_0), (void*)_stringLiteral42B64D31FDC9935EE88C3FB6C87ECB291581C5BB);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_102 = (MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, (uint32_t)2);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_103 = L_102;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral183B7679B74929BF70B261F0DE819DEC42441EEA);
-		(&V_1)->___className_1 = _stringLiteral3DC211E48DBB5405961639BA7048C716300CFFCA;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral3DC211E48DBB5405961639BA7048C716300CFFCA);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_104 = V_1;
-		NullCheck(L_103);
-		(L_103)->SetAt(static_cast<il2cpp_array_size_t>(0), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_104);
-		MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713* L_105 = L_103;
-		il2cpp_codegen_initobj((&V_1), sizeof(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3));
-		(&V_1)->___nameSpace_0 = _stringLiteral1E4B09E606D487EA195F25164B80225116748ACE;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___nameSpace_0), (void*)_stringLiteral1E4B09E606D487EA195F25164B80225116748ACE);
-		(&V_1)->___className_1 = _stringLiteral3488C6FBFA1EC7F3EFF35C0FDD4D395E17D5061C;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___className_1), (void*)_stringLiteral3488C6FBFA1EC7F3EFF35C0FDD4D395E17D5061C);
-		(&V_1)->___isPartial_2 = (bool)0;
-		MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 L_106 = V_1;
-		NullCheck(L_105);
-		(L_105)->SetAt(static_cast<il2cpp_array_size_t>(1), (MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3)L_106);
-		(&V_0)->___monoScriptInfos_1 = L_105;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___monoScriptInfos_1), (void*)L_105);
-		FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B L_107 = V_0;
-		NullCheck(L_101);
-		(L_101)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)18)), (FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B)L_107);
-		return L_101;
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1363));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tFD27DF8533BFF626B9D00B2AAA69EB68C7ED841F____2F3FE4E5C7A2C84B2D4055DAD3F804AC74C8E6BAC6B3827C0F4EAC5E2B551479_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)714));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tFD27DF8533BFF626B9D00B2AAA69EB68C7ED841F____E41E38A0011F577A5BF4FD01A4DF553F8FDC95A396FBB4C52E1835E02C6211B5_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = ((int32_t)19);
+		(&V_0)->___TotalTypes = ((int32_t)25);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3 L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 52786
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes__ctor_m90BE00BB5C93CDAB033D0B713143E3681169C01C (UnitySourceGeneratedAssemblyMonoScriptTypes_t0825C65CF93BCA1AF6CF45054C0DA0AAFF2D5DF4* __this, const RuntimeMethod* method) 
+// Method Definition Index: 56955
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mEF53BA77504206D6887423B10DFC403ECBE7C576 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t1990F9DB75D9972442F3921AC9EE23EADAC41438* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -2680,51 +2094,79 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTy
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_pinvoke(const MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3& unmarshaled, MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_pinvoke& marshaled)
+IL2CPP_EXTERN_C void MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshal_pinvoke(const MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3& unmarshaled, MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshaled_pinvoke& marshaled)
 {
-	marshaled.___nameSpace_0 = il2cpp_codegen_marshal_string(unmarshaled.___nameSpace_0);
-	marshaled.___className_1 = il2cpp_codegen_marshal_string(unmarshaled.___className_1);
-	marshaled.___isPartial_2 = static_cast<int32_t>(unmarshaled.___isPartial_2);
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
 }
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_pinvoke_back(const MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_pinvoke& marshaled, MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3& unmarshaled)
+IL2CPP_EXTERN_C void MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshal_pinvoke_back(const MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshaled_pinvoke& marshaled, MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3& unmarshaled)
 {
-	unmarshaled.___nameSpace_0 = il2cpp_codegen_marshal_string_result(marshaled.___nameSpace_0);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___nameSpace_0), (void*)il2cpp_codegen_marshal_string_result(marshaled.___nameSpace_0));
-	unmarshaled.___className_1 = il2cpp_codegen_marshal_string_result(marshaled.___className_1);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___className_1), (void*)il2cpp_codegen_marshal_string_result(marshaled.___className_1));
-	bool unmarshaledisPartial_temp_2 = false;
-	unmarshaledisPartial_temp_2 = static_cast<bool>(marshaled.___isPartial_2);
-	unmarshaled.___isPartial_2 = unmarshaledisPartial_temp_2;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
 }
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_pinvoke_cleanup(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_pinvoke& marshaled)
+IL2CPP_EXTERN_C void MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshal_pinvoke_cleanup(MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshaled_pinvoke& marshaled)
 {
-	il2cpp_codegen_marshal_free(marshaled.___nameSpace_0);
-	marshaled.___nameSpace_0 = NULL;
-	il2cpp_codegen_marshal_free(marshaled.___className_1);
-	marshaled.___className_1 = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
 }
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_com(const MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3& unmarshaled, MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_com& marshaled)
+IL2CPP_EXTERN_C void MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshal_com(const MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3& unmarshaled, MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshaled_com& marshaled)
 {
-	marshaled.___nameSpace_0 = il2cpp_codegen_marshal_bstring(unmarshaled.___nameSpace_0);
-	marshaled.___className_1 = il2cpp_codegen_marshal_bstring(unmarshaled.___className_1);
-	marshaled.___isPartial_2 = static_cast<int32_t>(unmarshaled.___isPartial_2);
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
 }
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_com_back(const MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_com& marshaled, MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3& unmarshaled)
+IL2CPP_EXTERN_C void MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshal_com_back(const MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshaled_com& marshaled, MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3& unmarshaled)
 {
-	unmarshaled.___nameSpace_0 = il2cpp_codegen_marshal_bstring_result(marshaled.___nameSpace_0);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___nameSpace_0), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___nameSpace_0));
-	unmarshaled.___className_1 = il2cpp_codegen_marshal_bstring_result(marshaled.___className_1);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___className_1), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___className_1));
-	bool unmarshaledisPartial_temp_2 = false;
-	unmarshaledisPartial_temp_2 = static_cast<bool>(marshaled.___isPartial_2);
-	unmarshaled.___isPartial_2 = unmarshaledisPartial_temp_2;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
 }
-IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_com_cleanup(MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_com& marshaled)
+IL2CPP_EXTERN_C void MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshal_com_cleanup(MonoScriptData_tB3BAC7CE1D2040F9991096A71B17EC4FDDDF39C3_marshaled_com& marshaled)
 {
-	il2cpp_codegen_marshal_free_bstring(marshaled.___nameSpace_0);
-	marshaled.___nameSpace_0 = NULL;
-	il2cpp_codegen_marshal_free_bstring(marshaled.___className_1);
-	marshaled.___className_1 = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -2734,257 +2176,127 @@ IL2CPP_EXTERN_C void MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-
-
-IL2CPP_EXTERN_C void FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshal_pinvoke(const FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B& unmarshaled, FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshaled_pinvoke& marshaled)
-{
-	marshaled.___filePath_0 = il2cpp_codegen_marshal_string(unmarshaled.___filePath_0);
-	if (unmarshaled.___monoScriptInfos_1 != NULL)
-	{
-		il2cpp_array_size_t _unmarshaledmonoScriptInfos_Length = (unmarshaled.___monoScriptInfos_1)->max_length;
-		marshaled.___monoScriptInfos_1 = il2cpp_codegen_marshal_allocate_array<MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_pinvoke>(_unmarshaledmonoScriptInfos_Length);
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_unmarshaledmonoScriptInfos_Length); i++)
-		{
-			MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_pinvoke((unmarshaled.___monoScriptInfos_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)), (marshaled.___monoScriptInfos_1)[i]);
-		}
-	}
-	else
-	{
-		marshaled.___monoScriptInfos_1 = NULL;
-	}
-}
-IL2CPP_EXTERN_C void FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshal_pinvoke_back(const FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshaled_pinvoke& marshaled, FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B& unmarshaled)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	unmarshaled.___filePath_0 = il2cpp_codegen_marshal_string_result(marshaled.___filePath_0);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___filePath_0), (void*)il2cpp_codegen_marshal_string_result(marshaled.___filePath_0));
-	if (marshaled.___monoScriptInfos_1 != NULL)
-	{
-		if (unmarshaled.___monoScriptInfos_1 == NULL)
-		{
-			unmarshaled.___monoScriptInfos_1 = reinterpret_cast<MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*>((MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, 1));
-			Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___monoScriptInfos_1), (void*)reinterpret_cast<MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*>((MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, 1)));
-		}
-		il2cpp_array_size_t _arrayLength = (unmarshaled.___monoScriptInfos_1)->max_length;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_arrayLength); i++)
-		{
-			MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 _marshaled____monoScriptInfos_1_i__unmarshaled;
-			memset((&_marshaled____monoScriptInfos_1_i__unmarshaled), 0, sizeof(_marshaled____monoScriptInfos_1_i__unmarshaled));
-			MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_pinvoke_back((marshaled.___monoScriptInfos_1)[i], _marshaled____monoScriptInfos_1_i__unmarshaled);
-			(unmarshaled.___monoScriptInfos_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), _marshaled____monoScriptInfos_1_i__unmarshaled);
-		}
-	}
-}
-IL2CPP_EXTERN_C void FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshal_pinvoke_cleanup(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshaled_pinvoke& marshaled)
-{
-	il2cpp_codegen_marshal_free(marshaled.___filePath_0);
-	marshaled.___filePath_0 = NULL;
-	if (marshaled.___monoScriptInfos_1 != NULL)
-	{
-		const il2cpp_array_size_t marshaled____monoScriptInfos_1_CleanupLoopCount = 1;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(marshaled____monoScriptInfos_1_CleanupLoopCount); i++)
-		{
-			MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_pinvoke_cleanup((marshaled.___monoScriptInfos_1)[i]);
-		}
-		il2cpp_codegen_marshal_free(marshaled.___monoScriptInfos_1);
-		marshaled.___monoScriptInfos_1 = NULL;
-	}
-}
-
-
-IL2CPP_EXTERN_C void FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshal_com(const FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B& unmarshaled, FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshaled_com& marshaled)
-{
-	marshaled.___filePath_0 = il2cpp_codegen_marshal_bstring(unmarshaled.___filePath_0);
-	if (unmarshaled.___monoScriptInfos_1 != NULL)
-	{
-		il2cpp_array_size_t _unmarshaledmonoScriptInfos_Length = (unmarshaled.___monoScriptInfos_1)->max_length;
-		marshaled.___monoScriptInfos_1 = il2cpp_codegen_marshal_allocate_array<MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshaled_com>(_unmarshaledmonoScriptInfos_Length);
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_unmarshaledmonoScriptInfos_Length); i++)
-		{
-			MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_com((unmarshaled.___monoScriptInfos_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)), (marshaled.___monoScriptInfos_1)[i]);
-		}
-	}
-	else
-	{
-		marshaled.___monoScriptInfos_1 = NULL;
-	}
-}
-IL2CPP_EXTERN_C void FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshal_com_back(const FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshaled_com& marshaled, FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B& unmarshaled)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	unmarshaled.___filePath_0 = il2cpp_codegen_marshal_bstring_result(marshaled.___filePath_0);
-	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___filePath_0), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___filePath_0));
-	if (marshaled.___monoScriptInfos_1 != NULL)
-	{
-		if (unmarshaled.___monoScriptInfos_1 == NULL)
-		{
-			unmarshaled.___monoScriptInfos_1 = reinterpret_cast<MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*>((MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, 1));
-			Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___monoScriptInfos_1), (void*)reinterpret_cast<MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*>((MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713*)SZArrayNew(MonoScriptInfoU5BU5D_t93BFA4E19F317561C8CA2FC129D435FAED5FF713_il2cpp_TypeInfo_var, 1)));
-		}
-		il2cpp_array_size_t _arrayLength = (unmarshaled.___monoScriptInfos_1)->max_length;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_arrayLength); i++)
-		{
-			MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3 _marshaled____monoScriptInfos_1_i__unmarshaled;
-			memset((&_marshaled____monoScriptInfos_1_i__unmarshaled), 0, sizeof(_marshaled____monoScriptInfos_1_i__unmarshaled));
-			MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_com_back((marshaled.___monoScriptInfos_1)[i], _marshaled____monoScriptInfos_1_i__unmarshaled);
-			(unmarshaled.___monoScriptInfos_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), _marshaled____monoScriptInfos_1_i__unmarshaled);
-		}
-	}
-}
-IL2CPP_EXTERN_C void FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshal_com_cleanup(FileMonoScripts_t96BCD4F9469D9BED7F75F109BBC0B9CAF34C1B3B_marshaled_com& marshaled)
-{
-	il2cpp_codegen_marshal_free_bstring(marshaled.___filePath_0);
-	marshaled.___filePath_0 = NULL;
-	if (marshaled.___monoScriptInfos_1 != NULL)
-	{
-		const il2cpp_array_size_t marshaled____monoScriptInfos_1_CleanupLoopCount = 1;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(marshaled____monoScriptInfos_1_CleanupLoopCount); i++)
-		{
-			MonoScriptInfo_tAE84ABFD1FB45EE08030D50004DF60E90431F8C3_marshal_com_cleanup((marshaled.___monoScriptInfos_1)[i]);
-		}
-		il2cpp_codegen_marshal_free(marshaled.___monoScriptInfos_1);
-		marshaled.___monoScriptInfos_1 = NULL;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Method Definition Index: 52787
+// Method Definition Index: 56956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_set_Listen_m163FFCD4C6C9BCAF575D6CA0E5A81A5CDA5F20A0 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:11>
 		bool L_0 = ___0_value;
-		__this->___listen_5 = L_0;
+		__this->___listen = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:11>
 		return;
 	}
 }
-// Method Definition Index: 52788
+// Method Definition Index: 56957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwCameraLook_get_Listen_m877DAFBA1A1059005272E5B7638C3B6001A165DE (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:11>
-		bool L_0 = __this->___listen_5;
+		bool L_0 = __this->___listen;
 		return L_0;
 	}
 }
-// Method Definition Index: 52789
+// Method Definition Index: 56958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_set_Damping_m8FADB4AD82F451F79798BD4991488784D38686EA (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:14>
 		float L_0 = ___0_value;
-		__this->___damping_6 = L_0;
+		__this->___damping = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 52790
+// Method Definition Index: 56959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwCameraLook_get_Damping_m6D6815DE727EC1719FFB88C8D858D98C33A5E035 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:14>
-		float L_0 = __this->___damping_6;
+		float L_0 = __this->___damping;
 		return L_0;
 	}
 }
-// Method Definition Index: 52791
+// Method Definition Index: 56960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_set_Sensitivity_m538C5115B69648AD3479B9C9862DAEECFFCB9678 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:17>
 		float L_0 = ___0_value;
-		__this->___sensitivity_7 = L_0;
+		__this->___sensitivity = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 52792
+// Method Definition Index: 56961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwCameraLook_get_Sensitivity_m8204538F699502F541E5685E9E717B7E1FFED2A1 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:17>
-		float L_0 = __this->___sensitivity_7;
+		float L_0 = __this->___sensitivity;
 		return L_0;
 	}
 }
-// Method Definition Index: 52793
+// Method Definition Index: 56962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_set_PitchControls_mEBF6B088D503E6D969F7C25E66C3E0697E4761AB (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:20>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = ___0_value;
-		__this->___pitchControls_8 = L_0;
+		__this->___pitchControls = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 52794
+// Method Definition Index: 56963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 CwCameraLook_get_PitchControls_mBF95E46373A5010DD8041DC577C9936DBA9C99D1 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:20>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___pitchControls_8;
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___pitchControls;
 		return L_0;
 	}
 }
-// Method Definition Index: 52795
+// Method Definition Index: 56964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_set_YawControls_m0F5771A9F7781CCF69CBBC328DD073303DE9DB8F (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:23>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = ___0_value;
-		__this->___yawControls_9 = L_0;
+		__this->___yawControls = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 52796
+// Method Definition Index: 56965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 CwCameraLook_get_YawControls_m44AA7F7C174986054E214F7E2710FC59229A8878 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:23>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___yawControls_9;
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___yawControls;
 		return L_0;
 	}
 }
-// Method Definition Index: 52797
+// Method Definition Index: 56966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_set_RollControls_m189E94FABD7B11196264A58C30B3671CE04E877A (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:26>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = ___0_value;
-		__this->___rollControls_10 = L_0;
+		__this->___rollControls = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 52798
+// Method Definition Index: 56967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 CwCameraLook_get_RollControls_mAD447FBDBC152BEEE0813ECCE2EE756F0F9EA9D8 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:26>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___rollControls_10;
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___rollControls;
 		return L_0;
 	}
 }
-// Method Definition Index: 52799
+// Method Definition Index: 56968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_Start_mD5006FE346A12254196A27783803536B7190996B (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3001,7 +2313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_Start_mD5006FE346A12254196A
 		return;
 	}
 }
-// Method Definition Index: 52800
+// Method Definition Index: 56969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_OnDisable_m1C5B05F0E62A19476945113B0EB2CE983B629B78 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3009,12 +2321,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_OnDisable_m1C5B05F0E62A1947
 		return;
 	}
 }
-// Method Definition Index: 52801
+// Method Definition Index: 56970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_Update_m99E0608AB19842079CE1B2EEE0C09954E08EE2AB (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:43>
-		bool L_0 = __this->___listen_5;
+		bool L_0 = __this->___listen;
 		if (!L_0)
 		{
 			goto IL_000e;
@@ -3033,7 +2345,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 52802
+// Method Definition Index: 56971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_OnApplicationFocus_mB8E169520301B4BF306DAD3EA4671D215440E13C (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, bool ___0_focus, const RuntimeMethod* method) 
 {
 	{
@@ -3041,7 +2353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_OnApplicationFocus_mB8E1695
 		return;
 	}
 }
-// Method Definition Index: 52803
+// Method Definition Index: 56972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_AddToDelta_mF770BB1372203E15F3635FBD9EB839D1079A29A6 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -3052,29 +2364,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_AddToDelta_mF770BB1372203E1
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:59>
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:61>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_0 = (&__this->___pitchControls_8);
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_0 = (Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793*)(&__this->___pitchControls);
 		float L_1;
 		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		float L_2;
 		L_2 = Axis_GetValue_m593FA2F4B5CD854DF92C1A2AB1C38863FF7FAF9C(L_0, L_1, NULL);
-		(&V_0)->___x_2 = L_2;
+		(&V_0)->___x = L_2;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:62>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_3 = (&__this->___yawControls_9);
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_3 = (Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793*)(&__this->___yawControls);
 		float L_4;
 		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		float L_5;
 		L_5 = Axis_GetValue_m593FA2F4B5CD854DF92C1A2AB1C38863FF7FAF9C(L_3, L_4, NULL);
-		(&V_0)->___y_3 = L_5;
+		(&V_0)->___y = L_5;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:63>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_6 = (&__this->___rollControls_10);
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_6 = (Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793*)(&__this->___rollControls);
 		float L_7;
 		L_7 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		float L_8;
 		L_8 = Axis_GetValue_m593FA2F4B5CD854DF92C1A2AB1C38863FF7FAF9C(L_6, L_7, NULL);
-		(&V_0)->___z_4 = L_8;
+		(&V_0)->___z = L_8;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:65>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
-		float L_10 = __this->___sensitivity_7;
+		float L_10 = __this->___sensitivity;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_9, L_10, NULL);
 		V_0 = L_11;
@@ -3089,20 +2401,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_AddToDelta_mF770BB1372203E1
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
 		L_14 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_0;
-		float L_16 = L_15.___x_2;
+		float L_16 = L_15.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_0;
-		float L_18 = L_17.___y_3;
+		float L_18 = L_17.___y;
 		NullCheck(L_14);
 		Transform_Rotate_mE12DB27208410BB7090FA117D53DBEBBC0A36B30(L_14, L_16, L_18, (0.0f), 1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:73>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
 		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_0;
-		float L_21 = L_20.___z_4;
+		float L_21 = L_20.___z;
 		NullCheck(L_19);
 		Transform_Rotate_mE12DB27208410BB7090FA117D53DBEBBC0A36B30(L_19, (0.0f), (0.0f), L_21, 1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:76>
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = __this->___remainingDelta_11;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = __this->___remainingDelta;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_23 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24;
 		L_24 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_23, NULL);
@@ -3115,7 +2427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_AddToDelta_mF770BB1372203E1
 		L_27 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_24, L_26, NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28;
 		L_28 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_22, L_27, NULL);
-		__this->___remainingDelta_11 = L_28;
+		__this->___remainingDelta = L_28;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:79>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29;
 		L_29 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -3126,7 +2438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_AddToDelta_mF770BB1372203E1
 		return;
 	}
 }
-// Method Definition Index: 52804
+// Method Definition Index: 56973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_DampenDelta_m2A95D6A5FDDA7FAA1E8CB2D5895CCFAD9EDCEAD6 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3140,7 +2452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_DampenDelta_m2A95D6A5FDDA7F
 	memset((&V_1), 0, sizeof(V_1));
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:85>
-		float L_0 = __this->___damping_6;
+		float L_0 = __this->___damping;
 		float L_1;
 		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
@@ -3148,7 +2460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_DampenDelta_m2A95D6A5FDDA7F
 		L_2 = CwHelper_DampenFactor_m8987DC8F4BB4A0ACF43172DCCB6E2E3DC77C3341(L_0, L_1, NULL);
 		V_0 = L_2;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:86>
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = __this->___remainingDelta_11;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = __this->___remainingDelta;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
 		L_4 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		float L_5 = V_0;
@@ -3168,47 +2480,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook_DampenDelta_m2A95D6A5FDDA7F
 		L_11 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_10, NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
 		L_12 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_9, L_11, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13 = __this->___remainingDelta_11;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13 = __this->___remainingDelta;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14;
 		L_14 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_12, L_13, NULL);
 		NullCheck(L_7);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_7, L_14, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:92>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = V_1;
-		__this->___remainingDelta_11 = L_15;
+		__this->___remainingDelta = L_15;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:93>
 		return;
 	}
 }
-// Method Definition Index: 52805
+// Method Definition Index: 56974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook__ctor_mDCBDCA6775C52EB076FB4AE0F6AE258492A740E4 (CwCameraLook_t020CCAEAEB463AA1EF6061E1FB47AD68562937FF* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:11>
-		__this->___listen_5 = (bool)1;
+		__this->___listen = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:14>
-		__this->___damping_6 = (10.0f);
+		__this->___damping = (10.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:17>
-		__this->___sensitivity_7 = (1.0f);
+		__this->___sensitivity = (1.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:20>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Axis__ctor_m5C89B49DF4991E4772BF578018F461163C00FE97((&L_0), 1, (bool)1, 1, (-10.0f), 0, 0, 0, 0, (45.0f), NULL);
-		__this->___pitchControls_8 = L_0;
+		__this->___pitchControls = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:23>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Axis__ctor_m5C89B49DF4991E4772BF578018F461163C00FE97((&L_1), 1, (bool)1, 0, (10.0f), 0, 0, 0, 0, (45.0f), NULL);
-		__this->___yawControls_9 = L_1;
+		__this->___yawControls = L_1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:26>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		Axis__ctor_m5C89B49DF4991E4772BF578018F461163C00FE97((&L_2), 2, (bool)1, 2, (1.0f), ((int32_t)101), ((int32_t)113), 0, 0, (45.0f), NULL);
-		__this->___rollControls_10 = L_2;
+		__this->___rollControls = L_2;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs:29>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
 		L_3 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
-		__this->___remainingDelta_11 = L_3;
+		__this->___remainingDelta = L_3;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -3221,127 +2533,127 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraLook__ctor_mDCBDCA6775C52EB076FB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52806
+// Method Definition Index: 56975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_set_Listen_m284C1B68909DC05835F9B05EF93F3AE6E4F10D1A (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:11>
 		bool L_0 = ___0_value;
-		__this->___listen_5 = L_0;
+		__this->___listen = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:11>
 		return;
 	}
 }
-// Method Definition Index: 52807
+// Method Definition Index: 56976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwCameraMove_get_Listen_mEA412178D149712A27FFF2B2D45E46CA230A2862 (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:11>
-		bool L_0 = __this->___listen_5;
+		bool L_0 = __this->___listen;
 		return L_0;
 	}
 }
-// Method Definition Index: 52808
+// Method Definition Index: 56977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_set_Damping_mBB01F3CB04E712D99BA57E3986845A824E4E17E9 (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:14>
 		float L_0 = ___0_value;
-		__this->___damping_6 = L_0;
+		__this->___damping = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 52809
+// Method Definition Index: 56978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwCameraMove_get_Damping_mEC413396C4A73231497313403335311F8A1BC0F5 (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:14>
-		float L_0 = __this->___damping_6;
+		float L_0 = __this->___damping;
 		return L_0;
 	}
 }
-// Method Definition Index: 52810
+// Method Definition Index: 56979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_set_Sensitivity_mFBBEE1056F75AE10161D086184C4B3A832916C85 (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:17>
 		float L_0 = ___0_value;
-		__this->___sensitivity_7 = L_0;
+		__this->___sensitivity = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 52811
+// Method Definition Index: 56980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwCameraMove_get_Sensitivity_m8CC6222F9CCF9A76D5371B6D98D9362B27077962 (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:17>
-		float L_0 = __this->___sensitivity_7;
+		float L_0 = __this->___sensitivity;
 		return L_0;
 	}
 }
-// Method Definition Index: 52812
+// Method Definition Index: 56981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_set_HorizontalControls_m85BA0D35EB7483498D435F44817B42D214620BA2 (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:20>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = ___0_value;
-		__this->___horizontalControls_8 = L_0;
+		__this->___horizontalControls = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 52813
+// Method Definition Index: 56982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 CwCameraMove_get_HorizontalControls_m353908545D1E4ED59FD6880330205F62B788717E (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:20>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___horizontalControls_8;
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___horizontalControls;
 		return L_0;
 	}
 }
-// Method Definition Index: 52814
+// Method Definition Index: 56983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_set_DepthControls_mDFAE735392B57AEE75B0ECBB86031BA92E277FCA (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:23>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = ___0_value;
-		__this->___depthControls_9 = L_0;
+		__this->___depthControls = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 52815
+// Method Definition Index: 56984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 CwCameraMove_get_DepthControls_mF964DAAB104872A6E7A6AAB7CC901E70E7F6E7BC (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:23>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___depthControls_9;
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___depthControls;
 		return L_0;
 	}
 }
-// Method Definition Index: 52816
+// Method Definition Index: 56985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_set_VerticalControls_m4388F00674DDC4E2879300861908DB5D8C308F4F (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:26>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = ___0_value;
-		__this->___verticalControls_10 = L_0;
+		__this->___verticalControls = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 52817
+// Method Definition Index: 56986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 CwCameraMove_get_VerticalControls_m11CC4FDD29E9BBFF3AF513D60373C19E6E230523 (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:26>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___verticalControls_10;
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___verticalControls;
 		return L_0;
 	}
 }
-// Method Definition Index: 52818
+// Method Definition Index: 56987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_Start_mA97D84E0E7A465E0DDA623D829D3D51D176E1818 (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3358,12 +2670,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_Start_mA97D84E0E7A465E0DDA6
 		return;
 	}
 }
-// Method Definition Index: 52819
+// Method Definition Index: 56988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_Update_m9F091A21DE27A33F7C015EEF65627D1AF96FBE6E (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:38>
-		bool L_0 = __this->___listen_5;
+		bool L_0 = __this->___listen;
 		if (!L_0)
 		{
 			goto IL_000e;
@@ -3382,7 +2694,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 52820
+// Method Definition Index: 56989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_AddToDelta_m13D45EC631A46F799893C047A06BAF569E72985B (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -3395,26 +2707,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_AddToDelta_m13D45EC631A46F7
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:49>
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:51>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_0 = (&__this->___horizontalControls_8);
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_0 = (Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793*)(&__this->___horizontalControls);
 		float L_1;
 		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		float L_2;
 		L_2 = Axis_GetValue_m593FA2F4B5CD854DF92C1A2AB1C38863FF7FAF9C(L_0, L_1, NULL);
-		(&V_0)->___x_2 = L_2;
+		(&V_0)->___x = L_2;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:52>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_3 = (&__this->___verticalControls_10);
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_3 = (Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793*)(&__this->___verticalControls);
 		float L_4;
 		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		float L_5;
 		L_5 = Axis_GetValue_m593FA2F4B5CD854DF92C1A2AB1C38863FF7FAF9C(L_3, L_4, NULL);
-		(&V_0)->___y_3 = L_5;
+		(&V_0)->___y = L_5;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:53>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_6 = (&__this->___depthControls_9);
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_6 = (Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793*)(&__this->___depthControls);
 		float L_7;
 		L_7 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		float L_8;
 		L_8 = Axis_GetValue_m593FA2F4B5CD854DF92C1A2AB1C38863FF7FAF9C(L_6, L_7, NULL);
-		(&V_0)->___z_4 = L_8;
+		(&V_0)->___z = L_8;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:56>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -3426,7 +2738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_AddToDelta_m13D45EC631A46F7
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
 		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
-		float L_13 = __this->___sensitivity_7;
+		float L_13 = __this->___sensitivity;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_12, L_13, NULL);
 		float L_15;
@@ -3446,11 +2758,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_AddToDelta_m13D45EC631A46F7
 		L_20 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_18, L_19, NULL);
 		V_2 = L_20;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:64>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = __this->___remainingDelta_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = __this->___remainingDelta;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 		L_23 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_21, L_22, NULL);
-		__this->___remainingDelta_11 = L_23;
+		__this->___remainingDelta = L_23;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:67>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
 		L_24 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -3461,7 +2773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_AddToDelta_m13D45EC631A46F7
 		return;
 	}
 }
-// Method Definition Index: 52821
+// Method Definition Index: 56990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_DampenDelta_mE9617488706659CF9F0FF61FE9E21170E1C71631 (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3475,7 +2787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_DampenDelta_mE9617488706659
 	memset((&V_1), 0, sizeof(V_1));
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:73>
-		float L_0 = __this->___damping_6;
+		float L_0 = __this->___damping;
 		float L_1;
 		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
@@ -3483,7 +2795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_DampenDelta_mE9617488706659
 		L_2 = CwHelper_DampenFactor_m8987DC8F4BB4A0ACF43172DCCB6E2E3DC77C3341(L_0, L_1, NULL);
 		V_0 = L_2;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:74>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->___remainingDelta_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->___remainingDelta;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		float L_5 = V_0;
@@ -3497,7 +2809,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_DampenDelta_mE9617488706659
 		NullCheck(L_8);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = __this->___remainingDelta_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = __this->___remainingDelta;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_10, L_11, NULL);
@@ -3507,36 +2819,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove_DampenDelta_mE9617488706659
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_8, L_13, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:80>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_1;
-		__this->___remainingDelta_11 = L_14;
+		__this->___remainingDelta = L_14;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 52822
+// Method Definition Index: 56991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove__ctor_mD320CEDCE2FF6D475E2CC9AD5300989E9C81AD6C (CwCameraMove_t053AE4079A3A9EA722AD536549692BE29494EAD6* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:11>
-		__this->___listen_5 = (bool)1;
+		__this->___listen = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:14>
-		__this->___damping_6 = (10.0f);
+		__this->___damping = (10.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:17>
-		__this->___sensitivity_7 = (1.0f);
+		__this->___sensitivity = (1.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:20>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Axis__ctor_m5C89B49DF4991E4772BF578018F461163C00FE97((&L_0), 2, (bool)0, 0, (1.0f), ((int32_t)97), ((int32_t)100), ((int32_t)276), ((int32_t)275), (100.0f), NULL);
-		__this->___horizontalControls_8 = L_0;
+		__this->___horizontalControls = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:23>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Axis__ctor_m5C89B49DF4991E4772BF578018F461163C00FE97((&L_1), 2, (bool)0, 0, (1.0f), ((int32_t)115), ((int32_t)119), ((int32_t)274), ((int32_t)273), (100.0f), NULL);
-		__this->___depthControls_9 = L_1;
+		__this->___depthControls = L_1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs:26>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		Axis__ctor_m5C89B49DF4991E4772BF578018F461163C00FE97((&L_2), 3, (bool)0, 0, (1.0f), ((int32_t)102), ((int32_t)114), 0, 0, (100.0f), NULL);
-		__this->___verticalControls_10 = L_2;
+		__this->___verticalControls = L_2;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -3549,87 +2861,87 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraMove__ctor_mD320CEDCE2FF6D475E2C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52823
+// Method Definition Index: 56992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_set_Listen_m0115EEB0A0DD2A73F9615E9CCCB1CBC5548824CA (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:11>
 		bool L_0 = ___0_value;
-		__this->___listen_5 = L_0;
+		__this->___listen = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:11>
 		return;
 	}
 }
-// Method Definition Index: 52824
+// Method Definition Index: 56993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwCameraPivot_get_Listen_m10B823281B64E8CECE861F6C8DEAE623FBB35957 (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:11>
-		bool L_0 = __this->___listen_5;
+		bool L_0 = __this->___listen;
 		return L_0;
 	}
 }
-// Method Definition Index: 52825
+// Method Definition Index: 56994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_set_Damping_m6502B2397EF2099A90BF5A764B608AB4EA4BB89A (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:14>
 		float L_0 = ___0_value;
-		__this->___damping_6 = L_0;
+		__this->___damping = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 52826
+// Method Definition Index: 56995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwCameraPivot_get_Damping_mDA2E32B5D33CA5BED637235339034E67E7A2A5D8 (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:14>
-		float L_0 = __this->___damping_6;
+		float L_0 = __this->___damping;
 		return L_0;
 	}
 }
-// Method Definition Index: 52827
+// Method Definition Index: 56996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_set_PitchControls_mBDB756BC1D92D2699503E5A37B140DB27853FE88 (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:17>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = ___0_value;
-		__this->___pitchControls_7 = L_0;
+		__this->___pitchControls = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 52828
+// Method Definition Index: 56997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 CwCameraPivot_get_PitchControls_mBDAA3DE11794ABF225328036A1A58982EDEF80D2 (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:17>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___pitchControls_7;
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___pitchControls;
 		return L_0;
 	}
 }
-// Method Definition Index: 52829
+// Method Definition Index: 56998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_set_YawControls_m531BEA24044C341C048F6D1D59A45BC1D21D7E6E (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:20>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = ___0_value;
-		__this->___yawControls_8 = L_0;
+		__this->___yawControls = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 52830
+// Method Definition Index: 56999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 CwCameraPivot_get_YawControls_m1AF1E4890DBF014B500533AF18B1BB7F3453138F (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:20>
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___yawControls_8;
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0 = __this->___yawControls;
 		return L_0;
 	}
 }
-// Method Definition Index: 52831
+// Method Definition Index: 57000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_OnEnable_mCEDCD8579F56E1CA06C9E139720D1CEBA595D030 (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3646,12 +2958,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_OnEnable_mCEDCD8579F56E1CA
 		return;
 	}
 }
-// Method Definition Index: 52832
+// Method Definition Index: 57001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_Update_m1CFD2F0CF0F14C4B0E7F4DB39F0A155D914B902B (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:32>
-		bool L_0 = __this->___listen_5;
+		bool L_0 = __this->___listen;
 		if (!L_0)
 		{
 			goto IL_000e;
@@ -3670,27 +2982,27 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 52833
+// Method Definition Index: 57002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_AddToDelta_m10408BEC7A10F69DEF799A73012C439955C58F11 (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:42>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = (&__this->___remainingDelta_9);
-		float* L_1 = (&L_0->___x_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___remainingDelta);
+		float* L_1 = (float*)(&L_0->___x);
 		float* L_2 = L_1;
 		float L_3 = *((float*)L_2);
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_4 = (&__this->___pitchControls_7);
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_4 = (Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793*)(&__this->___pitchControls);
 		float L_5;
 		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		float L_6;
 		L_6 = Axis_GetValue_m593FA2F4B5CD854DF92C1A2AB1C38863FF7FAF9C(L_4, L_5, NULL);
 		*((float*)L_2) = (float)((float)il2cpp_codegen_add(L_3, L_6));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:43>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = (&__this->___remainingDelta_9);
-		float* L_8 = (&L_7->___y_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___remainingDelta);
+		float* L_8 = (float*)(&L_7->___y);
 		float* L_9 = L_8;
 		float L_10 = *((float*)L_9);
-		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_11 = (&__this->___yawControls_8);
+		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* L_11 = (Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793*)(&__this->___yawControls);
 		float L_12;
 		L_12 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		float L_13;
@@ -3700,7 +3012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_AddToDelta_m10408BEC7A10F6
 		return;
 	}
 }
-// Method Definition Index: 52834
+// Method Definition Index: 57003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_DampenDelta_m0E0DF1A4AC36FCE7D05247BAB5CB1983242871F8 (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3716,7 +3028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_DampenDelta_m0E0DF1A4AC36F
 	memset((&V_2), 0, sizeof(V_2));
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:49>
-		float L_0 = __this->___damping_6;
+		float L_0 = __this->___damping;
 		float L_1;
 		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
@@ -3724,7 +3036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_DampenDelta_m0E0DF1A4AC36F
 		L_2 = CwHelper_DampenFactor_m8987DC8F4BB4A0ACF43172DCCB6E2E3DC77C3341(L_0, L_1, NULL);
 		V_0 = L_2;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:50>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->___remainingDelta_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->___remainingDelta;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		float L_5 = V_0;
@@ -3740,13 +3052,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_DampenDelta_m0E0DF1A4AC36F
 		V_2 = L_8;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:55>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_2;
-		float L_10 = L_9.___x_2;
+		float L_10 = L_9.___x;
 		float L_11;
 		L_11 = Mathf_DeltaAngle_mCBA858CE5C1BEEBE375812325A50E434FF66D6D4_inline(L_10, (0.0f), NULL);
-		(&V_2)->___x_2 = ((-L_11));
+		(&V_2)->___x = ((-L_11));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:57>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = __this->___remainingDelta_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = __this->___remainingDelta;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
 		L_15 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_13, L_14, NULL);
@@ -3755,10 +3067,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_DampenDelta_m0E0DF1A4AC36F
 		V_2 = L_16;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:59>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_2;
-		float L_18 = L_17.___x_2;
+		float L_18 = L_17.___x;
 		float L_19;
 		L_19 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_18, (-89.0f), (89.0f), NULL);
-		(&V_2)->___x_2 = L_19;
+		(&V_2)->___x = L_19;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:61>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
 		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -3767,29 +3079,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot_DampenDelta_m0E0DF1A4AC36F
 		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_20, L_21, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:64>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_1;
-		__this->___remainingDelta_9 = L_22;
+		__this->___remainingDelta = L_22;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:65>
 		return;
 	}
 }
-// Method Definition Index: 52835
+// Method Definition Index: 57004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot__ctor_m116623E358DCE94A764921368F2593C508ED4535 (CwCameraPivot_t61154770446EE07C90641977CAAEECB485D93AA5* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:11>
-		__this->___listen_5 = (bool)1;
+		__this->___listen = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:14>
-		__this->___damping_6 = (10.0f);
+		__this->___damping = (10.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:17>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Axis__ctor_m5C89B49DF4991E4772BF578018F461163C00FE97((&L_0), 1, (bool)1, 1, (-0.100000001f), 0, 0, 0, 0, (45.0f), NULL);
-		__this->___pitchControls_7 = L_0;
+		__this->___pitchControls = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs:20>
 		Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Axis__ctor_m5C89B49DF4991E4772BF578018F461163C00FE97((&L_1), 1, (bool)1, 0, (0.100000001f), 0, 0, 0, 0, (45.0f), NULL);
-		__this->___yawControls_8 = L_1;
+		__this->___yawControls = L_1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -3802,167 +3114,167 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwCameraPivot__ctor_m116623E358DCE94A764
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52836
+// Method Definition Index: 57005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_set_UpgradeInputModule_m87A6430C317601F71AA02926F398816A72498B83 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:12>
 		bool L_0 = ___0_value;
-		__this->___upgradeInputModule_5 = L_0;
+		__this->___upgradeInputModule = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:12>
 		return;
 	}
 }
-// Method Definition Index: 52837
+// Method Definition Index: 57006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwDemo_get_UpgradeInputModule_m6D33C440BEC144EA57716D649D0233F1A589B763 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:12>
-		bool L_0 = __this->___upgradeInputModule_5;
+		bool L_0 = __this->___upgradeInputModule;
 		return L_0;
 	}
 }
-// Method Definition Index: 52838
+// Method Definition Index: 57007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_set_ChangeExposureInHDRP_m29CAF8AA97353F4864610589F8D004F544FE8784 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:15>
 		bool L_0 = ___0_value;
-		__this->___changeExposureInHDRP_6 = L_0;
+		__this->___changeExposureInHDRP = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:15>
 		return;
 	}
 }
-// Method Definition Index: 52839
+// Method Definition Index: 57008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwDemo_get_ChangeExposureInHDRP_mB348B20BF7227C2F9EE464033A8A30D440010520 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:15>
-		bool L_0 = __this->___changeExposureInHDRP_6;
+		bool L_0 = __this->___changeExposureInHDRP;
 		return L_0;
 	}
 }
-// Method Definition Index: 52840
+// Method Definition Index: 57009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_set_ChangeVisualEnvironmentInHDRP_m07C9A024F7F05B36DEF1D3F78B3C226C8BCFF7F6 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:18>
 		bool L_0 = ___0_value;
-		__this->___changeVisualEnvironmentInHDRP_7 = L_0;
+		__this->___changeVisualEnvironmentInHDRP = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 52841
+// Method Definition Index: 57010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwDemo_get_ChangeVisualEnvironmentInHDRP_m2D4F298EFC57250384C8F35FCCCA52691CD7247C (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:18>
-		bool L_0 = __this->___changeVisualEnvironmentInHDRP_7;
+		bool L_0 = __this->___changeVisualEnvironmentInHDRP;
 		return L_0;
 	}
 }
-// Method Definition Index: 52842
+// Method Definition Index: 57011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_set_ChangeFogInHDRP_mE932F143E8D9CBD3D5C1A03763D420D4FA0FA927 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:21>
 		bool L_0 = ___0_value;
-		__this->___changeFogInHDRP_8 = L_0;
+		__this->___changeFogInHDRP = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:21>
 		return;
 	}
 }
-// Method Definition Index: 52843
+// Method Definition Index: 57012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwDemo_get_ChangeFogInHDRP_mB92F67047FBCAB89D9401474532D7E65B3EFD808 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:21>
-		bool L_0 = __this->___changeFogInHDRP_8;
+		bool L_0 = __this->___changeFogInHDRP;
 		return L_0;
 	}
 }
-// Method Definition Index: 52844
+// Method Definition Index: 57013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_set_ChangeCloudsInHDRP_m8DBB2E52B461331E19C2E121948B70509DE902BB (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:24>
 		bool L_0 = ___0_value;
-		__this->___changeCloudsInHDRP_9 = L_0;
+		__this->___changeCloudsInHDRP = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 52845
+// Method Definition Index: 57014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwDemo_get_ChangeCloudsInHDRP_m7F8AC0AF4BB2F8AE44039C326B6D6F58A8A77722 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:24>
-		bool L_0 = __this->___changeCloudsInHDRP_9;
+		bool L_0 = __this->___changeCloudsInHDRP;
 		return L_0;
 	}
 }
-// Method Definition Index: 52846
+// Method Definition Index: 57015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_set_ChangeMotionBlurInHDRP_mAE1CA22631DAC6F37DE514FF587B8AD2DD261537 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:27>
 		bool L_0 = ___0_value;
-		__this->___changeMotionBlurInHDRP_10 = L_0;
+		__this->___changeMotionBlurInHDRP = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:27>
 		return;
 	}
 }
-// Method Definition Index: 52847
+// Method Definition Index: 57016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwDemo_get_ChangeMotionBlurInHDRP_m065D6426EA749257CB0EF5C83DE99E8138456E72 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:27>
-		bool L_0 = __this->___changeMotionBlurInHDRP_10;
+		bool L_0 = __this->___changeMotionBlurInHDRP;
 		return L_0;
 	}
 }
-// Method Definition Index: 52848
+// Method Definition Index: 57017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_set_UpgradeLightsInHDRP_m9DE2DC00580FE0F1AF00C42D1640C0A42E9683B9 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:30>
 		bool L_0 = ___0_value;
-		__this->___upgradeLightsInHDRP_11 = L_0;
+		__this->___upgradeLightsInHDRP = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 52849
+// Method Definition Index: 57018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwDemo_get_UpgradeLightsInHDRP_m418467A363DC254C6B5F97C4284C8CC877E3ABDC (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:30>
-		bool L_0 = __this->___upgradeLightsInHDRP_11;
+		bool L_0 = __this->___upgradeLightsInHDRP;
 		return L_0;
 	}
 }
-// Method Definition Index: 52850
+// Method Definition Index: 57019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_set_UpgradeCamerasInHDRP_mB84F1D2F46CDD987FA5CB007C404FD86960DD9F3 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:33>
 		bool L_0 = ___0_value;
-		__this->___upgradeCamerasInHDRP_12 = L_0;
+		__this->___upgradeCamerasInHDRP = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 52851
+// Method Definition Index: 57020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwDemo_get_UpgradeCamerasInHDRP_m15B1A9600A684CF5CF92B1D761DB1210F0DBEB17 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:33>
-		bool L_0 = __this->___upgradeCamerasInHDRP_12;
+		bool L_0 = __this->___upgradeCamerasInHDRP;
 		return L_0;
 	}
 }
-// Method Definition Index: 52852
+// Method Definition Index: 57021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_OnEnable_mB329715BBE270D46E441C5DE08CBD3E158C73B4F (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	int32_t G_B2_0 = 0;
@@ -3974,7 +3286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_OnEnable_mB329715BBE270D46E441C5D
 		int32_t L_0;
 		L_0 = CwShaderBundle_DetectProjectPipeline_mC641F60AF920E41EDBF470A5A35E8D09BC34819C(NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:39>
-		bool L_1 = __this->___upgradeInputModule_5;
+		bool L_1 = __this->___upgradeInputModule;
 		if (!L_1)
 		{
 			G_B2_0 = L_0;
@@ -4028,7 +3340,7 @@ IL_002e:
 		return;
 	}
 }
-// Method Definition Index: 52853
+// Method Definition Index: 57022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_TryApplyURP_m35796526F1BCCB485A70B6AB1927676149E9D9A2 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4036,26 +3348,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_TryApplyURP_m35796526F1BCCB485A70
 		return;
 	}
 }
-// Method Definition Index: 52854
+// Method Definition Index: 57023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_TryApplyHDRP_mD78D420CB1E685249F14CB0D99CCD6EF880B5ABB (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:61>
-		bool L_0 = __this->___changeExposureInHDRP_6;
+		bool L_0 = __this->___changeExposureInHDRP;
 		if (L_0)
 		{
 			goto IL_0018;
 		}
 	}
 	{
-		bool L_1 = __this->___changeVisualEnvironmentInHDRP_7;
+		bool L_1 = __this->___changeVisualEnvironmentInHDRP;
 		if (L_1)
 		{
 			goto IL_0018;
 		}
 	}
 	{
-		bool L_2 = __this->___changeFogInHDRP_8;
+		bool L_2 = __this->___changeFogInHDRP;
 		if (!L_2)
 		{
 			goto IL_001e;
@@ -4071,7 +3383,7 @@ IL_0018:
 IL_001e:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:66>
-		bool L_3 = __this->___upgradeLightsInHDRP_11;
+		bool L_3 = __this->___upgradeLightsInHDRP;
 		if (!L_3)
 		{
 			goto IL_002c;
@@ -4085,7 +3397,7 @@ IL_001e:
 IL_002c:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:71>
-		bool L_4 = __this->___upgradeCamerasInHDRP_12;
+		bool L_4 = __this->___upgradeCamerasInHDRP;
 		if (!L_4)
 		{
 			goto IL_003a;
@@ -4102,7 +3414,7 @@ IL_003a:
 		return;
 	}
 }
-// Method Definition Index: 52855
+// Method Definition Index: 57024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_TryCreateVolume_mF0ED833748DD78B9B432BEE26D3BEBE95A6F8C72 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4110,7 +3422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_TryCreateVolume_mF0ED833748DD78B9
 		return;
 	}
 }
-// Method Definition Index: 52856
+// Method Definition Index: 57025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_TryUpgradeLights_m684D2B7F56FADEBD39ED39C6C832CC0DB12CE675 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4118,7 +3430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_TryUpgradeLights_m684D2B7F56FADEB
 		return;
 	}
 }
-// Method Definition Index: 52857
+// Method Definition Index: 57026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_TryUpgradeCameras_mB4BF3DB92A2C6B39A3E64014FEDFA7EA0752E2F2 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4126,7 +3438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_TryUpgradeCameras_mB4BF3DB92A2C6B
 		return;
 	}
 }
-// Method Definition Index: 52858
+// Method Definition Index: 57027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_TryUpgradeEventSystem_mF00162005AF57D29DC33FE1DBF3CEE3A3A63063A (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4134,26 +3446,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo_TryUpgradeEventSystem_mF00162005A
 		return;
 	}
 }
-// Method Definition Index: 52859
+// Method Definition Index: 57028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo__ctor_mBED7A824788726A10337094F8AF00434935EAAA6 (CwDemo_t4A991848BD14E65B275E1F5F59C249B2B0881D61* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:12>
-		__this->___upgradeInputModule_5 = (bool)1;
+		__this->___upgradeInputModule = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:15>
-		__this->___changeExposureInHDRP_6 = (bool)1;
+		__this->___changeExposureInHDRP = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:18>
-		__this->___changeVisualEnvironmentInHDRP_7 = (bool)1;
+		__this->___changeVisualEnvironmentInHDRP = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:21>
-		__this->___changeFogInHDRP_8 = (bool)1;
+		__this->___changeFogInHDRP = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:24>
-		__this->___changeCloudsInHDRP_9 = (bool)1;
+		__this->___changeCloudsInHDRP = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:27>
-		__this->___changeMotionBlurInHDRP_10 = (bool)1;
+		__this->___changeMotionBlurInHDRP = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:30>
-		__this->___upgradeLightsInHDRP_11 = (bool)1;
+		__this->___upgradeLightsInHDRP = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs:33>
-		__this->___upgradeCamerasInHDRP_12 = (bool)1;
+		__this->___upgradeCamerasInHDRP = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -4166,89 +3478,89 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemo__ctor_mBED7A824788726A10337094F8A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52860
+// Method Definition Index: 57029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_set_Link_mB087D0AF90664C47CE69E242CCCE3FAA97C1C030 (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:29>
 		int32_t L_0 = ___0_value;
-		__this->___link_5 = L_0;
+		__this->___link = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 52861
+// Method Definition Index: 57030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwDemoButton_get_Link_m697FE7049EAADA44F1008A7FA6FC7C99193667E2 (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:29>
-		int32_t L_0 = __this->___link_5;
+		int32_t L_0 = __this->___link;
 		return L_0;
 	}
 }
-// Method Definition Index: 52862
+// Method Definition Index: 57031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_set_UrlTarget_m6CEF651110DCA70FA91B3A3718A002C278654542 (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:32>
 		String_t* L_0 = ___0_value;
-		__this->___urlTarget_6 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___urlTarget_6), (void*)L_0);
+		__this->___urlTarget = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___urlTarget), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 52863
+// Method Definition Index: 57032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CwDemoButton_get_UrlTarget_mEA7C881C6000A87391C394B41E32E0CDA5DB0251 (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:32>
-		String_t* L_0 = __this->___urlTarget_6;
+		String_t* L_0 = __this->___urlTarget;
 		return L_0;
 	}
 }
-// Method Definition Index: 52864
+// Method Definition Index: 57033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_set_IsolateTarget_m02D291EFB121AE742CDBC8F11F14E97F49E5CC73 (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:35>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_value;
-		__this->___isolateTarget_7 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___isolateTarget_7), (void*)L_0);
+		__this->___isolateTarget = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___isolateTarget), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 52865
+// Method Definition Index: 57034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* CwDemoButton_get_IsolateTarget_mA936AC78BEEF8CCB218107058515502864909AAC (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:35>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___isolateTarget_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___isolateTarget;
 		return L_0;
 	}
 }
-// Method Definition Index: 52866
+// Method Definition Index: 57035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_set_IsolateToggle_m863B30399417CD738AB9DDB521BE953AF4E7BCF5 (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:38>
 		int32_t L_0 = ___0_value;
-		__this->___isolateToggle_8 = L_0;
+		__this->___isolateToggle = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:38>
 		return;
 	}
 }
-// Method Definition Index: 52867
+// Method Definition Index: 57036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwDemoButton_get_IsolateToggle_mC7F471566AFAD80C8707E2A8E380123F00FAA52D (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:38>
-		int32_t L_0 = __this->___isolateToggle_8;
+		int32_t L_0 = __this->___isolateToggle;
 		return L_0;
 	}
 }
-// Method Definition Index: 52868
+// Method Definition Index: 57037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_OnEnable_m740FD307459B83F1DEEF443187B23E310187D98C (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4261,13 +3573,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_OnEnable_m740FD307459B83F1D
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:48>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0;
 		L_0 = Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2(__this, Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2_RuntimeMethod_var);
-		__this->___cachedCanvasGroup_9 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___cachedCanvasGroup_9), (void*)L_0);
+		__this->___cachedCanvasGroup = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cachedCanvasGroup), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 52869
+// Method Definition Index: 57038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_Update_mE21AB6CE27E0C9FF8A495F829FC7DB88F95C93A2 (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4301,7 +3613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_Update_mE21AB6CE27E0C9FF8A4
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:57>
 		V_1 = (1.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:59>
-		int32_t L_3 = __this->___link_5;
+		int32_t L_3 = __this->___link;
 		V_2 = L_3;
 		int32_t L_4 = V_2;
 		if ((!(((uint32_t)L_4) > ((uint32_t)1))))
@@ -4360,7 +3672,7 @@ IL_0046:
 IL_0049:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:69>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___isolateTarget_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___isolateTarget;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
 		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -4371,7 +3683,7 @@ IL_0049:
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:71>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->___isolateTarget_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->___isolateTarget;
 		NullCheck(L_10);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
@@ -4423,7 +3735,7 @@ IL_0099:
 		return;
 	}
 }
-// Method Definition Index: 52870
+// Method Definition Index: 57039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_OnPointerDown_m619A8856581D7D959B5731CE3160497030C46194 (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4447,7 +3759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_OnPointerDown_m619A8856581D
 	int32_t V_7 = 0;
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:85>
-		int32_t L_0 = __this->___link_5;
+		int32_t L_0 = __this->___link;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		switch (L_1)
@@ -4568,7 +3880,7 @@ IL_0068:
 IL_0073:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:127>
-		String_t* L_14 = __this->___urlTarget_6;
+		String_t* L_14 = __this->___urlTarget;
 		bool L_15;
 		L_15 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_14, NULL);
 		if (L_15)
@@ -4578,7 +3890,7 @@ IL_0073:
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:129>
-		String_t* L_16 = __this->___urlTarget_6;
+		String_t* L_16 = __this->___urlTarget;
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89(L_16, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:132>
@@ -4588,7 +3900,7 @@ IL_0073:
 IL_008f:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:136>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = __this->___isolateTarget_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = __this->___isolateTarget;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
 		L_18 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -4599,7 +3911,7 @@ IL_008f:
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:138>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = __this->___isolateTarget_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = __this->___isolateTarget;
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
 		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_19, NULL);
@@ -4607,7 +3919,7 @@ IL_008f:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
 		L_21 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_20, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:139>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = __this->___isolateTarget_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = __this->___isolateTarget;
 		NullCheck(L_22);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
 		L_23 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_22, NULL);
@@ -4681,7 +3993,7 @@ IL_00cf_1:
 			{
 				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:145>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = V_5;
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36 = __this->___isolateTarget_7;
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36 = __this->___isolateTarget;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_37;
 				L_37 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_35, L_36, NULL);
@@ -4693,8 +4005,8 @@ IL_00cf_1:
 			{
 				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:147>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = V_5;
-				__this->___previousChild_10 = L_38;
-				Il2CppCodeGenWriteBarrier((void**)(&__this->___previousChild_10), (void*)L_38);
+				__this->___previousChild = L_38;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___previousChild), (void*)L_38);
 			}
 
 IL_0102_1:
@@ -4733,7 +4045,7 @@ IL_010f_1:
 IL_012f:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:154>
-		int32_t L_43 = __this->___isolateToggle_8;
+		int32_t L_43 = __this->___isolateToggle;
 		V_7 = L_43;
 		int32_t L_44 = V_7;
 		switch (L_44)
@@ -4759,7 +4071,7 @@ IL_012f:
 IL_014b:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:158>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45 = __this->___isolateTarget_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45 = __this->___isolateTarget;
 		NullCheck(L_45);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_46;
 		L_46 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_45, NULL);
@@ -4772,7 +4084,7 @@ IL_014b:
 IL_015d:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:164>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_47 = __this->___isolateTarget_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_47 = __this->___isolateTarget;
 		NullCheck(L_47);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_48;
 		L_48 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_47, NULL);
@@ -4793,7 +4105,7 @@ IL_0172:
 		}
 	}
 	{
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_51 = __this->___previousChild_10;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_51 = __this->___previousChild;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_52;
 		L_52 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_51, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -4804,7 +4116,7 @@ IL_0172:
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:172>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_53 = __this->___previousChild_10;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_53 = __this->___previousChild;
 		NullCheck(L_53);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54;
 		L_54 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_53, NULL);
@@ -4816,7 +4128,7 @@ IL_0172:
 IL_0195:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:176>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_55 = __this->___isolateTarget_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_55 = __this->___isolateTarget;
 		NullCheck(L_55);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56;
 		L_56 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_55, NULL);
@@ -4830,7 +4142,7 @@ IL_01a6:
 		return;
 	}
 }
-// Method Definition Index: 52871
+// Method Definition Index: 57040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwDemoButton_GetCurrentLevel_m5446D556EA517C27770A3DD69F93A175C57A1CC7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4891,7 +4203,7 @@ IL_0030:
 		return L_8;
 	}
 }
-// Method Definition Index: 52872
+// Method Definition Index: 57041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwDemoButton_GetLevelCount_m5EA01DC6D0F8B04B628B7295BBF2CEDC7763C6DE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4908,7 +4220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwDemoButton_GetLevelCount_m5EA01DC6D
 		return L_0;
 	}
 }
-// Method Definition Index: 52873
+// Method Definition Index: 57042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_LoadLevel_m1E43A1851F54DA9647D19B250EA5F8030C2BF8C4 (int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4926,7 +4238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton_LoadLevel_m1E43A1851F54DA96
 		return;
 	}
 }
-// Method Definition Index: 52874
+// Method Definition Index: 57043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton__ctor_m03FE67433F28EAD7896B81DC96F20DFF23A567BB (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4942,111 +4254,111 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButton__ctor_m03FE67433F28EAD7896B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52875
+// Method Definition Index: 57044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder_set_ButtonPrefab_m5C1988EC1299786CD1833DF68A32D615F24376CC (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:13>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_value;
-		__this->___buttonPrefab_5 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___buttonPrefab_5), (void*)L_0);
+		__this->___buttonPrefab = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___buttonPrefab), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:13>
 		return;
 	}
 }
-// Method Definition Index: 52876
+// Method Definition Index: 57045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CwDemoButtonBuilder_get_ButtonPrefab_mFBAF28CC36EF4EBDDC152EDE788DDE22F5E4D8F5 (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:13>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___buttonPrefab_5;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___buttonPrefab;
 		return L_0;
 	}
 }
-// Method Definition Index: 52877
+// Method Definition Index: 57046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder_set_ButtonRoot_mF745E0F9F522BDE5115E552447B58030E4853F4D (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:16>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_value;
-		__this->___buttonRoot_6 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___buttonRoot_6), (void*)L_0);
+		__this->___buttonRoot = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___buttonRoot), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:16>
 		return;
 	}
 }
-// Method Definition Index: 52878
+// Method Definition Index: 57047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* CwDemoButtonBuilder_get_ButtonRoot_m52AFC0E834A2CECD327C4E3388F4764E6FAE9A0E (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:16>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___buttonRoot_6;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___buttonRoot;
 		return L_0;
 	}
 }
-// Method Definition Index: 52879
+// Method Definition Index: 57048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder_set_Icon_mC88D4E1B837973211026AC81EAED79024A43DF6A (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:19>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = ___0_value;
-		__this->___icon_7 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___icon_7), (void*)L_0);
+		__this->___icon = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___icon), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 52880
+// Method Definition Index: 57049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* CwDemoButtonBuilder_get_Icon_m80C31E10815A5C99B65AFD409E804E9BB4D625AC (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:19>
-		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = __this->___icon_7;
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = __this->___icon;
 		return L_0;
 	}
 }
-// Method Definition Index: 52881
+// Method Definition Index: 57050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder_set_Color_m633C821577979A8E6211B2F55FAE70E54BD711D2 (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:22>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_value;
-		__this->___color_8 = L_0;
+		__this->___color = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 52882
+// Method Definition Index: 57051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F CwDemoButtonBuilder_get_Color_mE99E205560820C0DF3ECF7003121226717964BA8 (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:22>
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___color_8;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___color;
 		return L_0;
 	}
 }
-// Method Definition Index: 52883
+// Method Definition Index: 57052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder_set_OverrideName_m256AD031FE5A656D3EA75869EAC2E92A93F60C46 (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:25>
 		String_t* L_0 = ___0_value;
-		__this->___overrideName_9 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___overrideName_9), (void*)L_0);
+		__this->___overrideName = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___overrideName), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 52884
+// Method Definition Index: 57053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CwDemoButtonBuilder_get_OverrideName_mB6448348D098D3F29B89687A6AB7342B0A54F68E (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:25>
-		String_t* L_0 = __this->___overrideName_9;
+		String_t* L_0 = __this->___overrideName;
 		return L_0;
 	}
 }
-// Method Definition Index: 52885
+// Method Definition Index: 57054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder_Build_m7F8A020ECA16B6CDA9E99C31639B049A7E4FB7B8 (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5067,7 +4379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder_Build_m7F8A020ECA16B
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B9_1 = NULL;
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:33>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___clone_10;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___clone;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -5078,7 +4390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder_Build_m7F8A020ECA16B
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:35>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___clone_10;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___clone;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
 	}
@@ -5086,7 +4398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder_Build_m7F8A020ECA16B
 IL_0019:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:38>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___buttonPrefab_5;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___buttonPrefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -5099,16 +4411,16 @@ IL_0019:
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:40>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = CwDemoButtonBuilder_DoInstantiate_mD83FBDEEB6599CF9A4456609E0AE158EF9A17436(__this, NULL);
-		__this->___clone_10 = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___clone_10), (void*)L_5);
+		__this->___clone = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___clone), (void*)L_5);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:42>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___clone_10;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___clone;
 		String_t* L_7;
 		L_7 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(__this, NULL);
 		NullCheck(L_6);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_6, L_7, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:44>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___clone_10;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___clone;
 		NullCheck(L_8);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9;
 		L_9 = GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D(L_8, GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var);
@@ -5126,12 +4438,12 @@ IL_0019:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:48>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_12 = V_0;
-		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_13 = __this->___icon_7;
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_13 = __this->___icon;
 		NullCheck(L_12);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_12, L_13, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:49>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_14 = V_0;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15 = __this->___color_8;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15 = __this->___color;
 		NullCheck(L_14);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_14, L_15);
 	}
@@ -5139,7 +4451,7 @@ IL_0019:
 IL_0074:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:52>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___clone_10;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___clone;
 		NullCheck(L_16);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17;
 		L_17 = GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13(L_16, GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13_RuntimeMethod_var);
@@ -5157,7 +4469,7 @@ IL_0074:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:56>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = V_1;
-		String_t* L_21 = __this->___overrideName_9;
+		String_t* L_21 = __this->___overrideName;
 		bool L_22;
 		L_22 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_21, NULL);
 		if (!L_22)
@@ -5177,7 +4489,7 @@ IL_0074:
 
 IL_009f:
 	{
-		String_t* L_24 = __this->___overrideName_9;
+		String_t* L_24 = __this->___overrideName;
 		G_B9_0 = L_24;
 		G_B9_1 = G_B8_0;
 	}
@@ -5191,7 +4503,7 @@ IL_00a5:
 IL_00aa:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:59>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___clone_10;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___clone;
 		NullCheck(L_25);
 		CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* L_26;
 		L_26 = GameObject_GetComponent_TisCwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3_m9856CD4A960ABC02517D20C160ECB0DE34FEF8FB(L_25, GameObject_GetComponent_TisCwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3_m9856CD4A960ABC02517D20C160ECB0DE34FEF8FB_RuntimeMethod_var);
@@ -5221,7 +4533,7 @@ IL_00cb:
 		return;
 	}
 }
-// Method Definition Index: 52886
+// Method Definition Index: 57055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder_BuildAll_m369666072D23EC6E689FAC70816BF8DED0BDF0CA (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5278,7 +4590,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 52887
+// Method Definition Index: 57056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CwDemoButtonBuilder_DoInstantiate_mD83FBDEEB6599CF9A4456609E0AE158EF9A17436 (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5290,22 +4602,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:85>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___buttonPrefab_5;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___buttonRoot_6;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___buttonPrefab;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___buttonRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mCE536F8736F04AC3C46EED6FD5FA02F5D22A84C6(L_0, L_1, (bool)0, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mCE536F8736F04AC3C46EED6FD5FA02F5D22A84C6_RuntimeMethod_var);
 		return L_2;
 	}
 }
-// Method Definition Index: 52888
+// Method Definition Index: 57057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder__ctor_m88BA35D977500472697C8F03AE9CD7A626F4AF23 (CwDemoButtonBuilder_tA757BE2A8E7B669237A609387F74E948470ABFD2* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs:22>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
-		__this->___color_8 = L_0;
+		__this->___color = L_0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -5318,29 +4630,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDemoButtonBuilder__ctor_m88BA35D977500
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52889
+// Method Definition Index: 57058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDepthTextureMode_set_DepthMode_m68B5BF23A25D61246DDAABD0FFEF5CAA66DBBF34 (CwDepthTextureMode_t74333179816412F75BA3FAED1933DC492EF916AB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDepthTextureMode.cs:14>
 		int32_t L_0 = ___0_value;
-		__this->___depthMode_5 = L_0;
+		__this->___depthMode = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDepthTextureMode.cs:14>
 		CwDepthTextureMode_UpdateDepthMode_mA1EC0777982DF38518CF8E2997C2467933372436(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDepthTextureMode.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 52890
+// Method Definition Index: 57059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwDepthTextureMode_get_DepthMode_mE343C7CAB1CF42A7CEB15DBA914BA4721039E135 (CwDepthTextureMode_t74333179816412F75BA3FAED1933DC492EF916AB* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDepthTextureMode.cs:14>
-		int32_t L_0 = __this->___depthMode_5;
+		int32_t L_0 = __this->___depthMode;
 		return L_0;
 	}
 }
-// Method Definition Index: 52891
+// Method Definition Index: 57060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDepthTextureMode_UpdateDepthMode_mA1EC0777982DF38518CF8E2997C2467933372436 (CwDepthTextureMode_t74333179816412F75BA3FAED1933DC492EF916AB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5352,7 +4664,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDepthTextureMode_UpdateDepthMode_mA1EC
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDepthTextureMode.cs:21>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___cachedCamera_6;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___cachedCamera;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -5365,22 +4677,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDepthTextureMode_UpdateDepthMode_mA1EC
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDepthTextureMode.cs:21>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2;
 		L_2 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
-		__this->___cachedCamera_6 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___cachedCamera_6), (void*)L_2);
+		__this->___cachedCamera = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cachedCamera), (void*)L_2);
 	}
 
 IL_001a:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDepthTextureMode.cs:23>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3 = __this->___cachedCamera_6;
-		int32_t L_4 = __this->___depthMode_5;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3 = __this->___cachedCamera;
+		int32_t L_4 = __this->___depthMode;
 		NullCheck(L_3);
 		Camera_set_depthTextureMode_mE722389E4DF8B3DF7F6100DB142E4DBAF698F6BF(L_3, L_4, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDepthTextureMode.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 52892
+// Method Definition Index: 57061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDepthTextureMode_Update_m652D26AB6D8BE2D1732C2CD007DCC64E1BA971C1 (CwDepthTextureMode_t74333179816412F75BA3FAED1933DC492EF916AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5390,7 +4702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDepthTextureMode_Update_m652D26AB6D8BE
 		return;
 	}
 }
-// Method Definition Index: 52893
+// Method Definition Index: 57062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDepthTextureMode__ctor_m9F671A1DADBDE51B21EC8C7E5122C404455B0055 (CwDepthTextureMode_t74333179816412F75BA3FAED1933DC492EF916AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5406,168 +4718,168 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwDepthTextureMode__ctor_m9F671A1DADBDE5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52894
+// Method Definition Index: 57063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_set_Follow_m86E85270958C6324E690E7F1C14EA9DAEED07D1B (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:24>
 		int32_t L_0 = ___0_value;
-		__this->___follow_5 = L_0;
+		__this->___follow = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 52895
+// Method Definition Index: 57064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwFollow_get_Follow_m3830CAEA449C358D3FA9A74C6B0DE4C47D415084 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:24>
-		int32_t L_0 = __this->___follow_5;
+		int32_t L_0 = __this->___follow;
 		return L_0;
 	}
 }
-// Method Definition Index: 52896
+// Method Definition Index: 57065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_set_Target_mC64128DF56351D21D215153AD724CF1702343D06 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:27>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_value;
-		__this->___target_6 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___target_6), (void*)L_0);
+		__this->___target = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___target), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:27>
 		return;
 	}
 }
-// Method Definition Index: 52897
+// Method Definition Index: 57066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* CwFollow_get_Target_mE76F2A0D82F9E1B2EE918CF28337605A4FA1B7B4 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:27>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___target_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___target;
 		return L_0;
 	}
 }
-// Method Definition Index: 52898
+// Method Definition Index: 57067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_set_Damping_m2C8774AC9B56CD9B7F47E362ED501CF136163AE7 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:31>
 		float L_0 = ___0_value;
-		__this->___damping_7 = L_0;
+		__this->___damping = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 52899
+// Method Definition Index: 57068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwFollow_get_Damping_m6BC5974EAC10FB95CD1F531CE71871630A6A229A (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:31>
-		float L_0 = __this->___damping_7;
+		float L_0 = __this->___damping;
 		return L_0;
 	}
 }
-// Method Definition Index: 52900
+// Method Definition Index: 57069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_set_Rotate_mA6CD578D28233D639401DBD30204499E34B3D0C6 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:34>
 		bool L_0 = ___0_value;
-		__this->___rotate_8 = L_0;
+		__this->___rotate = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 52901
+// Method Definition Index: 57070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwFollow_get_Rotate_m2A1C8655BC57A8C914C81F03275A3C7D0E16D56B (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:34>
-		bool L_0 = __this->___rotate_8;
+		bool L_0 = __this->___rotate;
 		return L_0;
 	}
 }
-// Method Definition Index: 52902
+// Method Definition Index: 57071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_set_IgnoreZ_mE6A570865FCBF8D8A354C78BD9B281BCAFAED82C (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:37>
 		bool L_0 = ___0_value;
-		__this->___ignoreZ_9 = L_0;
+		__this->___ignoreZ = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 52903
+// Method Definition Index: 57072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwFollow_get_IgnoreZ_mAE11A485A2E05A707AFD558E3A0431F72E56E584 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:37>
-		bool L_0 = __this->___ignoreZ_9;
+		bool L_0 = __this->___ignoreZ;
 		return L_0;
 	}
 }
-// Method Definition Index: 52904
+// Method Definition Index: 57073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_set_FollowIn_m12B79A708E12B1F9D753947926669A481728C7FA (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:40>
 		int32_t L_0 = ___0_value;
-		__this->___followIn_10 = L_0;
+		__this->___followIn = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 52905
+// Method Definition Index: 57074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwFollow_get_FollowIn_mAB71C85B3F887DBEDC8348F798C03D8BA87063D6 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:40>
-		int32_t L_0 = __this->___followIn_10;
+		int32_t L_0 = __this->___followIn;
 		return L_0;
 	}
 }
-// Method Definition Index: 52906
+// Method Definition Index: 57075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_set_LocalPosition_mA917ABDA842D9E98FD001E9013EE66EF27E69548 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:43>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
-		__this->___localPosition_11 = L_0;
+		__this->___localPosition = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 52907
+// Method Definition Index: 57076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 CwFollow_get_LocalPosition_mD3F9E1E91F21A85225A171C1C1502B1521715699 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:43>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___localPosition_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___localPosition;
 		return L_0;
 	}
 }
-// Method Definition Index: 52908
+// Method Definition Index: 57077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_set_LocalRotation_mB7EFD1FCAC0243AA74E60F3EF250AA37154D5C60 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:46>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
-		__this->___localRotation_12 = L_0;
+		__this->___localRotation = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 52909
+// Method Definition Index: 57078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 CwFollow_get_LocalRotation_mEAC2F1C953157F011BB42C6BA6BD140926F0C09D (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:46>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___localRotation_12;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___localRotation;
 		return L_0;
 	}
 }
-// Method Definition Index: 52910
+// Method Definition Index: 57079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_UpdatePosition_m8CB65FFD25DEB43AF123EA69AD09380EABA36BD2 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5588,10 +4900,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_UpdatePosition_m8CB65FFD25DEB43
 	memset((&V_5), 0, sizeof(V_5));
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:52>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___target_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___target;
 		V_0 = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:54>
-		int32_t L_1 = __this->___follow_5;
+		int32_t L_1 = __this->___follow;
 		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
 		{
 			goto IL_0026;
@@ -5643,13 +4955,13 @@ IL_0026:
 		V_2 = L_10;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:67>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = V_0;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = __this->___localPosition_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = __this->___localPosition;
 		NullCheck(L_11);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_11, L_12, NULL);
 		V_3 = L_13;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:68>
-		float L_14 = __this->___damping_7;
+		float L_14 = __this->___damping;
 		float L_15;
 		L_15 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
@@ -5657,7 +4969,7 @@ IL_0026:
 		L_16 = CwHelper_DampenFactor_m8987DC8F4BB4A0ACF43172DCCB6E2E3DC77C3341(L_14, L_15, NULL);
 		V_4 = L_16;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:70>
-		bool L_17 = __this->___ignoreZ_9;
+		bool L_17 = __this->___ignoreZ;
 		if (!L_17)
 		{
 			goto IL_0072;
@@ -5666,8 +4978,8 @@ IL_0026:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:72>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_2;
-		float L_19 = L_18.___z_4;
-		(&V_3)->___z_4 = L_19;
+		float L_19 = L_18.___z;
+		(&V_3)->___z = L_19;
 	}
 
 IL_0072:
@@ -5683,7 +4995,7 @@ IL_0072:
 		NullCheck(L_20);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_20, L_24, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:77>
-		bool L_25 = __this->___rotate_8;
+		bool L_25 = __this->___rotate;
 		if (!L_25)
 		{
 			goto IL_00c5;
@@ -5695,7 +5007,7 @@ IL_0072:
 		NullCheck(L_26);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_27;
 		L_27 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_26, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = __this->___localRotation_12;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = __this->___localRotation;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29;
 		L_29 = Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline(L_28, NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30;
@@ -5723,12 +5035,12 @@ IL_00c5:
 		return;
 	}
 }
-// Method Definition Index: 52911
+// Method Definition Index: 57080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_Update_m8797FF92A34885EAA4C4D9351270513695BE9109 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:88>
-		int32_t L_0 = __this->___followIn_10;
+		int32_t L_0 = __this->___followIn;
 		if (L_0)
 		{
 			goto IL_000e;
@@ -5745,12 +5057,12 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 52912
+// Method Definition Index: 57081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow_LateUpdate_mBA9A1A117A3E8F9BF5CB3307DA6EE24B42E93307 (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:96>
-		int32_t L_0 = __this->___followIn_10;
+		int32_t L_0 = __this->___followIn;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
 			goto IL_000f;
@@ -5767,16 +5079,16 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 52913
+// Method Definition Index: 57082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow__ctor_mB784F17ADAAF4AC95FE1DC56DF4040A53694323D (CwFollow_tF3C8EF03CC2D11136206C33E4EE2661DE7449494* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:31>
-		__this->___damping_7 = (-1.0f);
+		__this->___damping = (-1.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:34>
-		__this->___rotate_8 = (bool)1;
+		__this->___rotate = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs:40>
-		__this->___followIn_10 = 1;
+		__this->___followIn = 1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -5789,27 +5101,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwFollow__ctor_mB784F17ADAAF4AC95FE1DC56
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52914
+// Method Definition Index: 57083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_set_GuiLayers_mDC7B6F22F0A43C06BE997CCBD222A01189B21A73 (CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5* __this, LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:280>
 		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_0 = ___0_value;
-		__this->___guiLayers_5 = L_0;
+		__this->___guiLayers = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:280>
 		return;
 	}
 }
-// Method Definition Index: 52915
+// Method Definition Index: 57084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB CwInputManager_get_GuiLayers_m9F2A306A384884B67FA59DACF101F0EAF050B607 (CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:280>
-		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_0 = __this->___guiLayers_5;
+		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_0 = __this->___guiLayers;
 		return L_0;
 	}
 }
-// Method Definition Index: 52916
+// Method Definition Index: 57085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_add_OnFingerDown_m6CB548E5AD4EA234857923C4D6719BE6119A8C0F (Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5824,7 +5136,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_add_OnFingerDown_m6CB548E
 	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown_6;
+		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown;
 		V_0 = L_0;
 	}
 
@@ -5841,7 +5153,7 @@ IL_0006:
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_5 = V_2;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_6 = V_1;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_7;
-		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown_6), L_5, L_6);
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown), L_5, L_6);
 		V_0 = L_7;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_8 = V_0;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_9 = V_1;
@@ -5854,7 +5166,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52917
+// Method Definition Index: 57086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_remove_OnFingerDown_m20BC27BAEB309AACB922671623562C8AB510A878 (Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5869,7 +5181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_remove_OnFingerDown_m20BC
 	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown_6;
+		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown;
 		V_0 = L_0;
 	}
 
@@ -5886,7 +5198,7 @@ IL_0006:
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_5 = V_2;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_6 = V_1;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_7;
-		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown_6), L_5, L_6);
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown), L_5, L_6);
 		V_0 = L_7;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_8 = V_0;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_9 = V_1;
@@ -5899,7 +5211,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52918
+// Method Definition Index: 57087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_add_OnFingerUpdate_m662A56C836DA85F26A1CDA5A59AAB5A4F7DE558E (Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5914,7 +5226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_add_OnFingerUpdate_m662A5
 	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate_7;
+		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate;
 		V_0 = L_0;
 	}
 
@@ -5931,7 +5243,7 @@ IL_0006:
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_5 = V_2;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_6 = V_1;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_7;
-		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate_7), L_5, L_6);
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate), L_5, L_6);
 		V_0 = L_7;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_8 = V_0;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_9 = V_1;
@@ -5944,7 +5256,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52919
+// Method Definition Index: 57088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_remove_OnFingerUpdate_mA7256C4801ED4EC4E7957DAB5BD47C8D40064885 (Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5959,7 +5271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_remove_OnFingerUpdate_mA7
 	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate_7;
+		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate;
 		V_0 = L_0;
 	}
 
@@ -5976,7 +5288,7 @@ IL_0006:
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_5 = V_2;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_6 = V_1;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_7;
-		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate_7), L_5, L_6);
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate), L_5, L_6);
 		V_0 = L_7;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_8 = V_0;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_9 = V_1;
@@ -5989,7 +5301,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52920
+// Method Definition Index: 57089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_add_OnFingerUp_m863DFF2D604EDD40CA8BA6A9062E543A96B08A7A (Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6004,7 +5316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_add_OnFingerUp_m863DFF2D6
 	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp_8;
+		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp;
 		V_0 = L_0;
 	}
 
@@ -6021,7 +5333,7 @@ IL_0006:
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_5 = V_2;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_6 = V_1;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_7;
-		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp_8), L_5, L_6);
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp), L_5, L_6);
 		V_0 = L_7;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_8 = V_0;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_9 = V_1;
@@ -6034,7 +5346,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52921
+// Method Definition Index: 57090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_remove_OnFingerUp_m352C94F7918F26DE2B17DCF2AD9034EAF4B050FA (Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6049,7 +5361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_remove_OnFingerUp_m352C94
 	Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp_8;
+		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp;
 		V_0 = L_0;
 	}
 
@@ -6066,7 +5378,7 @@ IL_0006:
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_5 = V_2;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_6 = V_1;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_7;
-		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp_8), L_5, L_6);
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6*>((&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp), L_5, L_6);
 		V_0 = L_7;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_8 = V_0;
 		Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_9 = V_1;
@@ -6079,7 +5391,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52922
+// Method Definition Index: 57091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* CwInputManager_get_Fingers_m7BB8C2FC4DCAD50F6E0C48563D1F4F6C5B6A9C28 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6091,11 +5403,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:311>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers_14;
+		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers;
 		return L_0;
 	}
 }
-// Method Definition Index: 52923
+// Method Definition Index: 57092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwInputManager_get_ScaleFactor_m1A41E25DACE4A55583764544DBE1400C5BC1B74A (const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -6123,7 +5435,7 @@ IL_0014:
 		return ((float)((200.0f)/L_2));
 	}
 }
-// Method Definition Index: 52924
+// Method Definition Index: 57093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* CwInputManager_GetFingers_mCCC4BD5B46DC83325F5B251EDCD810C3DEB3B204 (bool ___0_ignoreStartedOverGui, bool ___1_ignoreHover, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6144,11 +5456,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:332>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___filteredFingers_15;
+		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___filteredFingers;
 		NullCheck(L_0);
 		List_1_Clear_mD8A3FDF38A4972A0D5D50E2027F07D11B7AAF5D8_inline(L_0, List_1_Clear_mD8A3FDF38A4972A0D5D50E2027F07D11B7AAF5D8_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:334>
-		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_1 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers_14;
+		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_1 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers;
 		NullCheck(L_1);
 		Enumerator_tA5BE4CE583707833650D140AD9212E11536B3580 L_2;
 		L_2 = List_1_GetEnumerator_m7A7472B9D4D5FA18134918D0C74A9458B933DD16(L_1, List_1_GetEnumerator_m7A7472B9D4D5FA18134918D0C74A9458B933DD16_RuntimeMethod_var);
@@ -6186,7 +5498,7 @@ IL_0017_1:
 			{
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_5 = V_1;
 				NullCheck(L_5);
-				bool L_6 = L_5->___StartedOverGui_5;
+				bool L_6 = L_5->___StartedOverGui;
 				if (L_6)
 				{
 					goto IL_0045_1;
@@ -6205,7 +5517,7 @@ IL_002a_1:
 			{
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_8 = V_1;
 				NullCheck(L_8);
-				int32_t L_9 = L_8->___Index_0;
+				int32_t L_9 = L_8->___Index;
 				if ((((int32_t)L_9) == ((int32_t)((int32_t)-1337))))
 				{
 					goto IL_0045_1;
@@ -6216,7 +5528,7 @@ IL_003a_1:
 			{
 				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:346>
 				il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-				List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_10 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___filteredFingers_15;
+				List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_10 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___filteredFingers;
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_11 = V_1;
 				NullCheck(L_10);
 				List_1_Add_m972218EFF43D49745F18BA376C1278752F80936E_inline(L_10, L_11, List_1_Add_m972218EFF43D49745F18BA376C1278752F80936E_RuntimeMethod_var);
@@ -6246,11 +5558,11 @@ IL_005e:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:349>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_13 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___filteredFingers_15;
+		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_13 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___filteredFingers;
 		return L_13;
 	}
 }
-// Method Definition Index: 52925
+// Method Definition Index: 57094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInputManager_PointOverGui_mBBE742D280F6170487DB315E7F1331E10F4D9805 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_screenPosition, int32_t ___1_guiLayers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6273,7 +5585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInputManager_PointOverGui_mBBE742D280F
 		return (bool)((((int32_t)L_3) > ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 52926
+// Method Definition Index: 57095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8292C421BBB00D7661DC07462822936152BAB446* CwInputManager_RaycastGui_mB214C7D68107C6CEC924842D6CCD157690E543B1 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_screenPosition, int32_t ___1_guiLayers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6296,7 +5608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8292C421BBB00D7661DC07462822936152BAB
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:360>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults_11;
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults;
 		NullCheck(L_0);
 		List_1_Clear_m88ECE219176F771E4C5F913CC01FFCF91E93E3D0_inline(L_0, List_1_Clear_m88ECE219176F771E4C5F913CC01FFCF91E93E3D0_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:362>
@@ -6318,7 +5630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8292C421BBB00D7661DC07462822936152BAB
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:367>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_5 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempEventSystem_13;
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_5 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempEventSystem;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
 		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, L_5, NULL);
@@ -6331,10 +5643,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8292C421BBB00D7661DC07462822936152BAB
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:369>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempEventSystem_13 = L_7;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempEventSystem_13), (void*)L_7);
+		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempEventSystem = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempEventSystem), (void*)L_7);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:371>
-		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_8 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData_12;
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_8 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData;
 		if (L_8)
 		{
 			goto IL_0047;
@@ -6343,11 +5655,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8292C421BBB00D7661DC07462822936152BAB
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:373>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_9 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempEventSystem_13;
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_9 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempEventSystem;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_10 = (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB*)il2cpp_codegen_object_new(PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB_il2cpp_TypeInfo_var);
 		PointerEventData__ctor_m63837790B68893F0022CCEFEF26ADD55A975F71C(L_10, L_9, NULL);
-		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData_12 = L_10;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData_12), (void*)L_10);
+		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData), (void*)L_10);
 		goto IL_0051;
 	}
 
@@ -6355,7 +5667,7 @@ IL_0047:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:377>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_11 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData_12;
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_11 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData;
 		NullCheck(L_11);
 		VirtualActionInvoker0::Invoke(4, L_11);
 	}
@@ -6364,18 +5676,18 @@ IL_0051:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:382>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_12 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData_12;
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_12 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = ___0_screenPosition;
 		NullCheck(L_12);
 		PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline(L_12, L_13, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:384>
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_14 = V_0;
-		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_15 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData_12;
-		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_16 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults_11;
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_15 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempPointerEventData;
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_16 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults;
 		NullCheck(L_14);
 		EventSystem_RaycastAll_mE93CC75909438D20D17A0EF98348A064FBFEA528(L_14, L_15, L_16, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:387>
-		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_17 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults_11;
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_17 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults;
 		NullCheck(L_17);
 		int32_t L_18;
 		L_18 = List_1_get_Count_mE2EBEDC861C1EC398EDBE6CF2C9FB604AA71523E_inline(L_17, List_1_get_Count_mE2EBEDC861C1EC398EDBE6CF2C9FB604AA71523E_RuntimeMethod_var);
@@ -6387,7 +5699,7 @@ IL_0051:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:389>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_19 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults_11;
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_19 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults;
 		NullCheck(L_19);
 		int32_t L_20;
 		L_20 = List_1_get_Count_mE2EBEDC861C1EC398EDBE6CF2C9FB604AA71523E_inline(L_19, List_1_get_Count_mE2EBEDC861C1EC398EDBE6CF2C9FB604AA71523E_RuntimeMethod_var);
@@ -6399,7 +5711,7 @@ IL_0088:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:391>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_21 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults_11;
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_21 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults;
 		int32_t L_22 = V_1;
 		NullCheck(L_21);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_23;
@@ -6421,7 +5733,7 @@ IL_0088:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:396>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_27 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults_11;
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_27 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults;
 		int32_t L_28 = V_1;
 		NullCheck(L_27);
 		List_1_RemoveAt_m7C1DDAF44D126D8F77F861BA6ADF7A2F182A1FF5(L_27, L_28, List_1_RemoveAt_m7C1DDAF44D126D8F77F861BA6ADF7A2F182A1FF5_RuntimeMethod_var);
@@ -6448,11 +5760,11 @@ IL_00bc:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:402>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_31 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults_11;
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_31 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults;
 		return L_31;
 	}
 }
-// Method Definition Index: 52927
+// Method Definition Index: 57096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CwInputManager_GetAveragePosition_mADA43C53D2442AF0F885078421D672D48CA2880E (List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* ___0_fingers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6508,7 +5820,7 @@ IL_000f_1:
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = V_0;
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_5 = V_2;
 				NullCheck(L_5);
-				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = L_5->___ScreenPosition_7;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = L_5->___ScreenPosition;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
 				L_7 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_4, L_6, NULL);
 				V_0 = L_7;
@@ -6563,7 +5875,7 @@ IL_0053:
 		return L_15;
 	}
 }
-// Method Definition Index: 52928
+// Method Definition Index: 57097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CwInputManager_GetAverageOldPosition_m376B3FF44382FAC3C9B7D1EF2A1C6D1E0A8A6EF9 (List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* ___0_fingers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6619,7 +5931,7 @@ IL_000f_1:
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = V_0;
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_5 = V_2;
 				NullCheck(L_5);
-				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = L_5->___ScreenPositionOld_8;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = L_5->___ScreenPositionOld;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
 				L_7 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_4, L_6, NULL);
 				V_0 = L_7;
@@ -6674,7 +5986,7 @@ IL_0053:
 		return L_15;
 	}
 }
-// Method Definition Index: 52929
+// Method Definition Index: 57098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CwInputManager_GetAveragePullScaled_mA5E7EA1622C9CA5C8952FFEB49D038F733122C91 (List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* ___0_fingers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6731,10 +6043,10 @@ IL_000f_1:
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = V_0;
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_5 = V_2;
 				NullCheck(L_5);
-				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = L_5->___ScreenPosition_7;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = L_5->___ScreenPosition;
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_7 = V_2;
 				NullCheck(L_7);
-				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = L_7->___StartScreenPosition_6;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = L_7->___StartScreenPosition;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
 				L_9 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_6, L_8, NULL);
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
@@ -6796,7 +6108,7 @@ IL_0068:
 		return L_20;
 	}
 }
-// Method Definition Index: 52930
+// Method Definition Index: 57099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CwInputManager_GetAverageDeltaScaled_m934D2DD8FBC754514F96AC795651C65500564012 (List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* ___0_fingers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6853,10 +6165,10 @@ IL_000f_1:
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = V_0;
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_5 = V_2;
 				NullCheck(L_5);
-				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = L_5->___ScreenPosition_7;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = L_5->___ScreenPosition;
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_7 = V_2;
 				NullCheck(L_7);
-				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = L_7->___ScreenPositionOld_8;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = L_7->___ScreenPositionOld;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
 				L_9 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_6, L_8, NULL);
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
@@ -6918,7 +6230,7 @@ IL_0068:
 		return L_20;
 	}
 }
-// Method Definition Index: 52931
+// Method Definition Index: 57100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwInputManager_GetAverageTwistRadians_m4E40A845FB293C2D18F24388850A6E2E5BD5C18C (List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* ___0_fingers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7041,7 +6353,7 @@ IL_005d:
 		return L_18;
 	}
 }
-// Method Definition Index: 52932
+// Method Definition Index: 57101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_EnsureThisComponentExists_m29439AE8543388E4EABAA3D4BE955566970C7A2E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7099,7 +6411,7 @@ IL_002e:
 		return;
 	}
 }
-// Method Definition Index: 52933
+// Method Definition Index: 57102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_Update_mD79752C9C7583E90F4D8F771C67921FDEDBDCCD9 (CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7133,7 +6445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_Update_mD79752C9C7583E90F
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:479>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers_14;
+		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_mC3CEF874C2D99ED6FDF204103CA1B7CACFE34165_inline(L_0, List_1_get_Count_mC3CEF874C2D99ED6FDF204103CA1B7CACFE34165_RuntimeMethod_var);
@@ -7145,7 +6457,7 @@ IL_000f:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:481>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_2 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers_14;
+		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_2 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_4;
@@ -7154,7 +6466,7 @@ IL_000f:
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:483>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_5 = V_1;
 		NullCheck(L_5);
-		bool L_6 = L_5->___Up_3;
+		bool L_6 = L_5->___Up;
 		if (!L_6)
 		{
 			goto IL_003b;
@@ -7163,12 +6475,12 @@ IL_000f:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:485>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_7 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers_14;
+		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_7 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
 		List_1_RemoveAt_mD209AF471B3572AEC6457935C2BA8D1368C254D0(L_7, L_8, List_1_RemoveAt_mD209AF471B3572AEC6457935C2BA8D1368C254D0_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:485>
-		Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B* L_9 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___pool_16;
+		Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B* L_9 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___pool;
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_10 = V_1;
 		NullCheck(L_9);
 		Stack_1_Push_mF6D9DF08722952496D724F1407B4F3B4207B0F86(L_9, L_10, Stack_1_Push_mF6D9DF08722952496D724F1407B4F3B4207B0F86_RuntimeMethod_var);
@@ -7180,7 +6492,7 @@ IL_003b:
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:489>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_11 = V_1;
 		NullCheck(L_11);
-		L_11->___Up_3 = (bool)1;
+		L_11->___Up = (bool)1;
 	}
 
 IL_0042:
@@ -7317,7 +6629,7 @@ IL_00de:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:526>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_36 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers_14;
+		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_36 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers;
 		NullCheck(L_36);
 		Enumerator_tA5BE4CE583707833650D140AD9212E11536B3580 L_37;
 		L_37 = List_1_GetEnumerator_m7A7472B9D4D5FA18134918D0C74A9458B933DD16(L_36, List_1_GetEnumerator_m7A7472B9D4D5FA18134918D0C74A9458B933DD16_RuntimeMethod_var);
@@ -7348,7 +6660,7 @@ IL_00ec_1:
 				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:528>
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_39 = V_11;
 				NullCheck(L_39);
-				bool L_40 = L_39->___Down_2;
+				bool L_40 = L_39->___Down;
 				if (!L_40)
 				{
 					goto IL_0111_1;
@@ -7356,7 +6668,7 @@ IL_00ec_1:
 			}
 			{
 				il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_41 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown_6;
+				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_41 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown;
 				if (!L_41)
 				{
 					goto IL_0111_1;
@@ -7365,7 +6677,7 @@ IL_00ec_1:
 			{
 				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:528>
 				il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_42 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown_6;
+				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_42 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerDown;
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_43 = V_11;
 				NullCheck(L_42);
 				Action_1_Invoke_mD9EBE3E0A413E15C703774DD12710BE01325A45A_inline(L_42, L_43, NULL);
@@ -7375,7 +6687,7 @@ IL_0111_1:
 			{
 				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:529>
 				il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_44 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate_7;
+				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_44 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate;
 				if (!L_44)
 				{
 					goto IL_0124_1;
@@ -7384,7 +6696,7 @@ IL_0111_1:
 			{
 				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:529>
 				il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_45 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate_7;
+				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_45 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUpdate;
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_46 = V_11;
 				NullCheck(L_45);
 				Action_1_Invoke_mD9EBE3E0A413E15C703774DD12710BE01325A45A_inline(L_45, L_46, NULL);
@@ -7395,7 +6707,7 @@ IL_0124_1:
 				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:530>
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_47 = V_11;
 				NullCheck(L_47);
-				bool L_48 = L_47->___Up_3;
+				bool L_48 = L_47->___Up;
 				if (!L_48)
 				{
 					goto IL_0140_1;
@@ -7403,7 +6715,7 @@ IL_0124_1:
 			}
 			{
 				il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_49 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp_8;
+				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_49 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp;
 				if (!L_49)
 				{
 					goto IL_0140_1;
@@ -7412,7 +6724,7 @@ IL_0124_1:
 			{
 				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:530>
 				il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_50 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp_8;
+				Action_1_t11342999D60AF3D14F32BC357DE3C7DF68A48EE6* L_50 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___OnFingerUp;
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_51 = V_11;
 				NullCheck(L_50);
 				Action_1_Invoke_mD9EBE3E0A413E15C703774DD12710BE01325A45A_inline(L_50, L_51, NULL);
@@ -7444,7 +6756,7 @@ IL_0159:
 		return;
 	}
 }
-// Method Definition Index: 52934
+// Method Definition Index: 57103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* CwInputManager_FindFinger_m78C2806F509353D7875D28D5094A550AB00FCB77 (CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7464,7 +6776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Finger_tF0FFA146E12F3DEF1F354487835AA90A59834
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:536>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers_14;
+		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_0 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers;
 		NullCheck(L_0);
 		Enumerator_tA5BE4CE583707833650D140AD9212E11536B3580 L_1;
 		L_1 = List_1_GetEnumerator_m7A7472B9D4D5FA18134918D0C74A9458B933DD16(L_0, List_1_GetEnumerator_m7A7472B9D4D5FA18134918D0C74A9458B933DD16_RuntimeMethod_var);
@@ -7495,7 +6807,7 @@ IL_000d_1:
 				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:538>
 				Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_3 = V_1;
 				NullCheck(L_3);
-				int32_t L_4 = L_3->___Index_0;
+				int32_t L_4 = L_3->___Index;
 				int32_t L_5 = ___0_index;
 				if ((!(((uint32_t)L_4) == ((uint32_t)L_5))))
 				{
@@ -7542,7 +6854,7 @@ IL_003d:
 		return L_8;
 	}
 }
-// Method Definition Index: 52935
+// Method Definition Index: 57104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_AddFinger_m7D4C13D95C3894F8AE9CE6CCCE114316D95CE57B (CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5* __this, int32_t ___0_index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_screenPosition, float ___2_pressure, bool ___3_up, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7573,7 +6885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_AddFinger_m7D4C13D95C3894
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:553>
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B* L_3 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___pool_16;
+		Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B* L_3 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___pool;
 		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = Stack_1_get_Count_m1E9F0310DB687DF335AB7DCEC33AAF017A255BA2_inline(L_3, Stack_1_get_Count_m1E9F0310DB687DF335AB7DCEC33AAF017A255BA2_RuntimeMethod_var);
@@ -7592,7 +6904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager_AddFinger_m7D4C13D95C3894
 IL_001f:
 	{
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
-		Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B* L_6 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___pool_16;
+		Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B* L_6 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___pool;
 		NullCheck(L_6);
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_7;
 		L_7 = Stack_1_Pop_m945FDA950BCE0F7637E5E39D7E2B4AD5467AFAA3(L_6, Stack_1_Pop_m945FDA950BCE0F7637E5E39D7E2B4AD5467AFAA3_RuntimeMethod_var);
@@ -7606,48 +6918,48 @@ IL_0029:
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_8 = V_0;
 		int32_t L_9 = ___0_index;
 		NullCheck(L_8);
-		L_8->___Index_0 = L_9;
+		L_8->___Index = L_9;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:556>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_10 = V_0;
 		NullCheck(L_10);
-		L_10->___Down_2 = (bool)1;
+		L_10->___Down = (bool)1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:557>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_11 = V_0;
 		NullCheck(L_11);
-		L_11->___Age_4 = (0.0f);
+		L_11->___Age = (0.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:559>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_12 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = ___1_screenPosition;
-		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_14 = __this->___guiLayers_5;
+		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_14 = __this->___guiLayers;
 		int32_t L_15;
 		L_15 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_14, NULL);
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
 		bool L_16;
 		L_16 = CwInputManager_PointOverGui_mBBE742D280F6170487DB315E7F1331E10F4D9805(L_13, L_15, NULL);
 		NullCheck(L_12);
-		L_12->___StartedOverGui_5 = L_16;
+		L_12->___StartedOverGui = L_16;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:560>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_17 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = ___1_screenPosition;
 		NullCheck(L_17);
-		L_17->___StartScreenPosition_6 = L_18;
+		L_17->___StartScreenPosition = L_18;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:561>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_19 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20 = ___1_screenPosition;
 		NullCheck(L_19);
-		L_19->___ScreenPositionOld_8 = L_20;
+		L_19->___ScreenPositionOld = L_20;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:562>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_21 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22 = ___1_screenPosition;
 		NullCheck(L_21);
-		L_21->___ScreenPositionOldOld_9 = L_22;
+		L_21->___ScreenPositionOldOld = L_22;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:563>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_23 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24 = ___1_screenPosition;
 		NullCheck(L_23);
-		L_23->___ScreenPositionOldOldOld_10 = L_24;
+		L_23->___ScreenPositionOldOldOld = L_24;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:565>
-		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_25 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers_14;
+		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_25 = ((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers;
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_26 = V_0;
 		NullCheck(L_25);
 		List_1_Add_m972218EFF43D49745F18BA376C1278752F80936E_inline(L_25, L_26, List_1_Add_m972218EFF43D49745F18BA376C1278752F80936E_RuntimeMethod_var);
@@ -7659,37 +6971,37 @@ IL_0083:
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:569>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_27 = V_0;
 		NullCheck(L_27);
-		L_27->___Down_2 = (bool)0;
+		L_27->___Down = (bool)0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:570>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_28 = V_0;
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_29 = L_28;
 		NullCheck(L_29);
-		float L_30 = L_29->___Age_4;
+		float L_30 = L_29->___Age;
 		float L_31;
 		L_31 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		NullCheck(L_29);
-		L_29->___Age_4 = ((float)il2cpp_codegen_add(L_30, L_31));
+		L_29->___Age = ((float)il2cpp_codegen_add(L_30, L_31));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:572>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_32 = V_0;
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_33 = V_0;
 		NullCheck(L_33);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = L_33->___ScreenPositionOldOld_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = L_33->___ScreenPositionOldOld;
 		NullCheck(L_32);
-		L_32->___ScreenPositionOldOldOld_10 = L_34;
+		L_32->___ScreenPositionOldOldOld = L_34;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:573>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_35 = V_0;
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_36 = V_0;
 		NullCheck(L_36);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37 = L_36->___ScreenPositionOld_8;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37 = L_36->___ScreenPositionOld;
 		NullCheck(L_35);
-		L_35->___ScreenPositionOldOld_9 = L_37;
+		L_35->___ScreenPositionOldOld = L_37;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:574>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_38 = V_0;
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_39 = V_0;
 		NullCheck(L_39);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40 = L_39->___ScreenPosition_7;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40 = L_39->___ScreenPosition;
 		NullCheck(L_38);
-		L_38->___ScreenPositionOld_8 = L_40;
+		L_38->___ScreenPositionOld = L_40;
 	}
 
 IL_00c0:
@@ -7698,22 +7010,22 @@ IL_00c0:
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_41 = V_0;
 		float L_42 = ___2_pressure;
 		NullCheck(L_41);
-		L_41->___Pressure_1 = L_42;
+		L_41->___Pressure = L_42;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:578>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_43 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_44 = ___1_screenPosition;
 		NullCheck(L_43);
-		L_43->___ScreenPosition_7 = L_44;
+		L_43->___ScreenPosition = L_44;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:579>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_45 = V_0;
 		bool L_46 = ___3_up;
 		NullCheck(L_45);
-		L_45->___Up_3 = L_46;
+		L_45->___Up = L_46;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:580>
 		return;
 	}
 }
-// Method Definition Index: 52936
+// Method Definition Index: 57105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CwInputManager_Hermite_m6C707B3624D806D5314CCE3BB1FFAE6A1FAA488C (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_c, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___3_d, float ___4_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7736,13 +7048,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		V_1 = ((float)il2cpp_codegen_multiply(L_2, L_3));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:586>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
-		float L_5 = L_4.___x_0;
+		float L_5 = L_4.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
-		float L_7 = L_6.___x_0;
+		float L_7 = L_6.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = ___2_c;
-		float L_9 = L_8.___x_0;
+		float L_9 = L_8.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = ___3_d;
-		float L_11 = L_10.___x_0;
+		float L_11 = L_10.___x;
 		float L_12 = ___4_t;
 		float L_13 = V_0;
 		float L_14 = V_1;
@@ -7751,13 +7063,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		L_15 = CwInputManager_HermiteInterpolate_m94D53669BD2C4A63BCDD82DB8C445A4B7017332D(L_5, L_7, L_9, L_11, L_12, L_13, L_14, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:587>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = ___0_a;
-		float L_17 = L_16.___y_1;
+		float L_17 = L_16.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = ___1_b;
-		float L_19 = L_18.___y_1;
+		float L_19 = L_18.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20 = ___2_c;
-		float L_21 = L_20.___y_1;
+		float L_21 = L_20.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22 = ___3_d;
-		float L_23 = L_22.___y_1;
+		float L_23 = L_22.___y;
 		float L_24 = ___4_t;
 		float L_25 = V_0;
 		float L_26 = V_1;
@@ -7772,7 +7084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_29;
 	}
 }
-// Method Definition Index: 52937
+// Method Definition Index: 57106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwInputManager_HermiteInterpolate_m94D53669BD2C4A63BCDD82DB8C445A4B7017332D (float ___0_y0, float ___1_y1, float ___2_y2, float ___3_y3, float ___4_mu, float ___5_mu2, float ___6_mu3, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -7820,25 +7132,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwInputManager_HermiteInterpolate_m94D5
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply((2.0f), L_8)), ((float)il2cpp_codegen_multiply((3.0f), L_9)))), (1.0f))), L_17)), ((float)il2cpp_codegen_multiply(L_18, L_19)))), ((float)il2cpp_codegen_multiply(L_20, L_21)))), ((float)il2cpp_codegen_multiply(L_22, L_23))));
 	}
 }
-// Method Definition Index: 52938
+// Method Definition Index: 57107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwInputManager_GetRadians_m14A5679E13EB1F66D2EF3D6AB361601F00EFE8F1 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_screenPosition, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_referencePoint, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:606>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_screenPosition;
-		float L_1 = L_0.___x_0;
+		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_referencePoint;
-		float L_3 = L_2.___x_0;
+		float L_3 = L_2.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_screenPosition;
-		float L_5 = L_4.___y_1;
+		float L_5 = L_4.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_referencePoint;
-		float L_7 = L_6.___y_1;
+		float L_7 = L_6.___y;
 		float L_8;
 		L_8 = atan2f(((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)));
 		return L_8;
 	}
 }
-// Method Definition Index: 52939
+// Method Definition Index: 57108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwInputManager_GetDeltaRadians_m3E51E8CEF9134F250A59F88342F9B066073EFAC9 (Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* ___0_finger, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_referencePoint, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_lastReferencePoint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7853,7 +7165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwInputManager_GetDeltaRadians_m3E51E8C
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:611>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_0 = ___0_finger;
 		NullCheck(L_0);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = L_0->___ScreenPositionOld_8;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = L_0->___ScreenPositionOld;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___2_lastReferencePoint;
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
 		float L_3;
@@ -7861,7 +7173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwInputManager_GetDeltaRadians_m3E51E8C
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:612>
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_4 = ___0_finger;
 		NullCheck(L_4);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = L_4->___ScreenPosition_7;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = L_4->___ScreenPosition;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_referencePoint;
 		float L_7;
 		L_7 = CwInputManager_GetRadians_m14A5679E13EB1F66D2EF3D6AB361601F00EFE8F1(L_5, L_6, NULL);
@@ -7891,19 +7203,19 @@ IL_0036:
 		return L_12;
 	}
 }
-// Method Definition Index: 52940
+// Method Definition Index: 57109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager__ctor_m577D9E0403F9D012B95FB7DA21D7782F8BB0DC05 (CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:280>
 		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_0;
 		L_0 = LayerMask_op_Implicit_m01C8996A2CB2085328B9C33539C43139660D8222(((int32_t)32), NULL);
-		__this->___guiLayers_5 = L_0;
+		__this->___guiLayers = L_0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 52941
+// Method Definition Index: 57110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager__cctor_m5FC2110B8EC2207B5A661033C2921D6A2E1719B3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7922,23 +7234,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager__cctor_m5FC2110B8EC2207B5
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:295>
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_0 = (List_1_t8292C421BBB00D7661DC07462822936152BAB446*)il2cpp_codegen_object_new(List_1_t8292C421BBB00D7661DC07462822936152BAB446_il2cpp_TypeInfo_var);
 		List_1__ctor_mB89D13B8B739042E3841C5DFAF30C3C51A797EA7(L_0, ((int32_t)10), List_1__ctor_mB89D13B8B739042E3841C5DFAF30C3C51A797EA7_RuntimeMethod_var);
-		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults_11 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults_11), (void*)L_0);
+		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___tempRaycastResults), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:301>
 		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_1 = (List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782*)il2cpp_codegen_object_new(List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782_il2cpp_TypeInfo_var);
 		List_1__ctor_m481EE73C5E158B5A00393F44ABEACBAAD6F88A48(L_1, List_1__ctor_m481EE73C5E158B5A00393F44ABEACBAAD6F88A48_RuntimeMethod_var);
-		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers_14 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers_14), (void*)L_1);
+		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___fingers), (void*)L_1);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:303>
 		List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782* L_2 = (List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782*)il2cpp_codegen_object_new(List_1_t57BA10989BB385C8CDBCCA2F92653513CBF31782_il2cpp_TypeInfo_var);
 		List_1__ctor_m481EE73C5E158B5A00393F44ABEACBAAD6F88A48(L_2, List_1__ctor_m481EE73C5E158B5A00393F44ABEACBAAD6F88A48_RuntimeMethod_var);
-		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___filteredFingers_15 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___filteredFingers_15), (void*)L_2);
+		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___filteredFingers = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___filteredFingers), (void*)L_2);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:305>
 		Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B* L_3 = (Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B*)il2cpp_codegen_object_new(Stack_1_t5A076EB5BA702D58ACB5F4F4C28407856218659B_il2cpp_TypeInfo_var);
 		Stack_1__ctor_mC71DC1A46525952F691B2C4465BAFA2CA392B037(L_3, Stack_1__ctor_mC71DC1A46525952F691B2C4465BAFA2CA392B037_RuntimeMethod_var);
-		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___pool_16 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___pool_16), (void*)L_3);
+		((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___pool = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_StaticFields*)il2cpp_codegen_static_fields_for(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var))->___pool), (void*)L_3);
 		return;
 	}
 }
@@ -7952,125 +7264,125 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInputManager__cctor_m5FC2110B8EC2207B5
 #endif
 IL2CPP_EXTERN_C void Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshal_pinvoke(const Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793& unmarshaled, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshaled_pinvoke& marshaled)
 {
-	marshaled.___FingerCount_0 = unmarshaled.___FingerCount_0;
-	marshaled.___FingerInvert_1 = static_cast<int32_t>(unmarshaled.___FingerInvert_1);
-	marshaled.___FingerGesture_2 = unmarshaled.___FingerGesture_2;
-	marshaled.___FingerSensitivity_3 = unmarshaled.___FingerSensitivity_3;
-	marshaled.___KeyNegative_4 = unmarshaled.___KeyNegative_4;
-	marshaled.___KeyPositive_5 = unmarshaled.___KeyPositive_5;
-	marshaled.___KeyNegativeAlt_6 = unmarshaled.___KeyNegativeAlt_6;
-	marshaled.___KeyPositiveAlt_7 = unmarshaled.___KeyPositiveAlt_7;
-	marshaled.___KeySensitivity_8 = unmarshaled.___KeySensitivity_8;
+	marshaled.___FingerCount = unmarshaled.___FingerCount;
+	marshaled.___FingerInvert = static_cast<int32_t>(unmarshaled.___FingerInvert);
+	marshaled.___FingerGesture = unmarshaled.___FingerGesture;
+	marshaled.___FingerSensitivity = unmarshaled.___FingerSensitivity;
+	marshaled.___KeyNegative = unmarshaled.___KeyNegative;
+	marshaled.___KeyPositive = unmarshaled.___KeyPositive;
+	marshaled.___KeyNegativeAlt = unmarshaled.___KeyNegativeAlt;
+	marshaled.___KeyPositiveAlt = unmarshaled.___KeyPositiveAlt;
+	marshaled.___KeySensitivity = unmarshaled.___KeySensitivity;
 }
 IL2CPP_EXTERN_C void Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshal_pinvoke_back(const Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshaled_pinvoke& marshaled, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793& unmarshaled)
 {
 	int32_t unmarshaledFingerCount_temp_0 = 0;
-	unmarshaledFingerCount_temp_0 = marshaled.___FingerCount_0;
-	unmarshaled.___FingerCount_0 = unmarshaledFingerCount_temp_0;
+	unmarshaledFingerCount_temp_0 = marshaled.___FingerCount;
+	unmarshaled.___FingerCount = unmarshaledFingerCount_temp_0;
 	bool unmarshaledFingerInvert_temp_1 = false;
-	unmarshaledFingerInvert_temp_1 = static_cast<bool>(marshaled.___FingerInvert_1);
-	unmarshaled.___FingerInvert_1 = unmarshaledFingerInvert_temp_1;
+	unmarshaledFingerInvert_temp_1 = static_cast<bool>(marshaled.___FingerInvert);
+	unmarshaled.___FingerInvert = unmarshaledFingerInvert_temp_1;
 	int32_t unmarshaledFingerGesture_temp_2 = 0;
-	unmarshaledFingerGesture_temp_2 = marshaled.___FingerGesture_2;
-	unmarshaled.___FingerGesture_2 = unmarshaledFingerGesture_temp_2;
+	unmarshaledFingerGesture_temp_2 = marshaled.___FingerGesture;
+	unmarshaled.___FingerGesture = unmarshaledFingerGesture_temp_2;
 	float unmarshaledFingerSensitivity_temp_3 = 0.0f;
-	unmarshaledFingerSensitivity_temp_3 = marshaled.___FingerSensitivity_3;
-	unmarshaled.___FingerSensitivity_3 = unmarshaledFingerSensitivity_temp_3;
+	unmarshaledFingerSensitivity_temp_3 = marshaled.___FingerSensitivity;
+	unmarshaled.___FingerSensitivity = unmarshaledFingerSensitivity_temp_3;
 	int32_t unmarshaledKeyNegative_temp_4 = 0;
-	unmarshaledKeyNegative_temp_4 = marshaled.___KeyNegative_4;
-	unmarshaled.___KeyNegative_4 = unmarshaledKeyNegative_temp_4;
+	unmarshaledKeyNegative_temp_4 = marshaled.___KeyNegative;
+	unmarshaled.___KeyNegative = unmarshaledKeyNegative_temp_4;
 	int32_t unmarshaledKeyPositive_temp_5 = 0;
-	unmarshaledKeyPositive_temp_5 = marshaled.___KeyPositive_5;
-	unmarshaled.___KeyPositive_5 = unmarshaledKeyPositive_temp_5;
+	unmarshaledKeyPositive_temp_5 = marshaled.___KeyPositive;
+	unmarshaled.___KeyPositive = unmarshaledKeyPositive_temp_5;
 	int32_t unmarshaledKeyNegativeAlt_temp_6 = 0;
-	unmarshaledKeyNegativeAlt_temp_6 = marshaled.___KeyNegativeAlt_6;
-	unmarshaled.___KeyNegativeAlt_6 = unmarshaledKeyNegativeAlt_temp_6;
+	unmarshaledKeyNegativeAlt_temp_6 = marshaled.___KeyNegativeAlt;
+	unmarshaled.___KeyNegativeAlt = unmarshaledKeyNegativeAlt_temp_6;
 	int32_t unmarshaledKeyPositiveAlt_temp_7 = 0;
-	unmarshaledKeyPositiveAlt_temp_7 = marshaled.___KeyPositiveAlt_7;
-	unmarshaled.___KeyPositiveAlt_7 = unmarshaledKeyPositiveAlt_temp_7;
+	unmarshaledKeyPositiveAlt_temp_7 = marshaled.___KeyPositiveAlt;
+	unmarshaled.___KeyPositiveAlt = unmarshaledKeyPositiveAlt_temp_7;
 	float unmarshaledKeySensitivity_temp_8 = 0.0f;
-	unmarshaledKeySensitivity_temp_8 = marshaled.___KeySensitivity_8;
-	unmarshaled.___KeySensitivity_8 = unmarshaledKeySensitivity_temp_8;
+	unmarshaledKeySensitivity_temp_8 = marshaled.___KeySensitivity;
+	unmarshaled.___KeySensitivity = unmarshaledKeySensitivity_temp_8;
 }
 IL2CPP_EXTERN_C void Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshal_pinvoke_cleanup(Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshaled_pinvoke& marshaled)
 {
 }
 IL2CPP_EXTERN_C void Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshal_com(const Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793& unmarshaled, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshaled_com& marshaled)
 {
-	marshaled.___FingerCount_0 = unmarshaled.___FingerCount_0;
-	marshaled.___FingerInvert_1 = static_cast<int32_t>(unmarshaled.___FingerInvert_1);
-	marshaled.___FingerGesture_2 = unmarshaled.___FingerGesture_2;
-	marshaled.___FingerSensitivity_3 = unmarshaled.___FingerSensitivity_3;
-	marshaled.___KeyNegative_4 = unmarshaled.___KeyNegative_4;
-	marshaled.___KeyPositive_5 = unmarshaled.___KeyPositive_5;
-	marshaled.___KeyNegativeAlt_6 = unmarshaled.___KeyNegativeAlt_6;
-	marshaled.___KeyPositiveAlt_7 = unmarshaled.___KeyPositiveAlt_7;
-	marshaled.___KeySensitivity_8 = unmarshaled.___KeySensitivity_8;
+	marshaled.___FingerCount = unmarshaled.___FingerCount;
+	marshaled.___FingerInvert = static_cast<int32_t>(unmarshaled.___FingerInvert);
+	marshaled.___FingerGesture = unmarshaled.___FingerGesture;
+	marshaled.___FingerSensitivity = unmarshaled.___FingerSensitivity;
+	marshaled.___KeyNegative = unmarshaled.___KeyNegative;
+	marshaled.___KeyPositive = unmarshaled.___KeyPositive;
+	marshaled.___KeyNegativeAlt = unmarshaled.___KeyNegativeAlt;
+	marshaled.___KeyPositiveAlt = unmarshaled.___KeyPositiveAlt;
+	marshaled.___KeySensitivity = unmarshaled.___KeySensitivity;
 }
 IL2CPP_EXTERN_C void Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshal_com_back(const Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshaled_com& marshaled, Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793& unmarshaled)
 {
 	int32_t unmarshaledFingerCount_temp_0 = 0;
-	unmarshaledFingerCount_temp_0 = marshaled.___FingerCount_0;
-	unmarshaled.___FingerCount_0 = unmarshaledFingerCount_temp_0;
+	unmarshaledFingerCount_temp_0 = marshaled.___FingerCount;
+	unmarshaled.___FingerCount = unmarshaledFingerCount_temp_0;
 	bool unmarshaledFingerInvert_temp_1 = false;
-	unmarshaledFingerInvert_temp_1 = static_cast<bool>(marshaled.___FingerInvert_1);
-	unmarshaled.___FingerInvert_1 = unmarshaledFingerInvert_temp_1;
+	unmarshaledFingerInvert_temp_1 = static_cast<bool>(marshaled.___FingerInvert);
+	unmarshaled.___FingerInvert = unmarshaledFingerInvert_temp_1;
 	int32_t unmarshaledFingerGesture_temp_2 = 0;
-	unmarshaledFingerGesture_temp_2 = marshaled.___FingerGesture_2;
-	unmarshaled.___FingerGesture_2 = unmarshaledFingerGesture_temp_2;
+	unmarshaledFingerGesture_temp_2 = marshaled.___FingerGesture;
+	unmarshaled.___FingerGesture = unmarshaledFingerGesture_temp_2;
 	float unmarshaledFingerSensitivity_temp_3 = 0.0f;
-	unmarshaledFingerSensitivity_temp_3 = marshaled.___FingerSensitivity_3;
-	unmarshaled.___FingerSensitivity_3 = unmarshaledFingerSensitivity_temp_3;
+	unmarshaledFingerSensitivity_temp_3 = marshaled.___FingerSensitivity;
+	unmarshaled.___FingerSensitivity = unmarshaledFingerSensitivity_temp_3;
 	int32_t unmarshaledKeyNegative_temp_4 = 0;
-	unmarshaledKeyNegative_temp_4 = marshaled.___KeyNegative_4;
-	unmarshaled.___KeyNegative_4 = unmarshaledKeyNegative_temp_4;
+	unmarshaledKeyNegative_temp_4 = marshaled.___KeyNegative;
+	unmarshaled.___KeyNegative = unmarshaledKeyNegative_temp_4;
 	int32_t unmarshaledKeyPositive_temp_5 = 0;
-	unmarshaledKeyPositive_temp_5 = marshaled.___KeyPositive_5;
-	unmarshaled.___KeyPositive_5 = unmarshaledKeyPositive_temp_5;
+	unmarshaledKeyPositive_temp_5 = marshaled.___KeyPositive;
+	unmarshaled.___KeyPositive = unmarshaledKeyPositive_temp_5;
 	int32_t unmarshaledKeyNegativeAlt_temp_6 = 0;
-	unmarshaledKeyNegativeAlt_temp_6 = marshaled.___KeyNegativeAlt_6;
-	unmarshaled.___KeyNegativeAlt_6 = unmarshaledKeyNegativeAlt_temp_6;
+	unmarshaledKeyNegativeAlt_temp_6 = marshaled.___KeyNegativeAlt;
+	unmarshaled.___KeyNegativeAlt = unmarshaledKeyNegativeAlt_temp_6;
 	int32_t unmarshaledKeyPositiveAlt_temp_7 = 0;
-	unmarshaledKeyPositiveAlt_temp_7 = marshaled.___KeyPositiveAlt_7;
-	unmarshaled.___KeyPositiveAlt_7 = unmarshaledKeyPositiveAlt_temp_7;
+	unmarshaledKeyPositiveAlt_temp_7 = marshaled.___KeyPositiveAlt;
+	unmarshaled.___KeyPositiveAlt = unmarshaledKeyPositiveAlt_temp_7;
 	float unmarshaledKeySensitivity_temp_8 = 0.0f;
-	unmarshaledKeySensitivity_temp_8 = marshaled.___KeySensitivity_8;
-	unmarshaled.___KeySensitivity_8 = unmarshaledKeySensitivity_temp_8;
+	unmarshaledKeySensitivity_temp_8 = marshaled.___KeySensitivity;
+	unmarshaled.___KeySensitivity = unmarshaledKeySensitivity_temp_8;
 }
 IL2CPP_EXTERN_C void Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshal_com_cleanup(Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 52942
+// Method Definition Index: 57111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Axis__ctor_m5C89B49DF4991E4772BF578018F461163C00FE97 (Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* __this, int32_t ___0_fCount, bool ___1_fInvert, int32_t ___2_fGesture, float ___3_fSensitivty, int32_t ___4_kNegative, int32_t ___5_kPositive, int32_t ___6_kNegativeAlt, int32_t ___7_kPositiveAlt, float ___8_kSensitivity, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:37>
 		int32_t L_0 = ___0_fCount;
-		__this->___FingerCount_0 = L_0;
+		__this->___FingerCount = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:38>
 		bool L_1 = ___1_fInvert;
-		__this->___FingerInvert_1 = L_1;
+		__this->___FingerInvert = L_1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:39>
 		int32_t L_2 = ___2_fGesture;
-		__this->___FingerGesture_2 = L_2;
+		__this->___FingerGesture = L_2;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:40>
 		float L_3 = ___3_fSensitivty;
-		__this->___FingerSensitivity_3 = L_3;
+		__this->___FingerSensitivity = L_3;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:41>
 		int32_t L_4 = ___4_kNegative;
-		__this->___KeyNegative_4 = L_4;
+		__this->___KeyNegative = L_4;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:42>
 		int32_t L_5 = ___5_kPositive;
-		__this->___KeyPositive_5 = L_5;
+		__this->___KeyPositive = L_5;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:43>
 		int32_t L_6 = ___6_kNegativeAlt;
-		__this->___KeyNegativeAlt_6 = L_6;
+		__this->___KeyNegativeAlt = L_6;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:44>
 		int32_t L_7 = ___7_kPositiveAlt;
-		__this->___KeyPositiveAlt_7 = L_7;
+		__this->___KeyPositiveAlt = L_7;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:45>
 		float L_8 = ___8_kSensitivity;
-		__this->___KeySensitivity_8 = L_8;
+		__this->___KeySensitivity = L_8;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:46>
 		return;
 	}
@@ -8082,7 +7394,7 @@ IL2CPP_EXTERN_C  void Axis__ctor_m5C89B49DF4991E4772BF578018F461163C00FE97_Adjus
 	_thisAdjusted = reinterpret_cast<Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793*>(__this + _offset);
 	Axis__ctor_m5C89B49DF4991E4772BF578018F461163C00FE97(_thisAdjusted, ___0_fCount, ___1_fInvert, ___2_fGesture, ___3_fSensitivty, ___4_kNegative, ___5_kPositive, ___6_kNegativeAlt, ___7_kPositiveAlt, ___8_kSensitivity, method);
 }
-// Method Definition Index: 52943
+// Method Definition Index: 57112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Axis_GetValue_m593FA2F4B5CD854DF92C1A2AB1C38863FF7FAF9C (Axis_tFF36A7F87919AD6EA66574CA46E7B198F5240793* __this, float ___0_delta, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8125,7 +7437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Axis_GetValue_m593FA2F4B5CD854DF92C1A2A
 		V_2 = (1.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:54>
 		float L_1 = V_0;
-		int32_t L_2 = __this->___KeyNegative_4;
+		int32_t L_2 = __this->___KeyNegative;
 		bool L_3;
 		L_3 = CwInput_GetKeyIsHeld_m3CF9110B4AE5AF560FC12DD196281D04809955D2(L_2, NULL);
 		if (L_3)
@@ -8143,7 +7455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Axis_GetValue_m593FA2F4B5CD854DF92C1A2A
 
 IL_0029:
 	{
-		float L_4 = __this->___KeySensitivity_8;
+		float L_4 = __this->___KeySensitivity;
 		float L_5 = ___0_delta;
 		G_B3_0 = ((float)il2cpp_codegen_multiply(L_4, L_5));
 		G_B3_1 = G_B2_0;
@@ -8154,7 +7466,7 @@ IL_0031:
 		V_0 = ((float)il2cpp_codegen_subtract(G_B3_1, G_B3_0));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:55>
 		float L_6 = V_0;
-		int32_t L_7 = __this->___KeyPositive_5;
+		int32_t L_7 = __this->___KeyPositive;
 		bool L_8;
 		L_8 = CwInput_GetKeyIsHeld_m3CF9110B4AE5AF560FC12DD196281D04809955D2(L_7, NULL);
 		if (L_8)
@@ -8172,7 +7484,7 @@ IL_0031:
 
 IL_0048:
 	{
-		float L_9 = __this->___KeySensitivity_8;
+		float L_9 = __this->___KeySensitivity;
 		float L_10 = ___0_delta;
 		G_B6_0 = ((float)il2cpp_codegen_multiply(L_9, L_10));
 		G_B6_1 = G_B5_0;
@@ -8183,7 +7495,7 @@ IL_0050:
 		V_0 = ((float)il2cpp_codegen_add(G_B6_1, G_B6_0));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:57>
 		float L_11 = V_0;
-		int32_t L_12 = __this->___KeyNegativeAlt_6;
+		int32_t L_12 = __this->___KeyNegativeAlt;
 		bool L_13;
 		L_13 = CwInput_GetKeyIsHeld_m3CF9110B4AE5AF560FC12DD196281D04809955D2(L_12, NULL);
 		if (L_13)
@@ -8201,7 +7513,7 @@ IL_0050:
 
 IL_0067:
 	{
-		float L_14 = __this->___KeySensitivity_8;
+		float L_14 = __this->___KeySensitivity;
 		float L_15 = ___0_delta;
 		G_B9_0 = ((float)il2cpp_codegen_multiply(L_14, L_15));
 		G_B9_1 = G_B8_0;
@@ -8212,7 +7524,7 @@ IL_006f:
 		V_0 = ((float)il2cpp_codegen_subtract(G_B9_1, G_B9_0));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:58>
 		float L_16 = V_0;
-		int32_t L_17 = __this->___KeyPositiveAlt_7;
+		int32_t L_17 = __this->___KeyPositiveAlt;
 		bool L_18;
 		L_18 = CwInput_GetKeyIsHeld_m3CF9110B4AE5AF560FC12DD196281D04809955D2(L_17, NULL);
 		if (L_18)
@@ -8230,7 +7542,7 @@ IL_006f:
 
 IL_0086:
 	{
-		float L_19 = __this->___KeySensitivity_8;
+		float L_19 = __this->___KeySensitivity;
 		float L_20 = ___0_delta;
 		G_B12_0 = ((float)il2cpp_codegen_multiply(L_19, L_20));
 		G_B12_1 = G_B11_0;
@@ -8240,7 +7552,7 @@ IL_008e:
 	{
 		V_0 = ((float)il2cpp_codegen_add(G_B12_1, G_B12_0));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:60>
-		int32_t L_21 = __this->___FingerCount_0;
+		int32_t L_21 = __this->___FingerCount;
 		if ((((int32_t)L_21) <= ((int32_t)0)))
 		{
 			goto IL_0165;
@@ -8251,7 +7563,7 @@ IL_008e:
 		NullCheck(L_22);
 		int32_t L_23;
 		L_23 = List_1_get_Count_mC3CEF874C2D99ED6FDF204103CA1B7CACFE34165_inline(L_22, List_1_get_Count_mC3CEF874C2D99ED6FDF204103CA1B7CACFE34165_RuntimeMethod_var);
-		int32_t L_24 = __this->___FingerCount_0;
+		int32_t L_24 = __this->___FingerCount;
 		if ((!(((uint32_t)L_23) == ((uint32_t)L_24))))
 		{
 			goto IL_0165;
@@ -8259,7 +7571,7 @@ IL_008e:
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:62>
-		bool L_25 = __this->___FingerInvert_1;
+		bool L_25 = __this->___FingerInvert;
 		if (!L_25)
 		{
 			goto IL_00ca;
@@ -8271,7 +7583,7 @@ IL_008e:
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_27;
 		L_27 = List_1_get_Item_mF008129D58C5940526BA8102498BA5611D24052E(L_26, 0, List_1_get_Item_mF008129D58C5940526BA8102498BA5611D24052E_RuntimeMethod_var);
 		NullCheck(L_27);
-		int32_t L_28 = L_27->___Index_0;
+		int32_t L_28 = L_27->___Index;
 		if ((((int32_t)L_28) < ((int32_t)0)))
 		{
 			goto IL_00ca;
@@ -8285,7 +7597,7 @@ IL_008e:
 IL_00ca:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:67>
-		int32_t L_29 = __this->___FingerGesture_2;
+		int32_t L_29 = __this->___FingerGesture;
 		V_3 = L_29;
 		int32_t L_30 = V_3;
 		switch (L_30)
@@ -8324,8 +7636,8 @@ IL_00ed:
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33;
 		L_33 = CwInputManager_GetAverageDeltaScaled_m934D2DD8FBC754514F96AC795651C65500564012(L_32, NULL);
-		float L_34 = L_33.___x_0;
-		float L_35 = __this->___FingerSensitivity_3;
+		float L_34 = L_33.___x;
+		float L_35 = __this->___FingerSensitivity;
 		float L_36 = V_2;
 		V_0 = ((float)il2cpp_codegen_add(L_31, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_34, L_35)), L_36))));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:69>
@@ -8340,8 +7652,8 @@ IL_0106:
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39;
 		L_39 = CwInputManager_GetAverageDeltaScaled_m934D2DD8FBC754514F96AC795651C65500564012(L_38, NULL);
-		float L_40 = L_39.___y_1;
-		float L_41 = __this->___FingerSensitivity_3;
+		float L_40 = L_39.___y;
+		float L_41 = __this->___FingerSensitivity;
 		float L_42 = V_2;
 		V_0 = ((float)il2cpp_codegen_add(L_37, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_40, L_41)), L_42))));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:70>
@@ -8356,7 +7668,7 @@ IL_011f:
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
 		float L_45;
 		L_45 = CwInputManager_GetAverageTwistRadians_m4E40A845FB293C2D18F24388850A6E2E5BD5C18C(L_44, NULL);
-		float L_46 = __this->___FingerSensitivity_3;
+		float L_46 = __this->___FingerSensitivity;
 		V_0 = ((float)il2cpp_codegen_add(L_43, ((float)il2cpp_codegen_multiply(L_45, L_46))));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:71>
 		goto IL_0165;
@@ -8370,8 +7682,8 @@ IL_0131:
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_49;
 		L_49 = CwInputManager_GetAveragePullScaled_mA5E7EA1622C9CA5C8952FFEB49D038F733122C91(L_48, NULL);
-		float L_50 = L_49.___x_0;
-		float L_51 = __this->___FingerSensitivity_3;
+		float L_50 = L_49.___x;
+		float L_51 = __this->___FingerSensitivity;
 		float L_52 = ___0_delta;
 		float L_53 = V_2;
 		V_0 = ((float)il2cpp_codegen_add(L_47, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_50, L_51)), L_52)), L_53))));
@@ -8387,8 +7699,8 @@ IL_014c:
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_56;
 		L_56 = CwInputManager_GetAveragePullScaled_mA5E7EA1622C9CA5C8952FFEB49D038F733122C91(L_55, NULL);
-		float L_57 = L_56.___y_1;
-		float L_58 = __this->___FingerSensitivity_3;
+		float L_57 = L_56.___y;
+		float L_58 = __this->___FingerSensitivity;
 		float L_59 = ___0_delta;
 		float L_60 = V_2;
 		V_0 = ((float)il2cpp_codegen_add(L_54, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_57, L_58)), L_59)), L_60))));
@@ -8420,59 +7732,59 @@ IL2CPP_EXTERN_C  float Axis_GetValue_m593FA2F4B5CD854DF92C1A2AB1C38863FF7FAF9C_A
 #endif
 IL2CPP_EXTERN_C void Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshal_pinvoke(const Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD& unmarshaled, Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshaled_pinvoke& marshaled)
 {
-	marshaled.___UseFinger_0 = static_cast<int32_t>(unmarshaled.___UseFinger_0);
-	marshaled.___UseMouse_1 = static_cast<int32_t>(unmarshaled.___UseMouse_1);
-	marshaled.___UseKey_2 = unmarshaled.___UseKey_2;
+	marshaled.___UseFinger = static_cast<int32_t>(unmarshaled.___UseFinger);
+	marshaled.___UseMouse = static_cast<int32_t>(unmarshaled.___UseMouse);
+	marshaled.___UseKey = unmarshaled.___UseKey;
 }
 IL2CPP_EXTERN_C void Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshal_pinvoke_back(const Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshaled_pinvoke& marshaled, Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD& unmarshaled)
 {
 	bool unmarshaledUseFinger_temp_0 = false;
-	unmarshaledUseFinger_temp_0 = static_cast<bool>(marshaled.___UseFinger_0);
-	unmarshaled.___UseFinger_0 = unmarshaledUseFinger_temp_0;
+	unmarshaledUseFinger_temp_0 = static_cast<bool>(marshaled.___UseFinger);
+	unmarshaled.___UseFinger = unmarshaledUseFinger_temp_0;
 	bool unmarshaledUseMouse_temp_1 = false;
-	unmarshaledUseMouse_temp_1 = static_cast<bool>(marshaled.___UseMouse_1);
-	unmarshaled.___UseMouse_1 = unmarshaledUseMouse_temp_1;
+	unmarshaledUseMouse_temp_1 = static_cast<bool>(marshaled.___UseMouse);
+	unmarshaled.___UseMouse = unmarshaledUseMouse_temp_1;
 	int32_t unmarshaledUseKey_temp_2 = 0;
-	unmarshaledUseKey_temp_2 = marshaled.___UseKey_2;
-	unmarshaled.___UseKey_2 = unmarshaledUseKey_temp_2;
+	unmarshaledUseKey_temp_2 = marshaled.___UseKey;
+	unmarshaled.___UseKey = unmarshaledUseKey_temp_2;
 }
 IL2CPP_EXTERN_C void Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshal_pinvoke_cleanup(Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshaled_pinvoke& marshaled)
 {
 }
 IL2CPP_EXTERN_C void Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshal_com(const Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD& unmarshaled, Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshaled_com& marshaled)
 {
-	marshaled.___UseFinger_0 = static_cast<int32_t>(unmarshaled.___UseFinger_0);
-	marshaled.___UseMouse_1 = static_cast<int32_t>(unmarshaled.___UseMouse_1);
-	marshaled.___UseKey_2 = unmarshaled.___UseKey_2;
+	marshaled.___UseFinger = static_cast<int32_t>(unmarshaled.___UseFinger);
+	marshaled.___UseMouse = static_cast<int32_t>(unmarshaled.___UseMouse);
+	marshaled.___UseKey = unmarshaled.___UseKey;
 }
 IL2CPP_EXTERN_C void Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshal_com_back(const Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshaled_com& marshaled, Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD& unmarshaled)
 {
 	bool unmarshaledUseFinger_temp_0 = false;
-	unmarshaledUseFinger_temp_0 = static_cast<bool>(marshaled.___UseFinger_0);
-	unmarshaled.___UseFinger_0 = unmarshaledUseFinger_temp_0;
+	unmarshaledUseFinger_temp_0 = static_cast<bool>(marshaled.___UseFinger);
+	unmarshaled.___UseFinger = unmarshaledUseFinger_temp_0;
 	bool unmarshaledUseMouse_temp_1 = false;
-	unmarshaledUseMouse_temp_1 = static_cast<bool>(marshaled.___UseMouse_1);
-	unmarshaled.___UseMouse_1 = unmarshaledUseMouse_temp_1;
+	unmarshaledUseMouse_temp_1 = static_cast<bool>(marshaled.___UseMouse);
+	unmarshaled.___UseMouse = unmarshaledUseMouse_temp_1;
 	int32_t unmarshaledUseKey_temp_2 = 0;
-	unmarshaledUseKey_temp_2 = marshaled.___UseKey_2;
-	unmarshaled.___UseKey_2 = unmarshaledUseKey_temp_2;
+	unmarshaledUseKey_temp_2 = marshaled.___UseKey;
+	unmarshaled.___UseKey = unmarshaledUseKey_temp_2;
 }
 IL2CPP_EXTERN_C void Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshal_com_cleanup(Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 52944
+// Method Definition Index: 57113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trigger__ctor_m28B7CCBD4AE80DF738C9CB1E5AC8C2827D8E80B7 (Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD* __this, bool ___0_uFinger, bool ___1_uMouse, int32_t ___2_uKey, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:90>
 		bool L_0 = ___0_uFinger;
-		__this->___UseFinger_0 = L_0;
+		__this->___UseFinger = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:91>
 		bool L_1 = ___1_uMouse;
-		__this->___UseMouse_1 = L_1;
+		__this->___UseMouse = L_1;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:92>
 		int32_t L_2 = ___2_uKey;
-		__this->___UseKey_2 = L_2;
+		__this->___UseKey = L_2;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:93>
 		return;
 	}
@@ -8484,12 +7796,12 @@ IL2CPP_EXTERN_C  void Trigger__ctor_m28B7CCBD4AE80DF738C9CB1E5AC8C2827D8E80B7_Ad
 	_thisAdjusted = reinterpret_cast<Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD*>(__this + _offset);
 	Trigger__ctor_m28B7CCBD4AE80DF738C9CB1E5AC8C2827D8E80B7(_thisAdjusted, ___0_uFinger, ___1_uMouse, ___2_uKey, method);
 }
-// Method Definition Index: 52945
+// Method Definition Index: 57114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trigger_WentDown_mFD32A23A0ED9F6CE7956A115864E7169B0966E71 (Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD* __this, Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* ___0_finger, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:97>
-		bool L_0 = __this->___UseFinger_0;
+		bool L_0 = __this->___UseFinger;
 		if (!L_0)
 		{
 			goto IL_001b;
@@ -8498,7 +7810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trigger_WentDown_mFD32A23A0ED9F6CE7956A1
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_1 = ___0_finger;
 		NullCheck(L_1);
-		int32_t L_2 = L_1->___Index_0;
+		int32_t L_2 = L_1->___Index;
 		if ((((int32_t)L_2) < ((int32_t)0)))
 		{
 			goto IL_001b;
@@ -8507,7 +7819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trigger_WentDown_mFD32A23A0ED9F6CE7956A1
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_3 = ___0_finger;
 		NullCheck(L_3);
-		bool L_4 = L_3->___Down_2;
+		bool L_4 = L_3->___Down;
 		if (!L_4)
 		{
 			goto IL_001b;
@@ -8521,7 +7833,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trigger_WentDown_mFD32A23A0ED9F6CE7956A1
 IL_001b:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:102>
-		bool L_5 = __this->___UseMouse_1;
+		bool L_5 = __this->___UseMouse;
 		if (!L_5)
 		{
 			goto IL_0036;
@@ -8530,7 +7842,7 @@ IL_001b:
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_6 = ___0_finger;
 		NullCheck(L_6);
-		int32_t L_7 = L_6->___Index_0;
+		int32_t L_7 = L_6->___Index;
 		if ((!(((uint32_t)L_7) == ((uint32_t)(-1)))))
 		{
 			goto IL_0036;
@@ -8539,7 +7851,7 @@ IL_001b:
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_8 = ___0_finger;
 		NullCheck(L_8);
-		bool L_9 = L_8->___Down_2;
+		bool L_9 = L_8->___Down;
 		if (!L_9)
 		{
 			goto IL_0036;
@@ -8553,7 +7865,7 @@ IL_001b:
 IL_0036:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:107>
-		int32_t L_10 = __this->___UseKey_2;
+		int32_t L_10 = __this->___UseKey;
 		if (!L_10)
 		{
 			goto IL_005a;
@@ -8562,14 +7874,14 @@ IL_0036:
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_11 = ___0_finger;
 		NullCheck(L_11);
-		int32_t L_12 = L_11->___Index_0;
+		int32_t L_12 = L_11->___Index;
 		if ((!(((uint32_t)L_12) == ((uint32_t)((int32_t)-1337)))))
 		{
 			goto IL_005a;
 		}
 	}
 	{
-		int32_t L_13 = __this->___UseKey_2;
+		int32_t L_13 = __this->___UseKey;
 		bool L_14;
 		L_14 = CwInput_GetKeyWentDown_m92A812AC6688B471DB1EC364940F63D77EAD2389(L_13, NULL);
 		if (!L_14)
@@ -8597,12 +7909,12 @@ IL2CPP_EXTERN_C  bool Trigger_WentDown_mFD32A23A0ED9F6CE7956A115864E7169B0966E71
 	_returnValue = Trigger_WentDown_mFD32A23A0ED9F6CE7956A115864E7169B0966E71(_thisAdjusted, ___0_finger, method);
 	return _returnValue;
 }
-// Method Definition Index: 52946
+// Method Definition Index: 57115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trigger_IsDown_m4F08E1230230D764514DC256FB79148952A60AA0 (Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD* __this, Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* ___0_finger, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:117>
-		bool L_0 = __this->___UseFinger_0;
+		bool L_0 = __this->___UseFinger;
 		if (!L_0)
 		{
 			goto IL_001b;
@@ -8611,7 +7923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trigger_IsDown_m4F08E1230230D764514DC256
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_1 = ___0_finger;
 		NullCheck(L_1);
-		int32_t L_2 = L_1->___Index_0;
+		int32_t L_2 = L_1->___Index;
 		if ((((int32_t)L_2) < ((int32_t)0)))
 		{
 			goto IL_001b;
@@ -8620,7 +7932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trigger_IsDown_m4F08E1230230D764514DC256
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_3 = ___0_finger;
 		NullCheck(L_3);
-		bool L_4 = L_3->___Up_3;
+		bool L_4 = L_3->___Up;
 		if (L_4)
 		{
 			goto IL_001b;
@@ -8634,7 +7946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trigger_IsDown_m4F08E1230230D764514DC256
 IL_001b:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:122>
-		bool L_5 = __this->___UseMouse_1;
+		bool L_5 = __this->___UseMouse;
 		if (!L_5)
 		{
 			goto IL_0036;
@@ -8643,7 +7955,7 @@ IL_001b:
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_6 = ___0_finger;
 		NullCheck(L_6);
-		int32_t L_7 = L_6->___Index_0;
+		int32_t L_7 = L_6->___Index;
 		if ((!(((uint32_t)L_7) == ((uint32_t)(-1)))))
 		{
 			goto IL_0036;
@@ -8652,7 +7964,7 @@ IL_001b:
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_8 = ___0_finger;
 		NullCheck(L_8);
-		bool L_9 = L_8->___Up_3;
+		bool L_9 = L_8->___Up;
 		if (L_9)
 		{
 			goto IL_0036;
@@ -8666,7 +7978,7 @@ IL_001b:
 IL_0036:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:127>
-		int32_t L_10 = __this->___UseKey_2;
+		int32_t L_10 = __this->___UseKey;
 		if (!L_10)
 		{
 			goto IL_005a;
@@ -8675,14 +7987,14 @@ IL_0036:
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_11 = ___0_finger;
 		NullCheck(L_11);
-		int32_t L_12 = L_11->___Index_0;
+		int32_t L_12 = L_11->___Index;
 		if ((!(((uint32_t)L_12) == ((uint32_t)((int32_t)-1337)))))
 		{
 			goto IL_005a;
 		}
 	}
 	{
-		int32_t L_13 = __this->___UseKey_2;
+		int32_t L_13 = __this->___UseKey;
 		bool L_14;
 		L_14 = CwInput_GetKeyWentDown_m92A812AC6688B471DB1EC364940F63D77EAD2389(L_13, NULL);
 		if (!L_14)
@@ -8710,7 +8022,7 @@ IL2CPP_EXTERN_C  bool Trigger_IsDown_m4F08E1230230D764514DC256FB79148952A60AA0_A
 	_returnValue = Trigger_IsDown_m4F08E1230230D764514DC256FB79148952A60AA0(_thisAdjusted, ___0_finger, method);
 	return _returnValue;
 }
-// Method Definition Index: 52947
+// Method Definition Index: 57116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trigger_WentUp_m953F674989F6C839A4CD03CA3E41E44FCF375741 (Trigger_t470E58D85C1658F07CE310D90166341CCD87DBAD* __this, Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* ___0_finger, bool ___1_useAnyFinger, const RuntimeMethod* method) 
 {
 	{
@@ -8724,7 +8036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trigger_WentUp_m953F674989F6C839A4CD03CA
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_1 = ___0_finger;
 		NullCheck(L_1);
-		bool L_2 = L_1->___Up_3;
+		bool L_2 = L_1->___Up;
 		if (!L_2)
 		{
 			goto IL_000d;
@@ -8738,7 +8050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trigger_WentUp_m953F674989F6C839A4CD03CA
 IL_000d:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:142>
-		bool L_3 = __this->___UseFinger_0;
+		bool L_3 = __this->___UseFinger;
 		if (!L_3)
 		{
 			goto IL_0028;
@@ -8747,7 +8059,7 @@ IL_000d:
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_4 = ___0_finger;
 		NullCheck(L_4);
-		int32_t L_5 = L_4->___Index_0;
+		int32_t L_5 = L_4->___Index;
 		if ((((int32_t)L_5) < ((int32_t)0)))
 		{
 			goto IL_0028;
@@ -8756,7 +8068,7 @@ IL_000d:
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_6 = ___0_finger;
 		NullCheck(L_6);
-		bool L_7 = L_6->___Up_3;
+		bool L_7 = L_6->___Up;
 		if (!L_7)
 		{
 			goto IL_0028;
@@ -8770,7 +8082,7 @@ IL_000d:
 IL_0028:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:147>
-		bool L_8 = __this->___UseMouse_1;
+		bool L_8 = __this->___UseMouse;
 		if (!L_8)
 		{
 			goto IL_0043;
@@ -8779,7 +8091,7 @@ IL_0028:
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_9 = ___0_finger;
 		NullCheck(L_9);
-		int32_t L_10 = L_9->___Index_0;
+		int32_t L_10 = L_9->___Index;
 		if ((!(((uint32_t)L_10) == ((uint32_t)(-1)))))
 		{
 			goto IL_0043;
@@ -8788,7 +8100,7 @@ IL_0028:
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_11 = ___0_finger;
 		NullCheck(L_11);
-		bool L_12 = L_11->___Up_3;
+		bool L_12 = L_11->___Up;
 		if (!L_12)
 		{
 			goto IL_0043;
@@ -8802,7 +8114,7 @@ IL_0028:
 IL_0043:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:152>
-		int32_t L_13 = __this->___UseKey_2;
+		int32_t L_13 = __this->___UseKey;
 		if (!L_13)
 		{
 			goto IL_0067;
@@ -8811,14 +8123,14 @@ IL_0043:
 	{
 		Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* L_14 = ___0_finger;
 		NullCheck(L_14);
-		int32_t L_15 = L_14->___Index_0;
+		int32_t L_15 = L_14->___Index;
 		if ((!(((uint32_t)L_15) == ((uint32_t)((int32_t)-1337)))))
 		{
 			goto IL_0067;
 		}
 	}
 	{
-		int32_t L_16 = __this->___UseKey_2;
+		int32_t L_16 = __this->___UseKey;
 		bool L_17;
 		L_17 = CwInput_GetKeyWentUp_mD1215C64D81792ECA7D94DF5A35B5690FABFE932(L_16, NULL);
 		if (!L_17)
@@ -8854,7 +8166,7 @@ IL2CPP_EXTERN_C  bool Trigger_WentUp_m953F674989F6C839A4CD03CA3E41E44FCF375741_A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52952
+// Method Definition Index: 57121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Link_Clear_mEEC0DA8F744C0069CCC0A778BC05ACFCC7EE5A68 (Link_t3E237FC972997681510F43C6555571385C91BE05* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8862,7 +8174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Link_Clear_mEEC0DA8F744C0069CCC0A778BC05
 		return;
 	}
 }
-// Method Definition Index: 52953
+// Method Definition Index: 57122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Link__ctor_m0DF06BF4301F0D0F6D3B65ECB5474A6BAA24A2ED (Link_t3E237FC972997681510F43C6555571385C91BE05* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8878,12 +8190,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Link__ctor_m0DF06BF4301F0D0F6D3B65ECB547
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52954
+// Method Definition Index: 57123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Finger_get_SmoothScreenPositionDelta_m4ED88AE5DCA15A748F81F1D2846BE32955B5394E (Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:259>
-		bool L_0 = __this->___Up_3;
+		bool L_0 = __this->___Up;
 		if (L_0)
 		{
 			goto IL_001a;
@@ -8891,8 +8203,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Finger_get_SmoothScreenPositionDelta_m4
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:261>
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = __this->___ScreenPositionOldOld_9;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = __this->___ScreenPositionOld_8;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = __this->___ScreenPositionOldOld;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = __this->___ScreenPositionOld;
 		float L_3;
 		L_3 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_1, L_2, NULL);
 		return L_3;
@@ -8901,14 +8213,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Finger_get_SmoothScreenPositionDelta_m4
 IL_001a:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:264>
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = __this->___ScreenPositionOldOld_9;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = __this->___ScreenPosition_7;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = __this->___ScreenPositionOldOld;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = __this->___ScreenPosition;
 		float L_6;
 		L_6 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_4, L_5, NULL);
 		return L_6;
 	}
 }
-// Method Definition Index: 52955
+// Method Definition Index: 57124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Finger_GetSmoothScreenPosition_mE059870467AE2267379A5F78D534EC1FAAAE5ED8 (Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* __this, float ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8919,7 +8231,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:270>
-		bool L_0 = __this->___Up_3;
+		bool L_0 = __this->___Up;
 		if (L_0)
 		{
 			goto IL_0027;
@@ -8927,10 +8239,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:272>
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = __this->___ScreenPositionOldOldOld_10;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = __this->___ScreenPositionOldOld_9;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = __this->___ScreenPositionOld_8;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = __this->___ScreenPosition_7;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = __this->___ScreenPositionOldOldOld;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = __this->___ScreenPositionOldOld;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = __this->___ScreenPositionOld;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = __this->___ScreenPosition;
 		float L_5 = ___0_t;
 		il2cpp_codegen_runtime_class_init_inline(CwInputManager_t92456D41A22047264E18E84F135DB75F3E6AA0B5_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
@@ -8941,15 +8253,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 IL_0027:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwInputManager.cs:275>
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = __this->___ScreenPositionOldOld_9;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = __this->___ScreenPosition_7;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = __this->___ScreenPositionOldOld;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = __this->___ScreenPosition;
 		float L_9 = ___0_t;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
 		L_10 = Vector2_LerpUnclamped_mB0B50875D4509E21FF43F4D87610333D55E6A44F_inline(L_7, L_8, L_9, NULL);
 		return L_10;
 	}
 }
-// Method Definition Index: 52956
+// Method Definition Index: 57125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Finger__ctor_mB8EBC54FB189CE84A3EC0E1021E3D0D51D0AECD4 (Finger_tF0FFA146E12F3DEF1F354487835AA90A59834AB8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8965,87 +8277,87 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Finger__ctor_mB8EBC54FB189CE84A3EC0E1021
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52957
+// Method Definition Index: 57126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwLightIntensity_set_Multiplier_m04498949F3F918E6DBE10F7F8A34525E4CEF254D (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:13>
 		float L_0 = ___0_value;
-		__this->___multiplier_5 = L_0;
+		__this->___multiplier = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:13>
 		return;
 	}
 }
-// Method Definition Index: 52958
+// Method Definition Index: 57127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwLightIntensity_get_Multiplier_m9B7E192CBB2051985D906DCBCE8BBF044B38EAC9 (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:13>
-		float L_0 = __this->___multiplier_5;
+		float L_0 = __this->___multiplier;
 		return L_0;
 	}
 }
-// Method Definition Index: 52959
+// Method Definition Index: 57128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwLightIntensity_set_IntensityInStandard_m7CC4D01DA883481DC25CF231D236010239C72C41 (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:17>
 		float L_0 = ___0_value;
-		__this->___intensityInStandard_6 = L_0;
+		__this->___intensityInStandard = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 52960
+// Method Definition Index: 57129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwLightIntensity_get_IntensityInStandard_mDEFA0E500A72E7DAB6C6A89A9525000BCE62C0A3 (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:17>
-		float L_0 = __this->___intensityInStandard_6;
+		float L_0 = __this->___intensityInStandard;
 		return L_0;
 	}
 }
-// Method Definition Index: 52961
+// Method Definition Index: 57130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwLightIntensity_set_IntensityInURP_m75C6FA60149CB5F70BF9103BB62C629DE2BF70EB (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:21>
 		float L_0 = ___0_value;
-		__this->___intensityInURP_7 = L_0;
+		__this->___intensityInURP = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:21>
 		return;
 	}
 }
-// Method Definition Index: 52962
+// Method Definition Index: 57131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwLightIntensity_get_IntensityInURP_m1FDA7760439763DD10DC272E3F7C1F77949E9D37 (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:21>
-		float L_0 = __this->___intensityInURP_7;
+		float L_0 = __this->___intensityInURP;
 		return L_0;
 	}
 }
-// Method Definition Index: 52963
+// Method Definition Index: 57132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwLightIntensity_set_IntensityInHDRP_m87B0DAB79D84ACAB42DF87B964F9A27AFE83E7C2 (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:25>
 		float L_0 = ___0_value;
-		__this->___intensityInHDRP_8 = L_0;
+		__this->___intensityInHDRP = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 52964
+// Method Definition Index: 57133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwLightIntensity_get_IntensityInHDRP_m46EAA927429174B9877CA296C811D62AEBB27DCE (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:25>
-		float L_0 = __this->___intensityInHDRP_8;
+		float L_0 = __this->___intensityInHDRP;
 		return L_0;
 	}
 }
-// Method Definition Index: 52965
+// Method Definition Index: 57134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* CwLightIntensity_get_CachedLight_m77743EC06DF952C16A73D4372BBC944E3517DA50 (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9056,7 +8368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Light_t1E68479B7782AF2050FAA02A5DC612FD034F18
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:42>
-		bool L_0 = __this->___cachedLightSet_10;
+		bool L_0 = __this->___cachedLightSet;
 		if (L_0)
 		{
 			goto IL_001b;
@@ -9066,20 +8378,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Light_t1E68479B7782AF2050FAA02A5DC612FD034F18
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:44>
 		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_1;
 		L_1 = Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9(__this, Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9_RuntimeMethod_var);
-		__this->___cachedLight_9 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___cachedLight_9), (void*)L_1);
+		__this->___cachedLight = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cachedLight), (void*)L_1);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:45>
-		__this->___cachedLightSet_10 = (bool)1;
+		__this->___cachedLightSet = (bool)1;
 	}
 
 IL_001b:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:48>
-		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_2 = __this->___cachedLight_9;
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_2 = __this->___cachedLight;
 		return L_2;
 	}
 }
-// Method Definition Index: 52966
+// Method Definition Index: 57135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwLightIntensity_Update_m15C899C22C65CAE5CC9FB378FD6CAA15906D7927 (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -9099,7 +8411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwLightIntensity_Update_m15C899C22C65CAE
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:58>
-		float L_3 = __this->___intensityInStandard_6;
+		float L_3 = __this->___intensityInStandard;
 		CwLightIntensity_ApplyIntensity_m5E89230FD824EDC1F13382F11D5CD4E065A5F694(__this, L_3, NULL);
 		return;
 	}
@@ -9117,7 +8429,7 @@ IL_001b:
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:62>
-		float L_6 = __this->___intensityInURP_7;
+		float L_6 = __this->___intensityInURP;
 		CwLightIntensity_ApplyIntensity_m5E89230FD824EDC1F13382F11D5CD4E065A5F694(__this, L_6, NULL);
 		return;
 	}
@@ -9135,7 +8447,7 @@ IL_0030:
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:66>
-		float L_9 = __this->___intensityInHDRP_8;
+		float L_9 = __this->___intensityInHDRP;
 		CwLightIntensity_ApplyIntensity_m5E89230FD824EDC1F13382F11D5CD4E065A5F694(__this, L_9, NULL);
 	}
 
@@ -9145,7 +8457,7 @@ IL_0044:
 		return;
 	}
 }
-// Method Definition Index: 52967
+// Method Definition Index: 57136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwLightIntensity_ApplyIntensity_m5E89230FD824EDC1F13382F11D5CD4E065A5F694 (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, float ___0_intensity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9164,7 +8476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwLightIntensity_ApplyIntensity_m5E89230
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:74>
-		bool L_1 = __this->___cachedLightSet_10;
+		bool L_1 = __this->___cachedLightSet;
 		if (L_1)
 		{
 			goto IL_0023;
@@ -9174,18 +8486,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwLightIntensity_ApplyIntensity_m5E89230
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:76>
 		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_2;
 		L_2 = Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9(__this, Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9_RuntimeMethod_var);
-		__this->___cachedLight_9 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___cachedLight_9), (void*)L_2);
+		__this->___cachedLight = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cachedLight), (void*)L_2);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:77>
-		__this->___cachedLightSet_10 = (bool)1;
+		__this->___cachedLightSet = (bool)1;
 	}
 
 IL_0023:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:91>
-		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_3 = __this->___cachedLight_9;
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_3 = __this->___cachedLight;
 		float L_4 = ___0_intensity;
-		float L_5 = __this->___multiplier_5;
+		float L_5 = __this->___multiplier;
 		NullCheck(L_3);
 		Light_set_intensity_mE4820C7F39F490B92ED5EA0C3AADA7C0775BE854(L_3, ((float)il2cpp_codegen_multiply(L_4, L_5)), NULL);
 	}
@@ -9196,18 +8508,18 @@ IL_0036:
 		return;
 	}
 }
-// Method Definition Index: 52968
+// Method Definition Index: 57137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwLightIntensity__ctor_m5E0389C8EAB387A933CFDFE5C05E65A62E01169E (CwLightIntensity_tB914E64C14C82BACF3D718B1630C22E8DA055ECA* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:13>
-		__this->___multiplier_5 = (1.0f);
+		__this->___multiplier = (1.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:17>
-		__this->___intensityInStandard_6 = (1.0f);
+		__this->___intensityInStandard = (1.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:21>
-		__this->___intensityInURP_7 = (1.0f);
+		__this->___intensityInURP = (1.0f);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs:25>
-		__this->___intensityInHDRP_8 = (120000.0f);
+		__this->___intensityInHDRP = (120000.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -9220,73 +8532,73 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwLightIntensity__ctor_m5E0389C8EAB387A9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52969
+// Method Definition Index: 57138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRotate_set_AngularVelocity_m4FE6627B536CDBFF0A0365FF02DFFCF8BDF4A3ED (CwRotate_t9872DFBCB65F0E9740EE9D7F26C15743212DCD91* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwRotate.cs:11>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
-		__this->___angularVelocity_5 = L_0;
+		__this->___angularVelocity = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwRotate.cs:11>
 		return;
 	}
 }
-// Method Definition Index: 52970
+// Method Definition Index: 57139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 CwRotate_get_AngularVelocity_m1C417B4A2FC232CC878048E2A1FD04C625306E08 (CwRotate_t9872DFBCB65F0E9740EE9D7F26C15743212DCD91* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwRotate.cs:11>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___angularVelocity_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___angularVelocity;
 		return L_0;
 	}
 }
-// Method Definition Index: 52971
+// Method Definition Index: 57140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRotate_set_RelativeTo_m8599B36D357AB2FB85E570F16C8511B4701B8569 (CwRotate_t9872DFBCB65F0E9740EE9D7F26C15743212DCD91* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwRotate.cs:14>
 		int32_t L_0 = ___0_value;
-		__this->___relativeTo_6 = L_0;
+		__this->___relativeTo = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwRotate.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 52972
+// Method Definition Index: 57141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwRotate_get_RelativeTo_m461AEEAB2065C1B9095F81D70A4EE8D21FBC2CE7 (CwRotate_t9872DFBCB65F0E9740EE9D7F26C15743212DCD91* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwRotate.cs:14>
-		int32_t L_0 = __this->___relativeTo_6;
+		int32_t L_0 = __this->___relativeTo;
 		return L_0;
 	}
 }
-// Method Definition Index: 52973
+// Method Definition Index: 57142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRotate_Update_mF36A0E473360BFFE582BA48470B70970E936BD1C (CwRotate_t9872DFBCB65F0E9740EE9D7F26C15743212DCD91* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwRotate.cs:18>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->___angularVelocity_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->___angularVelocity;
 		float L_2;
 		L_2 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, L_2, NULL);
-		int32_t L_4 = __this->___relativeTo_6;
+		int32_t L_4 = __this->___relativeTo;
 		NullCheck(L_0);
 		Transform_Rotate_mAE711E1B1F639FDBA7B456E1E1B35DB90EEB737A(L_0, L_3, L_4, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwRotate.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 52974
+// Method Definition Index: 57143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRotate__ctor_mF6294AAE4472BDB0D8051411A28620BF4E8F0F10 (CwRotate_t9872DFBCB65F0E9740EE9D7F26C15743212DCD91* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwRotate.cs:11>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
-		__this->___angularVelocity_5 = L_0;
+		__this->___angularVelocity = L_0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -9299,7 +8611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRotate__ctor_mF6294AAE4472BDB0D8051411
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52975
+// Method Definition Index: 57144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwChild_DestroyGameObjectIfInvalid_m71914C6AFB58A6F772E7BFA5473206EDE78EA8E0 (CwChild_tFBB37E0BA7F868194791F56E93632B3C5B0DED1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9348,7 +8660,7 @@ IL_001e:
 		return;
 	}
 }
-// Method Definition Index: 52977
+// Method Definition Index: 57146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwChild_Start_m1BB987F6B3C5325D8DF10DFB53C992D2A335C321 (CwChild_tFBB37E0BA7F868194791F56E93632B3C5B0DED1E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9356,7 +8668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwChild_Start_m1BB987F6B3C5325D8DF10DFB5
 		return;
 	}
 }
-// Method Definition Index: 52978
+// Method Definition Index: 57147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwChild__ctor_mB1106F0C9FD57C7919AECE9F18667B1B0E2D02BB (CwChild_tFBB37E0BA7F868194791F56E93632B3C5B0DED1E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9372,7 +8684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwChild__ctor_mB1106F0C9FD57C7919AECE9F1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52980
+// Method Definition Index: 57149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwRoot_get_Exists_mFF757EEACDB1ADB220EBBF3E63A46A82ADC7201A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9385,14 +8697,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwRoot_get_Exists_mFF757EEACDB1ADB220EBB
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwRoot.cs:19>
 		il2cpp_codegen_runtime_class_init_inline(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var);
-		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_0 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances_5;
+		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_0 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_mBD9F42F74824BB48A27736DB4B76B66E6528D13B_inline(L_0, List_1_get_Count_mBD9F42F74824BB48A27736DB4B76B66E6528D13B_RuntimeMethod_var);
 		return (bool)((((int32_t)L_1) > ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 52981
+// Method Definition Index: 57150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* CwRoot_get_Root_mF16D4D6AAC07718B0CDC5121D2FADF4E8B98F481 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9406,7 +8718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwRoot.cs:27>
 		il2cpp_codegen_runtime_class_init_inline(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var);
-		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_0 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances_5;
+		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_0 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_mBD9F42F74824BB48A27736DB4B76B66E6528D13B_inline(L_0, List_1_get_Count_mBD9F42F74824BB48A27736DB4B76B66E6528D13B_RuntimeMethod_var);
@@ -9418,7 +8730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwRoot.cs:29>
 		il2cpp_codegen_runtime_class_init_inline(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var);
-		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_2 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances_5;
+		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_2 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances;
 		NullCheck(L_2);
 		CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34* L_3;
 		L_3 = List_1_get_Item_mB3C6EAC9612919B49E458FBC7BFE5FBD446C1A0A(L_2, 0, List_1_get_Item_mB3C6EAC9612919B49E458FBC7BFE5FBD446C1A0A_RuntimeMethod_var);
@@ -9434,7 +8746,7 @@ IL_001e:
 		return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 	}
 }
-// Method Definition Index: 52982
+// Method Definition Index: 57151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* CwRoot_GetRoot_mFDF7341B43FAE5FDE037130C2092791030315B51 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9451,7 +8763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwRoot.cs:38>
 		il2cpp_codegen_runtime_class_init_inline(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var);
-		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_0 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances_5;
+		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_0 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_mBD9F42F74824BB48A27736DB4B76B66E6528D13B_inline(L_0, List_1_get_Count_mBD9F42F74824BB48A27736DB4B76B66E6528D13B_RuntimeMethod_var);
@@ -9473,7 +8785,7 @@ IL_001c:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwRoot.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var);
-		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_4 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances_5;
+		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_4 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances;
 		NullCheck(L_4);
 		CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34* L_5;
 		L_5 = List_1_get_Item_mB3C6EAC9612919B49E458FBC7BFE5FBD446C1A0A(L_4, 0, List_1_get_Item_mB3C6EAC9612919B49E458FBC7BFE5FBD446C1A0A_RuntimeMethod_var);
@@ -9483,7 +8795,7 @@ IL_001c:
 		return L_6;
 	}
 }
-// Method Definition Index: 52983
+// Method Definition Index: 57152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRoot_OnEnable_m9C972F1E6C4156A427AB66F989023E16B971647A (CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9500,7 +8812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRoot_OnEnable_m9C972F1E6C4156A427AB66F
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwRoot.cs:48>
 		il2cpp_codegen_runtime_class_init_inline(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var);
-		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_0 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances_5;
+		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_0 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_mBD9F42F74824BB48A27736DB4B76B66E6528D13B_inline(L_0, List_1_get_Count_mBD9F42F74824BB48A27736DB4B76B66E6528D13B_RuntimeMethod_var);
@@ -9512,7 +8824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRoot_OnEnable_m9C972F1E6C4156A427AB66F
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwRoot.cs:50>
 		il2cpp_codegen_runtime_class_init_inline(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var);
-		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_2 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances_5;
+		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_2 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances;
 		NullCheck(L_2);
 		CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34* L_3;
 		L_3 = List_1_get_Item_mB3C6EAC9612919B49E458FBC7BFE5FBD446C1A0A(L_2, 0, List_1_get_Item_mB3C6EAC9612919B49E458FBC7BFE5FBD446C1A0A_RuntimeMethod_var);
@@ -9524,14 +8836,14 @@ IL_0022:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwRoot.cs:53>
 		il2cpp_codegen_runtime_class_init_inline(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var);
-		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_4 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances_5;
+		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_4 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances;
 		NullCheck(L_4);
 		List_1_Add_m49A521B24AD16F060ABE11D49C6E303DA72C5D83_inline(L_4, __this, List_1_Add_m49A521B24AD16F060ABE11D49C6E303DA72C5D83_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwRoot.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 52984
+// Method Definition Index: 57153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRoot_OnDisable_m86F4E316B775445F4F1B77AD7EB5C22D330E0B01 (CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9544,7 +8856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRoot_OnDisable_m86F4E316B775445F4F1B77
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwRoot.cs:58>
 		il2cpp_codegen_runtime_class_init_inline(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var);
-		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_0 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances_5;
+		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_0 = ((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = List_1_Remove_mD17E6093B8AB38D69B3010D3B1017B34E94F4D85(L_0, __this, List_1_Remove_mD17E6093B8AB38D69B3010D3B1017B34E94F4D85_RuntimeMethod_var);
@@ -9552,7 +8864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRoot_OnDisable_m86F4E316B775445F4F1B77
 		return;
 	}
 }
-// Method Definition Index: 52985
+// Method Definition Index: 57154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRoot__ctor_m42B79D3820B795AF850636AD9286DCB412B29544 (CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9560,7 +8872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRoot__ctor_m42B79D3820B795AF850636AD92
 		return;
 	}
 }
-// Method Definition Index: 52986
+// Method Definition Index: 57155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRoot__cctor_m8459C2AC9DD43CD93B4D3DDF7358C6C2650B45DB (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9575,8 +8887,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRoot__cctor_m8459C2AC9DD43CD93B4D3DDF7
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwRoot.cs:13>
 		List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514* L_0 = (List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514*)il2cpp_codegen_object_new(List_1_t3568CE39CDB0E90F2A8BFCCEB8FAE586D2243514_il2cpp_TypeInfo_var);
 		List_1__ctor_m48D77F10AADC0AB84FE9341A995F81EF79CCC135(L_0, List_1__ctor_m48D77F10AADC0AB84FE9341A995F81EF79CCC135_RuntimeMethod_var);
-		((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances_5 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances_5), (void*)L_0);
+		((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_StaticFields*)il2cpp_codegen_static_fields_for(CwRoot_t4AA0CB9C180DD1CC3A8C774B906DA3AF99C9DE34_il2cpp_TypeInfo_var))->___instances), (void*)L_0);
 		return;
 	}
 }
@@ -9588,7 +8900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwRoot__cctor_m8459C2AC9DD43CD93B4D3DDF7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52987
+// Method Definition Index: 57156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwSeedAttribute__ctor_mF5C82849FA17B4078CFDE3343E28EEF432CFF467 (CwSeedAttribute_t5AA3D84E6DFD26D130FF5BC1A392D63F4779DD79* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9612,7 +8924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwSeedAttribute__ctor_mF5C82849FA17B4078
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52988
+// Method Definition Index: 57157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* CwGuide_get_Icon_m47C804C85D5C8A29AD1DF1A614DDEE94790A249A (CwGuide_tADAE12929861125B3834733C71D601334D82CD90* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9626,7 +8938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwGuide.cs:24>
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_0 = __this->___icon_7;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_0 = __this->___icon;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -9639,10 +8951,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwGuide.cs:26>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_2 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
 		Texture2D__ctor_m3BA82E87442B7F69E118477069AE11101B9DF796(L_2, 1, 1, NULL);
-		__this->___icon_7 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___icon_7), (void*)L_2);
+		__this->___icon = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___icon), (void*)L_2);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwGuide.cs:28>
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_3 = __this->___icon_7;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_3 = __this->___icon;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
 		L_4 = Convert_FromBase64String_m267327B074B41D93C9622D142B95CFAA4ACCCA9C(_stringLiteral60D7303A8BF0AE95E631B05826EE533A93F3D62E, NULL);
@@ -9653,11 +8965,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 IL_0031:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwGuide.cs:31>
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_6 = __this->___icon_7;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_6 = __this->___icon;
 		return L_6;
 	}
 }
-// Method Definition Index: 52989
+// Method Definition Index: 57158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CwGuide_get_Version_mC179296889F56DCB6AB10066142A4D477515F751 (CwGuide_tADAE12929861125B3834733C71D601334D82CD90* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9673,14 +8985,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CwGuide_get_Version_mC179296889F56D
 	int32_t V_2 = 0;
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwGuide.cs:39>
-		String_t* L_0 = __this->___version_8;
+		String_t* L_0 = __this->___version;
 		if (L_0)
 		{
 			goto IL_0058;
 		}
 	}
 	{
-		TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* L_1 = __this->___Documentation_6;
+		TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* L_1 = __this->___Documentation;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -9691,7 +9003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CwGuide_get_Version_mC179296889F56D
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwGuide.cs:41>
-		TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* L_3 = __this->___Documentation_6;
+		TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* L_3 = __this->___Documentation;
 		NullCheck(L_3);
 		String_t* L_4;
 		L_4 = TextAsset_get_text_m36846042E3CF3D9DD337BF3F8B2B1902D10C8FD9(L_3, NULL);
@@ -9731,18 +9043,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CwGuide_get_Version_mC179296889F56D
 		NullCheck(L_11);
 		String_t* L_15;
 		L_15 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_11, ((int32_t)il2cpp_codegen_add(L_12, ((int32_t)16))), ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_13, L_14)), ((int32_t)16))), NULL);
-		__this->___version_8 = L_15;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___version_8), (void*)L_15);
+		__this->___version = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___version), (void*)L_15);
 	}
 
 IL_0058:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwGuide.cs:51>
-		String_t* L_16 = __this->___version_8;
+		String_t* L_16 = __this->___version;
 		return L_16;
 	}
 }
-// Method Definition Index: 52990
+// Method Definition Index: 57159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwGuide__ctor_m8F08565848FFD9B9C4765E15BE73FDDACEF10E35 (CwGuide_tADAE12929861125B3834733C71D601334D82CD90* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9758,7 +9070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwGuide__ctor_m8F08565848FFD9B9C4765E15B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 52991
+// Method Definition Index: 57160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_add_OnCameraPreRender_m1ED5B21C0B047740D4C7428DFB30BA6F094E99E2 (Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9773,7 +9085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_add_OnCameraPreRender_m1ED5B21C
 	Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender_3;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender;
 		V_0 = L_0;
 	}
 
@@ -9790,7 +9102,7 @@ IL_0006:
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_5 = V_2;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_6 = V_1;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_7;
-		L_7 = InterlockedCompareExchangeImpl<Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA*>((&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender_3), L_5, L_6);
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA*>((&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender), L_5, L_6);
 		V_0 = L_7;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_8 = V_0;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_9 = V_1;
@@ -9803,7 +9115,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52992
+// Method Definition Index: 57161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_remove_OnCameraPreRender_m433118C2C3A3A9446F9444B8A77FB60B791FE07C (Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9818,7 +9130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_remove_OnCameraPreRender_m43311
 	Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender_3;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender;
 		V_0 = L_0;
 	}
 
@@ -9835,7 +9147,7 @@ IL_0006:
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_5 = V_2;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_6 = V_1;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_7;
-		L_7 = InterlockedCompareExchangeImpl<Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA*>((&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender_3), L_5, L_6);
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA*>((&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender), L_5, L_6);
 		V_0 = L_7;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_8 = V_0;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_9 = V_1;
@@ -9848,7 +9160,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52993
+// Method Definition Index: 57162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_add_OnCameraPostRender_mC7BDBAC458F59B9337EAE12F3882C5BB3666098D (Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9863,7 +9175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_add_OnCameraPostRender_mC7BDBAC
 	Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender_4;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender;
 		V_0 = L_0;
 	}
 
@@ -9880,7 +9192,7 @@ IL_0006:
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_5 = V_2;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_6 = V_1;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_7;
-		L_7 = InterlockedCompareExchangeImpl<Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA*>((&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender_4), L_5, L_6);
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA*>((&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender), L_5, L_6);
 		V_0 = L_7;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_8 = V_0;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_9 = V_1;
@@ -9893,7 +9205,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52994
+// Method Definition Index: 57163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_remove_OnCameraPostRender_mAFACD019ED8122BE966B0DF2EB1F7D1DBD7719C4 (Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9908,7 +9220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_remove_OnCameraPostRender_mAFAC
 	Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* V_2 = NULL;
 	{
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender_4;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender;
 		V_0 = L_0;
 	}
 
@@ -9925,7 +9237,7 @@ IL_0006:
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_5 = V_2;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_6 = V_1;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_7;
-		L_7 = InterlockedCompareExchangeImpl<Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA*>((&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender_4), L_5, L_6);
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA*>((&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender), L_5, L_6);
 		V_0 = L_7;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_8 = V_0;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_9 = V_1;
@@ -9938,7 +9250,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 52995
+// Method Definition Index: 57164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper__cctor_m518EDE22E04297985DA2C7ED9504968018BD418B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9968,58 +9280,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper__cctor_m518EDE22E04297985DA2C7E
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:10>
 		Stack_1_tF66BF0D229FF13394778E80C8E92796D62188D68* L_0 = (Stack_1_tF66BF0D229FF13394778E80C8E92796D62188D68*)il2cpp_codegen_object_new(Stack_1_tF66BF0D229FF13394778E80C8E92796D62188D68_il2cpp_TypeInfo_var);
 		Stack_1__ctor_m05155FE47AC0D2518D38A718DAA0C9F880033538(L_0, Stack_1__ctor_m05155FE47AC0D2518D38A718DAA0C9F880033538_RuntimeMethod_var);
-		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___seedStates_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___seedStates_0), (void*)L_0);
+		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___seedStates = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___seedStates), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:12>
 		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_1 = (List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B*)il2cpp_codegen_object_new(List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B_il2cpp_TypeInfo_var);
 		List_1__ctor_m38500C20418699AEC04B1946434E06EC96FB4B1C(L_1, List_1__ctor_m38500C20418699AEC04B1946434E06EC96FB4B1C_RuntimeMethod_var);
-		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials_1 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials_1), (void*)L_1);
+		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials), (void*)L_1);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:14>
 		List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* L_2 = (List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C*)il2cpp_codegen_object_new(List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C_il2cpp_TypeInfo_var);
 		List_1__ctor_m9FDBD09FEFDB8C3F98E74C51E846806B1523EE85(L_2, List_1__ctor_m9FDBD09FEFDB8C3F98E74C51E846806B1523EE85_RuntimeMethod_var);
-		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties_2 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties_2), (void*)L_2);
+		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties), (void*)L_2);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:20>
 		Stack_1_t4F59A5B1750539B0DD1D273213DCD86BF7E7B24F* L_3 = (Stack_1_t4F59A5B1750539B0DD1D273213DCD86BF7E7B24F*)il2cpp_codegen_object_new(Stack_1_t4F59A5B1750539B0DD1D273213DCD86BF7E7B24F_il2cpp_TypeInfo_var);
 		Stack_1__ctor_mF5F313CE22BA9E8672BEBD455DB2C78988548548(L_3, Stack_1__ctor_mF5F313CE22BA9E8672BEBD455DB2C78988548548_RuntimeMethod_var);
-		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___actives_5 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___actives_5), (void*)L_3);
+		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___actives = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___actives), (void*)L_3);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:321>
 		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_4 = (List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B*)il2cpp_codegen_object_new(List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B_il2cpp_TypeInfo_var);
 		List_1__ctor_m38500C20418699AEC04B1946434E06EC96FB4B1C(L_4, List_1__ctor_m38500C20418699AEC04B1946434E06EC96FB4B1C_RuntimeMethod_var);
-		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7), (void*)L_4);
+		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials), (void*)L_4);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:26>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:27>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:28>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:29>
-		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_5 = ((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPreRender_9;
+		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_5 = ((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPreRender;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var);
-		U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* L_6 = ((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* L_6 = ((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9;
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_7 = (CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)il2cpp_codegen_object_new(CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var);
 		CameraCallback__ctor_mB48D13F30E749B551E4692E4F2D762C375F62B41(L_7, L_6, (intptr_t)((void*)U3CU3Ec_U3C_cctorU3Eb__11_0_m43D7FDFEC2BCDA5E88631BB6A415B1FFC7C7CB72_RuntimeMethod_var), NULL);
 		Delegate_t* L_8;
 		L_8 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_5, L_7, NULL);
-		((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPreRender_9 = ((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_8, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPreRender_9), (void*)((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_8, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var)));
+		((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPreRender = ((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_8, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPreRender), (void*)((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_8, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var)));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:31>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:32>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:33>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:34>
-		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_9 = ((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender_10;
-		U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* L_10 = ((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_9 = ((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender;
+		U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* L_10 = ((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9;
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_11 = (CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)il2cpp_codegen_object_new(CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var);
 		CameraCallback__ctor_mB48D13F30E749B551E4692E4F2D762C375F62B41(L_11, L_10, (intptr_t)((void*)U3CU3Ec_U3C_cctorU3Eb__11_1_mD5BAC36A88879627DBC4ECE692C706892AC43DEB_RuntimeMethod_var), NULL);
 		Delegate_t* L_12;
 		L_12 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_9, L_11, NULL);
-		((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender_10 = ((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_12, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender_10), (void*)((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_12, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var)));
+		((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender = ((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_12, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender), (void*)((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_12, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var)));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:36>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:37>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:38>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:39>
-		U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* L_13 = ((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* L_13 = ((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9;
 		Action_2_t8E07914D7090FF200FE84404EEEFAF3CE183C9F3* L_14 = (Action_2_t8E07914D7090FF200FE84404EEEFAF3CE183C9F3*)il2cpp_codegen_object_new(Action_2_t8E07914D7090FF200FE84404EEEFAF3CE183C9F3_il2cpp_TypeInfo_var);
 		Action_2__ctor_mBEB5B9B513FE305CE98CA8065CC6E6CC0E5A4D51(L_14, L_13, (intptr_t)((void*)U3CU3Ec_U3C_cctorU3Eb__11_2_m070E7D5E7696D8172050977E45E729ABD1026DA4_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(RenderPipelineManager_t44E0175AAADDD5487593AEF2B009B1B154957CDB_il2cpp_TypeInfo_var);
@@ -10028,7 +9340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper__cctor_m518EDE22E04297985DA2C7E
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:42>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:43>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:44>
-		U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* L_15 = ((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* L_15 = ((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9;
 		Action_2_t8E07914D7090FF200FE84404EEEFAF3CE183C9F3* L_16 = (Action_2_t8E07914D7090FF200FE84404EEEFAF3CE183C9F3*)il2cpp_codegen_object_new(Action_2_t8E07914D7090FF200FE84404EEEFAF3CE183C9F3_il2cpp_TypeInfo_var);
 		Action_2__ctor_mBEB5B9B513FE305CE98CA8065CC6E6CC0E5A4D51(L_16, L_15, (intptr_t)((void*)U3CU3Ec_U3C_cctorU3Eb__11_3_m687D07F0122D164773D2D420CCBDFE04373BF936_RuntimeMethod_var), NULL);
 		RenderPipelineManager_add_endCameraRendering_m664BCFE6FCD9D3172DF3157777EA3B45BF11476C(L_16, NULL);
@@ -10036,7 +9348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper__cctor_m518EDE22E04297985DA2C7E
 		return;
 	}
 }
-// Method Definition Index: 52998
+// Method Definition Index: 57167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwHelper_IndexInMask_m4A4EF75C511AD481B5D12901E7F5D03D0C662807 (int32_t ___0_index, int32_t ___1_mask, const RuntimeMethod* method) 
 {
 	{
@@ -10046,7 +9358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwHelper_IndexInMask_m4A4EF75C511AD481B5
 		return (bool)((!(((uint32_t)((int32_t)(((int32_t)(1<<((int32_t)(L_0&((int32_t)31)))))&L_1))) <= ((uint32_t)0)))? 1 : 0);
 	}
 }
-// Method Definition Index: 52999
+// Method Definition Index: 57168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* CwHelper_GetCamera_mD6F4F511C544F5BCB5D36C8E5A2BFB5985470104 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_currentCamera, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10113,7 +9425,7 @@ IL_002a:
 		return L_9;
 	}
 }
-// Method Definition Index: 53000
+// Method Definition Index: 57169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 CwHelper_GetObserverPosition_mCAD3C259123DEDF370BCF81D4532324065C8549A (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_observer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10179,7 +9491,7 @@ IL_002b:
 		return L_10;
 	}
 }
-// Method Definition Index: 53001
+// Method Definition Index: 57170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwHelper_Enabled_m3BFFC9BD5F6887E49F8A563FA11F5404FD88A603 (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* ___0_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10212,7 +9524,7 @@ IL_0010:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 53002
+// Method Definition Index: 57171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_BeginSeed_m816485991402AE67F1B224B0DB34D0979304FA77 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10224,18 +9536,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_BeginSeed_m816485991402AE67F1B2
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:139>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		int32_t L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___uniqueSeed_6;
+		int32_t L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___uniqueSeed;
 		int32_t L_1;
 		L_1 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(((int32_t)-2147483648LL), ((int32_t)2147483647LL), NULL);
-		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___uniqueSeed_6 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___uniqueSeed = ((int32_t)il2cpp_codegen_add(L_0, L_1));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:141>
-		int32_t L_2 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___uniqueSeed_6;
+		int32_t L_2 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___uniqueSeed;
 		CwHelper_BeginSeed_m1D62CE23D4E0A2F8465AD3A2C07F276F5BE8CB55(L_2, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:142>
 		return;
 	}
 }
-// Method Definition Index: 53003
+// Method Definition Index: 57172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_BeginSeed_m1D62CE23D4E0A2F8465AD3A2C07F276F5BE8CB55 (int32_t ___0_newSeed, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10248,7 +9560,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_BeginSeed_m1D62CE23D4E0A2F8465A
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:146>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Stack_1_tF66BF0D229FF13394778E80C8E92796D62188D68* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___seedStates_0;
+		Stack_1_tF66BF0D229FF13394778E80C8E92796D62188D68* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___seedStates;
 		State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 L_1;
 		L_1 = Random_get_state_m84FD78A44C27EA34F1CD9833545DAB9B541B98AA(NULL);
 		NullCheck(L_0);
@@ -10260,7 +9572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_BeginSeed_m1D62CE23D4E0A2F8465A
 		return;
 	}
 }
-// Method Definition Index: 53004
+// Method Definition Index: 57173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_EndSeed_m4F4DA857C9212EE9E8471C1E27F57A036C98E2FC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10273,7 +9585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_EndSeed_m4F4DA857C9212EE9E8471C
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:153>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Stack_1_tF66BF0D229FF13394778E80C8E92796D62188D68* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___seedStates_0;
+		Stack_1_tF66BF0D229FF13394778E80C8E92796D62188D68* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___seedStates;
 		NullCheck(L_0);
 		State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 L_1;
 		L_1 = Stack_1_Pop_mF2EDFAE35CA3A010AA2329DD981921A8848FA1FE(L_0, Stack_1_Pop_mF2EDFAE35CA3A010AA2329DD981921A8848FA1FE_RuntimeMethod_var);
@@ -10282,7 +9594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_EndSeed_m4F4DA857C9212EE9E8471C
 		return;
 	}
 }
-// Method Definition Index: 53005
+// Method Definition Index: 57174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F CwHelper_Brighten_m72385C68C13370C40F4A278C8F20CB9F14C776FD (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, float ___1_brightness, bool ___2_convertToGamma, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10311,19 +9623,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 IL_000b:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:163>
-		float* L_3 = (&(&___0_color)->___r_0);
+		float* L_3 = (float*)(&(&___0_color)->___r);
 		float* L_4 = L_3;
 		float L_5 = *((float*)L_4);
 		float L_6 = ___1_brightness;
 		*((float*)L_4) = (float)((float)il2cpp_codegen_multiply(L_5, L_6));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:164>
-		float* L_7 = (&(&___0_color)->___g_1);
+		float* L_7 = (float*)(&(&___0_color)->___g);
 		float* L_8 = L_7;
 		float L_9 = *((float*)L_8);
 		float L_10 = ___1_brightness;
 		*((float*)L_8) = (float)((float)il2cpp_codegen_multiply(L_9, L_10));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:165>
-		float* L_11 = (&(&___0_color)->___b_2);
+		float* L_11 = (float*)(&(&___0_color)->___b);
 		float* L_12 = L_11;
 		float L_13 = *((float*)L_12);
 		float L_14 = ___1_brightness;
@@ -10333,37 +9645,37 @@ IL_000b:
 		return L_15;
 	}
 }
-// Method Definition Index: 53006
+// Method Definition Index: 57175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F CwHelper_Premultiply_m5655086220E60CB528090147083AD1A30D4796D3 (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_color, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:172>
-		float* L_0 = (&(&___0_color)->___r_0);
+		float* L_0 = (float*)(&(&___0_color)->___r);
 		float* L_1 = L_0;
 		float L_2 = *((float*)L_1);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_color;
-		float L_4 = L_3.___a_3;
+		float L_4 = L_3.___a;
 		*((float*)L_1) = (float)((float)il2cpp_codegen_multiply(L_2, L_4));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:173>
-		float* L_5 = (&(&___0_color)->___g_1);
+		float* L_5 = (float*)(&(&___0_color)->___g);
 		float* L_6 = L_5;
 		float L_7 = *((float*)L_6);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = ___0_color;
-		float L_9 = L_8.___a_3;
+		float L_9 = L_8.___a;
 		*((float*)L_6) = (float)((float)il2cpp_codegen_multiply(L_7, L_9));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:174>
-		float* L_10 = (&(&___0_color)->___b_2);
+		float* L_10 = (float*)(&(&___0_color)->___b);
 		float* L_11 = L_10;
 		float L_12 = *((float*)L_11);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = ___0_color;
-		float L_14 = L_13.___a_3;
+		float L_14 = L_13.___a;
 		*((float*)L_11) = (float)((float)il2cpp_codegen_multiply(L_12, L_14));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:176>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15 = ___0_color;
 		return L_15;
 	}
 }
-// Method Definition Index: 53007
+// Method Definition Index: 57176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_Saturate_m2570F35EE47EF3A257302F2574CF0F8A7449C180 (float ___0_c, const RuntimeMethod* method) 
 {
 	{
@@ -10405,7 +9717,7 @@ IL_0020:
 		return (0.0f);
 	}
 }
-// Method Definition Index: 53008
+// Method Definition Index: 57177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F CwHelper_Saturate_m5B9771600E3A095AFF882DC812FC01B6D1529661 (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10417,35 +9729,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:191>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_c;
-		float L_1 = L_0.___r_0;
+		float L_1 = L_0.___r;
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
 		float L_2;
 		L_2 = CwHelper_Saturate_m2570F35EE47EF3A257302F2574CF0F8A7449C180(L_1, NULL);
-		(&___0_c)->___r_0 = L_2;
+		(&___0_c)->___r = L_2;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:192>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_c;
-		float L_4 = L_3.___g_1;
+		float L_4 = L_3.___g;
 		float L_5;
 		L_5 = CwHelper_Saturate_m2570F35EE47EF3A257302F2574CF0F8A7449C180(L_4, NULL);
-		(&___0_c)->___g_1 = L_5;
+		(&___0_c)->___g = L_5;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:193>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = ___0_c;
-		float L_7 = L_6.___b_2;
+		float L_7 = L_6.___b;
 		float L_8;
 		L_8 = CwHelper_Saturate_m2570F35EE47EF3A257302F2574CF0F8A7449C180(L_7, NULL);
-		(&___0_c)->___b_2 = L_8;
+		(&___0_c)->___b = L_8;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:194>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ___0_c;
-		float L_10 = L_9.___a_3;
+		float L_10 = L_9.___a;
 		float L_11;
 		L_11 = CwHelper_Saturate_m2570F35EE47EF3A257302F2574CF0F8A7449C180(L_10, NULL);
-		(&___0_c)->___a_3 = L_11;
+		(&___0_c)->___a = L_11;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:196>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = ___0_c;
 		return L_12;
 	}
 }
-// Method Definition Index: 53010
+// Method Definition Index: 57179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_Sharpness_mE00B7674454A7B50013F2AA6D868700113C93256 (float ___0_a, float ___1_p, const RuntimeMethod* method) 
 {
 	{
@@ -10475,7 +9787,7 @@ IL_0010:
 		return ((float)il2cpp_codegen_subtract((1.0f), L_6));
 	}
 }
-// Method Definition Index: 53011
+// Method Definition Index: 57180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F CwHelper_ToLinear_m1FF1A41AB439992D981A2FF46E839F3DF6080BEB (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_gamma, const RuntimeMethod* method) 
 {
 	{
@@ -10501,7 +9813,7 @@ IL_0010:
 		return L_2;
 	}
 }
-// Method Definition Index: 53012
+// Method Definition Index: 57181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_ToLinear_mA285BDD180B8C4C8C84BEDC096D7925EA987591C (float ___0_gamma, const RuntimeMethod* method) 
 {
 	{
@@ -10528,7 +9840,7 @@ IL_0014:
 		return L_3;
 	}
 }
-// Method Definition Index: 53013
+// Method Definition Index: 57182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F CwHelper_ToGamma_mDF1A6DB0D78E92D69957AF43F8CEC7AFD7FD8FF5 (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_linear, const RuntimeMethod* method) 
 {
 	{
@@ -10554,7 +9866,7 @@ IL_0010:
 		return L_2;
 	}
 }
-// Method Definition Index: 53014
+// Method Definition Index: 57183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_ToGamma_m3F2813E745ACB9D5684F7208B005E0806FBE9D55 (float ___0_linear, const RuntimeMethod* method) 
 {
 	{
@@ -10581,7 +9893,7 @@ IL_0014:
 		return L_3;
 	}
 }
-// Method Definition Index: 53015
+// Method Definition Index: 57184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_UniformScale_m803FAA60919A6F2CA24917C9F40E77FC451B6325 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_scale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10593,20 +9905,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_UniformScale_m803FAA60919A6F2C
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:270>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_scale;
-		float L_1 = L_0.___x_2;
+		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_scale;
-		float L_3 = L_2.___y_3;
+		float L_3 = L_2.___y;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		float L_4;
 		L_4 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_1, L_3, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___0_scale;
-		float L_6 = L_5.___z_4;
+		float L_6 = L_5.___z;
 		float L_7;
 		L_7 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_4, L_6, NULL);
 		return L_7;
 	}
 }
-// Method Definition Index: 53016
+// Method Definition Index: 57185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_BeginActive_m9B420B3A0635814AB6BC5B074164860834284317 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_renderTexture, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10619,7 +9931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_BeginActive_m9B420B3A0635814AB6
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:275>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Stack_1_t4F59A5B1750539B0DD1D273213DCD86BF7E7B24F* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___actives_5;
+		Stack_1_t4F59A5B1750539B0DD1D273213DCD86BF7E7B24F* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___actives;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1;
 		L_1 = RenderTexture_get_active_mA4434B3E79DEF2C01CAE0A53061598B16443C9E7(NULL);
 		NullCheck(L_0);
@@ -10631,7 +9943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_BeginActive_m9B420B3A0635814AB6
 		return;
 	}
 }
-// Method Definition Index: 53017
+// Method Definition Index: 57186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_EndActive_mF1BAA382F73B1DEA7B8E6895686B349A59BA5162 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10644,7 +9956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_EndActive_mF1BAA382F73B1DEA7B8E
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:282>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Stack_1_t4F59A5B1750539B0DD1D273213DCD86BF7E7B24F* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___actives_5;
+		Stack_1_t4F59A5B1750539B0DD1D273213DCD86BF7E7B24F* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___actives;
 		NullCheck(L_0);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1;
 		L_1 = Stack_1_Pop_m85709CCC6A7C6CC13C4C61786B53960C5397AFD7(L_0, Stack_1_Pop_m85709CCC6A7C6CC13C4C61786B53960C5397AFD7_RuntimeMethod_var);
@@ -10653,7 +9965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_EndActive_mF1BAA382F73B1DEA7B8E
 		return;
 	}
 }
-// Method Definition Index: 53018
+// Method Definition Index: 57187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_m0462B1C4BC757239392743B2993CD0B8424C4B17 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10668,15 +9980,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_m0462B1C4BC7572
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:287>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials_1;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials;
 		NullCheck(L_0);
 		List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_inline(L_0, List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:288>
-		List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties_2;
+		List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties;
 		NullCheck(L_1);
 		List_1_Clear_m9F715F08CBEBE3B3BC6498655CD458D21FC80E45_inline(L_1, List_1_Clear_m9F715F08CBEBE3B3BC6498655CD458D21FC80E45_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:290>
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_2 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials_1;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_2 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
 		NullCheck(L_2);
 		List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_inline(L_2, L_3, List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_RuntimeMethod_var);
@@ -10684,7 +9996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_m0462B1C4BC7572
 		return;
 	}
 }
-// Method Definition Index: 53019
+// Method Definition Index: 57188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_m396C7556180E25664BBCAB003BFC753C788355DE (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material1, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___1_material2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10699,20 +10011,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_m396C7556180E25
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:295>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials_1;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials;
 		NullCheck(L_0);
 		List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_inline(L_0, List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:296>
-		List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties_2;
+		List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties;
 		NullCheck(L_1);
 		List_1_Clear_m9F715F08CBEBE3B3BC6498655CD458D21FC80E45_inline(L_1, List_1_Clear_m9F715F08CBEBE3B3BC6498655CD458D21FC80E45_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:298>
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_2 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials_1;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_2 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material1;
 		NullCheck(L_2);
 		List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_inline(L_2, L_3, List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:299>
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_4 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials_1;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_4 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___1_material2;
 		NullCheck(L_4);
 		List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_inline(L_4, L_5, List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_RuntimeMethod_var);
@@ -10720,7 +10032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_m396C7556180E25
 		return;
 	}
 }
-// Method Definition Index: 53020
+// Method Definition Index: 57189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_mA77462CAD778328905610E36F8DB4F0A35E545AA (List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ___0_materials, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10735,11 +10047,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_mA77462CAD77832
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:304>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials_1;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials;
 		NullCheck(L_0);
 		List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_inline(L_0, List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:305>
-		List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties_2;
+		List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties;
 		NullCheck(L_1);
 		List_1_Clear_m9F715F08CBEBE3B3BC6498655CD458D21FC80E45_inline(L_1, List_1_Clear_m9F715F08CBEBE3B3BC6498655CD458D21FC80E45_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:307>
@@ -10752,7 +10064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_mA77462CAD77832
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:309>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_3 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials_1;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_3 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials;
 		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_4 = ___0_materials;
 		NullCheck(L_3);
 		List_1_AddRange_mACF0CBFB5107412F825BB12F5FC93699031073AA(L_3, L_4, List_1_AddRange_mACF0CBFB5107412F825BB12F5FC93699031073AA_RuntimeMethod_var);
@@ -10764,7 +10076,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 53021
+// Method Definition Index: 57190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_mF1AABF0EAB82FB0EDE42FBC45E53570E3FF49FF4 (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___0_properties, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10779,15 +10091,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_mF1AABF0EAB82FB
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:315>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials_1;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempMaterials;
 		NullCheck(L_0);
 		List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_inline(L_0, List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:316>
-		List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties_2;
+		List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties;
 		NullCheck(L_1);
 		List_1_Clear_m9F715F08CBEBE3B3BC6498655CD458D21FC80E45_inline(L_1, List_1_Clear_m9F715F08CBEBE3B3BC6498655CD458D21FC80E45_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:318>
-		List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* L_2 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties_2;
+		List_1_tAFCDB9CCBAF11013AA7B0EC7BB51B10127AB467C* L_2 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___tempProperties;
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_3 = ___0_properties;
 		NullCheck(L_2);
 		List_1_Add_m03B29C69F9974D985EFCE1B1D91AC7AC4F578723_inline(L_2, L_3, List_1_Add_m03B29C69F9974D985EFCE1B1D91AC7AC4F578723_RuntimeMethod_var);
@@ -10795,7 +10107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_SetTempMaterial_mF1AABF0EAB82FB
 		return;
 	}
 }
-// Method Definition Index: 53022
+// Method Definition Index: 57191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_AddMaterial_m0EE22D33A7DCFA0E1B5BBFBB36CBC0C8B2387156 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_r, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___1_m, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10842,7 +10154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_AddMaterial_m0EE22D33A7DCFA0E1B
 		V_0 = L_5;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:329>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_6 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_6 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		NullCheck(L_6);
 		List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_inline(L_6, List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:331>
@@ -10922,7 +10234,7 @@ IL_0048:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:343>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_24 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_24 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = V_3;
 		NullCheck(L_24);
 		List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_inline(L_24, L_25, List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_RuntimeMethod_var);
@@ -10948,20 +10260,20 @@ IL_0064:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:347>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_29 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_29 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_30 = ___1_m;
 		NullCheck(L_29);
 		List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_inline(L_29, L_30, List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:349>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_31 = ___0_r;
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_32 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_32 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		NullCheck(L_32);
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_33;
 		L_33 = List_1_ToArray_m2D61F9E785B53324A0EC7DCA2B58DD6F959A89F6(L_32, List_1_ToArray_m2D61F9E785B53324A0EC7DCA2B58DD6F959A89F6_RuntimeMethod_var);
 		NullCheck(L_31);
 		Renderer_set_sharedMaterials_m665ADE4190214CC2AC52490B4A7373D7EE75DEB2(L_31, L_33, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:349>
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_34 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_34 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		NullCheck(L_34);
 		List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_inline(L_34, List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_RuntimeMethod_var);
 	}
@@ -10972,7 +10284,7 @@ IL_008f:
 		return;
 	}
 }
-// Method Definition Index: 53023
+// Method Definition Index: 57192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_ReplaceMaterial_mDED6E52ECE595E1F8D8A547B5879032BECB96AC4 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_r, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___1_m, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11112,7 +10424,7 @@ IL_0041:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:374>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_28 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_28 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_29 = V_3;
 		NullCheck(L_28);
 		List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_inline(L_28, L_29, List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_RuntimeMethod_var);
@@ -11138,20 +10450,20 @@ IL_0070:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:379>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_33 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_33 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_34 = ___1_m;
 		NullCheck(L_33);
 		List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_inline(L_33, L_34, List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:381>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_35 = ___0_r;
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_36 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_36 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		NullCheck(L_36);
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_37;
 		L_37 = List_1_ToArray_m2D61F9E785B53324A0EC7DCA2B58DD6F959A89F6(L_36, List_1_ToArray_m2D61F9E785B53324A0EC7DCA2B58DD6F959A89F6_RuntimeMethod_var);
 		NullCheck(L_35);
 		Renderer_set_sharedMaterials_m665ADE4190214CC2AC52490B4A7373D7EE75DEB2(L_35, L_37, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:381>
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_38 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_38 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		NullCheck(L_38);
 		List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_inline(L_38, List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_RuntimeMethod_var);
 	}
@@ -11162,7 +10474,7 @@ IL_009b:
 		return;
 	}
 }
-// Method Definition Index: 53024
+// Method Definition Index: 57193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_RemoveMaterial_m0906C5F00F6DA88C97E32CCC9677D47DF35AAB14 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_r, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___1_m, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11197,7 +10509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwHelper_RemoveMaterial_m0906C5F00F6DA88
 		L_3 = Renderer_get_sharedMaterials_m0B61AFD8EDA35A70C796FFB2F28BB62380051ABF(L_2, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:391>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_4 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_4 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		NullCheck(L_4);
 		List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_inline(L_4, List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_RuntimeMethod_var);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:393>
@@ -11239,7 +10551,7 @@ IL_001e:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:397>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_14 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_14 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = V_2;
 		NullCheck(L_14);
 		List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_inline(L_14, L_15, List_1_Add_m5F62EE992DBCC5323267265794235C9EEE07997B_RuntimeMethod_var);
@@ -11266,14 +10578,14 @@ IL_0043:
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:401>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_19 = ___0_r;
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_20 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_20 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		NullCheck(L_20);
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_21;
 		L_21 = List_1_ToArray_m2D61F9E785B53324A0EC7DCA2B58DD6F959A89F6(L_20, List_1_ToArray_m2D61F9E785B53324A0EC7DCA2B58DD6F959A89F6_RuntimeMethod_var);
 		NullCheck(L_19);
 		Renderer_set_sharedMaterials_m665ADE4190214CC2AC52490B4A7373D7EE75DEB2(L_19, L_21, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:401>
-		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_22 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials_7;
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_22 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___materials;
 		NullCheck(L_22);
 		List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_inline(L_22, List_1_Clear_mB542E879C436E98D901D3068C891582A25F85711_RuntimeMethod_var);
 	}
@@ -11284,7 +10596,7 @@ IL_0063:
 		return;
 	}
 }
-// Method Definition Index: 53025
+// Method Definition Index: 57194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* CwHelper_CreateTempTexture2D_m4BAA615BB296EE4E6F93FCB5477205EA4C9A9DDB (String_t* ___0_name, int32_t ___1_width, int32_t ___2_height, int32_t ___3_format, bool ___4_mips, bool ___5_linear, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11315,7 +10627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 		return L_8;
 	}
 }
-// Method Definition Index: 53026
+// Method Definition Index: 57195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* CwHelper_CreateTempMaterial_mC2714BF55D44FCFB518A409781534E7A1D615DF2 (String_t* ___0_materialName, String_t* ___1_shaderName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11364,7 +10676,7 @@ IL_0020:
 		return L_8;
 	}
 }
-// Method Definition Index: 53027
+// Method Definition Index: 57196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* CwHelper_CreateTempMaterial_mE65830A4C018D73705019B756306488497EBB2CA (String_t* ___0_materialName, Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___1_shader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11391,7 +10703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		return L_4;
 	}
 }
-// Method Definition Index: 53028
+// Method Definition Index: 57197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* CwHelper_CreateTempMaterial_m91FB110331E38BD13F4AF9220382A33BB46D875B (String_t* ___0_materialName, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___1_source, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11418,7 +10730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		return L_4;
 	}
 }
-// Method Definition Index: 53030
+// Method Definition Index: 57199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CwHelper_CreateGameObject_mFBD68E55FB41C1C539A301466037A4D6452C45D8 (String_t* ___0_name, int32_t ___1_layer, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_parent, String_t* ___3_recordUndo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11445,7 +10757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_7;
 	}
 }
-// Method Definition Index: 53031
+// Method Definition Index: 57200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CwHelper_CreateGameObject_mD6ADFED3DD130EA6A951F5701A1E04C6F17832BE (String_t* ___0_name, int32_t ___1_layer, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_parent, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_localPosition, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___4_localRotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___5_localScale, String_t* ___6_recordUndo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11500,7 +10812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_13;
 	}
 }
-// Method Definition Index: 53033
+// Method Definition Index: 57202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_Reciprocal_mB70E73E6D71E414CE39D34C1214A0D73FAE4B6D8 (float ___0_v, const RuntimeMethod* method) 
 {
 	{
@@ -11521,7 +10833,7 @@ IL_000e:
 		return ((float)((1.0f)/L_1));
 	}
 }
-// Method Definition Index: 53034
+// Method Definition Index: 57203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CwHelper_Reciprocal_mE64702E8BD16247BB085B06BFB6F86E98BF16B9C (double ___0_v, const RuntimeMethod* method) 
 {
 	{
@@ -11542,7 +10854,7 @@ IL_0016:
 		return ((double)((1.0)/L_1));
 	}
 }
-// Method Definition Index: 53035
+// Method Definition Index: 57204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_Divide_m0530D146F7ED5D0927B6A54BD368B9FD9D175C79 (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	{
@@ -11564,7 +10876,7 @@ IL_000e:
 		return ((float)(L_1/L_2));
 	}
 }
-// Method Definition Index: 53036
+// Method Definition Index: 57205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CwHelper_Divide_mFAA305B832862443BEECB46A0CB5A93B862E0E55 (double ___0_a, double ___1_b, const RuntimeMethod* method) 
 {
 	{
@@ -11586,7 +10898,7 @@ IL_0016:
 		return ((double)(L_1/L_2));
 	}
 }
-// Method Definition Index: 53037
+// Method Definition Index: 57206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_Acos_mD1FB5EB0369EEF10B4A49D1DD6AD380FAEFD70BA (float ___0_v, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11625,7 +10937,7 @@ IL_0019:
 		return (0.0f);
 	}
 }
-// Method Definition Index: 53038
+// Method Definition Index: 57207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double CwHelper_Acos_m61AB2DCBD69FB7AED538644FDA2DC68209268FA9 (double ___0_v, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11664,7 +10976,7 @@ IL_001f:
 		return (0.0);
 	}
 }
-// Method Definition Index: 53039
+// Method Definition Index: 57208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_DampenFactor_m8987DC8F4BB4A0ACF43172DCCB6E2E3DC77C3341 (float ___0_speed, float ___1_elapsed, const RuntimeMethod* method) 
 {
 	{
@@ -11690,7 +11002,7 @@ IL_000e:
 		return ((float)il2cpp_codegen_subtract((1.0f), L_3));
 	}
 }
-// Method Definition Index: 53040
+// Method Definition Index: 57209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_DampenFactor_m70643C30C2D5A2830118B12C8E4415854869727E (float ___0_damping, float ___1_deltaTime, float ___2_linear, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11714,21 +11026,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_DampenFactor_m70643C30C2D5A283
 		return L_5;
 	}
 }
-// Method Definition Index: 53041
+// Method Definition Index: 57210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_Atan2_mA3409DE74D0B9D597B1297BE77883D7E56B4C5D6 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_xy, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:608>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_xy;
-		float L_1 = L_0.___x_0;
+		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_xy;
-		float L_3 = L_2.___y_1;
+		float L_3 = L_2.___y;
 		float L_4;
 		L_4 = atan2f(L_1, L_3);
 		return L_4;
 	}
 }
-// Method Definition Index: 53042
+// Method Definition Index: 57211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwHelper_Mod_m2D7684AD07F1C7B0668E203FE9567D95C84760E8 (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -11758,7 +11070,7 @@ IL_000c:
 		return L_5;
 	}
 }
-// Method Definition Index: 53043
+// Method Definition Index: 57212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwHelper_Mod_m4DD0F043FB58624801CDEE44BCD4326BA4A5B5E7 (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -11788,7 +11100,7 @@ IL_0010:
 		return L_5;
 	}
 }
-// Method Definition Index: 53044
+// Method Definition Index: 57213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* CwHelper_GetReadableCopy_mD61141C07F10E4D1532D8E4752C31BB4F4AA2E8F (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_texture, int32_t ___1_format, bool ___2_mipMaps, int32_t ___3_width, int32_t ___4_height, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11914,7 +11226,7 @@ IL_007a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53045
+// Method Definition Index: 57214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m9998C5C9A745E8CCA703AEDBEB2E6FD27187CAFA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11926,12 +11238,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m9998C5C9A745E8CCA703AEDB
 	{
 		U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* L_0 = (U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A*)il2cpp_codegen_object_new(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var);
 		U3CU3Ec__ctor_mCB34E9D0604C9347629FB3AA951FF88FC49BF7DD(L_0, NULL);
-		((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A_il2cpp_TypeInfo_var))->___U3CU3E9), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 53046
+// Method Definition Index: 57215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mCB34E9D0604C9347629FB3AA951FF88FC49BF7DD (U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11939,7 +11251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mCB34E9D0604C9347629FB3AA9
 		return;
 	}
 }
-// Method Definition Index: 53047
+// Method Definition Index: 57216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_0_m43D7FDFEC2BCDA5E88631BB6A415B1FFC7C7CB72 (U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11951,7 +11263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_0_m43D7FDFEC2B
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:28>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender_3;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender;
 		if (!L_0)
 		{
 			goto IL_0012;
@@ -11960,7 +11272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_0_m43D7FDFEC2B
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:28>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender_3;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = ___0_camera;
 		NullCheck(L_1);
 		Action_1_Invoke_mCEB98AA7C8ED536CE7A592667637829D2D609DCF_inline(L_1, L_2, NULL);
@@ -11972,7 +11284,7 @@ IL_0012:
 		return;
 	}
 }
-// Method Definition Index: 53048
+// Method Definition Index: 57217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_1_mD5BAC36A88879627DBC4ECE692C706892AC43DEB (U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11984,7 +11296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_1_mD5BAC36A888
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:33>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender_4;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender;
 		if (!L_0)
 		{
 			goto IL_0012;
@@ -11993,7 +11305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_1_mD5BAC36A888
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:33>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender_4;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = ___0_camera;
 		NullCheck(L_1);
 		Action_1_Invoke_mCEB98AA7C8ED536CE7A592667637829D2D609DCF_inline(L_1, L_2, NULL);
@@ -12005,7 +11317,7 @@ IL_0012:
 		return;
 	}
 }
-// Method Definition Index: 53049
+// Method Definition Index: 57218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_2_m070E7D5E7696D8172050977E45E729ABD1026DA4 (U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* __this, ScriptableRenderContext_t5AB09B3602BEB456E0DC3D53926D3A3BDAF08E36 ___0_context, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___1_camera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12017,7 +11329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_2_m070E7D5E769
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:38>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender_3;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender;
 		if (!L_0)
 		{
 			goto IL_0012;
@@ -12026,7 +11338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_2_m070E7D5E769
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:38>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender_3;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPreRender;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = ___1_camera;
 		NullCheck(L_1);
 		Action_1_Invoke_mCEB98AA7C8ED536CE7A592667637829D2D609DCF_inline(L_1, L_2, NULL);
@@ -12038,7 +11350,7 @@ IL_0012:
 		return;
 	}
 }
-// Method Definition Index: 53050
+// Method Definition Index: 57219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_3_m687D07F0122D164773D2D420CCBDFE04373BF936 (U3CU3Ec_t6DB22F11C0C2BEFDA626CD338EE0BF801934248A* __this, ScriptableRenderContext_t5AB09B3602BEB456E0DC3D53926D3A3BDAF08E36 ___0_context, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___1_camera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12050,7 +11362,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_3_m687D07F0122
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender_4;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_0 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender;
 		if (!L_0)
 		{
 			goto IL_0012;
@@ -12059,7 +11371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__11_3_m687D07F0122
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwHelper.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var);
-		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender_4;
+		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_1 = ((CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_StaticFields*)il2cpp_codegen_static_fields_for(CwHelper_tA75B82888802E2D673AEAF8F84E219275DE6DE77_il2cpp_TypeInfo_var))->___OnCameraPostRender;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = ___1_camera;
 		NullCheck(L_1);
 		Action_1_Invoke_mCEB98AA7C8ED536CE7A592667637829D2D609DCF_inline(L_1, L_2, NULL);
@@ -12079,7 +11391,7 @@ IL_0012:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53051
+// Method Definition Index: 57220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwInput_GetTouchCount_m1D0A09D098D1B6A2B433CA0948510C4C299B6031 (const RuntimeMethod* method) 
 {
 	{
@@ -12089,7 +11401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwInput_GetTouchCount_m1D0A09D098D1B6
 		return L_0;
 	}
 }
-// Method Definition Index: 53052
+// Method Definition Index: 57221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwInput_GetTouch_mD60E0699649F3E4B8CC3F02BF10F40C2215D80BF (int32_t ___0_index, int32_t* ___1_id, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___2_position, float* ___3_pressure, bool* ___4_set, const RuntimeMethod* method) 
 {
 	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 V_0;
@@ -12165,7 +11477,7 @@ IL_0048:
 		return;
 	}
 }
-// Method Definition Index: 53053
+// Method Definition Index: 57222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CwInput_GetMousePosition_mEAB61C2A353CEBB87CEF6EB5A917C94988C91548 (const RuntimeMethod* method) 
 {
 	{
@@ -12177,7 +11489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 53054
+// Method Definition Index: 57223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetKeyWentDown_m92A812AC6688B471DB1EC364940F63D77EAD2389 (int32_t ___0_oldKey, const RuntimeMethod* method) 
 {
 	{
@@ -12188,7 +11500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetKeyWentDown_m92A812AC6688B471
 		return L_1;
 	}
 }
-// Method Definition Index: 53055
+// Method Definition Index: 57224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetKeyIsHeld_m3CF9110B4AE5AF560FC12DD196281D04809955D2 (int32_t ___0_oldKey, const RuntimeMethod* method) 
 {
 	{
@@ -12199,7 +11511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetKeyIsHeld_m3CF9110B4AE5AF560F
 		return L_1;
 	}
 }
-// Method Definition Index: 53056
+// Method Definition Index: 57225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetKeyWentUp_mD1215C64D81792ECA7D94DF5A35B5690FABFE932 (int32_t ___0_oldKey, const RuntimeMethod* method) 
 {
 	{
@@ -12210,7 +11522,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetKeyWentUp_mD1215C64D81792ECA7
 		return L_1;
 	}
 }
-// Method Definition Index: 53057
+// Method Definition Index: 57226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetMouseWentDown_m963717CFBC2A545668352DD87524AA8ACD14CAE4 (int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -12221,7 +11533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetMouseWentDown_m963717CFBC2A54
 		return L_1;
 	}
 }
-// Method Definition Index: 53058
+// Method Definition Index: 57227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetMouseIsHeld_m045519FEF1D86A24F7E729561DB8964986E6C9B2 (int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -12232,7 +11544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetMouseIsHeld_m045519FEF1D86A24
 		return L_1;
 	}
 }
-// Method Definition Index: 53059
+// Method Definition Index: 57228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetMouseWentUp_m9B17483D3D864CC0DB68EFDBADD037277A7324B9 (int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -12243,18 +11555,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetMouseWentUp_m9B17483D3D864CC0
 		return L_1;
 	}
 }
-// Method Definition Index: 53060
+// Method Definition Index: 57229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CwInput_GetMouseWheelDelta_m1990F66C7F3D9086241D5D9203844A6E8CA5D5B0 (const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwInput.cs:314>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = Input_get_mouseScrollDelta_mD112408E9182AA0F529179FF31E21D8DCD5CFA74(NULL);
-		float L_1 = L_0.___y_1;
+		float L_1 = L_0.___y;
 		return L_1;
 	}
 }
-// Method Definition Index: 53061
+// Method Definition Index: 57230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetMouseExists_m5D88DE70E6D21E03FCEDFB12B7383D5D59A9DED2 (const RuntimeMethod* method) 
 {
 	{
@@ -12264,7 +11576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetMouseExists_m5D88DE70E6D21E03
 		return L_0;
 	}
 }
-// Method Definition Index: 53062
+// Method Definition Index: 57231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetKeyboardExists_m4E6D94BE5DF10530FA91CD08E7B3787FBA796CB8 (const RuntimeMethod* method) 
 {
 	{
@@ -12280,89 +11592,89 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwInput_GetKeyboardExists_m4E6D94BE5DF10
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53063
+// Method Definition Index: 57232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwShaderBundle_set_Title_m486C17DB76F398B0094847BC7CD3E10A50B19D87 (CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:46>
 		String_t* L_0 = ___0_value;
-		__this->___title_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___title_4), (void*)L_0);
+		__this->___title = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___title), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 53064
+// Method Definition Index: 57233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CwShaderBundle_get_Title_m88748BC0E388FCB2CD48281AF38F3B4D12360A49 (CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:46>
-		String_t* L_0 = __this->___title_4;
+		String_t* L_0 = __this->___title;
 		return L_0;
 	}
 }
-// Method Definition Index: 53065
+// Method Definition Index: 57234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwShaderBundle_set_Target_m6D9E8EBBBB80630F7BFC61B0E98B0368B2DB4B76 (CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2* __this, Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:49>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = ___0_value;
-		__this->___target_5 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___target_5), (void*)L_0);
+		__this->___target = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___target), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 53066
+// Method Definition Index: 57235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* CwShaderBundle_get_Target_m4265B77B03312882017EA7D62C8AB3246658203C (CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:49>
-		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = __this->___target_5;
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = __this->___target;
 		return L_0;
 	}
 }
-// Method Definition Index: 53067
+// Method Definition Index: 57236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwShaderBundle_set_VariantHash_m24A554B928B27FC3C3930DD10B0EF7028BB01CF1 (CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:52>
 		int32_t L_0 = ___0_value;
-		__this->___variantHash_6 = L_0;
+		__this->___variantHash = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 53068
+// Method Definition Index: 57237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwShaderBundle_get_VariantHash_m46105E542964673B339275AF9A1B20FF45205115 (CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:52>
-		int32_t L_0 = __this->___variantHash_6;
+		int32_t L_0 = __this->___variantHash;
 		return L_0;
 	}
 }
-// Method Definition Index: 53069
+// Method Definition Index: 57238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwShaderBundle_set_ProjectHash_m438039EA9B72142088445D4DF89B71184F918D4E (CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:55>
 		int32_t L_0 = ___0_value;
-		__this->___projectHash_7 = L_0;
+		__this->___projectHash = L_0;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:55>
 		return;
 	}
 }
-// Method Definition Index: 53070
+// Method Definition Index: 57239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwShaderBundle_get_ProjectHash_m9318993633901D43AB3796D20322B8B3F03454DD (CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:55>
-		int32_t L_0 = __this->___projectHash_7;
+		int32_t L_0 = __this->___projectHash;
 		return L_0;
 	}
 }
-// Method Definition Index: 53071
+// Method Definition Index: 57240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tC680578DF5BE74D065C4E2D69136193826885358* CwShaderBundle_get_Variants_mCAB4E610030BFCAFDFA9BCBFEBDF91FFC9FF3C98 (CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12374,7 +11686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tC680578DF5BE74D065C4E2D69136193826885
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:58>
-		List_1_tC680578DF5BE74D065C4E2D69136193826885358* L_0 = __this->___variants_8;
+		List_1_tC680578DF5BE74D065C4E2D69136193826885358* L_0 = __this->___variants;
 		if (L_0)
 		{
 			goto IL_0013;
@@ -12384,18 +11696,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tC680578DF5BE74D065C4E2D69136193826885
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:58>
 		List_1_tC680578DF5BE74D065C4E2D69136193826885358* L_1 = (List_1_tC680578DF5BE74D065C4E2D69136193826885358*)il2cpp_codegen_object_new(List_1_tC680578DF5BE74D065C4E2D69136193826885358_il2cpp_TypeInfo_var);
 		List_1__ctor_m37A1F9DD5EFFE0404E5D7A03B9AE525A249CC747(L_1, List_1__ctor_m37A1F9DD5EFFE0404E5D7A03B9AE525A249CC747_RuntimeMethod_var);
-		__this->___variants_8 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___variants_8), (void*)L_1);
+		__this->___variants = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___variants), (void*)L_1);
 	}
 
 IL_0013:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:58>
-		List_1_tC680578DF5BE74D065C4E2D69136193826885358* L_2 = __this->___variants_8;
+		List_1_tC680578DF5BE74D065C4E2D69136193826885358* L_2 = __this->___variants;
 		return L_2;
 	}
 }
-// Method Definition Index: 53072
+// Method Definition Index: 57241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwShaderBundle_get_Dirty_m51CE221F02E4999371D0AD33BE58124B58DA90B3 (CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12412,7 +11724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwShaderBundle_get_Dirty_m51CE221F02E499
 	bool V_1 = false;
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:64>
-		List_1_tC680578DF5BE74D065C4E2D69136193826885358* L_0 = __this->___variants_8;
+		List_1_tC680578DF5BE74D065C4E2D69136193826885358* L_0 = __this->___variants;
 		if (!L_0)
 		{
 			goto IL_0041;
@@ -12420,7 +11732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwShaderBundle_get_Dirty_m51CE221F02E499
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:66>
-		List_1_tC680578DF5BE74D065C4E2D69136193826885358* L_1 = __this->___variants_8;
+		List_1_tC680578DF5BE74D065C4E2D69136193826885358* L_1 = __this->___variants;
 		NullCheck(L_1);
 		Enumerator_tFD28CF9130F696DFD4257E9B009E41C75FA3C2B9 L_2;
 		L_2 = List_1_GetEnumerator_m1EA3A9FE534C89F3BFC03343E91E7EB713113E7A(L_1, List_1_GetEnumerator_m1EA3A9FE534C89F3BFC03343E91E7EB713113E7A_RuntimeMethod_var);
@@ -12449,7 +11761,7 @@ IL_0016_1:
 				L_3 = Enumerator_get_Current_mCDB0AD7F579B767D821DF57FC6DAA60CDAFF1E9C_inline((&V_0), Enumerator_get_Current_mCDB0AD7F579B767D821DF57FC6DAA60CDAFF1E9C_RuntimeMethod_var);
 				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:68>
 				NullCheck(L_3);
-				bool L_4 = L_3->___Dirty_3;
+				bool L_4 = L_3->___Dirty;
 				if (!L_4)
 				{
 					goto IL_0028_1;
@@ -12494,7 +11806,7 @@ IL_0043:
 		return L_6;
 	}
 }
-// Method Definition Index: 53073
+// Method Definition Index: 57242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwShaderBundle_GetProjectHash_m35D026DFDBB183FF8DED2A133D5F41DF1DB63355 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12519,7 +11831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwShaderBundle_GetProjectHash_m35D026
 		return ((int32_t)(L_1^L_3));
 	}
 }
-// Method Definition Index: 53074
+// Method Definition Index: 57243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CwShaderBundle_DetectProjectPipeline_mC641F60AF920E41EDBF470A5A35E8D09BC34819C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12580,7 +11892,7 @@ IL_002a:
 		return (int32_t)(0);
 	}
 }
-// Method Definition Index: 53075
+// Method Definition Index: 57244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwShaderBundle_IsStandard_mAC3AA0663730CF77C6610ACA7EE3CC2737572735 (int32_t ___0_pipe, const RuntimeMethod* method) 
 {
 	{
@@ -12589,7 +11901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwShaderBundle_IsStandard_mAC3AA0663730C
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 53076
+// Method Definition Index: 57245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwShaderBundle_IsScriptable_m86E236973D959E2F929204B3D232809E77117C27 (int32_t ___0_pipe, const RuntimeMethod* method) 
 {
 	{
@@ -12614,7 +11926,7 @@ IL_000f:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 53077
+// Method Definition Index: 57246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwShaderBundle_IsURP_mFE4D2B7475159685CE314ECAC6AA60972C40972D (int32_t ___0_pipe, const RuntimeMethod* method) 
 {
 	{
@@ -12642,7 +11954,7 @@ IL_000d:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 53078
+// Method Definition Index: 57247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CwShaderBundle_IsHDRP_mAA0D5A2CC0ACCADC27FCACF1C2EA2FC45A65C73D (int32_t ___0_pipe, const RuntimeMethod* method) 
 {
 	{
@@ -12670,7 +11982,7 @@ IL_000d:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 53079
+// Method Definition Index: 57248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwShaderBundle__ctor_m7727ED66EEA870C7569FD2925B255BB20AA86776 (CwShaderBundle_t291CE91288797CBE370D79EED738C547C53E31E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12686,7 +11998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CwShaderBundle__ctor_m7727ED66EEA870C756
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53080
+// Method Definition Index: 57249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ShaderVariant_get_HashString_m7B10290B4D0144F44125215582BF1D991B720169 (ShaderVariant_t6769B81CC1796DDA824E49C12E3E8E9A6D5CB1F2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12698,7 +12010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ShaderVariant_get_HashString_m7B102
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs:40>
-		int32_t* L_0 = (&__this->___Hash_2);
+		int32_t* L_0 = (int32_t*)(&__this->___Hash);
 		String_t* L_1;
 		L_1 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_0, NULL);
 		String_t* L_2;
@@ -12706,7 +12018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ShaderVariant_get_HashString_m7B102
 		return L_2;
 	}
 }
-// Method Definition Index: 53081
+// Method Definition Index: 57250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderVariant__ctor_m404ED4E074DA058C389C38CF24E39BBDF31DC5DD (ShaderVariant_t6769B81CC1796DDA824E49C12E3E8E9A6D5CB1F2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12717,20 +12029,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderVariant__ctor_m404ED4E074DA058C389
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 44009
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 44482
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
-		float L_1 = L_0.___x_2;
+		float L_1 = L_0.___x;
 		float L_2 = ___1_d;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
-		float L_4 = L_3.___y_3;
+		float L_4 = L_3.___y;
 		float L_5 = ___1_d;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
-		float L_7 = L_6.___z_4;
+		float L_7 = L_6.___z;
 		float L_8 = ___1_d;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		memset((&L_9), 0, sizeof(L_9));
@@ -12745,76 +12081,76 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 44025
+// Method Definition Index: 44498
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
-		float L_1 = L_0.___w_3;
+		float L_1 = L_0.___w;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_rhs;
-		float L_3 = L_2.___x_0;
+		float L_3 = L_2.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___0_lhs;
-		float L_5 = L_4.___x_0;
+		float L_5 = L_4.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___1_rhs;
-		float L_7 = L_6.___w_3;
+		float L_7 = L_6.___w;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = ___0_lhs;
-		float L_9 = L_8.___y_1;
+		float L_9 = L_8.___y;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_rhs;
-		float L_11 = L_10.___z_2;
+		float L_11 = L_10.___z;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = ___0_lhs;
-		float L_13 = L_12.___z_2;
+		float L_13 = L_12.___z;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = ___1_rhs;
-		float L_15 = L_14.___y_1;
+		float L_15 = L_14.___y;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = ___0_lhs;
-		float L_17 = L_16.___w_3;
+		float L_17 = L_16.___w;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = ___1_rhs;
-		float L_19 = L_18.___y_1;
+		float L_19 = L_18.___y;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = ___0_lhs;
-		float L_21 = L_20.___y_1;
+		float L_21 = L_20.___y;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = ___1_rhs;
-		float L_23 = L_22.___w_3;
+		float L_23 = L_22.___w;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24 = ___0_lhs;
-		float L_25 = L_24.___z_2;
+		float L_25 = L_24.___z;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26 = ___1_rhs;
-		float L_27 = L_26.___x_0;
+		float L_27 = L_26.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = ___0_lhs;
-		float L_29 = L_28.___x_0;
+		float L_29 = L_28.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30 = ___1_rhs;
-		float L_31 = L_30.___z_2;
+		float L_31 = L_30.___z;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = ___0_lhs;
-		float L_33 = L_32.___w_3;
+		float L_33 = L_32.___w;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = ___1_rhs;
-		float L_35 = L_34.___z_2;
+		float L_35 = L_34.___z;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = ___0_lhs;
-		float L_37 = L_36.___z_2;
+		float L_37 = L_36.___z;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = ___1_rhs;
-		float L_39 = L_38.___w_3;
+		float L_39 = L_38.___w;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = ___0_lhs;
-		float L_41 = L_40.___x_0;
+		float L_41 = L_40.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42 = ___1_rhs;
-		float L_43 = L_42.___y_1;
+		float L_43 = L_42.___y;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = ___0_lhs;
-		float L_45 = L_44.___y_1;
+		float L_45 = L_44.___y;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_46 = ___1_rhs;
-		float L_47 = L_46.___x_0;
+		float L_47 = L_46.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48 = ___0_lhs;
-		float L_49 = L_48.___w_3;
+		float L_49 = L_48.___w;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50 = ___1_rhs;
-		float L_51 = L_50.___w_3;
+		float L_51 = L_50.___w;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_52 = ___0_lhs;
-		float L_53 = L_52.___x_0;
+		float L_53 = L_52.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_54 = ___1_rhs;
-		float L_55 = L_54.___x_0;
+		float L_55 = L_54.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56 = ___0_lhs;
-		float L_57 = L_56.___y_1;
+		float L_57 = L_56.___y;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58 = ___1_rhs;
-		float L_59 = L_58.___y_1;
+		float L_59 = L_58.___y;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = ___0_lhs;
-		float L_61 = L_60.___z_2;
+		float L_61 = L_60.___z;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_62 = ___1_rhs;
-		float L_63 = L_62.___z_2;
+		float L_63 = L_62.___z;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_64;
 		memset((&L_64), 0, sizeof(L_64));
 		Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline((&L_64), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_17, L_19)), ((float)il2cpp_codegen_multiply(L_21, L_23)))), ((float)il2cpp_codegen_multiply(L_25, L_27)))), ((float)il2cpp_codegen_multiply(L_29, L_31)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_33, L_35)), ((float)il2cpp_codegen_multiply(L_37, L_39)))), ((float)il2cpp_codegen_multiply(L_41, L_43)))), ((float)il2cpp_codegen_multiply(L_45, L_47)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_49, L_51)), ((float)il2cpp_codegen_multiply(L_53, L_55)))), ((float)il2cpp_codegen_multiply(L_57, L_59)))), ((float)il2cpp_codegen_multiply(L_61, L_63)))), NULL);
@@ -12828,7 +12164,7 @@ IL_00e5:
 		return L_65;
 	}
 }
-// Method Definition Index: 44024
+// Method Definition Index: 44497
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12840,7 +12176,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion_4;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
 		V_0 = L_0;
 		goto IL_0009;
 	}
@@ -12851,24 +12187,24 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 44007
+// Method Definition Index: 44480
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
-		float L_1 = L_0.___x_2;
+		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
-		float L_3 = L_2.___x_2;
+		float L_3 = L_2.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
-		float L_5 = L_4.___y_3;
+		float L_5 = L_4.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
-		float L_7 = L_6.___y_3;
+		float L_7 = L_6.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
-		float L_9 = L_8.___z_4;
+		float L_9 = L_8.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
-		float L_11 = L_10.___z_4;
+		float L_11 = L_10.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
@@ -12882,24 +12218,24 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 44006
+// Method Definition Index: 44479
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
-		float L_1 = L_0.___x_2;
+		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
-		float L_3 = L_2.___x_2;
+		float L_3 = L_2.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
-		float L_5 = L_4.___y_3;
+		float L_5 = L_4.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
-		float L_7 = L_6.___y_3;
+		float L_7 = L_6.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
-		float L_9 = L_8.___z_4;
+		float L_9 = L_8.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
-		float L_11 = L_10.___z_4;
+		float L_11 = L_10.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
@@ -12913,7 +12249,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 43998
+// Method Definition Index: 44471
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12925,7 +12261,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
 		V_0 = L_0;
 		goto IL_0009;
 	}
@@ -12936,7 +12272,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 43976
+// Method Definition Index: 44449
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -12947,25 +12283,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
 		___2_t = L_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
-		float L_3 = L_2.___x_2;
+		float L_3 = L_2.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
-		float L_5 = L_4.___x_2;
+		float L_5 = L_4.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
-		float L_7 = L_6.___x_2;
+		float L_7 = L_6.___x;
 		float L_8 = ___2_t;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_a;
-		float L_10 = L_9.___y_3;
+		float L_10 = L_9.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___1_b;
-		float L_12 = L_11.___y_3;
+		float L_12 = L_11.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_a;
-		float L_14 = L_13.___y_3;
+		float L_14 = L_13.___y;
 		float L_15 = ___2_t;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_a;
-		float L_17 = L_16.___z_4;
+		float L_17 = L_16.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___1_b;
-		float L_19 = L_18.___z_4;
+		float L_19 = L_18.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_a;
-		float L_21 = L_20.___z_4;
+		float L_21 = L_20.___z;
 		float L_22 = ___2_t;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 		memset((&L_23), 0, sizeof(L_23));
@@ -12980,7 +12316,7 @@ IL_0053:
 		return L_24;
 	}
 }
-// Method Definition Index: 44087
+// Method Definition Index: 44560
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_DeltaAngle_mCBA858CE5C1BEEBE375812325A50E434FF66D6D4_inline (float ___0_current, float ___1_target, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -13018,7 +12354,7 @@ IL_0027:
 		return L_7;
 	}
 }
-// Method Definition Index: 44075
+// Method Definition Index: 44548
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -13069,19 +12405,19 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 52864
+// Method Definition Index: 57033
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CwDemoButton_set_IsolateTarget_m02D291EFB121AE742CDBC8F11F14E97F49E5CC73_inline (CwDemoButton_tCC41999145B57746483D33B7DAB9ADBA67AC09A3* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:35>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_value;
-		__this->___isolateTarget_7 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___isolateTarget_7), (void*)L_0);
+		__this->___isolateTarget = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___isolateTarget), (void*)L_0);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 43930
+// Method Definition Index: 44403
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
@@ -13100,7 +12436,7 @@ IL_001d:
 		return L_1;
 	}
 }
-// Method Definition Index: 44034
+// Method Definition Index: 44507
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -13121,26 +12457,26 @@ IL_0014:
 		return L_3;
 	}
 }
-// Method Definition Index: 48748
+// Method Definition Index: 49369
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs:112>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs:117>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_value;
-		__this->___U3CpositionU3Ek__BackingField_13 = L_0;
+		__this->___U3CpositionU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 49083
+// Method Definition Index: 49704
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* RaycastResult_get_gameObject_m77014B442B9E2D10F2CC3AEEDC07AA95CDE1E2F1_inline (RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/RaycastResult.cs:15>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_GameObject_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_GameObject;
 		return L_0;
 	}
 }
-// Method Definition Index: 44128
+// Method Definition Index: 44602
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13152,7 +12488,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___zeroVector_2;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___zeroVector;
 		V_0 = L_0;
 		goto IL_0009;
 	}
@@ -13163,20 +12499,20 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 44116
+// Method Definition Index: 44590
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
-		float L_1 = L_0.___x_0;
+		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
-		float L_3 = L_2.___x_0;
+		float L_3 = L_2.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
-		float L_5 = L_4.___y_1;
+		float L_5 = L_4.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
-		float L_7 = L_6.___y_1;
+		float L_7 = L_6.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_8), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), NULL);
@@ -13190,17 +12526,17 @@ IL_0023:
 		return L_9;
 	}
 }
-// Method Definition Index: 44123
+// Method Definition Index: 44597
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
-		float L_1 = L_0.___x_0;
+		float L_1 = L_0.___x;
 		float L_2 = ___1_d;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___0_a;
-		float L_4 = L_3.___y_1;
+		float L_4 = L_3.___y;
 		float L_5 = ___1_d;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		memset((&L_6), 0, sizeof(L_6));
@@ -13215,20 +12551,20 @@ IL_0019:
 		return L_7;
 	}
 }
-// Method Definition Index: 44117
+// Method Definition Index: 44591
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
-		float L_1 = L_0.___x_0;
+		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
-		float L_3 = L_2.___x_0;
+		float L_3 = L_2.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
-		float L_5 = L_4.___y_1;
+		float L_5 = L_4.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
-		float L_7 = L_6.___y_1;
+		float L_7 = L_6.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_8), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), NULL);
@@ -13242,17 +12578,17 @@ IL_0023:
 		return L_9;
 	}
 }
-// Method Definition Index: 44121
+// Method Definition Index: 44595
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
-		float L_1 = L_0.___x_0;
+		float L_1 = L_0.___x;
 		float L_2 = ___1_d;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___0_a;
-		float L_4 = L_3.___y_1;
+		float L_4 = L_3.___y;
 		float L_5 = ___1_d;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		memset((&L_6), 0, sizeof(L_6));
@@ -13267,18 +12603,18 @@ IL_0019:
 		return L_7;
 	}
 }
-// Method Definition Index: 44097
+// Method Definition Index: 44571
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
 		float L_0 = ___0_x;
-		__this->___x_0 = L_0;
+		__this->___x = L_0;
 		float L_1 = ___1_y;
-		__this->___y_1 = L_1;
+		__this->___y = L_1;
 		return;
 	}
 }
-// Method Definition Index: 44085
+// Method Definition Index: 44558
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Repeat_m6F1560A163481BB311D685294E1B463C3E4EB3BA_inline (float ___0_t, float ___1_length, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -13302,7 +12638,7 @@ IL_001b:
 		return L_7;
 	}
 }
-// Method Definition Index: 44113
+// Method Definition Index: 44587
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13316,14 +12652,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Distance_mBACBB1609
 	float V_2 = 0.0f;
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
-		float L_1 = L_0.___x_0;
+		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
-		float L_3 = L_2.___x_0;
+		float L_3 = L_2.___x;
 		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
-		float L_5 = L_4.___y_1;
+		float L_5 = L_4.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
-		float L_7 = L_6.___y_1;
+		float L_7 = L_6.___y;
 		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
 		float L_8 = V_0;
 		float L_9 = V_0;
@@ -13342,25 +12678,25 @@ IL_002e:
 		return L_13;
 	}
 }
-// Method Definition Index: 44099
+// Method Definition Index: 44573
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_LerpUnclamped_mB0B50875D4509E21FF43F4D87610333D55E6A44F_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
-		float L_1 = L_0.___x_0;
+		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
-		float L_3 = L_2.___x_0;
+		float L_3 = L_2.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
-		float L_5 = L_4.___x_0;
+		float L_5 = L_4.___x;
 		float L_6 = ___2_t;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = ___0_a;
-		float L_8 = L_7.___y_1;
+		float L_8 = L_7.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = ___1_b;
-		float L_10 = L_9.___y_1;
+		float L_10 = L_9.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = ___0_a;
-		float L_12 = L_11.___y_1;
+		float L_12 = L_11.___y;
 		float L_13 = ___2_t;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
 		memset((&L_14), 0, sizeof(L_14));
@@ -13375,7 +12711,7 @@ IL_0035:
 		return L_15;
 	}
 }
-// Method Definition Index: 44002
+// Method Definition Index: 44475
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13387,7 +12723,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector_7;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
 		V_0 = L_0;
 		goto IL_0009;
 	}
@@ -13398,22 +12734,22 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 43934
+// Method Definition Index: 44407
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_linear_m76EB88E15DA4E00D615DF33D1CEE51092683117C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		float L_0 = __this->___r_0;
+		float L_0 = __this->___r;
 		float L_1;
 		L_1 = Mathf_GammaToLinearSpace_mEF9E26BAD322E55448B286ABDCDF4A2CC236547F(L_0, NULL);
-		float L_2 = __this->___g_1;
+		float L_2 = __this->___g;
 		float L_3;
 		L_3 = Mathf_GammaToLinearSpace_mEF9E26BAD322E55448B286ABDCDF4A2CC236547F(L_2, NULL);
-		float L_4 = __this->___b_2;
+		float L_4 = __this->___b;
 		float L_5;
 		L_5 = Mathf_GammaToLinearSpace_mEF9E26BAD322E55448B286ABDCDF4A2CC236547F(L_4, NULL);
-		float L_6 = __this->___a_3;
+		float L_6 = __this->___a;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
 		memset((&L_7), 0, sizeof(L_7));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_7), L_1, L_3, L_5, L_6, NULL);
@@ -13427,22 +12763,22 @@ IL_0030:
 		return L_8;
 	}
 }
-// Method Definition Index: 43935
+// Method Definition Index: 44408
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_gamma_mEB9104560536D684CD57C968A906A8B3EF89839F_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		float L_0 = __this->___r_0;
+		float L_0 = __this->___r;
 		float L_1;
 		L_1 = Mathf_LinearToGammaSpace_m768087E2BF400DB5FD77FD5AF4EAF6694E9F34F1(L_0, NULL);
-		float L_2 = __this->___g_1;
+		float L_2 = __this->___g;
 		float L_3;
 		L_3 = Mathf_LinearToGammaSpace_m768087E2BF400DB5FD77FD5AF4EAF6694E9F34F1(L_2, NULL);
-		float L_4 = __this->___b_2;
+		float L_4 = __this->___b;
 		float L_5;
 		L_5 = Mathf_LinearToGammaSpace_m768087E2BF400DB5FD77FD5AF4EAF6694E9F34F1(L_4, NULL);
-		float L_6 = __this->___a_3;
+		float L_6 = __this->___a;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
 		memset((&L_7), 0, sizeof(L_7));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_7), L_1, L_3, L_5, L_6, NULL);
@@ -13456,7 +12792,7 @@ IL_0030:
 		return L_8;
 	}
 }
-// Method Definition Index: 43999
+// Method Definition Index: 44472
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13468,7 +12804,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
 		V_0 = L_0;
 		goto IL_0009;
 	}
@@ -13479,7 +12815,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 44077
+// Method Definition Index: 44550
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -13527,31 +12863,31 @@ IL_002d:
 		return L_5;
 	}
 }
-// Method Definition Index: 43335
+// Method Definition Index: 43768
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) 
 {
 	{
 		float L_0 = ___0_x;
-		__this->___m_XMin_0 = L_0;
+		__this->___m_XMin = L_0;
 		float L_1 = ___1_y;
-		__this->___m_YMin_1 = L_1;
+		__this->___m_YMin = L_1;
 		float L_2 = ___2_width;
-		__this->___m_Width_2 = L_2;
+		__this->___m_Width = L_2;
 		float L_3 = ___3_height;
-		__this->___m_Height_3 = L_3;
+		__this->___m_Height = L_3;
 		return;
 	}
 }
-// Method Definition Index: 44126
+// Method Definition Index: 44600
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_v;
-		float L_1 = L_0.___x_2;
+		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_v;
-		float L_3 = L_2.___y_3;
+		float L_3 = L_2.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_4), L_1, L_3, NULL);
@@ -13565,18 +12901,18 @@ IL_0015:
 		return L_5;
 	}
 }
-// Method Definition Index: 11861
+// Method Definition Index: 11995
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = (int32_t)__this->____version_3;
-		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
 	}
 	{
-		int32_t L_1 = (int32_t)__this->____size_2;
+		int32_t L_1 = __this->____size;
 		V_0 = L_1;
-		__this->____size_2 = 0;
+		__this->____size = 0;
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) <= ((int32_t)0)))
 		{
@@ -13584,7 +12920,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED59
 		}
 	}
 	{
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)__this->____items_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->____items;
 		int32_t L_4 = V_0;
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
 		return;
@@ -13595,25 +12931,25 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 11900
+// Method Definition Index: 12037
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->____current_3;
+		RuntimeObject* L_0 = __this->____current;
 		return L_0;
 	}
 }
-// Method Definition Index: 11854
+// Method Definition Index: 11987
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		int32_t L_0 = (int32_t)__this->____version_3;
-		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)__this->____items_1;
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
 		V_0 = L_1;
-		int32_t L_2 = (int32_t)__this->____size_2;
+		int32_t L_2 = __this->____size;
 		V_1 = L_2;
 		int32_t L_3 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
@@ -13625,7 +12961,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 	}
 	{
 		int32_t L_5 = V_1;
-		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
 		int32_t L_7 = V_1;
 		RuntimeObject* L_8 = ___0_item;
@@ -13641,26 +12977,26 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 11843
+// Method Definition Index: 11976
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mE2EBEDC861C1EC398EDBE6CF2C9FB604AA71523E_gshared_inline (List_1_t8292C421BBB00D7661DC07462822936152BAB446* __this, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = (int32_t)__this->____size_2;
+		int32_t L_0 = __this->____size;
 		return L_0;
 	}
 }
-// Method Definition Index: 11861
+// Method Definition Index: 11995
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m88ECE219176F771E4C5F913CC01FFCF91E93E3D0_gshared_inline (List_1_t8292C421BBB00D7661DC07462822936152BAB446* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = (int32_t)__this->____version_3;
-		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
 	}
 	{
-		int32_t L_1 = (int32_t)__this->____size_2;
+		int32_t L_1 = __this->____size;
 		V_0 = L_1;
-		__this->____size_2 = 0;
+		__this->____size = 0;
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) <= ((int32_t)0)))
 		{
@@ -13668,7 +13004,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m88ECE219176F77
 		}
 	}
 	{
-		RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7* L_3 = (RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7*)__this->____items_1;
+		RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7* L_3 = __this->____items;
 		int32_t L_4 = V_0;
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
 		return;
@@ -13679,68 +13015,68 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 11843
+// Method Definition Index: 11976
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = (int32_t)__this->____size_2;
+		int32_t L_0 = __this->____size;
 		return L_0;
 	}
 }
-// Method Definition Index: 865
+// Method Definition Index: 869
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 11967
+// Method Definition Index: 12104
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Stack_1_get_Count_mD08AE71D49787D30DDD9D484BCD323D646744D2E_gshared_inline (Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5* __this, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = (int32_t)__this->____size_1;
+		int32_t L_0 = __this->____size;
 		return L_0;
 	}
 }
-// Method Definition Index: 43981
+// Method Definition Index: 44454
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
 		float L_0 = ___0_x;
-		__this->___x_2 = L_0;
+		__this->___x = L_0;
 		float L_1 = ___1_y;
-		__this->___y_3 = L_1;
+		__this->___y = L_1;
 		float L_2 = ___2_z;
-		__this->___z_4 = L_2;
+		__this->___z = L_2;
 		return;
 	}
 }
-// Method Definition Index: 44023
+// Method Definition Index: 44496
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
 		float L_0 = ___0_x;
-		__this->___x_0 = L_0;
+		__this->___x = L_0;
 		float L_1 = ___1_y;
-		__this->___y_1 = L_1;
+		__this->___y = L_1;
 		float L_2 = ___2_z;
-		__this->___z_2 = L_2;
+		__this->___z = L_2;
 		float L_3 = ___3_w;
-		__this->___w_3 = L_3;
+		__this->___w = L_3;
 		return;
 	}
 }
-// Method Definition Index: 43913
+// Method Definition Index: 44386
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{
 		float L_0 = ___0_r;
-		__this->___r_0 = L_0;
+		__this->___r = L_0;
 		float L_1 = ___1_g;
-		__this->___g_1 = L_1;
+		__this->___g = L_1;
 		float L_2 = ___2_b;
-		__this->___b_2 = L_2;
+		__this->___b = L_2;
 		float L_3 = ___3_a;
-		__this->___a_3 = L_3;
+		__this->___a = L_3;
 		return;
 	}
 }

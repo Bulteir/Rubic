@@ -9,8 +9,6 @@ using Unity.Services.Authentication;
 using Unity.Services.Core;
 using Unity.Services.Leaderboards;
 using Unity.Services.Leaderboards.Models;
-using UnityEditor.Localization.Plugins.XLIFF.Common;
-using UnityEditor.Localization.Plugins.XLIFF.V12;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
@@ -31,7 +29,7 @@ public class LeaderboardController : MonoBehaviour
     // Start is called before the first frame update
     async void Start()
     {
-        //editörde test yapmak için
+
         if (UnityServices.State != ServicesInitializationState.Initializing || UnityServices.State != ServicesInitializationState.Initialized)
         {
             await UnityServices.InitializeAsync();

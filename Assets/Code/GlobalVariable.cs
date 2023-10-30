@@ -19,8 +19,9 @@ public static class GlobalVariable
     public const int gameState_NewGameMenu = 6;
     public const int gameState_TimesUp = 7;
     public const int gameState_LeaderboardMenu = 8;
+    public const int gameState_StoreMenu = 9;
 
-    public const int defaultSolvingQuantity = 5;
+    public static int defaultSolvingQuantity = 5;
 
     public static int rewardAdState = rewardAdState_idle;
     public const int rewardAdState_idle = 0;
@@ -40,4 +41,5 @@ public static class GlobalVariable
 
     public const string LeaderboardId_BestTime = "BestTimeMonthly";
     public static bool internetAvaible = true;
+
 }

@@ -156,61 +156,61 @@ struct U3CModuleU3E_tA48BB0ECFBF1B9C9EE370B29650C538CAFEBA77C
 };
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 {
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items_1;
-	int32_t ____size_2;
-	int32_t ____version_3;
-	RuntimeObject* ____syncRoot_4;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
 {
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items_1;
-	int32_t ____size_2;
-	int32_t ____version_3;
-	RuntimeObject* ____syncRoot_4;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
 };
 struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public RuntimeObject
 {
-	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jobject_1;
-	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jclass_2;
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jobject;
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jclass;
 };
 struct ConsentDebugSettings_t21BCD70B1E4DB762E04807E88E78285CC51370C6  : public RuntimeObject
 {
-	int32_t ___DebugGeography_0;
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___TestDeviceHashedIds_1;
+	int32_t ___DebugGeography;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___TestDeviceHashedIds;
 };
 struct ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3  : public RuntimeObject
 {
-	OnConsentFormLoadSuccessListener_tEADDE4799C1B7D4BBD552EF737A14E451F9E1503* ____onSuccess_0;
-	OnConsentFormLoadFailureListener_tE655CBA6590D515441F912FDA1A8A02969458EC6* ____onFailure_1;
-	OnConsentFormDismissedListener_tDED6568DCDE6A68DBF1FE7A593DAB85AE07BB52A* ____onDismissed_2;
-	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____activity_3;
-	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____userMessagingPlatformClass_4;
-	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____consentForm_5;
+	OnConsentFormLoadSuccessListener_tEADDE4799C1B7D4BBD552EF737A14E451F9E1503* ____onSuccess;
+	OnConsentFormLoadFailureListener_tE655CBA6590D515441F912FDA1A8A02969458EC6* ____onFailure;
+	OnConsentFormDismissedListener_tDED6568DCDE6A68DBF1FE7A593DAB85AE07BB52A* ____onDismissed;
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____activity;
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____userMessagingPlatformClass;
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____consentForm;
 };
 struct ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B  : public RuntimeObject
 {
-	OnConsentInfoUpdateSuccessListener_tDF5EB5B7D55426B9014F495C77B56CE553C357B5* ____onSuccess_0;
-	OnConsentInfoUpdateFailureListener_t5784DEB24901F6B12A17515A7532A8B965888EF3* ____onFailure_1;
-	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____consentInformation_3;
-	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____activity_4;
+	OnConsentInfoUpdateSuccessListener_tDF5EB5B7D55426B9014F495C77B56CE553C357B5* ____onSuccess;
+	OnConsentInfoUpdateFailureListener_t5784DEB24901F6B12A17515A7532A8B965888EF3* ____onFailure;
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____consentInformation;
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____activity;
 };
 struct ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516  : public RuntimeObject
 {
-	bool ___TagForUnderAgeOfConsent_0;
-	ConsentDebugSettings_t21BCD70B1E4DB762E04807E88E78285CC51370C6* ___ConsentDebugSettings_1;
+	bool ___TagForUnderAgeOfConsent;
+	ConsentDebugSettings_t21BCD70B1E4DB762E04807E88E78285CC51370C6* ___ConsentDebugSettings;
 };
 struct FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026  : public RuntimeObject
 {
-	int32_t ___U3CErrorCodeU3Ek__BackingField_0;
-	String_t* ___U3CMessageU3Ek__BackingField_1;
+	int32_t ___U3CErrorCodeU3Ek__BackingField;
+	String_t* ___U3CMessageU3Ek__BackingField;
 };
 struct MemberInfo_t  : public RuntimeObject
 {
 };
 struct String_t  : public RuntimeObject
 {
-	int32_t ____stringLength_4;
-	Il2CppChar ____firstChar_5;
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
 };
 struct UmpClientFactory_t423128FD141759DA44411AF60FCBF40FBE11B9BE  : public RuntimeObject
 {
@@ -229,37 +229,37 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 };
 struct U3CLoadU3Ec__AnonStorey0_t9B7CCC36913729B3EBB21DBF609838F6E1F24FAF  : public RuntimeObject
 {
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onFormLoaded_0;
-	ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* ___U24this_1;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onFormLoaded;
+	ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* ___U24this;
 };
 struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
 {
-	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list_0;
-	int32_t ____index_1;
-	int32_t ____version_2;
-	RuntimeObject* ____current_3;
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
 };
 struct Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 
 {
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____list_0;
-	int32_t ____index_1;
-	int32_t ____version_2;
-	String_t* ____current_3;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	String_t* ____current;
 };
 struct AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03  : public AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0
 {
 };
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
-	bool ___m_value_0;
+	bool ___m_value;
 };
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
 {
-	int32_t ___m_value_0;
+	int32_t ___m_value;
 };
 struct IntPtr_t 
 {
-	void* ___m_value_0;
+	void* ___m_value;
 };
 struct MethodBase_t  : public MemberInfo_t
 {
@@ -276,145 +276,145 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 };
 struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D  : public RuntimeObject
 {
-	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* ___javaInterface_0;
-	intptr_t ___proxyObject_1;
+	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* ___javaInterface;
+	intptr_t ___proxyObject;
 };
 struct Delegate_t  : public RuntimeObject
 {
-	Il2CppMethodPointer ___method_ptr_0;
-	intptr_t ___invoke_impl_1;
-	RuntimeObject* ___m_target_2;
-	intptr_t ___method_3;
-	intptr_t ___delegate_trampoline_4;
-	intptr_t ___extra_arg_5;
-	intptr_t ___method_code_6;
-	intptr_t ___interp_method_7;
-	intptr_t ___interp_invoke_impl_8;
-	MethodInfo_t* ___method_info_9;
-	MethodInfo_t* ___original_method_info_10;
-	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
-	bool ___method_is_virtual_12;
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
 };
 struct Delegate_t_marshaled_pinvoke
 {
-	intptr_t ___method_ptr_0;
-	intptr_t ___invoke_impl_1;
-	Il2CppIUnknown* ___m_target_2;
-	intptr_t ___method_3;
-	intptr_t ___delegate_trampoline_4;
-	intptr_t ___extra_arg_5;
-	intptr_t ___method_code_6;
-	intptr_t ___interp_method_7;
-	intptr_t ___interp_invoke_impl_8;
-	MethodInfo_t* ___method_info_9;
-	MethodInfo_t* ___original_method_info_10;
-	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
-	int32_t ___method_is_virtual_12;
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
 };
 struct Delegate_t_marshaled_com
 {
-	intptr_t ___method_ptr_0;
-	intptr_t ___invoke_impl_1;
-	Il2CppIUnknown* ___m_target_2;
-	intptr_t ___method_3;
-	intptr_t ___delegate_trampoline_4;
-	intptr_t ___extra_arg_5;
-	intptr_t ___method_code_6;
-	intptr_t ___interp_method_7;
-	intptr_t ___interp_invoke_impl_8;
-	MethodInfo_t* ___method_info_9;
-	MethodInfo_t* ___original_method_info_10;
-	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
-	int32_t ___method_is_virtual_12;
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
 };
 struct Exception_t  : public RuntimeObject
 {
-	String_t* ____className_1;
-	String_t* ____message_2;
-	RuntimeObject* ____data_3;
-	Exception_t* ____innerException_4;
-	String_t* ____helpURL_5;
-	RuntimeObject* ____stackTrace_6;
-	String_t* ____stackTraceString_7;
-	String_t* ____remoteStackTraceString_8;
-	int32_t ____remoteStackIndex_9;
-	RuntimeObject* ____dynamicMethods_10;
-	int32_t ____HResult_11;
-	String_t* ____source_12;
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
-	int32_t ___caught_in_unmanaged_16;
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
 };
 struct Exception_t_marshaled_pinvoke
 {
-	char* ____className_1;
-	char* ____message_2;
-	RuntimeObject* ____data_3;
-	Exception_t_marshaled_pinvoke* ____innerException_4;
-	char* ____helpURL_5;
-	Il2CppIUnknown* ____stackTrace_6;
-	char* ____stackTraceString_7;
-	char* ____remoteStackTraceString_8;
-	int32_t ____remoteStackIndex_9;
-	Il2CppIUnknown* ____dynamicMethods_10;
-	int32_t ____HResult_11;
-	char* ____source_12;
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	Il2CppSafeArray* ___native_trace_ips_15;
-	int32_t ___caught_in_unmanaged_16;
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
 };
 struct Exception_t_marshaled_com
 {
-	Il2CppChar* ____className_1;
-	Il2CppChar* ____message_2;
-	RuntimeObject* ____data_3;
-	Exception_t_marshaled_com* ____innerException_4;
-	Il2CppChar* ____helpURL_5;
-	Il2CppIUnknown* ____stackTrace_6;
-	Il2CppChar* ____stackTraceString_7;
-	Il2CppChar* ____remoteStackTraceString_8;
-	int32_t ____remoteStackIndex_9;
-	Il2CppIUnknown* ____dynamicMethods_10;
-	int32_t ____HResult_11;
-	Il2CppChar* ____source_12;
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	Il2CppSafeArray* ___native_trace_ips_15;
-	int32_t ___caught_in_unmanaged_16;
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
-	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
 };
 struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
 {
-	Delegate_t_marshaled_pinvoke** ___delegates_13;
+	Delegate_t_marshaled_pinvoke** ___delegates;
 };
 struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
-	Delegate_t_marshaled_com** ___delegates_13;
+	Delegate_t_marshaled_com** ___delegates;
 };
 struct OnConsentFormDismissedListener_tDED6568DCDE6A68DBF1FE7A593DAB85AE07BB52A  : public AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D
 {
-	Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ____onConsentFormDismissedAction_4;
+	Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ____onConsentFormDismissedAction;
 };
 struct OnConsentFormLoadFailureListener_tE655CBA6590D515441F912FDA1A8A02969458EC6  : public AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D
 {
-	Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ____onConsentFormLoadFailureAction_4;
+	Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ____onConsentFormLoadFailureAction;
 };
 struct OnConsentFormLoadSuccessListener_tEADDE4799C1B7D4BBD552EF737A14E451F9E1503  : public AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D
 {
-	Action_1_tBD9457F0872CC7E6C1468CA37E6EF9D4403E1594* ____onConsentFormLoadSuccessAction_4;
+	Action_1_tBD9457F0872CC7E6C1468CA37E6EF9D4403E1594* ____onConsentFormLoadSuccessAction;
 };
 struct OnConsentInfoUpdateFailureListener_t5784DEB24901F6B12A17515A7532A8B965888EF3  : public AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D
 {
-	Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ____onConsentInfoUpdateFailureAction_4;
+	Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ____onConsentInfoUpdateFailureAction;
 };
 struct OnConsentInfoUpdateSuccessListener_tDF5EB5B7D55426B9014F495C77B56CE553C357B5  : public AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D
 {
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onConsentInfoUpdateSuccessAction_4;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onConsentInfoUpdateSuccessAction;
 };
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
@@ -439,49 +439,49 @@ struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : pu
 };
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
 {
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
 };
 struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
 {
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray;
 };
 struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
 {
-	bool ___enableDebugPrints_0;
+	bool ___enableDebugPrints;
 };
 struct ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_StaticFields
 {
-	ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* ____instance_6;
+	ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* ____instance;
 };
 struct ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_StaticFields
 {
-	ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* ____instance_2;
+	ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* ____instance;
 };
 struct String_t_StaticFields
 {
-	String_t* ___Empty_6;
+	String_t* ___Empty;
 };
 struct Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields
 {
-	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____consentRequestParametersJavaObject_9;
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ____consentRequestParametersJavaObject;
 };
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
-	String_t* ___TrueString_5;
-	String_t* ___FalseString_6;
+	String_t* ___TrueString;
+	String_t* ___FalseString;
 };
 struct IntPtr_t_StaticFields
 {
-	intptr_t ___Zero_1;
+	intptr_t ___Zero;
 };
 struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_StaticFields
 {
-	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___s_JavaLangSystemClass_2;
-	intptr_t ___s_HashCodeMethodID_3;
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___s_JavaLangSystemClass;
+	intptr_t ___s_HashCodeMethodID;
 };
 struct Exception_t_StaticFields
 {
-	RuntimeObject* ___s_EDILock_0;
+	RuntimeObject* ___s_EDILock;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -630,7 +630,7 @@ inline bool Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED (Enume
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56958
+// Method Definition Index: 62121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient__ctor_m7E1B3CCF1A755D2E47B0CBE4E75D3B5B852B1422 (ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -663,12 +663,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient__ctor_m7E1B3CCF1A755D2
 		NullCheck(L_2);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3;
 		L_3 = AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD(L_2, _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9, AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
-		__this->____activity_3 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____activity_3), (void*)L_3);
+		__this->____activity = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____activity), (void*)L_3);
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_4 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
 		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_4, _stringLiteral51F15D564436CDC5F4CA0943FE275B8092368A12, NULL);
-		__this->____userMessagingPlatformClass_4 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____userMessagingPlatformClass_4), (void*)L_4);
+		__this->____userMessagingPlatformClass = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____userMessagingPlatformClass), (void*)L_4);
 	}
 
 IL_003e:
@@ -676,7 +676,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 56959
+// Method Definition Index: 62122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* ConsentFormClient_get_Instance_m3A7328EFC16FA4907777C349E6A54B055CC2B8E1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -687,11 +687,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConsentFormClient_t35F1E659F96DD734B4D32A4CE9
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_il2cpp_TypeInfo_var);
-		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_0 = ((ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_StaticFields*)il2cpp_codegen_static_fields_for(ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_il2cpp_TypeInfo_var))->____instance_6;
+		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_0 = ((ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_StaticFields*)il2cpp_codegen_static_fields_for(ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_il2cpp_TypeInfo_var))->____instance;
 		return L_0;
 	}
 }
-// Method Definition Index: 56960
+// Method Definition Index: 62123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient_Load_mF1F4C123930E94CBD1429D69F8B57C7AA37E6BEC (ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_onFormLoaded, Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ___1_onError, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -717,24 +717,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient_Load_mF1F4C123930E94CB
 		U3CLoadU3Ec__AnonStorey0_t9B7CCC36913729B3EBB21DBF609838F6E1F24FAF* L_1 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___0_onFormLoaded;
 		NullCheck(L_1);
-		L_1->___onFormLoaded_0 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___onFormLoaded_0), (void*)L_2);
+		L_1->___onFormLoaded = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___onFormLoaded), (void*)L_2);
 		U3CLoadU3Ec__AnonStorey0_t9B7CCC36913729B3EBB21DBF609838F6E1F24FAF* L_3 = V_0;
 		NullCheck(L_3);
-		L_3->___U24this_1 = __this;
-		Il2CppCodeGenWriteBarrier((void**)(&L_3->___U24this_1), (void*)__this);
+		L_3->___U24this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___U24this), (void*)__this);
 		U3CLoadU3Ec__AnonStorey0_t9B7CCC36913729B3EBB21DBF609838F6E1F24FAF* L_4 = V_0;
 		Action_1_tBD9457F0872CC7E6C1468CA37E6EF9D4403E1594* L_5 = (Action_1_tBD9457F0872CC7E6C1468CA37E6EF9D4403E1594*)il2cpp_codegen_object_new(Action_1_tBD9457F0872CC7E6C1468CA37E6EF9D4403E1594_il2cpp_TypeInfo_var);
 		Action_1__ctor_mAD4F64E1D47B76FC413CEBA12F172E968C83AD04(L_5, L_4, (intptr_t)((void*)U3CLoadU3Ec__AnonStorey0_U3CU3Em__0_mF5112631374CFAC58737B64C5F7BF82BFE7DA5BF_RuntimeMethod_var), NULL);
 		OnConsentFormLoadSuccessListener_tEADDE4799C1B7D4BBD552EF737A14E451F9E1503* L_6 = (OnConsentFormLoadSuccessListener_tEADDE4799C1B7D4BBD552EF737A14E451F9E1503*)il2cpp_codegen_object_new(OnConsentFormLoadSuccessListener_tEADDE4799C1B7D4BBD552EF737A14E451F9E1503_il2cpp_TypeInfo_var);
 		OnConsentFormLoadSuccessListener__ctor_mDDB00C939683DD05E9157ADE7D1D7A4FD0F00274(L_6, L_5, NULL);
-		__this->____onSuccess_0 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onSuccess_0), (void*)L_6);
+		__this->____onSuccess = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onSuccess), (void*)L_6);
 		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_7 = ___1_onError;
 		OnConsentFormLoadFailureListener_tE655CBA6590D515441F912FDA1A8A02969458EC6* L_8 = (OnConsentFormLoadFailureListener_tE655CBA6590D515441F912FDA1A8A02969458EC6*)il2cpp_codegen_object_new(OnConsentFormLoadFailureListener_tE655CBA6590D515441F912FDA1A8A02969458EC6_il2cpp_TypeInfo_var);
 		OnConsentFormLoadFailureListener__ctor_m73D2CAAC57FE65A3B45D4982A22B21460FD066F1(L_8, L_7, NULL);
-		__this->____onFailure_1 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onFailure_1), (void*)L_8);
+		__this->____onFailure = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onFailure), (void*)L_8);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_9;
 		L_9 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
@@ -744,7 +744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient_Load_mF1F4C123930E94CB
 		}
 	}
 	{
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_10 = __this->____activity_3;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_10 = __this->____activity;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_11;
 		U3CLoadU3Ec__AnonStorey0_t9B7CCC36913729B3EBB21DBF609838F6E1F24FAF* L_13 = V_0;
@@ -762,7 +762,7 @@ IL_0068:
 		return;
 	}
 }
-// Method Definition Index: 56961
+// Method Definition Index: 62124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient_Show_m37767BC4A288BAA7EF92936E32A3FFBDC4E401BC (ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* __this, Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ___0_onDismissed, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -780,8 +780,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient_Show_m37767BC4A288BAA7
 		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_0 = ___0_onDismissed;
 		OnConsentFormDismissedListener_tDED6568DCDE6A68DBF1FE7A593DAB85AE07BB52A* L_1 = (OnConsentFormDismissedListener_tDED6568DCDE6A68DBF1FE7A593DAB85AE07BB52A*)il2cpp_codegen_object_new(OnConsentFormDismissedListener_tDED6568DCDE6A68DBF1FE7A593DAB85AE07BB52A_il2cpp_TypeInfo_var);
 		OnConsentFormDismissedListener__ctor_m25B075F9D1DD54F7FE2E3143C2EB4C9D430000CE(L_1, L_0, NULL);
-		__this->____onDismissed_2 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onDismissed_2), (void*)L_1);
+		__this->____onDismissed = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onDismissed), (void*)L_1);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
@@ -791,7 +791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient_Show_m37767BC4A288BAA7
 		}
 	}
 	{
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3 = __this->____activity_3;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3 = __this->____activity;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaRunnable_tF23B9BBDA8C99A48BCEEA6335A47DA3C0EF34A7F* L_6 = (AndroidJavaRunnable_tF23B9BBDA8C99A48BCEEA6335A47DA3C0EF34A7F*)il2cpp_codegen_object_new(AndroidJavaRunnable_tF23B9BBDA8C99A48BCEEA6335A47DA3C0EF34A7F_il2cpp_TypeInfo_var);
@@ -808,7 +808,7 @@ IL_003d:
 		return;
 	}
 }
-// Method Definition Index: 56962
+// Method Definition Index: 62125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient__cctor_m1554EAF6568E339F435C13AC2ED1CFA8EB42E2FF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -820,12 +820,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient__cctor_m1554EAF6568E33
 	{
 		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_0 = (ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3*)il2cpp_codegen_object_new(ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_il2cpp_TypeInfo_var);
 		ConsentFormClient__ctor_m7E1B3CCF1A755D2E47B0CBE4E75D3B5B852B1422(L_0, NULL);
-		((ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_StaticFields*)il2cpp_codegen_static_fields_for(ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_il2cpp_TypeInfo_var))->____instance_6 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_StaticFields*)il2cpp_codegen_static_fields_for(ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_il2cpp_TypeInfo_var))->____instance_6), (void*)L_0);
+		((ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_StaticFields*)il2cpp_codegen_static_fields_for(ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_il2cpp_TypeInfo_var))->____instance = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_StaticFields*)il2cpp_codegen_static_fields_for(ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_il2cpp_TypeInfo_var))->____instance), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56963
+// Method Definition Index: 62126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient_U3CShowU3Em__0_m3625CB74A5693AEB1032C8183EB59B91011E4E62 (ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -839,15 +839,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentFormClient_U3CShowU3Em__0_m3625CB
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	try
 	{
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->____consentForm_5;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->____consentForm;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3 = __this->____activity_3;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3 = __this->____activity;
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_2;
-		OnConsentFormDismissedListener_tDED6568DCDE6A68DBF1FE7A593DAB85AE07BB52A* L_5 = __this->____onDismissed_2;
+		OnConsentFormDismissedListener_tDED6568DCDE6A68DBF1FE7A593DAB85AE07BB52A* L_5 = __this->____onDismissed;
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_5);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_5);
@@ -893,7 +893,7 @@ IL_0048:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56964
+// Method Definition Index: 62127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey0__ctor_mFB78BF651FFE5D9720184ABAFAEC338F8EC8884E (U3CLoadU3Ec__AnonStorey0_t9B7CCC36913729B3EBB21DBF609838F6E1F24FAF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -901,22 +901,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey0__ctor_mFB78BF65
 		return;
 	}
 }
-// Method Definition Index: 56965
+// Method Definition Index: 62128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey0_U3CU3Em__0_mF5112631374CFAC58737B64C5F7BF82BFE7DA5BF (U3CLoadU3Ec__AnonStorey0_t9B7CCC36913729B3EBB21DBF609838F6E1F24FAF* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_consentFormJavaObject, const RuntimeMethod* method) 
 {
 	{
-		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_0 = __this->___U24this_1;
+		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_0 = __this->___U24this;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = ___0_consentFormJavaObject;
 		NullCheck(L_0);
-		L_0->____consentForm_5 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&L_0->____consentForm_5), (void*)L_1);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = __this->___onFormLoaded_0;
+		L_0->____consentForm = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&L_0->____consentForm), (void*)L_1);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = __this->___onFormLoaded;
 		NullCheck(L_2);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_2, NULL);
 		return;
 	}
 }
-// Method Definition Index: 56966
+// Method Definition Index: 62129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey0_U3CU3Em__1_mEA45C5564FA6D738F05920AEBEAE822EF71C1E35 (U3CLoadU3Ec__AnonStorey0_t9B7CCC36913729B3EBB21DBF609838F6E1F24FAF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -930,28 +930,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey0_U3CU3Em__1_mEA4
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	try
 	{
-		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_0 = __this->___U24this_1;
+		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_0 = __this->___U24this;
 		NullCheck(L_0);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = L_0->____userMessagingPlatformClass_4;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = L_0->____userMessagingPlatformClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_2;
-		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_4 = __this->___U24this_1;
+		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_4 = __this->___U24this;
 		NullCheck(L_4);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5 = L_4->____activity_3;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5 = L_4->____activity;
 		NullCheck(L_3);
 		ArrayElementTypeCheck (L_3, L_5);
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = L_3;
-		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_7 = __this->___U24this_1;
+		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_7 = __this->___U24this;
 		NullCheck(L_7);
-		OnConsentFormLoadSuccessListener_tEADDE4799C1B7D4BBD552EF737A14E451F9E1503* L_8 = L_7->____onSuccess_0;
+		OnConsentFormLoadSuccessListener_tEADDE4799C1B7D4BBD552EF737A14E451F9E1503* L_8 = L_7->____onSuccess;
 		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, L_8);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_6;
-		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_10 = __this->___U24this_1;
+		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_10 = __this->___U24this;
 		NullCheck(L_10);
-		OnConsentFormLoadFailureListener_tE655CBA6590D515441F912FDA1A8A02969458EC6* L_11 = L_10->____onFailure_1;
+		OnConsentFormLoadFailureListener_tE655CBA6590D515441F912FDA1A8A02969458EC6* L_11 = L_10->____onFailure;
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_11);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_11);
@@ -997,7 +997,7 @@ IL_0065:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56967
+// Method Definition Index: 62130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformationClient__ctor_mA617BBC7ED7A68D33788671BE7E23E628EB557A7 (ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1034,23 +1034,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformationClient__ctor_mA617BBC7
 		NullCheck(L_2);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3;
 		L_3 = AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD(L_2, _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9, AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
-		__this->____activity_4 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____activity_4), (void*)L_3);
+		__this->____activity = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____activity), (void*)L_3);
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_4 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
 		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_4, _stringLiteral51F15D564436CDC5F4CA0943FE275B8092368A12, NULL);
 		V_1 = L_4;
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_5 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_6;
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8 = __this->____activity_4;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8 = __this->____activity;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_8);
 		NullCheck(L_5);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_9;
 		L_9 = AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63(L_5, _stringLiteralB3588DE9307F0F69133E3EB2F32C1E05E8719923, L_7, AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63_RuntimeMethod_var);
-		__this->____consentInformation_3 = L_9;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____consentInformation_3), (void*)L_9);
+		__this->____consentInformation = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____consentInformation), (void*)L_9);
 	}
 
 IL_0059:
@@ -1058,7 +1058,7 @@ IL_0059:
 		return;
 	}
 }
-// Method Definition Index: 56968
+// Method Definition Index: 62131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* ConsentInformationClient_get_Instance_m9B519B54A2628324821181E0A70EDB0A741B69C6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1069,11 +1069,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConsentInformationClient_tAA91FD84123F3418C21
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_il2cpp_TypeInfo_var);
-		ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* L_0 = ((ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_StaticFields*)il2cpp_codegen_static_fields_for(ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_il2cpp_TypeInfo_var))->____instance_2;
+		ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* L_0 = ((ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_StaticFields*)il2cpp_codegen_static_fields_for(ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_il2cpp_TypeInfo_var))->____instance;
 		return L_0;
 	}
 }
-// Method Definition Index: 56969
+// Method Definition Index: 62132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformationClient_Update_m720A6D2A77AEDA48A334C4C52B2EA606BF92D1AD (ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* __this, ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516* ___0_request, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_onConsentInfoUpdateSuccessCallback, Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ___2_onConsentInfoUpdateFailureCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1091,15 +1091,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformationClient_Update_m720A6D2
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___1_onConsentInfoUpdateSuccessCallback;
 		OnConsentInfoUpdateSuccessListener_tDF5EB5B7D55426B9014F495C77B56CE553C357B5* L_1 = (OnConsentInfoUpdateSuccessListener_tDF5EB5B7D55426B9014F495C77B56CE553C357B5*)il2cpp_codegen_object_new(OnConsentInfoUpdateSuccessListener_tDF5EB5B7D55426B9014F495C77B56CE553C357B5_il2cpp_TypeInfo_var);
 		OnConsentInfoUpdateSuccessListener__ctor_m60D900C440D1B9279E5D6D5C57B73B4B23CA2EBE(L_1, L_0, NULL);
-		__this->____onSuccess_0 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onSuccess_0), (void*)L_1);
+		__this->____onSuccess = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onSuccess), (void*)L_1);
 		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_2 = ___2_onConsentInfoUpdateFailureCallback;
 		OnConsentInfoUpdateFailureListener_t5784DEB24901F6B12A17515A7532A8B965888EF3* L_3 = (OnConsentInfoUpdateFailureListener_t5784DEB24901F6B12A17515A7532A8B965888EF3*)il2cpp_codegen_object_new(OnConsentInfoUpdateFailureListener_t5784DEB24901F6B12A17515A7532A8B965888EF3_il2cpp_TypeInfo_var);
 		OnConsentInfoUpdateFailureListener__ctor_m361E383AAC67FDBAF568E4ADF113D919E03141C8(L_3, L_2, NULL);
-		__this->____onFailure_1 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onFailure_1), (void*)L_3);
+		__this->____onFailure = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onFailure), (void*)L_3);
 		ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516* L_4 = ___0_request;
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5 = __this->____activity_4;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5 = __this->____activity;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
 		L_6 = Utils_GetConsentRequestParametersJavaObject_m3DC83E59A8C34C22DA9C02FF9DDFBE64A212B139(L_4, L_5, NULL);
 		V_0 = L_6;
@@ -1112,10 +1112,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformationClient_Update_m720A6D2
 		}
 	}
 	{
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8 = __this->____consentInformation_3;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8 = __this->____consentInformation;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10 = L_9;
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_11 = __this->____activity_4;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_11 = __this->____activity;
 		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, L_11);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_11);
@@ -1125,12 +1125,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformationClient_Update_m720A6D2
 		ArrayElementTypeCheck (L_12, L_13);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_13);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_12;
-		OnConsentInfoUpdateSuccessListener_tDF5EB5B7D55426B9014F495C77B56CE553C357B5* L_15 = __this->____onSuccess_0;
+		OnConsentInfoUpdateSuccessListener_tDF5EB5B7D55426B9014F495C77B56CE553C357B5* L_15 = __this->____onSuccess;
 		NullCheck(L_14);
 		ArrayElementTypeCheck (L_14, L_15);
 		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_15);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = L_14;
-		OnConsentInfoUpdateFailureListener_t5784DEB24901F6B12A17515A7532A8B965888EF3* L_17 = __this->____onFailure_1;
+		OnConsentInfoUpdateFailureListener_t5784DEB24901F6B12A17515A7532A8B965888EF3* L_17 = __this->____onFailure;
 		NullCheck(L_16);
 		ArrayElementTypeCheck (L_16, L_17);
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_17);
@@ -1143,7 +1143,7 @@ IL_0066:
 		return;
 	}
 }
-// Method Definition Index: 56970
+// Method Definition Index: 62133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformationClient_Reset_m91443CB27891CCFECB7039C47C83551D31B253F6 (ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1164,7 +1164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformationClient_Reset_m91443CB2
 		}
 	}
 	{
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = __this->____consentInformation_3;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = __this->____consentInformation;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)0);
 		NullCheck(L_1);
 		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_1, _stringLiteral777AE62A4AAF93B33F90DF3E12489F43ABA14E39, L_2, NULL);
@@ -1190,7 +1190,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 56971
+// Method Definition Index: 62134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConsentInformationClient_GetConsentStatus_m4B770F2663B8C7F7B2E3443F454B7A023CCB58EB (ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1212,7 +1212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConsentInformationClient_GetConsentSt
 		}
 	}
 	{
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = __this->____consentInformation_3;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = __this->____consentInformation;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)0);
 		NullCheck(L_1);
 		int32_t L_3;
@@ -1234,7 +1234,7 @@ IL_0023:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ConsentInformationClient_GetConsentStatus_m4B770F2663B8C7F7B2E3443F454B7A023CCB58EB_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 56972
+// Method Definition Index: 62135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConsentInformationClient_IsConsentFormAvailable_m710A47E7C470AFF7DC23B8D14D75D4FA0B51C267 (ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1256,7 +1256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConsentInformationClient_IsConsentFormAv
 		}
 	}
 	{
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = __this->____consentInformation_3;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = __this->____consentInformation;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)0);
 		NullCheck(L_1);
 		bool L_3;
@@ -1278,7 +1278,7 @@ IL_0023:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ConsentInformationClient_IsConsentFormAvailable_m710A47E7C470AFF7DC23B8D14D75D4FA0B51C267_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 56973
+// Method Definition Index: 62136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformationClient__cctor_mF27AB9B2B5CC81DB670DA86579FB9B51CD38FFA7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1290,8 +1290,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformationClient__cctor_mF27AB9B
 	{
 		ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* L_0 = (ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B*)il2cpp_codegen_object_new(ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_il2cpp_TypeInfo_var);
 		ConsentInformationClient__ctor_mA617BBC7ED7A68D33788671BE7E23E628EB557A7(L_0, NULL);
-		((ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_StaticFields*)il2cpp_codegen_static_fields_for(ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_il2cpp_TypeInfo_var))->____instance_2 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_StaticFields*)il2cpp_codegen_static_fields_for(ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_il2cpp_TypeInfo_var))->____instance_2), (void*)L_0);
+		((ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_StaticFields*)il2cpp_codegen_static_fields_for(ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_il2cpp_TypeInfo_var))->____instance = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_StaticFields*)il2cpp_codegen_static_fields_for(ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_il2cpp_TypeInfo_var))->____instance), (void*)L_0);
 		return;
 	}
 }
@@ -1303,7 +1303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformationClient__cctor_mF27AB9B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56974
+// Method Definition Index: 62137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormDismissedListener__ctor_m25B075F9D1DD54F7FE2E3143C2EB4C9D430000CE (OnConsentFormDismissedListener_tDED6568DCDE6A68DBF1FE7A593DAB85AE07BB52A* __this, Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ___0_onConsentFormDismissedAction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1317,12 +1317,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormDismissedListener__ctor_m25
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral375FAFE344F4C2DEFCE90CB6F7DAC4DA51729E3F, NULL);
 		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_0 = ___0_onConsentFormDismissedAction;
-		__this->____onConsentFormDismissedAction_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onConsentFormDismissedAction_4), (void*)L_0);
+		__this->____onConsentFormDismissedAction = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onConsentFormDismissedAction), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56975
+// Method Definition Index: 62138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormDismissedListener_onConsentFormDismissed_m31DB97C6E2131F94538BFF03EE2527A8B15C03DF (OnConsentFormDismissedListener_tDED6568DCDE6A68DBF1FE7A593DAB85AE07BB52A* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1341,7 +1341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormDismissedListener_onConsent
 	FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* V_0 = NULL;
 	FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* G_B5_0 = NULL;
 	{
-		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_0 = __this->____onConsentFormDismissedAction_4;
+		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_0 = __this->____onConsentFormDismissedAction;
 		if (L_0)
 		{
 			goto IL_0016;
@@ -1386,7 +1386,7 @@ IL_0022:
 IL_0049:
 	{
 		V_0 = G_B5_0;
-		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_9 = __this->____onConsentFormDismissedAction_4;
+		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_9 = __this->____onConsentFormDismissedAction;
 		FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* L_10 = V_0;
 		NullCheck(L_9);
 		Action_1_Invoke_m3DEF207D7DDE949DDC2EC78FF96E9789029BAC51_inline(L_9, L_10, NULL);
@@ -1401,7 +1401,7 @@ IL_0049:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56976
+// Method Definition Index: 62139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormLoadFailureListener__ctor_m73D2CAAC57FE65A3B45D4982A22B21460FD066F1 (OnConsentFormLoadFailureListener_tE655CBA6590D515441F912FDA1A8A02969458EC6* __this, Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ___0_onConsentFormLoadFailureAction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1415,12 +1415,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormLoadFailureListener__ctor_m
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral4AC0D82903EC38AEDFDD6B6F68456C96D5DCD877, NULL);
 		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_0 = ___0_onConsentFormLoadFailureAction;
-		__this->____onConsentFormLoadFailureAction_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onConsentFormLoadFailureAction_4), (void*)L_0);
+		__this->____onConsentFormLoadFailureAction = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onConsentFormLoadFailureAction), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56977
+// Method Definition Index: 62140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormLoadFailureListener_onConsentFormLoadFailure_m93D767609232A7C84262D8FDF8F91AB1C916384D (OnConsentFormLoadFailureListener_tE655CBA6590D515441F912FDA1A8A02969458EC6* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1439,7 +1439,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormLoadFailureListener_onConse
 	FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* V_0 = NULL;
 	FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* G_B5_0 = NULL;
 	{
-		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_0 = __this->____onConsentFormLoadFailureAction_4;
+		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_0 = __this->____onConsentFormLoadFailureAction;
 		if (L_0)
 		{
 			goto IL_0016;
@@ -1484,7 +1484,7 @@ IL_0022:
 IL_0049:
 	{
 		V_0 = G_B5_0;
-		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_9 = __this->____onConsentFormLoadFailureAction_4;
+		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_9 = __this->____onConsentFormLoadFailureAction;
 		FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* L_10 = V_0;
 		NullCheck(L_9);
 		Action_1_Invoke_m3DEF207D7DDE949DDC2EC78FF96E9789029BAC51_inline(L_9, L_10, NULL);
@@ -1499,7 +1499,7 @@ IL_0049:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56978
+// Method Definition Index: 62141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormLoadSuccessListener__ctor_mDDB00C939683DD05E9157ADE7D1D7A4FD0F00274 (OnConsentFormLoadSuccessListener_tEADDE4799C1B7D4BBD552EF737A14E451F9E1503* __this, Action_1_tBD9457F0872CC7E6C1468CA37E6EF9D4403E1594* ___0_onConsentFormLoadSuccessAction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1513,12 +1513,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormLoadSuccessListener__ctor_m
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral45DDA05892176F58A7B35CE2ED91EC900D9D2067, NULL);
 		Action_1_tBD9457F0872CC7E6C1468CA37E6EF9D4403E1594* L_0 = ___0_onConsentFormLoadSuccessAction;
-		__this->____onConsentFormLoadSuccessAction_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onConsentFormLoadSuccessAction_4), (void*)L_0);
+		__this->____onConsentFormLoadSuccessAction = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onConsentFormLoadSuccessAction), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56979
+// Method Definition Index: 62142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormLoadSuccessListener_onConsentFormLoadSuccess_m80A8E26977EABF079EE10D8D35A914F9F808C5FE (OnConsentFormLoadSuccessListener_tEADDE4799C1B7D4BBD552EF737A14E451F9E1503* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_consentFormJavaObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1529,7 +1529,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormLoadSuccessListener_onConse
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Action_1_tBD9457F0872CC7E6C1468CA37E6EF9D4403E1594* L_0 = __this->____onConsentFormLoadSuccessAction_4;
+		Action_1_tBD9457F0872CC7E6C1468CA37E6EF9D4403E1594* L_0 = __this->____onConsentFormLoadSuccessAction;
 		if (L_0)
 		{
 			goto IL_0016;
@@ -1543,7 +1543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentFormLoadSuccessListener_onConse
 
 IL_0016:
 	{
-		Action_1_tBD9457F0872CC7E6C1468CA37E6EF9D4403E1594* L_1 = __this->____onConsentFormLoadSuccessAction_4;
+		Action_1_tBD9457F0872CC7E6C1468CA37E6EF9D4403E1594* L_1 = __this->____onConsentFormLoadSuccessAction;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ___0_consentFormJavaObject;
 		NullCheck(L_1);
 		Action_1_Invoke_mF1A9E047B412B279EA3AC2BFF9E1754B2C45EA56_inline(L_1, L_2, NULL);
@@ -1558,7 +1558,7 @@ IL_0016:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56980
+// Method Definition Index: 62143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentInfoUpdateFailureListener__ctor_m361E383AAC67FDBAF568E4ADF113D919E03141C8 (OnConsentInfoUpdateFailureListener_t5784DEB24901F6B12A17515A7532A8B965888EF3* __this, Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ___0_onConsentInfoUpdateFailureAction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1572,12 +1572,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentInfoUpdateFailureListener__ctor
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral4B5590C684CEA428C87D4AF085DE91F2CEFF57C2, NULL);
 		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_0 = ___0_onConsentInfoUpdateFailureAction;
-		__this->____onConsentInfoUpdateFailureAction_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onConsentInfoUpdateFailureAction_4), (void*)L_0);
+		__this->____onConsentInfoUpdateFailureAction = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onConsentInfoUpdateFailureAction), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56981
+// Method Definition Index: 62144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentInfoUpdateFailureListener_onConsentInfoUpdateFailure_m0E9EB5EEEDDF0261DCB9C5FFBC421C5B31574B52 (OnConsentInfoUpdateFailureListener_t5784DEB24901F6B12A17515A7532A8B965888EF3* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1596,7 +1596,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentInfoUpdateFailureListener_onCon
 	FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* V_0 = NULL;
 	FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* G_B5_0 = NULL;
 	{
-		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_0 = __this->____onConsentInfoUpdateFailureAction_4;
+		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_0 = __this->____onConsentInfoUpdateFailureAction;
 		if (L_0)
 		{
 			goto IL_0016;
@@ -1641,7 +1641,7 @@ IL_0022:
 IL_0049:
 	{
 		V_0 = G_B5_0;
-		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_9 = __this->____onConsentInfoUpdateFailureAction_4;
+		Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* L_9 = __this->____onConsentInfoUpdateFailureAction;
 		FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* L_10 = V_0;
 		NullCheck(L_9);
 		Action_1_Invoke_m3DEF207D7DDE949DDC2EC78FF96E9789029BAC51_inline(L_9, L_10, NULL);
@@ -1656,7 +1656,7 @@ IL_0049:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56982
+// Method Definition Index: 62145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentInfoUpdateSuccessListener__ctor_m60D900C440D1B9279E5D6D5C57B73B4B23CA2EBE (OnConsentInfoUpdateSuccessListener_tDF5EB5B7D55426B9014F495C77B56CE553C357B5* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_onConsentInfoUpdateSuccessAction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1670,12 +1670,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentInfoUpdateSuccessListener__ctor
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral03A8B37AD1D0955D7622AC6CD210F9E6E1AD40D7, NULL);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___0_onConsentInfoUpdateSuccessAction;
-		__this->____onConsentInfoUpdateSuccessAction_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onConsentInfoUpdateSuccessAction_4), (void*)L_0);
+		__this->____onConsentInfoUpdateSuccessAction = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onConsentInfoUpdateSuccessAction), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56983
+// Method Definition Index: 62146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentInfoUpdateSuccessListener_onConsentInfoUpdateSuccess_m52CC6820B88E0CE69C138B278E329EF34EA13958 (OnConsentInfoUpdateSuccessListener_tDF5EB5B7D55426B9014F495C77B56CE553C357B5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1686,7 +1686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentInfoUpdateSuccessListener_onCon
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->____onConsentInfoUpdateSuccessAction_4;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->____onConsentInfoUpdateSuccessAction;
 		if (L_0)
 		{
 			goto IL_0016;
@@ -1700,7 +1700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnConsentInfoUpdateSuccessListener_onCon
 
 IL_0016:
 	{
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = __this->____onConsentInfoUpdateSuccessAction_4;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = __this->____onConsentInfoUpdateSuccessAction;
 		NullCheck(L_1);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_1, NULL);
 		return;
@@ -1714,7 +1714,7 @@ IL_0016:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56984
+// Method Definition Index: 62147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UmpClientFactory__ctor_mE0B5C6CDC13E8F1CE6420B0D6319845FDB7CB671 (UmpClientFactory_t423128FD141759DA44411AF60FCBF40FBE11B9BE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1722,7 +1722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UmpClientFactory__ctor_mE0B5C6CDC13E8F1C
 		return;
 	}
 }
-// Method Definition Index: 56985
+// Method Definition Index: 62148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UmpClientFactory_ConsentFormClient_mF6F379AC68BED2A0C239926D0099E76B91227B6E (UmpClientFactory_t423128FD141759DA44411AF60FCBF40FBE11B9BE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1762,7 +1762,7 @@ IL_0012:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UmpClientFactory_ConsentFormClient_mF6F379AC68BED2A0C239926D0099E76B91227B6E_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 56986
+// Method Definition Index: 62149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UmpClientFactory_ConsentInformationClient_mA6E8322EFD8EDD0680E157B6E87C8A7A236B83A1 (UmpClientFactory_t423128FD141759DA44411AF60FCBF40FBE11B9BE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1810,7 +1810,7 @@ IL_0012:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56987
+// Method Definition Index: 62150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utils__ctor_m7F081873A4BD1542285D9CE5E79D54F95E6BAB3D (Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1818,7 +1818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utils__ctor_m7F081873A4BD1542285D9CE5E79
 		return;
 	}
 }
-// Method Definition Index: 56988
+// Method Definition Index: 62151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* Utils_GetConsentRequestParametersJavaObject_m3DC83E59A8C34C22DA9C02FF9DDFBE64A212B139 (ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516* ___0_consentRequestParameters, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___1_activity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1853,17 +1853,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2B
 	memset((&V_5), 0, sizeof(V_5));
 	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* V_6 = NULL;
 	{
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject_9;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject;
 		if (!L_0)
 		{
 			goto IL_0018;
 		}
 	}
 	{
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = ((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject_9;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = ((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject;
 		V_0 = L_1;
-		((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject_9 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject_9), (void*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)NULL);
+		((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject), (void*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)NULL);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = V_0;
 		return L_2;
 	}
@@ -1879,7 +1879,7 @@ IL_0018:
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_6;
 		ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516* L_8 = ___0_consentRequestParameters;
 		NullCheck(L_8);
-		bool L_9 = L_8->___TagForUnderAgeOfConsent_0;
+		bool L_9 = L_8->___TagForUnderAgeOfConsent;
 		bool L_10 = L_9;
 		RuntimeObject* L_11 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_10);
 		NullCheck(L_7);
@@ -1891,7 +1891,7 @@ IL_0018:
 		V_1 = L_12;
 		ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516* L_13 = ___0_consentRequestParameters;
 		NullCheck(L_13);
-		ConsentDebugSettings_t21BCD70B1E4DB762E04807E88E78285CC51370C6* L_14 = L_13->___ConsentDebugSettings_1;
+		ConsentDebugSettings_t21BCD70B1E4DB762E04807E88E78285CC51370C6* L_14 = L_13->___ConsentDebugSettings;
 		V_2 = L_14;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = L_15;
@@ -1907,7 +1907,7 @@ IL_0018:
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_21 = L_20;
 		ConsentDebugSettings_t21BCD70B1E4DB762E04807E88E78285CC51370C6* L_22 = V_2;
 		NullCheck(L_22);
-		int32_t L_23 = L_22->___DebugGeography_0;
+		int32_t L_23 = L_22->___DebugGeography;
 		int32_t L_24 = ((int32_t)L_23);
 		RuntimeObject* L_25 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_24);
 		NullCheck(L_21);
@@ -1919,7 +1919,7 @@ IL_0018:
 		V_3 = L_26;
 		ConsentDebugSettings_t21BCD70B1E4DB762E04807E88E78285CC51370C6* L_27 = V_2;
 		NullCheck(L_27);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_28 = L_27->___TestDeviceHashedIds_1;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_28 = L_27->___TestDeviceHashedIds;
 		if (!L_28)
 		{
 			goto IL_00f2;
@@ -1928,7 +1928,7 @@ IL_0018:
 	{
 		ConsentDebugSettings_t21BCD70B1E4DB762E04807E88E78285CC51370C6* L_29 = V_2;
 		NullCheck(L_29);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_30 = L_29->___TestDeviceHashedIds_1;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_30 = L_29->___TestDeviceHashedIds;
 		NullCheck(L_30);
 		int32_t L_31;
 		L_31 = List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline(L_30, List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
@@ -1940,7 +1940,7 @@ IL_0018:
 	{
 		ConsentDebugSettings_t21BCD70B1E4DB762E04807E88E78285CC51370C6* L_32 = V_2;
 		NullCheck(L_32);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_33 = L_32->___TestDeviceHashedIds_1;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_33 = L_32->___TestDeviceHashedIds;
 		NullCheck(L_33);
 		Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 L_34;
 		L_34 = List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D(L_33, List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D_RuntimeMethod_var);
@@ -2023,22 +2023,22 @@ IL_00f2:
 		NullCheck(L_50);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_52;
 		L_52 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_50, _stringLiteralA733C7FC19A8317471D21AD091D1A9A6F973A728, L_51, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
-		((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject_9 = L_52;
-		Il2CppCodeGenWriteBarrier((void**)(&((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject_9), (void*)L_52);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_53 = ((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject_9;
+		((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject = L_52;
+		Il2CppCodeGenWriteBarrier((void**)(&((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject), (void*)L_52);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_53 = ((Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_StaticFields*)il2cpp_codegen_static_fields_for(Utils_t4D670FEBF8066E43D9DF28781097E83092B8BCBC_il2cpp_TypeInfo_var))->____consentRequestParametersJavaObject;
 		return L_53;
 	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 863
+// Method Definition Index: 867
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 56959
+// Method Definition Index: 62122
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* ConsentFormClient_get_Instance_m3A7328EFC16FA4907777C349E6A54B055CC2B8E1_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2049,11 +2049,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConsentFormClient_t35F1E659F96DD7
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_il2cpp_TypeInfo_var);
-		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_0 = ((ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_StaticFields*)il2cpp_codegen_static_fields_for(ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_il2cpp_TypeInfo_var))->____instance_6;
+		ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3* L_0 = ((ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_StaticFields*)il2cpp_codegen_static_fields_for(ConsentFormClient_t35F1E659F96DD734B4D32A4CE9D6B405BF3032F3_il2cpp_TypeInfo_var))->____instance;
 		return L_0;
 	}
 }
-// Method Definition Index: 56968
+// Method Definition Index: 62131
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* ConsentInformationClient_get_Instance_m9B519B54A2628324821181E0A70EDB0A741B69C6_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2064,29 +2064,29 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConsentInformationClient_tAA91FD8
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_il2cpp_TypeInfo_var);
-		ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* L_0 = ((ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_StaticFields*)il2cpp_codegen_static_fields_for(ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_il2cpp_TypeInfo_var))->____instance_2;
+		ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B* L_0 = ((ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_StaticFields*)il2cpp_codegen_static_fields_for(ConsentInformationClient_tAA91FD84123F3418C21DD4108F24EE914CD7B99B_il2cpp_TypeInfo_var))->____instance;
 		return L_0;
 	}
 }
-// Method Definition Index: 865
+// Method Definition Index: 869
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 11843
+// Method Definition Index: 11976
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = (int32_t)__this->____size_2;
+		int32_t L_0 = __this->____size;
 		return L_0;
 	}
 }
-// Method Definition Index: 11900
+// Method Definition Index: 12037
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->____current_3;
+		RuntimeObject* L_0 = __this->____current;
 		return L_0;
 	}
 }

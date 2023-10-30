@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: en
   m_SharedData: {fileID: 11400000, guid: 15373f390996f9448a51312aa4b4986c, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 939405602768289796
   m_TableData:
   - m_Id: 126750810112
     m_Localized: New Game
@@ -158,6 +159,37 @@ MonoBehaviour:
     m_Localized: Change User Name
     m_Metadata:
       m_Items: []
+  - m_Id: 172483892982448128
+    m_Localized: Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172491486270717952
+    m_Localized: '{val} easy power-ups'
+    m_Metadata:
+      m_Items:
+      - rid: 939405602768289796
+  - m_Id: 172492649556738048
+    m_Localized: '{val} very easy power-ups'
+    m_Metadata:
+      m_Items:
+      - rid: 939405602768289796
+  - m_Id: 172492805547098112
+    m_Localized: Increases starting and ad-watched hint amount to {val}.
+    m_Metadata:
+      m_Items:
+      - rid: 939405602768289796
+  - m_Id: 172492770201698304
+    m_Localized: Removes advertisements in the game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173953351924449280
+    m_Localized: Restore Purchase
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 939405602768289796
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0000f2c517d064020000329f26d164020000f2f04ad16402

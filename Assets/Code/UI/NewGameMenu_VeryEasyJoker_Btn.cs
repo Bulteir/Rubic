@@ -12,27 +12,36 @@ public class NewGameMenu_VeryEasyJoker_Btn : MonoBehaviour
     bool adIsReady = false;
     public void onClick()
     {
-        Debug.Log("ad ready:" + adIsReady);
-
         if (GlobalVariable.rewardAdState != GlobalVariable.rewardAdState_veryEasyJoker && GlobalVariable.rewardAdState != GlobalVariable.rewardAdState_easyJoker)
         {
-            GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_veryEasyJoker;
-            int veryEasyJokerQuantity = int.Parse(PlayerPrefs.GetString("VeryEasyJoker"));
-            if (veryEasyJokerQuantity > 0)
+
+            if (PlayerPrefs.GetString("NoAdsActive") == "1")
             {
                 veryEasyButton.interactable = false;
-                veryEasyJokerQuantity--;
-                PlayerPrefs.SetString("VeryEasyJoker", veryEasyJokerQuantity.ToString());
-                PlayerPrefs.Save();
                 rubicCube.GetComponent<CubeControl>().shuffleStepCount = 5;
             }
-            else if (adIsReady)
+            else
             {
-                adIsReady = false;
-                generalControls.GetComponent<AdMobRewardedAdController>().ShowAd();
-                generalControls.GetComponent<AdMobRewardedAdController>().LoadAd();
+                GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_veryEasyJoker;
+                int veryEasyJokerQuantity = int.Parse(PlayerPrefs.GetString("VeryEasyJoker"));
+                if (veryEasyJokerQuantity > 0)
+                {
+                    veryEasyButton.interactable = false;
+                    veryEasyJokerQuantity--;
+                    PlayerPrefs.SetString("VeryEasyJoker", veryEasyJokerQuantity.ToString());
+                    PlayerPrefs.Save();
+                    rubicCube.GetComponent<CubeControl>().shuffleStepCount = 5;
+                }
+                else if (adIsReady)
+                {
+                    adIsReady = false;
+                    generalControls.GetComponent<AdMobRewardedAdController>().ShowAd();
+                    generalControls.GetComponent<AdMobRewardedAdController>().LoadAd();
+
+                }
+                jokerQuantity.GetComponentInChildren<TMPro.TMP_Text>().text = veryEasyJokerQuantity.ToString();
             }
-            jokerQuantity.GetComponentInChildren<TMPro.TMP_Text>().text = veryEasyJokerQuantity.ToString();
+           
         }
     }
 
@@ -59,6 +68,7 @@ public class NewGameMenu_VeryEasyJoker_Btn : MonoBehaviour
         veryEasyButton.interactable = true;
         GlobalVariable.rewardAdState = GlobalVariable.rewardAdState_idle;
         generalControls.GetComponent<AdMobRewardedAdController>().LoadAd();
+
     }
     public void adLoaded()
     {

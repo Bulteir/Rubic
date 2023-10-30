@@ -526,6 +526,12 @@
             "icon": "package/com.unity.modules.jsonserialize"
           },
           {
+            "name": "Required by PerformanceReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.performancereporting"
+          },
+          {
             "name": "Required by Physics Module",
             "scenes": [],
             "dependencyType": 2,
@@ -669,6 +675,12 @@
             "icon": "package/com.unity.modules.crashreporting"
           },
           {
+            "name": "Required by PerformanceReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.performancereporting"
+          },
+          {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
             "scenes": [],
             "dependencyType": 2,
@@ -679,6 +691,23 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
+          },
+          {
+            "name": "Required by UnityAnalytics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unityanalytics"
+          }
+        ]
+      },
+      {
+        "name": "PerformanceReporting",
+        "dependencies": [
+          {
+            "name": "Required by Analytics Performance Reporting (See Analytics Services Window)",
+            "scenes": [],
+            "dependencyType": 3,
+            "icon": "class/PlayerSettings"
           },
           {
             "name": "Required by UnityAnalytics Module",
@@ -800,6 +829,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by PerformanceReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.performancereporting"
           },
           {
             "name": "Required by Physics Module",
@@ -1012,10 +1047,22 @@
         "name": "UnityAnalytics",
         "dependencies": [
           {
+            "name": "Required by Analytics Performance Reporting (See Analytics Services Window)",
+            "scenes": [],
+            "dependencyType": 3,
+            "icon": "class/PlayerSettings"
+          },
+          {
             "name": "Required by CrashReporting Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.crashreporting"
+          },
+          {
+            "name": "Required by PerformanceReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.performancereporting"
           },
           {
             "name": "Required by UnityAnalytics (See Services Window)",
@@ -1050,6 +1097,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.crashreporting"
+          },
+          {
+            "name": "Required by PerformanceReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.performancereporting"
           },
           {
             "name": "Required by UnityAnalytics (See Services Window)",

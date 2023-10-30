@@ -7,7 +7,7 @@ using UnityEngine.Localization.Settings;
 public class Counter : MonoBehaviour
 {
     public TMP_Text text;
-    float count;
+    public float count;
     float miliSecond;
     int second;
     int minute;

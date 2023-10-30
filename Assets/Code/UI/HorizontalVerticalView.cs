@@ -79,7 +79,10 @@ public class HorizontalVerticalView : MonoBehaviour
     IEnumerator RequestBannner()
     {
         yield return new WaitForSeconds(5);
-        transform.GetComponent<AdMobBannerViewController>().LoadAd();
+        if (PlayerPrefs.GetString("NoAdsActive") != "1")
+        {
+            transform.GetComponent<AdMobBannerViewController>().LoadAd();
+        }
         BannerRequest = null;
     }
 }
