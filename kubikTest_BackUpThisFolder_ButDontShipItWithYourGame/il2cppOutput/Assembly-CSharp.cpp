@@ -506,11 +506,13 @@ IL2CPP_EXTERN_C RuntimeClass* WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB5206
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD;
+IL2CPP_EXTERN_C String_t* _stringLiteral0506C2794B295B09EAC854DD73803B7621392F28;
 IL2CPP_EXTERN_C String_t* _stringLiteral05FC263DEDBF63BA3F19BD67B2BC8391F38B1733;
 IL2CPP_EXTERN_C String_t* _stringLiteral060EC882BF210CB60D33D3447A83E7B28C084165;
 IL2CPP_EXTERN_C String_t* _stringLiteral0B9C01623616030D863DD52FA81A119CC7C843E3;
 IL2CPP_EXTERN_C String_t* _stringLiteral0BF41656B7898267A107AC646ACC82241C4244EC;
 IL2CPP_EXTERN_C String_t* _stringLiteral0CB8F49EBF06FEC7929D3891F424DF1D788D41AE;
+IL2CPP_EXTERN_C String_t* _stringLiteral0D4336A7F46D2B27E54DDD4E06F24B398E2280FC;
 IL2CPP_EXTERN_C String_t* _stringLiteral0F878D6F793148FED5233A6197C53B38077ACBD0;
 IL2CPP_EXTERN_C String_t* _stringLiteral0FFAB2886A35ED3E747329EE802FAF8B3F81709C;
 IL2CPP_EXTERN_C String_t* _stringLiteral10AE1C4385E0BAE2094CFE823A8F4CE125B513E2;
@@ -544,6 +546,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C
 IL2CPP_EXTERN_C String_t* _stringLiteral51B9A921875B50DC2E745884E0F3B09DFCFEA44A;
 IL2CPP_EXTERN_C String_t* _stringLiteral5379C25D8F9979AD371949D2F3201B2D326743A4;
 IL2CPP_EXTERN_C String_t* _stringLiteral5653ED18AC55A8F82F2CC4AFBBCA9347A426271C;
+IL2CPP_EXTERN_C String_t* _stringLiteral56C1B74AFCAEBDC3212C27A5033F791795376819;
 IL2CPP_EXTERN_C String_t* _stringLiteral58A6A4FFA18C4C1B5CDE017771065CFE5D3A8344;
 IL2CPP_EXTERN_C String_t* _stringLiteral5DACDA3FBFF1F616FEA43BF199AFA4B279422BF6;
 IL2CPP_EXTERN_C String_t* _stringLiteral6237C972DB620EF24A1E458621853E85C78845A7;
@@ -616,6 +619,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709
 IL2CPP_EXTERN_C String_t* _stringLiteralDDFC27D24387464AC41CBE16C63E3B4AD28FAD7E;
 IL2CPP_EXTERN_C String_t* _stringLiteralDE58DBBD9E43C039FDDDFE543FB8B562E4E2C27A;
 IL2CPP_EXTERN_C String_t* _stringLiteralE166BB3B31B78125FB2CFC6CCF217ABE9B8C84C3;
+IL2CPP_EXTERN_C String_t* _stringLiteralE66265BBDFF5BE312B2DB5585B741E789750D22F;
 IL2CPP_EXTERN_C String_t* _stringLiteralE70EE60308FC7B4A6CDFA5D73A5661AB098A24A9;
 IL2CPP_EXTERN_C String_t* _stringLiteralE8E60549AD487258B4E68DD665837EABACD53ED0;
 IL2CPP_EXTERN_C String_t* _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
@@ -666,7 +670,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnComplet
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CUnityServicesInitialU3Ed__9_t17AD0E33C99EBEE9F827FA899C02C8D26C591EA2_m54D024835CD523355E401D44236192AA554E6734_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CAddScoreU3Ed__12_tB0E4AFA6C2BD4B34F58B82E4E37CB2CB24C3CF97_mE43C483AD1A4EE505DF993E8856CBD8E29399630_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m28418870793D53AE951E6CFDCB923368C57BCF94_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A_mECE4AE2594E6842FCD4C6A36EB0CDF9A6B23A1AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432_mF093EE0A2174D5D5CC66E865EE9F55776464CC34_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CSetPlayerNameU3Ed__11_t9862E22B303759E0FC75A207E18DA30729F94A3C_mB64D38D48027D0E79CD4FB023BDD2719C313132D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__9_t3A5FDC155E697DE9F45B290A232B38B8E601D1D4_mBD200B5746C551ED6A35F897B76B786F25B0DB39_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CUnityServicesInitialU3Ed__9_t17AD0E33C99EBEE9F827FA899C02C8D26C591EA2_m362B500F742D6F92104CE7DCA6514878B4C9C860_RuntimeMethod_var;
@@ -743,7 +747,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MainMenuCubeAnimation_U3CshuffleCoroutineMenuCubeU3Eb__22_0_m7866B3BC6776F9AEA9A7002E7BD1BD7EBC883CB1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MenuControl_U3CAwakeU3Eb__32_0_m209E328026FBE39D5B739123B750C82C8A11E8A3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MenuControl_U3CAwakeU3Eb__33_0_mD7B846D1038B9684F4E3800F5C737ECE7FA3D1AA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mC0094101367FA342F4A73D136FE5EA1F72D6352B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var;
@@ -2417,7 +2421,7 @@ struct U3CStartU3Ed__9_t3A5FDC155E697DE9F45B290A232B38B8E601D1D4
 	LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* ___U3CU3E4__this;
 	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1;
 };
-struct U3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A 
+struct U3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432 
 {
 	int32_t ___U3CU3E1__state;
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder;
@@ -2969,6 +2973,7 @@ struct MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD  : public MonoBehav
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___easyJoker_Btn_Quantity;
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___veryEasyJoker_Btn_Quantity;
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___solve_Btn_Quantity;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___mainMenuNoAds_Btn;
 	bool ___isLoadedKociembaTables;
 	bool ___isSolveButtonActiveFirstTime;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___rubicCube;
@@ -3032,6 +3037,7 @@ struct Solve_Btn_tB694FE4AEAD1611FA12620E3C142F2D6670275D6  : public MonoBehavio
 	bool ___isDoubleSolvingStep;
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___SolvingQuantity_Btn;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___GeneralControls;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Counter;
 };
 struct StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -3906,7 +3912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnComp
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CSignInAnonymouslyU3Ed__10_t969A72EA9E31F0FFE79621A1B73050D94F2B73F6_mA714BA42681FEE6223C286AB92BB5093255ABC6E_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CSignInAnonymouslyU3Ed__10_t969A72EA9E31F0FFE79621A1B73050D94F2B73F6* ___1_stateMachine, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CStartU3Ed__9_t3A5FDC155E697DE9F45B290A232B38B8E601D1D4_mC77C77A094FDA0E122E50F80BDA28C670B6FFEC1_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3CStartU3Ed__9_t3A5FDC155E697DE9F45B290A232B38B8E601D1D4* ___1_stateMachine, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponentInChildren_TisRuntimeObject_mED181B37054A10395CA356010754C7DFC685893C_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A_mECE4AE2594E6842FCD4C6A36EB0CDF9A6B23A1AF_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A* ___0_stateMachine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432_mF093EE0A2174D5D5CC66E865EE9F55776464CC34_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432* ___0_stateMachine, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared (RuntimeObject* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m391C1D83A1A4763C91DD614D3068151908E92950_gshared (List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* __this, BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 ___0_item, const RuntimeMethod* method) ;
@@ -4683,9 +4689,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationSettings_set_SelectedLocale_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QualitySettings_SetQualityLevel_mCAE1F9B15496825C5DCBDDE430A3650B967BB138 (int32_t ___0_index, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* Task_get_Factory_m8272CF9106A72E5F0B8E8C6CEE025D748FBD6D11_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TaskFactory_StartNew_m5E709A8F3339208512BFD25BF2D49C298E9D1D81 (TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_action, const RuntimeMethod* method) ;
-inline void AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A_mECE4AE2594E6842FCD4C6A36EB0CDF9A6B23A1AF (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A* ___0_stateMachine, const RuntimeMethod* method)
+inline void AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432_mF093EE0A2174D5D5CC66E865EE9F55776464CC34 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432* ___0_stateMachine, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, U3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A*, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A_mECE4AE2594E6842FCD4C6A36EB0CDF9A6B23A1AF_gshared)(__this, ___0_stateMachine, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, U3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432*, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432_mF093EE0A2174D5D5CC66E865EE9F55776464CC34_gshared)(__this, ___0_stateMachine, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_set_sleepTimeout_mB375970159A73BB484A2B5E62A943330B83ABF9A (int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_UnityServicesInitial_m15B971919A2639948BA7BBDB1EF747A29AE2CC31 (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, const RuntimeMethod* method) ;
@@ -4741,7 +4747,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54406
+// Method Definition Index: 53617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_CreateBannerView_mCB56F66121053DE98134104F3BEAC5D32C532363 (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4795,7 +4801,7 @@ IL_0018:
 		return;
 	}
 }
-// Method Definition Index: 54407
+// Method Definition Index: 53618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_LoadAd_m6D255A5EF4C58DD4969C97DC099EC6E77BAFABCC (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4842,7 +4848,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 54408
+// Method Definition Index: 53619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_ShowAd_m9FF083B31E57DBBD8D6B9C3269003F28165EF296 (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4866,7 +4872,7 @@ IL_0013:
 		return;
 	}
 }
-// Method Definition Index: 54409
+// Method Definition Index: 53620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_HideAd_mD79C61096BF3A9B9822CE5D7CBE9AAF4C36814C4 (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4890,7 +4896,7 @@ IL_0013:
 		return;
 	}
 }
-// Method Definition Index: 54410
+// Method Definition Index: 53621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_DestroyAd_mB9887AAC9A17B586BF9E09383CE74494FE849C5D (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4917,7 +4923,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 54411
+// Method Definition Index: 53622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_LogResponseInfo_m4808B3A422D4CBADBE7B5A131F3DFE5E2F438E9B (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4962,7 +4968,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 54412
+// Method Definition Index: 53623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_ListenToAdEvents_mB0ABB29EFA209ADD1762C22EA5D58A9CFBA8BF9F (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5058,7 +5064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_ListenToAdEven
 		return;
 	}
 }
-// Method Definition Index: 54413
+// Method Definition Index: 53624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController__ctor_m334118A530634C5DE5D998FA681B7D50293F4818 (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5066,7 +5072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController__ctor_m334118A
 		return;
 	}
 }
-// Method Definition Index: 54414
+// Method Definition Index: 53625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdEventsU3Eb__15_0_m1620D154CF6687C85EC6FFDC59C0F493624CF068 (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5078,7 +5084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdE
 		return;
 	}
 }
-// Method Definition Index: 54415
+// Method Definition Index: 53626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdEventsU3Eb__15_1_m75FCB66CE4B079D7685D98D12282B216F03AA25F (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* ___0_error, const RuntimeMethod* method) 
 {
 	{
@@ -5090,7 +5096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdE
 		return;
 	}
 }
-// Method Definition Index: 54416
+// Method Definition Index: 53627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdEventsU3Eb__15_2_m61D154ED466D48ECCCDED0A9CC52265E74552EB2 (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* ___0_adValue, const RuntimeMethod* method) 
 {
 	{
@@ -5102,7 +5108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdE
 		return;
 	}
 }
-// Method Definition Index: 54417
+// Method Definition Index: 53628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdEventsU3Eb__15_3_mBCFBCB9C4A8D68FCB7681A96B536BC8E9911F431 (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5114,7 +5120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdE
 		return;
 	}
 }
-// Method Definition Index: 54418
+// Method Definition Index: 53629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdEventsU3Eb__15_4_mFF522A5D0AF03A1A85B9E961556C8E56FBF5481F (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5126,7 +5132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdE
 		return;
 	}
 }
-// Method Definition Index: 54419
+// Method Definition Index: 53630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdEventsU3Eb__15_5_mA5C2F600D237304508F49C8039D0D10C155D4FD1 (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5138,7 +5144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdE
 		return;
 	}
 }
-// Method Definition Index: 54420
+// Method Definition Index: 53631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdEventsU3Eb__15_6_m2BFBFC019B3B0202E29C3DA7D176A905671F47C5 (AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5158,7 +5164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobBannerViewController_U3CListenToAdE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54421
+// Method Definition Index: 53632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobControllerSKD8_Start_mF63B9A3B3204105A39BB17DCA16469594264BC42 (AdMobControllerSKD8_tE1BB257986955870F5A1B1BC7B00AC759A7E5329* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5216,7 +5222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobControllerSKD8_Start_mF63B9A3B32041
 		return;
 	}
 }
-// Method Definition Index: 54422
+// Method Definition Index: 53633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobControllerSKD8_HandleInitCompleteAction_m270884650E7A381E53EC58FC3AFFBF97A670AB74 (AdMobControllerSKD8_tE1BB257986955870F5A1B1BC7B00AC759A7E5329* __this, InitializationStatus_t550D061D96119B8458B9FC389FBA74A1DBEB1DDD* ___0_initstatus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5269,7 +5275,7 @@ IL_0029:
 		return;
 	}
 }
-// Method Definition Index: 54423
+// Method Definition Index: 53634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobControllerSKD8_OnAppStateChanged_m5A5A64115E27986D942BC11A9FC2D2D9F3F450C6 (AdMobControllerSKD8_tE1BB257986955870F5A1B1BC7B00AC759A7E5329* __this, int32_t ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5320,7 +5326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobControllerSKD8_OnAppStateChanged_m5
 		return;
 	}
 }
-// Method Definition Index: 54424
+// Method Definition Index: 53635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobControllerSKD8__ctor_m112132240FB62A16888A5491D9A56432BC35DF4F (AdMobControllerSKD8_tE1BB257986955870F5A1B1BC7B00AC759A7E5329* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5336,7 +5342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobControllerSKD8__ctor_m112132240FB62
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54425
+// Method Definition Index: 53636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m1881D9548A05647AFD38A6240C3B5A022980377C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5353,7 +5359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m1881D9548A05647AFD38A624
 		return;
 	}
 }
-// Method Definition Index: 54426
+// Method Definition Index: 53637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m0715288EF4915F54254F0D4FBBD708B5FBD56B0E (U3CU3Ec_tA547E9D3AB24742699677335F8610EF5EAB76CD0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5361,7 +5367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m0715288EF4915F54254F0D4FB
 		return;
 	}
 }
-// Method Definition Index: 54427
+// Method Definition Index: 53638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CHandleInitCompleteActionU3Eb__1_0_m2FFC2C19A98E474C88526F7CB9BBAC1FBC0F48E6 (U3CU3Ec_tA547E9D3AB24742699677335F8610EF5EAB76CD0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5377,7 +5383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CHandleInitCompleteActionU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54428
+// Method Definition Index: 53639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_mCF7E2CEAB5C43754BBAEFF2A75924E48491B10CE (U3CU3Ec__DisplayClass2_0_tAC71D1B162317890F9DA15A930E009E6398276AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5385,7 +5391,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_mCF7E2CEA
 		return;
 	}
 }
-// Method Definition Index: 54429
+// Method Definition Index: 53640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3COnAppStateChangedU3Eb__0_m074977D508204CFEB1583D5B30F10102E5742CE9 (U3CU3Ec__DisplayClass2_0_tAC71D1B162317890F9DA15A930E009E6398276AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5403,7 +5409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3COnAppStateCh
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54430
+// Method Definition Index: 53641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_LoadAd_mA0ADCD796AEE3280FD5AF6AE62F43F357228982A (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5485,7 +5491,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 54431
+// Method Definition Index: 53642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdMobInterstitialAdController_ShowAd_m395C040937688E7C9D13BE2EE64D39B2527BD828 (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -5525,7 +5531,7 @@ IL_0024:
 		return L_4;
 	}
 }
-// Method Definition Index: 54432
+// Method Definition Index: 53643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_DestroyAd_m2F9EBFCEC0ABCD9C7475050554D3EF2CB6FABA6F (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5552,7 +5558,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 54433
+// Method Definition Index: 53644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_LogResponseInfo_m38FF16735A40D7334653A26150313A8CBABF74D8 (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5586,7 +5592,7 @@ IL_0018:
 		return;
 	}
 }
-// Method Definition Index: 54434
+// Method Definition Index: 53645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_RegisterEventHandlers_m3ED800A6C37EF74FBCF19AAF8D9F827A384BFFA3 (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* ___0_ad, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5671,7 +5677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_RegisterEv
 		return;
 	}
 }
-// Method Definition Index: 54435
+// Method Definition Index: 53646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController__ctor_m09D517EF221183FEEEA21535E79B3FACE0E714BC (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5679,7 +5685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController__ctor_m09D
 		return;
 	}
 }
-// Method Definition Index: 54436
+// Method Definition Index: 53647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CLoadAdU3Eb__9_0_m0E80489988A31E8E6C4072A331782480F935BCFC (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* ___0_ad, LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5780,7 +5786,7 @@ IL_002e:
 		return;
 	}
 }
-// Method Definition Index: 54437
+// Method Definition Index: 53648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegisterEventHandlersU3Eb__13_0_m55383705734AEFF85E26DF6DB510CE14CA919960 (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* ___0_adValue, const RuntimeMethod* method) 
 {
 	{
@@ -5792,7 +5798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegiste
 		return;
 	}
 }
-// Method Definition Index: 54438
+// Method Definition Index: 53649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegisterEventHandlersU3Eb__13_1_m208776BE2FCC8FDCE1861E1A70270063E947DF32 (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5804,7 +5810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegiste
 		return;
 	}
 }
-// Method Definition Index: 54439
+// Method Definition Index: 53650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegisterEventHandlersU3Eb__13_2_mF31EB76BB955822B6F8CA51C7BDC12A5E843AE8F (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5816,7 +5822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegiste
 		return;
 	}
 }
-// Method Definition Index: 54440
+// Method Definition Index: 53651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegisterEventHandlersU3Eb__13_3_m1F7B20B81C15D25D6759DE9A00FC554940EAE193 (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5828,7 +5834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegiste
 		return;
 	}
 }
-// Method Definition Index: 54441
+// Method Definition Index: 53652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegisterEventHandlersU3Eb__13_4_m7425B68012AC5EA968EDBE987500DFB587F58700 (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5840,7 +5846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegiste
 		return;
 	}
 }
-// Method Definition Index: 54442
+// Method Definition Index: 53653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegisterEventHandlersU3Eb__13_5_mC08DE6E95954AC89F442EC269257AD17FEBCC10F (AdMobInterstitialAdController_t45F1CD36EBBD5467D72B835EC1369B77A06EC887* __this, AdError_tA3BF7518349885A73447524367693A096B3DD1AE* ___0_error, const RuntimeMethod* method) 
 {
 	{
@@ -5860,7 +5866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobInterstitialAdController_U3CRegiste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54443
+// Method Definition Index: 53654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_LoadAd_mF81129B837511B000923F5142CE69FED61281CFD (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5935,7 +5941,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 54444
+// Method Definition Index: 53655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_ShowAd_mE910BC78357E18CADF2E4A31B0D4271E72CE27EE (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6062,7 +6068,7 @@ IL_0074:
 		return;
 	}
 }
-// Method Definition Index: 54445
+// Method Definition Index: 53656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_DestroyAd_m75EAA54525ABC1FCB9EC9F48062F8F9DD45F583F (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6135,7 +6141,7 @@ IL_0043:
 		return;
 	}
 }
-// Method Definition Index: 54446
+// Method Definition Index: 53657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_LogResponseInfo_m32E69EE7012682F251AF94931D00BD47AD61F538 (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6169,7 +6175,7 @@ IL_0018:
 		return;
 	}
 }
-// Method Definition Index: 54447
+// Method Definition Index: 53658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_RegisterEventHandlers_m361074694D393C127576E219A49D939E85CCF210 (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* ___0_ad, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6254,7 +6260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_RegisterEventH
 		return;
 	}
 }
-// Method Definition Index: 54448
+// Method Definition Index: 53659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController__ctor_mFB6E57D2B3BBA4A539E46B5510E203C45364B38F (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6262,7 +6268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController__ctor_mFB6E57D
 		return;
 	}
 }
-// Method Definition Index: 54449
+// Method Definition Index: 53660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CLoadAdU3Eb__11_0_m295F32B37B67D70DEA40C279F11DE29F0A0396E4 (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* ___0_ad, LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6407,7 +6413,7 @@ IL_005c:
 		return;
 	}
 }
-// Method Definition Index: 54450
+// Method Definition Index: 53661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEventHandlersU3Eb__15_0_m55293C1A9B6E83366761E14D5AB19248A3DD8EEA (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* ___0_adValue, const RuntimeMethod* method) 
 {
 	{
@@ -6419,7 +6425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEve
 		return;
 	}
 }
-// Method Definition Index: 54451
+// Method Definition Index: 53662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEventHandlersU3Eb__15_1_m3EA961E283757B37E89E75D8EB96BDE3B2DB6BB4 (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6431,7 +6437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEve
 		return;
 	}
 }
-// Method Definition Index: 54452
+// Method Definition Index: 53663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEventHandlersU3Eb__15_2_m3D73FD43DF5D25769F69FA0C6AD7C76AB43FA358 (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6443,7 +6449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEve
 		return;
 	}
 }
-// Method Definition Index: 54453
+// Method Definition Index: 53664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEventHandlersU3Eb__15_3_m4DC4CEE93C45331354DCD4A244B0213E9C162490 (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6455,7 +6461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEve
 		return;
 	}
 }
-// Method Definition Index: 54454
+// Method Definition Index: 53665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEventHandlersU3Eb__15_4_mF04C6B8247CD18B00ADC8F34B96C2EE5724B7E6A (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6467,7 +6473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEve
 		return;
 	}
 }
-// Method Definition Index: 54455
+// Method Definition Index: 53666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEventHandlersU3Eb__15_5_m271B61BB9BA2B2FAECEC830EE3303F008358507D (AdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95* __this, AdError_tA3BF7518349885A73447524367693A096B3DD1AE* ___0_error, const RuntimeMethod* method) 
 {
 	{
@@ -6487,7 +6493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobRewardedAdController_U3CRegisterEve
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54456
+// Method Definition Index: 53667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mCB1A1DAC123D03D604AB97DF5929E62FA4E6AB49 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6504,7 +6510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mCB1A1DAC123D03D604AB97DF
 		return;
 	}
 }
-// Method Definition Index: 54457
+// Method Definition Index: 53668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC4C3B7E8F0F901D0E48A2CE3895D74D024E811B4 (U3CU3Ec_t61F3C6E7E5D8BD0C68D377215B8DB85EDB1C6A01* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6512,7 +6518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC4C3B7E8F0F901D0E48A2CE38
 		return;
 	}
 }
-// Method Definition Index: 54458
+// Method Definition Index: 53669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CShowAdU3Eb__12_0_mA6BE8FD03D29F728F0E1388658D52D4A30174BBD (U3CU3Ec_t61F3C6E7E5D8BD0C68D377215B8DB85EDB1C6A01* __this, Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511* ___0_reward, const RuntimeMethod* method) 
 {
 	{
@@ -6528,7 +6534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CShowAdU3Eb__12_0_mA6BE8FD03D2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54459
+// Method Definition Index: 53670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_Awake_mCB368C45A52C0420F3551EAF248BC39445454F5E (AdMobUMPController_tF0718A68184E74981D2B15A6C1FDC6BC71B9397A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6540,7 +6546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_Awake_mCB368C45A52C04
 		return;
 	}
 }
-// Method Definition Index: 54460
+// Method Definition Index: 53671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_Start_m042DBD0E2206919853DDE9FF3DB88004163967B8 (AdMobUMPController_tF0718A68184E74981D2B15A6C1FDC6BC71B9397A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6550,7 +6556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_Start_m042DBD0E220691
 		return;
 	}
 }
-// Method Definition Index: 54461
+// Method Definition Index: 53672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_UpdateConsentInformation_mCACE7A2DA5251AD8FA297B5865D716693D3A7D36 (AdMobUMPController_tF0718A68184E74981D2B15A6C1FDC6BC71B9397A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6604,7 +6610,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_UpdateConsentInformat
 		return;
 	}
 }
-// Method Definition Index: 54462
+// Method Definition Index: 53673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_OnConsentInformationUpdate_mA71649F71D97D604F210188C27514F966BF7D8DB (AdMobUMPController_tF0718A68184E74981D2B15A6C1FDC6BC71B9397A* __this, FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* ___0_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6658,7 +6664,7 @@ IL_0026:
 		return;
 	}
 }
-// Method Definition Index: 54463
+// Method Definition Index: 53674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_LoadConsentForm_m1D3A8B862E18342A04891009FE6E535BE394F3A3 (AdMobUMPController_tF0718A68184E74981D2B15A6C1FDC6BC71B9397A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6737,7 +6743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_LoadConsentForm_m1D3A
 		return;
 	}
 }
-// Method Definition Index: 54464
+// Method Definition Index: 53675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_ResetConsentInformation_mDED66B9670DB1FD5D6F670F94F44B66BD89521CC (AdMobUMPController_tF0718A68184E74981D2B15A6C1FDC6BC71B9397A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6757,7 +6763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_ResetConsentInformati
 		return;
 	}
 }
-// Method Definition Index: 54465
+// Method Definition Index: 53676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController__ctor_m9AB379EE0BD72E0B359B9F0491BBDB87DC011FF6 (AdMobUMPController_tF0718A68184E74981D2B15A6C1FDC6BC71B9397A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6797,7 +6803,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController__ctor_m9AB379EE0BD72E
 		return;
 	}
 }
-// Method Definition Index: 54466
+// Method Definition Index: 53677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_U3CLoadConsentFormU3Eb__6_0_mE832A7B6DC89D468195FCF7CC45F79F322AC3ED1 (AdMobUMPController_tF0718A68184E74981D2B15A6C1FDC6BC71B9397A* __this, ConsentForm_t5610A8E6FEE812A11649F04979CB8679F9B0E1EF* ___0_form, FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6991,7 +6997,7 @@ IL_0094:
 		return;
 	}
 }
-// Method Definition Index: 54467
+// Method Definition Index: 53678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdMobUMPController_U3CLoadConsentFormU3Eb__6_1_mAACCF545D059353FC671E60EFF5DBC3132FBDBD4 (AdMobUMPController_tF0718A68184E74981D2B15A6C1FDC6BC71B9397A* __this, FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* ___0_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7039,7 +7045,7 @@ IL_000a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54468
+// Method Definition Index: 53679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClickDetect_Start_mB35123509293D901535CD9B18E07D2BDDE13C929 (ClickDetect_tEDD5F2144E725E6513014DD275D904FF48CF511C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7059,7 +7065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClickDetect_Start_mB35123509293D901535CD
 		return;
 	}
 }
-// Method Definition Index: 54469
+// Method Definition Index: 53680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClickDetect_OnTriggerEnter_mE59F6C7DCE05DC98918996F83C99F9FD86036731 (ClickDetect_tEDD5F2144E725E6513014DD275D904FF48CF511C* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7117,7 +7123,7 @@ IL_003b:
 		return;
 	}
 }
-// Method Definition Index: 54470
+// Method Definition Index: 53681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClickDetect_OnTriggerExit_m2F51B5098549587CBE43BF4976FC10EC8599B18E (ClickDetect_tEDD5F2144E725E6513014DD275D904FF48CF511C* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7161,7 +7167,7 @@ IL_0029:
 		return;
 	}
 }
-// Method Definition Index: 54471
+// Method Definition Index: 53682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClickDetect__ctor_m0905570080D1257EE6DC88E7587ABD8620036B72 (ClickDetect_tEDD5F2144E725E6513014DD275D904FF48CF511C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7177,7 +7183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClickDetect__ctor_m0905570080D1257EE6DC8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54472
+// Method Definition Index: 53683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeCameraControl_Start_m498F646288B1EB8FB982830968B335FC5672254E (CubeCameraControl_tA65D36F89544ED6D3A861545BA537B8C05229A3C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7200,7 +7206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeCameraControl_Start_m498F646288B1EB8
 		return;
 	}
 }
-// Method Definition Index: 54473
+// Method Definition Index: 53684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeCameraControl_Update_m8CA3C10599B90267020F4DB613C1D7FDD1B7F94C (CubeCameraControl_tA65D36F89544ED6D3A861545BA537B8C05229A3C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7229,7 +7235,7 @@ IL_000d:
 		return;
 	}
 }
-// Method Definition Index: 54474
+// Method Definition Index: 53685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeCameraControl_controlWithTouch_m0D7E74C78785C066F31411D8A8C551C2AC3468CD (CubeCameraControl_tA65D36F89544ED6D3A861545BA537B8C05229A3C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8004,7 +8010,7 @@ IL_0593:
 		return;
 	}
 }
-// Method Definition Index: 54475
+// Method Definition Index: 53686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeCameraControl__ctor_mC5BC425B979A5E048406C4CAF039C91F4920A186 (CubeCameraControl_tA65D36F89544ED6D3A861545BA537B8C05229A3C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8028,7 +8034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeCameraControl__ctor_mC5BC425B979A5E0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54476
+// Method Definition Index: 53687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_Start_mA22B0BA9CCB343383211430C7C8780E913B308BA (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8068,7 +8074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_Start_mA22B0BA9CCB3433832114
 		return;
 	}
 }
-// Method Definition Index: 54477
+// Method Definition Index: 53688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_Update_mC1C97EE07C4C4B709724A0A417C6F19419CF01BC (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8110,7 +8116,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 54478
+// Method Definition Index: 53689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_FixedUpdate_mC9A3DF59269648AA574CD27A45FEE1D1C14DF2DF (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8139,7 +8145,7 @@ IL_000d:
 		return;
 	}
 }
-// Method Definition Index: 54479
+// Method Definition Index: 53690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_cubeSwipe_m8D32F42E540FFDC194B208046F42C3A4F0E547A1 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8263,7 +8269,7 @@ IL_00a9:
 		return;
 	}
 }
-// Method Definition Index: 54480
+// Method Definition Index: 53691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_SmootCubeSwipe_m3EE6C9C23BDB48F55288FB125DE97FDEC4300A05 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, Touch_t03E51455ED508492B3F278903A0114FA0E87B417 ___0_touch, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9082,7 +9088,7 @@ IL_046a:
 		return;
 	}
 }
-// Method Definition Index: 54481
+// Method Definition Index: 53692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_Rotate_mE9E541B26B296A1CA9F1D36167D92F31AB330067 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9270,7 +9276,7 @@ IL_015f:
 		return;
 	}
 }
-// Method Definition Index: 54482
+// Method Definition Index: 53693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_startRotate_mD431208BCD98CE4254F843A49E94F57BB09FA91B (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9338,7 +9344,7 @@ IL_007a:
 		return;
 	}
 }
-// Method Definition Index: 54483
+// Method Definition Index: 53694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_shuffleCube_mD7540E971017A6363E08D0DC1E206FC06B4EE892 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___0_button, const RuntimeMethod* method) 
 {
 	{
@@ -9352,7 +9358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_shuffleCube_mD7540E971017A63
 		return;
 	}
 }
-// Method Definition Index: 54484
+// Method Definition Index: 53695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CubeControl_shuffleCoroutine_mEA0DB2BAECC6C4CAC88BBBF2967FC705CFCCF682 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___0_button, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9376,7 +9382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CubeControl_shuffleCoroutine_m
 		return L_2;
 	}
 }
-// Method Definition Index: 54485
+// Method Definition Index: 53696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_resetRubicCube_m71E0AC193A8E3B0A7E0A1D660702934535F7EDC7 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9648,7 +9654,7 @@ IL_015f:
 		return;
 	}
 }
-// Method Definition Index: 54486
+// Method Definition Index: 53697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_resetRubicCube_m9BD19EE68C75FFF0D16AE9463B3A5C0E09F8AA15 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___0_button, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9871,7 +9877,7 @@ IL_010c:
 		return;
 	}
 }
-// Method Definition Index: 54487
+// Method Definition Index: 53698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CubeControl_restartSuffleHelper_mCCEEF85D7685F8A04C316D6FF808DC44AC3A891A (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___0_button, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9895,7 +9901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CubeControl_restartSuffleHelpe
 		return L_2;
 	}
 }
-// Method Definition Index: 54488
+// Method Definition Index: 53699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_rubicToList_m22E4351D818C024CF96294F320AE8CD5A749ED34 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_cube, List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___1_itemsList, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9957,7 +9963,7 @@ IL_0026:
 		return;
 	}
 }
-// Method Definition Index: 54489
+// Method Definition Index: 53700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_isResolveCube_m094B46F4E6EF022777C8577317956425C2C4A995 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10194,7 +10200,7 @@ IL_00e3:
 		return;
 	}
 }
-// Method Definition Index: 54490
+// Method Definition Index: 53701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_VictoryCelebration_mE8C0452124BEBEF59358E7954253CF07B1774F8A (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10629,7 +10635,7 @@ IL_028f:
 		return;
 	}
 }
-// Method Definition Index: 54491
+// Method Definition Index: 53702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_SaveBestTime_m4FFE25075A47314A4A2E4B45616F872BB6B7E3DC (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, String_t* ___0_time, int32_t ___1_moves, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11103,7 +11109,7 @@ IL_03a1:
 		return;
 	}
 }
-// Method Definition Index: 54492
+// Method Definition Index: 53703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_getBestTimes_mA7F458A2030B2C7BE681066D37A5E1A595ED7FC7 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_bestTimeLabel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11396,7 +11402,7 @@ IL_01c1:
 		return;
 	}
 }
-// Method Definition Index: 54493
+// Method Definition Index: 53704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_rotateForKociemba_mF8197A7C638E8725E2576BB04B698DF0F6C97A69 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, String_t* ___0_solution, const RuntimeMethod* method) 
 {
 	{
@@ -11410,7 +11416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_rotateForKociemba_mF8197A7C6
 		return;
 	}
 }
-// Method Definition Index: 54494
+// Method Definition Index: 53705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CubeControl_rotateHelperForKociembaForEveryTouch_m77CE369272E4DE9803FB2BD5C9715E3DCA502B1C (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, String_t* ___0_solution, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11434,7 +11440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CubeControl_rotateHelperForKoc
 		return L_2;
 	}
 }
-// Method Definition Index: 54495
+// Method Definition Index: 53706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, bool ___0_rotateClockWise, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11555,7 +11561,7 @@ IL_0090:
 		return;
 	}
 }
-// Method Definition Index: 54496
+// Method Definition Index: 53707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_rotateAndFixCubeForKociembaStart_m09955B154930A98D4F5850B04FAE6C7D5288A3B3 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___0_faceDetectors, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_solve_Btn, const RuntimeMethod* method) 
 {
 	{
@@ -11570,7 +11576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_rotateAndFixCubeForKociembaS
 		return;
 	}
 }
-// Method Definition Index: 54497
+// Method Definition Index: 53708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CubeControl_rotateAndFixCubeForKociembaForEveryTouch_mC04D8430801C30249B24FAFCB627F3E780714AC2 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___0_faceDetectors, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_solveBtn, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11594,7 +11600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CubeControl_rotateAndFixCubeFo
 		return L_2;
 	}
 }
-// Method Definition Index: 54498
+// Method Definition Index: 53709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl__ctor_mEA97073A6A59F0ADA00BFC4841033F006C1C2163 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11610,7 +11616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl__ctor_mEA97073A6A59F0ADA00BF
 		return;
 	}
 }
-// Method Definition Index: 54499
+// Method Definition Index: 53710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CshuffleCoroutineU3Eb__44_0_m6C5AC343A1E9EE534434B3DFDD24481C3E96911E (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11619,7 +11625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CshuffleCoroutineU3Eb__44_
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 54500
+// Method Definition Index: 53711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateHelperForKociembaForEveryTouchU3Eb__56_0_mD6AF43E388AAE3D15DB796D8205E3929591C4021 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11628,7 +11634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateHelperForKociembaFo
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 54501
+// Method Definition Index: 53712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateHelperForKociembaForEveryTouchU3Eb__56_1_mDD48E5A9C68C1BBC9299384EFCA71D22A1AED259 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11637,7 +11643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateHelperForKociembaFo
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 54502
+// Method Definition Index: 53713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateAndFixCubeForKociembaForEveryTouchU3Eb__59_0_mA421B3ADF2009F570164C8F8D879FA9F970CD24C (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11646,7 +11652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateAndFixCubeForKociem
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 54503
+// Method Definition Index: 53714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateAndFixCubeForKociembaForEveryTouchU3Eb__59_1_m8B39F9FA134F8B218399AA87CF74F44463974391 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11655,7 +11661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateAndFixCubeForKociem
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 54504
+// Method Definition Index: 53715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateAndFixCubeForKociembaForEveryTouchU3Eb__59_2_m9FBD00E806B279EFF84B9BC672277C0665A21227 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11726,7 +11732,7 @@ IL2CPP_EXTERN_C void BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54506
+// Method Definition Index: 53717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m5970F8DEF06CF33E88A56CB4521A17D763969DD0 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11743,7 +11749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m5970F8DEF06CF33E88A56CB4
 		return;
 	}
 }
-// Method Definition Index: 54507
+// Method Definition Index: 53718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mDEABE45B3DA3E505EC4A51F5AF0EFDF415BA37DF (U3CU3Ec_t1CEB3FCD19C41A6020FF5DD2D0FA8263BAFB61E0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11751,7 +11757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mDEABE45B3DA3E505EC4A51F5A
 		return;
 	}
 }
-// Method Definition Index: 54508
+// Method Definition Index: 53719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CVictoryCelebrationU3Eb__50_0_m999790ACAECF81224D7EBC86343BAAB443F17A8C (U3CU3Ec_t1CEB3FCD19C41A6020FF5DD2D0FA8263BAFB61E0* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11791,7 +11797,7 @@ IL_001e:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 54509
+// Method Definition Index: 53720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CSaveBestTimeU3Eb__53_0_m3925B774897A6951B80EAEFAD8658605FB2AA1B5 (U3CU3Ec_t1CEB3FCD19C41A6020FF5DD2D0FA8263BAFB61E0* __this, BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 ___0_x, BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -11814,7 +11820,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CSaveBestTimeU3Eb__53_0_m39
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54510
+// Method Definition Index: 53721
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_0__ctor_m97D9C52C876F5AB71C187E01AD4D17F9F11338A7 (U3CU3Ec__DisplayClass45_0_t67FBCCEAF566E1AEB9436D9D0E4D3C667467144F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11822,7 +11828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_0__ctor_m97D9C52
 		return;
 	}
 }
-// Method Definition Index: 54511
+// Method Definition Index: 53722
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass45_0_U3CresetRubicCubeU3Eb__0_m1CE6A16115ECAF7538411DB4EB329D752202BFA0 (U3CU3Ec__DisplayClass45_0_t67FBCCEAF566E1AEB9436D9D0E4D3C667467144F* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_x, const RuntimeMethod* method) 
 {
 	{
@@ -11848,7 +11854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass45_0_U3CresetRubicC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54512
+// Method Definition Index: 53723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_1__ctor_m1F84B89C257E51E79DE1198332E2C65D0F0F448C (U3CU3Ec__DisplayClass45_1_t76F558BD032A2304F299ADDB1C6944BBCEE22AE4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11856,7 +11862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_1__ctor_m1F84B89
 		return;
 	}
 }
-// Method Definition Index: 54513
+// Method Definition Index: 53724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass45_1_U3CresetRubicCubeU3Eb__1_m5A9E8746453746E94104F7DB6C798DCC17AA7291 (U3CU3Ec__DisplayClass45_1_t76F558BD032A2304F299ADDB1C6944BBCEE22AE4* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_x, const RuntimeMethod* method) 
 {
 	{
@@ -11885,7 +11891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass45_1_U3CresetRubicC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54514
+// Method Definition Index: 53725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0__ctor_m61E28ED33BB3A29838092189643615411483B697 (U3CU3Ec__DisplayClass46_0_t6155D2E7F1FCFF6A99962CAF637672D714373499* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11893,7 +11899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0__ctor_m61E28ED
 		return;
 	}
 }
-// Method Definition Index: 54515
+// Method Definition Index: 53726
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass46_0_U3CresetRubicCubeU3Eb__0_mDAB02B4E533F86848A03B546CE881E60A98AFD85 (U3CU3Ec__DisplayClass46_0_t6155D2E7F1FCFF6A99962CAF637672D714373499* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_x, const RuntimeMethod* method) 
 {
 	{
@@ -11919,7 +11925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass46_0_U3CresetRubicC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54516
+// Method Definition Index: 53727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_1__ctor_m67A54EC60A03EAF88245B0D578289A5D9CB8FB57 (U3CU3Ec__DisplayClass46_1_tAFB36E6213F77AEEE4A72B9116F40EEDBC903D07* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11927,7 +11933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_1__ctor_m67A54EC
 		return;
 	}
 }
-// Method Definition Index: 54517
+// Method Definition Index: 53728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass46_1_U3CresetRubicCubeU3Eb__1_mC006F8AE4FFEABC3C29A9699A9D8EAD388043F4A (U3CU3Ec__DisplayClass46_1_tAFB36E6213F77AEEE4A72B9116F40EEDBC903D07* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_x, const RuntimeMethod* method) 
 {
 	{
@@ -11956,7 +11962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass46_1_U3CresetRubicC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54518
+// Method Definition Index: 53729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrestartSuffleHelperU3Ed__47__ctor_m8F577C3CBFD4068BB05673FFAE5B671B3006E6EF (U3CrestartSuffleHelperU3Ed__47_tC533F518ABD2601D85C22332CADD1F0D2FE45A1D* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -11966,14 +11972,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrestartSuffleHelperU3Ed__47__ctor_m8F
 		return;
 	}
 }
-// Method Definition Index: 54519
+// Method Definition Index: 53730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrestartSuffleHelperU3Ed__47_System_IDisposable_Dispose_m65589FE310A73F977409D0483EDBFF2B27B9D13E (U3CrestartSuffleHelperU3Ed__47_tC533F518ABD2601D85C22332CADD1F0D2FE45A1D* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 54520
+// Method Definition Index: 53731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CrestartSuffleHelperU3Ed__47_MoveNext_m3A52CF20F85DCD1D8721921E2B69A83EA03AF194 (U3CrestartSuffleHelperU3Ed__47_tC533F518ABD2601D85C22332CADD1F0D2FE45A1D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12030,7 +12036,7 @@ IL_0032:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 54521
+// Method Definition Index: 53732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrestartSuffleHelperU3Ed__47_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF16B24A1343E4C2A2CB3DECC220726282AA84E75 (U3CrestartSuffleHelperU3Ed__47_tC533F518ABD2601D85C22332CADD1F0D2FE45A1D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12038,7 +12044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrestartSuffleHelperU3Ed__47
 		return L_0;
 	}
 }
-// Method Definition Index: 54522
+// Method Definition Index: 53733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrestartSuffleHelperU3Ed__47_System_Collections_IEnumerator_Reset_m83A2C3104B79D1404C3F42015D0A24AB60CB6731 (U3CrestartSuffleHelperU3Ed__47_tC533F518ABD2601D85C22332CADD1F0D2FE45A1D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12047,7 +12053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrestartSuffleHelperU3Ed__47_System_Co
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CrestartSuffleHelperU3Ed__47_System_Collections_IEnumerator_Reset_m83A2C3104B79D1404C3F42015D0A24AB60CB6731_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 54523
+// Method Definition Index: 53734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrestartSuffleHelperU3Ed__47_System_Collections_IEnumerator_get_Current_m59429FF7E0D105F4558DF3EEB8C8820AF3C89B8C (U3CrestartSuffleHelperU3Ed__47_tC533F518ABD2601D85C22332CADD1F0D2FE45A1D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12063,7 +12069,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrestartSuffleHelperU3Ed__47
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54524
+// Method Definition Index: 53735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59__ctor_m51DE25E41536FA20A7D8C17979D7492A4FFADE7E (U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_tB85780E17474EBF18488F42F9E508A0099CCAC71* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12073,14 +12079,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrotateAndFixCubeForKociembaForEveryTo
 		return;
 	}
 }
-// Method Definition Index: 54525
+// Method Definition Index: 53736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_System_IDisposable_Dispose_mC3949D9005287B0F0C9986A6C354AFFCA4981580 (U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_tB85780E17474EBF18488F42F9E508A0099CCAC71* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 54526
+// Method Definition Index: 53737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_MoveNext_m9CF327F69BCA3F5C15DB16E95E4696086E3D9B9E (U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_tB85780E17474EBF18488F42F9E508A0099CCAC71* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12610,7 +12616,7 @@ IL_0371:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 54527
+// Method Definition Index: 53738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9A126EA6B0862F648FE66F5E3629870FE0FC280E (U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_tB85780E17474EBF18488F42F9E508A0099CCAC71* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12618,7 +12624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrotateAndFixCubeForKociemba
 		return L_0;
 	}
 }
-// Method Definition Index: 54528
+// Method Definition Index: 53739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_System_Collections_IEnumerator_Reset_mFA64798367641EB8C799AF21DA24E1A84C97525B (U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_tB85780E17474EBF18488F42F9E508A0099CCAC71* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12627,7 +12633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrotateAndFixCubeForKociembaForEveryTo
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_System_Collections_IEnumerator_Reset_mFA64798367641EB8C799AF21DA24E1A84C97525B_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 54529
+// Method Definition Index: 53740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_System_Collections_IEnumerator_get_Current_m8C311C8B106D471B579B3DA245341C7D416706CC (U3CrotateAndFixCubeForKociembaForEveryTouchU3Ed__59_tB85780E17474EBF18488F42F9E508A0099CCAC71* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12643,7 +12649,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrotateAndFixCubeForKociemba
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54530
+// Method Definition Index: 53741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrotateHelperForKociembaForEveryTouchU3Ed__56__ctor_mEBADAE5D5EFCA7D8D4C52A7067E165DCC526B46B (U3CrotateHelperForKociembaForEveryTouchU3Ed__56_t4359846DF38FE8083CB4FCFC5A54D8A92B403CCA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12653,14 +12659,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrotateHelperForKociembaForEveryTouchU
 		return;
 	}
 }
-// Method Definition Index: 54531
+// Method Definition Index: 53742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrotateHelperForKociembaForEveryTouchU3Ed__56_System_IDisposable_Dispose_m1B3421046F5C659A19E121DC356740C6D7095A25 (U3CrotateHelperForKociembaForEveryTouchU3Ed__56_t4359846DF38FE8083CB4FCFC5A54D8A92B403CCA* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 54532
+// Method Definition Index: 53743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CrotateHelperForKociembaForEveryTouchU3Ed__56_MoveNext_mA6866E779C152F7AA577C54B9F1AEDE81AD25E39 (U3CrotateHelperForKociembaForEveryTouchU3Ed__56_t4359846DF38FE8083CB4FCFC5A54D8A92B403CCA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13081,7 +13087,7 @@ IL_024f:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 54533
+// Method Definition Index: 53744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrotateHelperForKociembaForEveryTouchU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m66989F53F52FDCE57705F0031479210D49617022 (U3CrotateHelperForKociembaForEveryTouchU3Ed__56_t4359846DF38FE8083CB4FCFC5A54D8A92B403CCA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13089,7 +13095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrotateHelperForKociembaForE
 		return L_0;
 	}
 }
-// Method Definition Index: 54534
+// Method Definition Index: 53745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrotateHelperForKociembaForEveryTouchU3Ed__56_System_Collections_IEnumerator_Reset_mA12573BD8EFE8AA4E4F88CC70A19FC0EAF1B9349 (U3CrotateHelperForKociembaForEveryTouchU3Ed__56_t4359846DF38FE8083CB4FCFC5A54D8A92B403CCA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13098,7 +13104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CrotateHelperForKociembaForEveryTouchU
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CrotateHelperForKociembaForEveryTouchU3Ed__56_System_Collections_IEnumerator_Reset_mA12573BD8EFE8AA4E4F88CC70A19FC0EAF1B9349_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 54535
+// Method Definition Index: 53746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrotateHelperForKociembaForEveryTouchU3Ed__56_System_Collections_IEnumerator_get_Current_m76AF22F6480734D246E84ED6B7864057292690FB (U3CrotateHelperForKociembaForEveryTouchU3Ed__56_t4359846DF38FE8083CB4FCFC5A54D8A92B403CCA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13114,7 +13120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrotateHelperForKociembaForE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54536
+// Method Definition Index: 53747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshuffleCoroutineU3Ed__44__ctor_m0C378BC4D49A55ED2EA181E321BD4027F76B8BD3 (U3CshuffleCoroutineU3Ed__44_t01F9CE1BBE3F689275D05D2F76E782BE347A6F62* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -13124,14 +13130,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshuffleCoroutineU3Ed__44__ctor_m0C378
 		return;
 	}
 }
-// Method Definition Index: 54537
+// Method Definition Index: 53748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshuffleCoroutineU3Ed__44_System_IDisposable_Dispose_m0AE4D18C4DEAD5C7B7F5E271756B6DA7E3E5EAC3 (U3CshuffleCoroutineU3Ed__44_t01F9CE1BBE3F689275D05D2F76E782BE347A6F62* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 54538
+// Method Definition Index: 53749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CshuffleCoroutineU3Ed__44_MoveNext_m99F979D2E80F02F9EFF2DFA8C1B7183D63908A17 (U3CshuffleCoroutineU3Ed__44_t01F9CE1BBE3F689275D05D2F76E782BE347A6F62* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13609,7 +13615,7 @@ IL_0295:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 54539
+// Method Definition Index: 53750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshuffleCoroutineU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2B2AC2BF902C6010E2CE0FD4F293F7D9340C098B (U3CshuffleCoroutineU3Ed__44_t01F9CE1BBE3F689275D05D2F76E782BE347A6F62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13617,7 +13623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshuffleCoroutineU3Ed__44_Sy
 		return L_0;
 	}
 }
-// Method Definition Index: 54540
+// Method Definition Index: 53751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshuffleCoroutineU3Ed__44_System_Collections_IEnumerator_Reset_m062588223C79FAC5A143D9A780ACFD5E7B73D644 (U3CshuffleCoroutineU3Ed__44_t01F9CE1BBE3F689275D05D2F76E782BE347A6F62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13626,7 +13632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshuffleCoroutineU3Ed__44_System_Colle
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CshuffleCoroutineU3Ed__44_System_Collections_IEnumerator_Reset_m062588223C79FAC5A143D9A780ACFD5E7B73D644_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 54541
+// Method Definition Index: 53752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshuffleCoroutineU3Ed__44_System_Collections_IEnumerator_get_Current_mCB5CCCB2E7C7CC9015AE959DEB8A6FE814E0C0F0 (U3CshuffleCoroutineU3Ed__44_t01F9CE1BBE3F689275D05D2F76E782BE347A6F62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13642,7 +13648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshuffleCoroutineU3Ed__44_Sy
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54542
+// Method Definition Index: 53753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeFaceColorDetect_Start_m59F0E0DC9D12DAD6923BEFA1F2DE6BC901852B76 (CubeFaceColorDetect_tEF67D94FCC430E0D3CAA4F6E4CAB10812299917B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13662,7 +13668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeFaceColorDetect_Start_m59F0E0DC9D12D
 		return;
 	}
 }
-// Method Definition Index: 54543
+// Method Definition Index: 53754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeFaceColorDetect_OnTriggerEnter_m87DEC4AD82AC13495A28B3CA40E418486A2DD159 (CubeFaceColorDetect_tEF67D94FCC430E0D3CAA4F6E4CAB10812299917B* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13871,7 +13877,7 @@ IL_0124:
 		return;
 	}
 }
-// Method Definition Index: 54544
+// Method Definition Index: 53755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeFaceColorDetect_OnTriggerExit_mBF292F6834B2C0525D574A61605FC8985DA6985E (CubeFaceColorDetect_tEF67D94FCC430E0D3CAA4F6E4CAB10812299917B* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14066,7 +14072,7 @@ IL_010f:
 		return;
 	}
 }
-// Method Definition Index: 54545
+// Method Definition Index: 53756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CubeFaceColorDetect_getSearchSubStrings_m627EEE1D010F1940CC8676429B10BCCB589EE9CB (CubeFaceColorDetect_tEF67D94FCC430E0D3CAA4F6E4CAB10812299917B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14129,7 +14135,7 @@ IL_002b:
 		return L_11;
 	}
 }
-// Method Definition Index: 54546
+// Method Definition Index: 53757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeFaceColorDetect__ctor_m994775E161C149DDE3FEFE526099146F8AA7463E (CubeFaceColorDetect_tEF67D94FCC430E0D3CAA4F6E4CAB10812299917B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14145,7 +14151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeFaceColorDetect__ctor_m994775E161C14
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54547
+// Method Definition Index: 53758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalVariable__cctor_m1A62D9C71E287254AFC2EA70671E6CFA0A3326A9 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14178,7 +14184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalVariable__cctor_m1A62D9C71E287254A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54548
+// Method Definition Index: 53759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_Start_mA135C6696200321768F5CD88409E8F49F3F2E1B0 (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14186,7 +14192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_Start_mA135C669620032176
 		return;
 	}
 }
-// Method Definition Index: 54549
+// Method Definition Index: 53760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_UnityServicesInitial_m15B971919A2639948BA7BBDB1EF747A29AE2CC31 (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14219,7 +14225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_UnityServicesInitial_m15
 		return;
 	}
 }
-// Method Definition Index: 54550
+// Method Definition Index: 53761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_LoadCatalog_m13440442FD83B74E24173F949324D1F4A0BF96E5 (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14240,120 +14246,158 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_LoadCatalog_m13440442FD8
 	ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	ProductCatalogItem_tBBB809AC7547B118E718170833CB6729F80F4215* V_2 = NULL;
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:43>
-		ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* L_0;
-		L_0 = Resources_LoadAsync_TisTextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69_m9413FFB36F20D4352B34C910303A1B90D3259D81(_stringLiteralFDFB95D88D302FE3783E3EC9EC0F5494FF55AC4D, Resources_LoadAsync_TisTextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69_m9413FFB36F20D4352B34C910303A1B90D3259D81_RuntimeMethod_var);
-		NullCheck(L_0);
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1;
-		L_1 = ResourceRequest_get_asset_m740C394902843D080795A49372A2AB3CE9705087(L_0, NULL);
-		NullCheck(((TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69*)IsInstClass((RuntimeObject*)L_1, TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69_il2cpp_TypeInfo_var)));
-		String_t* L_2;
-		L_2 = TextAsset_get_text_m36846042E3CF3D9DD337BF3F8B2B1902D10C8FD9(((TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69*)IsInstClass((RuntimeObject*)L_1, TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69_il2cpp_TypeInfo_var)), NULL);
-		ProductCatalog_t6F6B11865D55D089683F954BB3B223C00B33F8E1* L_3;
-		L_3 = JsonUtility_FromJson_TisProductCatalog_t6F6B11865D55D089683F954BB3B223C00B33F8E1_mC359B6C88E7C23D72C53F6B6EDE1AA0DE9B5092D(L_2, JsonUtility_FromJson_TisProductCatalog_t6F6B11865D55D089683F954BB3B223C00B33F8E1_mC359B6C88E7C23D72C53F6B6EDE1AA0DE9B5092D_RuntimeMethod_var);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:49>
-		il2cpp_codegen_runtime_class_init_inline(StandardPurchasingModule_t988B3F7D9F73F5C6458E0DBB35AC92CDD3DA2489_il2cpp_TypeInfo_var);
-		StandardPurchasingModule_t988B3F7D9F73F5C6458E0DBB35AC92CDD3DA2489* L_4;
-		L_4 = StandardPurchasingModule_Instance_m3744500352443C6EAED3EC8285FED73A4D166ADE(1, NULL);
-		IPurchasingModuleU5BU5D_t22376E8A94924F3A1ABB5C37A4D985015234036A* L_5;
-		L_5 = Array_Empty_TisIPurchasingModule_t60E830BBA4F2DF8765D08BA4CE5A6E004D0DDAE7_m25AB0A37E084D175E7F351C61AEA6063A156A69F_inline(Array_Empty_TisIPurchasingModule_t60E830BBA4F2DF8765D08BA4CE5A6E004D0DDAE7_m25AB0A37E084D175E7F351C61AEA6063A156A69F_RuntimeMethod_var);
-		ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* L_6;
-		L_6 = ConfigurationBuilder_Instance_m97BE1AE46DEFBB13DE8A091699D5E274CBC4E0FF(L_4, L_5, NULL);
-		V_0 = L_6;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:56>
-		NullCheck(L_3);
-		RuntimeObject* L_7;
-		L_7 = ProductCatalog_get_allProducts_m93A191445C8495D516A695D8708996C8790EF1C7_inline(L_3, NULL);
-		NullCheck(L_7);
-		RuntimeObject* L_8;
-		L_8 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IEnumerable_1_t1E8D1779ABD1E98623257F896B4FC7F02C56205B_il2cpp_TypeInfo_var, L_7);
-		V_1 = L_8;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:45>
+			ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* L_0;
+			L_0 = Resources_LoadAsync_TisTextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69_m9413FFB36F20D4352B34C910303A1B90D3259D81(_stringLiteralFDFB95D88D302FE3783E3EC9EC0F5494FF55AC4D, Resources_LoadAsync_TisTextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69_m9413FFB36F20D4352B34C910303A1B90D3259D81_RuntimeMethod_var);
+			NullCheck(L_0);
+			Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1;
+			L_1 = ResourceRequest_get_asset_m740C394902843D080795A49372A2AB3CE9705087(L_0, NULL);
+			NullCheck(((TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69*)IsInstClass((RuntimeObject*)L_1, TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69_il2cpp_TypeInfo_var)));
+			String_t* L_2;
+			L_2 = TextAsset_get_text_m36846042E3CF3D9DD337BF3F8B2B1902D10C8FD9(((TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69*)IsInstClass((RuntimeObject*)L_1, TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69_il2cpp_TypeInfo_var)), NULL);
+			ProductCatalog_t6F6B11865D55D089683F954BB3B223C00B33F8E1* L_3;
+			L_3 = JsonUtility_FromJson_TisProductCatalog_t6F6B11865D55D089683F954BB3B223C00B33F8E1_mC359B6C88E7C23D72C53F6B6EDE1AA0DE9B5092D(L_2, JsonUtility_FromJson_TisProductCatalog_t6F6B11865D55D089683F954BB3B223C00B33F8E1_mC359B6C88E7C23D72C53F6B6EDE1AA0DE9B5092D_RuntimeMethod_var);
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:51>
+			il2cpp_codegen_runtime_class_init_inline(StandardPurchasingModule_t988B3F7D9F73F5C6458E0DBB35AC92CDD3DA2489_il2cpp_TypeInfo_var);
+			StandardPurchasingModule_t988B3F7D9F73F5C6458E0DBB35AC92CDD3DA2489* L_4;
+			L_4 = StandardPurchasingModule_Instance_m3744500352443C6EAED3EC8285FED73A4D166ADE(1, NULL);
+			IPurchasingModuleU5BU5D_t22376E8A94924F3A1ABB5C37A4D985015234036A* L_5;
+			L_5 = Array_Empty_TisIPurchasingModule_t60E830BBA4F2DF8765D08BA4CE5A6E004D0DDAE7_m25AB0A37E084D175E7F351C61AEA6063A156A69F_inline(Array_Empty_TisIPurchasingModule_t60E830BBA4F2DF8765D08BA4CE5A6E004D0DDAE7_m25AB0A37E084D175E7F351C61AEA6063A156A69F_RuntimeMethod_var);
+			ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* L_6;
+			L_6 = ConfigurationBuilder_Instance_m97BE1AE46DEFBB13DE8A091699D5E274CBC4E0FF(L_4, L_5, NULL);
+			V_0 = L_6;
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:58>
+			NullCheck(L_3);
+			RuntimeObject* L_7;
+			L_7 = ProductCatalog_get_allProducts_m93A191445C8495D516A695D8708996C8790EF1C7_inline(L_3, NULL);
+			NullCheck(L_7);
+			RuntimeObject* L_8;
+			L_8 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IEnumerable_1_t1E8D1779ABD1E98623257F896B4FC7F02C56205B_il2cpp_TypeInfo_var, L_7);
+			V_1 = L_8;
+		}
+		{
+			auto __finallyBlock = il2cpp::utils::Finally([&]
+			{
 
-FINALLY_0060:
+FINALLY_0060_1:
+				{
+					{
+						RuntimeObject* L_9 = V_1;
+						if (!L_9)
+						{
+							goto IL_0069_1;
+						}
+					}
+					{
+						RuntimeObject* L_10 = V_1;
+						NullCheck(L_10);
+						InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_10);
+					}
+
+IL_0069_1:
+					{
+						return;
+					}
+				}
+			});
+			try
 			{
 				{
-					RuntimeObject* L_9 = V_1;
-					if (!L_9)
+					goto IL_0056_2;
+				}
+
+IL_003c_2:
+				{
+					//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:58>
+					RuntimeObject* L_11 = V_1;
+					NullCheck(L_11);
+					ProductCatalogItem_tBBB809AC7547B118E718170833CB6729F80F4215* L_12;
+					L_12 = InterfaceFuncInvoker0< ProductCatalogItem_tBBB809AC7547B118E718170833CB6729F80F4215* >::Invoke(0, IEnumerator_1_t9CA73EDA51927153AB5C0B450478F319FE02D8EF_il2cpp_TypeInfo_var, L_11);
+					V_2 = L_12;
+					//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:60>
+					ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* L_13 = V_0;
+					ProductCatalogItem_tBBB809AC7547B118E718170833CB6729F80F4215* L_14 = V_2;
+					NullCheck(L_14);
+					String_t* L_15 = L_14->___id;
+					ProductCatalogItem_tBBB809AC7547B118E718170833CB6729F80F4215* L_16 = V_2;
+					NullCheck(L_16);
+					int32_t L_17 = L_16->___type;
+					NullCheck(L_13);
+					ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* L_18;
+					L_18 = ConfigurationBuilder_AddProduct_m5185C9211186D4C7D0434CE373E38E76F57BD212(L_13, L_15, L_17, NULL);
+				}
+
+IL_0056_2:
+				{
+					//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:58>
+					RuntimeObject* L_19 = V_1;
+					NullCheck(L_19);
+					bool L_20;
+					L_20 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_19);
+					if (L_20)
 					{
-						goto IL_0069;
+						goto IL_003c_2;
 					}
 				}
 				{
-					RuntimeObject* L_10 = V_1;
-					NullCheck(L_10);
-					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_10);
-				}
-
-IL_0069:
-				{
-					return;
+					goto IL_006a_1;
 				}
 			}
-		});
-		try
-		{
+			catch(Il2CppExceptionWrapper& e)
 			{
-				goto IL_0056_1;
-			}
-
-IL_003c_1:
-			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:56>
-				RuntimeObject* L_11 = V_1;
-				NullCheck(L_11);
-				ProductCatalogItem_tBBB809AC7547B118E718170833CB6729F80F4215* L_12;
-				L_12 = InterfaceFuncInvoker0< ProductCatalogItem_tBBB809AC7547B118E718170833CB6729F80F4215* >::Invoke(0, IEnumerator_1_t9CA73EDA51927153AB5C0B450478F319FE02D8EF_il2cpp_TypeInfo_var, L_11);
-				V_2 = L_12;
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:58>
-				ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* L_13 = V_0;
-				ProductCatalogItem_tBBB809AC7547B118E718170833CB6729F80F4215* L_14 = V_2;
-				NullCheck(L_14);
-				String_t* L_15 = L_14->___id;
-				ProductCatalogItem_tBBB809AC7547B118E718170833CB6729F80F4215* L_16 = V_2;
-				NullCheck(L_16);
-				int32_t L_17 = L_16->___type;
-				NullCheck(L_13);
-				ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* L_18;
-				L_18 = ConfigurationBuilder_AddProduct_m5185C9211186D4C7D0434CE373E38E76F57BD212(L_13, L_15, L_17, NULL);
-			}
-
-IL_0056_1:
-			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:56>
-				RuntimeObject* L_19 = V_1;
-				NullCheck(L_19);
-				bool L_20;
-				L_20 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_19);
-				if (L_20)
-				{
-					goto IL_003c_1;
-				}
-			}
-			{
-				goto IL_006a;
+				__finallyBlock.StoreException(e.ex);
 			}
 		}
-		catch(Il2CppExceptionWrapper& e)
+
+IL_006a_1:
 		{
-			__finallyBlock.StoreException(e.ex);
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:63>
+			ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* L_21 = V_0;
+			UnityPurchasing_Initialize_m6440A9EBB1EA76F2ECA902EB3744FB03FF539FF0(__this, L_21, NULL);
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:64>
+			goto IL_008b;
 		}
 	}
-
-IL_006a:
+	catch(Il2CppExceptionWrapper& e)
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:61>
-		ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* L_21 = V_0;
-		UnityPurchasing_Initialize_m6440A9EBB1EA76F2ECA902EB3744FB03FF539FF0(__this, L_21, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:62>
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0073;
+		}
+		throw e;
+	}
+
+CATCH_0073:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:65>
+		V_3 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:68>
+		Exception_t* L_22 = V_3;
+		NullCheck(L_22);
+		String_t* L_23;
+		L_23 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_22);
+		String_t* L_24;
+		L_24 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE66265BBDFF5BE312B2DB5585B741E789750D22F)), L_23, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_24, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:69>
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_008b;
+	}
+
+IL_008b:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:71>
 		return;
 	}
 }
-// Method Definition Index: 54551
+// Method Definition Index: 53762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnInitialized_m177643DDD828337D8676765FD517C1D64EA7C429 (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, RuntimeObject* ___0_controller, RuntimeObject* ___1_extensions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14377,144 +14421,190 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnInitialized_m177643DDD
 	memset((&V_0), 0, sizeof(V_0));
 	U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC* V_1 = NULL;
 	Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* V_2 = NULL;
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:67>
-		RuntimeObject* L_0 = ___0_controller;
-		__this->___storeController = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___storeController), (void*)L_0);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:68>
-		RuntimeObject* L_1 = ___1_extensions;
-		__this->___storeExtensions = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___storeExtensions), (void*)L_1);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:69>
-		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_2 = __this->___StoreItems;
-		NullCheck(L_2);
-		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_3;
-		L_3 = List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8(L_2, List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
-		V_0 = L_3;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
-
-FINALLY_00ad:
-			{
-				Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D((&V_0), Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
-				return;
-			}
-		});
-		try
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:78>
+			RuntimeObject* L_0 = ___0_controller;
+			__this->___storeController = L_0;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___storeController), (void*)L_0);
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:79>
+			RuntimeObject* L_1 = ___1_extensions;
+			__this->___storeExtensions = L_1;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___storeExtensions), (void*)L_1);
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:80>
+			List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_2 = __this->___StoreItems;
+			NullCheck(L_2);
+			Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_3;
+			L_3 = List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8(L_2, List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
+			V_0 = L_3;
+		}
 		{
+			auto __finallyBlock = il2cpp::utils::Finally([&]
 			{
-				goto IL_009f_1;
-			}
 
-IL_001f_1:
-			{
-				U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC* L_4 = (U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC_il2cpp_TypeInfo_var);
-				U3CU3Ec__DisplayClass11_0__ctor_m61F14C2520C96F3570448A0B7C8A7E43C3E30915(L_4, NULL);
-				V_1 = L_4;
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:69>
-				U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC* L_5 = V_1;
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
-				L_6 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
-				NullCheck(L_5);
-				L_5->___item = L_6;
-				Il2CppCodeGenWriteBarrier((void**)(&L_5->___item), (void*)L_6);
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:73>
-				RuntimeObject* L_7 = __this->___storeController;
-				NullCheck(L_7);
-				ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* L_8;
-				L_8 = InterfaceFuncInvoker0< ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* >::Invoke(0, IStoreController_tA7C537E1DC9AA11A82CBD2DD131B6552064AD667_il2cpp_TypeInfo_var, L_7);
-				NullCheck(L_8);
-				ProductU5BU5D_t730BA37CF8A2E27DF6BB25D559268D5F1C8B028E* L_9;
-				L_9 = ProductCollection_get_all_m37D0E42451E883AAD88D44E70F5B2D5E56763ED7_inline(L_8, NULL);
-				U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC* L_10 = V_1;
-				Func_2_t909D7C65C2F965593C67C10E8D7D1A3B57605107* L_11 = (Func_2_t909D7C65C2F965593C67C10E8D7D1A3B57605107*)il2cpp_codegen_object_new(Func_2_t909D7C65C2F965593C67C10E8D7D1A3B57605107_il2cpp_TypeInfo_var);
-				Func_2__ctor_m6D0EC6EBDD1E8220B7230B0052F2B0ADCE1BF840(L_11, L_10, (intptr_t)((void*)U3CU3Ec__DisplayClass11_0_U3COnInitializedU3Eb__0_m9605F3F46D8FA4C524CAD540F3AD5813433D1605_RuntimeMethod_var), NULL);
-				RuntimeObject* L_12;
-				L_12 = Enumerable_Where_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_m449566995599CA64CC0847E45469B9BF01CB425F((RuntimeObject*)L_9, L_11, Enumerable_Where_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_m449566995599CA64CC0847E45469B9BF01CB425F_RuntimeMethod_var);
-				Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_13;
-				L_13 = Enumerable_FirstOrDefault_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_mDD0D6F110FDB815D29CE455B877B77984BBEF66A(L_12, Enumerable_FirstOrDefault_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_mDD0D6F110FDB815D29CE455B877B77984BBEF66A_RuntimeMethod_var);
-				V_2 = L_13;
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:74>
-				U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC* L_14 = V_1;
-				NullCheck(L_14);
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = L_14->___item;
-				NullCheck(L_15);
-				StoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446* L_16;
-				L_16 = GameObject_GetComponent_TisStoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446_m572712C57C3B084CE25B29A83E37DA5607B0A0FA(L_15, GameObject_GetComponent_TisStoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446_m572712C57C3B084CE25B29A83E37DA5607B0A0FA_RuntimeMethod_var);
-				Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_17 = V_2;
-				NullCheck(L_17);
-				ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* L_18;
-				L_18 = Product_get_metadata_mBACF5289A29D76CEB98A1CABD406840B8E4DF5C6_inline(L_17, NULL);
-				NullCheck(L_18);
-				String_t* L_19;
-				L_19 = ProductMetadata_get_localizedTitle_mBD34BFB3B5913154B4ACBC630A4DF8A664C9E258_inline(L_18, NULL);
-				Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_20 = V_2;
-				NullCheck(L_20);
-				ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* L_21;
-				L_21 = Product_get_metadata_mBACF5289A29D76CEB98A1CABD406840B8E4DF5C6_inline(L_20, NULL);
-				NullCheck(L_21);
-				String_t* L_22;
-				L_22 = ProductMetadata_get_localizedDescription_mF1507A605C357667ED05FAC2F486D527CA4E2887_inline(L_21, NULL);
-				Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_23 = V_2;
-				NullCheck(L_23);
-				ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* L_24;
-				L_24 = Product_get_metadata_mBACF5289A29D76CEB98A1CABD406840B8E4DF5C6_inline(L_23, NULL);
-				NullCheck(L_24);
-				String_t* L_25;
-				L_25 = ProductMetadata_get_localizedPriceString_m83C55E96B4BC39284D88F9BAAC64E60DFF7D408F_inline(L_24, NULL);
-				Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_26 = V_2;
-				NullCheck(L_26);
-				ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* L_27;
-				L_27 = Product_get_metadata_mBACF5289A29D76CEB98A1CABD406840B8E4DF5C6_inline(L_26, NULL);
-				NullCheck(L_27);
-				String_t* L_28;
-				L_28 = ProductMetadata_get_isoCurrencyCode_mB14AD35EB399B34140F8497A96B678F719048FCC_inline(L_27, NULL);
-				String_t* L_29;
-				L_29 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_25, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_28, NULL);
-				NullCheck(L_16);
-				StoreItem_SetItemMetaData_m08EDC4867624A949B4243B48D675B0A4D0028958(L_16, L_19, L_22, L_29, NULL);
-			}
-
-IL_009f_1:
-			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:69>
-				bool L_30;
-				L_30 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
-				if (L_30)
+FINALLY_00ad_1:
 				{
-					goto IL_001f_1;
+					Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D((&V_0), Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
+					return;
+				}
+			});
+			try
+			{
+				{
+					goto IL_009f_2;
+				}
+
+IL_001f_2:
+				{
+					U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC* L_4 = (U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC_il2cpp_TypeInfo_var);
+					U3CU3Ec__DisplayClass11_0__ctor_m61F14C2520C96F3570448A0B7C8A7E43C3E30915(L_4, NULL);
+					V_1 = L_4;
+					//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:80>
+					U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC* L_5 = V_1;
+					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+					L_6 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
+					NullCheck(L_5);
+					L_5->___item = L_6;
+					Il2CppCodeGenWriteBarrier((void**)(&L_5->___item), (void*)L_6);
+					//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:84>
+					RuntimeObject* L_7 = __this->___storeController;
+					NullCheck(L_7);
+					ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* L_8;
+					L_8 = InterfaceFuncInvoker0< ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* >::Invoke(0, IStoreController_tA7C537E1DC9AA11A82CBD2DD131B6552064AD667_il2cpp_TypeInfo_var, L_7);
+					NullCheck(L_8);
+					ProductU5BU5D_t730BA37CF8A2E27DF6BB25D559268D5F1C8B028E* L_9;
+					L_9 = ProductCollection_get_all_m37D0E42451E883AAD88D44E70F5B2D5E56763ED7_inline(L_8, NULL);
+					U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC* L_10 = V_1;
+					Func_2_t909D7C65C2F965593C67C10E8D7D1A3B57605107* L_11 = (Func_2_t909D7C65C2F965593C67C10E8D7D1A3B57605107*)il2cpp_codegen_object_new(Func_2_t909D7C65C2F965593C67C10E8D7D1A3B57605107_il2cpp_TypeInfo_var);
+					Func_2__ctor_m6D0EC6EBDD1E8220B7230B0052F2B0ADCE1BF840(L_11, L_10, (intptr_t)((void*)U3CU3Ec__DisplayClass11_0_U3COnInitializedU3Eb__0_m9605F3F46D8FA4C524CAD540F3AD5813433D1605_RuntimeMethod_var), NULL);
+					RuntimeObject* L_12;
+					L_12 = Enumerable_Where_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_m449566995599CA64CC0847E45469B9BF01CB425F((RuntimeObject*)L_9, L_11, Enumerable_Where_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_m449566995599CA64CC0847E45469B9BF01CB425F_RuntimeMethod_var);
+					Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_13;
+					L_13 = Enumerable_FirstOrDefault_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_mDD0D6F110FDB815D29CE455B877B77984BBEF66A(L_12, Enumerable_FirstOrDefault_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_mDD0D6F110FDB815D29CE455B877B77984BBEF66A_RuntimeMethod_var);
+					V_2 = L_13;
+					//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:85>
+					U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC* L_14 = V_1;
+					NullCheck(L_14);
+					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = L_14->___item;
+					NullCheck(L_15);
+					StoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446* L_16;
+					L_16 = GameObject_GetComponent_TisStoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446_m572712C57C3B084CE25B29A83E37DA5607B0A0FA(L_15, GameObject_GetComponent_TisStoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446_m572712C57C3B084CE25B29A83E37DA5607B0A0FA_RuntimeMethod_var);
+					Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_17 = V_2;
+					NullCheck(L_17);
+					ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* L_18;
+					L_18 = Product_get_metadata_mBACF5289A29D76CEB98A1CABD406840B8E4DF5C6_inline(L_17, NULL);
+					NullCheck(L_18);
+					String_t* L_19;
+					L_19 = ProductMetadata_get_localizedTitle_mBD34BFB3B5913154B4ACBC630A4DF8A664C9E258_inline(L_18, NULL);
+					Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_20 = V_2;
+					NullCheck(L_20);
+					ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* L_21;
+					L_21 = Product_get_metadata_mBACF5289A29D76CEB98A1CABD406840B8E4DF5C6_inline(L_20, NULL);
+					NullCheck(L_21);
+					String_t* L_22;
+					L_22 = ProductMetadata_get_localizedDescription_mF1507A605C357667ED05FAC2F486D527CA4E2887_inline(L_21, NULL);
+					Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_23 = V_2;
+					NullCheck(L_23);
+					ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* L_24;
+					L_24 = Product_get_metadata_mBACF5289A29D76CEB98A1CABD406840B8E4DF5C6_inline(L_23, NULL);
+					NullCheck(L_24);
+					String_t* L_25;
+					L_25 = ProductMetadata_get_localizedPriceString_m83C55E96B4BC39284D88F9BAAC64E60DFF7D408F_inline(L_24, NULL);
+					Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_26 = V_2;
+					NullCheck(L_26);
+					ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* L_27;
+					L_27 = Product_get_metadata_mBACF5289A29D76CEB98A1CABD406840B8E4DF5C6_inline(L_26, NULL);
+					NullCheck(L_27);
+					String_t* L_28;
+					L_28 = ProductMetadata_get_isoCurrencyCode_mB14AD35EB399B34140F8497A96B678F719048FCC_inline(L_27, NULL);
+					String_t* L_29;
+					L_29 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_25, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_28, NULL);
+					NullCheck(L_16);
+					StoreItem_SetItemMetaData_m08EDC4867624A949B4243B48D675B0A4D0028958(L_16, L_19, L_22, L_29, NULL);
+				}
+
+IL_009f_2:
+				{
+					//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:80>
+					bool L_30;
+					L_30 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
+					if (L_30)
+					{
+						goto IL_001f_2;
+					}
+				}
+				{
+					goto IL_00bb_1;
 				}
 			}
+			catch(Il2CppExceptionWrapper& e)
 			{
-				goto IL_00bb;
+				__finallyBlock.StoreException(e.ex);
 			}
 		}
-		catch(Il2CppExceptionWrapper& e)
+
+IL_00bb_1:
 		{
-			__finallyBlock.StoreException(e.ex);
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:87>
+			goto IL_00d5;
 		}
 	}
-
-IL_00bb:
+	catch(Il2CppExceptionWrapper& e)
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:76>
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00bd;
+		}
+		throw e;
+	}
+
+CATCH_00bd:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:88>
+		V_3 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:90>
+		Exception_t* L_31 = V_3;
+		NullCheck(L_31);
+		String_t* L_32;
+		L_32 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_31);
+		String_t* L_33;
+		L_33 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0D4336A7F46D2B27E54DDD4E06F24B398E2280FC)), L_32, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_33, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:92>
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_00d5;
+	}
+
+IL_00d5:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:93>
 		return;
 	}
 }
-// Method Definition Index: 54552
+// Method Definition Index: 53763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnInitializeFailed_m80B07948186DD7EF0631D4CB1525CF9ACE9F8DEC (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, int32_t ___0_error, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:81>
-		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_0 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
-		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StoreController_OnInitializeFailed_m80B07948186DD7EF0631D4CB1525CF9ACE9F8DEC_RuntimeMethod_var)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:98>
+		Il2CppFakeBox<int32_t> L_0(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InitializationFailureReason_t12ED90915B992AD9C401B5C057AA5E8EB8838B89_il2cpp_TypeInfo_var)), (&___0_error));
+		String_t* L_1;
+		L_1 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_0), NULL);
+		String_t* L_2;
+		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral56C1B74AFCAEBDC3212C27A5033F791795376819)), L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:99>
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_3, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StoreController_OnInitializeFailed_m80B07948186DD7EF0631D4CB1525CF9ACE9F8DEC_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 54553
+// Method Definition Index: 53764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnInitializeFailed_mB5785F987FBB464244B5AF78EB5A1F4F1CB0A539 (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, int32_t ___0_error, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14526,7 +14616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnInitializeFailed_mB578
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:87>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:105>
 		int32_t L_0 = ___0_error;
 		int32_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(InitializationFailureReason_t12ED90915B992AD9C401B5C057AA5E8EB8838B89_il2cpp_TypeInfo_var, &L_1);
@@ -14535,11 +14625,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnInitializeFailed_mB578
 		L_4 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralE70EE60308FC7B4A6CDFA5D73A5661AB098A24A9, L_2, L_3, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_4, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:88>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 54554
+// Method Definition Index: 53765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnPurchaseFailed_mFA145E4002635AADDEDA94B8D84CB8F5F24DF1DA (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* ___0_product, int32_t ___1_failureReason, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14551,7 +14641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnPurchaseFailed_mFA145E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:93>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:111>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_0 = ___0_product;
 		NullCheck(L_0);
 		ProductDefinition_t0ECCC323EC3E52DE3143F374262050ADCECB1517* L_1;
@@ -14566,17 +14656,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnPurchaseFailed_mFA145E
 		L_6 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralE8E60549AD487258B4E68DD665837EABACD53ED0, L_2, L_5, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_6, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:94>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:112>
 		StoreController_PurchaseCompleted_m4791AC928BDB9F2B06CB3190541F0984A193B5B7(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:95>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:113>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___PurchasingMask;
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:96>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:114>
 		return;
 	}
 }
-// Method Definition Index: 54555
+// Method Definition Index: 53766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StoreController_ProcessPurchase_m693B8CB2F8D8A59A832B50F61DC2C895EDE31E1D (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, PurchaseEventArgs_t5203D89DD89FCB37A77025275F8AD1D71CF92A39* ___0_purchaseEvent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14587,7 +14677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StoreController_ProcessPurchase_m693B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:101>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:119>
 		PurchaseEventArgs_t5203D89DD89FCB37A77025275F8AD1D71CF92A39* L_0 = ___0_purchaseEvent;
 		NullCheck(L_0);
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_1;
@@ -14602,13 +14692,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StoreController_ProcessPurchase_m693B
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA9193FF7D47855B3CE0B4CCE50D576367B48BB8B, L_3, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:102>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:120>
 		StoreController_PurchaseCompleted_m4791AC928BDB9F2B06CB3190541F0984A193B5B7(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:103>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:121>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___PurchasingMask;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:108>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:126>
 		PurchaseEventArgs_t5203D89DD89FCB37A77025275F8AD1D71CF92A39* L_6 = ___0_purchaseEvent;
 		NullCheck(L_6);
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_7;
@@ -14630,11 +14720,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StoreController_ProcessPurchase_m693B
 		String_t* L_13;
 		L_13 = ProductMetadata_get_localizedDescription_mF1507A605C357667ED05FAC2F486D527CA4E2887_inline(L_12, NULL);
 		StoreController_ApplyPurchasedItemEffect_m3A9420D89ADA4B95378824678C78CC6CF52768B3(__this, L_9, L_13, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:110>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:128>
 		return (int32_t)(0);
 	}
 }
-// Method Definition Index: 54556
+// Method Definition Index: 53767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_Purchase_mF374208971AB2F4BA2EBB15EE4F0F95B33DF26E0 (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, String_t* ___0_productId, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___1_button, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14659,11 +14749,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_Purchase_mF374208971AB2F
 		NullCheck(L_1);
 		L_1->___productId = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___productId), (void*)L_2);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:115>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:133>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = ___1_button;
 		__this->___purchaseButton = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___purchaseButton), (void*)L_3);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:116>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:134>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___purchaseButton;
 		NullCheck(L_4);
 		bool L_5;
@@ -14674,7 +14764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_Purchase_mF374208971AB2F
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:118>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:136>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___purchaseButton;
 		NullCheck(L_6);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_6, (bool)0, NULL);
@@ -14682,11 +14772,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_Purchase_mF374208971AB2F
 
 IL_002d:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:120>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:138>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___PurchasingMask;
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:121>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:139>
 		RuntimeObject* L_8 = __this->___storeController;
 		NullCheck(L_8);
 		ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* L_9;
@@ -14702,43 +14792,81 @@ IL_002d:
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_14;
 		L_14 = Enumerable_FirstOrDefault_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_mDD0D6F110FDB815D29CE455B877B77984BBEF66A(L_13, Enumerable_FirstOrDefault_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_mDD0D6F110FDB815D29CE455B877B77984BBEF66A_RuntimeMethod_var);
 		V_1 = L_14;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:122>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:140>
 		RuntimeObject* L_15 = __this->___storeController;
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_16 = V_1;
 		NullCheck(L_15);
 		InterfaceActionInvoker1< Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* >::Invoke(3, IStoreController_tA7C537E1DC9AA11A82CBD2DD131B6552064AD667_il2cpp_TypeInfo_var, L_15, L_16);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:123>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:141>
 		return;
 	}
 }
-// Method Definition Index: 54557
+// Method Definition Index: 53768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_PurchaseCompleted_m4791AC928BDB9F2B06CB3190541F0984A193B5B7 (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, const RuntimeMethod* method) 
 {
+	Exception_t* V_0 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:127>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___purchaseButton;
-		NullCheck(L_0);
-		bool L_1;
-		L_1 = VirtualFuncInvoker0< bool >::Invoke(9, L_0);
-		if (!L_1)
 		{
-			goto IL_0019;
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:147>
+			Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___purchaseButton;
+			NullCheck(L_0);
+			bool L_1;
+			L_1 = VirtualFuncInvoker0< bool >::Invoke(9, L_0);
+			if (!L_1)
+			{
+				goto IL_0019_1;
+			}
+		}
+		{
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:149>
+			Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___purchaseButton;
+			NullCheck(L_2);
+			Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)1, NULL);
+		}
+
+IL_0019_1:
+		{
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:151>
+			goto IL_0033;
 		}
 	}
+	catch(Il2CppExceptionWrapper& e)
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:129>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___purchaseButton;
-		NullCheck(L_2);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)1, NULL);
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_001b;
+		}
+		throw e;
 	}
 
-IL_0019:
+CATCH_001b:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:132>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:152>
+		V_0 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:155>
+		Exception_t* L_3 = V_0;
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_3);
+		String_t* L_5;
+		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0506C2794B295B09EAC854DD73803B7621392F28)), L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:156>
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0033;
+	}
+
+IL_0033:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:158>
 		return;
 	}
 }
-// Method Definition Index: 54558
+// Method Definition Index: 53769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_RestorePurchase_mBC6CCDD491FD448C530C4BB2F2D0581542A4CDDF (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14774,7 +14902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_RestorePurchase_mBC6CCDD
 	Func_2_t909D7C65C2F965593C67C10E8D7D1A3B57605107* G_B8_0 = NULL;
 	ProductU5BU5D_t730BA37CF8A2E27DF6BB25D559268D5F1C8B028E* G_B8_1 = NULL;
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:142>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:168>
 		RuntimeObject* L_0 = __this->___storeController;
 		if (!L_0)
 		{
@@ -14782,7 +14910,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_RestorePurchase_mBC6CCDD
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:144>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:170>
 		RuntimeObject* L_1 = __this->___storeController;
 		NullCheck(L_1);
 		ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* L_2;
@@ -14821,7 +14949,7 @@ IL_003a:
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_10;
 		L_10 = Enumerable_FirstOrDefault_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_mDD0D6F110FDB815D29CE455B877B77984BBEF66A(L_9, Enumerable_FirstOrDefault_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_mDD0D6F110FDB815D29CE455B877B77984BBEF66A_RuntimeMethod_var);
 		V_0 = L_10;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:145>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:171>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_11 = V_0;
 		if (!L_11)
 		{
@@ -14829,7 +14957,7 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:147>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:173>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_12 = V_0;
 		NullCheck(L_12);
 		bool L_13;
@@ -14840,11 +14968,11 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:149>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:175>
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:150>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:176>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:152>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:178>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralDDFC27D24387464AC41CBE16C63E3B4AD28FAD7E, NULL);
 		goto IL_007a;
@@ -14852,14 +14980,14 @@ IL_003a:
 
 IL_0070:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:156>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:182>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralA0FB3DDB053EFCD53336E6921CF66F5F4D4AC8F4, NULL);
 	}
 
 IL_007a:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:160>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:186>
 		RuntimeObject* L_14 = __this->___storeController;
 		NullCheck(L_14);
 		ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* L_15;
@@ -14898,7 +15026,7 @@ IL_00a9:
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_23;
 		L_23 = Enumerable_FirstOrDefault_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_mDD0D6F110FDB815D29CE455B877B77984BBEF66A(L_22, Enumerable_FirstOrDefault_TisProduct_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E_mDD0D6F110FDB815D29CE455B877B77984BBEF66A_RuntimeMethod_var);
 		V_1 = L_23;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:161>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:187>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_24 = V_1;
 		if (!L_24)
 		{
@@ -14906,7 +15034,7 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:163>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:189>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_25 = V_1;
 		NullCheck(L_25);
 		bool L_26;
@@ -14917,19 +15045,19 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:165>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:191>
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteralDE58DBBD9E43C039FDDDFE543FB8B562E4E2C27A, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:166>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:192>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:168>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:194>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___defaultSolvingQuantity = ((int32_t)15);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:169>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:195>
 		int32_t L_27 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___defaultSolvingQuantity;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralFC23A84430DD4B1D116797D006397E27AAD31DC9, L_27, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:170>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:196>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:172>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:198>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral80EEE7968C911080EF35A60CB8473A1ADB8F3C66, NULL);
 		return;
@@ -14937,18 +15065,18 @@ IL_00a9:
 
 IL_00f9:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:176>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:202>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral6AE3AFFF974651D896F4CFFFAB958C25FAC6F2CA, NULL);
 	}
 
 IL_0103:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:180>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:206>
 		return;
 	}
 }
-// Method Definition Index: 54559
+// Method Definition Index: 53770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnPurchaseFailed_mA14F4F7DB6D22400CF5C604EC815DB8E6D97FDFD (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* ___0_product, PurchaseFailureDescription_t3E3F2EE6035C1BAE5EDB48CF61337896AFEAC3E4* ___1_failureDescription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14965,7 +15093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnPurchaseFailed_mA14F4F
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:185>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:211>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -15005,7 +15133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnPurchaseFailed_mA14F4F
 		L_15 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_12, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_15, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:187>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:213>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_16 = ___0_product;
 		NullCheck(L_16);
 		bool L_17;
@@ -15016,7 +15144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnPurchaseFailed_mA14F4F
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:189>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:215>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_18 = ___0_product;
 		NullCheck(L_18);
 		ProductDefinition_t0ECCC323EC3E52DE3143F374262050ADCECB1517* L_19;
@@ -15028,7 +15156,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnPurchaseFailed_mA14F4F
 		L_21 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral8206A972A539FA160465D60A45318E88B4111BAE, L_20, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_21, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:190>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:216>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_22 = ___0_product;
 		NullCheck(L_22);
 		ProductDefinition_t0ECCC323EC3E52DE3143F374262050ADCECB1517* L_23;
@@ -15048,17 +15176,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_OnPurchaseFailed_mA14F4F
 
 IL_008f:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:193>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:219>
 		StoreController_PurchaseCompleted_m4791AC928BDB9F2B06CB3190541F0984A193B5B7(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:194>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:220>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = __this->___PurchasingMask;
 		NullCheck(L_28);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:195>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:221>
 		return;
 	}
 }
-// Method Definition Index: 54560
+// Method Definition Index: 53771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_ApplyPurchasedItemEffect_m3A9420D89ADA4B95378824678C78CC6CF52768B3 (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, String_t* ___0_itemId, String_t* ___1_description, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15083,7 +15211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_ApplyPurchasedItemEffect
 	String_t* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:200>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:226>
 		String_t* L_0 = ___0_itemId;
 		bool L_1;
 		L_1 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, _stringLiteralCA3AA63033981FBCCD01950C6B8DEB71B04121CF, NULL);
@@ -15093,16 +15221,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController_ApplyPurchasedItemEffect
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:202>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:228>
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:203>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:229>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 		goto IL_012a;
 	}
 
 IL_0026:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:205>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:232>
 		String_t* L_2 = ___0_itemId;
 		bool L_3;
 		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_2, _stringLiteral5653ED18AC55A8F82F2CC4AFBBCA9347A426271C, NULL);
@@ -15112,11 +15240,11 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:207>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:234>
 		String_t* L_4;
 		L_4 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral0B9C01623616030D863DD52FA81A119CC7C843E3, NULL);
 		V_0 = L_4;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:208>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:235>
 		String_t* L_5 = V_0;
 		bool L_6;
 		L_6 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_5, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -15126,42 +15254,42 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:210>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:237>
 		String_t* L_7 = ___1_description;
 		V_0 = L_7;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:211>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:238>
 		String_t* L_8 = V_0;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral0B9C01623616030D863DD52FA81A119CC7C843E3, L_8, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:212>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:239>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 		goto IL_012a;
 	}
 
 IL_0062:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:216>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:243>
 		String_t* L_9 = V_0;
 		int32_t L_10;
 		L_10 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_9, NULL);
 		V_1 = L_10;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:217>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:244>
 		int32_t L_11 = V_1;
 		String_t* L_12 = ___1_description;
 		int32_t L_13;
 		L_13 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_12, NULL);
 		V_1 = ((int32_t)il2cpp_codegen_add(L_11, L_13));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:218>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:245>
 		String_t* L_14;
 		L_14 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral0B9C01623616030D863DD52FA81A119CC7C843E3, L_14, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:219>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:246>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 		goto IL_012a;
 	}
 
 IL_008d:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:222>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:249>
 		String_t* L_15 = ___0_itemId;
 		bool L_16;
 		L_16 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_15, _stringLiteralF66CDDF285C8A7F589E2C77B114585CBCB3AD469, NULL);
@@ -15171,11 +15299,11 @@ IL_008d:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:224>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:251>
 		String_t* L_17;
 		L_17 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral766C95B990F0A8A68768622E540735CC331AD06D, NULL);
 		V_2 = L_17;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:225>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:252>
 		String_t* L_18 = V_2;
 		bool L_19;
 		L_19 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_18, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -15185,42 +15313,42 @@ IL_008d:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:227>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:254>
 		String_t* L_20 = ___1_description;
 		V_2 = L_20;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:228>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:255>
 		String_t* L_21 = V_2;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral766C95B990F0A8A68768622E540735CC331AD06D, L_21, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:229>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:256>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 		goto IL_012a;
 	}
 
 IL_00c6:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:233>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:260>
 		String_t* L_22 = V_2;
 		int32_t L_23;
 		L_23 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_22, NULL);
 		V_3 = L_23;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:234>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:261>
 		int32_t L_24 = V_3;
 		String_t* L_25 = ___1_description;
 		int32_t L_26;
 		L_26 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_25, NULL);
 		V_3 = ((int32_t)il2cpp_codegen_add(L_24, L_26));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:235>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:262>
 		String_t* L_27;
 		L_27 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral766C95B990F0A8A68768622E540735CC331AD06D, L_27, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:236>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:263>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 		goto IL_012a;
 	}
 
 IL_00ee:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:239>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:266>
 		String_t* L_28 = ___0_itemId;
 		bool L_29;
 		L_29 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_28, _stringLiteralF41889C4E0D4C301EE2776F9871B237A8EB45311, NULL);
@@ -15230,31 +15358,31 @@ IL_00ee:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:241>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:268>
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteralDE58DBBD9E43C039FDDDFE543FB8B562E4E2C27A, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:242>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:269>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:244>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:271>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___defaultSolvingQuantity = ((int32_t)15);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:245>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:272>
 		int32_t L_30 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___defaultSolvingQuantity;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralFC23A84430DD4B1D116797D006397E27AAD31DC9, L_30, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:246>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:273>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 	}
 
 IL_012a:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:249>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:276>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_31 = __this->___successfulPurchaseSound;
 		NullCheck(L_31);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_31, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:250>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:277>
 		return;
 	}
 }
-// Method Definition Index: 54561
+// Method Definition Index: 53772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController__ctor_mCBC0EFC8AC4642D2380F5C7892CBDCECD236A9CE (StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15270,7 +15398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreController__ctor_mCBC0EFC8AC4642D23
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54562
+// Method Definition Index: 53773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mAD1B1BC76B498A050F91A5F5FCE8FBE799631063 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15287,7 +15415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mAD1B1BC76B498A050F91A5F5
 		return;
 	}
 }
-// Method Definition Index: 54563
+// Method Definition Index: 53774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mDE8206CBE98FEDBBCD227AE4C2AA4C05CBE992D7 (U3CU3Ec_tB5C354E384534930AE5BDB9FB05DD79AC0E42B47* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15295,7 +15423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mDE8206CBE98FEDBBCD227AE4C
 		return;
 	}
 }
-// Method Definition Index: 54564
+// Method Definition Index: 53775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRestorePurchaseU3Eb__18_0_m8B25DB5BEFEC0E6A13A1750284B60C1F8E40F20F (U3CU3Ec_tB5C354E384534930AE5BDB9FB05DD79AC0E42B47* __this, Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15305,7 +15433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRestorePurchaseU3Eb__18_0_m8B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:144>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:170>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_0 = ___0_i;
 		NullCheck(L_0);
 		ProductDefinition_t0ECCC323EC3E52DE3143F374262050ADCECB1517* L_1;
@@ -15318,7 +15446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRestorePurchaseU3Eb__18_0_m8B
 		return L_3;
 	}
 }
-// Method Definition Index: 54565
+// Method Definition Index: 53776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRestorePurchaseU3Eb__18_1_m00E8A3F4E7529D3FE0CCB5234C38D868DFC80FB4 (U3CU3Ec_tB5C354E384534930AE5BDB9FB05DD79AC0E42B47* __this, Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15328,7 +15456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRestorePurchaseU3Eb__18_1_m00
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:160>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:186>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_0 = ___0_i;
 		NullCheck(L_0);
 		ProductDefinition_t0ECCC323EC3E52DE3143F374262050ADCECB1517* L_1;
@@ -15349,7 +15477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRestorePurchaseU3Eb__18_1_m00
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54566
+// Method Definition Index: 53777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass11_0__ctor_m61F14C2520C96F3570448A0B7C8A7E43C3E30915 (U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15357,7 +15485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass11_0__ctor_m61F14C2
 		return;
 	}
 }
-// Method Definition Index: 54567
+// Method Definition Index: 53778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass11_0_U3COnInitializedU3Eb__0_m9605F3F46D8FA4C524CAD540F3AD5813433D1605 (U3CU3Ec__DisplayClass11_0_t9F27D50C02CDCC165A32F2A599F01ABB330195AC* __this, Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15367,7 +15495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass11_0_U3COnInitializ
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:73>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:84>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_0 = ___0_i;
 		NullCheck(L_0);
 		ProductDefinition_t0ECCC323EC3E52DE3143F374262050ADCECB1517* L_1;
@@ -15394,7 +15522,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass11_0_U3COnInitializ
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54568
+// Method Definition Index: 53779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0__ctor_mCD3FA76A45ADE909BDFB5711A5F89B81C35D50B7 (U3CU3Ec__DisplayClass16_0_tE4C5223AAE5EAD4D5378027F299F491B1F121A6D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15402,11 +15530,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0__ctor_mCD3FA76
 		return;
 	}
 }
-// Method Definition Index: 54569
+// Method Definition Index: 53780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass16_0_U3CPurchaseU3Eb__0_m103C18C73C251D7C669FAD52B9584E168496DFD7 (U3CU3Ec__DisplayClass16_0_tE4C5223AAE5EAD4D5378027F299F491B1F121A6D* __this, Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* ___0_i, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:121>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/In App Purchase/StoreController.cs:139>
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_0 = ___0_i;
 		NullCheck(L_0);
 		ProductDefinition_t0ECCC323EC3E52DE3143F374262050ADCECB1517* L_1;
@@ -15428,7 +15556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass16_0_U3CPurchaseU3E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54570
+// Method Definition Index: 53781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnityServicesInitialU3Ed__9_MoveNext_mFE04AB9DD542DFA756F4F1430CC3A9314A30BFA5 (U3CUnityServicesInitialU3Ed__9_t17AD0E33C99EBEE9F827FA899C02C8D26C591EA2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15574,7 +15702,7 @@ IL2CPP_EXTERN_C  void U3CUnityServicesInitialU3Ed__9_MoveNext_mFE04AB9DD542DFA75
 	_thisAdjusted = reinterpret_cast<U3CUnityServicesInitialU3Ed__9_t17AD0E33C99EBEE9F827FA899C02C8D26C591EA2*>(__this + _offset);
 	U3CUnityServicesInitialU3Ed__9_MoveNext_mFE04AB9DD542DFA756F4F1430CC3A9314A30BFA5(_thisAdjusted, method);
 }
-// Method Definition Index: 54571
+// Method Definition Index: 53782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnityServicesInitialU3Ed__9_SetStateMachine_m14EAF3EC70C724026E768FF0B3D59305B76A0C75 (U3CUnityServicesInitialU3Ed__9_t17AD0E33C99EBEE9F827FA899C02C8D26C591EA2* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -15599,7 +15727,7 @@ IL2CPP_EXTERN_C  void U3CUnityServicesInitialU3Ed__9_SetStateMachine_m14EAF3EC70
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54572
+// Method Definition Index: 53783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreItem_Start_m9756764CFDC5B5648795C8251B5BDCEA87679316 (StoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15607,7 +15735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreItem_Start_m9756764CFDC5B5648795C82
 		return;
 	}
 }
-// Method Definition Index: 54573
+// Method Definition Index: 53784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreItem_OnClick_mEA1F062EDAF3637234DC53A9F6057561FD5789AC (StoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15635,7 +15763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreItem_OnClick_mEA1F062EDAF3637234DC5
 		return;
 	}
 }
-// Method Definition Index: 54574
+// Method Definition Index: 53785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreItem_SetItemMetaData_m08EDC4867624A949B4243B48D675B0A4D0028958 (StoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446* __this, String_t* ___0_Title, String_t* ___1_Description, String_t* ___2_Price, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15835,7 +15963,7 @@ IL_0160:
 		return;
 	}
 }
-// Method Definition Index: 54575
+// Method Definition Index: 53786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreItem__ctor_mCD6BA998888EF3787762B91D44BA235E140A5C46 (StoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15851,7 +15979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreItem__ctor_mCD6BA998888EF3787762B91
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54576
+// Method Definition Index: 53787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_Start_m825DB6FA706AE897C12FB9B9C6A823E2D472BBD6 (InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15867,7 +15995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_Start_m82
 		return;
 	}
 }
-// Method Definition Index: 54577
+// Method Definition Index: 53788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_CheckNetwork_m1A4C760B5D9ED032403AEF5C743864C68F5D0359 (InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15909,7 +16037,7 @@ IL_0015:
 		return;
 	}
 }
-// Method Definition Index: 54578
+// Method Definition Index: 53789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_IAPItemsVisibleControl_m6F11F664BE248F2DECE910D77FB79C6BE6E10BDC (InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16088,7 +16216,7 @@ IL_00b8:
 		return;
 	}
 }
-// Method Definition Index: 54579
+// Method Definition Index: 53790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController__ctor_m95B503377D91B6292905651586969D30AAD0D3FE (InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16104,7 +16232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController__ctor_m95
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54580
+// Method Definition Index: 53791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_Start_m708346571FE2CB58280D931ECF227F48E7E7E38F (LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16137,7 +16265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_Start_m708346571FE
 		return;
 	}
 }
-// Method Definition Index: 54581
+// Method Definition Index: 53792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* LeaderboardController_SignInAnonymously_m6BCE9E68746CF91BF25889E4681D253023199D19 (LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16170,7 +16298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_3;
 	}
 }
-// Method Definition Index: 54582
+// Method Definition Index: 53793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_SetPlayerName_m2075B6F25D50847BB9DF3AFD870C41FA2754F969 (LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16204,7 +16332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_SetPlayerName_m207
 		return;
 	}
 }
-// Method Definition Index: 54583
+// Method Definition Index: 53794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_AddScore_mF3784983BD0677DDDEF0A50D75A06FB6EC0F5FC0 (LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* __this, double ___0_score, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16239,7 +16367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_AddScore_mF3784983
 		return;
 	}
 }
-// Method Definition Index: 54584
+// Method Definition Index: 53795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_FillLeaderboardList_m175690BB2D098DBE8275F95695E648D5653398A0 (LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16272,7 +16400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_FillLeaderboardLis
 		return;
 	}
 }
-// Method Definition Index: 54585
+// Method Definition Index: 53796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9 (LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* __this, int32_t ___0_rowIndex, LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* ___1_content, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___2_backgroundColor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16541,7 +16669,7 @@ IL_0010:
 		return;
 	}
 }
-// Method Definition Index: 54586
+// Method Definition Index: 53797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_SetContentHeight_m36EF8BD5863B7B0CA20FF7AF31B556458A491CD1 (LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16591,7 +16719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_SetContentHeight_m
 		return;
 	}
 }
-// Method Definition Index: 54587
+// Method Definition Index: 53798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController__ctor_mC301D4DA3294DFF0C671230745116945DF264F06 (LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16607,7 +16735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController__ctor_mC301D4DA329
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54588
+// Method Definition Index: 53799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m98BC74741CC327B54184985E6F891A19C5856EDC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16624,7 +16752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m98BC74741CC327B54184985E
 		return;
 	}
 }
-// Method Definition Index: 54589
+// Method Definition Index: 53800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mB1642214A03B6CF8A15D9769A9752F55B77ED198 (U3CU3Ec_tFC8B4E8FAD65819C2B9348F70489B12CA60DF6DD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16632,7 +16760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mB1642214A03B6CF8A15D9769A
 		return;
 	}
 }
-// Method Definition Index: 54590
+// Method Definition Index: 53801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CSignInAnonymouslyU3Eb__10_0_mB1E9B680E374E5E08C734B1DED1D91DAA7270A1B (U3CU3Ec_tFC8B4E8FAD65819C2B9348F70489B12CA60DF6DD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16658,7 +16786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CSignInAnonymouslyU3Eb__10_0_m
 		return;
 	}
 }
-// Method Definition Index: 54591
+// Method Definition Index: 53802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CSignInAnonymouslyU3Eb__10_1_m1274FE7E315C3A46225746B2B9B3813B2476F22B (U3CU3Ec_tFC8B4E8FAD65819C2B9348F70489B12CA60DF6DD* __this, RequestFailedException_tBF4D4AF8AD31BEE32091AEBC120B629B052E2D00* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16684,7 +16812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CSignInAnonymouslyU3Eb__10_1_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54592
+// Method Definition Index: 53803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAddScoreU3Ed__12_MoveNext_mC747A1D51F6E355467C3A8623E22EEB2D8E9A520 (U3CAddScoreU3Ed__12_tB0E4AFA6C2BD4B34F58B82E4E37CB2CB24C3CF97* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16886,7 +17014,7 @@ IL2CPP_EXTERN_C  void U3CAddScoreU3Ed__12_MoveNext_mC747A1D51F6E355467C3A8623E22
 	_thisAdjusted = reinterpret_cast<U3CAddScoreU3Ed__12_tB0E4AFA6C2BD4B34F58B82E4E37CB2CB24C3CF97*>(__this + _offset);
 	U3CAddScoreU3Ed__12_MoveNext_mC747A1D51F6E355467C3A8623E22EEB2D8E9A520(_thisAdjusted, method);
 }
-// Method Definition Index: 54593
+// Method Definition Index: 53804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAddScoreU3Ed__12_SetStateMachine_m37C543CF820F527C4EA6E78CA4DD73C0A97190CF (U3CAddScoreU3Ed__12_tB0E4AFA6C2BD4B34F58B82E4E37CB2CB24C3CF97* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -16911,7 +17039,7 @@ IL2CPP_EXTERN_C  void U3CAddScoreU3Ed__12_SetStateMachine_m37C543CF820F527C4EA6E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54594
+// Method Definition Index: 53805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillLeaderboardListU3Ed__13_MoveNext_mCDFC735D81E920D1473344144F4DF287B477FC01 (U3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18568,7 +18696,7 @@ IL2CPP_EXTERN_C  void U3CFillLeaderboardListU3Ed__13_MoveNext_mCDFC735D81E920D14
 	_thisAdjusted = reinterpret_cast<U3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232*>(__this + _offset);
 	U3CFillLeaderboardListU3Ed__13_MoveNext_mCDFC735D81E920D1473344144F4DF287B477FC01(_thisAdjusted, method);
 }
-// Method Definition Index: 54595
+// Method Definition Index: 53806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillLeaderboardListU3Ed__13_SetStateMachine_mF9E89F4302D39B5156DBB63B92F3BE2962DD293E (U3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -18593,7 +18721,7 @@ IL2CPP_EXTERN_C  void U3CFillLeaderboardListU3Ed__13_SetStateMachine_mF9E89F4302
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54596
+// Method Definition Index: 53807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetPlayerNameU3Ed__11_MoveNext_m4AF5E964B735F31ADE3D84C2F10412F3D15C27CC (U3CSetPlayerNameU3Ed__11_t9862E22B303759E0FC75A207E18DA30729F94A3C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18756,7 +18884,7 @@ IL2CPP_EXTERN_C  void U3CSetPlayerNameU3Ed__11_MoveNext_m4AF5E964B735F31ADE3D84C
 	_thisAdjusted = reinterpret_cast<U3CSetPlayerNameU3Ed__11_t9862E22B303759E0FC75A207E18DA30729F94A3C*>(__this + _offset);
 	U3CSetPlayerNameU3Ed__11_MoveNext_m4AF5E964B735F31ADE3D84C2F10412F3D15C27CC(_thisAdjusted, method);
 }
-// Method Definition Index: 54597
+// Method Definition Index: 53808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetPlayerNameU3Ed__11_SetStateMachine_mA5B6BBD6A67124AA6CEB4CDB4830E5047098F998 (U3CSetPlayerNameU3Ed__11_t9862E22B303759E0FC75A207E18DA30729F94A3C* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -18781,7 +18909,7 @@ IL2CPP_EXTERN_C  void U3CSetPlayerNameU3Ed__11_SetStateMachine_mA5B6BBD6A67124AA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54598
+// Method Definition Index: 53809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSignInAnonymouslyU3Ed__10_MoveNext_m7377CD178E93E3686FCDC14CCBC4D18E50A7DEE7 (U3CSignInAnonymouslyU3Ed__10_t969A72EA9E31F0FFE79621A1B73050D94F2B73F6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18983,7 +19111,7 @@ IL2CPP_EXTERN_C  void U3CSignInAnonymouslyU3Ed__10_MoveNext_m7377CD178E93E3686FC
 	_thisAdjusted = reinterpret_cast<U3CSignInAnonymouslyU3Ed__10_t969A72EA9E31F0FFE79621A1B73050D94F2B73F6*>(__this + _offset);
 	U3CSignInAnonymouslyU3Ed__10_MoveNext_m7377CD178E93E3686FCDC14CCBC4D18E50A7DEE7(_thisAdjusted, method);
 }
-// Method Definition Index: 54599
+// Method Definition Index: 53810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSignInAnonymouslyU3Ed__10_SetStateMachine_m9D1231BE6E92E89F0F3EB01EBB6E1AC0A4628287 (U3CSignInAnonymouslyU3Ed__10_t969A72EA9E31F0FFE79621A1B73050D94F2B73F6* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19015,7 +19143,7 @@ IL2CPP_EXTERN_C  void U3CSignInAnonymouslyU3Ed__10_SetStateMachine_m9D1231BE6E92
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54600
+// Method Definition Index: 53811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__9_MoveNext_mD6FD56A648E4E64637B8D0D211D252DBD0894CE9 (U3CStartU3Ed__9_t3A5FDC155E697DE9F45B290A232B38B8E601D1D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19223,7 +19351,7 @@ IL2CPP_EXTERN_C  void U3CStartU3Ed__9_MoveNext_mD6FD56A648E4E64637B8D0D211D252DB
 	_thisAdjusted = reinterpret_cast<U3CStartU3Ed__9_t3A5FDC155E697DE9F45B290A232B38B8E601D1D4*>(__this + _offset);
 	U3CStartU3Ed__9_MoveNext_mD6FD56A648E4E64637B8D0D211D252DBD0894CE9(_thisAdjusted, method);
 }
-// Method Definition Index: 54601
+// Method Definition Index: 53812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__9_SetStateMachine_mF45D2B3F92B366A3A1EABEF912C1F2AF5311E9AF (U3CStartU3Ed__9_t3A5FDC155E697DE9F45B290A232B38B8E601D1D4* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -19248,7 +19376,7 @@ IL2CPP_EXTERN_C  void U3CStartU3Ed__9_SetStateMachine_mF45D2B3F92B366A3A1EABEF91
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54602
+// Method Definition Index: 53813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationGroupDetect_Start_mD89232104E9EC36F411B1A0BD14C9B5AE072F76F (RotationGroupDetect_t079DF85443E0975EDB4DB233DDEA16A5D3873231* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19268,7 +19396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationGroupDetect_Start_mD89232104E9EC
 		return;
 	}
 }
-// Method Definition Index: 54603
+// Method Definition Index: 53814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationGroupDetect_OnTriggerEnter_m22806119D967E9AC15D0A149B49FB8DBFE093F56 (RotationGroupDetect_t079DF85443E0975EDB4DB233DDEA16A5D3873231* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19326,7 +19454,7 @@ IL_003b:
 		return;
 	}
 }
-// Method Definition Index: 54604
+// Method Definition Index: 53815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationGroupDetect_OnTriggerExit_mDAB68A316C05BC6735B74BDF9460B8438437EE73 (RotationGroupDetect_t079DF85443E0975EDB4DB233DDEA16A5D3873231* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19370,7 +19498,7 @@ IL_0029:
 		return;
 	}
 }
-// Method Definition Index: 54605
+// Method Definition Index: 53816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationGroupDetect__ctor_m3B3D9586D7DB1F6A791232EE82C1A92D5FAF3C58 (RotationGroupDetect_t079DF85443E0975EDB4DB233DDEA16A5D3873231* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19386,7 +19514,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationGroupDetect__ctor_m3B3D9586D7DB1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54606
+// Method Definition Index: 53817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SearchStringHelper_OnTriggerEnter_m581C1E062CA04250D5C34CC5832173882A6EDF6F (SearchStringHelper_t66F7920A13DF1B5BC99D7CFA191E7A10070C7738* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19577,7 +19705,7 @@ IL_00eb:
 		return;
 	}
 }
-// Method Definition Index: 54607
+// Method Definition Index: 53818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SearchStringHelper__ctor_m62CD1CD4BCC2B24DA18FA4F4B16FD1FF5AEBC908 (SearchStringHelper_t66F7920A13DF1B5BC99D7CFA191E7A10070C7738* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19593,7 +19721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SearchStringHelper__ctor_m62CD1CD4BCC2B2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54608
+// Method Definition Index: 53819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void triggerFixRotation_Start_mB119A1460DB870FA249C916F7603861FDD4C8789 (triggerFixRotation_t94B7F6B6063B2B61619D8181E58871678134C0D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19601,7 +19729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void triggerFixRotation_Start_mB119A1460DB870
 		return;
 	}
 }
-// Method Definition Index: 54609
+// Method Definition Index: 53820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void triggerFixRotation_Update_mA40B835586BF54EEA47138C1D4FBF08DA4132CF0 (triggerFixRotation_t94B7F6B6063B2B61619D8181E58871678134C0D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19618,7 +19746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void triggerFixRotation_Update_mA40B835586BF5
 		return;
 	}
 }
-// Method Definition Index: 54610
+// Method Definition Index: 53821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void triggerFixRotation__ctor_m745059483C743B8E3A4A93E2ECF1FFCEE899D5CC (triggerFixRotation_t94B7F6B6063B2B61619D8181E58871678134C0D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19634,7 +19762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void triggerFixRotation__ctor_m745059483C743B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54611
+// Method Definition Index: 53822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BestTimeMenu_Back_Btn_onClick_mC72A65E61FA73B4DE130B477F23FAA8CF09860D8 (BestTimeMenu_Back_Btn_t723C52B302F8296682F319B2FC158F08DFEC391C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19651,7 +19779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BestTimeMenu_Back_Btn_onClick_mC72A65E61
 		return;
 	}
 }
-// Method Definition Index: 54612
+// Method Definition Index: 53823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BestTimeMenu_Back_Btn__ctor_mC99B6C12FF5681F4D321269CE44867D5A9B5C83C (BestTimeMenu_Back_Btn_t723C52B302F8296682F319B2FC158F08DFEC391C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19667,7 +19795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BestTimeMenu_Back_Btn__ctor_mC99B6C12FF5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54613
+// Method Definition Index: 53824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BestTimes_Btn_onClick_m6D402F60C1598ADCD7FFA449CA41658B9D827FF0 (BestTimes_Btn_tD057276D37E0A09FEB78B484F950194E2AEBB17F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19693,7 +19821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BestTimes_Btn_onClick_m6D402F60C1598ADCD
 		return;
 	}
 }
-// Method Definition Index: 54614
+// Method Definition Index: 53825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BestTimes_Btn__ctor_m9333D3717F3A70995ACE8A2EE0737B72A643FFB2 (BestTimes_Btn_tD057276D37E0A09FEB78B484F950194E2AEBB17F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19709,7 +19837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BestTimes_Btn__ctor_m9333D3717F3A70995AC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54615
+// Method Definition Index: 53826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter_Update_mF6CD53B46094E9543E0C96FA786173018A0307FC (Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19959,7 +20087,7 @@ IL_024a:
 		return;
 	}
 }
-// Method Definition Index: 54616
+// Method Definition Index: 53827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter_startCounter_m6788F8C1BED016A6A4E07B93A4865C2466F7E66C (Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19969,7 +20097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter_startCounter_m6788F8C1BED016A6A4
 		return;
 	}
 }
-// Method Definition Index: 54617
+// Method Definition Index: 53828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter_pauseCounter_m3D521B89C1A48BEACC40B2E1ABB4A90B308A6EE7 (Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19979,7 +20107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter_pauseCounter_m3D521B89C1A48BEACC
 		return;
 	}
 }
-// Method Definition Index: 54618
+// Method Definition Index: 53829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter_resetCounter_mE198D1CD7C8CF184DD6E1E170AA7B37DA54A137C (Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20107,7 +20235,7 @@ IL_0080:
 		return;
 	}
 }
-// Method Definition Index: 54619
+// Method Definition Index: 53830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter_SetCounterForChallengeMode_m8CE7B8903F3275E8C32403F934097D1519180CE6 (Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146* __this, String_t* ___0_bestTime, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20190,7 +20318,7 @@ IL_009b:
 		return;
 	}
 }
-// Method Definition Index: 54620
+// Method Definition Index: 53831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Counter_GetTotalDeltaTimeFromBestTime_m2C555B0E5BE115B6EB94A432C720BC95928D6509 (Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146* __this, String_t* ___0_time, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20276,7 +20404,7 @@ IL_0064:
 		return L_27;
 	}
 }
-// Method Definition Index: 54621
+// Method Definition Index: 53832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Counter_GetDifferenceTwoTimes_m8B2DFAEFB88266260C19C2AD9870D072EA2E5409 (Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146* __this, String_t* ___0_time1, String_t* ___1_time2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20389,7 +20517,7 @@ IL_00a0:
 		return L_37;
 	}
 }
-// Method Definition Index: 54622
+// Method Definition Index: 53833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter__ctor_m8268512C5E82F5E698855F4CC1B317750CF97558 (Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20405,7 +20533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter__ctor_m8268512C5E82F5E698855F4CC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54623
+// Method Definition Index: 53834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exit_Btn_onClick_m9B47ABB697137FCEFAE4252779DCE378F4EFA1BD (Exit_Btn_t8062973516AC499697324DFCAA9BADB0B7889C52* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20422,7 +20550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exit_Btn_onClick_m9B47ABB697137FCEFAE425
 		return;
 	}
 }
-// Method Definition Index: 54624
+// Method Definition Index: 53835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exit_Btn__ctor_m9A6589B02650964FA560B447E740A4779557ED4A (Exit_Btn_t8062973516AC499697324DFCAA9BADB0B7889C52* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20438,7 +20566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exit_Btn__ctor_m9A6589B02650964FA560B447
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54625
+// Method Definition Index: 53836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalVerticalView_Start_mB5972D94043F35FCADB3FD0F68847F74A658AFAD (HorizontalVerticalView_tBD3AB3C7B6D1BEEAB43F9931B86D03F9AD75D99A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20478,7 +20606,7 @@ IL_001e:
 		return;
 	}
 }
-// Method Definition Index: 54626
+// Method Definition Index: 53837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalVerticalView_Update_m88205C8BC42188A3CF89BC79F0E4FBA2B8560C7C (HorizontalVerticalView_tBD3AB3C7B6D1BEEAB43F9931B86D03F9AD75D99A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20644,7 +20772,7 @@ IL_00d6:
 		return;
 	}
 }
-// Method Definition Index: 54627
+// Method Definition Index: 53838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalVerticalView_setLandscapeSettings_mB8EF6B4C47C9079776E4841004C4BDE5FB9C0F83 (HorizontalVerticalView_tBD3AB3C7B6D1BEEAB43F9931B86D03F9AD75D99A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20701,7 +20829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalVerticalView_setLandscapeSetti
 		return;
 	}
 }
-// Method Definition Index: 54628
+// Method Definition Index: 53839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalVerticalView_setPortraitSettings_m59D0FD829439CD85AB115E49105AE5DCACA63FAB (HorizontalVerticalView_tBD3AB3C7B6D1BEEAB43F9931B86D03F9AD75D99A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20758,7 +20886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalVerticalView_setPortraitSettin
 		return;
 	}
 }
-// Method Definition Index: 54629
+// Method Definition Index: 53840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HorizontalVerticalView_RequestBannner_m308FF158EADFA9127BD540E799D34BBD7D0AAB0C (HorizontalVerticalView_tBD3AB3C7B6D1BEEAB43F9931B86D03F9AD75D99A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20777,7 +20905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HorizontalVerticalView_Request
 		return L_1;
 	}
 }
-// Method Definition Index: 54630
+// Method Definition Index: 53841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalVerticalView__ctor_mB48B7F1C8500C5FD8F87C6B958B8D6B3898E4845 (HorizontalVerticalView_tBD3AB3C7B6D1BEEAB43F9931B86D03F9AD75D99A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20793,7 +20921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalVerticalView__ctor_mB48B7F1C85
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54631
+// Method Definition Index: 53842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRequestBannnerU3Ed__9__ctor_mAA86B80CAF09DFA575537BB5B74955C0B48CE8A7 (U3CRequestBannnerU3Ed__9_tBE27BCDD04F914CA206B3B0FA804D7D3A1284119* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -20803,14 +20931,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRequestBannnerU3Ed__9__ctor_mAA86B80C
 		return;
 	}
 }
-// Method Definition Index: 54632
+// Method Definition Index: 53843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRequestBannnerU3Ed__9_System_IDisposable_Dispose_m177F676C02B122CAC32136D6D4315252613F1FC1 (U3CRequestBannnerU3Ed__9_tBE27BCDD04F914CA206B3B0FA804D7D3A1284119* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 54633
+// Method Definition Index: 53844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRequestBannnerU3Ed__9_MoveNext_m1897996E5162D8731EC28FBC7CAC578CF82E21B3 (U3CRequestBannnerU3Ed__9_tBE27BCDD04F914CA206B3B0FA804D7D3A1284119* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20895,7 +21023,7 @@ IL_0064:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 54634
+// Method Definition Index: 53845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRequestBannnerU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m742245FDAC7591DEE0746E7CBA6E44E4D80C2F5F (U3CRequestBannnerU3Ed__9_tBE27BCDD04F914CA206B3B0FA804D7D3A1284119* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20903,7 +21031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRequestBannnerU3Ed__9_Syste
 		return L_0;
 	}
 }
-// Method Definition Index: 54635
+// Method Definition Index: 53846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRequestBannnerU3Ed__9_System_Collections_IEnumerator_Reset_m95A749392D5A950E2A478906A6D96A45299AD13B (U3CRequestBannnerU3Ed__9_tBE27BCDD04F914CA206B3B0FA804D7D3A1284119* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20912,7 +21040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRequestBannnerU3Ed__9_System_Collecti
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRequestBannnerU3Ed__9_System_Collections_IEnumerator_Reset_m95A749392D5A950E2A478906A6D96A45299AD13B_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 54636
+// Method Definition Index: 53847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRequestBannnerU3Ed__9_System_Collections_IEnumerator_get_Current_m79E768DF1CA3698B8DBBF18E9F4DAC7D9A00F778 (U3CRequestBannnerU3Ed__9_tBE27BCDD04F914CA206B3B0FA804D7D3A1284119* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20928,7 +21056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRequestBannnerU3Ed__9_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54637
+// Method Definition Index: 53848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardMenu_Back_Btn_onClick_m1D98E8E2A3CA8A48D3A9341F594E34703A93572E (LeaderboardMenu_Back_Btn_tF550CF28F282941C87C927CE4B44161F39B92E37* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20945,7 +21073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardMenu_Back_Btn_onClick_m1D98E8
 		return;
 	}
 }
-// Method Definition Index: 54638
+// Method Definition Index: 53849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardMenu_Back_Btn__ctor_mE2CA77A189916FF949C789D2ECA3318BE4D7C16F (LeaderboardMenu_Back_Btn_tF550CF28F282941C87C927CE4B44161F39B92E37* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20961,7 +21089,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardMenu_Back_Btn__ctor_mE2CA77A1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54639
+// Method Definition Index: 53850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardMenu_Btn_onClick_m95ED87ABA425C3164359C622F790F014DAF42F80 (LeaderboardMenu_Btn_t1D54A2C90FF2D713431C62D7FF68A30CF1FEA9BB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21001,7 +21129,7 @@ IL_0018:
 		return;
 	}
 }
-// Method Definition Index: 54640
+// Method Definition Index: 53851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardMenu_Btn__ctor_mA3EFE83041AC7103ACA52EFBB1D01A5A0C04FD0E (LeaderboardMenu_Btn_t1D54A2C90FF2D713431C62D7FF68A30CF1FEA9BB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21017,7 +21145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardMenu_Btn__ctor_mA3EFE83041AC7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54641
+// Method Definition Index: 53852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation_Start_m4F3D460E0332D9C2C5E0ADE8CDC50EF62D6E7165 (MainMenuCubeAnimation_t03D385230A97E8153738BDC644C755EA2D88F849* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21059,7 +21187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation_Start_m4F3D460E033
 		return;
 	}
 }
-// Method Definition Index: 54642
+// Method Definition Index: 53853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation_FixedUpdate_m61C74D46EFBD3CE48255BC16A0E255D587FF32EE (MainMenuCubeAnimation_t03D385230A97E8153738BDC644C755EA2D88F849* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21107,7 +21235,7 @@ IL_0047:
 		return;
 	}
 }
-// Method Definition Index: 54643
+// Method Definition Index: 53854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation_shuffleCube_mD4963596E66E39526A21BF31C7E4FA0E85EF1AD7 (MainMenuCubeAnimation_t03D385230A97E8153738BDC644C755EA2D88F849* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21120,7 +21248,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation_shuffleCube_mD4963
 		return;
 	}
 }
-// Method Definition Index: 54644
+// Method Definition Index: 53855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MainMenuCubeAnimation_shuffleCoroutineMenuCube_mF5F9FA31D5D97DE4CFE86A6D0FD450EBA0C9CA71 (MainMenuCubeAnimation_t03D385230A97E8153738BDC644C755EA2D88F849* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21139,7 +21267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MainMenuCubeAnimation_shuffleC
 		return L_1;
 	}
 }
-// Method Definition Index: 54645
+// Method Definition Index: 53856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation_Rotate_mF6D029EF58A642BBF9D2426B45BC19505746DA2F (MainMenuCubeAnimation_t03D385230A97E8153738BDC644C755EA2D88F849* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21249,7 +21377,7 @@ IL_00dd:
 		return;
 	}
 }
-// Method Definition Index: 54646
+// Method Definition Index: 53857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation_startRotate_mB461AE2086B96988B9CC1C85F7B0BEB5B72D62F6 (MainMenuCubeAnimation_t03D385230A97E8153738BDC644C755EA2D88F849* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21263,7 +21391,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation_startRotate_mB461A
 		return;
 	}
 }
-// Method Definition Index: 54647
+// Method Definition Index: 53858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation_rubicToList_mE163A0A345E9DBD6B43BD02478159E113F660EF6 (MainMenuCubeAnimation_t03D385230A97E8153738BDC644C755EA2D88F849* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_cube, List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___1_itemsList, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21325,7 +21453,7 @@ IL_0026:
 		return;
 	}
 }
-// Method Definition Index: 54648
+// Method Definition Index: 53859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation_OnDisable_m05CE84EE17466A769F5CE800EABBD721A9FC8EA0 (MainMenuCubeAnimation_t03D385230A97E8153738BDC644C755EA2D88F849* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21337,7 +21465,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation_OnDisable_m05CE84E
 		return;
 	}
 }
-// Method Definition Index: 54649
+// Method Definition Index: 53860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation__ctor_m9BA77A22ABACDE5B6C26DED0F7223841C3088F22 (MainMenuCubeAnimation_t03D385230A97E8153738BDC644C755EA2D88F849* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21351,7 +21479,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuCubeAnimation__ctor_m9BA77A22ABA
 		return;
 	}
 }
-// Method Definition Index: 54650
+// Method Definition Index: 53861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MainMenuCubeAnimation_U3CshuffleCoroutineMenuCubeU3Eb__22_0_m7866B3BC6776F9AEA9A7002E7BD1BD7EBC883CB1 (MainMenuCubeAnimation_t03D385230A97E8153738BDC644C755EA2D88F849* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21368,7 +21496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MainMenuCubeAnimation_U3CshuffleCoroutin
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54651
+// Method Definition Index: 53862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshuffleCoroutineMenuCubeU3Ed__22__ctor_m2EF3D1AA4B10C1E42D4D9FF72FFF1AF68A4885EF (U3CshuffleCoroutineMenuCubeU3Ed__22_t8F80AE7646F3A8CCB761AD5421FC3F73D42D3154* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -21378,14 +21506,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshuffleCoroutineMenuCubeU3Ed__22__cto
 		return;
 	}
 }
-// Method Definition Index: 54652
+// Method Definition Index: 53863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshuffleCoroutineMenuCubeU3Ed__22_System_IDisposable_Dispose_m8394456ADF0322D5BAE375B6ACA56D4166D97B32 (U3CshuffleCoroutineMenuCubeU3Ed__22_t8F80AE7646F3A8CCB761AD5421FC3F73D42D3154* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 54653
+// Method Definition Index: 53864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CshuffleCoroutineMenuCubeU3Ed__22_MoveNext_mCA46C5FF85A24B686409DFC899B8D71AE9F87143 (U3CshuffleCoroutineMenuCubeU3Ed__22_t8F80AE7646F3A8CCB761AD5421FC3F73D42D3154* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21687,7 +21815,7 @@ IL_0184:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 54654
+// Method Definition Index: 53865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshuffleCoroutineMenuCubeU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m024F6FD31596D061390AD3D27DF9BA4B6DF80CE0 (U3CshuffleCoroutineMenuCubeU3Ed__22_t8F80AE7646F3A8CCB761AD5421FC3F73D42D3154* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21695,7 +21823,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshuffleCoroutineMenuCubeU3E
 		return L_0;
 	}
 }
-// Method Definition Index: 54655
+// Method Definition Index: 53866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshuffleCoroutineMenuCubeU3Ed__22_System_Collections_IEnumerator_Reset_m2E605582699CD70A234694A3924B5B087E0B7D9A (U3CshuffleCoroutineMenuCubeU3Ed__22_t8F80AE7646F3A8CCB761AD5421FC3F73D42D3154* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21704,7 +21832,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshuffleCoroutineMenuCubeU3Ed__22_Syst
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CshuffleCoroutineMenuCubeU3Ed__22_System_Collections_IEnumerator_Reset_m2E605582699CD70A234694A3924B5B087E0B7D9A_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 54656
+// Method Definition Index: 53867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshuffleCoroutineMenuCubeU3Ed__22_System_Collections_IEnumerator_get_Current_mE852EECD0D6A39C3EC554FD76F83670E5EE55704 (U3CshuffleCoroutineMenuCubeU3Ed__22_t8F80AE7646F3A8CCB761AD5421FC3F73D42D3154* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21720,7 +21848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshuffleCoroutineMenuCubeU3E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54657
+// Method Definition Index: 53868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu_NoAds_Btn_onClick_m49CD1B2FFD5EA518A2B0B3741D6B29E90ED9CA84 (MainMenu_NoAds_Btn_tACE956269DCCB7D9EE2B2862341A8401A97F46C3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21737,7 +21865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu_NoAds_Btn_onClick_m49CD1B2FFD5E
 		return;
 	}
 }
-// Method Definition Index: 54658
+// Method Definition Index: 53869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu_NoAds_Btn__ctor_m0A5819527EACFDFF9C727542608716C24B3E5BAE (MainMenu_NoAds_Btn_tACE956269DCCB7D9EE2B2862341A8401A97F46C3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21753,7 +21881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu_NoAds_Btn__ctor_m0A5819527EACFD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54659
+// Method Definition Index: 53870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Awake_mB9E64B0EEA0375412CA82987AF2C59C12ABAF598 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21763,7 +21891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Awake_mB9E64B0EEA0375412CA82
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILocalesProvider_t61A5B94D50A769527BFEF945350EA16D17BAFBB0_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MenuControl_U3CAwakeU3Eb__32_0_m209E328026FBE39D5B739123B750C82C8A11E8A3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MenuControl_U3CAwakeU3Eb__33_0_mD7B846D1038B9684F4E3800F5C737ECE7FA3D1AA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0B9C01623616030D863DD52FA81A119CC7C843E3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2064F80F811DB79A33C4E51C10221454E30C74AE);
@@ -21784,11 +21912,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Awake_mB9E64B0EEA0375412CA82
 	String_t* V_4 = NULL;
 	String_t* V_5 = NULL;
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:55>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:56>
 		String_t* L_0;
 		L_0 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973, NULL);
 		V_0 = L_0;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:56>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:57>
 		String_t* L_1 = V_0;
 		bool L_2;
 		L_2 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -21798,7 +21926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Awake_mB9E64B0EEA0375412CA82
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:58>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:59>
 		RuntimeObject* L_3;
 		L_3 = LocalizationSettings_get_AvailableLocales_m95587473945EA5E4DF6638412151A0FEE83A0BCC(NULL);
 		NullCheck(L_3);
@@ -21815,11 +21943,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Awake_mB9E64B0EEA0375412CA82
 
 IL_0032:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:61>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:62>
 		String_t* L_8;
 		L_8 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteralA39854868AB059AECE65CBB1DF7BC61DD7E9A8BA, NULL);
 		V_1 = L_8;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:62>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:63>
 		String_t* L_9 = V_1;
 		bool L_10;
 		L_10 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_9, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -21829,7 +21957,7 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:64>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:65>
 		String_t* L_11 = V_1;
 		int32_t L_12;
 		L_12 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_11, NULL);
@@ -21838,20 +21966,20 @@ IL_0032:
 
 IL_0055:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:67>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:68>
 		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 		TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* L_13;
 		L_13 = Task_get_Factory_m8272CF9106A72E5F0B8E8C6CEE025D748FBD6D11_inline(NULL);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_14 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_14, __this, (intptr_t)((void*)MenuControl_U3CAwakeU3Eb__32_0_m209E328026FBE39D5B739123B750C82C8A11E8A3_RuntimeMethod_var), NULL);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_14, __this, (intptr_t)((void*)MenuControl_U3CAwakeU3Eb__33_0_mD7B846D1038B9684F4E3800F5C737ECE7FA3D1AA_RuntimeMethod_var), NULL);
 		NullCheck(L_13);
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_15;
 		L_15 = TaskFactory_StartNew_m5E709A8F3339208512BFD25BF2D49C298E9D1D81(L_13, L_14, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:69>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:70>
 		String_t* L_16;
 		L_16 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral766C95B990F0A8A68768622E540735CC331AD06D, NULL);
 		V_2 = L_16;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:70>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:71>
 		String_t* L_17 = V_2;
 		bool L_18;
 		L_18 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_17, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -21861,22 +21989,22 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:72>
-		V_2 = _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:73>
+		V_2 = _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:74>
 		String_t* L_19 = V_2;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral766C95B990F0A8A68768622E540735CC331AD06D, L_19, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:74>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:75>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 	}
 
 IL_009a:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:77>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:78>
 		String_t* L_20;
 		L_20 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral0B9C01623616030D863DD52FA81A119CC7C843E3, NULL);
 		V_3 = L_20;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:78>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:79>
 		String_t* L_21 = V_3;
 		bool L_22;
 		L_22 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_21, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -21886,22 +22014,22 @@ IL_009a:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:80>
-		V_3 = _stringLiteral2064F80F811DB79A33C4E51C10221454E30C74AE;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:81>
+		V_3 = _stringLiteral2064F80F811DB79A33C4E51C10221454E30C74AE;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:82>
 		String_t* L_23 = V_3;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral0B9C01623616030D863DD52FA81A119CC7C843E3, L_23, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:82>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:83>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 	}
 
 IL_00c8:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:84>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:85>
 		String_t* L_24;
 		L_24 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
 		V_4 = L_24;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:85>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:86>
 		String_t* L_25 = V_4;
 		bool L_26;
 		L_26 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_25, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -21911,22 +22039,22 @@ IL_00c8:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:87>
-		V_4 = _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:88>
+		V_4 = _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:89>
 		String_t* L_27 = V_4;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, L_27, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:89>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:90>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 	}
 
 IL_00fa:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:91>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:92>
 		String_t* L_28;
 		L_28 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteralB84B652CB8D5AB6F2DB99207B753EFA2A77B2F50, NULL);
 		V_5 = L_28;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:92>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:93>
 		String_t* L_29 = V_5;
 		bool L_30;
 		L_30 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_29, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -21936,21 +22064,21 @@ IL_00fa:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:94>
-		V_5 = _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:95>
+		V_5 = _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:96>
 		String_t* L_31 = V_5;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteralB84B652CB8D5AB6F2DB99207B753EFA2A77B2F50, L_31, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:96>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:97>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 	}
 
 IL_012c:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:98>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:99>
 		String_t* L_32;
 		L_32 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteralDE58DBBD9E43C039FDDDFE543FB8B562E4E2C27A, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:99>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:100>
 		bool L_33;
 		L_33 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_32, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
 		if (!L_33)
@@ -21959,27 +22087,27 @@ IL_012c:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:101>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:102>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___defaultSolvingQuantity = ((int32_t)15);
 	}
 
 IL_0149:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:103>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 54660
+// Method Definition Index: 53871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_LoadKociembaTables_mB4B0F27FDCF7F6837F15D83203975F270D5E4019 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A_mECE4AE2594E6842FCD4C6A36EB0CDF9A6B23A1AF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432_mF093EE0A2174D5D5CC66E865EE9F55776464CC34_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A V_0;
+	U3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D L_0;
@@ -21999,11 +22127,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_LoadKociembaTables_mB4B0F27F
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this), (void*)__this);
 		(&V_0)->___U3CU3E1__state = (-1);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_1 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&(&V_0)->___U3CU3Et__builder);
-		AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A_mECE4AE2594E6842FCD4C6A36EB0CDF9A6B23A1AF(L_1, (&V_0), AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__33_t0E3A27772DC9CC127FCFA61555D08E3CA469651A_mECE4AE2594E6842FCD4C6A36EB0CDF9A6B23A1AF_RuntimeMethod_var);
+		AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432_mF093EE0A2174D5D5CC66E865EE9F55776464CC34(L_1, (&V_0), AsyncVoidMethodBuilder_Start_TisU3CLoadKociembaTablesU3Ed__34_t6A34622AAD0098D6627B558FDF0DB6296F7BE432_mF093EE0A2174D5D5CC66E865EE9F55776464CC34_RuntimeMethod_var);
 		return;
 	}
 }
-// Method Definition Index: 54661
+// Method Definition Index: 53872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Start_m8B0AA1CD86215A8918FFE15A0781A76D81181BA3 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22022,27 +22150,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Start_m8B0AA1CD86215A8918FFE
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:121>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:122>
 		Screen_set_sleepTimeout_mB375970159A73BB484A2B5E62A943330B83ABF9A((-1), NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:124>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:125>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___storePanel;
 		NullCheck(L_0);
 		StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* L_1;
 		L_1 = GameObject_GetComponent_TisStoreController_t6713917F4384F6932CBE463496C1105856BA4EA4_m304426248C4C593F9F5A03DBC298D516DFA7E809(L_0, GameObject_GetComponent_TisStoreController_t6713917F4384F6932CBE463496C1105856BA4EA4_m304426248C4C593F9F5A03DBC298D516DFA7E809_RuntimeMethod_var);
 		NullCheck(L_1);
 		StoreController_UnityServicesInitial_m15B971919A2639948BA7BBDB1EF747A29AE2CC31(L_1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:138>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:139>
 		String_t* L_2;
 		L_2 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral0B9C01623616030D863DD52FA81A119CC7C843E3, NULL);
 		int32_t L_3;
 		L_3 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_2, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:139>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:140>
 		String_t* L_4;
 		L_4 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral766C95B990F0A8A68768622E540735CC331AD06D, NULL);
 		int32_t L_5;
 		L_5 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:140>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:141>
 		if (!L_3)
 		{
 			goto IL_003a;
@@ -22058,7 +22186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Start_m8B0AA1CD86215A8918FFE
 
 IL_003a:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:142>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:143>
 		String_t* L_7;
 		L_7 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
 		bool L_8;
@@ -22069,7 +22197,7 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:144>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:145>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_9);
@@ -22081,711 +22209,733 @@ IL_003a:
 
 IL_0060:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:148>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:149>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		int32_t L_11 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
 		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
 		{
-			goto IL_0116;
+			goto IL_013d;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:150>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:151>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___inGameUIPanel;
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:151>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:152>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___mainMenuPanel;
 		NullCheck(L_13);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:152>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:153>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___pauseMenuPanel;
 		NullCheck(L_14);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:153>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:154>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___settingsPanel;
 		NullCheck(L_15);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:154>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:155>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___bestTimePanel;
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:155>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:156>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___counterPanel;
 		NullCheck(L_17);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:156>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:157>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___victoryUIPanel;
 		NullCheck(L_18);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:157>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:158>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___newGameMenuPanel;
 		NullCheck(L_19);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:158>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:159>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___timesUpUI;
 		NullCheck(L_20);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:159>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:160>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___leaderboardPanel;
 		NullCheck(L_21);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:160>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:161>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___storePanel;
 		NullCheck(L_22);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_22, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:161>
-		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:162>
+		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:163>
 		String_t* L_23;
 		L_23 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
 		int32_t L_24;
 		L_24 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_23, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:163>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:164>
 		if ((!(((uint32_t)L_24) == ((uint32_t)1))))
 		{
-			goto IL_071d;
+			goto IL_0112;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:164>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:165>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_25 = __this->___menuMusic;
 		NullCheck(L_25);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_25, NULL);
-		return;
 	}
 
-IL_0116:
+IL_0112:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:166>
-		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_26 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if (L_26)
+		String_t* L_26;
+		L_26 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
+		bool L_27;
+		L_27 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_26, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
+		if (!L_27)
 		{
-			goto IL_0202;
+			goto IL_0744;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:168>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = __this->___inGameUIPanel;
-		NullCheck(L_27);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_27, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:169>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = __this->___mainMenuPanel;
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_28 = __this->___mainMenuNoAds_Btn;
 		NullCheck(L_28);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:170>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->___pauseMenuPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29;
+		L_29 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_28, NULL);
 		NullCheck(L_29);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_29, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:171>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = __this->___settingsPanel;
-		NullCheck(L_30);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_30, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:172>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = __this->___bestTimePanel;
-		NullCheck(L_31);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_31, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:173>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->___counterPanel;
-		NullCheck(L_32);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_32, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:174>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = __this->___victoryUIPanel;
-		NullCheck(L_33);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_33, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:175>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = __this->___newGameMenuPanel;
-		NullCheck(L_34);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_34, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:176>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___timesUpUI;
-		NullCheck(L_35);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_35, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:177>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->___leaderboardPanel;
-		NullCheck(L_36);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_36, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:178>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = __this->___storePanel;
-		NullCheck(L_37);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_37, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:179>
-		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:180>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:182>
-		String_t* L_38;
-		L_38 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
-		bool L_39;
-		L_39 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_38, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
-		if (!L_39)
-		{
-			goto IL_01d7;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:184>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40;
-		L_40 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_40);
-		AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* L_41;
-		L_41 = Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8(L_40, Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8_RuntimeMethod_var);
-		NullCheck(L_41);
-		AdMobBannerViewController_LoadAd_m6D255A5EF4C58DD4969C97DC099EC6E77BAFABCC(L_41, NULL);
 		return;
 	}
 
-IL_01d7:
+IL_013d:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:186>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:171>
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_30 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if (L_30)
+		{
+			goto IL_0229;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:173>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = __this->___inGameUIPanel;
+		NullCheck(L_31);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_31, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:174>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->___mainMenuPanel;
+		NullCheck(L_32);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_32, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:175>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = __this->___pauseMenuPanel;
+		NullCheck(L_33);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_33, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:176>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = __this->___settingsPanel;
+		NullCheck(L_34);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_34, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:177>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___bestTimePanel;
+		NullCheck(L_35);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_35, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:178>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->___counterPanel;
+		NullCheck(L_36);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_36, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:179>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = __this->___victoryUIPanel;
+		NullCheck(L_37);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_37, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:180>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = __this->___newGameMenuPanel;
+		NullCheck(L_38);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_38, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:181>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39 = __this->___timesUpUI;
+		NullCheck(L_39);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_39, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:182>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_40 = __this->___leaderboardPanel;
+		NullCheck(L_40);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_40, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:183>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = __this->___storePanel;
+		NullCheck(L_41);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_41, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:184>
+		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:185>
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:187>
 		String_t* L_42;
 		L_42 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
 		bool L_43;
-		L_43 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_42, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
+		L_43 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_42, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
 		if (!L_43)
 		{
-			goto IL_071d;
+			goto IL_01fe;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:188>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_44 = __this->___solve_Btn_Quantity;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:189>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44;
+		L_44 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_44);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_45;
-		L_45 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_44, NULL);
+		AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* L_45;
+		L_45 = Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8(L_44, Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8_RuntimeMethod_var);
 		NullCheck(L_45);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_45, (bool)0, NULL);
+		AdMobBannerViewController_LoadAd_m6D255A5EF4C58DD4969C97DC099EC6E77BAFABCC(L_45, NULL);
 		return;
 	}
 
-IL_0202:
+IL_01fe:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:191>
-		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_46 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_46) == ((uint32_t)2))))
+		String_t* L_46;
+		L_46 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
+		bool L_47;
+		L_47 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_46, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
+		if (!L_47)
 		{
-			goto IL_029e;
+			goto IL_0744;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:193>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_47 = __this->___inGameUIPanel;
-		NullCheck(L_47);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_47, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:194>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_48 = __this->___mainMenuPanel;
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_48 = __this->___solve_Btn_Quantity;
 		NullCheck(L_48);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_48, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:195>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49 = __this->___pauseMenuPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49;
+		L_49 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_48, NULL);
 		NullCheck(L_49);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_49, (bool)1, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_49, (bool)0, NULL);
+		return;
+	}
+
+IL_0229:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:196>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50 = __this->___settingsPanel;
-		NullCheck(L_50);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_50, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:197>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51 = __this->___bestTimePanel;
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_50 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_50) == ((uint32_t)2))))
+		{
+			goto IL_02c5;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:198>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51 = __this->___inGameUIPanel;
 		NullCheck(L_51);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_51, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:198>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_52 = __this->___counterPanel;
-		NullCheck(L_52);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_52, (bool)1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:199>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_53 = __this->___victoryUIPanel;
-		NullCheck(L_53);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_53, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_52 = __this->___mainMenuPanel;
+		NullCheck(L_52);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_52, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:200>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = __this->___newGameMenuPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_53 = __this->___pauseMenuPanel;
+		NullCheck(L_53);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_53, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:201>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = __this->___settingsPanel;
 		NullCheck(L_54);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_54, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:201>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55 = __this->___timesUpUI;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:202>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55 = __this->___bestTimePanel;
 		NullCheck(L_55);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_55, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:202>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56 = __this->___leaderboardPanel;
-		NullCheck(L_56);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_56, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:203>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_57 = __this->___storePanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56 = __this->___counterPanel;
+		NullCheck(L_56);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_56, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:204>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_57 = __this->___victoryUIPanel;
 		NullCheck(L_57);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_57, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:204>
-		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:205>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		return;
-	}
-
-IL_029e:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:207>
-		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_58 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_58) == ((uint32_t)5))))
-		{
-			goto IL_033a;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:209>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = __this->___inGameUIPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_58 = __this->___newGameMenuPanel;
+		NullCheck(L_58);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_58, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:206>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = __this->___timesUpUI;
 		NullCheck(L_59);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_59, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:210>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_60 = __this->___mainMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:207>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_60 = __this->___leaderboardPanel;
 		NullCheck(L_60);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_60, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:211>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_61 = __this->___pauseMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:208>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_61 = __this->___storePanel;
 		NullCheck(L_61);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_61, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:209>
+		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:210>
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
+		return;
+	}
+
+IL_02c5:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:212>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_62 = __this->___settingsPanel;
-		NullCheck(L_62);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_62, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:213>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_63 = __this->___bestTimePanel;
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_62 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_62) == ((uint32_t)5))))
+		{
+			goto IL_0361;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:214>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_63 = __this->___inGameUIPanel;
 		NullCheck(L_63);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_63, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:214>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_64 = __this->___counterPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:215>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_64 = __this->___mainMenuPanel;
 		NullCheck(L_64);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_64, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:215>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_65 = __this->___victoryUIPanel;
-		NullCheck(L_65);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_65, (bool)1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:216>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_66 = __this->___newGameMenuPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_65 = __this->___pauseMenuPanel;
+		NullCheck(L_65);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_65, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:217>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_66 = __this->___settingsPanel;
 		NullCheck(L_66);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_66, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:217>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_67 = __this->___timesUpUI;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:218>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_67 = __this->___bestTimePanel;
 		NullCheck(L_67);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_67, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:218>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_68 = __this->___leaderboardPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:219>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_68 = __this->___counterPanel;
 		NullCheck(L_68);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_68, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:219>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_69 = __this->___storePanel;
-		NullCheck(L_69);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_69, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:220>
-		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_69 = __this->___victoryUIPanel;
+		NullCheck(L_69);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_69, (bool)1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:221>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		return;
-	}
-
-IL_033a:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:223>
-		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_70 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_70) == ((uint32_t)4))))
-		{
-			goto IL_03d6;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:225>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_71 = __this->___inGameUIPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_70 = __this->___newGameMenuPanel;
+		NullCheck(L_70);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_70, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:222>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_71 = __this->___timesUpUI;
 		NullCheck(L_71);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_71, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:226>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_72 = __this->___mainMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:223>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_72 = __this->___leaderboardPanel;
 		NullCheck(L_72);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_72, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:227>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_73 = __this->___pauseMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:224>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_73 = __this->___storePanel;
 		NullCheck(L_73);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_73, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:225>
+		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:226>
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
+		return;
+	}
+
+IL_0361:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:228>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_74 = __this->___settingsPanel;
-		NullCheck(L_74);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_74, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:229>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_75 = __this->___bestTimePanel;
-		NullCheck(L_75);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_75, (bool)1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_74 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_74) == ((uint32_t)4))))
+		{
+			goto IL_03fd;
+		}
+	}
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:230>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_76 = __this->___counterPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_75 = __this->___inGameUIPanel;
+		NullCheck(L_75);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_75, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:231>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_76 = __this->___mainMenuPanel;
 		NullCheck(L_76);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_76, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:231>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_77 = __this->___victoryUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:232>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_77 = __this->___pauseMenuPanel;
 		NullCheck(L_77);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_77, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:232>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_78 = __this->___newGameMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:233>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_78 = __this->___settingsPanel;
 		NullCheck(L_78);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_78, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:233>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_79 = __this->___timesUpUI;
-		NullCheck(L_79);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_79, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:234>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_80 = __this->___leaderboardPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_79 = __this->___bestTimePanel;
+		NullCheck(L_79);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_79, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:235>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_80 = __this->___counterPanel;
 		NullCheck(L_80);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_80, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:235>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_81 = __this->___storePanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:236>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_81 = __this->___victoryUIPanel;
 		NullCheck(L_81);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_81, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:236>
-		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:237>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		return;
-	}
-
-IL_03d6:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:239>
-		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_82 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_82) == ((uint32_t)3))))
-		{
-			goto IL_0472;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:241>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_83 = __this->___inGameUIPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_82 = __this->___newGameMenuPanel;
+		NullCheck(L_82);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_82, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:238>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_83 = __this->___timesUpUI;
 		NullCheck(L_83);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_83, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:242>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_84 = __this->___mainMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:239>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_84 = __this->___leaderboardPanel;
 		NullCheck(L_84);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_84, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:243>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_85 = __this->___pauseMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:240>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_85 = __this->___storePanel;
 		NullCheck(L_85);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_85, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:244>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_86 = __this->___settingsPanel;
-		NullCheck(L_86);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_86, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:245>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_87 = __this->___bestTimePanel;
-		NullCheck(L_87);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_87, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:246>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_88 = __this->___counterPanel;
-		NullCheck(L_88);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_88, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:247>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_89 = __this->___victoryUIPanel;
-		NullCheck(L_89);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_89, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:248>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_90 = __this->___newGameMenuPanel;
-		NullCheck(L_90);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_90, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:249>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_91 = __this->___timesUpUI;
-		NullCheck(L_91);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_91, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:250>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_92 = __this->___leaderboardPanel;
-		NullCheck(L_92);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_92, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:251>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_93 = __this->___storePanel;
-		NullCheck(L_93);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_93, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:252>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:241>
 		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:253>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:242>
 		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
 		return;
 	}
 
-IL_0472:
+IL_03fd:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:255>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:244>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_94 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_94) == ((uint32_t)6))))
+		int32_t L_86 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_86) == ((uint32_t)3))))
 		{
-			goto IL_0549;
+			goto IL_0499;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:257>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_95 = __this->___inGameUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:246>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_87 = __this->___inGameUIPanel;
+		NullCheck(L_87);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_87, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:247>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_88 = __this->___mainMenuPanel;
+		NullCheck(L_88);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_88, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:248>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_89 = __this->___pauseMenuPanel;
+		NullCheck(L_89);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_89, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:249>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_90 = __this->___settingsPanel;
+		NullCheck(L_90);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_90, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:250>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_91 = __this->___bestTimePanel;
+		NullCheck(L_91);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_91, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:251>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_92 = __this->___counterPanel;
+		NullCheck(L_92);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_92, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:252>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_93 = __this->___victoryUIPanel;
+		NullCheck(L_93);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_93, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:253>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_94 = __this->___newGameMenuPanel;
+		NullCheck(L_94);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_94, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:254>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_95 = __this->___timesUpUI;
 		NullCheck(L_95);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_95, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:258>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_96 = __this->___mainMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:255>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_96 = __this->___leaderboardPanel;
 		NullCheck(L_96);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_96, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:259>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_97 = __this->___pauseMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:256>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_97 = __this->___storePanel;
 		NullCheck(L_97);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_97, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:260>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_98 = __this->___settingsPanel;
-		NullCheck(L_98);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_98, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:261>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_99 = __this->___bestTimePanel;
-		NullCheck(L_99);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_99, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:262>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_100 = __this->___counterPanel;
-		NullCheck(L_100);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_100, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:263>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_101 = __this->___victoryUIPanel;
-		NullCheck(L_101);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_101, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:264>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_102 = __this->___newGameMenuPanel;
-		NullCheck(L_102);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_102, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:265>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_103 = __this->___timesUpUI;
-		NullCheck(L_103);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_103, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:266>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_104 = __this->___leaderboardPanel;
-		NullCheck(L_104);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_104, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:267>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_105 = __this->___storePanel;
-		NullCheck(L_105);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_105, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:268>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:257>
 		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:269>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:258>
 		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:270>
-		String_t* L_106;
-		L_106 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
-		bool L_107;
-		L_107 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_106, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
-		if (!L_107)
+		return;
+	}
+
+IL_0499:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:260>
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_98 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_98) == ((uint32_t)6))))
 		{
-			goto IL_071d;
+			goto IL_0570;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:272>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_108 = __this->___easyJoker_Btn_Quantity;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:262>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_99 = __this->___inGameUIPanel;
+		NullCheck(L_99);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_99, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:263>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_100 = __this->___mainMenuPanel;
+		NullCheck(L_100);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_100, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:264>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_101 = __this->___pauseMenuPanel;
+		NullCheck(L_101);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_101, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:265>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_102 = __this->___settingsPanel;
+		NullCheck(L_102);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_102, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:266>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_103 = __this->___bestTimePanel;
+		NullCheck(L_103);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_103, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:267>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_104 = __this->___counterPanel;
+		NullCheck(L_104);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_104, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:268>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_105 = __this->___victoryUIPanel;
+		NullCheck(L_105);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_105, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:269>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_106 = __this->___newGameMenuPanel;
+		NullCheck(L_106);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_106, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:270>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_107 = __this->___timesUpUI;
+		NullCheck(L_107);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_107, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:271>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_108 = __this->___leaderboardPanel;
 		NullCheck(L_108);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_109;
-		L_109 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_108, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_108, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:272>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_109 = __this->___storePanel;
 		NullCheck(L_109);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_109, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:273>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_110 = __this->___veryEasyJoker_Btn_Quantity;
-		NullCheck(L_110);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_111;
-		L_111 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_110, NULL);
-		NullCheck(L_111);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_111, (bool)0, NULL);
-		return;
-	}
-
-IL_0549:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:276>
-		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_112 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_112) == ((uint32_t)7))))
+		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:274>
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:275>
+		String_t* L_110;
+		L_110 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
+		bool L_111;
+		L_111 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_110, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
+		if (!L_111)
 		{
-			goto IL_05e5;
+			goto IL_0744;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:278>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_113 = __this->___inGameUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:277>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_112 = __this->___easyJoker_Btn_Quantity;
+		NullCheck(L_112);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_113;
+		L_113 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_112, NULL);
 		NullCheck(L_113);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_113, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:279>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_114 = __this->___mainMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:278>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_114 = __this->___veryEasyJoker_Btn_Quantity;
 		NullCheck(L_114);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_114, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:280>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_115 = __this->___pauseMenuPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_115;
+		L_115 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_114, NULL);
 		NullCheck(L_115);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_115, (bool)0, NULL);
+		return;
+	}
+
+IL_0570:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:281>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_116 = __this->___settingsPanel;
-		NullCheck(L_116);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_116, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:282>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_117 = __this->___bestTimePanel;
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_116 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_116) == ((uint32_t)7))))
+		{
+			goto IL_060c;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:283>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_117 = __this->___inGameUIPanel;
 		NullCheck(L_117);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_117, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:283>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_118 = __this->___counterPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:284>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_118 = __this->___mainMenuPanel;
 		NullCheck(L_118);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_118, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:284>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_119 = __this->___victoryUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:285>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_119 = __this->___pauseMenuPanel;
 		NullCheck(L_119);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_119, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:285>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_120 = __this->___newGameMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:286>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_120 = __this->___settingsPanel;
 		NullCheck(L_120);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_120, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:286>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_121 = __this->___timesUpUI;
-		NullCheck(L_121);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_121, (bool)1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:287>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_122 = __this->___leaderboardPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_121 = __this->___bestTimePanel;
+		NullCheck(L_121);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_121, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:288>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_122 = __this->___counterPanel;
 		NullCheck(L_122);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_122, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:288>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_123 = __this->___storePanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:289>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_123 = __this->___victoryUIPanel;
 		NullCheck(L_123);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_123, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:289>
-		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:290>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		return;
-	}
-
-IL_05e5:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:292>
-		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_124 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_124) == ((uint32_t)8))))
-		{
-			goto IL_0681;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:294>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_125 = __this->___inGameUIPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_124 = __this->___newGameMenuPanel;
+		NullCheck(L_124);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_124, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:291>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_125 = __this->___timesUpUI;
 		NullCheck(L_125);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_125, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:295>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_126 = __this->___mainMenuPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_125, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:292>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_126 = __this->___leaderboardPanel;
 		NullCheck(L_126);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_126, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:296>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_127 = __this->___pauseMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:293>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_127 = __this->___storePanel;
 		NullCheck(L_127);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_127, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:297>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_128 = __this->___settingsPanel;
-		NullCheck(L_128);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_128, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:298>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_129 = __this->___bestTimePanel;
-		NullCheck(L_129);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_129, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:299>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_130 = __this->___counterPanel;
-		NullCheck(L_130);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_130, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:300>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_131 = __this->___victoryUIPanel;
-		NullCheck(L_131);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_131, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:301>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_132 = __this->___newGameMenuPanel;
-		NullCheck(L_132);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_132, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:302>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_133 = __this->___timesUpUI;
-		NullCheck(L_133);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_133, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:303>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_134 = __this->___leaderboardPanel;
-		NullCheck(L_134);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_134, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:304>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_135 = __this->___storePanel;
-		NullCheck(L_135);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_135, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:305>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:294>
 		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:306>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:295>
 		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
 		return;
 	}
 
-IL_0681:
+IL_060c:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:308>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:297>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_136 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_136) == ((uint32_t)((int32_t)9)))))
+		int32_t L_128 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_128) == ((uint32_t)8))))
 		{
-			goto IL_071d;
+			goto IL_06a8;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:310>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_137 = __this->___inGameUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:299>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_129 = __this->___inGameUIPanel;
+		NullCheck(L_129);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_129, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:300>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_130 = __this->___mainMenuPanel;
+		NullCheck(L_130);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_130, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:301>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_131 = __this->___pauseMenuPanel;
+		NullCheck(L_131);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_131, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:302>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_132 = __this->___settingsPanel;
+		NullCheck(L_132);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_132, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:303>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_133 = __this->___bestTimePanel;
+		NullCheck(L_133);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_133, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:304>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_134 = __this->___counterPanel;
+		NullCheck(L_134);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_134, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:305>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_135 = __this->___victoryUIPanel;
+		NullCheck(L_135);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_135, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:306>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_136 = __this->___newGameMenuPanel;
+		NullCheck(L_136);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_136, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:307>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_137 = __this->___timesUpUI;
 		NullCheck(L_137);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_137, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:311>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_138 = __this->___mainMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:308>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_138 = __this->___leaderboardPanel;
 		NullCheck(L_138);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_138, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:312>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_139 = __this->___pauseMenuPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_138, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:309>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_139 = __this->___storePanel;
 		NullCheck(L_139);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_139, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:310>
+		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:311>
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
+		return;
+	}
+
+IL_06a8:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:313>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_140 = __this->___settingsPanel;
-		NullCheck(L_140);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_140, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:314>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_141 = __this->___bestTimePanel;
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_140 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_140) == ((uint32_t)((int32_t)9)))))
+		{
+			goto IL_0744;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:315>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_141 = __this->___inGameUIPanel;
 		NullCheck(L_141);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_141, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:315>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_142 = __this->___counterPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:316>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_142 = __this->___mainMenuPanel;
 		NullCheck(L_142);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_142, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:316>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_143 = __this->___victoryUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:317>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_143 = __this->___pauseMenuPanel;
 		NullCheck(L_143);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_143, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:317>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_144 = __this->___newGameMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:318>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_144 = __this->___settingsPanel;
 		NullCheck(L_144);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_144, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:318>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_145 = __this->___timesUpUI;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:319>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_145 = __this->___bestTimePanel;
 		NullCheck(L_145);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_145, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:319>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_146 = __this->___leaderboardPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:320>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_146 = __this->___counterPanel;
 		NullCheck(L_146);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_146, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:320>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_147 = __this->___storePanel;
-		NullCheck(L_147);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_147, (bool)1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:321>
-		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_147 = __this->___victoryUIPanel;
+		NullCheck(L_147);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_147, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:322>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_148 = __this->___newGameMenuPanel;
+		NullCheck(L_148);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_148, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:323>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_149 = __this->___timesUpUI;
+		NullCheck(L_149);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_149, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:324>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_150 = __this->___leaderboardPanel;
+		NullCheck(L_150);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_150, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:325>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_151 = __this->___storePanel;
+		NullCheck(L_151);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_151, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:326>
+		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:327>
 		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
 	}
 
-IL_071d:
+IL_0744:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:324>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:329>
 		return;
 	}
 }
-// Method Definition Index: 54662
+// Method Definition Index: 53873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Update_mDD47C3C93CBD4B2155B1E1996D4AD60C00656222 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22807,7 +22957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Update_mDD47C3C93CBD4B2155B1
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:329>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:334>
 		bool L_0 = __this->___isLoadedKociembaTables;
 		if (!L_0)
 		{
@@ -22834,13 +22984,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Update_mDD47C3C93CBD4B2155B1
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:331>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:336>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___solve_Btn;
 		NullCheck(L_5);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_5, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:332>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:337>
 		__this->___isSolveButtonActiveFirstTime = (bool)1;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:333>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:338>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___solve_Btn;
 		NullCheck(L_6);
 		Solve_Btn_tB694FE4AEAD1611FA12620E3C142F2D6670275D6* L_7;
@@ -22851,12 +23001,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_Update_mDD47C3C93CBD4B2155B1
 
 IL_0046:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:336>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:341>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		int32_t L_8 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
 		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
 		{
-			goto IL_01dc;
+			goto IL_0200;
 		}
 	}
 	{
@@ -22866,59 +23016,59 @@ IL_0046:
 		L_10 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_9, NULL);
 		if (L_10)
 		{
-			goto IL_01dc;
+			goto IL_0200;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:338>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:343>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___inGameUIPanel;
 		NullCheck(L_11);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:339>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:344>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___mainMenuPanel;
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:340>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:345>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___pauseMenuPanel;
 		NullCheck(L_13);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:341>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:346>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___settingsPanel;
 		NullCheck(L_14);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:342>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:347>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___bestTimePanel;
 		NullCheck(L_15);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:343>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:348>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___counterPanel;
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:344>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:349>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___victoryUIPanel;
 		NullCheck(L_17);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:345>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:350>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___newGameMenuPanel;
 		NullCheck(L_18);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:346>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:351>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___timesUpUI;
 		NullCheck(L_19);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:347>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:352>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___leaderboardPanel;
 		NullCheck(L_20);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:348>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:353>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___storePanel;
 		NullCheck(L_21);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:349>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:354>
 		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:350>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:355>
 		MenuControl_CreateMenuCube_m00F5E577A22F7B0D6748385CCAFC5108BAC2BD15(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:351>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:356>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
 		L_22 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_22);
@@ -22926,19 +23076,19 @@ IL_0046:
 		L_23 = Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8(L_22, Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8_RuntimeMethod_var);
 		NullCheck(L_23);
 		AdMobBannerViewController_DestroyAd_mB9887AAC9A17B586BF9E09383CE74494FE849C5D(L_23, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:353>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:358>
 		String_t* L_24;
 		L_24 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
 		int32_t L_25;
 		L_25 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_24, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:354>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:359>
 		if ((!(((uint32_t)L_25) == ((uint32_t)1))))
 		{
 			goto IL_012b;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:356>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:361>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_26 = __this->___menuMusic;
 		NullCheck(L_26);
 		bool L_27;
@@ -22949,7 +23099,7 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:357>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:362>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_28 = __this->___menuMusic;
 		NullCheck(L_28);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_28, NULL);
@@ -22957,7 +23107,7 @@ IL_0046:
 
 IL_012b:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:360>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:365>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_29 = __this->___normalModeMusic;
 		NullCheck(L_29);
 		bool L_30;
@@ -22968,7 +23118,7 @@ IL_012b:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:361>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:366>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_31 = __this->___normalModeMusic;
 		NullCheck(L_31);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_31, NULL);
@@ -22976,7 +23126,7 @@ IL_012b:
 
 IL_0143:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:362>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:367>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_32 = __this->___challengeModeMusic;
 		NullCheck(L_32);
 		bool L_33;
@@ -22987,7 +23137,7 @@ IL_0143:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:363>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:368>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_34 = __this->___challengeModeMusic;
 		NullCheck(L_34);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_34, NULL);
@@ -22995,7 +23145,7 @@ IL_0143:
 
 IL_015b:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:364>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:369>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_35 = __this->___appleuse;
 		NullCheck(L_35);
 		bool L_36;
@@ -23006,7 +23156,7 @@ IL_015b:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:365>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:370>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_37 = __this->___appleuse;
 		NullCheck(L_37);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_37, NULL);
@@ -23014,7 +23164,7 @@ IL_015b:
 
 IL_0173:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:366>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:371>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_38 = __this->___timesUp;
 		NullCheck(L_38);
 		bool L_39;
@@ -23025,7 +23175,7 @@ IL_0173:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:367>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:372>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_40 = __this->___timesUp;
 		NullCheck(L_40);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_40, NULL);
@@ -23033,45 +23183,45 @@ IL_0173:
 
 IL_018b:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:369>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:374>
 		String_t* L_41;
 		L_41 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral0B9C01623616030D863DD52FA81A119CC7C843E3, NULL);
 		int32_t L_42;
 		L_42 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_41, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:370>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:375>
 		String_t* L_43;
 		L_43 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral766C95B990F0A8A68768622E540735CC331AD06D, NULL);
 		int32_t L_44;
 		L_44 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_43, NULL);
 		V_0 = L_44;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:371>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:376>
 		if (!L_42)
 		{
-			goto IL_01b2;
+			goto IL_01af;
 		}
 	}
 	{
 		int32_t L_45 = V_0;
 		if (L_45)
 		{
-			goto IL_0d87;
+			goto IL_01d5;
 		}
 	}
 
-IL_01b2:
+IL_01af:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:373>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:378>
 		String_t* L_46;
 		L_46 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
 		bool L_47;
 		L_47 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_46, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
 		if (!L_47)
 		{
-			goto IL_0d87;
+			goto IL_01d5;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:375>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:380>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_48;
 		L_48 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_48);
@@ -23079,1726 +23229,1710 @@ IL_01b2:
 		L_49 = Component_GetComponent_TisAdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95_mE19118ECD4F161845FE53A760675CC48834CEDAF(L_48, Component_GetComponent_TisAdMobRewardedAdController_t4D8BA9EA5F4D53FE7368DF78874E2DA7D966FC95_mE19118ECD4F161845FE53A760675CC48834CEDAF_RuntimeMethod_var);
 		NullCheck(L_49);
 		AdMobRewardedAdController_LoadAd_mF81129B837511B000923F5142CE69FED61281CFD(L_49, NULL);
+	}
+
+IL_01d5:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:384>
+		String_t* L_50;
+		L_50 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
+		bool L_51;
+		L_51 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_50, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
+		if (!L_51)
+		{
+			goto IL_0dab;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:386>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_52 = __this->___mainMenuNoAds_Btn;
+		NullCheck(L_52);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_53;
+		L_53 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_52, NULL);
+		NullCheck(L_53);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_53, (bool)0, NULL);
 		return;
 	}
 
-IL_01dc:
+IL_0200:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:379>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:389>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_50 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if (L_50)
+		int32_t L_54 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if (L_54)
 		{
-			goto IL_0377;
+			goto IL_039b;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51 = __this->___inGameUIPanel;
-		NullCheck(L_51);
-		bool L_52;
-		L_52 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_51, NULL);
-		if (L_52)
-		{
-			goto IL_0377;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:381>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_53 = __this->___inGameUIPanel;
-		NullCheck(L_53);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_53, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:382>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = __this->___mainMenuPanel;
-		NullCheck(L_54);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_54, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:383>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55 = __this->___pauseMenuPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55 = __this->___inGameUIPanel;
 		NullCheck(L_55);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_55, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:384>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56 = __this->___settingsPanel;
-		NullCheck(L_56);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_56, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:385>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_57 = __this->___bestTimePanel;
+		bool L_56;
+		L_56 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_55, NULL);
+		if (L_56)
+		{
+			goto IL_039b;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:391>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_57 = __this->___inGameUIPanel;
 		NullCheck(L_57);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_57, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:386>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_58 = __this->___counterPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_57, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:392>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_58 = __this->___mainMenuPanel;
 		NullCheck(L_58);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_58, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:387>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = __this->___victoryUIPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_58, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:393>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = __this->___pauseMenuPanel;
 		NullCheck(L_59);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_59, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:388>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_60 = __this->___newGameMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:394>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_60 = __this->___settingsPanel;
 		NullCheck(L_60);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_60, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:389>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_61 = __this->___timesUpUI;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:395>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_61 = __this->___bestTimePanel;
 		NullCheck(L_61);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_61, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:390>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_62 = __this->___leaderboardPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:396>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_62 = __this->___counterPanel;
 		NullCheck(L_62);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_62, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:391>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_63 = __this->___storePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_62, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:397>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_63 = __this->___victoryUIPanel;
 		NullCheck(L_63);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_63, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:392>
-		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:393>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:394>
-		String_t* L_64;
-		L_64 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
-		bool L_65;
-		L_65 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_64, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
-		if (!L_65)
-		{
-			goto IL_02ae;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:396>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_66;
-		L_66 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_66);
-		AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* L_67;
-		L_67 = Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8(L_66, Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8_RuntimeMethod_var);
-		NullCheck(L_67);
-		AdMobBannerViewController_LoadAd_m6D255A5EF4C58DD4969C97DC099EC6E77BAFABCC(L_67, NULL);
-		goto IL_02d5;
-	}
-
-IL_02ae:
-	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:398>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_64 = __this->___newGameMenuPanel;
+		NullCheck(L_64);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_64, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:399>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_65 = __this->___timesUpUI;
+		NullCheck(L_65);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_65, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:400>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_66 = __this->___leaderboardPanel;
+		NullCheck(L_66);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_66, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:401>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_67 = __this->___storePanel;
+		NullCheck(L_67);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_67, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:402>
+		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:403>
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:404>
 		String_t* L_68;
 		L_68 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
 		bool L_69;
-		L_69 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_68, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
+		L_69 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_68, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
 		if (!L_69)
 		{
-			goto IL_02d5;
+			goto IL_02d2;
 		}
 	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:400>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_70 = __this->___solve_Btn_Quantity;
-		NullCheck(L_70);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_71;
-		L_71 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_70, NULL);
-		NullCheck(L_71);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_71, (bool)0, NULL);
-	}
-
-IL_02d5:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:403>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_72 = __this->___menuMusic;
-		NullCheck(L_72);
-		bool L_73;
-		L_73 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_72, NULL);
-		if (!L_73)
-		{
-			goto IL_02ed;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:404>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_74 = __this->___menuMusic;
-		NullCheck(L_74);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_74, NULL);
-	}
-
-IL_02ed:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:406>
-		String_t* L_75;
-		L_75 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
-		int32_t L_76;
-		L_76 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_75, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:407>
-		if ((!(((uint32_t)L_76) == ((uint32_t)1))))
-		{
-			goto IL_0343;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:409>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_77 = __this->___counter;
-		NullCheck(L_77);
-		Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146* L_78;
-		L_78 = GameObject_GetComponent_TisCounter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146_m426D4641418D11C5BE15B781B48AA4CC51E9F3A4(L_77, GameObject_GetComponent_TisCounter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146_m426D4641418D11C5BE15B781B48AA4CC51E9F3A4_RuntimeMethod_var);
-		NullCheck(L_78);
-		bool L_79 = L_78->___isChallengeModeActive;
-		if (!L_79)
-		{
-			goto IL_032b;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:411>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_80 = __this->___challengeModeMusic;
-		NullCheck(L_80);
-		bool L_81;
-		L_81 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_80, NULL);
-		if (L_81)
-		{
-			goto IL_0343;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:412>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_82 = __this->___challengeModeMusic;
-		NullCheck(L_82);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_82, NULL);
-		goto IL_0343;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_70;
+		L_70 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_70);
+		AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* L_71;
+		L_71 = Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8(L_70, Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8_RuntimeMethod_var);
+		NullCheck(L_71);
+		AdMobBannerViewController_LoadAd_m6D255A5EF4C58DD4969C97DC099EC6E77BAFABCC(L_71, NULL);
+		goto IL_02f9;
 	}
 
-IL_032b:
+IL_02d2:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:408>
+		String_t* L_72;
+		L_72 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
+		bool L_73;
+		L_73 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_72, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
+		if (!L_73)
+		{
+			goto IL_02f9;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:410>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_74 = __this->___solve_Btn_Quantity;
+		NullCheck(L_74);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_75;
+		L_75 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_74, NULL);
+		NullCheck(L_75);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_75, (bool)0, NULL);
+	}
+
+IL_02f9:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:413>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_76 = __this->___menuMusic;
+		NullCheck(L_76);
+		bool L_77;
+		L_77 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_76, NULL);
+		if (!L_77)
+		{
+			goto IL_0311;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:414>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_78 = __this->___menuMusic;
+		NullCheck(L_78);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_78, NULL);
+	}
+
+IL_0311:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:416>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_83 = __this->___normalModeMusic;
-		NullCheck(L_83);
-		bool L_84;
-		L_84 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_83, NULL);
-		if (L_84)
+		String_t* L_79;
+		L_79 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
+		int32_t L_80;
+		L_80 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_79, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:417>
+		if ((!(((uint32_t)L_80) == ((uint32_t)1))))
 		{
-			goto IL_0343;
+			goto IL_0367;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:417>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_85 = __this->___normalModeMusic;
-		NullCheck(L_85);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_85, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:419>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_81 = __this->___counter;
+		NullCheck(L_81);
+		Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146* L_82;
+		L_82 = GameObject_GetComponent_TisCounter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146_m426D4641418D11C5BE15B781B48AA4CC51E9F3A4(L_81, GameObject_GetComponent_TisCounter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146_m426D4641418D11C5BE15B781B48AA4CC51E9F3A4_RuntimeMethod_var);
+		NullCheck(L_82);
+		bool L_83 = L_82->___isChallengeModeActive;
+		if (!L_83)
+		{
+			goto IL_034f;
+		}
 	}
-
-IL_0343:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:421>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_86 = __this->___appleuse;
-		NullCheck(L_86);
-		bool L_87;
-		L_87 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_86, NULL);
-		if (!L_87)
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_84 = __this->___challengeModeMusic;
+		NullCheck(L_84);
+		bool L_85;
+		L_85 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_84, NULL);
+		if (L_85)
 		{
-			goto IL_035b;
+			goto IL_0367;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:422>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_88 = __this->___appleuse;
-		NullCheck(L_88);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_88, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_86 = __this->___challengeModeMusic;
+		NullCheck(L_86);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_86, NULL);
+		goto IL_0367;
 	}
 
-IL_035b:
+IL_034f:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:423>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_89 = __this->___timesUp;
-		NullCheck(L_89);
-		bool L_90;
-		L_90 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_89, NULL);
-		if (!L_90)
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:426>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_87 = __this->___normalModeMusic;
+		NullCheck(L_87);
+		bool L_88;
+		L_88 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_87, NULL);
+		if (L_88)
 		{
-			goto IL_0d87;
+			goto IL_0367;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:424>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_91 = __this->___timesUp;
-		NullCheck(L_91);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_91, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:427>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_89 = __this->___normalModeMusic;
+		NullCheck(L_89);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_89, NULL);
+	}
+
+IL_0367:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:431>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_90 = __this->___appleuse;
+		NullCheck(L_90);
+		bool L_91;
+		L_91 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_90, NULL);
+		if (!L_91)
+		{
+			goto IL_037f;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:432>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_92 = __this->___appleuse;
+		NullCheck(L_92);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_92, NULL);
+	}
+
+IL_037f:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:433>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_93 = __this->___timesUp;
+		NullCheck(L_93);
+		bool L_94;
+		L_94 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_93, NULL);
+		if (!L_94)
+		{
+			goto IL_0dab;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:434>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_95 = __this->___timesUp;
+		NullCheck(L_95);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_95, NULL);
 		return;
 	}
 
-IL_0377:
+IL_039b:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:426>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:436>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_92 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_92) == ((uint32_t)2))))
+		int32_t L_96 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_96) == ((uint32_t)2))))
 		{
-			goto IL_04c0;
+			goto IL_04e4;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_93 = __this->___pauseMenuPanel;
-		NullCheck(L_93);
-		bool L_94;
-		L_94 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_93, NULL);
-		if (L_94)
-		{
-			goto IL_04c0;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:428>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_95 = __this->___inGameUIPanel;
-		NullCheck(L_95);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_95, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:429>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_96 = __this->___mainMenuPanel;
-		NullCheck(L_96);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_96, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:430>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_97 = __this->___pauseMenuPanel;
 		NullCheck(L_97);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_97, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:431>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_98 = __this->___settingsPanel;
-		NullCheck(L_98);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_98, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:432>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_99 = __this->___bestTimePanel;
+		bool L_98;
+		L_98 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_97, NULL);
+		if (L_98)
+		{
+			goto IL_04e4;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:438>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_99 = __this->___inGameUIPanel;
 		NullCheck(L_99);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_99, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:433>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_100 = __this->___counterPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:439>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_100 = __this->___mainMenuPanel;
 		NullCheck(L_100);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_100, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:434>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_101 = __this->___victoryUIPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_100, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:440>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_101 = __this->___pauseMenuPanel;
 		NullCheck(L_101);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_101, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:435>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_102 = __this->___newGameMenuPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_101, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:441>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_102 = __this->___settingsPanel;
 		NullCheck(L_102);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_102, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:436>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_103 = __this->___timesUpUI;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:442>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_103 = __this->___bestTimePanel;
 		NullCheck(L_103);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_103, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:437>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_104 = __this->___leaderboardPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:443>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_104 = __this->___counterPanel;
 		NullCheck(L_104);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_104, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:438>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_105 = __this->___storePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_104, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:444>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_105 = __this->___victoryUIPanel;
 		NullCheck(L_105);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_105, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:439>
-		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:440>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:441>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_106;
-		L_106 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:445>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_106 = __this->___newGameMenuPanel;
 		NullCheck(L_106);
-		AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* L_107;
-		L_107 = Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8(L_106, Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8_RuntimeMethod_var);
-		NullCheck(L_107);
-		AdMobBannerViewController_DestroyAd_mB9887AAC9A17B586BF9E09383CE74494FE849C5D(L_107, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:443>
-		String_t* L_108;
-		L_108 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
-		int32_t L_109;
-		L_109 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_108, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:444>
-		if ((!(((uint32_t)L_109) == ((uint32_t)1))))
-		{
-			goto IL_045c;
-		}
-	}
-	{
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_106, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:446>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_110 = __this->___menuMusic;
-		NullCheck(L_110);
-		bool L_111;
-		L_111 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_110, NULL);
-		if (L_111)
-		{
-			goto IL_045c;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_107 = __this->___timesUpUI;
+		NullCheck(L_107);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_107, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:447>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_112 = __this->___menuMusic;
-		NullCheck(L_112);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_112, NULL);
-	}
-
-IL_045c:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_108 = __this->___leaderboardPanel;
+		NullCheck(L_108);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_108, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:448>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_109 = __this->___storePanel;
+		NullCheck(L_109);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_109, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:449>
+		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:450>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_113 = __this->___normalModeMusic;
-		NullCheck(L_113);
-		bool L_114;
-		L_114 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_113, NULL);
-		if (!L_114)
-		{
-			goto IL_0474;
-		}
-	}
-	{
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:451>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_115 = __this->___normalModeMusic;
-		NullCheck(L_115);
-		AudioSource_Pause_m2C2A09359E8AA924FEADECC1AFEA519B3C915B26(L_115, NULL);
-	}
-
-IL_0474:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:452>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_116 = __this->___challengeModeMusic;
-		NullCheck(L_116);
-		bool L_117;
-		L_117 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_116, NULL);
-		if (!L_117)
-		{
-			goto IL_048c;
-		}
-	}
-	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_110;
+		L_110 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_110);
+		AdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8* L_111;
+		L_111 = Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8(L_110, Component_GetComponent_TisAdMobBannerViewController_tF543D7EFD9A26A8D6E3AB786F4413AB26E6143D8_m3467C69B69BB0BC2FD24F519A30C157DF967BEE8_RuntimeMethod_var);
+		NullCheck(L_111);
+		AdMobBannerViewController_DestroyAd_mB9887AAC9A17B586BF9E09383CE74494FE849C5D(L_111, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:453>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_118 = __this->___challengeModeMusic;
-		NullCheck(L_118);
-		AudioSource_Pause_m2C2A09359E8AA924FEADECC1AFEA519B3C915B26(L_118, NULL);
-	}
-
-IL_048c:
-	{
+		String_t* L_112;
+		L_112 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
+		int32_t L_113;
+		L_113 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_112, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:454>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_119 = __this->___appleuse;
-		NullCheck(L_119);
-		bool L_120;
-		L_120 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_119, NULL);
-		if (!L_120)
+		if ((!(((uint32_t)L_113) == ((uint32_t)1))))
 		{
-			goto IL_04a4;
+			goto IL_0480;
 		}
 	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:455>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_121 = __this->___appleuse;
-		NullCheck(L_121);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_121, NULL);
-	}
-
-IL_04a4:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:456>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_122 = __this->___timesUp;
-		NullCheck(L_122);
-		bool L_123;
-		L_123 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_122, NULL);
-		if (!L_123)
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_114 = __this->___menuMusic;
+		NullCheck(L_114);
+		bool L_115;
+		L_115 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_114, NULL);
+		if (L_115)
 		{
-			goto IL_0d87;
+			goto IL_0480;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:457>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_124 = __this->___timesUp;
-		NullCheck(L_124);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_124, NULL);
-		return;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_116 = __this->___menuMusic;
+		NullCheck(L_116);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_116, NULL);
 	}
 
-IL_04c0:
+IL_0480:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:459>
-		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_125 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_125) == ((uint32_t)5))))
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:460>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_117 = __this->___normalModeMusic;
+		NullCheck(L_117);
+		bool L_118;
+		L_118 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_117, NULL);
+		if (!L_118)
 		{
-			goto IL_05f9;
-		}
-	}
-	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_126 = __this->___victoryUIPanel;
-		NullCheck(L_126);
-		bool L_127;
-		L_127 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_126, NULL);
-		if (L_127)
-		{
-			goto IL_05f9;
+			goto IL_0498;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:461>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_128 = __this->___inGameUIPanel;
-		NullCheck(L_128);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_128, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_119 = __this->___normalModeMusic;
+		NullCheck(L_119);
+		AudioSource_Pause_m2C2A09359E8AA924FEADECC1AFEA519B3C915B26(L_119, NULL);
+	}
+
+IL_0498:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:462>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_129 = __this->___mainMenuPanel;
-		NullCheck(L_129);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_129, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_120 = __this->___challengeModeMusic;
+		NullCheck(L_120);
+		bool L_121;
+		L_121 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_120, NULL);
+		if (!L_121)
+		{
+			goto IL_04b0;
+		}
+	}
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:463>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_130 = __this->___pauseMenuPanel;
-		NullCheck(L_130);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_130, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_122 = __this->___challengeModeMusic;
+		NullCheck(L_122);
+		AudioSource_Pause_m2C2A09359E8AA924FEADECC1AFEA519B3C915B26(L_122, NULL);
+	}
+
+IL_04b0:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:464>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_131 = __this->___settingsPanel;
-		NullCheck(L_131);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_131, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_123 = __this->___appleuse;
+		NullCheck(L_123);
+		bool L_124;
+		L_124 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_123, NULL);
+		if (!L_124)
+		{
+			goto IL_04c8;
+		}
+	}
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:465>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_132 = __this->___bestTimePanel;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_125 = __this->___appleuse;
+		NullCheck(L_125);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_125, NULL);
+	}
+
+IL_04c8:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:466>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_126 = __this->___timesUp;
+		NullCheck(L_126);
+		bool L_127;
+		L_127 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_126, NULL);
+		if (!L_127)
+		{
+			goto IL_0dab;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:467>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_128 = __this->___timesUp;
+		NullCheck(L_128);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_128, NULL);
+		return;
+	}
+
+IL_04e4:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:469>
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_129 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_129) == ((uint32_t)5))))
+		{
+			goto IL_061d;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_130 = __this->___victoryUIPanel;
+		NullCheck(L_130);
+		bool L_131;
+		L_131 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_130, NULL);
+		if (L_131)
+		{
+			goto IL_061d;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:471>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_132 = __this->___inGameUIPanel;
 		NullCheck(L_132);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_132, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:466>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_133 = __this->___counterPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:472>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_133 = __this->___mainMenuPanel;
 		NullCheck(L_133);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_133, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:467>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_134 = __this->___victoryUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:473>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_134 = __this->___pauseMenuPanel;
 		NullCheck(L_134);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_134, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:468>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_135 = __this->___newGameMenuPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_134, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:474>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_135 = __this->___settingsPanel;
 		NullCheck(L_135);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_135, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:469>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_136 = __this->___timesUpUI;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:475>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_136 = __this->___bestTimePanel;
 		NullCheck(L_136);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_136, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:470>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_137 = __this->___leaderboardPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:476>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_137 = __this->___counterPanel;
 		NullCheck(L_137);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_137, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:471>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_138 = __this->___storePanel;
-		NullCheck(L_138);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_138, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:472>
-		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:473>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:474>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_139 = __this->___menuMusic;
-		NullCheck(L_139);
-		bool L_140;
-		L_140 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_139, NULL);
-		if (!L_140)
-		{
-			goto IL_0583;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:475>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_141 = __this->___menuMusic;
-		NullCheck(L_141);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_141, NULL);
-	}
-
-IL_0583:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:476>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_142 = __this->___normalModeMusic;
-		NullCheck(L_142);
-		bool L_143;
-		L_143 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_142, NULL);
-		if (!L_143)
-		{
-			goto IL_059b;
-		}
-	}
-	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:477>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_144 = __this->___normalModeMusic;
-		NullCheck(L_144);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_144, NULL);
-	}
-
-IL_059b:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_138 = __this->___victoryUIPanel;
+		NullCheck(L_138);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_138, (bool)1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:478>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_145 = __this->___challengeModeMusic;
-		NullCheck(L_145);
-		bool L_146;
-		L_146 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_145, NULL);
-		if (!L_146)
-		{
-			goto IL_05b3;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_139 = __this->___newGameMenuPanel;
+		NullCheck(L_139);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_139, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:479>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_147 = __this->___challengeModeMusic;
-		NullCheck(L_147);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_147, NULL);
-	}
-
-IL_05b3:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_140 = __this->___timesUpUI;
+		NullCheck(L_140);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_140, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:480>
-		String_t* L_148;
-		L_148 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteralB84B652CB8D5AB6F2DB99207B753EFA2A77B2F50, NULL);
-		int32_t L_149;
-		L_149 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_148, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_141 = __this->___leaderboardPanel;
+		NullCheck(L_141);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_141, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:481>
-		if ((!(((uint32_t)L_149) == ((uint32_t)1))))
-		{
-			goto IL_05dd;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_142 = __this->___storePanel;
+		NullCheck(L_142);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_142, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:482>
+		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:483>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_150 = __this->___appleuse;
-		NullCheck(L_150);
-		bool L_151;
-		L_151 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_150, NULL);
-		if (L_151)
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:484>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_143 = __this->___menuMusic;
+		NullCheck(L_143);
+		bool L_144;
+		L_144 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_143, NULL);
+		if (!L_144)
 		{
-			goto IL_05dd;
+			goto IL_05a7;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:484>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_152 = __this->___appleuse;
-		NullCheck(L_152);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_152, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:485>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_145 = __this->___menuMusic;
+		NullCheck(L_145);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_145, NULL);
 	}
 
-IL_05dd:
+IL_05a7:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:486>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_153 = __this->___timesUp;
-		NullCheck(L_153);
-		bool L_154;
-		L_154 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_153, NULL);
-		if (!L_154)
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_146 = __this->___normalModeMusic;
+		NullCheck(L_146);
+		bool L_147;
+		L_147 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_146, NULL);
+		if (!L_147)
 		{
-			goto IL_0d87;
+			goto IL_05bf;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:487>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_155 = __this->___timesUp;
-		NullCheck(L_155);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_155, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_148 = __this->___normalModeMusic;
+		NullCheck(L_148);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_148, NULL);
+	}
+
+IL_05bf:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:488>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_149 = __this->___challengeModeMusic;
+		NullCheck(L_149);
+		bool L_150;
+		L_150 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_149, NULL);
+		if (!L_150)
+		{
+			goto IL_05d7;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:489>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_151 = __this->___challengeModeMusic;
+		NullCheck(L_151);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_151, NULL);
+	}
+
+IL_05d7:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:490>
+		String_t* L_152;
+		L_152 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteralB84B652CB8D5AB6F2DB99207B753EFA2A77B2F50, NULL);
+		int32_t L_153;
+		L_153 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_152, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:491>
+		if ((!(((uint32_t)L_153) == ((uint32_t)1))))
+		{
+			goto IL_0601;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:493>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_154 = __this->___appleuse;
+		NullCheck(L_154);
+		bool L_155;
+		L_155 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_154, NULL);
+		if (L_155)
+		{
+			goto IL_0601;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:494>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_156 = __this->___appleuse;
+		NullCheck(L_156);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_156, NULL);
+	}
+
+IL_0601:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:496>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_157 = __this->___timesUp;
+		NullCheck(L_157);
+		bool L_158;
+		L_158 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_157, NULL);
+		if (!L_158)
+		{
+			goto IL_0dab;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:497>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_159 = __this->___timesUp;
+		NullCheck(L_159);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_159, NULL);
 		return;
 	}
 
-IL_05f9:
+IL_061d:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:489>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:499>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_156 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_156) == ((uint32_t)4))))
+		int32_t L_160 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_160) == ((uint32_t)4))))
 		{
-			goto IL_0732;
+			goto IL_0756;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_157 = __this->___bestTimePanel;
-		NullCheck(L_157);
-		bool L_158;
-		L_158 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_157, NULL);
-		if (L_158)
-		{
-			goto IL_0732;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:491>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_159 = __this->___inGameUIPanel;
-		NullCheck(L_159);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_159, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:492>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_160 = __this->___mainMenuPanel;
-		NullCheck(L_160);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_160, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:493>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_161 = __this->___pauseMenuPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_161 = __this->___bestTimePanel;
 		NullCheck(L_161);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_161, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:494>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_162 = __this->___settingsPanel;
-		NullCheck(L_162);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_162, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:495>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_163 = __this->___bestTimePanel;
+		bool L_162;
+		L_162 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_161, NULL);
+		if (L_162)
+		{
+			goto IL_0756;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:501>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_163 = __this->___inGameUIPanel;
 		NullCheck(L_163);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_163, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:496>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_164 = __this->___counterPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_163, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:502>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_164 = __this->___mainMenuPanel;
 		NullCheck(L_164);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_164, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:497>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_165 = __this->___victoryUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:503>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_165 = __this->___pauseMenuPanel;
 		NullCheck(L_165);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_165, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:498>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_166 = __this->___newGameMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:504>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_166 = __this->___settingsPanel;
 		NullCheck(L_166);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_166, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:499>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_167 = __this->___timesUpUI;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:505>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_167 = __this->___bestTimePanel;
 		NullCheck(L_167);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_167, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:500>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_168 = __this->___leaderboardPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_167, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:506>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_168 = __this->___counterPanel;
 		NullCheck(L_168);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_168, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:501>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_169 = __this->___storePanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:507>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_169 = __this->___victoryUIPanel;
 		NullCheck(L_169);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_169, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:502>
-		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:503>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:505>
-		String_t* L_170;
-		L_170 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
-		int32_t L_171;
-		L_171 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_170, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:506>
-		if ((!(((uint32_t)L_171) == ((uint32_t)1))))
-		{
-			goto IL_06ce;
-		}
-	}
-	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:508>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_172 = __this->___menuMusic;
-		NullCheck(L_172);
-		bool L_173;
-		L_173 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_172, NULL);
-		if (L_173)
-		{
-			goto IL_06ce;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_170 = __this->___newGameMenuPanel;
+		NullCheck(L_170);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_170, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:509>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_174 = __this->___menuMusic;
-		NullCheck(L_174);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_174, NULL);
-	}
-
-IL_06ce:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_171 = __this->___timesUpUI;
+		NullCheck(L_171);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_171, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:510>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_172 = __this->___leaderboardPanel;
+		NullCheck(L_172);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_172, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:511>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_175 = __this->___normalModeMusic;
-		NullCheck(L_175);
-		bool L_176;
-		L_176 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_175, NULL);
-		if (!L_176)
-		{
-			goto IL_06e6;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_173 = __this->___storePanel;
+		NullCheck(L_173);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_173, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:512>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_177 = __this->___normalModeMusic;
-		NullCheck(L_177);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_177, NULL);
-	}
-
-IL_06e6:
-	{
+		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:513>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_178 = __this->___challengeModeMusic;
-		NullCheck(L_178);
-		bool L_179;
-		L_179 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_178, NULL);
-		if (!L_179)
-		{
-			goto IL_06fe;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:514>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_180 = __this->___challengeModeMusic;
-		NullCheck(L_180);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_180, NULL);
-	}
-
-IL_06fe:
-	{
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:515>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_181 = __this->___appleuse;
-		NullCheck(L_181);
-		bool L_182;
-		L_182 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_181, NULL);
-		if (!L_182)
-		{
-			goto IL_0716;
-		}
-	}
-	{
+		String_t* L_174;
+		L_174 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
+		int32_t L_175;
+		L_175 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_174, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:516>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_183 = __this->___appleuse;
-		NullCheck(L_183);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_183, NULL);
-	}
-
-IL_0716:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:517>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_184 = __this->___timesUp;
-		NullCheck(L_184);
-		bool L_185;
-		L_185 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_184, NULL);
-		if (!L_185)
+		if ((!(((uint32_t)L_175) == ((uint32_t)1))))
 		{
-			goto IL_0d87;
+			goto IL_06f2;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:518>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_186 = __this->___timesUp;
-		NullCheck(L_186);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_186, NULL);
-		return;
-	}
-
-IL_0732:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:520>
-		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_187 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_187) == ((uint32_t)3))))
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_176 = __this->___menuMusic;
+		NullCheck(L_176);
+		bool L_177;
+		L_177 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_176, NULL);
+		if (L_177)
 		{
-			goto IL_086b;
+			goto IL_06f2;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_188 = __this->___settingsPanel;
-		NullCheck(L_188);
-		bool L_189;
-		L_189 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_188, NULL);
-		if (L_189)
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:519>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_178 = __this->___menuMusic;
+		NullCheck(L_178);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_178, NULL);
+	}
+
+IL_06f2:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:521>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_179 = __this->___normalModeMusic;
+		NullCheck(L_179);
+		bool L_180;
+		L_180 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_179, NULL);
+		if (!L_180)
 		{
-			goto IL_086b;
+			goto IL_070a;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:522>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_190 = __this->___inGameUIPanel;
-		NullCheck(L_190);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_190, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_181 = __this->___normalModeMusic;
+		NullCheck(L_181);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_181, NULL);
+	}
+
+IL_070a:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:523>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_191 = __this->___mainMenuPanel;
-		NullCheck(L_191);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_191, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_182 = __this->___challengeModeMusic;
+		NullCheck(L_182);
+		bool L_183;
+		L_183 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_182, NULL);
+		if (!L_183)
+		{
+			goto IL_0722;
+		}
+	}
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:524>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_192 = __this->___pauseMenuPanel;
-		NullCheck(L_192);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_192, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_184 = __this->___challengeModeMusic;
+		NullCheck(L_184);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_184, NULL);
+	}
+
+IL_0722:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:525>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_193 = __this->___settingsPanel;
-		NullCheck(L_193);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_193, (bool)1, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_185 = __this->___appleuse;
+		NullCheck(L_185);
+		bool L_186;
+		L_186 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_185, NULL);
+		if (!L_186)
+		{
+			goto IL_073a;
+		}
+	}
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:526>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_194 = __this->___bestTimePanel;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_187 = __this->___appleuse;
+		NullCheck(L_187);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_187, NULL);
+	}
+
+IL_073a:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:527>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_188 = __this->___timesUp;
+		NullCheck(L_188);
+		bool L_189;
+		L_189 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_188, NULL);
+		if (!L_189)
+		{
+			goto IL_0dab;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:528>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_190 = __this->___timesUp;
+		NullCheck(L_190);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_190, NULL);
+		return;
+	}
+
+IL_0756:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:530>
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_191 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_191) == ((uint32_t)3))))
+		{
+			goto IL_088f;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_192 = __this->___settingsPanel;
+		NullCheck(L_192);
+		bool L_193;
+		L_193 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_192, NULL);
+		if (L_193)
+		{
+			goto IL_088f;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:532>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_194 = __this->___inGameUIPanel;
 		NullCheck(L_194);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_194, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:527>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_195 = __this->___counterPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:533>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_195 = __this->___mainMenuPanel;
 		NullCheck(L_195);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_195, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:528>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_196 = __this->___victoryUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:534>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_196 = __this->___pauseMenuPanel;
 		NullCheck(L_196);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_196, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:529>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_197 = __this->___newGameMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:535>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_197 = __this->___settingsPanel;
 		NullCheck(L_197);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_197, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:530>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_198 = __this->___timesUpUI;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_197, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:536>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_198 = __this->___bestTimePanel;
 		NullCheck(L_198);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_198, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:531>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_199 = __this->___leaderboardPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:537>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_199 = __this->___counterPanel;
 		NullCheck(L_199);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_199, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:532>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_200 = __this->___storePanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:538>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_200 = __this->___victoryUIPanel;
 		NullCheck(L_200);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_200, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:533>
-		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:534>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:535>
-		String_t* L_201;
-		L_201 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
-		int32_t L_202;
-		L_202 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_201, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:536>
-		if ((!(((uint32_t)L_202) == ((uint32_t)1))))
-		{
-			goto IL_0807;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:538>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_203 = __this->___menuMusic;
-		NullCheck(L_203);
-		bool L_204;
-		L_204 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_203, NULL);
-		if (L_204)
-		{
-			goto IL_0807;
-		}
-	}
-	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:539>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_205 = __this->___menuMusic;
-		NullCheck(L_205);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_205, NULL);
-	}
-
-IL_0807:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_201 = __this->___newGameMenuPanel;
+		NullCheck(L_201);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_201, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:540>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_202 = __this->___timesUpUI;
+		NullCheck(L_202);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_202, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:541>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_206 = __this->___normalModeMusic;
-		NullCheck(L_206);
-		bool L_207;
-		L_207 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_206, NULL);
-		if (!L_207)
-		{
-			goto IL_081f;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_203 = __this->___leaderboardPanel;
+		NullCheck(L_203);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_203, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:542>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_208 = __this->___normalModeMusic;
-		NullCheck(L_208);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_208, NULL);
-	}
-
-IL_081f:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_204 = __this->___storePanel;
+		NullCheck(L_204);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_204, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:543>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_209 = __this->___challengeModeMusic;
-		NullCheck(L_209);
-		bool L_210;
-		L_210 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_209, NULL);
-		if (!L_210)
-		{
-			goto IL_0837;
-		}
-	}
-	{
+		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:544>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_211 = __this->___challengeModeMusic;
-		NullCheck(L_211);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_211, NULL);
-	}
-
-IL_0837:
-	{
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:545>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_212 = __this->___appleuse;
-		NullCheck(L_212);
-		bool L_213;
-		L_213 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_212, NULL);
-		if (!L_213)
-		{
-			goto IL_084f;
-		}
-	}
-	{
+		String_t* L_205;
+		L_205 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
+		int32_t L_206;
+		L_206 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_205, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:546>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_214 = __this->___appleuse;
-		NullCheck(L_214);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_214, NULL);
-	}
-
-IL_084f:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:547>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_215 = __this->___timesUp;
-		NullCheck(L_215);
-		bool L_216;
-		L_216 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_215, NULL);
-		if (!L_216)
+		if ((!(((uint32_t)L_206) == ((uint32_t)1))))
 		{
-			goto IL_0d87;
+			goto IL_082b;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:548>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_217 = __this->___timesUp;
-		NullCheck(L_217);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_217, NULL);
-		return;
-	}
-
-IL_086b:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:550>
-		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_218 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_218) == ((uint32_t)6))))
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_207 = __this->___menuMusic;
+		NullCheck(L_207);
+		bool L_208;
+		L_208 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_207, NULL);
+		if (L_208)
 		{
-			goto IL_09dc;
+			goto IL_082b;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_219 = __this->___newGameMenuPanel;
-		NullCheck(L_219);
-		bool L_220;
-		L_220 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_219, NULL);
-		if (L_220)
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:549>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_209 = __this->___menuMusic;
+		NullCheck(L_209);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_209, NULL);
+	}
+
+IL_082b:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:551>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_210 = __this->___normalModeMusic;
+		NullCheck(L_210);
+		bool L_211;
+		L_211 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_210, NULL);
+		if (!L_211)
 		{
-			goto IL_09dc;
+			goto IL_0843;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:552>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_221 = __this->___inGameUIPanel;
-		NullCheck(L_221);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_221, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_212 = __this->___normalModeMusic;
+		NullCheck(L_212);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_212, NULL);
+	}
+
+IL_0843:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:553>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_222 = __this->___mainMenuPanel;
-		NullCheck(L_222);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_222, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_213 = __this->___challengeModeMusic;
+		NullCheck(L_213);
+		bool L_214;
+		L_214 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_213, NULL);
+		if (!L_214)
+		{
+			goto IL_085b;
+		}
+	}
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:554>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_223 = __this->___pauseMenuPanel;
-		NullCheck(L_223);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_223, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_215 = __this->___challengeModeMusic;
+		NullCheck(L_215);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_215, NULL);
+	}
+
+IL_085b:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:555>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_224 = __this->___settingsPanel;
-		NullCheck(L_224);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_224, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_216 = __this->___appleuse;
+		NullCheck(L_216);
+		bool L_217;
+		L_217 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_216, NULL);
+		if (!L_217)
+		{
+			goto IL_0873;
+		}
+	}
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:556>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_225 = __this->___bestTimePanel;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_218 = __this->___appleuse;
+		NullCheck(L_218);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_218, NULL);
+	}
+
+IL_0873:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:557>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_219 = __this->___timesUp;
+		NullCheck(L_219);
+		bool L_220;
+		L_220 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_219, NULL);
+		if (!L_220)
+		{
+			goto IL_0dab;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:558>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_221 = __this->___timesUp;
+		NullCheck(L_221);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_221, NULL);
+		return;
+	}
+
+IL_088f:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:560>
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_222 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_222) == ((uint32_t)6))))
+		{
+			goto IL_0a00;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_223 = __this->___newGameMenuPanel;
+		NullCheck(L_223);
+		bool L_224;
+		L_224 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_223, NULL);
+		if (L_224)
+		{
+			goto IL_0a00;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:562>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_225 = __this->___inGameUIPanel;
 		NullCheck(L_225);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_225, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:557>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_226 = __this->___counterPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:563>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_226 = __this->___mainMenuPanel;
 		NullCheck(L_226);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_226, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:558>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_227 = __this->___victoryUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:564>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_227 = __this->___pauseMenuPanel;
 		NullCheck(L_227);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_227, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:559>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_228 = __this->___newGameMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:565>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_228 = __this->___settingsPanel;
 		NullCheck(L_228);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_228, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:560>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_229 = __this->___timesUpUI;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_228, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:566>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_229 = __this->___bestTimePanel;
 		NullCheck(L_229);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_229, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:561>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_230 = __this->___leaderboardPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:567>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_230 = __this->___counterPanel;
 		NullCheck(L_230);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_230, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:562>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_231 = __this->___storePanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:568>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_231 = __this->___victoryUIPanel;
 		NullCheck(L_231);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_231, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:563>
-		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:564>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:565>
-		String_t* L_232;
-		L_232 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
-		int32_t L_233;
-		L_233 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_232, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:566>
-		if ((!(((uint32_t)L_233) == ((uint32_t)1))))
-		{
-			goto IL_0940;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:568>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_234 = __this->___menuMusic;
-		NullCheck(L_234);
-		bool L_235;
-		L_235 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_234, NULL);
-		if (L_235)
-		{
-			goto IL_0940;
-		}
-	}
-	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:569>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_236 = __this->___menuMusic;
-		NullCheck(L_236);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_236, NULL);
-	}
-
-IL_0940:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_232 = __this->___newGameMenuPanel;
+		NullCheck(L_232);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_232, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:570>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_233 = __this->___timesUpUI;
+		NullCheck(L_233);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_233, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:571>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_237 = __this->___normalModeMusic;
-		NullCheck(L_237);
-		bool L_238;
-		L_238 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_237, NULL);
-		if (!L_238)
-		{
-			goto IL_0958;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_234 = __this->___leaderboardPanel;
+		NullCheck(L_234);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_234, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:572>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_239 = __this->___normalModeMusic;
-		NullCheck(L_239);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_239, NULL);
-	}
-
-IL_0958:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_235 = __this->___storePanel;
+		NullCheck(L_235);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_235, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:573>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_240 = __this->___challengeModeMusic;
-		NullCheck(L_240);
-		bool L_241;
-		L_241 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_240, NULL);
-		if (!L_241)
-		{
-			goto IL_0970;
-		}
-	}
-	{
+		MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:574>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_242 = __this->___challengeModeMusic;
-		NullCheck(L_242);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_242, NULL);
-	}
-
-IL_0970:
-	{
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:575>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_243 = __this->___appleuse;
-		NullCheck(L_243);
-		bool L_244;
-		L_244 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_243, NULL);
-		if (!L_244)
-		{
-			goto IL_0988;
-		}
-	}
-	{
+		String_t* L_236;
+		L_236 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
+		int32_t L_237;
+		L_237 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_236, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:576>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_245 = __this->___appleuse;
-		NullCheck(L_245);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_245, NULL);
-	}
-
-IL_0988:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:577>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_246 = __this->___timesUp;
-		NullCheck(L_246);
-		bool L_247;
-		L_247 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_246, NULL);
-		if (!L_247)
+		if ((!(((uint32_t)L_237) == ((uint32_t)1))))
 		{
-			goto IL_09a0;
+			goto IL_0964;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:578>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_248 = __this->___timesUp;
-		NullCheck(L_248);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_248, NULL);
-	}
-
-IL_09a0:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:579>
-		String_t* L_249;
-		L_249 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
-		bool L_250;
-		L_250 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_249, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
-		if (!L_250)
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_238 = __this->___menuMusic;
+		NullCheck(L_238);
+		bool L_239;
+		L_239 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_238, NULL);
+		if (L_239)
 		{
-			goto IL_0d87;
+			goto IL_0964;
 		}
 	}
 	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:579>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_240 = __this->___menuMusic;
+		NullCheck(L_240);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_240, NULL);
+	}
+
+IL_0964:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:581>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_251 = __this->___easyJoker_Btn_Quantity;
-		NullCheck(L_251);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_252;
-		L_252 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_251, NULL);
-		NullCheck(L_252);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_252, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_241 = __this->___normalModeMusic;
+		NullCheck(L_241);
+		bool L_242;
+		L_242 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_241, NULL);
+		if (!L_242)
+		{
+			goto IL_097c;
+		}
+	}
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:582>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_253 = __this->___veryEasyJoker_Btn_Quantity;
-		NullCheck(L_253);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_254;
-		L_254 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_253, NULL);
-		NullCheck(L_254);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_254, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_243 = __this->___normalModeMusic;
+		NullCheck(L_243);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_243, NULL);
+	}
+
+IL_097c:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:583>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_244 = __this->___challengeModeMusic;
+		NullCheck(L_244);
+		bool L_245;
+		L_245 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_244, NULL);
+		if (!L_245)
+		{
+			goto IL_0994;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:584>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_246 = __this->___challengeModeMusic;
+		NullCheck(L_246);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_246, NULL);
+	}
+
+IL_0994:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:585>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_247 = __this->___appleuse;
+		NullCheck(L_247);
+		bool L_248;
+		L_248 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_247, NULL);
+		if (!L_248)
+		{
+			goto IL_09ac;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:586>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_249 = __this->___appleuse;
+		NullCheck(L_249);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_249, NULL);
+	}
+
+IL_09ac:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:587>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_250 = __this->___timesUp;
+		NullCheck(L_250);
+		bool L_251;
+		L_251 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_250, NULL);
+		if (!L_251)
+		{
+			goto IL_09c4;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:588>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_252 = __this->___timesUp;
+		NullCheck(L_252);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_252, NULL);
+	}
+
+IL_09c4:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:589>
+		String_t* L_253;
+		L_253 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral98BB5C025B3097FEA5DF8F0DC5C5F034FD972A01, NULL);
+		bool L_254;
+		L_254 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_253, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
+		if (!L_254)
+		{
+			goto IL_0dab;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:591>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_255 = __this->___easyJoker_Btn_Quantity;
+		NullCheck(L_255);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_256;
+		L_256 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_255, NULL);
+		NullCheck(L_256);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_256, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:592>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_257 = __this->___veryEasyJoker_Btn_Quantity;
+		NullCheck(L_257);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_258;
+		L_258 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_257, NULL);
+		NullCheck(L_258);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_258, (bool)0, NULL);
 		return;
 	}
 
-IL_09dc:
+IL_0a00:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:585>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:595>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_255 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_255) == ((uint32_t)7))))
+		int32_t L_259 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_259) == ((uint32_t)7))))
 		{
-			goto IL_0b18;
+			goto IL_0b3c;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_256 = __this->___timesUpUI;
-		NullCheck(L_256);
-		bool L_257;
-		L_257 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_256, NULL);
-		if (L_257)
-		{
-			goto IL_0b18;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:587>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_258 = __this->___inGameUIPanel;
-		NullCheck(L_258);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_258, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:588>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_259 = __this->___mainMenuPanel;
-		NullCheck(L_259);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_259, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:589>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_260 = __this->___pauseMenuPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_260 = __this->___timesUpUI;
 		NullCheck(L_260);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_260, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:590>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_261 = __this->___settingsPanel;
-		NullCheck(L_261);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_261, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:591>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_262 = __this->___bestTimePanel;
+		bool L_261;
+		L_261 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_260, NULL);
+		if (L_261)
+		{
+			goto IL_0b3c;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:597>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_262 = __this->___inGameUIPanel;
 		NullCheck(L_262);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_262, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:592>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_263 = __this->___counterPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:598>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_263 = __this->___mainMenuPanel;
 		NullCheck(L_263);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_263, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:593>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_264 = __this->___victoryUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:599>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_264 = __this->___pauseMenuPanel;
 		NullCheck(L_264);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_264, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:594>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_265 = __this->___newGameMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:600>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_265 = __this->___settingsPanel;
 		NullCheck(L_265);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_265, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:595>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_266 = __this->___timesUpUI;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:601>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_266 = __this->___bestTimePanel;
 		NullCheck(L_266);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_266, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:596>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_267 = __this->___leaderboardPanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_266, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:602>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_267 = __this->___counterPanel;
 		NullCheck(L_267);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_267, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:597>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_268 = __this->___storePanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:603>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_268 = __this->___victoryUIPanel;
 		NullCheck(L_268);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_268, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:598>
-		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:599>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:600>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_269 = __this->___menuMusic;
-		NullCheck(L_269);
-		bool L_270;
-		L_270 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_269, NULL);
-		if (!L_270)
-		{
-			goto IL_0a9f;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:601>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_271 = __this->___menuMusic;
-		NullCheck(L_271);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_271, NULL);
-	}
-
-IL_0a9f:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:602>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_272 = __this->___normalModeMusic;
-		NullCheck(L_272);
-		bool L_273;
-		L_273 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_272, NULL);
-		if (!L_273)
-		{
-			goto IL_0ab7;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:603>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_274 = __this->___normalModeMusic;
-		NullCheck(L_274);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_274, NULL);
-	}
-
-IL_0ab7:
-	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:604>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_275 = __this->___challengeModeMusic;
-		NullCheck(L_275);
-		bool L_276;
-		L_276 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_275, NULL);
-		if (!L_276)
-		{
-			goto IL_0acf;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_269 = __this->___newGameMenuPanel;
+		NullCheck(L_269);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_269, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:605>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_277 = __this->___challengeModeMusic;
-		NullCheck(L_277);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_277, NULL);
-	}
-
-IL_0acf:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_270 = __this->___timesUpUI;
+		NullCheck(L_270);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_270, (bool)1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:606>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_278 = __this->___appleuse;
-		NullCheck(L_278);
-		bool L_279;
-		L_279 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_278, NULL);
-		if (!L_279)
-		{
-			goto IL_0ae7;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_271 = __this->___leaderboardPanel;
+		NullCheck(L_271);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_271, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:607>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_280 = __this->___appleuse;
-		NullCheck(L_280);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_280, NULL);
-	}
-
-IL_0ae7:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_272 = __this->___storePanel;
+		NullCheck(L_272);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_272, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:608>
-		String_t* L_281;
-		L_281 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteralB84B652CB8D5AB6F2DB99207B753EFA2A77B2F50, NULL);
-		int32_t L_282;
-		L_282 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_281, NULL);
+		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:609>
-		if ((!(((uint32_t)L_282) == ((uint32_t)1))))
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:610>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_273 = __this->___menuMusic;
+		NullCheck(L_273);
+		bool L_274;
+		L_274 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_273, NULL);
+		if (!L_274)
 		{
-			goto IL_0d87;
+			goto IL_0ac3;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:611>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_283 = __this->___timesUp;
-		NullCheck(L_283);
-		bool L_284;
-		L_284 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_283, NULL);
-		if (L_284)
-		{
-			goto IL_0d87;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:612>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_285 = __this->___timesUp;
-		NullCheck(L_285);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_285, NULL);
-		return;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_275 = __this->___menuMusic;
+		NullCheck(L_275);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_275, NULL);
 	}
 
-IL_0b18:
+IL_0ac3:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:615>
-		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_286 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_286) == ((uint32_t)8))))
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:612>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_276 = __this->___normalModeMusic;
+		NullCheck(L_276);
+		bool L_277;
+		L_277 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_276, NULL);
+		if (!L_277)
 		{
-			goto IL_0c51;
+			goto IL_0adb;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_287 = __this->___leaderboardPanel;
-		NullCheck(L_287);
-		bool L_288;
-		L_288 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_287, NULL);
-		if (L_288)
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:613>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_278 = __this->___normalModeMusic;
+		NullCheck(L_278);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_278, NULL);
+	}
+
+IL_0adb:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:614>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_279 = __this->___challengeModeMusic;
+		NullCheck(L_279);
+		bool L_280;
+		L_280 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_279, NULL);
+		if (!L_280)
 		{
-			goto IL_0c51;
+			goto IL_0af3;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:615>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_281 = __this->___challengeModeMusic;
+		NullCheck(L_281);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_281, NULL);
+	}
+
+IL_0af3:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:616>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_282 = __this->___appleuse;
+		NullCheck(L_282);
+		bool L_283;
+		L_283 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_282, NULL);
+		if (!L_283)
+		{
+			goto IL_0b0b;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:617>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_289 = __this->___inGameUIPanel;
-		NullCheck(L_289);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_289, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_284 = __this->___appleuse;
+		NullCheck(L_284);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_284, NULL);
+	}
+
+IL_0b0b:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:618>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_290 = __this->___mainMenuPanel;
-		NullCheck(L_290);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_290, (bool)0, NULL);
+		String_t* L_285;
+		L_285 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteralB84B652CB8D5AB6F2DB99207B753EFA2A77B2F50, NULL);
+		int32_t L_286;
+		L_286 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_285, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:619>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_291 = __this->___pauseMenuPanel;
-		NullCheck(L_291);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_291, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:620>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_292 = __this->___settingsPanel;
-		NullCheck(L_292);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_292, (bool)0, NULL);
+		if ((!(((uint32_t)L_286) == ((uint32_t)1))))
+		{
+			goto IL_0dab;
+		}
+	}
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:621>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_293 = __this->___bestTimePanel;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_287 = __this->___timesUp;
+		NullCheck(L_287);
+		bool L_288;
+		L_288 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_287, NULL);
+		if (L_288)
+		{
+			goto IL_0dab;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:622>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_289 = __this->___timesUp;
+		NullCheck(L_289);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_289, NULL);
+		return;
+	}
+
+IL_0b3c:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:625>
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_290 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_290) == ((uint32_t)8))))
+		{
+			goto IL_0c75;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_291 = __this->___leaderboardPanel;
+		NullCheck(L_291);
+		bool L_292;
+		L_292 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_291, NULL);
+		if (L_292)
+		{
+			goto IL_0c75;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:627>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_293 = __this->___inGameUIPanel;
 		NullCheck(L_293);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_293, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:622>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_294 = __this->___counterPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:628>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_294 = __this->___mainMenuPanel;
 		NullCheck(L_294);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_294, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:623>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_295 = __this->___victoryUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:629>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_295 = __this->___pauseMenuPanel;
 		NullCheck(L_295);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_295, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:624>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_296 = __this->___newGameMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:630>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_296 = __this->___settingsPanel;
 		NullCheck(L_296);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_296, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:625>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_297 = __this->___timesUpUI;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:631>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_297 = __this->___bestTimePanel;
 		NullCheck(L_297);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_297, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:626>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_298 = __this->___leaderboardPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:632>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_298 = __this->___counterPanel;
 		NullCheck(L_298);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_298, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:627>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_299 = __this->___storePanel;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_298, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:633>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_299 = __this->___victoryUIPanel;
 		NullCheck(L_299);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_299, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:628>
-		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:629>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:630>
-		String_t* L_300;
-		L_300 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
-		int32_t L_301;
-		L_301 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_300, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:631>
-		if ((!(((uint32_t)L_301) == ((uint32_t)1))))
-		{
-			goto IL_0bed;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:633>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_302 = __this->___menuMusic;
-		NullCheck(L_302);
-		bool L_303;
-		L_303 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_302, NULL);
-		if (L_303)
-		{
-			goto IL_0bed;
-		}
-	}
-	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:634>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_304 = __this->___menuMusic;
-		NullCheck(L_304);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_304, NULL);
-	}
-
-IL_0bed:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_300 = __this->___newGameMenuPanel;
+		NullCheck(L_300);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_300, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:635>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_301 = __this->___timesUpUI;
+		NullCheck(L_301);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_301, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:636>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_305 = __this->___normalModeMusic;
-		NullCheck(L_305);
-		bool L_306;
-		L_306 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_305, NULL);
-		if (!L_306)
-		{
-			goto IL_0c05;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_302 = __this->___leaderboardPanel;
+		NullCheck(L_302);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_302, (bool)1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:637>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_307 = __this->___normalModeMusic;
-		NullCheck(L_307);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_307, NULL);
-	}
-
-IL_0c05:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_303 = __this->___storePanel;
+		NullCheck(L_303);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_303, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:638>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_308 = __this->___challengeModeMusic;
-		NullCheck(L_308);
-		bool L_309;
-		L_309 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_308, NULL);
-		if (!L_309)
-		{
-			goto IL_0c1d;
-		}
-	}
-	{
+		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:639>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_310 = __this->___challengeModeMusic;
-		NullCheck(L_310);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_310, NULL);
-	}
-
-IL_0c1d:
-	{
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:640>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_311 = __this->___appleuse;
-		NullCheck(L_311);
-		bool L_312;
-		L_312 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_311, NULL);
-		if (!L_312)
-		{
-			goto IL_0c35;
-		}
-	}
-	{
+		String_t* L_304;
+		L_304 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
+		int32_t L_305;
+		L_305 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_304, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:641>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_313 = __this->___appleuse;
-		NullCheck(L_313);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_313, NULL);
-	}
-
-IL_0c35:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:642>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_314 = __this->___timesUp;
-		NullCheck(L_314);
-		bool L_315;
-		L_315 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_314, NULL);
-		if (!L_315)
+		if ((!(((uint32_t)L_305) == ((uint32_t)1))))
 		{
-			goto IL_0d87;
+			goto IL_0c11;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:643>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_316 = __this->___timesUp;
-		NullCheck(L_316);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_316, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_306 = __this->___menuMusic;
+		NullCheck(L_306);
+		bool L_307;
+		L_307 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_306, NULL);
+		if (L_307)
+		{
+			goto IL_0c11;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:644>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_308 = __this->___menuMusic;
+		NullCheck(L_308);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_308, NULL);
+	}
+
+IL_0c11:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:646>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_309 = __this->___normalModeMusic;
+		NullCheck(L_309);
+		bool L_310;
+		L_310 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_309, NULL);
+		if (!L_310)
+		{
+			goto IL_0c29;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:647>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_311 = __this->___normalModeMusic;
+		NullCheck(L_311);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_311, NULL);
+	}
+
+IL_0c29:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:648>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_312 = __this->___challengeModeMusic;
+		NullCheck(L_312);
+		bool L_313;
+		L_313 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_312, NULL);
+		if (!L_313)
+		{
+			goto IL_0c41;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:649>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_314 = __this->___challengeModeMusic;
+		NullCheck(L_314);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_314, NULL);
+	}
+
+IL_0c41:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:650>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_315 = __this->___appleuse;
+		NullCheck(L_315);
+		bool L_316;
+		L_316 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_315, NULL);
+		if (!L_316)
+		{
+			goto IL_0c59;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:651>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_317 = __this->___appleuse;
+		NullCheck(L_317);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_317, NULL);
+	}
+
+IL_0c59:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:652>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_318 = __this->___timesUp;
+		NullCheck(L_318);
+		bool L_319;
+		L_319 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_318, NULL);
+		if (!L_319)
+		{
+			goto IL_0dab;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:653>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_320 = __this->___timesUp;
+		NullCheck(L_320);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_320, NULL);
 		return;
 	}
 
-IL_0c51:
+IL_0c75:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:646>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:656>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_317 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if ((!(((uint32_t)L_317) == ((uint32_t)((int32_t)9)))))
+		int32_t L_321 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if ((!(((uint32_t)L_321) == ((uint32_t)((int32_t)9)))))
 		{
-			goto IL_0d87;
+			goto IL_0dab;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_318 = __this->___storePanel;
-		NullCheck(L_318);
-		bool L_319;
-		L_319 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_318, NULL);
-		if (L_319)
-		{
-			goto IL_0d87;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:648>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_320 = __this->___inGameUIPanel;
-		NullCheck(L_320);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_320, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:649>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_321 = __this->___mainMenuPanel;
-		NullCheck(L_321);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_321, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:650>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_322 = __this->___pauseMenuPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_322 = __this->___storePanel;
 		NullCheck(L_322);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_322, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:651>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_323 = __this->___settingsPanel;
-		NullCheck(L_323);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_323, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:652>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_324 = __this->___bestTimePanel;
+		bool L_323;
+		L_323 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_322, NULL);
+		if (L_323)
+		{
+			goto IL_0dab;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:658>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_324 = __this->___inGameUIPanel;
 		NullCheck(L_324);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_324, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:653>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_325 = __this->___counterPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:659>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_325 = __this->___mainMenuPanel;
 		NullCheck(L_325);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_325, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:654>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_326 = __this->___victoryUIPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:660>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_326 = __this->___pauseMenuPanel;
 		NullCheck(L_326);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_326, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:655>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_327 = __this->___newGameMenuPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:661>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_327 = __this->___settingsPanel;
 		NullCheck(L_327);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_327, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:656>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_328 = __this->___timesUpUI;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:662>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_328 = __this->___bestTimePanel;
 		NullCheck(L_328);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_328, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:657>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_329 = __this->___leaderboardPanel;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:663>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_329 = __this->___counterPanel;
 		NullCheck(L_329);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_329, (bool)0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:658>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_330 = __this->___storePanel;
-		NullCheck(L_330);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_330, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:659>
-		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:660>
-		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:661>
-		String_t* L_331;
-		L_331 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
-		int32_t L_332;
-		L_332 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_331, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:662>
-		if ((!(((uint32_t)L_332) == ((uint32_t)1))))
-		{
-			goto IL_0d27;
-		}
-	}
-	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:664>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_333 = __this->___menuMusic;
-		NullCheck(L_333);
-		bool L_334;
-		L_334 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_333, NULL);
-		if (L_334)
-		{
-			goto IL_0d27;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_330 = __this->___victoryUIPanel;
+		NullCheck(L_330);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_330, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:665>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_335 = __this->___menuMusic;
-		NullCheck(L_335);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_335, NULL);
-	}
-
-IL_0d27:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_331 = __this->___newGameMenuPanel;
+		NullCheck(L_331);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_331, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:666>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_332 = __this->___timesUpUI;
+		NullCheck(L_332);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_332, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:667>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_336 = __this->___normalModeMusic;
-		NullCheck(L_336);
-		bool L_337;
-		L_337 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_336, NULL);
-		if (!L_337)
-		{
-			goto IL_0d3f;
-		}
-	}
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_333 = __this->___leaderboardPanel;
+		NullCheck(L_333);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_333, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:668>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_338 = __this->___normalModeMusic;
-		NullCheck(L_338);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_338, NULL);
-	}
-
-IL_0d3f:
-	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_334 = __this->___storePanel;
+		NullCheck(L_334);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_334, (bool)1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:669>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_339 = __this->___challengeModeMusic;
-		NullCheck(L_339);
-		bool L_340;
-		L_340 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_339, NULL);
-		if (!L_340)
-		{
-			goto IL_0d57;
-		}
-	}
-	{
+		MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:670>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_341 = __this->___challengeModeMusic;
-		NullCheck(L_341);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_341, NULL);
-	}
-
-IL_0d57:
-	{
+		MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773(__this, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:671>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_342 = __this->___appleuse;
-		NullCheck(L_342);
-		bool L_343;
-		L_343 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_342, NULL);
-		if (!L_343)
-		{
-			goto IL_0d6f;
-		}
-	}
-	{
+		String_t* L_335;
+		L_335 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral9D6BA8D36FA648F5F7EC00E75E4E3CB92589DA2E, NULL);
+		int32_t L_336;
+		L_336 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_335, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:672>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_344 = __this->___appleuse;
-		NullCheck(L_344);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_344, NULL);
-	}
-
-IL_0d6f:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:673>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_345 = __this->___timesUp;
-		NullCheck(L_345);
-		bool L_346;
-		L_346 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_345, NULL);
-		if (!L_346)
+		if ((!(((uint32_t)L_336) == ((uint32_t)1))))
 		{
-			goto IL_0d87;
+			goto IL_0d4b;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:674>
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_347 = __this->___timesUp;
-		NullCheck(L_347);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_347, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_337 = __this->___menuMusic;
+		NullCheck(L_337);
+		bool L_338;
+		L_338 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_337, NULL);
+		if (L_338)
+		{
+			goto IL_0d4b;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:675>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_339 = __this->___menuMusic;
+		NullCheck(L_339);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_339, NULL);
 	}
 
-IL_0d87:
+IL_0d4b:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:676>
-		return;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:677>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_340 = __this->___normalModeMusic;
+		NullCheck(L_340);
+		bool L_341;
+		L_341 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_340, NULL);
+		if (!L_341)
+		{
+			goto IL_0d63;
+		}
 	}
-}
-// Method Definition Index: 54663
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
-{
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:678>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_342 = __this->___normalModeMusic;
+		NullCheck(L_342);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_342, NULL);
+	}
+
+IL_0d63:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:679>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_343 = __this->___challengeModeMusic;
+		NullCheck(L_343);
+		bool L_344;
+		L_344 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_343, NULL);
+		if (!L_344)
+		{
+			goto IL_0d7b;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:680>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_345 = __this->___challengeModeMusic;
+		NullCheck(L_345);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_345, NULL);
+	}
+
+IL_0d7b:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:681>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_346 = __this->___appleuse;
+		NullCheck(L_346);
+		bool L_347;
+		L_347 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_346, NULL);
+		if (!L_347)
+		{
+			goto IL_0d93;
+		}
+	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:682>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___menuCamera;
-		NullCheck(L_0);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
-		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
-		NullCheck(L_1);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_348 = __this->___appleuse;
+		NullCheck(L_348);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_348, NULL);
+	}
+
+IL_0d93:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:683>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = __this->___mainCamera;
-		NullCheck(L_2);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
-		NullCheck(L_3);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_349 = __this->___timesUp;
+		NullCheck(L_349);
+		bool L_350;
+		L_350 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_349, NULL);
+		if (!L_350)
+		{
+			goto IL_0dab;
+		}
+	}
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:684>
-		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_4 = __this->___canvas;
-		NullCheck(L_4);
-		Canvas_set_renderMode_mD73E953F8A115CF469508448A00D0EDAFAF5AB47(L_4, 1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:685>
-		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_5 = __this->___canvas;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6 = __this->___menuCamera;
-		NullCheck(L_5);
-		Canvas_set_worldCamera_m007F7DABDB5A3A6BFB043E3500DA82A4D936EDD4(L_5, L_6, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_351 = __this->___timesUp;
+		NullCheck(L_351);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_351, NULL);
+	}
+
+IL_0dab:
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:686>
-		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_7 = __this->___menuCubeLight;
-		NullCheck(L_7);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
-		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
-		NullCheck(L_8);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:687>
 		return;
 	}
 }
-// Method Definition Index: 54664
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
+// Method Definition Index: 53874
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_SetMenuCameraActive_m212BD787C59808B0EB6F2439D2FC59E4F269D8A7 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
 {
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:692>
@@ -24807,21 +24941,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_SetMainCameraActive_m2832B50
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:693>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = __this->___mainCamera;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:694>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_4 = __this->___canvas;
 		NullCheck(L_4);
-		Canvas_set_renderMode_mD73E953F8A115CF469508448A00D0EDAFAF5AB47(L_4, 0, NULL);
+		Canvas_set_renderMode_mD73E953F8A115CF469508448A00D0EDAFAF5AB47(L_4, 1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:695>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_5 = __this->___canvas;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6 = __this->___mainCamera;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6 = __this->___menuCamera;
 		NullCheck(L_5);
 		Canvas_set_worldCamera_m007F7DABDB5A3A6BFB043E3500DA82A4D936EDD4(L_5, L_6, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:696>
@@ -24830,12 +24964,50 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_SetMainCameraActive_m2832B50
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
 		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
 		NullCheck(L_8);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)0, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:697>
 		return;
 	}
 }
-// Method Definition Index: 54665
+// Method Definition Index: 53875
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_SetMainCameraActive_m2832B50E64F1712D8136517D9A4DE094A656CD89 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:702>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___menuCamera;
+		NullCheck(L_0);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
+		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:703>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = __this->___mainCamera;
+		NullCheck(L_2);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:704>
+		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_4 = __this->___canvas;
+		NullCheck(L_4);
+		Canvas_set_renderMode_mD73E953F8A115CF469508448A00D0EDAFAF5AB47(L_4, 0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:705>
+		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_5 = __this->___canvas;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6 = __this->___mainCamera;
+		NullCheck(L_5);
+		Canvas_set_worldCamera_m007F7DABDB5A3A6BFB043E3500DA82A4D936EDD4(L_5, L_6, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:706>
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_7 = __this->___menuCubeLight;
+		NullCheck(L_7);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
+		NullCheck(L_8);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)0, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:707>
+		return;
+	}
+}
+// Method Definition Index: 53876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_PlayButtonClickSound_m2722796FC5C02F8A6758A013E5B8BB74172126AC (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24845,19 +25017,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_PlayButtonClickSound_m272279
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:701>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:711>
 		String_t* L_0;
 		L_0 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteralB84B652CB8D5AB6F2DB99207B753EFA2A77B2F50, NULL);
 		int32_t L_1;
 		L_1 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:702>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:712>
 		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
 		{
 			goto IL_001d;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:704>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:714>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___buttonClick;
 		NullCheck(L_2);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_2, NULL);
@@ -24865,11 +25037,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_PlayButtonClickSound_m272279
 
 IL_001d:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:706>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:716>
 		return;
 	}
 }
-// Method Definition Index: 54666
+// Method Definition Index: 53877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_PlayCubeSnapSound_mB6C05F5FA74BEF60C7114AD16B26C07DFB66883F (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24879,19 +25051,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_PlayCubeSnapSound_mB6C05F5FA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:710>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:720>
 		String_t* L_0;
 		L_0 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteralB84B652CB8D5AB6F2DB99207B753EFA2A77B2F50, NULL);
 		int32_t L_1;
 		L_1 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:711>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:721>
 		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
 		{
 			goto IL_001d;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:713>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:723>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___cubeSnap;
 		NullCheck(L_2);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_2, NULL);
@@ -24899,11 +25071,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_PlayCubeSnapSound_mB6C05F5FA
 
 IL_001d:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:715>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:725>
 		return;
 	}
 }
-// Method Definition Index: 54667
+// Method Definition Index: 53878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_CreateMenuCube_m00F5E577A22F7B0D6748385CCAFC5108BAC2BD15 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24914,7 +25086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_CreateMenuCube_m00F5E577A22F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:719>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:729>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___menuCubePrefab;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___menuCubePrefab;
 		NullCheck(L_1);
@@ -24935,11 +25107,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_CreateMenuCube_m00F5E577A22F
 		L_7 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_0, L_3, L_6, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
 		__this->___menuCube = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___menuCube), (void*)L_7);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:720>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:730>
 		return;
 	}
 }
-// Method Definition Index: 54668
+// Method Definition Index: 53879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_DestroyMenuCube_mA563531570157574A22F920E0BFF58BF803F2773 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24949,7 +25121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_DestroyMenuCube_mA5635315701
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:724>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:734>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___menuCube;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -24960,7 +25132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_DestroyMenuCube_mA5635315701
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:726>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:736>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___menuCube;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
@@ -24968,11 +25140,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_DestroyMenuCube_mA5635315701
 
 IL_0018:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:728>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:738>
 		return;
 	}
 }
-// Method Definition Index: 54669
+// Method Definition Index: 53880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl__ctor_m44D57674AD6E4E690A77C18C8CD1BE3F2DAC15C5 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24980,11 +25152,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl__ctor_m44D57674AD6E4E690A77C
 		return;
 	}
 }
-// Method Definition Index: 54670
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_U3CAwakeU3Eb__32_0_m209E328026FBE39D5B739123B750C82C8A11E8A3 (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
+// Method Definition Index: 53881
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_U3CAwakeU3Eb__33_0_mD7B846D1038B9684F4E3800F5C737ECE7FA3D1AA (MenuControl_t96142E79F9793AED1E3F4B6DE19B788A8F8B7CAD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:67>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/MenuControl.cs:68>
 		MenuControl_LoadKociembaTables_mB4B0F27FDCF7F6837F15D83203975F270D5E4019(__this, NULL);
 		return;
 	}
@@ -24992,7 +25164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuControl_U3CAwakeU3Eb__32_0_m209E3280
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 60454
+// Method Definition Index: 60416
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MobileAds_set_RaiseAdEventsOnUnityMainThread_mCC9684511E440AD0F0D20CA15E36AE96BB552A9C_inline (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25007,7 +25179,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MobileAds_set_RaiseAdEventsO
 		return;
 	}
 }
-// Method Definition Index: 62440
+// Method Definition Index: 62402
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* FormError_get_Message_mF77BE1DEF78A279C9B197AFF203EA2E014E952F7_inline (FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25581,7 +25753,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 51058
+// Method Definition Index: 51019
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ProductCatalog_get_allProducts_m93A191445C8495D516A695D8708996C8790EF1C7_inline (ProductCatalog_t6F6B11865D55D089683F954BB3B223C00B33F8E1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25590,7 +25762,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ProductCatalog_get
 		return L_0;
 	}
 }
-// Method Definition Index: 58839
+// Method Definition Index: 58801
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductU5BU5D_t730BA37CF8A2E27DF6BB25D559268D5F1C8B028E* ProductCollection_get_all_m37D0E42451E883AAD88D44E70F5B2D5E56763ED7_inline (ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25599,7 +25771,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductU5BU5D_t730BA37CF8A2E27DF6
 		return L_0;
 	}
 }
-// Method Definition Index: 58821
+// Method Definition Index: 58783
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* Product_get_metadata_mBACF5289A29D76CEB98A1CABD406840B8E4DF5C6_inline (Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25608,7 +25780,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductMetadata_t8C8138607558F5A5
 		return L_0;
 	}
 }
-// Method Definition Index: 58871
+// Method Definition Index: 58833
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_localizedTitle_mBD34BFB3B5913154B4ACBC630A4DF8A664C9E258_inline (ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25617,7 +25789,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_loc
 		return L_0;
 	}
 }
-// Method Definition Index: 58873
+// Method Definition Index: 58835
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_localizedDescription_mF1507A605C357667ED05FAC2F486D527CA4E2887_inline (ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25626,7 +25798,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_loc
 		return L_0;
 	}
 }
-// Method Definition Index: 58869
+// Method Definition Index: 58831
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_localizedPriceString_m83C55E96B4BC39284D88F9BAAC64E60DFF7D408F_inline (ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25635,7 +25807,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_loc
 		return L_0;
 	}
 }
-// Method Definition Index: 58875
+// Method Definition Index: 58837
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_isoCurrencyCode_mB14AD35EB399B34140F8497A96B678F719048FCC_inline (ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25644,7 +25816,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_iso
 		return L_0;
 	}
 }
-// Method Definition Index: 58819
+// Method Definition Index: 58781
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductDefinition_t0ECCC323EC3E52DE3143F374262050ADCECB1517* Product_get_definition_m99F1AE5F43863A860DF8C2CFC049EF41560A4873_inline (Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25653,7 +25825,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductDefinition_t0ECCC323EC3E52
 		return L_0;
 	}
 }
-// Method Definition Index: 58853
+// Method Definition Index: 58815
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductDefinition_get_id_mAC2DA1CF1E54C939E2099E9045B09CBAC6BAB99B_inline (ProductDefinition_t0ECCC323EC3E52DE3143F374262050ADCECB1517* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25662,7 +25834,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductDefinition_get_i
 		return L_0;
 	}
 }
-// Method Definition Index: 58880
+// Method Definition Index: 58842
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* PurchaseEventArgs_get_purchasedProduct_m0CBC223B555D7D331959FF53E7EDCEBE5E304B56_inline (PurchaseEventArgs_t5203D89DD89FCB37A77025275F8AD1D71CF92A39* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25671,7 +25843,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Product_t8CB4C6F2541BB4560097D6E0
 		return L_0;
 	}
 }
-// Method Definition Index: 59062
+// Method Definition Index: 59024
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PurchaseFailureDescription_get_message_m39764440B03F56F4F8063853328C78DB4393FD75_inline (PurchaseFailureDescription_t3E3F2EE6035C1BAE5EDB48CF61337896AFEAC3E4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25680,7 +25852,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PurchaseFailureDescript
 		return L_0;
 	}
 }
-// Method Definition Index: 59060
+// Method Definition Index: 59022
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PurchaseFailureDescription_get_reason_m14B3F10AB89B2F558B350D09DF22BFB2DD3345A6_inline (PurchaseFailureDescription_t3E3F2EE6035C1BAE5EDB48CF61337896AFEAC3E4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25689,7 +25861,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PurchaseFailureDescriptio
 		return L_0;
 	}
 }
-// Method Definition Index: 59058
+// Method Definition Index: 59020
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PurchaseFailureDescription_get_productId_m8874D6F939CBAB1C6965E9A56152FB19FA14B614_inline (PurchaseFailureDescription_t3E3F2EE6035C1BAE5EDB48CF61337896AFEAC3E4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25709,7 +25881,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 51496
+// Method Definition Index: 51457
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline (LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25718,7 +25890,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LeaderboardEntry_get_Rank
 		return L_0;
 	}
 }
-// Method Definition Index: 51495
+// Method Definition Index: 51456
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* LeaderboardEntry_get_PlayerName_m5A18F2C2F5CBF85DC0913B6C94E91FF62CE0A86D_inline (LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25727,7 +25899,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* LeaderboardEntry_get_Pl
 		return L_0;
 	}
 }
-// Method Definition Index: 51497
+// Method Definition Index: 51458
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double LeaderboardEntry_get_Score_m0E844EDA51D7AEB80E3B77A351431A6727485A2D_inline (LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25736,7 +25908,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double LeaderboardEntry_get_Score
 		return L_0;
 	}
 }
-// Method Definition Index: 51463
+// Method Definition Index: 51424
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PaginationOptions_set_Offset_m542497831443827DB169F88338013F26B7DF5F88_inline (PaginationOptions_t5BAE5DBAC1D258AD2CF3F546A1CB4A36792F351F* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -25746,7 +25918,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PaginationOptions_set_Offset
 		return;
 	}
 }
-// Method Definition Index: 51465
+// Method Definition Index: 51426
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PaginationOptions_set_Limit_mA690957A3222817569596E1EB80108DEB3F16B86_inline (PaginationOptions_t5BAE5DBAC1D258AD2CF3F546A1CB4A36792F351F* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -25756,7 +25928,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PaginationOptions_set_Limit_
 		return;
 	}
 }
-// Method Definition Index: 51505
+// Method Definition Index: 51466
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline (LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25780,7 +25952,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 		return;
 	}
 }
-// Method Definition Index: 51504
+// Method Definition Index: 51465
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LeaderboardScoresPage_get_Total_m29A996096A141E0290A6DD91035A5B68EABA320D_inline (LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25789,7 +25961,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LeaderboardScoresPage_get
 		return L_0;
 	}
 }
-// Method Definition Index: 51458
+// Method Definition Index: 51419
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RangeOptions_set_RangeLimit_m37BC9E52A4674AD25D3FD1FCCE6D8E8AC1D3393C_inline (RangeOptions_tC0F5F89AD27D71D12F0D41F95593CC87CC1EF925* __this, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -25799,7 +25971,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RangeOptions_set_RangeLimit_
 		return;
 	}
 }
-// Method Definition Index: 51511
+// Method Definition Index: 51472
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline (LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* __this, const RuntimeMethod* method) 
 {
 	{

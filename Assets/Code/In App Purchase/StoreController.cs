@@ -40,44 +40,62 @@ public class StoreController : MonoBehaviour, IDetailedStoreListener
 
     void LoadCatalog()
     {
-        ProductCatalog catalog = JsonUtility.FromJson<ProductCatalog>((Resources.LoadAsync<TextAsset>("IAPProductCatalog").asset as TextAsset).text);
+        try
+        {
+            ProductCatalog catalog = JsonUtility.FromJson<ProductCatalog>((Resources.LoadAsync<TextAsset>("IAPProductCatalog").asset as TextAsset).text);
 
-        //StandardPurchasingModule.Instance().useFakeStoreUIMode = FakeStoreUIMode.DeveloperUser;
-        //StandardPurchasingModule.Instance().useFakeStoreAlways = true;
+            //StandardPurchasingModule.Instance().useFakeStoreUIMode = FakeStoreUIMode.DeveloperUser;
+            //StandardPurchasingModule.Instance().useFakeStoreAlways = true;
 
 #if UNITY_ANDROID
-        ConfigurationBuilder builder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance(AppStore.GooglePlay));
+            ConfigurationBuilder builder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance(AppStore.GooglePlay));
 #elif UNITY_IOS
         ConfigurationBuilder builder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance(AppStore.AppleAppStore));
 #else
         ConfigurationBuilder builder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance(AppStore.NotSpecified));
 #endif
 
-        foreach (ProductCatalogItem item in catalog.allProducts)
+            foreach (ProductCatalogItem item in catalog.allProducts)
+            {
+                builder.AddProduct(item.id, item.type);
+            }
+
+            UnityPurchasing.Initialize(this, builder);
+        }
+        catch (Exception e)
         {
-            builder.AddProduct(item.id, item.type);
+
+            Debug.Log("Hata: StoreController LoadCatalog hata oluþtu. " + e.Message);
         }
 
-        UnityPurchasing.Initialize(this, builder);
     }
 
     //IAP baþarýlý þekilde baþlatýldýðýnda girer
     public void OnInitialized(IStoreController controller, IExtensionProvider extensions)
     {
-        this.storeController = controller;
-        this.storeExtensions = extensions;
-        foreach (GameObject item in StoreItems)
+        try
         {
-            //ProductCatalogItem itemData = catalog.allProducts.Where(i => i.id == item.GetComponent<StoreItem>().Item_Id).FirstOrDefault();
+            this.storeController = controller;
+            this.storeExtensions = extensions;
+            foreach (GameObject item in StoreItems)
+            {
+                //ProductCatalogItem itemData = catalog.allProducts.Where(i => i.id == item.GetComponent<StoreItem>().Item_Id).FirstOrDefault();
 
-            Product product_ = storeController.products.all.Where(i => i.definition.id == item.GetComponent<StoreItem>().Item_Id).FirstOrDefault();
-            item.GetComponent<StoreItem>().SetItemMetaData(product_.metadata.localizedTitle, product_.metadata.localizedDescription, product_.metadata.localizedPriceString + " " + product_.metadata.isoCurrencyCode);
+                Product product_ = storeController.products.all.Where(i => i.definition.id == item.GetComponent<StoreItem>().Item_Id).FirstOrDefault();
+                item.GetComponent<StoreItem>().SetItemMetaData(product_.metadata.localizedTitle, product_.metadata.localizedDescription, product_.metadata.localizedPriceString + " " + product_.metadata.isoCurrencyCode);
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.Log("Hata: StoreController OnInitialized hata oluþtu. " + e.Message);
+
         }
     }
 
     //IAP baþlatýlmasýnda hata ile karþýlaþýlýrsa
     public void OnInitializeFailed(InitializationFailureReason error)
     {
+        Debug.Log("IAP baþlatma hatasý. OnInitializeFailed: " + error);
         throw new System.NotImplementedException();
     }
 
@@ -124,11 +142,19 @@ public class StoreController : MonoBehaviour, IDetailedStoreListener
 
     private void PurchaseCompleted()
     {
-        if (purchaseButton.IsActive())
+        try
         {
-            purchaseButton.enabled = true;
-
+            if (purchaseButton.IsActive())
+            {
+                purchaseButton.enabled = true;
+            }
         }
+        catch (Exception e)
+        {
+
+            Debug.Log("PurchaseCompleted hata. PurchaseCompleted: " + e.Message);
+        }
+
     }
 
     public void RestorePurchase()

@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "5203ab16ecf86337",
         "name": "com.Alpay.Kubiks",
-        "processId": 4673,
+        "processId": 21155,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,43 +11,37 @@
         {
             "deviceId": "5203ab16ecf86337",
             "name": "com.Alpay.Kubiks",
-            "processId": 25917,
+            "processId": 10548,
             "exited": true
         },
         {
             "deviceId": "5203ab16ecf86337",
             "name": "com.sec.android.app.launcher",
-            "processId": 3405,
+            "processId": 3390,
             "exited": false
         },
         {
             "deviceId": "5203ab16ecf86337",
             "name": "com.Alpay.Kubiks",
-            "processId": 27715,
+            "processId": 12519,
             "exited": true
         },
         {
             "deviceId": "5203ab16ecf86337",
             "name": "com.Alpay.Kubiks",
-            "processId": 29896,
+            "processId": 13915,
             "exited": true
         },
         {
             "deviceId": "5203ab16ecf86337",
             "name": "com.Alpay.Kubiks",
-            "processId": 32098,
+            "processId": 20830,
             "exited": true
         },
         {
             "deviceId": "5203ab16ecf86337",
             "name": "com.Alpay.Kubiks",
-            "processId": 2884,
-            "exited": false
-        },
-        {
-            "deviceId": "5203ab16ecf86337",
-            "name": "com.Alpay.Kubiks",
-            "processId": 4673,
+            "processId": 21155,
             "exited": false
         }
     ],
