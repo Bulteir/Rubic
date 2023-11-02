@@ -207,6 +207,16 @@ extern void U3CSignInAnonymouslyU3Ed__10_MoveNext_m7377CD178E93E3686FCDC14CCBC4D
 extern void U3CSignInAnonymouslyU3Ed__10_SetStateMachine_m9D1231BE6E92E89F0F3EB01EBB6E1AC0A4628287 (void);
 extern void U3CStartU3Ed__9_MoveNext_mD6FD56A648E4E64637B8D0D211D252DBD0894CE9 (void);
 extern void U3CStartU3Ed__9_SetStateMachine_mF45D2B3F92B366A3A1EABEF912C1F2AF5311E9AF (void);
+extern void LogoAnimationFinish_Start_m75442A768088CC8B33E71BC221124FD015929646 (void);
+extern void LogoAnimationFinish_LoadScene_m048AB789A1F459452822B92FAD402E93BAB105C7 (void);
+extern void LogoAnimationFinish_LoadAsyncScene_mFDA42F61199844B8232535D3706CCA95F28D3198 (void);
+extern void LogoAnimationFinish__ctor_m799A1F401E8D2460551D811ED5438BBA89C70EAE (void);
+extern void U3CLoadAsyncSceneU3Ed__3__ctor_m30AC12CF698F82FF978FF1131D8B64518B457FE4 (void);
+extern void U3CLoadAsyncSceneU3Ed__3_System_IDisposable_Dispose_m0A6A029C51AD15C4862B8729A36A783A986AC74B (void);
+extern void U3CLoadAsyncSceneU3Ed__3_MoveNext_m21BD7262E07F274A263DD1844FA75F89F5D7CDE6 (void);
+extern void U3CLoadAsyncSceneU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB7B0BA5A55131B95FC9B97A6C81F201314782A6B (void);
+extern void U3CLoadAsyncSceneU3Ed__3_System_Collections_IEnumerator_Reset_m56F99FC04A0822653B901B70B3CD2F10809D147F (void);
+extern void U3CLoadAsyncSceneU3Ed__3_System_Collections_IEnumerator_get_Current_mBA6700BE25C75F344EB220B113B28DE8142244EC (void);
 extern void RotationGroupDetect_Start_mD89232104E9EC36F411B1A0BD14C9B5AE072F76F (void);
 extern void RotationGroupDetect_OnTriggerEnter_m22806119D967E9AC15D0A149B49FB8DBFE093F56 (void);
 extern void RotationGroupDetect_OnTriggerExit_mDAB68A316C05BC6735B74BDF9460B8438437EE73 (void);
@@ -453,7 +463,7 @@ extern void Tools_SerializeSbyteArray_m42EE59805719EE9784FAC0DD4F08EA0BED3A9774 
 extern void Tools_DeserializeSbyteArray_m1C8D15A6DAD9D3871AFCD0FD10CFB0D3C4DF3C9B (void);
 extern void Tools_EnsureFolder_m2533B8435EC378C16580FE117CC51DAA9D5893BD (void);
 extern void Tools__ctor_m27AD90C0BAD0989E0A4E3DCBAAD55A2955AC88D5 (void);
-static Il2CppMethodPointer s_methodPointers[442] = 
+static Il2CppMethodPointer s_methodPointers[452] = 
 {
 	AdMobBannerViewController_CreateBannerView_mCB56F66121053DE98134104F3BEAC5D32C532363,
 	AdMobBannerViewController_LoadAd_m6D255A5EF4C58DD4969C97DC099EC6E77BAFABCC,
@@ -651,6 +661,16 @@ static Il2CppMethodPointer s_methodPointers[442] =
 	U3CSignInAnonymouslyU3Ed__10_SetStateMachine_m9D1231BE6E92E89F0F3EB01EBB6E1AC0A4628287,
 	U3CStartU3Ed__9_MoveNext_mD6FD56A648E4E64637B8D0D211D252DBD0894CE9,
 	U3CStartU3Ed__9_SetStateMachine_mF45D2B3F92B366A3A1EABEF912C1F2AF5311E9AF,
+	LogoAnimationFinish_Start_m75442A768088CC8B33E71BC221124FD015929646,
+	LogoAnimationFinish_LoadScene_m048AB789A1F459452822B92FAD402E93BAB105C7,
+	LogoAnimationFinish_LoadAsyncScene_mFDA42F61199844B8232535D3706CCA95F28D3198,
+	LogoAnimationFinish__ctor_m799A1F401E8D2460551D811ED5438BBA89C70EAE,
+	U3CLoadAsyncSceneU3Ed__3__ctor_m30AC12CF698F82FF978FF1131D8B64518B457FE4,
+	U3CLoadAsyncSceneU3Ed__3_System_IDisposable_Dispose_m0A6A029C51AD15C4862B8729A36A783A986AC74B,
+	U3CLoadAsyncSceneU3Ed__3_MoveNext_m21BD7262E07F274A263DD1844FA75F89F5D7CDE6,
+	U3CLoadAsyncSceneU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB7B0BA5A55131B95FC9B97A6C81F201314782A6B,
+	U3CLoadAsyncSceneU3Ed__3_System_Collections_IEnumerator_Reset_m56F99FC04A0822653B901B70B3CD2F10809D147F,
+	U3CLoadAsyncSceneU3Ed__3_System_Collections_IEnumerator_get_Current_mBA6700BE25C75F344EB220B113B28DE8142244EC,
 	RotationGroupDetect_Start_mD89232104E9EC36F411B1A0BD14C9B5AE072F76F,
 	RotationGroupDetect_OnTriggerEnter_m22806119D967E9AC15D0A149B49FB8DBFE093F56,
 	RotationGroupDetect_OnTriggerExit_mDAB68A316C05BC6735B74BDF9460B8438437EE73,
@@ -928,12 +948,12 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[16] =
 	{ 0x060000C2, U3CSignInAnonymouslyU3Ed__10_SetStateMachine_m9D1231BE6E92E89F0F3EB01EBB6E1AC0A4628287_AdjustorThunk },
 	{ 0x060000C3, U3CStartU3Ed__9_MoveNext_mD6FD56A648E4E64637B8D0D211D252DBD0894CE9_AdjustorThunk },
 	{ 0x060000C4, U3CStartU3Ed__9_SetStateMachine_mF45D2B3F92B366A3A1EABEF912C1F2AF5311E9AF_AdjustorThunk },
-	{ 0x0600010A, U3CLoadKociembaTablesU3Ed__34_MoveNext_m99D57475DC38343FA31351A0CA197A94434943A6_AdjustorThunk },
-	{ 0x0600010B, U3CLoadKociembaTablesU3Ed__34_SetStateMachine_m0BD45EDC1C8B170BC6AB687D56FB8749973A1D54_AdjustorThunk },
-	{ 0x06000141, U3COnEnableU3Ed__4_MoveNext_m8864CB7233FDEC825B0C34D11CABA38E502A3D2A_AdjustorThunk },
-	{ 0x06000142, U3COnEnableU3Ed__4_SetStateMachine_mD59B8A1D36B04651CDEA78645A31EE3EC0D1B218_AdjustorThunk },
+	{ 0x06000114, U3CLoadKociembaTablesU3Ed__34_MoveNext_m99D57475DC38343FA31351A0CA197A94434943A6_AdjustorThunk },
+	{ 0x06000115, U3CLoadKociembaTablesU3Ed__34_SetStateMachine_m0BD45EDC1C8B170BC6AB687D56FB8749973A1D54_AdjustorThunk },
+	{ 0x0600014B, U3COnEnableU3Ed__4_MoveNext_m8864CB7233FDEC825B0C34D11CABA38E502A3D2A_AdjustorThunk },
+	{ 0x0600014C, U3COnEnableU3Ed__4_SetStateMachine_mD59B8A1D36B04651CDEA78645A31EE3EC0D1B218_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[442] = 
+static const int32_t s_InvokerIndices[452] = 
 {
 	6819,
 	6819,
@@ -1131,6 +1151,16 @@ static const int32_t s_InvokerIndices[442] =
 	5531,
 	6819,
 	5531,
+	6819,
+	6819,
+	6691,
+	6819,
+	5500,
+	6819,
+	6597,
+	6691,
+	6819,
+	6691,
 	6819,
 	5531,
 	5531,
@@ -1393,7 +1423,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	442,
+	452,
 	s_methodPointers,
 	16,
 	s_adjustorThunks,

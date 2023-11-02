@@ -20686,7 +20686,7 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 60848
+// Method Definition Index: 60898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* TelemetryHandler_2_get_Config_mEA67EAC9EDC8E75A90DCEC9B55DDBBDC14150105_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20695,7 +20695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520
 		return L_0;
 	}
 }
-// Method Definition Index: 60849
+// Method Definition Index: 60899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20704,7 +20704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7F
 		return L_0;
 	}
 }
-// Method Definition Index: 60850
+// Method Definition Index: 60900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TelemetryHandler_2_get_Lock_mF6C3189B349DA429C2656BF8DBC600713318CDA0_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20713,7 +20713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TelemetryHandler_2_get_Lock_mF
 		return L_0;
 	}
 }
-// Method Definition Index: 60851
+// Method Definition Index: 60901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2__ctor_mAABD95FFCFBA2F85D17FBF1A674F4A2669749BAD_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___0_config, CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___1_cache, RuntimeObject* ___2_scheduler, RuntimeObject* ___3_cachePersister, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___4_sender, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20759,7 +20759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2__ctor_mAABD95FFCFBA2F
 		return;
 	}
 }
-// Method Definition Index: 60852
+// Method Definition Index: 60902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_Initialize_mF83887007D69683927853CF6A2D58C66255ED457_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, RuntimeObject* ___0_cloudProjectId, RuntimeObject* ___1_environments, const RuntimeMethod* method) 
 {
 	{
@@ -20792,7 +20792,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 60853
+// Method Definition Index: 60903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_HandlePersistedCache_mFF6057547CB24880DABE036129A2B5033D203C5D_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -20903,7 +20903,7 @@ IL_0057:
 		return;
 	}
 }
-// Method Definition Index: 60855
+// Method Definition Index: 60905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchAllCommonTags_m5486A491AF760EC62793BA3BC02A9142080ADA45_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, RuntimeObject* ___0_cloudProjectId, RuntimeObject* ___1_environments, const RuntimeMethod* method) 
 {
 	{
@@ -20917,7 +20917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchAllCommonTags_m5
 		return;
 	}
 }
-// Method Definition Index: 60857
+// Method Definition Index: 60907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchTelemetryCommonTags_m0107C7D5E531A6EFD8CF10A1679E8C8E52E34014_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20992,7 +20992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchTelemetryCommonT
 		return;
 	}
 }
-// Method Definition Index: 60858
+// Method Definition Index: 60908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_ScheduleSendingLoop_m6CE0DC50C9800C32CE7AF5746064871D17672349_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21086,7 +21086,7 @@ IL_0044:
 		return;
 	}
 }
-// Method Definition Index: 60860
+// Method Definition Index: 60910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_SchedulePersistenceLoop_m0B15170FDF123BC4C3290E58EBA835AA2F292D6E_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21180,7 +21180,7 @@ IL_0044:
 		return;
 	}
 }
-// Method Definition Index: 60861
+// Method Definition Index: 60911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_PersistCache_mB2C72C5135E2221BB5BAC14B70B97D9EE381026C_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -21286,7 +21286,7 @@ IL_0065:
 		return;
 	}
 }
-// Method Definition Index: 60862
+// Method Definition Index: 60912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_Register_m9568D76F69F2507297946630C027D1B35AA86D91_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A ___0_telemetryEvent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21448,7 +21448,7 @@ IL_0071:
 		return;
 	}
 }
-// Method Definition Index: 60863
+// Method Definition Index: 60913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_U3CScheduleSendingLoopU3Eg__SendingLoopU7C21_0_m626480634858F20B30E4C01B3B75326D36F09C99_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -21571,7 +21571,7 @@ IL_0043:
 		return;
 	}
 }
-// Method Definition Index: 60864
+// Method Definition Index: 60914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_U3CSchedulePersistenceLoopU3Eg__PersistenceLoopU7C23_0_m7B4954C58F521BEF9C549A4A588AEC8E130D3E0A_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
@@ -21651,7 +21651,7 @@ IL_0028:
 		return;
 	}
 }
-// Method Definition Index: 60865
+// Method Definition Index: 60915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TelemetryHandler_2_U3CRegisterU3Eg__IsCacheFullU7C25_0_m925A8DC43EAE9AB1871C876E19C601F7F605CE56_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21677,7 +21677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TelemetryHandler_2_U3CRegisterU3Eg__IsCa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 60848
+// Method Definition Index: 60898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* TelemetryHandler_2_get_Config_m7D7528D1ABD233F97CE10E7E0A1DBDDF18203455_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21686,7 +21686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520
 		return L_0;
 	}
 }
-// Method Definition Index: 60849
+// Method Definition Index: 60899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21695,7 +21695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1
 		return L_0;
 	}
 }
-// Method Definition Index: 60850
+// Method Definition Index: 60900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TelemetryHandler_2_get_Lock_m86757177CB7A4450151E0445A73A6D595A45E5F1_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21704,7 +21704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TelemetryHandler_2_get_Lock_m8
 		return L_0;
 	}
 }
-// Method Definition Index: 60851
+// Method Definition Index: 60901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2__ctor_mDBFA06496CA614C25F7E28173EC8D521B4F01DC8_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___0_config, CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* ___1_cache, RuntimeObject* ___2_scheduler, RuntimeObject* ___3_cachePersister, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___4_sender, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21750,7 +21750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2__ctor_mDBFA06496CA614
 		return;
 	}
 }
-// Method Definition Index: 60852
+// Method Definition Index: 60902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_Initialize_mC4FAADC6B628B4978932A1EFEE5BDEE73641D33F_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, RuntimeObject* ___0_cloudProjectId, RuntimeObject* ___1_environments, const RuntimeMethod* method) 
 {
 	{
@@ -21783,7 +21783,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 60853
+// Method Definition Index: 60903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_HandlePersistedCache_m51BAE08C867130F50B92E925C12F07708E284861_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -21894,7 +21894,7 @@ IL_0057:
 		return;
 	}
 }
-// Method Definition Index: 60855
+// Method Definition Index: 60905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchAllCommonTags_m97B6C5BA344946CBDA7CD4E50822046EF73835F7_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, RuntimeObject* ___0_cloudProjectId, RuntimeObject* ___1_environments, const RuntimeMethod* method) 
 {
 	{
@@ -21908,7 +21908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchAllCommonTags_m9
 		return;
 	}
 }
-// Method Definition Index: 60857
+// Method Definition Index: 60907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchTelemetryCommonTags_m5E8B02FE841BC4F0E2443E22DF701D77F3D41A61_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21983,7 +21983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchTelemetryCommonT
 		return;
 	}
 }
-// Method Definition Index: 60858
+// Method Definition Index: 60908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_ScheduleSendingLoop_mD7A2B5348BE36DFB01DD3EBD23B9BB82E06922D2_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22077,7 +22077,7 @@ IL_0044:
 		return;
 	}
 }
-// Method Definition Index: 60860
+// Method Definition Index: 60910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_SchedulePersistenceLoop_m5FB3EF5D5A88EAB45735BAFE1F211DE315B949F9_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22171,7 +22171,7 @@ IL_0044:
 		return;
 	}
 }
-// Method Definition Index: 60861
+// Method Definition Index: 60911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_PersistCache_mCF272C619B32B6C52AEBC482054301C1B739A89D_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -22277,7 +22277,7 @@ IL_0065:
 		return;
 	}
 }
-// Method Definition Index: 60862
+// Method Definition Index: 60912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 ___0_telemetryEvent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22439,7 +22439,7 @@ IL_0071:
 		return;
 	}
 }
-// Method Definition Index: 60863
+// Method Definition Index: 60913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_U3CScheduleSendingLoopU3Eg__SendingLoopU7C21_0_mB44A4153DFBAE3EC407F61F66BC153933E3ADAC0_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -22562,7 +22562,7 @@ IL_0043:
 		return;
 	}
 }
-// Method Definition Index: 60864
+// Method Definition Index: 60914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_U3CSchedulePersistenceLoopU3Eg__PersistenceLoopU7C23_0_m6ABDEC373727C8A2F31BFECBF4EF03BA0FA23C5D_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
@@ -22642,7 +22642,7 @@ IL_0028:
 		return;
 	}
 }
-// Method Definition Index: 60865
+// Method Definition Index: 60915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TelemetryHandler_2_U3CRegisterU3Eg__IsCacheFullU7C25_0_m38273818A90221D6D1B8BBDE162CE6A9532A647F_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22668,7 +22668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TelemetryHandler_2_U3CRegisterU3Eg__IsCa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 60848
+// Method Definition Index: 60898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* TelemetryHandler_2_get_Config_mFD690F241195151A3DA6BCF66DA3B1F9166AE61E_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22677,7 +22677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520
 		return L_0;
 	}
 }
-// Method Definition Index: 60849
+// Method Definition Index: 60899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CachedPayload_1_t1F13B45D13F0679B9ABA6DBC1EFD66D2E6636BB2* TelemetryHandler_2_get_Cache_m2A4516524A9F7473C4DE2206FBC91E97A3147677_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22686,7 +22686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CachedPayload_1_t1F13B45D13F0679B9ABA6DBC1EFD
 		return L_0;
 	}
 }
-// Method Definition Index: 60850
+// Method Definition Index: 60900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TelemetryHandler_2_get_Lock_mDFCF424718531D07EC29E59C4DE64CA2ED4D2C71_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22695,7 +22695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TelemetryHandler_2_get_Lock_mD
 		return L_0;
 	}
 }
-// Method Definition Index: 60851
+// Method Definition Index: 60901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2__ctor_m1E93EF92CBE7CCFAA673D4BAEA1AF3749E1F5276_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___0_config, CachedPayload_1_t1F13B45D13F0679B9ABA6DBC1EFD66D2E6636BB2* ___1_cache, RuntimeObject* ___2_scheduler, RuntimeObject* ___3_cachePersister, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___4_sender, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22741,7 +22741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2__ctor_m1E93EF92CBE7CC
 		return;
 	}
 }
-// Method Definition Index: 60852
+// Method Definition Index: 60902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_Initialize_mDEE49A1320C7253718A0F819DD595C433D33A26B_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, RuntimeObject* ___0_cloudProjectId, RuntimeObject* ___1_environments, const RuntimeMethod* method) 
 {
 	{
@@ -22774,7 +22774,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 60853
+// Method Definition Index: 60903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_HandlePersistedCache_m527063788A16416F94B871585E6850516059DDA2_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -22885,7 +22885,7 @@ IL_0057:
 		return;
 	}
 }
-// Method Definition Index: 60855
+// Method Definition Index: 60905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchAllCommonTags_mACEE0220C2E943FE7E79882252E7402FC0E7E4F5_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, RuntimeObject* ___0_cloudProjectId, RuntimeObject* ___1_environments, const RuntimeMethod* method) 
 {
 	{
@@ -22899,7 +22899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchAllCommonTags_mA
 		return;
 	}
 }
-// Method Definition Index: 60857
+// Method Definition Index: 60907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchTelemetryCommonTags_mCFC268104C06146828BCEFF69A408DCFA416638B_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22973,7 +22973,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_FetchTelemetryCommonT
 		return;
 	}
 }
-// Method Definition Index: 60858
+// Method Definition Index: 60908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_ScheduleSendingLoop_m419D8FDC02BD5DF4BB844D49E367B98ED6B4DCB1_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23067,7 +23067,7 @@ IL_0044:
 		return;
 	}
 }
-// Method Definition Index: 60860
+// Method Definition Index: 60910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_SchedulePersistenceLoop_m46978E556F1154221546B78C3277B30D36235A3C_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23161,7 +23161,7 @@ IL_0044:
 		return;
 	}
 }
-// Method Definition Index: 60861
+// Method Definition Index: 60911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_PersistCache_mF3ACEEFA7ADAC0A1C03B53BF10B11FFE15BC0F5E_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, const RuntimeMethod* method) 
 {
 	void* L_9 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->klass->rgctx_data, 17)));
@@ -23265,7 +23265,7 @@ IL_0065:
 		return;
 	}
 }
-// Method Definition Index: 60862
+// Method Definition Index: 60912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_Register_m3E64A34256B80F0F9CD91BF561F80E0E45FB1C2B_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, Il2CppFullySharedGenericAny ___0_telemetryEvent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23428,7 +23428,7 @@ IL_0071:
 		return;
 	}
 }
-// Method Definition Index: 60863
+// Method Definition Index: 60913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_U3CScheduleSendingLoopU3Eg__SendingLoopU7C21_0_m670E289C10F500AA4E017329140136170FA94632_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -23551,7 +23551,7 @@ IL_0043:
 		return;
 	}
 }
-// Method Definition Index: 60864
+// Method Definition Index: 60914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_U3CSchedulePersistenceLoopU3Eg__PersistenceLoopU7C23_0_m48572F0657393FB568FD7BE8A722E190BFF586ED_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, const RuntimeMethod* method) 
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
@@ -23631,7 +23631,7 @@ IL_0028:
 		return;
 	}
 }
-// Method Definition Index: 60865
+// Method Definition Index: 60915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TelemetryHandler_2_U3CRegisterU3Eg__IsCacheFullU7C25_0_m07AC24650FA65C1C1E49169FC82EE9A22725EF6A_gshared (TelemetryHandler_2_t4A09943D9482811BA66BFC02DE8D396B7DFA7314* __this, const RuntimeMethod* method) 
 {
 	void* L_1 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->klass->rgctx_data, 17)));
@@ -23656,7 +23656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TelemetryHandler_2_U3CRegisterU3Eg__IsCa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 58974
+// Method Definition Index: 59024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_mD16C513071C2002FD902E25C9CA8B987896EBEDE_gshared (TelemetryQueue_1_tE69AACA7FF360B5C3476D4B90E74FE85F71F5F39* __this, Action_1_t6E6D0D499038779E20F39FD2AD073115B840BA14* ___0_sendTelemetryEvent, const RuntimeMethod* method) 
 {
 	{
@@ -23670,7 +23670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_mD16C513071C2002F
 		return;
 	}
 }
-// Method Definition Index: 58975
+// Method Definition Index: 59025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_QueueEvent_m296662306A9339A146BBC72FB615644F932F7B50_gshared (TelemetryQueue_1_tE69AACA7FF360B5C3476D4B90E74FE85F71F5F39* __this, TelemetryDiagnosticParams_tB3F50C470042D8B0DE57F12EE2C3E6AE4CFC1199 ___0_telemetryEvent, const RuntimeMethod* method) 
 {
 	TelemetryDiagnosticParams_tB3F50C470042D8B0DE57F12EE2C3E6AE4CFC1199 V_0;
@@ -23721,7 +23721,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 58976
+// Method Definition Index: 59026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_SendQueuedEvents_m7B7151F4B9318F4BC4607C8D329175E1FD585405_gshared (TelemetryQueue_1_tE69AACA7FF360B5C3476D4B90E74FE85F71F5F39* __this, const RuntimeMethod* method) 
 {
 	TelemetryDiagnosticParams_tB3F50C470042D8B0DE57F12EE2C3E6AE4CFC1199 V_0;
@@ -23784,7 +23784,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 58974
+// Method Definition Index: 59024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_m2FC7970A5AE7152862232CD3B2E29E7DC8DB793B_gshared (TelemetryQueue_1_t71F581BCF409EA50749227266A8F05453E89431F* __this, Action_1_t75C695922977D4C237D7F9D7EA6462EED087C40B* ___0_sendTelemetryEvent, const RuntimeMethod* method) 
 {
 	{
@@ -23798,7 +23798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_m2FC7970A5AE71528
 		return;
 	}
 }
-// Method Definition Index: 58975
+// Method Definition Index: 59025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_QueueEvent_m2C7EE237581D436647C4ACCD8D45815A873B8C3A_gshared (TelemetryQueue_1_t71F581BCF409EA50749227266A8F05453E89431F* __this, TelemetryMetricParams_t47C9F991FB1C3D886DB873A1655999AECCD6F891 ___0_telemetryEvent, const RuntimeMethod* method) 
 {
 	TelemetryMetricParams_t47C9F991FB1C3D886DB873A1655999AECCD6F891 V_0;
@@ -23849,7 +23849,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 58976
+// Method Definition Index: 59026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_SendQueuedEvents_mE1EB072B1EEE2CC3879CA1EABF9069A35387995E_gshared (TelemetryQueue_1_t71F581BCF409EA50749227266A8F05453E89431F* __this, const RuntimeMethod* method) 
 {
 	TelemetryMetricParams_t47C9F991FB1C3D886DB873A1655999AECCD6F891 V_0;
@@ -23912,7 +23912,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 58974
+// Method Definition Index: 59024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_m6215B4CAB10144226516ACA3002B6436AB9DB77E_gshared (TelemetryQueue_1_t612F7DBFD8B1149C8D6F5DE963F2EE814C369530* __this, Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* ___0_sendTelemetryEvent, const RuntimeMethod* method) 
 {
 	{
@@ -23926,7 +23926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_m6215B4CAB1014422
 		return;
 	}
 }
-// Method Definition Index: 58975
+// Method Definition Index: 59025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_QueueEvent_m740BE9226C7B1C56732AD1CE63D69B24D1C56A29_gshared (TelemetryQueue_1_t612F7DBFD8B1149C8D6F5DE963F2EE814C369530* __this, Il2CppFullySharedGenericAny ___0_telemetryEvent, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TTelemetryEventParams_t36BDF97CC30CA02587666B49EE230ABC0973F30C = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 4));
@@ -23979,7 +23979,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 58976
+// Method Definition Index: 59026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_SendQueuedEvents_m83ED93280050E111EBBF45729E5E8F479627344F_gshared (TelemetryQueue_1_t612F7DBFD8B1149C8D6F5DE963F2EE814C369530* __this, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TTelemetryEventParams_t36BDF97CC30CA02587666B49EE230ABC0973F30C = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 4));
@@ -29409,7 +29409,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Task_get_IsWaitNotificationE
 		return (bool)((((int32_t)((((int32_t)((int32_t)(L_0&((int32_t)285212672)))) == ((int32_t)((int32_t)16777216)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 60885
+// Method Definition Index: 60935
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m275FCC10220ACC7D300B67F7B8254E9E57FA41EF_inline (DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29418,7 +29418,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828
 		return L_0;
 	}
 }
-// Method Definition Index: 60891
+// Method Definition Index: 60941
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m3AB485DBD3D5D0909D2CB009B677EA22665489BD_inline (MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30268,7 +30268,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TaskAwaiter_1__ctor_m33D20D5
 		return;
 	}
 }
-// Method Definition Index: 60850
+// Method Definition Index: 60900
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* TelemetryHandler_2_get_Lock_mF6C3189B349DA429C2656BF8DBC600713318CDA0_gshared_inline (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30277,7 +30277,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* TelemetryHandler_2
 		return L_0;
 	}
 }
-// Method Definition Index: 60849
+// Method Definition Index: 60899
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_gshared_inline (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30286,7 +30286,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CachedPayload_1_tB2CA12BE14B7EE44
 		return L_0;
 	}
 }
-// Method Definition Index: 60848
+// Method Definition Index: 60898
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* TelemetryHandler_2_get_Config_mEA67EAC9EDC8E75A90DCEC9B55DDBBDC14150105_gshared_inline (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30295,7 +30295,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C4027
 		return L_0;
 	}
 }
-// Method Definition Index: 60850
+// Method Definition Index: 60900
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* TelemetryHandler_2_get_Lock_m86757177CB7A4450151E0445A73A6D595A45E5F1_gshared_inline (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30304,7 +30304,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* TelemetryHandler_2
 		return L_0;
 	}
 }
-// Method Definition Index: 60849
+// Method Definition Index: 60899
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_gshared_inline (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30313,7 +30313,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CachedPayload_1_tAAF20A1E90B5FF0B
 		return L_0;
 	}
 }
-// Method Definition Index: 60848
+// Method Definition Index: 60898
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* TelemetryHandler_2_get_Config_m7D7528D1ABD233F97CE10E7E0A1DBDDF18203455_gshared_inline (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
 {
 	{

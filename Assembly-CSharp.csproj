@@ -69,6 +69,7 @@
     <Compile Include="Assets\Code\UI\SettingMenu_Back_Btn.cs" />
     <Compile Include="Assets\Code\Kociemba\K_CoordCubeBuildTables.cs" />
     <Compile Include="Assets\Code\UI\NewGameMenu_ChallengeMode_Btn.cs" />
+    <Compile Include="Assets\Code\LogoAnimationFinish.cs" />
     <Compile Include="Assets\Code\UI\Pause_Btn.cs" />
     <Compile Include="Assets\Code\UI\VictoryUI_MainMenu_Btn.cs" />
     <Compile Include="Assets\Code\UI\NewGame_Btn.cs" />
@@ -145,6 +146,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Unity.dll" />
+    <None Include="Assets\AddressableAssetsData\link.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\GoogleMobileAds\GoogleMobileAds.Android.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
