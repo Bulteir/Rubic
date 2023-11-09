@@ -195,6 +195,11 @@ MonoBehaviour:
     m_Localized: "\xA3"
     m_Metadata:
       m_Items: []
+  - m_Id: 179729707329257472
+    m_Localized: This game requires an internet connection. Please make sure your
+      device is connected to the internet.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

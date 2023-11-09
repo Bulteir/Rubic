@@ -326,7 +326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAPSecurityException__ctor_m6A57B7B67543
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62252
+// Method Definition Index: 62379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t94C3155A663FB7CCF4538CD87239799E2B4F9FC3 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBA4C6B2958BED5706E005C0437E8E762E4F39CD5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -360,7 +360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t94C3155A663FB7CCF4538CD872397
 		return L_6;
 	}
 }
-// Method Definition Index: 62253
+// Method Definition Index: 62380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mA4F8DCACFD86CC7783301BA013320CC8F1B02E17 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t2A763770DFEFDA41E10C47D615AB03E32ECF8062* __this, const RuntimeMethod* method) 
 {
 	{
@@ -458,7 +458,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t94C3155A663FB7CCF4538CD87239799E2B4F9FC3_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62254
+// Method Definition Index: 62381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleReceipt_get_bundleID_m701C0D922D93E3FA7D23E5373CBBEC673BD49F0A (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -467,7 +467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleReceipt_get_bundleID_m701C0D92
 		return L_0;
 	}
 }
-// Method Definition Index: 62255
+// Method Definition Index: 62382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_bundleID_mA1F88F87405C2A5979ACBB58D5DC010716EFB877 (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -478,7 +478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_bundleID_mA1F88F87405C2
 		return;
 	}
 }
-// Method Definition Index: 62256
+// Method Definition Index: 62383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleReceipt_get_appVersion_m3AC19E39B67362C514E3E4DECB776FCAECB24C4A (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -487,7 +487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleReceipt_get_appVersion_m3AC19E
 		return L_0;
 	}
 }
-// Method Definition Index: 62257
+// Method Definition Index: 62384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_appVersion_m59F5F0B3DF859FC014F55CB92DFAB42C8367E76D (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -498,7 +498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_appVersion_m59F5F0B3DF8
 		return;
 	}
 }
-// Method Definition Index: 62258
+// Method Definition Index: 62385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D AppleReceipt_get_expirationDate_m3DBE6E49A936DCCDC26F66A2B40116F5EEAB7BFF (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -507,7 +507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 		return L_0;
 	}
 }
-// Method Definition Index: 62259
+// Method Definition Index: 62386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_expirationDate_m59212EF6F98F9643105525A6997E385DE6A3D373 (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -517,7 +517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_expirationDate_m59212EF
 		return;
 	}
 }
-// Method Definition Index: 62260
+// Method Definition Index: 62387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* AppleReceipt_get_opaque_mF8EDE95E37A18F949140F78112AAFF6B05A42FA2 (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -526,7 +526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		return L_0;
 	}
 }
-// Method Definition Index: 62261
+// Method Definition Index: 62388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_opaque_m4FDDBCA4DB089D281154D7F537533B764875276C (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -537,7 +537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_opaque_m4FDDBCA4DB089D2
 		return;
 	}
 }
-// Method Definition Index: 62262
+// Method Definition Index: 62389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* AppleReceipt_get_hash_mBF3760971A8CE9101C22B608515FE688D4DA6CE2 (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -546,7 +546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		return L_0;
 	}
 }
-// Method Definition Index: 62263
+// Method Definition Index: 62390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_hash_mBDA78FE22F99E68A4A9BAAA8D824ABF2B02F7921 (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -557,7 +557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_hash_mBDA78FE22F99E68A4
 		return;
 	}
 }
-// Method Definition Index: 62264
+// Method Definition Index: 62391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleReceipt_get_originalApplicationVersion_mC482D5135D5A257E737CD233FC5DC46FB4907943 (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -566,7 +566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleReceipt_get_originalApplicatio
 		return L_0;
 	}
 }
-// Method Definition Index: 62265
+// Method Definition Index: 62392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_originalApplicationVersion_mF68D4C59B12264FD840D3860AD5CA45937421DC8 (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -577,7 +577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_originalApplicationVers
 		return;
 	}
 }
-// Method Definition Index: 62266
+// Method Definition Index: 62393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D AppleReceipt_get_receiptCreationDate_mE1C0D4765B91E32A56DD4465D829A73892E46FE6 (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -586,7 +586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 		return L_0;
 	}
 }
-// Method Definition Index: 62267
+// Method Definition Index: 62394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_receiptCreationDate_mE84412087D877A38E66984C4ACE982598F7229B0 (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -596,7 +596,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt_set_receiptCreationDate_mE8
 		return;
 	}
 }
-// Method Definition Index: 62268
+// Method Definition Index: 62395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt__ctor_mBC2D8186C1DD8B5601E6337907E32A7070F1032A (AppleReceipt_t16E9FEBF193F54B9B4E5D3323C48E487DCF3414C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -612,7 +612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleReceipt__ctor_mBC2D8186C1DD8B5601E6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62269
+// Method Definition Index: 62396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleInAppPurchaseReceipt_get_quantity_m023A035E937493261EF5130C6BC59FF652210B1E (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -621,7 +621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleInAppPurchaseReceipt_get_quantit
 		return L_0;
 	}
 }
-// Method Definition Index: 62270
+// Method Definition Index: 62397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_quantity_mE9F9F54A27DAE0A441147CCB2995FC37BAA47F14 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -631,7 +631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_quantity_m
 		return;
 	}
 }
-// Method Definition Index: 62271
+// Method Definition Index: 62398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleInAppPurchaseReceipt_get_productID_m084EF4FFEBF308CE58401DBA48416D05CD01AC6A (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -640,7 +640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleInAppPurchaseReceipt_get_produ
 		return L_0;
 	}
 }
-// Method Definition Index: 62272
+// Method Definition Index: 62399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_productID_m4A6851EB19B52428981949AA404E29FDF0574573 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -651,7 +651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_productID_
 		return;
 	}
 }
-// Method Definition Index: 62273
+// Method Definition Index: 62400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleInAppPurchaseReceipt_get_transactionID_mDFD3CCA8171F1F2648DA74BB29560D5A1D3AC9AF (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -660,7 +660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleInAppPurchaseReceipt_get_trans
 		return L_0;
 	}
 }
-// Method Definition Index: 62274
+// Method Definition Index: 62401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_transactionID_m4697780649988191098121B31BAF8AE6045180C7 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -671,7 +671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_transactio
 		return;
 	}
 }
-// Method Definition Index: 62275
+// Method Definition Index: 62402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleInAppPurchaseReceipt_get_originalTransactionIdentifier_m4CCC48A28E54C696DB545948158A86906EA4B052 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -680,7 +680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleInAppPurchaseReceipt_get_origi
 		return L_0;
 	}
 }
-// Method Definition Index: 62276
+// Method Definition Index: 62403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_originalTransactionIdentifier_m987D93700377FB81897D206F65D08CC908BDFB96 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -691,7 +691,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_originalTr
 		return;
 	}
 }
-// Method Definition Index: 62277
+// Method Definition Index: 62404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D AppleInAppPurchaseReceipt_get_purchaseDate_mD0C3B7344A76EE7BFEC69AB815F02B52F98145B9 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -700,7 +700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 		return L_0;
 	}
 }
-// Method Definition Index: 62278
+// Method Definition Index: 62405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_purchaseDate_m79DB71B8BB914A129B3594C9B8770E23184E4B87 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -710,7 +710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_purchaseDa
 		return;
 	}
 }
-// Method Definition Index: 62279
+// Method Definition Index: 62406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D AppleInAppPurchaseReceipt_get_originalPurchaseDate_mFE6FAF0E5BFFC390A3649BD1C0A0A9FBCD5E0B47 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -719,7 +719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 		return L_0;
 	}
 }
-// Method Definition Index: 62280
+// Method Definition Index: 62407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_originalPurchaseDate_m95399776CB56AA18A87A006DD0103F3FBC21D858 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -729,7 +729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_originalPu
 		return;
 	}
 }
-// Method Definition Index: 62281
+// Method Definition Index: 62408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D AppleInAppPurchaseReceipt_get_subscriptionExpirationDate_m643E75D4AFD8C1D478C51377E72D5809B383648F (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -738,7 +738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 		return L_0;
 	}
 }
-// Method Definition Index: 62282
+// Method Definition Index: 62409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_subscriptionExpirationDate_mB09CE098283C52BE66DCD8017D2D77E5EB38AE39 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -748,7 +748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_subscripti
 		return;
 	}
 }
-// Method Definition Index: 62283
+// Method Definition Index: 62410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D AppleInAppPurchaseReceipt_get_cancellationDate_mDF2DD93796406B22172FBB7670D94A28F9AB0DC7 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -757,7 +757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 		return L_0;
 	}
 }
-// Method Definition Index: 62284
+// Method Definition Index: 62411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_cancellationDate_m9D578D8213D0340DF3EB0BE6A6D296B2343A5802 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -767,7 +767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_cancellati
 		return;
 	}
 }
-// Method Definition Index: 62285
+// Method Definition Index: 62412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleInAppPurchaseReceipt_get_isFreeTrial_m759D2E45FFC7CEDF367DCBCFB621DB339BDDB5EC (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -776,7 +776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleInAppPurchaseReceipt_get_isFreeT
 		return L_0;
 	}
 }
-// Method Definition Index: 62286
+// Method Definition Index: 62413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_isFreeTrial_m5CDF1AB9619EDC68876559BE1A16CC9906CD9BDF (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -786,7 +786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_isFreeTria
 		return;
 	}
 }
-// Method Definition Index: 62287
+// Method Definition Index: 62414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleInAppPurchaseReceipt_get_productType_mA5E7583E60B52D6D959FA7123FC5E9BF1D8774B1 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -795,7 +795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleInAppPurchaseReceipt_get_product
 		return L_0;
 	}
 }
-// Method Definition Index: 62288
+// Method Definition Index: 62415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_productType_mB62D71D6EB76E643F4F72AC0F12A59FC41D16317 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -805,7 +805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_productTyp
 		return;
 	}
 }
-// Method Definition Index: 62289
+// Method Definition Index: 62416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleInAppPurchaseReceipt_get_isIntroductoryPricePeriod_m562487C7A6F83DA38820E1F47D21D3E481C790D5 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -814,7 +814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleInAppPurchaseReceipt_get_isIntro
 		return L_0;
 	}
 }
-// Method Definition Index: 62290
+// Method Definition Index: 62417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_isIntroductoryPricePeriod_m068C04597DEF74873326A24950D8C21FBE1CDDC0 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -824,7 +824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt_set_isIntroduc
 		return;
 	}
 }
-// Method Definition Index: 62291
+// Method Definition Index: 62418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt__ctor_m7A1AA91A843F1F6710D5B130ECEFA43AC6152FA5 (AppleInAppPurchaseReceipt_t45E81B173E0600832D2E259DA4A6CFA9C54A7CD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -840,7 +840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleInAppPurchaseReceipt__ctor_m7A1AA91
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62292
+// Method Definition Index: 62419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAPSecurityException__ctor_m6A57B7B67543FE72E27DF1424812F14667CC38D0 (IAPSecurityException_t0CF168A490D20D9F3A643C75A77826B27ABDEA9B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -857,7 +857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAPSecurityException__ctor_m6A57B7B67543
 		return;
 	}
 }
-// Method Definition Index: 62293
+// Method Definition Index: 62420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAPSecurityException__ctor_m0503EF2A0C27262F779469F186B03F84E7995458 (IAPSecurityException_t0CF168A490D20D9F3A643C75A77826B27ABDEA9B* __this, String_t* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -883,7 +883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAPSecurityException__ctor_m0503EF2A0C27
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62294
+// Method Definition Index: 62421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidSignatureException__ctor_m7861DAA19E1CE053504025520EFC0C673E0DA947 (InvalidSignatureException_tA19C73ABD87C5D1CAE5A0AC33BF1914B68C74A98* __this, const RuntimeMethod* method) 
 {
 	{

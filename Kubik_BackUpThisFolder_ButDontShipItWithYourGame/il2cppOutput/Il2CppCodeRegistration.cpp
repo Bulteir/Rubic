@@ -60,6 +60,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_Purchasing_AppleCore_Cod
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_Purchasing_AppleMacosStub_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_Purchasing_AppleStub_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_Purchasing_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_Purchasing_Codeless_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_Purchasing_SecurityCore_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_Purchasing_Security_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_Purchasing_Stores_CodeGenModule;
@@ -84,7 +85,6 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Services_Authentication_CodeGe
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Services_Core_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Services_Core_Configuration_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Services_Core_Device_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Services_Core_Environments_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Services_Core_Environments_Internal_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Services_Core_Internal_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Services_Core_Registration_CodeGenModule;
@@ -138,6 +138,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[75] =
 	(&g_UnityEngine_Purchasing_AppleMacosStub_CodeGenModule),
 	(&g_UnityEngine_Purchasing_AppleStub_CodeGenModule),
 	(&g_UnityEngine_Purchasing_CodeGenModule),
+	(&g_UnityEngine_Purchasing_Codeless_CodeGenModule),
 	(&g_UnityEngine_Purchasing_SecurityCore_CodeGenModule),
 	(&g_UnityEngine_Purchasing_Security_CodeGenModule),
 	(&g_UnityEngine_Purchasing_Stores_CodeGenModule),
@@ -162,7 +163,6 @@ const Il2CppCodeGenModule* g_CodeGenModules[75] =
 	(&g_Unity_Services_Core_CodeGenModule),
 	(&g_Unity_Services_Core_Configuration_CodeGenModule),
 	(&g_Unity_Services_Core_Device_CodeGenModule),
-	(&g_Unity_Services_Core_Environments_CodeGenModule),
 	(&g_Unity_Services_Core_Environments_Internal_CodeGenModule),
 	(&g_Unity_Services_Core_Internal_CodeGenModule),
 	(&g_Unity_Services_Core_Registration_CodeGenModule),
@@ -179,7 +179,7 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	10,
 	g_ReversePInvokeWrapperPointers,
-	52858,
+	53000,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
 	9909,

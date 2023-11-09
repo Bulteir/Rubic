@@ -32,7 +32,7 @@ public class CubeCameraControl : MonoBehaviour
 
     private void Update()
     {
-        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
+        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && GlobalVariable.internetAvaible == true)
             controlWithTouch();
     }
 

@@ -7,6 +7,8 @@ public class InternetAvailabilityController : MonoBehaviour
 {
     public GameObject storeController;
     public GameObject mainMenuNoAdsButton;
+    public GameObject InternetRequiredPopup;
+
     void Start()
     {
         InvokeRepeating(nameof(CheckNetwork), 5f, 5.0f);
@@ -18,10 +20,12 @@ public class InternetAvailabilityController : MonoBehaviour
         {
 
             GlobalVariable.internetAvaible = false;
+            InternetRequiredPopup.SetActive(true);
         }
         else
         {
             GlobalVariable.internetAvaible = true;
+            InternetRequiredPopup.SetActive(false);
         }
         IAPItemsVisibleControl();
     }

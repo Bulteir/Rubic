@@ -21,7 +21,7 @@ public class Counter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isStarted == true && isChallengeModeActive == false && GlobalVariable.gameState == GlobalVariable.gameState_inGame)
+        if (isStarted == true && isChallengeModeActive == false && GlobalVariable.gameState == GlobalVariable.gameState_inGame && GlobalVariable.internetAvaible == true)
         {
             count += Time.deltaTime;
             miliSecond = (count % 1) * 100;
@@ -34,7 +34,7 @@ public class Counter : MonoBehaviour
             else
                 text.text = string.Format("{0:00}:{1:00}:{2:00}:{3:00}", hour, minute, second, (int)miliSecond);
         }
-        else if (isStarted == true && isChallengeModeActive == true && GlobalVariable.gameState == GlobalVariable.gameState_inGame)
+        else if (isStarted == true && isChallengeModeActive == true && GlobalVariable.gameState == GlobalVariable.gameState_inGame && GlobalVariable.internetAvaible == true)
         {
             miliSecond = (count % 1) * 100;
             second = (int)count % 60;

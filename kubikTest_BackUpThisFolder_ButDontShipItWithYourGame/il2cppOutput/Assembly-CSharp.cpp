@@ -525,7 +525,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral0D4336A7F46D2B27E54DDD4E06F24B398E2280FC
 IL2CPP_EXTERN_C String_t* _stringLiteral0F878D6F793148FED5233A6197C53B38077ACBD0;
 IL2CPP_EXTERN_C String_t* _stringLiteral0FFAB2886A35ED3E747329EE802FAF8B3F81709C;
 IL2CPP_EXTERN_C String_t* _stringLiteral10AE1C4385E0BAE2094CFE823A8F4CE125B513E2;
-IL2CPP_EXTERN_C String_t* _stringLiteral1168E92C164109D6220480DEDA987085B2A21155;
 IL2CPP_EXTERN_C String_t* _stringLiteral19209A8C4F49219A7E67DA4797FBF05AB308F21D;
 IL2CPP_EXTERN_C String_t* _stringLiteral1A1E97C7CA382EFF1C9CE5880E657C12EC87CB5A;
 IL2CPP_EXTERN_C String_t* _stringLiteral1DAAD88CE912421263001616600CBCE53F988D43;
@@ -539,14 +538,14 @@ IL2CPP_EXTERN_C String_t* _stringLiteral2C3D4826D5236B3C9A914C5CE2E3D8CEA48AC7CE
 IL2CPP_EXTERN_C String_t* _stringLiteral2DBA31093C1F45FC585E83BEEB3E81CD26FE6551;
 IL2CPP_EXTERN_C String_t* _stringLiteral3580FB899C7E880AE01641E1A5D3D7449AD53452;
 IL2CPP_EXTERN_C String_t* _stringLiteral35EDA38B45FF13CBC504639410F008D9CC4BF6BB;
-IL2CPP_EXTERN_C String_t* _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1;
 IL2CPP_EXTERN_C String_t* _stringLiteral381617D1A1C0C848CBE085A3C3BF523A03E9659F;
-IL2CPP_EXTERN_C String_t* _stringLiteral39CB21871F9F9FE5AE18BA5E81ED4EC6DADB8E03;
 IL2CPP_EXTERN_C String_t* _stringLiteral3DB2F4ED354BE1A1B4B0FBF68B7A56D5A64CBD32;
 IL2CPP_EXTERN_C String_t* _stringLiteral40C3754113912BBB2324B9A85745EAD27C43B49F;
+IL2CPP_EXTERN_C String_t* _stringLiteral4133EC0E83E4C69B6C0094B47BFD1408F0C8D4C5;
 IL2CPP_EXTERN_C String_t* _stringLiteral418F6531E3D3F30B48C4CA5B3F867F56DE64ADE9;
 IL2CPP_EXTERN_C String_t* _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D;
 IL2CPP_EXTERN_C String_t* _stringLiteral44EE6C16B361AF984DE871897FDED43002CA0C67;
+IL2CPP_EXTERN_C String_t* _stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8;
 IL2CPP_EXTERN_C String_t* _stringLiteral48689B569CDD77D2F21100332160C1CF35E9507F;
 IL2CPP_EXTERN_C String_t* _stringLiteral49C2C4CBD74690CC3F0B4127393BEA222F0A5B31;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E48D9827E218D1CEB898CDF70BFC32C78C25882;
@@ -560,7 +559,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral58A6A4FFA18C4C1B5CDE017771065CFE5D3A8344
 IL2CPP_EXTERN_C String_t* _stringLiteral5DACDA3FBFF1F616FEA43BF199AFA4B279422BF6;
 IL2CPP_EXTERN_C String_t* _stringLiteral6237C972DB620EF24A1E458621853E85C78845A7;
 IL2CPP_EXTERN_C String_t* _stringLiteral625B78AFF32C7C630DC2F0227B460654345802BD;
-IL2CPP_EXTERN_C String_t* _stringLiteral6771994E8C6131D3933D0B976879DA7C6556958B;
 IL2CPP_EXTERN_C String_t* _stringLiteral69DFC6635B03CD70D7D9663FFED9983C4F65FF4A;
 IL2CPP_EXTERN_C String_t* _stringLiteral6AE3AFFF974651D896F4CFFFAB958C25FAC6F2CA;
 IL2CPP_EXTERN_C String_t* _stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21;
@@ -584,9 +582,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral820DEC4D487D3F2DB084E4BB712BE4CC718ED84B
 IL2CPP_EXTERN_C String_t* _stringLiteral8548E8B346B50310625AD1BA3ECA58848E621248;
 IL2CPP_EXTERN_C String_t* _stringLiteral8739227E8E687EF781DA0D923452C2686CFF10A2;
 IL2CPP_EXTERN_C String_t* _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D;
-IL2CPP_EXTERN_C String_t* _stringLiteral8A333529793C8B9627C32FF7D03ECB6A3615C0E8;
 IL2CPP_EXTERN_C String_t* _stringLiteral8BA4BDE5CE0B9B9C72D3470B011EE69B866667E5;
-IL2CPP_EXTERN_C String_t* _stringLiteral8C015216F95E8C61AA150E7E29D899C866E504FC;
 IL2CPP_EXTERN_C String_t* _stringLiteral8E057C0EF7A2F8A91594B3D009091AE75E6C805B;
 IL2CPP_EXTERN_C String_t* _stringLiteral91F980A832459E97817EFFF4669D30DEF717214E;
 IL2CPP_EXTERN_C String_t* _stringLiteral93C343BDBD047E2E494EE31A630425485630C3DB;
@@ -623,7 +619,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralCCAEE0777686926FE6E38F7007EC092146C4C3A8
 IL2CPP_EXTERN_C String_t* _stringLiteralCD28036975D61C1D22B3400A3F2955C3C11641F4;
 IL2CPP_EXTERN_C String_t* _stringLiteralD595D6830DC69649214B6A8BA5C68E3F41837E7A;
 IL2CPP_EXTERN_C String_t* _stringLiteralD6EA6C2C73D5196FD60E3F481D5F4B190485AE35;
-IL2CPP_EXTERN_C String_t* _stringLiteralD9235F8A32567A0DAC6569A1DD5803C6C3C61622;
 IL2CPP_EXTERN_C String_t* _stringLiteralD9925576C8D058F6028CA5DAD5B5B92952B007D3;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDDFC27D24387464AC41CBE16C63E3B4AD28FAD7E;
@@ -2943,6 +2938,7 @@ struct InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD 
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___storeController;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___mainMenuNoAdsButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___InternetRequiredPopup;
 };
 struct LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -7286,7 +7282,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeCameraControl_Update_m8CA3C10599B902
 		int32_t L_0 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
 		if (L_0)
 		{
-			goto IL_000d;
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		bool L_1 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
+		if (!L_1)
+		{
+			goto IL_0014;
 		}
 	}
 	{
@@ -7294,7 +7298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeCameraControl_Update_m8CA3C10599B902
 		CubeCameraControl_controlWithTouch_m0D7E74C78785C066F31411D8A8C551C2AC3468CD(__this, NULL);
 	}
 
-IL_000d:
+IL_0014:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeCameraControl.cs:37>
 		return;
@@ -8155,7 +8159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_Update_mC1C97EE07C4C4B709724
 		int32_t L_0 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
 		if (L_0)
 		{
-			goto IL_001f;
+			goto IL_0026;
 		}
 	}
 	{
@@ -8167,7 +8171,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_Update_mC1C97EE07C4C4B709724
 		bool L_3 = L_2->___isTiltRubicCube;
 		if (L_3)
 		{
-			goto IL_001f;
+			goto IL_0026;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		bool L_4 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
+		if (!L_4)
+		{
+			goto IL_0026;
 		}
 	}
 	{
@@ -8175,7 +8187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_Update_mC1C97EE07C4C4B709724
 		CubeControl_cubeSwipe_m8D32F42E540FFDC194B208046F42C3A4F0E547A1(__this, NULL);
 	}
 
-IL_001f:
+IL_0026:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:71>
 		return;
@@ -8196,7 +8208,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_FixedUpdate_mC9A3DF59269648A
 		int32_t L_0 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
 		if (L_0)
 		{
-			goto IL_000d;
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		bool L_1 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
+		if (!L_1)
+		{
+			goto IL_0014;
 		}
 	}
 	{
@@ -8204,7 +8224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_FixedUpdate_mC9A3DF59269648A
 		CubeControl_Rotate_mE9E541B26B296A1CA9F1D36167D92F31AB330067(__this, NULL);
 	}
 
-IL_000d:
+IL_0014:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:77>
 		return;
@@ -10292,8 +10312,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_VictoryCelebration_mE8C04521
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CVictoryCelebrationU3Eb__50_0_m999790ACAECF81224D7EBC86343BAAB443F17A8C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t1CEB3FCD19C41A6020FF5DD2D0FA8263BAFB61E0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4133EC0E83E4C69B6C0094B47BFD1408F0C8D4C5);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral49C2C4CBD74690CC3F0B4127393BEA222F0A5B31);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4E48D9827E218D1CEB898CDF70BFC32C78C25882);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21);
@@ -10512,7 +10531,7 @@ IL_010a:
 		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_47);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_48 = L_42;
 		NullCheck(L_48);
-		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
+		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral4133EC0E83E4C69B6C0094B47BFD1408F0C8D4C5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_49 = L_48;
 		LocalizedStringDatabase_tACE9FD9021269D20788D130D96F7B2244DD67406* L_50;
 		L_50 = LocalizationSettings_get_StringDatabase_m8CF0CEF6CDD79DD76D575C0E0D7BF093EF57306A(NULL);
@@ -10539,7 +10558,7 @@ IL_010a:
 		(L_55)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_58);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_59 = L_55;
 		NullCheck(L_59);
-		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral4133EC0E83E4C69B6C0094B47BFD1408F0C8D4C5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_60 = L_59;
 		LocalizedStringDatabase_tACE9FD9021269D20788D130D96F7B2244DD67406* L_61;
 		L_61 = LocalizationSettings_get_StringDatabase_m8CF0CEF6CDD79DD76D575C0E0D7BF093EF57306A(NULL);
@@ -10564,9 +10583,9 @@ IL_010a:
 		L_69 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_66, NULL);
 		NullCheck(L_40);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_40, L_69);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:504>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:505>
 		V_3 = 0;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:506>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:507>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_70 = __this->___counter;
 		NullCheck(L_70);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_71;
@@ -10578,7 +10597,7 @@ IL_010a:
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_73;
 		L_73 = String_Split_m9530B73D02054692283BF35C3A27C8F2230946F4(L_72, ((int32_t)58), 0, NULL);
 		V_4 = L_73;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:507>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:508>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_74 = V_4;
 		NullCheck(L_74);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_74)->max_length))) <= ((int32_t)3)))
@@ -10587,7 +10606,7 @@ IL_010a:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:509>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:510>
 		int32_t L_75 = V_3;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_76 = V_4;
 		NullCheck(L_76);
@@ -10596,7 +10615,7 @@ IL_010a:
 		int32_t L_79;
 		L_79 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_78, NULL);
 		V_3 = ((int32_t)il2cpp_codegen_add(L_75, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_79, ((int32_t)3600))), ((int32_t)100)))));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:510>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:511>
 		int32_t L_80 = V_3;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_81 = V_4;
 		NullCheck(L_81);
@@ -10605,7 +10624,7 @@ IL_010a:
 		int32_t L_84;
 		L_84 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_83, NULL);
 		V_3 = ((int32_t)il2cpp_codegen_add(L_80, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_84, ((int32_t)60))), ((int32_t)100)))));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:511>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:512>
 		int32_t L_85 = V_3;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_86 = V_4;
 		NullCheck(L_86);
@@ -10614,7 +10633,7 @@ IL_010a:
 		int32_t L_89;
 		L_89 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_88, NULL);
 		V_3 = ((int32_t)il2cpp_codegen_add(L_85, ((int32_t)il2cpp_codegen_multiply(L_89, ((int32_t)100)))));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:512>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:513>
 		int32_t L_90 = V_3;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_91 = V_4;
 		NullCheck(L_91);
@@ -10628,7 +10647,7 @@ IL_010a:
 
 IL_0230:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:516>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:517>
 		int32_t L_95 = V_3;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_96 = V_4;
 		NullCheck(L_96);
@@ -10637,7 +10656,7 @@ IL_0230:
 		int32_t L_99;
 		L_99 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_98, NULL);
 		V_3 = ((int32_t)il2cpp_codegen_add(L_95, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_99, ((int32_t)60))), ((int32_t)100)))));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:517>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:518>
 		int32_t L_100 = V_3;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_101 = V_4;
 		NullCheck(L_101);
@@ -10646,7 +10665,7 @@ IL_0230:
 		int32_t L_104;
 		L_104 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_103, NULL);
 		V_3 = ((int32_t)il2cpp_codegen_add(L_100, ((int32_t)il2cpp_codegen_multiply(L_104, ((int32_t)100)))));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:518>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:519>
 		int32_t L_105 = V_3;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_106 = V_4;
 		NullCheck(L_106);
@@ -10659,11 +10678,11 @@ IL_0230:
 
 IL_025d:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:521>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:522>
 		int32_t L_110 = V_3;
 		int32_t L_111 = __this->___resolveMoves;
 		V_5 = ((double)il2cpp_codegen_add(((double)L_110), ((double)il2cpp_codegen_multiply(((double)L_111), (0.001)))));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:523>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:524>
 		int32_t L_112 = __this->___shuffleStepCount;
 		if ((((int32_t)L_112) <= ((int32_t)((int32_t)10))))
 		{
@@ -10671,7 +10690,7 @@ IL_025d:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:525>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:526>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_113 = __this->___GeneralControls;
 		NullCheck(L_113);
 		LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_114;
@@ -10683,7 +10702,7 @@ IL_025d:
 
 IL_028f:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:527>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:528>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_116 = __this->___counter;
 		NullCheck(L_116);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_117;
@@ -10693,10 +10712,10 @@ IL_028f:
 		L_118 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_117);
 		int32_t L_119 = __this->___resolveMoves;
 		CubeControl_SaveBestTime_m4FFE25075A47314A4A2E4B45616F872BB6B7E3DC(__this, L_118, L_119, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:528>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:529>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState = 5;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:530>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:531>
 		return;
 	}
 }
@@ -10748,15 +10767,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_SaveBestTime_m4FFE25075A4731
 	Comparison_1_t38864588FE6EBA5A2C974CD6783130B77A64D25E* G_B2_0 = NULL;
 	List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* G_B2_1 = NULL;
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:550>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:551>
 		String_t* L_0;
 		L_0 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral4E48D9827E218D1CEB898CDF70BFC32C78C25882, NULL);
 		V_0 = L_0;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:551>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:552>
 		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_1 = (List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3*)il2cpp_codegen_object_new(List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3_il2cpp_TypeInfo_var);
 		List_1__ctor_mE5A42290C02DC8F922E8AF56C2573AD8D818956C(L_1, List_1__ctor_mE5A42290C02DC8F922E8AF56C2573AD8D818956C_RuntimeMethod_var);
 		V_1 = L_1;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:552>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:553>
 		String_t* L_2 = V_0;
 		bool L_3;
 		L_3 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -10766,26 +10785,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_SaveBestTime_m4FFE25075A4731
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:554>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:555>
 		String_t* L_4 = V_0;
 		JsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1* L_5;
 		L_5 = JsonUtility_FromJson_TisJsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1_m719954BDFA6FE4CB29C5BA2B2DC6417F1DC5B504(L_4, JsonUtility_FromJson_TisJsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1_m719954BDFA6FE4CB29C5BA2B2DC6417F1DC5B504_RuntimeMethod_var);
 		NullCheck(L_5);
 		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_6 = L_5->___list;
 		V_1 = L_6;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:556>
-		il2cpp_codegen_initobj((&V_3), sizeof(BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:557>
+		il2cpp_codegen_initobj((&V_3), sizeof(BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:558>
 		int32_t L_7 = ___1_moves;
 		(&V_3)->___moves = L_7;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:558>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:559>
 		String_t* L_8 = ___0_time;
 		NullCheck(L_8);
 		String_t* L_9;
 		L_9 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_8, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
 		(&V_3)->___time = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_3)->___time), (void*)L_9);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:559>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:560>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_10;
 		L_10 = DateTime_get_Today_m35DCF7D5049604AC424A99B7B225BDD067D0D22A(NULL);
@@ -10794,12 +10813,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_SaveBestTime_m4FFE25075A4731
 		L_11 = DateTime_ToShortDateString_m8863B024FF293DF625932CCA2E35A095C6FCBDCB((&V_4), NULL);
 		(&V_3)->___RecordTime = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_3)->___RecordTime), (void*)L_11);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:560>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:561>
 		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_12 = V_1;
 		BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 L_13 = V_3;
 		NullCheck(L_12);
 		List_1_Add_mA218EF03B02E0CE1A5909DEB34D8FBCCE8DC4E11_inline(L_12, L_13, List_1_Add_mA218EF03B02E0CE1A5909DEB34D8FBCCE8DC4E11_RuntimeMethod_var);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:562>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:563>
 		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_14 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1CEB3FCD19C41A6020FF5DD2D0FA8263BAFB61E0_il2cpp_TypeInfo_var);
 		Comparison_1_t38864588FE6EBA5A2C974CD6783130B77A64D25E* L_15 = ((U3CU3Ec_t1CEB3FCD19C41A6020FF5DD2D0FA8263BAFB61E0_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1CEB3FCD19C41A6020FF5DD2D0FA8263BAFB61E0_il2cpp_TypeInfo_var))->___U3CU3E9__53_0;
@@ -10829,7 +10848,7 @@ IL_0090:
 	{
 		NullCheck(G_B3_1);
 		List_1_Sort_mA50C152E26A48E474BB9EC5C6BDC3F752CC4FC8B(G_B3_1, G_B3_0, List_1_Sort_mA50C152E26A48E474BB9EC5C6BDC3F752CC4FC8B_RuntimeMethod_var);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:564>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:565>
 		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_20 = V_1;
 		NullCheck(L_20);
 		int32_t L_21;
@@ -10840,7 +10859,7 @@ IL_0090:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:566>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:567>
 		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_22 = V_1;
 		NullCheck(L_22);
 		BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 L_23;
@@ -10855,10 +10874,10 @@ IL_0090:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:568>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:569>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:570>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:571>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:572>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_27 = __this->___victoryMessage;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_29 = L_28;
@@ -10945,7 +10964,7 @@ IL_0090:
 
 IL_0199:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:573>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:574>
 		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_62 = V_1;
 		NullCheck(L_62);
 		List_1_RemoveAt_m8B33319C6FEB9D8EC17FC0B2C5215E8CFF5F8A85(L_62, 5, List_1_RemoveAt_m8B33319C6FEB9D8EC17FC0B2C5215E8CFF5F8A85_RuntimeMethod_var);
@@ -10954,10 +10973,10 @@ IL_0199:
 
 IL_01a5:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:577>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:578>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:579>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:580>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:581>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_63 = __this->___victoryMessage;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_64 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_65 = L_64;
@@ -11045,16 +11064,16 @@ IL_01a5:
 
 IL_028b:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:585>
-		il2cpp_codegen_initobj((&V_5), sizeof(BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:586>
+		il2cpp_codegen_initobj((&V_5), sizeof(BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:587>
 		int32_t L_98 = ___1_moves;
 		(&V_5)->___moves = L_98;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:587>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:588>
 		String_t* L_99 = ___0_time;
 		(&V_5)->___time = L_99;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_5)->___time), (void*)L_99);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:588>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:589>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_100;
 		L_100 = DateTime_get_Today_m35DCF7D5049604AC424A99B7B225BDD067D0D22A(NULL);
@@ -11063,15 +11082,15 @@ IL_028b:
 		L_101 = DateTime_ToShortDateString_m8863B024FF293DF625932CCA2E35A095C6FCBDCB((&V_4), NULL);
 		(&V_5)->___RecordTime = L_101;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_5)->___RecordTime), (void*)L_101);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:589>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:590>
 		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_102 = V_1;
 		BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 L_103 = V_5;
 		NullCheck(L_102);
 		List_1_Add_mA218EF03B02E0CE1A5909DEB34D8FBCCE8DC4E11_inline(L_102, L_103, List_1_Add_mA218EF03B02E0CE1A5909DEB34D8FBCCE8DC4E11_RuntimeMethod_var);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:591>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:592>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:593>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:594>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:595>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_104 = __this->___victoryMessage;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_105 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_106 = L_105;
@@ -11158,19 +11177,19 @@ IL_028b:
 
 IL_03a1:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:597>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:598>
 		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_139 = V_1;
 		JsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1* L_140 = (JsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1*)il2cpp_codegen_object_new(JsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1_il2cpp_TypeInfo_var);
 		JsonableListWrapper_1__ctor_m1083402715A1640E054664EC298623CC7EAE65C6(L_140, L_139, JsonableListWrapper_1__ctor_m1083402715A1640E054664EC298623CC7EAE65C6_RuntimeMethod_var);
 		String_t* L_141;
 		L_141 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_140, NULL);
 		V_2 = L_141;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:599>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:600>
 		String_t* L_142 = V_2;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral4E48D9827E218D1CEB898CDF70BFC32C78C25882, L_142, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:600>
-		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:601>
+		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:602>
 		return;
 	}
 }
@@ -11180,24 +11199,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_getBestTimes_mA7F458A2030B2C
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJson_TisJsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1_m719954BDFA6FE4CB29C5BA2B2DC6417F1DC5B504_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mF5CF973AEDBFDBD4B6D1D157758C434930E2685E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral24313380B89749FA23D81C8CFE7ECADF5F282DF3);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral39CB21871F9F9FE5AE18BA5E81ED4EC6DADB8E03);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral48689B569CDD77D2F21100332160C1CF35E9507F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4E48D9827E218D1CEB898CDF70BFC32C78C25882);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6771994E8C6131D3933D0B976879DA7C6556958B);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6FBBAB79B3B79E5C5D42D0446DB1B0E6316005A8);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8A333529793C8B9627C32FF7D03ECB6A3615C0E8);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8C015216F95E8C61AA150E7E29D899C866E504FC);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD9235F8A32567A0DAC6569A1DD5803C6C3C61622);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFC920BF5B48C73F1A2C760180F624A2192ADDA32);
 		s_Il2CppMethodInitialized = true;
@@ -11212,258 +11222,198 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_getBestTimes_mA7F458A2030B2C
 	int32_t V_6 = 0;
 	int32_t V_7 = 0;
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:605>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:606>
 		String_t* L_0;
 		L_0 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral4E48D9827E218D1CEB898CDF70BFC32C78C25882, NULL);
 		V_0 = L_0;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:607>
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:608>
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:609>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)7);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
-		NullCheck(L_2);
-		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral8A333529793C8B9627C32FF7D03ECB6A3615C0E8);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = L_2;
-		LocalizedStringDatabase_tACE9FD9021269D20788D130D96F7B2244DD67406* L_4;
-		L_4 = LocalizationSettings_get_StringDatabase_m8CF0CEF6CDD79DD76D575C0E0D7BF093EF57306A(NULL);
-		il2cpp_codegen_runtime_class_init_inline(TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147_il2cpp_TypeInfo_var);
-		TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147 L_5;
-		L_5 = TableReference_op_Implicit_mDF9424E08672E3C6647FA41BADD7616BB6126846(_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21, NULL);
-		TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224 L_6;
-		L_6 = TableEntryReference_op_Implicit_mCBC6786CFB287012A2B80FDAC1EC06C83465A249(_stringLiteral6771994E8C6131D3933D0B976879DA7C6556958B, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7;
-		L_7 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		V_1 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:610>
+		String_t* L_1 = V_0;
+		bool L_2;
+		L_2 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_2)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:612>
+		String_t* L_3 = V_0;
+		JsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1* L_4;
+		L_4 = JsonUtility_FromJson_TisJsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1_m719954BDFA6FE4CB29C5BA2B2DC6417F1DC5B504(L_3, JsonUtility_FromJson_TisJsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1_m719954BDFA6FE4CB29C5BA2B2DC6417F1DC5B504_RuntimeMethod_var);
 		NullCheck(L_4);
-		String_t* L_8;
-		L_8 = VirtualFuncInvoker5< String_t*, TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147, TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224, Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*, int32_t, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(20, L_4, L_5, L_6, (Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*)NULL, 0, L_7);
-		NullCheck(L_3);
-		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_8);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_3;
-		NullCheck(L_9);
-		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralD9235F8A32567A0DAC6569A1DD5803C6C3C61622);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_9;
-		LocalizedStringDatabase_tACE9FD9021269D20788D130D96F7B2244DD67406* L_11;
-		L_11 = LocalizationSettings_get_StringDatabase_m8CF0CEF6CDD79DD76D575C0E0D7BF093EF57306A(NULL);
-		TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147 L_12;
-		L_12 = TableReference_op_Implicit_mDF9424E08672E3C6647FA41BADD7616BB6126846(_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21, NULL);
-		TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224 L_13;
-		L_13 = TableEntryReference_op_Implicit_mCBC6786CFB287012A2B80FDAC1EC06C83465A249(_stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14;
-		L_14 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		NullCheck(L_11);
-		String_t* L_15;
-		L_15 = VirtualFuncInvoker5< String_t*, TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147, TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224, Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*, int32_t, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(20, L_11, L_12, L_13, (Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*)NULL, 0, L_14);
-		NullCheck(L_10);
-		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_15);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_10;
-		NullCheck(L_16);
-		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral8C015216F95E8C61AA150E7E29D899C866E504FC);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16;
-		LocalizedStringDatabase_tACE9FD9021269D20788D130D96F7B2244DD67406* L_18;
-		L_18 = LocalizationSettings_get_StringDatabase_m8CF0CEF6CDD79DD76D575C0E0D7BF093EF57306A(NULL);
-		TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147 L_19;
-		L_19 = TableReference_op_Implicit_mDF9424E08672E3C6647FA41BADD7616BB6126846(_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21, NULL);
-		TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224 L_20;
-		L_20 = TableEntryReference_op_Implicit_mCBC6786CFB287012A2B80FDAC1EC06C83465A249(_stringLiteral39CB21871F9F9FE5AE18BA5E81ED4EC6DADB8E03, NULL);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_21;
-		L_21 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		NullCheck(L_18);
-		String_t* L_22;
-		L_22 = VirtualFuncInvoker5< String_t*, TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147, TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224, Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*, int32_t, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(20, L_18, L_19, L_20, (Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*)NULL, 0, L_21);
-		NullCheck(L_17);
-		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_22);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = L_17;
-		NullCheck(L_23);
-		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
-		String_t* L_24;
-		L_24 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_23, NULL);
-		V_1 = L_24;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:611>
-		String_t* L_25 = V_0;
-		bool L_26;
-		L_26 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_25, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		if (!L_26)
-		{
-			goto IL_019d;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:613>
-		String_t* L_27 = V_0;
-		JsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1* L_28;
-		L_28 = JsonUtility_FromJson_TisJsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1_m719954BDFA6FE4CB29C5BA2B2DC6417F1DC5B504(L_27, JsonUtility_FromJson_TisJsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1_m719954BDFA6FE4CB29C5BA2B2DC6417F1DC5B504_RuntimeMethod_var);
-		NullCheck(L_28);
-		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_29 = L_28->___list;
-		V_2 = L_29;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:615>
+		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_5 = L_4->___list;
+		V_2 = L_5;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:614>
 		V_3 = 0;
-		goto IL_015b;
+		goto IL_00bd;
 	}
 
-IL_00d2:
+IL_0034:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:617>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_30 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31 = L_30;
-		String_t* L_32 = V_1;
-		NullCheck(L_31);
-		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_32);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_33 = L_31;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:616>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6;
+		String_t* L_8 = V_1;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_7;
+		int32_t L_10 = V_3;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_10, 1));
+		String_t* L_11;
+		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_11);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_9;
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralFC920BF5B48C73F1A2C760180F624A2192ADDA32);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_12;
+		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_14 = V_2;
+		int32_t L_15 = V_3;
+		NullCheck(L_14);
+		BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 L_16;
+		L_16 = List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E(L_14, L_15, List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E_RuntimeMethod_var);
+		String_t* L_17 = L_16.___time;
+		NullCheck(L_17);
+		String_t* L_18;
+		L_18 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_17, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_18);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = L_13;
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral6FBBAB79B3B79E5C5D42D0446DB1B0E6316005A8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = L_19;
+		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_21 = V_2;
+		int32_t L_22 = V_3;
+		NullCheck(L_21);
+		BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 L_23;
+		L_23 = List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E(L_21, L_22, List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E_RuntimeMethod_var);
+		V_5 = L_23;
+		int32_t* L_24 = (int32_t*)(&(&V_5)->___moves);
+		String_t* L_25;
+		L_25 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_24, NULL);
+		NullCheck(L_20);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_25);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_26 = L_20;
+		NullCheck(L_26);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral24313380B89749FA23D81C8CFE7ECADF5F282DF3);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_27 = L_26;
+		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_28 = V_2;
+		int32_t L_29 = V_3;
+		NullCheck(L_28);
+		BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 L_30;
+		L_30 = List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E(L_28, L_29, List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E_RuntimeMethod_var);
+		String_t* L_31 = L_30.___RecordTime;
+		NullCheck(L_27);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_31);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = L_27;
+		NullCheck(L_32);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(8), (String_t*)_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
+		String_t* L_33;
+		L_33 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_32, NULL);
+		V_1 = L_33;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:614>
 		int32_t L_34 = V_3;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_34, 1));
-		String_t* L_35;
-		L_35 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
-		NullCheck(L_33);
-		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_35);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_36 = L_33;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_34, 1));
+	}
+
+IL_00bd:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:614>
+		int32_t L_35 = V_3;
+		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_36 = V_2;
 		NullCheck(L_36);
-		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralFC920BF5B48C73F1A2C760180F624A2192ADDA32);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_37 = L_36;
+		int32_t L_37;
+		L_37 = List_1_get_Count_mF5CF973AEDBFDBD4B6D1D157758C434930E2685E_inline(L_36, List_1_get_Count_mF5CF973AEDBFDBD4B6D1D157758C434930E2685E_RuntimeMethod_var);
+		if ((((int32_t)L_35) < ((int32_t)L_37)))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:619>
 		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_38 = V_2;
-		int32_t L_39 = V_3;
 		NullCheck(L_38);
-		BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 L_40;
-		L_40 = List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E(L_38, L_39, List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E_RuntimeMethod_var);
-		String_t* L_41 = L_40.___time;
-		NullCheck(L_41);
+		int32_t L_39;
+		L_39 = List_1_get_Count_mF5CF973AEDBFDBD4B6D1D157758C434930E2685E_inline(L_38, List_1_get_Count_mF5CF973AEDBFDBD4B6D1D157758C434930E2685E_RuntimeMethod_var);
+		V_6 = L_39;
+		goto IL_00f2;
+	}
+
+IL_00d3:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:621>
+		String_t* L_40 = V_1;
+		int32_t L_41 = V_6;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_41, 1));
 		String_t* L_42;
-		L_42 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_41, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		NullCheck(L_37);
-		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_42);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_43 = L_37;
-		NullCheck(L_43);
-		(L_43)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral6FBBAB79B3B79E5C5D42D0446DB1B0E6316005A8);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_44 = L_43;
-		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_45 = V_2;
-		int32_t L_46 = V_3;
-		NullCheck(L_45);
-		BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 L_47;
-		L_47 = List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E(L_45, L_46, List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E_RuntimeMethod_var);
-		V_5 = L_47;
-		int32_t* L_48 = (int32_t*)(&(&V_5)->___moves);
-		String_t* L_49;
-		L_49 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_48, NULL);
-		NullCheck(L_44);
-		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_49);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_50 = L_44;
-		NullCheck(L_50);
-		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral24313380B89749FA23D81C8CFE7ECADF5F282DF3);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_51 = L_50;
-		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_52 = V_2;
-		int32_t L_53 = V_3;
-		NullCheck(L_52);
-		BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 L_54;
-		L_54 = List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E(L_52, L_53, List_1_get_Item_mC508DB9F2F5AD5F462DD9B9014AE85538F14BD6E_RuntimeMethod_var);
-		String_t* L_55 = L_54.___RecordTime;
-		NullCheck(L_51);
-		(L_51)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_55);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_56 = L_51;
-		NullCheck(L_56);
-		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(8), (String_t*)_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
-		String_t* L_57;
-		L_57 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_56, NULL);
-		V_1 = L_57;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:615>
-		int32_t L_58 = V_3;
-		V_3 = ((int32_t)il2cpp_codegen_add(L_58, 1));
+		L_42 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
+		String_t* L_43;
+		L_43 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_40, L_42, _stringLiteral48689B569CDD77D2F21100332160C1CF35E9507F, NULL);
+		V_1 = L_43;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:619>
+		int32_t L_44 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_44, 1));
 	}
 
-IL_015b:
+IL_00f2:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:615>
-		int32_t L_59 = V_3;
-		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_60 = V_2;
-		NullCheck(L_60);
-		int32_t L_61;
-		L_61 = List_1_get_Count_mF5CF973AEDBFDBD4B6D1D157758C434930E2685E_inline(L_60, List_1_get_Count_mF5CF973AEDBFDBD4B6D1D157758C434930E2685E_RuntimeMethod_var);
-		if ((((int32_t)L_59) < ((int32_t)L_61)))
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:619>
+		int32_t L_45 = V_6;
+		if ((((int32_t)L_45) < ((int32_t)5)))
 		{
-			goto IL_00d2;
+			goto IL_00d3;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:620>
-		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_62 = V_2;
-		NullCheck(L_62);
-		int32_t L_63;
-		L_63 = List_1_get_Count_mF5CF973AEDBFDBD4B6D1D157758C434930E2685E_inline(L_62, List_1_get_Count_mF5CF973AEDBFDBD4B6D1D157758C434930E2685E_RuntimeMethod_var);
-		V_6 = L_63;
-		goto IL_0190;
-	}
-
-IL_0171:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:622>
-		String_t* L_64 = V_1;
-		int32_t L_65 = V_6;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_65, 1));
-		String_t* L_66;
-		L_66 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
-		String_t* L_67;
-		L_67 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_64, L_66, _stringLiteral48689B569CDD77D2F21100332160C1CF35E9507F, NULL);
-		V_1 = L_67;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:620>
-		int32_t L_68 = V_6;
-		V_6 = ((int32_t)il2cpp_codegen_add(L_68, 1));
-	}
-
-IL_0190:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:620>
-		int32_t L_69 = V_6;
-		if ((((int32_t)L_69) < ((int32_t)5)))
-		{
-			goto IL_0171;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:625>
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_70 = ___0_bestTimeLabel;
-		String_t* L_71 = V_1;
-		NullCheck(L_70);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_70, L_71);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:624>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_46 = ___0_bestTimeLabel;
+		String_t* L_47 = V_1;
+		NullCheck(L_46);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_46, L_47);
 		return;
 	}
 
-IL_019d:
+IL_00ff:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:629>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:628>
 		V_7 = 0;
-		goto IL_01c1;
+		goto IL_0123;
 	}
 
-IL_01a2:
+IL_0104:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:631>
-		String_t* L_72 = V_1;
-		int32_t L_73 = V_7;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_73, 1));
-		String_t* L_74;
-		L_74 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
-		String_t* L_75;
-		L_75 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_72, L_74, _stringLiteral48689B569CDD77D2F21100332160C1CF35E9507F, NULL);
-		V_1 = L_75;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:629>
-		int32_t L_76 = V_7;
-		V_7 = ((int32_t)il2cpp_codegen_add(L_76, 1));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:630>
+		String_t* L_48 = V_1;
+		int32_t L_49 = V_7;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_49, 1));
+		String_t* L_50;
+		L_50 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
+		String_t* L_51;
+		L_51 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_48, L_50, _stringLiteral48689B569CDD77D2F21100332160C1CF35E9507F, NULL);
+		V_1 = L_51;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:628>
+		int32_t L_52 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_52, 1));
 	}
 
-IL_01c1:
+IL_0123:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:629>
-		int32_t L_77 = V_7;
-		if ((((int32_t)L_77) < ((int32_t)5)))
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:628>
+		int32_t L_53 = V_7;
+		if ((((int32_t)L_53) < ((int32_t)5)))
 		{
-			goto IL_01a2;
+			goto IL_0104;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:634>
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_78 = ___0_bestTimeLabel;
-		String_t* L_79 = V_1;
-		NullCheck(L_78);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_78, L_79);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:636>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:633>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_54 = ___0_bestTimeLabel;
+		String_t* L_55 = V_1;
+		NullCheck(L_54);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_54, L_55);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:635>
 		return;
 	}
 }
@@ -11471,13 +11421,13 @@ IL_01c1:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_rotateForKociemba_mF8197A7C638E8725E2576BB04B698DF0F6C97A69 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, String_t* ___0_solution, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:640>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:639>
 		String_t* L_0 = ___0_solution;
 		RuntimeObject* L_1;
 		L_1 = CubeControl_rotateHelperForKociembaForEveryTouch_m77CE369272E4DE9803FB2BD5C9715E3DCA502B1C(__this, L_0, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
 		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:641>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:640>
 		return;
 	}
 }
@@ -11521,14 +11471,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_rotateHelpersHelperForKociem
 	Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:693>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:692>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___selectedCubeGroupJoint;
 		NullCheck(L_0);
 		RotationGroupDetect_t079DF85443E0975EDB4DB233DDEA16A5D3873231* L_1;
 		L_1 = Component_GetComponent_TisRotationGroupDetect_t079DF85443E0975EDB4DB233DDEA16A5D3873231_mE63B53CE4C889D7A666C859B25715B707234AD0B(L_0, Component_GetComponent_TisRotationGroupDetect_t079DF85443E0975EDB4DB233DDEA16A5D3873231_mE63B53CE4C889D7A666C859B25715B707234AD0B_RuntimeMethod_var);
 		NullCheck(L_1);
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_2 = L_1->___insideCubes;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:695>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:694>
 		NullCheck(L_2);
 		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_3;
 		L_3 = List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8(L_2, List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
@@ -11552,10 +11502,10 @@ FINALLY_0044:
 
 IL_0018_1:
 			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:695>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:694>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 				L_4 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:697>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:696>
 				NullCheck(L_4);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 				L_5 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_4, NULL);
@@ -11572,7 +11522,7 @@ IL_0018_1:
 
 IL_0039_1:
 			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:695>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:694>
 				bool L_9;
 				L_9 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_9)
@@ -11592,7 +11542,7 @@ IL_0039_1:
 
 IL_0052:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:699>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:698>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->___selectedCubeGroupJoint;
 		NullCheck(L_10);
 		RotationGroupDetect_t079DF85443E0975EDB4DB233DDEA16A5D3873231* L_11;
@@ -11600,7 +11550,7 @@ IL_0052:
 		NullCheck(L_11);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = L_11->___rotationAxisForKociembaResolver;
 		__this->___selectedAxis = L_12;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:701>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:700>
 		bool L_13 = ___0_rotateClockWise;
 		if (L_13)
 		{
@@ -11608,7 +11558,7 @@ IL_0052:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:702>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:701>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = __this->___selectedAxis;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
 		memset((&L_15), 0, sizeof(L_15));
@@ -11620,9 +11570,9 @@ IL_0052:
 
 IL_0090:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:704>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:703>
 		CubeControl_startRotate_mD431208BCD98CE4254F843A49E94F57BB09FA91B(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:705>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:704>
 		return;
 	}
 }
@@ -11630,14 +11580,14 @@ IL_0090:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_rotateAndFixCubeForKociembaStart_m09955B154930A98D4F5850B04FAE6C7D5288A3B3 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___0_faceDetectors, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_solve_Btn, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:709>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:708>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_0 = ___0_faceDetectors;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___1_solve_Btn;
 		RuntimeObject* L_2;
 		L_2 = CubeControl_rotateAndFixCubeForKociembaForEveryTouch_mC04D8430801C30249B24FAFCB627F3E780714AC2(__this, L_0, L_1, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3;
 		L_3 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_2, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:710>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:709>
 		return;
 	}
 }
@@ -11694,7 +11644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CshuffleCoroutineU3Eb__44_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateHelperForKociembaForEveryTouchU3Eb__56_0_mD6AF43E388AAE3D15DB796D8205E3929591C4021 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:672>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:671>
 		bool L_0 = __this->___isRotateStarted;
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
@@ -11703,7 +11653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateHelperForKociembaFo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateHelperForKociembaForEveryTouchU3Eb__56_1_mDD48E5A9C68C1BBC9299384EFCA71D22A1AED259 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:676>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:675>
 		bool L_0 = __this->___isRotateStarted;
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
@@ -11712,7 +11662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateHelperForKociembaFo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateAndFixCubeForKociembaForEveryTouchU3Eb__59_0_mA421B3ADF2009F570164C8F8D879FA9F970CD24C (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:714>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:713>
 		bool L_0 = __this->___isRotateStarted;
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
@@ -11721,7 +11671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateAndFixCubeForKociem
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateAndFixCubeForKociembaForEveryTouchU3Eb__59_1_m8B39F9FA134F8B218399AA87CF74F44463974391 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:741>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:740>
 		bool L_0 = __this->___isRotateStarted;
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
@@ -11730,7 +11680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateAndFixCubeForKociem
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CubeControl_U3CrotateAndFixCubeForKociembaForEveryTouchU3Eb__59_2_m9FBD00E806B279EFF84B9BC672277C0665A21227 (CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:761>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:760>
 		bool L_0 = __this->___isRotateStarted;
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
@@ -11866,7 +11816,7 @@ IL_001e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CSaveBestTimeU3Eb__53_0_m3925B774897A6951B80EAEFAD8658605FB2AA1B5 (U3CU3Ec_t1CEB3FCD19C41A6020FF5DD2D0FA8263BAFB61E0* __this, BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 ___0_x, BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:562>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:563>
 		BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 L_0 = ___0_x;
 		String_t* L_1 = L_0.___time;
 		BestTimesStruct_t5ECA6441A09F49CB5BE057813B64AB38E482A763 L_2 = ___1_y;
@@ -12211,7 +12161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CrotateAndFixCubeForKociembaForEveryTo
 IL_0026:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:714>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:713>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_3 = V_1;
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_4 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
 		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_4, L_3, (intptr_t)((void*)CubeControl_U3CrotateAndFixCubeForKociembaForEveryTouchU3Eb__59_0_mA421B3ADF2009F570164C8F8D879FA9F970CD24C_RuntimeMethod_var), NULL);
@@ -12226,7 +12176,7 @@ IL_0026:
 IL_004d:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:715>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:714>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_6 = __this->___faceDetectors;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -12247,7 +12197,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:717>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:716>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_12 = __this->___faceDetectors;
 		NullCheck(L_12);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
@@ -12268,7 +12218,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:719>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:718>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_18 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_19 = V_1;
 		NullCheck(L_19);
@@ -12279,7 +12229,7 @@ IL_004d:
 		NullCheck(L_18);
 		L_18->___selectedCubeGroupJoint = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&L_18->___selectedCubeGroupJoint), (void*)L_21);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:720>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:719>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_22 = V_1;
 		NullCheck(L_22);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_22, (bool)1, NULL);
@@ -12288,7 +12238,7 @@ IL_004d:
 
 IL_00c4:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:722>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:721>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_23 = __this->___faceDetectors;
 		NullCheck(L_23);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
@@ -12309,7 +12259,7 @@ IL_00c4:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:724>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:723>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_29 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_30 = V_1;
 		NullCheck(L_30);
@@ -12320,7 +12270,7 @@ IL_00c4:
 		NullCheck(L_29);
 		L_29->___selectedCubeGroupJoint = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&L_29->___selectedCubeGroupJoint), (void*)L_32);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:725>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:724>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_33 = V_1;
 		NullCheck(L_33);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_33, (bool)0, NULL);
@@ -12329,7 +12279,7 @@ IL_00c4:
 
 IL_0109:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:727>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:726>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_34 = __this->___faceDetectors;
 		NullCheck(L_34);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
@@ -12350,7 +12300,7 @@ IL_0109:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:729>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:728>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_40 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_41 = V_1;
 		NullCheck(L_41);
@@ -12361,7 +12311,7 @@ IL_0109:
 		NullCheck(L_40);
 		L_40->___selectedCubeGroupJoint = L_43;
 		Il2CppCodeGenWriteBarrier((void**)(&L_40->___selectedCubeGroupJoint), (void*)L_43);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:730>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:729>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_44 = V_1;
 		NullCheck(L_44);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_44, (bool)1, NULL);
@@ -12370,7 +12320,7 @@ IL_0109:
 
 IL_014e:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:732>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:731>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_45 = __this->___faceDetectors;
 		NullCheck(L_45);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46;
@@ -12391,7 +12341,7 @@ IL_014e:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:734>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:733>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_51 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_52 = V_1;
 		NullCheck(L_52);
@@ -12402,7 +12352,7 @@ IL_014e:
 		NullCheck(L_51);
 		L_51->___selectedCubeGroupJoint = L_54;
 		Il2CppCodeGenWriteBarrier((void**)(&L_51->___selectedCubeGroupJoint), (void*)L_54);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:735>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:734>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_55 = V_1;
 		NullCheck(L_55);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_55, (bool)0, NULL);
@@ -12411,7 +12361,7 @@ IL_014e:
 
 IL_0193:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:737>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:736>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_56 = __this->___faceDetectors;
 		NullCheck(L_56);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_57;
@@ -12432,7 +12382,7 @@ IL_0193:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:739>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:738>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_62 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_63 = V_1;
 		NullCheck(L_63);
@@ -12443,11 +12393,11 @@ IL_0193:
 		NullCheck(L_62);
 		L_62->___selectedCubeGroupJoint = L_65;
 		Il2CppCodeGenWriteBarrier((void**)(&L_62->___selectedCubeGroupJoint), (void*)L_65);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:740>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:739>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_66 = V_1;
 		NullCheck(L_66);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_66, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:741>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:740>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_67 = V_1;
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_68 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
 		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_68, L_67, (intptr_t)((void*)CubeControl_U3CrotateAndFixCubeForKociembaForEveryTouchU3Eb__59_1_m8B39F9FA134F8B218399AA87CF74F44463974391_RuntimeMethod_var), NULL);
@@ -12462,7 +12412,7 @@ IL_0193:
 IL_01f6:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:742>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:741>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_70 = V_1;
 		NullCheck(L_70);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_70, (bool)1, NULL);
@@ -12471,7 +12421,7 @@ IL_01f6:
 
 IL_0209:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:745>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:744>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_71 = __this->___faceDetectors;
 		NullCheck(L_71);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_72;
@@ -12492,7 +12442,7 @@ IL_0209:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:747>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:746>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_77 = __this->___faceDetectors;
 		NullCheck(L_77);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_78;
@@ -12513,7 +12463,7 @@ IL_0209:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:749>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:748>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_83 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_84 = V_1;
 		NullCheck(L_84);
@@ -12524,7 +12474,7 @@ IL_0209:
 		NullCheck(L_83);
 		L_83->___selectedCubeGroupJoint = L_86;
 		Il2CppCodeGenWriteBarrier((void**)(&L_83->___selectedCubeGroupJoint), (void*)L_86);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:750>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:749>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_87 = V_1;
 		NullCheck(L_87);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_87, (bool)1, NULL);
@@ -12533,7 +12483,7 @@ IL_0209:
 
 IL_0279:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:752>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:751>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_88 = __this->___faceDetectors;
 		NullCheck(L_88);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_89;
@@ -12554,7 +12504,7 @@ IL_0279:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:754>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:753>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_94 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_95 = V_1;
 		NullCheck(L_95);
@@ -12565,7 +12515,7 @@ IL_0279:
 		NullCheck(L_94);
 		L_94->___selectedCubeGroupJoint = L_97;
 		Il2CppCodeGenWriteBarrier((void**)(&L_94->___selectedCubeGroupJoint), (void*)L_97);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:755>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:754>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_98 = V_1;
 		NullCheck(L_98);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_98, (bool)0, NULL);
@@ -12574,7 +12524,7 @@ IL_0279:
 
 IL_02be:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:757>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:756>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_99 = __this->___faceDetectors;
 		NullCheck(L_99);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_100;
@@ -12595,7 +12545,7 @@ IL_02be:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:759>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:758>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_105 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_106 = V_1;
 		NullCheck(L_106);
@@ -12606,11 +12556,11 @@ IL_02be:
 		NullCheck(L_105);
 		L_105->___selectedCubeGroupJoint = L_108;
 		Il2CppCodeGenWriteBarrier((void**)(&L_105->___selectedCubeGroupJoint), (void*)L_108);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:760>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:759>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_109 = V_1;
 		NullCheck(L_109);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_109, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:761>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:760>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_110 = V_1;
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_111 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
 		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_111, L_110, (intptr_t)((void*)CubeControl_U3CrotateAndFixCubeForKociembaForEveryTouchU3Eb__59_2_m9FBD00E806B279EFF84B9BC672277C0665A21227_RuntimeMethod_var), NULL);
@@ -12625,7 +12575,7 @@ IL_02be:
 IL_0321:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:762>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:761>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_113 = V_1;
 		NullCheck(L_113);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_113, (bool)1, NULL);
@@ -12634,11 +12584,11 @@ IL_0321:
 
 IL_0331:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:767>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:766>
 		String_t* L_114;
 		L_114 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(_stringLiteral820DEC4D487D3F2DB084E4BB712BE4CC718ED84B, NULL);
 		V_2 = L_114;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:768>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:767>
 		String_t* L_115 = V_2;
 		bool L_116;
 		L_116 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_115, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -12648,7 +12598,7 @@ IL_0331:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:770>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:769>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_117 = V_1;
 		NullCheck(L_117);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_118 = L_117->___solve_Btn;
@@ -12659,16 +12609,16 @@ IL_0331:
 		String_t* L_120;
 		L_120 = Solve_Btn_getSolution_m889771D5D609FEECC063FDB986EB5B6CECDF0B91(L_119, NULL);
 		V_2 = L_120;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:771>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:770>
 		String_t* L_121 = V_2;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral820DEC4D487D3F2DB084E4BB712BE4CC718ED84B, L_121, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:772>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:771>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 	}
 
 IL_036a:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:774>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:773>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_122 = V_1;
 		String_t* L_123 = V_2;
 		NullCheck(L_122);
@@ -12677,7 +12627,7 @@ IL_036a:
 
 IL_0371:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:776>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:775>
 		return (bool)0;
 	}
 }
@@ -12788,7 +12738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CrotateHelperForKociembaForEveryTouchU
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:645>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:644>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_3 = V_1;
 		NullCheck(L_3);
 		bool L_4 = L_3->___isRotateStarted;
@@ -12798,16 +12748,16 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:647>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:646>
 		String_t* L_5 = __this->___solution;
 		NullCheck(L_5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6;
 		L_6 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(L_5, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, 0, NULL);
 		__this->___U3CresolveStepsU3E5__2 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CresolveStepsU3E5__2), (void*)L_6);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:648>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:647>
 		__this->___U3CclockwiseU3E5__3 = (bool)1;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:649>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:648>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = __this->___U3CresolveStepsU3E5__2;
 		NullCheck(L_7);
 		if (!(((RuntimeArray*)L_7)->max_length))
@@ -12816,7 +12766,7 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:651>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:650>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = __this->___U3CresolveStepsU3E5__2;
 		NullCheck(L_8);
 		int32_t L_9 = 0;
@@ -12829,7 +12779,7 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:653>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:652>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = __this->___U3CresolveStepsU3E5__2;
 		NullCheck(L_12);
 		int32_t L_13 = 0;
@@ -12843,7 +12793,7 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:654>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:653>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_16 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_17 = V_1;
 		NullCheck(L_17);
@@ -12859,7 +12809,7 @@ IL_0022:
 
 IL_009f:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:655>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:654>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = __this->___U3CresolveStepsU3E5__2;
 		NullCheck(L_20);
 		int32_t L_21 = 0;
@@ -12873,7 +12823,7 @@ IL_009f:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:656>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:655>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_24 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_25 = V_1;
 		NullCheck(L_25);
@@ -12889,7 +12839,7 @@ IL_009f:
 
 IL_00c9:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:657>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:656>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = __this->___U3CresolveStepsU3E5__2;
 		NullCheck(L_28);
 		int32_t L_29 = 0;
@@ -12903,7 +12853,7 @@ IL_00c9:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:658>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:657>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_32 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_33 = V_1;
 		NullCheck(L_33);
@@ -12919,7 +12869,7 @@ IL_00c9:
 
 IL_00f0:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:659>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:658>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_36 = __this->___U3CresolveStepsU3E5__2;
 		NullCheck(L_36);
 		int32_t L_37 = 0;
@@ -12933,7 +12883,7 @@ IL_00f0:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:660>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:659>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_40 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_41 = V_1;
 		NullCheck(L_41);
@@ -12949,7 +12899,7 @@ IL_00f0:
 
 IL_0117:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:661>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:660>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_44 = __this->___U3CresolveStepsU3E5__2;
 		NullCheck(L_44);
 		int32_t L_45 = 0;
@@ -12963,7 +12913,7 @@ IL_0117:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:662>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:661>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_48 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_49 = V_1;
 		NullCheck(L_49);
@@ -12979,7 +12929,7 @@ IL_0117:
 
 IL_013e:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:663>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:662>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_52 = __this->___U3CresolveStepsU3E5__2;
 		NullCheck(L_52);
 		int32_t L_53 = 0;
@@ -12993,7 +12943,7 @@ IL_013e:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:664>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:663>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_56 = V_1;
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_57 = V_1;
 		NullCheck(L_57);
@@ -13008,7 +12958,7 @@ IL_013e:
 
 IL_0163:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:666>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:665>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_60 = __this->___U3CresolveStepsU3E5__2;
 		NullCheck(L_60);
 		int32_t L_61 = 0;
@@ -13022,14 +12972,14 @@ IL_0163:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:667>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:666>
 		__this->___U3CclockwiseU3E5__3 = (bool)0;
 		goto IL_01d8;
 	}
 
 IL_0180:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:668>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:667>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_64 = __this->___U3CresolveStepsU3E5__2;
 		NullCheck(L_64);
 		int32_t L_65 = 0;
@@ -13043,12 +12993,12 @@ IL_0180:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:670>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:669>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_68 = V_1;
 		bool L_69 = __this->___U3CclockwiseU3E5__3;
 		NullCheck(L_68);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_68, L_69, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:671>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:670>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_70 = V_1;
 		NullCheck(L_70);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_71 = L_70->___solve_Btn;
@@ -13057,7 +13007,7 @@ IL_0180:
 		L_72 = Component_GetComponent_TisSolve_Btn_tB694FE4AEAD1611FA12620E3C142F2D6670275D6_m6625059137122EBFEAB9907102A00B5B48526D4F(L_71, Component_GetComponent_TisSolve_Btn_tB694FE4AEAD1611FA12620E3C142F2D6670275D6_m6625059137122EBFEAB9907102A00B5B48526D4F_RuntimeMethod_var);
 		NullCheck(L_72);
 		L_72->___isDoubleSolvingStep = (bool)1;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:672>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:671>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_73 = V_1;
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_74 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
 		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_74, L_73, (intptr_t)((void*)CubeControl_U3CrotateHelperForKociembaForEveryTouchU3Eb__56_0_mD6AF43E388AAE3D15DB796D8205E3929591C4021_RuntimeMethod_var), NULL);
@@ -13076,12 +13026,12 @@ IL_01d1:
 
 IL_01d8:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:675>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:674>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_76 = V_1;
 		bool L_77 = __this->___U3CclockwiseU3E5__3;
 		NullCheck(L_76);
 		CubeControl_rotateHelpersHelperForKociemba_m0C00040124855CDBA17EA080355F120CCB07C2A8(L_76, L_77, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:676>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:675>
 		CubeControl_t7709B446C85CD190C53A880EBFE774828117BBE7* L_78 = V_1;
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_79 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
 		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_79, L_78, (intptr_t)((void*)CubeControl_U3CrotateHelperForKociembaForEveryTouchU3Eb__56_1_mDD48E5A9C68C1BBC9299384EFCA71D22A1AED259_RuntimeMethod_var), NULL);
@@ -13096,16 +13046,16 @@ IL_01d8:
 IL_0204:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:678>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:677>
 		V_2 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:679>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:678>
 		V_3 = 1;
 		goto IL_022d;
 	}
 
 IL_0215:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:681>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:680>
 		String_t* L_81 = V_2;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_82 = __this->___U3CresolveStepsU3E5__2;
 		int32_t L_83 = V_3;
@@ -13115,14 +13065,14 @@ IL_0215:
 		String_t* L_86;
 		L_86 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_81, L_85, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, NULL);
 		V_2 = L_86;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:679>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:678>
 		int32_t L_87 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_87, 1));
 	}
 
 IL_022d:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:679>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:678>
 		int32_t L_88 = V_3;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_89 = __this->___U3CresolveStepsU3E5__2;
 		NullCheck(L_89);
@@ -13132,23 +13082,23 @@ IL_022d:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:684>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:683>
 		String_t* L_90 = V_2;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral820DEC4D487D3F2DB084E4BB712BE4CC718ED84B, L_90, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:685>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:684>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 	}
 
 IL_0248:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:688>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:687>
 		__this->___U3CresolveStepsU3E5__2 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CresolveStepsU3E5__2), (void*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL);
 	}
 
 IL_024f:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:689>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:688>
 		return (bool)0;
 	}
 }
@@ -16054,9 +16004,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_Start_m82
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:12>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:14>
 		MonoBehaviour_InvokeRepeating_mF208501E0E4918F9168BBBA5FC50D8F80D01514D(__this, _stringLiteral35EDA38B45FF13CBC504639410F008D9CC4BF6BB, (5.0f), (5.0f), NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:13>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:15>
 		return;
 	}
 }
@@ -16071,34 +16021,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_CheckNetw
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:17>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:19>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = Application_get_internetReachability_m3FECA8BA005340369BB952CE8CDF3E1A53F3BA0E(NULL);
 		if (L_0)
 		{
-			goto IL_000f;
+			goto IL_001b;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:20>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:22>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible = (bool)0;
-		goto IL_0015;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:23>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___InternetRequiredPopup;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
+		goto IL_002d;
 	}
 
-IL_000f:
+IL_001b:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:24>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:27>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible = (bool)1;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:28>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___InternetRequiredPopup;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
 	}
 
-IL_0015:
+IL_002d:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:26>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:30>
 		InternetAvailabilityController_IAPItemsVisibleControl_m6F11F664BE248F2DECE910D77FB79C6BE6E10BDC(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:27>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:31>
 		return;
 	}
 }
@@ -16121,7 +16079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_IAPItemsV
 	Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:31>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:35>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		bool L_0 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
 		if (L_0)
@@ -16130,7 +16088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_IAPItemsV
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:33>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:37>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___storeController;
 		NullCheck(L_1);
 		StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* L_2;
@@ -16160,13 +16118,13 @@ FINALLY_0043:
 
 IL_001f_1:
 			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:33>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:37>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 				L_5 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:35>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:39>
 				NullCheck(L_5);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:36>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:40>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___mainMenuNoAdsButton;
 				NullCheck(L_6);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
@@ -16174,7 +16132,7 @@ IL_001f_1:
 
 IL_0038_1:
 			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:33>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:37>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_7)
@@ -16194,7 +16152,7 @@ IL_0038_1:
 
 IL_0051:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:39>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		bool L_8 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
 		if (!L_8)
@@ -16213,7 +16171,7 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:41>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:45>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___storeController;
 		NullCheck(L_11);
 		StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* L_12;
@@ -16243,13 +16201,13 @@ FINALLY_00aa:
 
 IL_0086_1:
 			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:41>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:45>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
 				L_15 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:43>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:47>
 				NullCheck(L_15);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)1, NULL);
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:44>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:48>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___mainMenuNoAdsButton;
 				NullCheck(L_16);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
@@ -16257,7 +16215,7 @@ IL_0086_1:
 
 IL_009f_1:
 			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:41>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:45>
 				bool L_17;
 				L_17 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_17)
@@ -16277,7 +16235,7 @@ IL_009f_1:
 
 IL_00b8:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:48>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:52>
 		return;
 	}
 }
@@ -16493,7 +16451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_FillLeaderboardRow
 	int32_t V_7 = 0;
 	double V_8 = 0.0;
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:256>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:262>
 		int32_t L_0 = ___0_rowIndex;
 		int32_t L_1 = __this->___LastRowIndex;
 		if ((((int32_t)L_0) <= ((int32_t)L_1)))
@@ -16502,14 +16460,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_FillLeaderboardRow
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:257>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:263>
 		int32_t L_2 = ___0_rowIndex;
 		__this->___LastRowIndex = L_2;
 	}
 
 IL_0010:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:259>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:265>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___TemplateRow;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___RowParent;
 		NullCheck(L_4);
@@ -16519,11 +16477,11 @@ IL_0010:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_3, L_5, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
 		V_0 = L_6;
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:260>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:266>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_0;
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:261>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:267>
 		int32_t L_8 = __this->___LastRowIndex;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___TemplateRow;
 		NullCheck(L_9);
@@ -16536,7 +16494,7 @@ IL_0010:
 		int32_t L_13 = __this->___LineSpacing;
 		float L_14 = __this->___rowGroupSpacing;
 		__this->___nextPosY = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_8, (-1)))), ((float)il2cpp_codegen_add(L_12, ((float)L_13))))), L_14));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:262>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:268>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_0;
 		NullCheck(L_15);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_16;
@@ -16547,7 +16505,7 @@ IL_0010:
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_18), (0.0f), L_17, NULL);
 		NullCheck(L_16);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_16, L_18, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:263>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:269>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_0;
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
@@ -16561,7 +16519,7 @@ IL_0010:
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23 = ___2_backgroundColor;
 		NullCheck(L_22);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_22, L_23);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:264>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:270>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = V_0;
 		NullCheck(L_24);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25;
@@ -16587,7 +16545,7 @@ IL_0010:
 		L_32 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_7), NULL);
 		NullCheck(L_29);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_29, L_32);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:265>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:271>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = V_0;
 		NullCheck(L_33);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
@@ -16620,7 +16578,7 @@ IL_0010:
 		L_44 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_40, 0, L_43, NULL);
 		NullCheck(L_38);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_38, L_44);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:268>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:274>
 		LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_45 = ___1_content;
 		NullCheck(L_45);
 		double L_46;
@@ -16640,26 +16598,26 @@ IL_0010:
 		int32_t L_52;
 		L_52 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_51, NULL);
 		V_1 = ((double)L_52);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:269>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:275>
 		LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_53 = ___1_content;
 		NullCheck(L_53);
 		double L_54;
 		L_54 = LeaderboardEntry_get_Score_m0E844EDA51D7AEB80E3B77A351431A6727485A2D_inline(L_53, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:271>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:277>
 		int32_t L_55 = il2cpp_codegen_cast_double_to_int<int32_t>(L_54);
 		V_2 = ((float)((int32_t)(L_55/((int32_t)100))));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:272>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:278>
 		V_3 = ((int32_t)(L_55%((int32_t)100)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:273>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:279>
 		float L_56 = V_2;
 		V_4 = ((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_56)%((int32_t)60)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:274>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:280>
 		float L_57 = V_2;
 		V_5 = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_57)/((int32_t)60)))%((int32_t)60)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:275>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:281>
 		float L_58 = V_2;
 		V_6 = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_58)/((int32_t)3600)))%((int32_t)24)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:278>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:284>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = V_0;
 		NullCheck(L_59);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_60;
@@ -16709,7 +16667,7 @@ IL_0010:
 		L_82 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral957FCA6CED63712694CFF237F639DC016C96C733, L_78, NULL);
 		NullCheck(L_64);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_64, L_82);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:279>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:285>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_83 = V_0;
 		NullCheck(L_83);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_84;
@@ -16730,7 +16688,7 @@ IL_0010:
 		L_89 = Double_ToString_m7499A5D792419537DCB9470A3675CEF5117DE339((&V_1), NULL);
 		NullCheck(L_88);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_88, L_89);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:280>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:286>
 		return;
 	}
 }
@@ -16744,7 +16702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_SetContentHeight_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:284>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:290>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___ScrollviewContent;
 		NullCheck(L_0);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1;
@@ -16780,7 +16738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardController_SetContentHeight_m
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_15), L_5, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_10, L_14)), (50.0f))), NULL);
 		NullCheck(L_1);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_1, L_15, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:285>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:291>
 		return;
 	}
 }
@@ -16837,7 +16795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CSignInAnonymouslyU3Eb__10_0_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:49>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:50>
 		RuntimeObject* L_0;
 		L_0 = AuthenticationService_get_Instance_m84EBB538A503492BD441FFB825CF257EE1365BD1(NULL);
 		NullCheck(L_0);
@@ -16847,7 +16805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CSignInAnonymouslyU3Eb__10_0_m
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralCD28036975D61C1D22B3400A3F2955C3C11641F4, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:50>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:51>
 		return;
 	}
 }
@@ -16861,11 +16819,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CSignInAnonymouslyU3Eb__10_1_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:54>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:55>
 		RequestFailedException_tBF4D4AF8AD31BEE32091AEBC120B629B052E2D00* L_0 = ___0_s;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_0, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:55>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:56>
 		return;
 	}
 }
@@ -16926,7 +16884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAddScoreU3Ed__12_MoveNext_mC747A1D51F
 			}
 		}
 		{
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:76>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:77>
 			RuntimeObject* L_4;
 			L_4 = AuthenticationService_get_Instance_m84EBB538A503492BD441FFB825CF257EE1365BD1(NULL);
 			NullCheck(L_4);
@@ -16938,7 +16896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAddScoreU3Ed__12_MoveNext_mC747A1D51F
 			}
 		}
 		{
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:78>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:79>
 			LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_6 = V_1;
 			NullCheck(L_6);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_7;
@@ -16984,7 +16942,7 @@ IL_0078_1:
 
 IL_007f_1:
 		{
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:81>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:82>
 			RuntimeObject* L_16;
 			L_16 = LeaderboardsService_get_Instance_m8E148E6029B8F7C87C3D05AE376F8EA4441774FD(NULL);
 			double L_17 = __this->___score;
@@ -17029,7 +16987,7 @@ IL_00df_1:
 		{
 			LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_27;
 			L_27 = TaskAwaiter_1_GetResult_mCC85AB9C228DE9115501712A57BADFB4F15AE383((&V_3), TaskAwaiter_1_GetResult_mCC85AB9C228DE9115501712A57BADFB4F15AE383_RuntimeMethod_var);
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:82>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:83>
 			il2cpp_codegen_runtime_class_init_inline(JsonConvert_t01281FFED14CC2AEFABB6608315D90ED5C46E0C2_il2cpp_TypeInfo_var);
 			String_t* L_28;
 			L_28 = JsonConvert_SerializeObject_m277670BD344964CB2A61751E5A3D62DB5B1321C7(L_27, NULL);
@@ -17061,7 +17019,7 @@ CATCH_00f2:
 
 IL_010b:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:83>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:84>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_31 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_31, NULL);
@@ -17110,10 +17068,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillLeaderboardListU3Ed__13_MoveNext_
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tDAEED765BEDEF571ACA8D3C9686034DDD5C2A15F_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_mF76582C5A8C414A82B64DBC1E515D1CDA9563478_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m95B8865548313F7B4BD23C8B68DD2A56C7C7E8D0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetPlayerRangeOptions_tD05CECBC3C3B8A3E097C849A6357B0670F39C13E_il2cpp_TypeInfo_var);
@@ -17125,6 +17085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillLeaderboardListU3Ed__13_MoveNext_
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147_il2cpp_TypeInfo_var);
@@ -17138,8 +17099,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillLeaderboardListU3Ed__13_MoveNext_
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_m175D7C1CBCE59B3C4CAAEB062D646887986F63CC_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_GetAwaiter_mC781A6E2C9C32CA48A1E3D1985A58390AE4F1387_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1168E92C164109D6220480DEDA987085B2A21155);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral44EE6C16B361AF984DE871897FDED43002CA0C67);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7507921CB4EC2D0DE9B1F05C28E9E9BC03792810);
 		s_Il2CppMethodInitialized = true;
@@ -17155,25 +17116,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillLeaderboardListU3Ed__13_MoveNext_
 	int32_t V_7 = 0;
 	LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* V_8 = NULL;
 	float V_9 = 0.0f;
-	TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E V_10;
-	memset((&V_10), 0, sizeof(V_10));
-	int32_t V_11 = 0;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* V_10 = NULL;
+	TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E V_11;
+	memset((&V_11), 0, sizeof(V_11));
 	int32_t V_12 = 0;
 	int32_t V_13 = 0;
 	int32_t V_14 = 0;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_15 = NULL;
-	LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* V_16 = NULL;
-	int32_t V_17 = 0;
-	LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* V_18 = NULL;
-	int32_t V_19 = 0;
-	TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25 V_20;
-	memset((&V_20), 0, sizeof(V_20));
+	int32_t V_15 = 0;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_16 = NULL;
+	LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* V_17 = NULL;
+	int32_t V_18 = 0;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* V_19 = NULL;
+	LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* V_20 = NULL;
 	int32_t V_21 = 0;
-	LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* V_22 = NULL;
-	float V_23 = 0.0f;
-	int32_t V_24 = 0;
-	Exception_t* V_25 = NULL;
-	Exception_t* V_26 = NULL;
+	TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25 V_22;
+	memset((&V_22), 0, sizeof(V_22));
+	int32_t V_23 = 0;
+	LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* V_24 = NULL;
+	float V_25 = 0.0f;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* V_26 = NULL;
+	int32_t V_27 = 0;
+	Exception_t* V_28 = NULL;
+	Exception_t* V_29 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 3> __active_exceptions;
 	Exception_t* G_B66_0 = NULL;
 	String_t* G_B66_1 = NULL;
@@ -17196,25 +17160,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillLeaderboardListU3Ed__13_MoveNext_
 			auto __finallyBlock = il2cpp::utils::Finally([&]
 			{
 
-FINALLY_0ad5_1:
+FINALLY_0aff_1:
 				{
 					{
 						int32_t L_3 = V_0;
 						if ((((int32_t)L_3) >= ((int32_t)0)))
 						{
-							goto IL_0ae4_1;
+							goto IL_0b0e_1;
 						}
 					}
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:249>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:255>
 						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_4 = V_1;
 						NullCheck(L_4);
 						LeaderboardController_SetContentHeight_m36EF8BD5863B7B0CA20FF7AF31B556458A491CD1(L_4, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:250>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:256>
 						Canvas_ForceUpdateCanvases_m6ECDBC5E85ADA3301BB20611753C45769F15EB51(NULL);
 					}
 
-IL_0ae4_1:
+IL_0b0e_1:
 					{
 						return;
 					}
@@ -17238,29 +17202,29 @@ IL_0ae4_1:
 							}
 							case 2:
 							{
-								goto IL_0406_3;
+								goto IL_0414_3;
 							}
 							case 3:
 							{
-								goto IL_058f_3;
+								goto IL_059d_3;
 							}
 							case 4:
 							{
-								goto IL_0899_3;
+								goto IL_08b5_3;
 							}
 						}
 					}
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:89>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:90>
 						il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 						bool L_6 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
 						if (!L_6)
 						{
-							goto IL_0ab0_3;
+							goto IL_0ada_3;
 						}
 					}
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:92>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:93>
 						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_7 = V_1;
 						NullCheck(L_7);
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = L_7->___RowParent;
@@ -17314,12 +17278,12 @@ IL_007d_3:
 
 IL_004a_4:
 							{
-								//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:92>
+								//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:93>
 								RuntimeObject* L_15 = V_2;
 								NullCheck(L_15);
 								RuntimeObject* L_16;
 								L_16 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_15);
-								//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:94>
+								//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:95>
 								NullCheck(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_16, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)));
 								GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
 								L_17 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_16, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), NULL);
@@ -17329,7 +17293,7 @@ IL_004a_4:
 
 IL_005f_4:
 							{
-								//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:92>
+								//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:93>
 								RuntimeObject* L_18 = V_2;
 								NullCheck(L_18);
 								bool L_19;
@@ -17351,19 +17315,19 @@ IL_005f_4:
 
 IL_007e_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:97>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:98>
 						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_20 = V_1;
 						NullCheck(L_20);
 						L_20->___LastRowIndex = 0;
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:98>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:99>
 						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_21 = V_1;
 						NullCheck(L_21);
 						L_21->___nextPosY = (0.0f);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:99>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:100>
 						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_22 = V_1;
 						NullCheck(L_22);
 						L_22->___rowGroupSpacing = (0.0f);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:101>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:102>
 						__this->___U3CscoreResponseU3E5__2 = (LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366*)NULL;
 						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CscoreResponseU3E5__2), (void*)(LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366*)NULL);
 					}
@@ -17381,7 +17345,7 @@ IL_00a2_3:
 							}
 						}
 						{
-							//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:106>
+							//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:107>
 							RuntimeObject* L_24;
 							L_24 = LeaderboardsService_get_Instance_m8E148E6029B8F7C87C3D05AE376F8EA4441774FD(NULL);
 							NullCheck(L_24);
@@ -17407,7 +17371,7 @@ IL_00a2_3:
 							Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1))->___m_task), (void*)NULL);
 							AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_30 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 							AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tDAEED765BEDEF571ACA8D3C9686034DDD5C2A15F_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_mF76582C5A8C414A82B64DBC1E515D1CDA9563478(L_30, (&V_5), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tDAEED765BEDEF571ACA8D3C9686034DDD5C2A15F_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_mF76582C5A8C414A82B64DBC1E515D1CDA9563478_RuntimeMethod_var);
-							goto IL_0b13;
+							goto IL_0b3d;
 						}
 
 IL_00e9_4:
@@ -17429,7 +17393,7 @@ IL_0106_4:
 							LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_35 = V_4;
 							__this->___U3CscoreResponseU3E5__2 = L_35;
 							Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CscoreResponseU3E5__2), (void*)L_35);
-							//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:107>
+							//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:108>
 							goto IL_011c_3;
 						}
 					}
@@ -17445,31 +17409,31 @@ IL_0106_4:
 
 CATCH_0119_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:108>
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:111>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:109>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:112>
 						IL2CPP_POP_ACTIVE_EXCEPTION();
 						goto IL_011c_3;
 					}
 
 IL_011c_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:115>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:116>
 						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_36 = __this->___U3CscoreResponseU3E5__2;
 						if (L_36)
 						{
-							goto IL_0366_3;
+							goto IL_0374_3;
 						}
 					}
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:118>
-						__this->___U3CLimitU3E5__3 = ((int32_t)30);
 						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:119>
-						V_6 = 0;
+						__this->___U3CLimitU3E5__3 = ((int32_t)30);
 						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:120>
+						V_6 = 0;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:121>
 						int32_t L_37 = __this->___U3CLimitU3E5__3;
 						int32_t L_38 = V_6;
 						V_7 = ((int32_t)il2cpp_codegen_multiply(L_37, L_38));
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:122>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:123>
 						RuntimeObject* L_39;
 						L_39 = LeaderboardsService_get_Instance_m8E148E6029B8F7C87C3D05AE376F8EA4441774FD(NULL);
 						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_40 = (GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609*)il2cpp_codegen_object_new(GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609_il2cpp_TypeInfo_var);
@@ -17494,9 +17458,9 @@ IL_011c_3:
 						NullCheck(L_47);
 						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_48;
 						L_48 = Task_1_GetAwaiter_m175D7C1CBCE59B3C4CAAEB062D646887986F63CC(L_47, Task_1_GetAwaiter_m175D7C1CBCE59B3C4CAAEB062D646887986F63CC_RuntimeMethod_var);
-						V_10 = L_48;
+						V_11 = L_48;
 						bool L_49;
-						L_49 = TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B((&V_10), TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B_RuntimeMethod_var);
+						L_49 = TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B((&V_11), TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B_RuntimeMethod_var);
 						if (L_49)
 						{
 							goto IL_01c0_3;
@@ -17506,18 +17470,18 @@ IL_011c_3:
 						int32_t L_50 = 1;
 						V_0 = L_50;
 						__this->___U3CU3E1__state = L_50;
-						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_51 = V_10;
+						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_51 = V_11;
 						__this->___U3CU3Eu__2 = L_51;
 						Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__2))->___m_task), (void*)NULL);
 						AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_52 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
-						AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36(L_52, (&V_10), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36_RuntimeMethod_var);
-						goto IL_0b13;
+						AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36(L_52, (&V_11), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36_RuntimeMethod_var);
+						goto IL_0b3d;
 					}
 
 IL_01a3_3:
 					{
 						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_53 = __this->___U3CU3Eu__2;
-						V_10 = L_53;
+						V_11 = L_53;
 						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E* L_54 = (TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E*)(&__this->___U3CU3Eu__2);
 						il2cpp_codegen_initobj(L_54, sizeof(TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E));
 						int32_t L_55 = (-1);
@@ -17528,23 +17492,23 @@ IL_01a3_3:
 IL_01c0_3:
 					{
 						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_56;
-						L_56 = TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B((&V_10), TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B_RuntimeMethod_var);
+						L_56 = TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B((&V_11), TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B_RuntimeMethod_var);
 						V_8 = L_56;
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:124>
-						V_11 = 0;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:125>
+						V_12 = 0;
 						goto IL_0203_3;
 					}
 
 IL_01ce_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:126>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:127>
 						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_57 = V_1;
-						int32_t L_58 = V_11;
+						int32_t L_58 = V_12;
 						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_59 = V_8;
 						NullCheck(L_59);
 						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_60;
 						L_60 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_59, NULL);
-						int32_t L_61 = V_11;
+						int32_t L_61 = V_12;
 						NullCheck(L_60);
 						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_62;
 						L_62 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_60, L_61, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
@@ -17553,15 +17517,15 @@ IL_01ce_3:
 						Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_63), (0.0352941193f), (0.717647076f), (1.0f), (0.0f), NULL);
 						NullCheck(L_57);
 						LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9(L_57, L_58, L_62, L_63, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:124>
-						int32_t L_64 = V_11;
-						V_11 = ((int32_t)il2cpp_codegen_add(L_64, 1));
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:125>
+						int32_t L_64 = V_12;
+						V_12 = ((int32_t)il2cpp_codegen_add(L_64, 1));
 					}
 
 IL_0203_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:124>
-						int32_t L_65 = V_11;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:125>
+						int32_t L_65 = V_12;
 						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_66 = V_8;
 						NullCheck(L_66);
 						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_67;
@@ -17575,9 +17539,9 @@ IL_0203_3:
 						}
 					}
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:129>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:130>
 						V_9 = (0.0f);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:131>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:132>
 						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_69 = V_8;
 						NullCheck(L_69);
 						int32_t L_70;
@@ -17589,7 +17553,7 @@ IL_0203_3:
 						}
 					}
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:133>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:134>
 						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_72 = V_1;
 						NullCheck(L_72);
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_73 = L_72->___TemplateBrace;
@@ -17602,11 +17566,11 @@ IL_0203_3:
 						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_77;
 						L_77 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_73, L_76, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:134>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:135>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_78 = L_77;
 						NullCheck(L_78);
 						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_78, (bool)1, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:135>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:136>
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_79 = L_78;
 						NullCheck(L_79);
 						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_80;
@@ -17639,7 +17603,7 @@ IL_0203_3:
 						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_93), (0.0f), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_83, (-1)))), ((float)il2cpp_codegen_add(L_88, ((float)L_90))))), ((float)L_92))), NULL);
 						NullCheck(L_80);
 						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_80, L_93, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:136>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:137>
 						NullCheck(L_79);
 						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_94;
 						L_94 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_79, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
@@ -17655,999 +17619,1026 @@ IL_0203_3:
 
 IL_02ac_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:140>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:141>
 						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_99 = V_1;
 						NullCheck(L_99);
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_100 = L_99->___TotalRecordText;
 						NullCheck(L_100);
 						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_100, (bool)1, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:141>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_101 = V_1;
-						NullCheck(L_101);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_102 = L_101->___TotalRecordText;
-						NullCheck(L_102);
-						TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_103;
-						L_103 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_102, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
-						LocalizedStringDatabase_tACE9FD9021269D20788D130D96F7B2244DD67406* L_104;
-						L_104 = LocalizationSettings_get_StringDatabase_m8CF0CEF6CDD79DD76D575C0E0D7BF093EF57306A(NULL);
-						il2cpp_codegen_runtime_class_init_inline(TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147_il2cpp_TypeInfo_var);
-						TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147 L_105;
-						L_105 = TableReference_op_Implicit_mDF9424E08672E3C6647FA41BADD7616BB6126846(_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21, NULL);
-						TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224 L_106;
-						L_106 = TableEntryReference_op_Implicit_mCBC6786CFB287012A2B80FDAC1EC06C83465A249(_stringLiteral44EE6C16B361AF984DE871897FDED43002CA0C67, NULL);
-						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_107;
-						L_107 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-						NullCheck(L_104);
-						String_t* L_108;
-						L_108 = VirtualFuncInvoker5< String_t*, TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147, TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224, Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*, int32_t, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(20, L_104, L_105, L_106, (Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*)NULL, 0, L_107);
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_109 = V_8;
-						NullCheck(L_109);
-						int32_t L_110;
-						L_110 = LeaderboardScoresPage_get_Total_m29A996096A141E0290A6DD91035A5B68EABA320D_inline(L_109, NULL);
-						V_12 = L_110;
-						String_t* L_111;
-						L_111 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_12), NULL);
-						String_t* L_112;
-						L_112 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_108, _stringLiteral1168E92C164109D6220480DEDA987085B2A21155, L_111, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:143>
+						Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_101 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+						Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_101, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+						Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_102 = L_101;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_103 = V_8;
 						NullCheck(L_103);
-						VirtualActionInvoker1< String_t* >::Invoke(66, L_103, L_112);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:142>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_113 = V_1;
+						int32_t L_104;
+						L_104 = LeaderboardScoresPage_get_Total_m29A996096A141E0290A6DD91035A5B68EABA320D_inline(L_103, NULL);
+						V_13 = L_104;
+						String_t* L_105;
+						L_105 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_13), NULL);
+						NullCheck(L_102);
+						Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13(L_102, _stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8, L_105, Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13_RuntimeMethod_var);
+						V_10 = L_102;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:144>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_106 = V_1;
+						NullCheck(L_106);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_107 = L_106->___TotalRecordText;
+						NullCheck(L_107);
+						TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_108;
+						L_108 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_107, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+						LocalizedStringDatabase_tACE9FD9021269D20788D130D96F7B2244DD67406* L_109;
+						L_109 = LocalizationSettings_get_StringDatabase_m8CF0CEF6CDD79DD76D575C0E0D7BF093EF57306A(NULL);
+						il2cpp_codegen_runtime_class_init_inline(TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147_il2cpp_TypeInfo_var);
+						TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147 L_110;
+						L_110 = TableReference_op_Implicit_mDF9424E08672E3C6647FA41BADD7616BB6126846(_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21, NULL);
+						TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224 L_111;
+						L_111 = TableEntryReference_op_Implicit_mCBC6786CFB287012A2B80FDAC1EC06C83465A249(_stringLiteral44EE6C16B361AF984DE871897FDED43002CA0C67, NULL);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_112 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_113 = L_112;
+						Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_114 = V_10;
 						NullCheck(L_113);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_114 = L_113->___TotalRecordText;
-						NullCheck(L_114);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_115;
-						L_115 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_114, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						ArrayElementTypeCheck (L_113, L_114);
+						(L_113)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_114);
+						NullCheck(L_109);
+						String_t* L_115;
+						L_115 = VirtualFuncInvoker5< String_t*, TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147, TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224, RuntimeObject*, Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*, int32_t >::Invoke(23, L_109, L_110, L_111, (RuntimeObject*)L_113, (Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*)NULL, 0);
+						NullCheck(L_108);
+						VirtualActionInvoker1< String_t* >::Invoke(66, L_108, L_115);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:146>
 						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_116 = V_1;
 						NullCheck(L_116);
 						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_117 = L_116->___TotalRecordText;
 						NullCheck(L_117);
 						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_118;
 						L_118 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_117, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_118);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_119;
-						L_119 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_118, NULL);
-						float L_120 = L_119.___x;
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_121 = V_8;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_119 = V_1;
+						NullCheck(L_119);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_120 = L_119->___TotalRecordText;
+						NullCheck(L_120);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_121;
+						L_121 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_120, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 						NullCheck(L_121);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_122;
-						L_122 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_121, NULL);
-						NullCheck(L_122);
-						int32_t L_123;
-						L_123 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_122, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_124 = V_1;
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_122;
+						L_122 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_121, NULL);
+						float L_123 = L_122.___x;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_124 = V_8;
 						NullCheck(L_124);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_125 = L_124->___TemplateRow;
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_125;
+						L_125 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_124, NULL);
 						NullCheck(L_125);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_126;
-						L_126 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_125, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_126);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_127;
-						L_127 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_126, NULL);
-						float L_128 = L_127.___y;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_129 = V_1;
+						int32_t L_126;
+						L_126 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_125, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_127 = V_1;
+						NullCheck(L_127);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_128 = L_127->___TemplateRow;
+						NullCheck(L_128);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_129;
+						L_129 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_128, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 						NullCheck(L_129);
-						int32_t L_130 = L_129->___LineSpacing;
-						float L_131 = V_9;
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_132;
-						memset((&L_132), 0, sizeof(L_132));
-						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_132), L_120, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_123, (-1)))), ((float)il2cpp_codegen_add(L_128, ((float)L_130))))), L_131)), NULL);
-						NullCheck(L_115);
-						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_115, L_132, NULL);
-						goto IL_0aa9_3;
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_130;
+						L_130 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_129, NULL);
+						float L_131 = L_130.___y;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_132 = V_1;
+						NullCheck(L_132);
+						int32_t L_133 = L_132->___LineSpacing;
+						float L_134 = V_9;
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_135;
+						memset((&L_135), 0, sizeof(L_135));
+						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_135), L_123, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_126, (-1)))), ((float)il2cpp_codegen_add(L_131, ((float)L_133))))), L_134)), NULL);
+						NullCheck(L_118);
+						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_118, L_135, NULL);
+						goto IL_0ad3_3;
 					}
 
-IL_0366_3:
+IL_0374_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:146>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:150>
 						__this->___U3CLimitU3E5__3 = ((int32_t)10);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:147>
-						V_13 = 0;
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:148>
-						int32_t L_133 = __this->___U3CLimitU3E5__3;
-						int32_t L_134 = V_13;
-						V_14 = ((int32_t)il2cpp_codegen_multiply(L_133, L_134));
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:149>
-						__this->___U3CrangeLimitU3E5__4 = 5;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:151>
+						V_14 = 0;
 						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:152>
-						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_135 = __this->___U3CscoreResponseU3E5__2;
-						NullCheck(L_135);
-						int32_t L_136;
-						L_136 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_135, NULL);
-						int32_t L_137 = __this->___U3CLimitU3E5__3;
-						int32_t L_138 = __this->___U3CrangeLimitU3E5__4;
-						if ((((int32_t)L_136) < ((int32_t)((int32_t)il2cpp_codegen_add(L_137, L_138)))))
+						int32_t L_136 = __this->___U3CLimitU3E5__3;
+						int32_t L_137 = V_14;
+						V_15 = ((int32_t)il2cpp_codegen_multiply(L_136, L_137));
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:153>
+						__this->___U3CrangeLimitU3E5__4 = 5;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:156>
+						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_138 = __this->___U3CscoreResponseU3E5__2;
+						NullCheck(L_138);
+						int32_t L_139;
+						L_139 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_138, NULL);
+						int32_t L_140 = __this->___U3CLimitU3E5__3;
+						int32_t L_141 = __this->___U3CrangeLimitU3E5__4;
+						if ((((int32_t)L_139) < ((int32_t)((int32_t)il2cpp_codegen_add(L_140, L_141)))))
 						{
-							goto IL_081d_3;
+							goto IL_0839_3;
 						}
 					}
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:154>
-						RuntimeObject* L_139;
-						L_139 = LeaderboardsService_get_Instance_m8E148E6029B8F7C87C3D05AE376F8EA4441774FD(NULL);
-						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_140 = (GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609*)il2cpp_codegen_object_new(GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609_il2cpp_TypeInfo_var);
-						GetScoresOptions__ctor_mB9966489E888AF819E6597D3E24E55D65141B35A(L_140, NULL);
-						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_141 = L_140;
-						int32_t L_142 = V_14;
-						Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_143;
-						memset((&L_143), 0, sizeof(L_143));
-						Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_143), L_142, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
-						NullCheck(L_141);
-						PaginationOptions_set_Offset_m542497831443827DB169F88338013F26B7DF5F88_inline(L_141, L_143, NULL);
-						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_144 = L_141;
-						int32_t L_145 = __this->___U3CLimitU3E5__3;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:158>
+						RuntimeObject* L_142;
+						L_142 = LeaderboardsService_get_Instance_m8E148E6029B8F7C87C3D05AE376F8EA4441774FD(NULL);
+						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_143 = (GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609*)il2cpp_codegen_object_new(GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609_il2cpp_TypeInfo_var);
+						GetScoresOptions__ctor_mB9966489E888AF819E6597D3E24E55D65141B35A(L_143, NULL);
+						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_144 = L_143;
+						int32_t L_145 = V_15;
 						Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_146;
 						memset((&L_146), 0, sizeof(L_146));
 						Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_146), L_145, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
 						NullCheck(L_144);
-						PaginationOptions_set_Limit_mA690957A3222817569596E1EB80108DEB3F16B86_inline(L_144, L_146, NULL);
-						NullCheck(L_139);
-						Task_1_t11B88CBF9DF6E72DB4964D9A82AA5CF47C9A84D0* L_147;
-						L_147 = InterfaceFuncInvoker2< Task_1_t11B88CBF9DF6E72DB4964D9A82AA5CF47C9A84D0*, String_t*, GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* >::Invoke(3, ILeaderboardsService_t5A529616BC966CE7E8F1F73643679B52CB68723E_il2cpp_TypeInfo_var, L_139, _stringLiteral7507921CB4EC2D0DE9B1F05C28E9E9BC03792810, L_144);
+						PaginationOptions_set_Offset_m542497831443827DB169F88338013F26B7DF5F88_inline(L_144, L_146, NULL);
+						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_147 = L_144;
+						int32_t L_148 = __this->___U3CLimitU3E5__3;
+						Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_149;
+						memset((&L_149), 0, sizeof(L_149));
+						Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_149), L_148, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
 						NullCheck(L_147);
-						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_148;
-						L_148 = Task_1_GetAwaiter_m175D7C1CBCE59B3C4CAAEB062D646887986F63CC(L_147, Task_1_GetAwaiter_m175D7C1CBCE59B3C4CAAEB062D646887986F63CC_RuntimeMethod_var);
-						V_10 = L_148;
-						bool L_149;
-						L_149 = TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B((&V_10), TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B_RuntimeMethod_var);
-						if (L_149)
+						PaginationOptions_set_Limit_mA690957A3222817569596E1EB80108DEB3F16B86_inline(L_147, L_149, NULL);
+						NullCheck(L_142);
+						Task_1_t11B88CBF9DF6E72DB4964D9A82AA5CF47C9A84D0* L_150;
+						L_150 = InterfaceFuncInvoker2< Task_1_t11B88CBF9DF6E72DB4964D9A82AA5CF47C9A84D0*, String_t*, GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* >::Invoke(3, ILeaderboardsService_t5A529616BC966CE7E8F1F73643679B52CB68723E_il2cpp_TypeInfo_var, L_142, _stringLiteral7507921CB4EC2D0DE9B1F05C28E9E9BC03792810, L_147);
+						NullCheck(L_150);
+						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_151;
+						L_151 = Task_1_GetAwaiter_m175D7C1CBCE59B3C4CAAEB062D646887986F63CC(L_150, Task_1_GetAwaiter_m175D7C1CBCE59B3C4CAAEB062D646887986F63CC_RuntimeMethod_var);
+						V_11 = L_151;
+						bool L_152;
+						L_152 = TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B((&V_11), TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B_RuntimeMethod_var);
+						if (L_152)
 						{
-							goto IL_0423_3;
+							goto IL_0431_3;
 						}
 					}
 					{
-						int32_t L_150 = 2;
-						V_0 = L_150;
-						__this->___U3CU3E1__state = L_150;
-						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_151 = V_10;
-						__this->___U3CU3Eu__2 = L_151;
+						int32_t L_153 = 2;
+						V_0 = L_153;
+						__this->___U3CU3E1__state = L_153;
+						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_154 = V_11;
+						__this->___U3CU3Eu__2 = L_154;
 						Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__2))->___m_task), (void*)NULL);
-						AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_152 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
-						AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36(L_152, (&V_10), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36_RuntimeMethod_var);
-						goto IL_0b13;
+						AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_155 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
+						AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36(L_155, (&V_11), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36_RuntimeMethod_var);
+						goto IL_0b3d;
 					}
 
-IL_0406_3:
+IL_0414_3:
 					{
-						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_153 = __this->___U3CU3Eu__2;
-						V_10 = L_153;
-						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E* L_154 = (TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E*)(&__this->___U3CU3Eu__2);
-						il2cpp_codegen_initobj(L_154, sizeof(TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E));
-						int32_t L_155 = (-1);
-						V_0 = L_155;
-						__this->___U3CU3E1__state = L_155;
+						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_156 = __this->___U3CU3Eu__2;
+						V_11 = L_156;
+						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E* L_157 = (TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E*)(&__this->___U3CU3Eu__2);
+						il2cpp_codegen_initobj(L_157, sizeof(TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E));
+						int32_t L_158 = (-1);
+						V_0 = L_158;
+						__this->___U3CU3E1__state = L_158;
 					}
 
-IL_0423_3:
+IL_0431_3:
 					{
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_156;
-						L_156 = TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B((&V_10), TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B_RuntimeMethod_var);
-						V_18 = L_156;
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_157 = V_18;
-						__this->___U3CtopScoresU3E5__5 = L_157;
-						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtopScoresU3E5__5), (void*)L_157);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:157>
-						V_19 = 0;
-						goto IL_0472_3;
-					}
-
-IL_0439_3:
-					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:159>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_158 = V_1;
-						int32_t L_159 = V_19;
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_160 = __this->___U3CtopScoresU3E5__5;
-						NullCheck(L_160);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_161;
-						L_161 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_160, NULL);
-						int32_t L_162 = V_19;
-						NullCheck(L_161);
-						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_163;
-						L_163 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_161, L_162, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
-						Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_164;
-						memset((&L_164), 0, sizeof(L_164));
-						Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_164), (0.0352941193f), (0.717647076f), (1.0f), (0.0f), NULL);
-						NullCheck(L_158);
-						LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9(L_158, L_159, L_163, L_164, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:157>
-						int32_t L_165 = V_19;
-						V_19 = ((int32_t)il2cpp_codegen_add(L_165, 1));
-					}
-
-IL_0472_3:
-					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:157>
-						int32_t L_166 = V_19;
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_167 = __this->___U3CtopScoresU3E5__5;
-						NullCheck(L_167);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_168;
-						L_168 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_167, NULL);
-						NullCheck(L_168);
-						int32_t L_169;
-						L_169 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_168, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
-						if ((((int32_t)L_166) < ((int32_t)L_169)))
-						{
-							goto IL_0439_3;
-						}
-					}
-					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:162>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_170 = V_1;
-						NullCheck(L_170);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_171 = L_170->___TemplateBrace;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_172 = V_1;
-						NullCheck(L_172);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_173 = L_172->___RowParent;
-						NullCheck(L_173);
-						Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_174;
-						L_174 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_173, NULL);
-						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_175;
-						L_175 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_171, L_174, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-						V_15 = L_175;
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:163>
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_176 = V_15;
-						NullCheck(L_176);
-						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_176, (bool)1, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:164>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_177 = V_1;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_178 = V_1;
-						NullCheck(L_178);
-						int32_t L_179 = L_178->___LastRowIndex;
-						NullCheck(L_177);
-						L_177->___LastRowIndex = ((int32_t)il2cpp_codegen_add(L_179, 1));
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:165>
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_180 = V_15;
-						NullCheck(L_180);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_181;
-						L_181 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_180, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_182 = V_1;
-						NullCheck(L_182);
-						int32_t L_183 = L_182->___LastRowIndex;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_184 = V_1;
-						NullCheck(L_184);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_185 = L_184->___TemplateRow;
-						NullCheck(L_185);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_186;
-						L_186 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_185, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_186);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_187;
-						L_187 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_186, NULL);
-						float L_188 = L_187.___y;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_189 = V_1;
-						NullCheck(L_189);
-						int32_t L_190 = L_189->___LineSpacing;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_191 = V_1;
-						NullCheck(L_191);
-						int32_t L_192 = L_191->___LineSpacing;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_193 = V_1;
-						NullCheck(L_193);
-						float L_194 = L_193->___rowGroupSpacing;
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_195;
-						memset((&L_195), 0, sizeof(L_195));
-						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_195), (0.0f), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_183, (-1)))), ((float)il2cpp_codegen_add(L_188, ((float)L_190))))), ((float)L_192))), L_194)), NULL);
-						NullCheck(L_181);
-						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_181, L_195, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:166>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_196 = V_1;
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_197 = V_15;
-						NullCheck(L_197);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_198;
-						L_198 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_197, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_198);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_199;
-						L_199 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_198, NULL);
-						float L_200 = L_199.___y;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_201 = V_1;
-						NullCheck(L_201);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_202 = L_201->___TemplateRow;
-						NullCheck(L_202);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_203;
-						L_203 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_202, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_203);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_204;
-						L_204 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_203, NULL);
-						float L_205 = L_204.___y;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_206 = V_1;
-						NullCheck(L_206);
-						int32_t L_207 = L_206->___LineSpacing;
-						NullCheck(L_196);
-						L_196->___rowGroupSpacing = ((-((float)il2cpp_codegen_subtract(L_200, ((float)il2cpp_codegen_add(L_205, ((float)L_207)))))));
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:169>
-						RuntimeObject* L_208;
-						L_208 = LeaderboardsService_get_Instance_m8E148E6029B8F7C87C3D05AE376F8EA4441774FD(NULL);
-						GetPlayerRangeOptions_tD05CECBC3C3B8A3E097C849A6357B0670F39C13E* L_209 = (GetPlayerRangeOptions_tD05CECBC3C3B8A3E097C849A6357B0670F39C13E*)il2cpp_codegen_object_new(GetPlayerRangeOptions_tD05CECBC3C3B8A3E097C849A6357B0670F39C13E_il2cpp_TypeInfo_var);
-						GetPlayerRangeOptions__ctor_m9ADA077A53368BCDB2478C36E407ABE4FCDC06B6(L_209, NULL);
-						GetPlayerRangeOptions_tD05CECBC3C3B8A3E097C849A6357B0670F39C13E* L_210 = L_209;
-						int32_t L_211 = __this->___U3CrangeLimitU3E5__4;
-						Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_212;
-						memset((&L_212), 0, sizeof(L_212));
-						Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_212), L_211, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
-						NullCheck(L_210);
-						RangeOptions_set_RangeLimit_m37BC9E52A4674AD25D3FD1FCCE6D8E8AC1D3393C_inline(L_210, L_212, NULL);
-						NullCheck(L_208);
-						Task_1_t134B30F5BDD7031020A4CD7E877ADBCECFACF568* L_213;
-						L_213 = InterfaceFuncInvoker2< Task_1_t134B30F5BDD7031020A4CD7E877ADBCECFACF568*, String_t*, GetPlayerRangeOptions_tD05CECBC3C3B8A3E097C849A6357B0670F39C13E* >::Invoke(1, ILeaderboardsService_t5A529616BC966CE7E8F1F73643679B52CB68723E_il2cpp_TypeInfo_var, L_208, _stringLiteral7507921CB4EC2D0DE9B1F05C28E9E9BC03792810, L_210);
-						NullCheck(L_213);
-						TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25 L_214;
-						L_214 = Task_1_GetAwaiter_mC781A6E2C9C32CA48A1E3D1985A58390AE4F1387(L_213, Task_1_GetAwaiter_mC781A6E2C9C32CA48A1E3D1985A58390AE4F1387_RuntimeMethod_var);
-						V_20 = L_214;
-						bool L_215;
-						L_215 = TaskAwaiter_1_get_IsCompleted_m39340A2C3302F75081D191D8ED4A9923ED601869((&V_20), TaskAwaiter_1_get_IsCompleted_m39340A2C3302F75081D191D8ED4A9923ED601869_RuntimeMethod_var);
-						if (L_215)
-						{
-							goto IL_05ac_3;
-						}
-					}
-					{
-						int32_t L_216 = 3;
-						V_0 = L_216;
-						__this->___U3CU3E1__state = L_216;
-						TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25 L_217 = V_20;
-						__this->___U3CU3Eu__3 = L_217;
-						Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__3))->___m_task), (void*)NULL);
-						AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_218 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
-						AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m95B8865548313F7B4BD23C8B68DD2A56C7C7E8D0(L_218, (&V_20), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m95B8865548313F7B4BD23C8B68DD2A56C7C7E8D0_RuntimeMethod_var);
-						goto IL_0b13;
-					}
-
-IL_058f_3:
-					{
-						TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25 L_219 = __this->___U3CU3Eu__3;
-						V_20 = L_219;
-						TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25* L_220 = (TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25*)(&__this->___U3CU3Eu__3);
-						il2cpp_codegen_initobj(L_220, sizeof(TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25));
-						int32_t L_221 = (-1);
-						V_0 = L_221;
-						__this->___U3CU3E1__state = L_221;
-					}
-
-IL_05ac_3:
-					{
-						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_222;
-						L_222 = TaskAwaiter_1_GetResult_mBC6672BF3C66CFDF603F5B3C4630247249E49EF0((&V_20), TaskAwaiter_1_GetResult_mBC6672BF3C66CFDF603F5B3C4630247249E49EF0_RuntimeMethod_var);
-						V_16 = L_222;
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:171>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_223 = V_1;
-						NullCheck(L_223);
-						int32_t L_224 = L_223->___LastRowIndex;
-						V_17 = ((int32_t)il2cpp_codegen_add(L_224, 1));
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:172>
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_159;
+						L_159 = TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B((&V_11), TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B_RuntimeMethod_var);
+						V_20 = L_159;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_160 = V_20;
+						__this->___U3CtopScoresU3E5__5 = L_160;
+						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtopScoresU3E5__5), (void*)L_160);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:161>
 						V_21 = 0;
-						goto IL_064e_3;
+						goto IL_0480_3;
 					}
 
-IL_05c7_3:
+IL_0447_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:174>
-						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_225 = __this->___U3CscoreResponseU3E5__2;
-						NullCheck(L_225);
-						int32_t L_226;
-						L_226 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_225, NULL);
-						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_227 = V_16;
-						NullCheck(L_227);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_228;
-						L_228 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_227, NULL);
-						int32_t L_229 = V_21;
-						NullCheck(L_228);
-						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_230;
-						L_230 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_228, L_229, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
-						NullCheck(L_230);
-						int32_t L_231;
-						L_231 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_230, NULL);
-						if ((!(((uint32_t)L_226) == ((uint32_t)L_231))))
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:163>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_161 = V_1;
+						int32_t L_162 = V_21;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_163 = __this->___U3CtopScoresU3E5__5;
+						NullCheck(L_163);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_164;
+						L_164 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_163, NULL);
+						int32_t L_165 = V_21;
+						NullCheck(L_164);
+						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_166;
+						L_166 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_164, L_165, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
+						Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_167;
+						memset((&L_167), 0, sizeof(L_167));
+						Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_167), (0.0352941193f), (0.717647076f), (1.0f), (0.0f), NULL);
+						NullCheck(L_161);
+						LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9(L_161, L_162, L_166, L_167, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:161>
+						int32_t L_168 = V_21;
+						V_21 = ((int32_t)il2cpp_codegen_add(L_168, 1));
+					}
+
+IL_0480_3:
+					{
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:161>
+						int32_t L_169 = V_21;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_170 = __this->___U3CtopScoresU3E5__5;
+						NullCheck(L_170);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_171;
+						L_171 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_170, NULL);
+						NullCheck(L_171);
+						int32_t L_172;
+						L_172 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_171, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
+						if ((((int32_t)L_169) < ((int32_t)L_172)))
 						{
-							goto IL_0616_3;
+							goto IL_0447_3;
 						}
 					}
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:177>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_232 = V_1;
-						int32_t L_233 = V_17;
-						int32_t L_234 = V_21;
-						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_235 = V_16;
-						NullCheck(L_235);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_236;
-						L_236 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_235, NULL);
-						int32_t L_237 = V_21;
-						NullCheck(L_236);
-						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_238;
-						L_238 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_236, L_237, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
-						Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_239;
-						memset((&L_239), 0, sizeof(L_239));
-						Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_239), (0.325490206f), (0.623529434f), (0.356862754f), NULL);
-						NullCheck(L_232);
-						LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9(L_232, ((int32_t)il2cpp_codegen_add(L_233, L_234)), L_238, L_239, NULL);
-						goto IL_0648_3;
-					}
-
-IL_0616_3:
-					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:182>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_240 = V_1;
-						int32_t L_241 = V_17;
-						int32_t L_242 = V_21;
-						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_243 = V_16;
-						NullCheck(L_243);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_244;
-						L_244 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_243, NULL);
-						int32_t L_245 = V_21;
-						NullCheck(L_244);
-						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_246;
-						L_246 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_244, L_245, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
-						Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_247;
-						memset((&L_247), 0, sizeof(L_247));
-						Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_247), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
-						NullCheck(L_240);
-						LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9(L_240, ((int32_t)il2cpp_codegen_add(L_241, L_242)), L_246, L_247, NULL);
-					}
-
-IL_0648_3:
-					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:172>
-						int32_t L_248 = V_21;
-						V_21 = ((int32_t)il2cpp_codegen_add(L_248, 1));
-					}
-
-IL_064e_3:
-					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:172>
-						int32_t L_249 = V_21;
-						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_250 = V_16;
-						NullCheck(L_250);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_251;
-						L_251 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_250, NULL);
-						NullCheck(L_251);
-						int32_t L_252;
-						L_252 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_251, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
-						if ((((int32_t)L_249) < ((int32_t)L_252)))
-						{
-							goto IL_05c7_3;
-						}
-					}
-					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:187>
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_253 = __this->___U3CtopScoresU3E5__5;
-						NullCheck(L_253);
-						int32_t L_254;
-						L_254 = LeaderboardScoresPage_get_Total_m29A996096A141E0290A6DD91035A5B68EABA320D_inline(L_253, NULL);
-						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_255 = V_16;
-						NullCheck(L_255);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_256;
-						L_256 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_255, NULL);
-						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_257 = V_16;
-						NullCheck(L_257);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_258;
-						L_258 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_257, NULL);
-						NullCheck(L_258);
-						int32_t L_259;
-						L_259 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_258, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
-						NullCheck(L_256);
-						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_260;
-						L_260 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_256, ((int32_t)il2cpp_codegen_subtract(L_259, 1)), List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
-						NullCheck(L_260);
-						int32_t L_261;
-						L_261 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_260, NULL);
-						if ((((int32_t)L_254) <= ((int32_t)((int32_t)il2cpp_codegen_add(L_261, 1)))))
-						{
-							goto IL_0749_3;
-						}
-					}
-					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:190>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_262 = V_1;
-						NullCheck(L_262);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_263 = L_262->___TemplateBrace;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_264 = V_1;
-						NullCheck(L_264);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_265 = L_264->___RowParent;
-						NullCheck(L_265);
-						Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_266;
-						L_266 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_265, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:166>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_173 = V_1;
+						NullCheck(L_173);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_174 = L_173->___TemplateBrace;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_175 = V_1;
+						NullCheck(L_175);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_176 = L_175->___RowParent;
+						NullCheck(L_176);
+						Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_177;
+						L_177 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_176, NULL);
 						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_267;
-						L_267 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_263, L_266, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-						V_15 = L_267;
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:191>
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_268 = V_15;
-						NullCheck(L_268);
-						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_268, (bool)1, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:192>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_269 = V_1;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_270 = V_1;
-						NullCheck(L_270);
-						int32_t L_271 = L_270->___LastRowIndex;
-						NullCheck(L_269);
-						L_269->___LastRowIndex = ((int32_t)il2cpp_codegen_add(L_271, 1));
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:193>
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_272 = V_15;
-						NullCheck(L_272);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_273;
-						L_273 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_272, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_274 = V_1;
-						NullCheck(L_274);
-						int32_t L_275 = L_274->___LastRowIndex;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_276 = V_1;
-						NullCheck(L_276);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_277 = L_276->___TemplateRow;
-						NullCheck(L_277);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_278;
-						L_278 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_277, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_278);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_279;
-						L_279 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_278, NULL);
-						float L_280 = L_279.___y;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_281 = V_1;
-						NullCheck(L_281);
-						int32_t L_282 = L_281->___LineSpacing;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_283 = V_1;
-						NullCheck(L_283);
-						int32_t L_284 = L_283->___LineSpacing;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_285 = V_1;
-						NullCheck(L_285);
-						float L_286 = L_285->___rowGroupSpacing;
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_287;
-						memset((&L_287), 0, sizeof(L_287));
-						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_287), (0.0f), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_275, (-1)))), ((float)il2cpp_codegen_add(L_280, ((float)L_282))))), ((float)L_284))), L_286)), NULL);
-						NullCheck(L_273);
-						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_273, L_287, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:194>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_288 = V_1;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_289 = V_1;
-						NullCheck(L_289);
-						float L_290 = L_289->___rowGroupSpacing;
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_291 = V_15;
-						NullCheck(L_291);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_292;
-						L_292 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_291, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_292);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_293;
-						L_293 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_292, NULL);
-						float L_294 = L_293.___y;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_295 = V_1;
-						NullCheck(L_295);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_296 = L_295->___TemplateRow;
-						NullCheck(L_296);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_297;
-						L_297 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_296, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_297);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_298;
-						L_298 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_297, NULL);
-						float L_299 = L_298.___y;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_300 = V_1;
-						NullCheck(L_300);
-						int32_t L_301 = L_300->___LineSpacing;
-						NullCheck(L_288);
-						L_288->___rowGroupSpacing = ((float)il2cpp_codegen_add(L_290, ((-((float)il2cpp_codegen_subtract(L_294, ((float)il2cpp_codegen_add(L_299, ((float)L_301)))))))));
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_178;
+						L_178 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_174, L_177, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+						V_16 = L_178;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:167>
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_179 = V_16;
+						NullCheck(L_179);
+						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_179, (bool)1, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:168>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_180 = V_1;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_181 = V_1;
+						NullCheck(L_181);
+						int32_t L_182 = L_181->___LastRowIndex;
+						NullCheck(L_180);
+						L_180->___LastRowIndex = ((int32_t)il2cpp_codegen_add(L_182, 1));
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:169>
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_183 = V_16;
+						NullCheck(L_183);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_184;
+						L_184 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_183, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_185 = V_1;
+						NullCheck(L_185);
+						int32_t L_186 = L_185->___LastRowIndex;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_187 = V_1;
+						NullCheck(L_187);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_188 = L_187->___TemplateRow;
+						NullCheck(L_188);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_189;
+						L_189 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_188, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_189);
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_190;
+						L_190 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_189, NULL);
+						float L_191 = L_190.___y;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_192 = V_1;
+						NullCheck(L_192);
+						int32_t L_193 = L_192->___LineSpacing;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_194 = V_1;
+						NullCheck(L_194);
+						int32_t L_195 = L_194->___LineSpacing;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_196 = V_1;
+						NullCheck(L_196);
+						float L_197 = L_196->___rowGroupSpacing;
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_198;
+						memset((&L_198), 0, sizeof(L_198));
+						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_198), (0.0f), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_186, (-1)))), ((float)il2cpp_codegen_add(L_191, ((float)L_193))))), ((float)L_195))), L_197)), NULL);
+						NullCheck(L_184);
+						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_184, L_198, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:170>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_199 = V_1;
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_200 = V_16;
+						NullCheck(L_200);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_201;
+						L_201 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_200, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_201);
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_202;
+						L_202 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_201, NULL);
+						float L_203 = L_202.___y;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_204 = V_1;
+						NullCheck(L_204);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_205 = L_204->___TemplateRow;
+						NullCheck(L_205);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_206;
+						L_206 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_205, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_206);
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_207;
+						L_207 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_206, NULL);
+						float L_208 = L_207.___y;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_209 = V_1;
+						NullCheck(L_209);
+						int32_t L_210 = L_209->___LineSpacing;
+						NullCheck(L_199);
+						L_199->___rowGroupSpacing = ((-((float)il2cpp_codegen_subtract(L_203, ((float)il2cpp_codegen_add(L_208, ((float)L_210)))))));
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:173>
+						RuntimeObject* L_211;
+						L_211 = LeaderboardsService_get_Instance_m8E148E6029B8F7C87C3D05AE376F8EA4441774FD(NULL);
+						GetPlayerRangeOptions_tD05CECBC3C3B8A3E097C849A6357B0670F39C13E* L_212 = (GetPlayerRangeOptions_tD05CECBC3C3B8A3E097C849A6357B0670F39C13E*)il2cpp_codegen_object_new(GetPlayerRangeOptions_tD05CECBC3C3B8A3E097C849A6357B0670F39C13E_il2cpp_TypeInfo_var);
+						GetPlayerRangeOptions__ctor_m9ADA077A53368BCDB2478C36E407ABE4FCDC06B6(L_212, NULL);
+						GetPlayerRangeOptions_tD05CECBC3C3B8A3E097C849A6357B0670F39C13E* L_213 = L_212;
+						int32_t L_214 = __this->___U3CrangeLimitU3E5__4;
+						Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_215;
+						memset((&L_215), 0, sizeof(L_215));
+						Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_215), L_214, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+						NullCheck(L_213);
+						RangeOptions_set_RangeLimit_m37BC9E52A4674AD25D3FD1FCCE6D8E8AC1D3393C_inline(L_213, L_215, NULL);
+						NullCheck(L_211);
+						Task_1_t134B30F5BDD7031020A4CD7E877ADBCECFACF568* L_216;
+						L_216 = InterfaceFuncInvoker2< Task_1_t134B30F5BDD7031020A4CD7E877ADBCECFACF568*, String_t*, GetPlayerRangeOptions_tD05CECBC3C3B8A3E097C849A6357B0670F39C13E* >::Invoke(1, ILeaderboardsService_t5A529616BC966CE7E8F1F73643679B52CB68723E_il2cpp_TypeInfo_var, L_211, _stringLiteral7507921CB4EC2D0DE9B1F05C28E9E9BC03792810, L_213);
+						NullCheck(L_216);
+						TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25 L_217;
+						L_217 = Task_1_GetAwaiter_mC781A6E2C9C32CA48A1E3D1985A58390AE4F1387(L_216, Task_1_GetAwaiter_mC781A6E2C9C32CA48A1E3D1985A58390AE4F1387_RuntimeMethod_var);
+						V_22 = L_217;
+						bool L_218;
+						L_218 = TaskAwaiter_1_get_IsCompleted_m39340A2C3302F75081D191D8ED4A9923ED601869((&V_22), TaskAwaiter_1_get_IsCompleted_m39340A2C3302F75081D191D8ED4A9923ED601869_RuntimeMethod_var);
+						if (L_218)
+						{
+							goto IL_05ba_3;
+						}
+					}
+					{
+						int32_t L_219 = 3;
+						V_0 = L_219;
+						__this->___U3CU3E1__state = L_219;
+						TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25 L_220 = V_22;
+						__this->___U3CU3Eu__3 = L_220;
+						Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__3))->___m_task), (void*)NULL);
+						AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_221 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
+						AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m95B8865548313F7B4BD23C8B68DD2A56C7C7E8D0(L_221, (&V_22), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m95B8865548313F7B4BD23C8B68DD2A56C7C7E8D0_RuntimeMethod_var);
+						goto IL_0b3d;
 					}
 
-IL_0749_3:
+IL_059d_3:
 					{
+						TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25 L_222 = __this->___U3CU3Eu__3;
+						V_22 = L_222;
+						TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25* L_223 = (TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25*)(&__this->___U3CU3Eu__3);
+						il2cpp_codegen_initobj(L_223, sizeof(TaskAwaiter_1_tDB58475B4B93E8718DE842B243CBB70D036CBC25));
+						int32_t L_224 = (-1);
+						V_0 = L_224;
+						__this->___U3CU3E1__state = L_224;
+					}
+
+IL_05ba_3:
+					{
+						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_225;
+						L_225 = TaskAwaiter_1_GetResult_mBC6672BF3C66CFDF603F5B3C4630247249E49EF0((&V_22), TaskAwaiter_1_GetResult_mBC6672BF3C66CFDF603F5B3C4630247249E49EF0_RuntimeMethod_var);
+						V_17 = L_225;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:175>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_226 = V_1;
+						NullCheck(L_226);
+						int32_t L_227 = L_226->___LastRowIndex;
+						V_18 = ((int32_t)il2cpp_codegen_add(L_227, 1));
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:176>
+						V_23 = 0;
+						goto IL_065c_3;
+					}
+
+IL_05d5_3:
+					{
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:178>
+						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_228 = __this->___U3CscoreResponseU3E5__2;
+						NullCheck(L_228);
+						int32_t L_229;
+						L_229 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_228, NULL);
+						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_230 = V_17;
+						NullCheck(L_230);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_231;
+						L_231 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_230, NULL);
+						int32_t L_232 = V_23;
+						NullCheck(L_231);
+						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_233;
+						L_233 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_231, L_232, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
+						NullCheck(L_233);
+						int32_t L_234;
+						L_234 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_233, NULL);
+						if ((!(((uint32_t)L_229) == ((uint32_t)L_234))))
+						{
+							goto IL_0624_3;
+						}
+					}
+					{
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:181>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_235 = V_1;
+						int32_t L_236 = V_18;
+						int32_t L_237 = V_23;
+						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_238 = V_17;
+						NullCheck(L_238);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_239;
+						L_239 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_238, NULL);
+						int32_t L_240 = V_23;
+						NullCheck(L_239);
+						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_241;
+						L_241 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_239, L_240, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
+						Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_242;
+						memset((&L_242), 0, sizeof(L_242));
+						Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_242), (0.325490206f), (0.623529434f), (0.356862754f), NULL);
+						NullCheck(L_235);
+						LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9(L_235, ((int32_t)il2cpp_codegen_add(L_236, L_237)), L_241, L_242, NULL);
+						goto IL_0656_3;
+					}
+
+IL_0624_3:
+					{
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:186>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_243 = V_1;
+						int32_t L_244 = V_18;
+						int32_t L_245 = V_23;
+						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_246 = V_17;
+						NullCheck(L_246);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_247;
+						L_247 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_246, NULL);
+						int32_t L_248 = V_23;
+						NullCheck(L_247);
+						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_249;
+						L_249 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_247, L_248, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
+						Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_250;
+						memset((&L_250), 0, sizeof(L_250));
+						Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_250), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
+						NullCheck(L_243);
+						LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9(L_243, ((int32_t)il2cpp_codegen_add(L_244, L_245)), L_249, L_250, NULL);
+					}
+
+IL_0656_3:
+					{
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:176>
+						int32_t L_251 = V_23;
+						V_23 = ((int32_t)il2cpp_codegen_add(L_251, 1));
+					}
+
+IL_065c_3:
+					{
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:176>
+						int32_t L_252 = V_23;
+						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_253 = V_17;
+						NullCheck(L_253);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_254;
+						L_254 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_253, NULL);
+						NullCheck(L_254);
+						int32_t L_255;
+						L_255 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_254, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
+						if ((((int32_t)L_252) < ((int32_t)L_255)))
+						{
+							goto IL_05d5_3;
+						}
+					}
+					{
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:191>
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_256 = __this->___U3CtopScoresU3E5__5;
+						NullCheck(L_256);
+						int32_t L_257;
+						L_257 = LeaderboardScoresPage_get_Total_m29A996096A141E0290A6DD91035A5B68EABA320D_inline(L_256, NULL);
+						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_258 = V_17;
+						NullCheck(L_258);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_259;
+						L_259 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_258, NULL);
+						LeaderboardScores_tE2621FB3D1FED43A92AEFD1D7AD866EEC157D88A* L_260 = V_17;
+						NullCheck(L_260);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_261;
+						L_261 = LeaderboardScores_get_Results_m3CB90A33FFF731EC1D178C3D533EAED5B43C63BC_inline(L_260, NULL);
+						NullCheck(L_261);
+						int32_t L_262;
+						L_262 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_261, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
+						NullCheck(L_259);
+						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_263;
+						L_263 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_259, ((int32_t)il2cpp_codegen_subtract(L_262, 1)), List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
+						NullCheck(L_263);
+						int32_t L_264;
+						L_264 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_263, NULL);
+						if ((((int32_t)L_257) <= ((int32_t)((int32_t)il2cpp_codegen_add(L_264, 1)))))
+						{
+							goto IL_0757_3;
+						}
+					}
+					{
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:194>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_265 = V_1;
+						NullCheck(L_265);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_266 = L_265->___TemplateBrace;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_267 = V_1;
+						NullCheck(L_267);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_268 = L_267->___RowParent;
+						NullCheck(L_268);
+						Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_269;
+						L_269 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_268, NULL);
+						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_270;
+						L_270 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_266, L_269, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+						V_16 = L_270;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:195>
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_271 = V_16;
+						NullCheck(L_271);
+						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_271, (bool)1, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:196>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_272 = V_1;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_273 = V_1;
+						NullCheck(L_273);
+						int32_t L_274 = L_273->___LastRowIndex;
+						NullCheck(L_272);
+						L_272->___LastRowIndex = ((int32_t)il2cpp_codegen_add(L_274, 1));
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:197>
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_275 = V_16;
+						NullCheck(L_275);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_276;
+						L_276 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_275, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_277 = V_1;
+						NullCheck(L_277);
+						int32_t L_278 = L_277->___LastRowIndex;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_279 = V_1;
+						NullCheck(L_279);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_280 = L_279->___TemplateRow;
+						NullCheck(L_280);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_281;
+						L_281 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_280, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_281);
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_282;
+						L_282 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_281, NULL);
+						float L_283 = L_282.___y;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_284 = V_1;
+						NullCheck(L_284);
+						int32_t L_285 = L_284->___LineSpacing;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_286 = V_1;
+						NullCheck(L_286);
+						int32_t L_287 = L_286->___LineSpacing;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_288 = V_1;
+						NullCheck(L_288);
+						float L_289 = L_288->___rowGroupSpacing;
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_290;
+						memset((&L_290), 0, sizeof(L_290));
+						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_290), (0.0f), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_278, (-1)))), ((float)il2cpp_codegen_add(L_283, ((float)L_285))))), ((float)L_287))), L_289)), NULL);
+						NullCheck(L_276);
+						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_276, L_290, NULL);
 						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:198>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_302 = V_1;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_291 = V_1;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_292 = V_1;
+						NullCheck(L_292);
+						float L_293 = L_292->___rowGroupSpacing;
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_294 = V_16;
+						NullCheck(L_294);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_295;
+						L_295 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_294, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_295);
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_296;
+						L_296 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_295, NULL);
+						float L_297 = L_296.___y;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_298 = V_1;
+						NullCheck(L_298);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_299 = L_298->___TemplateRow;
+						NullCheck(L_299);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_300;
+						L_300 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_299, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_300);
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_301;
+						L_301 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_300, NULL);
+						float L_302 = L_301.___y;
 						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_303 = V_1;
 						NullCheck(L_303);
-						int32_t L_304 = L_303->___LastRowIndex;
-						NullCheck(L_302);
-						L_302->___LastRowIndex = ((int32_t)il2cpp_codegen_add(L_304, 1));
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:199>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_305 = V_1;
-						NullCheck(L_305);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_306 = L_305->___TotalRecordText;
-						NullCheck(L_306);
-						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_306, (bool)1, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:200>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_307 = V_1;
-						NullCheck(L_307);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_308 = L_307->___TotalRecordText;
-						NullCheck(L_308);
-						TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_309;
-						L_309 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_308, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
-						LocalizedStringDatabase_tACE9FD9021269D20788D130D96F7B2244DD67406* L_310;
-						L_310 = LocalizationSettings_get_StringDatabase_m8CF0CEF6CDD79DD76D575C0E0D7BF093EF57306A(NULL);
-						il2cpp_codegen_runtime_class_init_inline(TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147_il2cpp_TypeInfo_var);
-						TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147 L_311;
-						L_311 = TableReference_op_Implicit_mDF9424E08672E3C6647FA41BADD7616BB6126846(_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21, NULL);
-						TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224 L_312;
-						L_312 = TableEntryReference_op_Implicit_mCBC6786CFB287012A2B80FDAC1EC06C83465A249(_stringLiteral44EE6C16B361AF984DE871897FDED43002CA0C67, NULL);
-						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_313;
-						L_313 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-						NullCheck(L_310);
-						String_t* L_314;
-						L_314 = VirtualFuncInvoker5< String_t*, TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147, TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224, Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*, int32_t, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(20, L_310, L_311, L_312, (Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*)NULL, 0, L_313);
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_315 = __this->___U3CtopScoresU3E5__5;
-						NullCheck(L_315);
-						int32_t L_316;
-						L_316 = LeaderboardScoresPage_get_Total_m29A996096A141E0290A6DD91035A5B68EABA320D_inline(L_315, NULL);
-						V_12 = L_316;
-						String_t* L_317;
-						L_317 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_12), NULL);
-						String_t* L_318;
-						L_318 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_314, _stringLiteral1168E92C164109D6220480DEDA987085B2A21155, L_317, NULL);
-						NullCheck(L_309);
-						VirtualActionInvoker1< String_t* >::Invoke(66, L_309, L_318);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:201>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_319 = V_1;
-						NullCheck(L_319);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_320 = L_319->___TotalRecordText;
-						NullCheck(L_320);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_321;
-						L_321 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_320, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_322 = V_1;
-						NullCheck(L_322);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_323 = L_322->___TotalRecordText;
-						NullCheck(L_323);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_324;
-						L_324 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_323, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_324);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_325;
-						L_325 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_324, NULL);
-						float L_326 = L_325.___x;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_327 = V_1;
-						NullCheck(L_327);
-						float L_328 = L_327->___nextPosY;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_329 = V_1;
-						NullCheck(L_329);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_330 = L_329->___TemplateRow;
-						NullCheck(L_330);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_331;
-						L_331 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_330, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_331);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_332;
-						L_332 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_331, NULL);
-						float L_333 = L_332.___y;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_334 = V_1;
-						NullCheck(L_334);
-						int32_t L_335 = L_334->___LineSpacing;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_336 = V_1;
-						NullCheck(L_336);
-						float L_337 = L_336->___rowGroupSpacing;
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_338;
-						memset((&L_338), 0, sizeof(L_338));
-						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_338), L_326, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_328, ((float)il2cpp_codegen_multiply((-1.0f), ((float)il2cpp_codegen_add(L_333, ((float)L_335))))))), L_337)), NULL);
-						NullCheck(L_321);
-						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_321, L_338, NULL);
+						int32_t L_304 = L_303->___LineSpacing;
+						NullCheck(L_291);
+						L_291->___rowGroupSpacing = ((float)il2cpp_codegen_add(L_293, ((-((float)il2cpp_codegen_subtract(L_297, ((float)il2cpp_codegen_add(L_302, ((float)L_304)))))))));
+					}
+
+IL_0757_3:
+					{
 						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:202>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_305 = V_1;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_306 = V_1;
+						NullCheck(L_306);
+						int32_t L_307 = L_306->___LastRowIndex;
+						NullCheck(L_305);
+						L_305->___LastRowIndex = ((int32_t)il2cpp_codegen_add(L_307, 1));
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:203>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_308 = V_1;
+						NullCheck(L_308);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_309 = L_308->___TotalRecordText;
+						NullCheck(L_309);
+						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_309, (bool)1, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:204>
+						Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_310 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+						Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_310, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+						Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_311 = L_310;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_312 = __this->___U3CtopScoresU3E5__5;
+						NullCheck(L_312);
+						int32_t L_313;
+						L_313 = LeaderboardScoresPage_get_Total_m29A996096A141E0290A6DD91035A5B68EABA320D_inline(L_312, NULL);
+						V_13 = L_313;
+						String_t* L_314;
+						L_314 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_13), NULL);
+						NullCheck(L_311);
+						Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13(L_311, _stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8, L_314, Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13_RuntimeMethod_var);
+						V_19 = L_311;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:205>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_315 = V_1;
+						NullCheck(L_315);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_316 = L_315->___TotalRecordText;
+						NullCheck(L_316);
+						TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_317;
+						L_317 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_316, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+						LocalizedStringDatabase_tACE9FD9021269D20788D130D96F7B2244DD67406* L_318;
+						L_318 = LocalizationSettings_get_StringDatabase_m8CF0CEF6CDD79DD76D575C0E0D7BF093EF57306A(NULL);
+						il2cpp_codegen_runtime_class_init_inline(TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147_il2cpp_TypeInfo_var);
+						TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147 L_319;
+						L_319 = TableReference_op_Implicit_mDF9424E08672E3C6647FA41BADD7616BB6126846(_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21, NULL);
+						TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224 L_320;
+						L_320 = TableEntryReference_op_Implicit_mCBC6786CFB287012A2B80FDAC1EC06C83465A249(_stringLiteral44EE6C16B361AF984DE871897FDED43002CA0C67, NULL);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_321 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_322 = L_321;
+						Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_323 = V_19;
+						NullCheck(L_322);
+						ArrayElementTypeCheck (L_322, L_323);
+						(L_322)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_323);
+						NullCheck(L_318);
+						String_t* L_324;
+						L_324 = VirtualFuncInvoker5< String_t*, TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147, TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224, RuntimeObject*, Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*, int32_t >::Invoke(23, L_318, L_319, L_320, (RuntimeObject*)L_322, (Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*)NULL, 0);
+						NullCheck(L_317);
+						VirtualActionInvoker1< String_t* >::Invoke(66, L_317, L_324);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:206>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_325 = V_1;
+						NullCheck(L_325);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_326 = L_325->___TotalRecordText;
+						NullCheck(L_326);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_327;
+						L_327 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_326, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_328 = V_1;
+						NullCheck(L_328);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_329 = L_328->___TotalRecordText;
+						NullCheck(L_329);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_330;
+						L_330 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_329, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_330);
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_331;
+						L_331 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_330, NULL);
+						float L_332 = L_331.___x;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_333 = V_1;
+						NullCheck(L_333);
+						float L_334 = L_333->___nextPosY;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_335 = V_1;
+						NullCheck(L_335);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_336 = L_335->___TemplateRow;
+						NullCheck(L_336);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_337;
+						L_337 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_336, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_337);
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_338;
+						L_338 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_337, NULL);
+						float L_339 = L_338.___y;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_340 = V_1;
+						NullCheck(L_340);
+						int32_t L_341 = L_340->___LineSpacing;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_342 = V_1;
+						NullCheck(L_342);
+						float L_343 = L_342->___rowGroupSpacing;
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_344;
+						memset((&L_344), 0, sizeof(L_344));
+						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_344), L_332, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_334, ((float)il2cpp_codegen_multiply((-1.0f), ((float)il2cpp_codegen_add(L_339, ((float)L_341))))))), L_343)), NULL);
+						NullCheck(L_327);
+						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_327, L_344, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:207>
 						__this->___U3CtopScoresU3E5__5 = (LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232*)NULL;
 						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtopScoresU3E5__5), (void*)(LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232*)NULL);
-						goto IL_0aa9_3;
+						goto IL_0ad3_3;
 					}
 
-IL_081d_3:
+IL_0839_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:205>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:210>
 						__this->___U3CLimitU3E5__3 = ((int32_t)30);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:206>
-						V_13 = 0;
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:207>
-						int32_t L_339 = __this->___U3CLimitU3E5__3;
-						int32_t L_340 = V_13;
-						V_14 = ((int32_t)il2cpp_codegen_multiply(L_339, L_340));
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:209>
-						RuntimeObject* L_341;
-						L_341 = LeaderboardsService_get_Instance_m8E148E6029B8F7C87C3D05AE376F8EA4441774FD(NULL);
-						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_342 = (GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609*)il2cpp_codegen_object_new(GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609_il2cpp_TypeInfo_var);
-						GetScoresOptions__ctor_mB9966489E888AF819E6597D3E24E55D65141B35A(L_342, NULL);
-						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_343 = L_342;
-						int32_t L_344 = V_14;
-						Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_345;
-						memset((&L_345), 0, sizeof(L_345));
-						Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_345), L_344, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
-						NullCheck(L_343);
-						PaginationOptions_set_Offset_m542497831443827DB169F88338013F26B7DF5F88_inline(L_343, L_345, NULL);
-						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_346 = L_343;
-						int32_t L_347 = __this->___U3CLimitU3E5__3;
-						Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_348;
-						memset((&L_348), 0, sizeof(L_348));
-						Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_348), L_347, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
-						NullCheck(L_346);
-						PaginationOptions_set_Limit_mA690957A3222817569596E1EB80108DEB3F16B86_inline(L_346, L_348, NULL);
-						NullCheck(L_341);
-						Task_1_t11B88CBF9DF6E72DB4964D9A82AA5CF47C9A84D0* L_349;
-						L_349 = InterfaceFuncInvoker2< Task_1_t11B88CBF9DF6E72DB4964D9A82AA5CF47C9A84D0*, String_t*, GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* >::Invoke(3, ILeaderboardsService_t5A529616BC966CE7E8F1F73643679B52CB68723E_il2cpp_TypeInfo_var, L_341, _stringLiteral7507921CB4EC2D0DE9B1F05C28E9E9BC03792810, L_346);
-						NullCheck(L_349);
-						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_350;
-						L_350 = Task_1_GetAwaiter_m175D7C1CBCE59B3C4CAAEB062D646887986F63CC(L_349, Task_1_GetAwaiter_m175D7C1CBCE59B3C4CAAEB062D646887986F63CC_RuntimeMethod_var);
-						V_10 = L_350;
-						bool L_351;
-						L_351 = TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B((&V_10), TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B_RuntimeMethod_var);
-						if (L_351)
-						{
-							goto IL_08b6_3;
-						}
-					}
-					{
-						int32_t L_352 = 4;
-						V_0 = L_352;
-						__this->___U3CU3E1__state = L_352;
-						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_353 = V_10;
-						__this->___U3CU3Eu__2 = L_353;
-						Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__2))->___m_task), (void*)NULL);
-						AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_354 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
-						AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36(L_354, (&V_10), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36_RuntimeMethod_var);
-						goto IL_0b13;
-					}
-
-IL_0899_3:
-					{
-						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_355 = __this->___U3CU3Eu__2;
-						V_10 = L_355;
-						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E* L_356 = (TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E*)(&__this->___U3CU3Eu__2);
-						il2cpp_codegen_initobj(L_356, sizeof(TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E));
-						int32_t L_357 = (-1);
-						V_0 = L_357;
-						__this->___U3CU3E1__state = L_357;
-					}
-
-IL_08b6_3:
-					{
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_358;
-						L_358 = TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B((&V_10), TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B_RuntimeMethod_var);
-						V_22 = L_358;
 						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:211>
-						V_24 = 0;
-						goto IL_0948_3;
-					}
-
-IL_08c7_3:
-					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:213>
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_359 = V_22;
-						NullCheck(L_359);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_360;
-						L_360 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_359, NULL);
-						int32_t L_361 = V_24;
-						NullCheck(L_360);
-						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_362;
-						L_362 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_360, L_361, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
-						NullCheck(L_362);
-						int32_t L_363;
-						L_363 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_362, NULL);
-						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_364 = __this->___U3CscoreResponseU3E5__2;
-						NullCheck(L_364);
-						int32_t L_365;
-						L_365 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_364, NULL);
-						if ((!(((uint32_t)L_363) == ((uint32_t)L_365))))
+						V_14 = 0;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:212>
+						int32_t L_345 = __this->___U3CLimitU3E5__3;
+						int32_t L_346 = V_14;
+						V_15 = ((int32_t)il2cpp_codegen_multiply(L_345, L_346));
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:214>
+						RuntimeObject* L_347;
+						L_347 = LeaderboardsService_get_Instance_m8E148E6029B8F7C87C3D05AE376F8EA4441774FD(NULL);
+						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_348 = (GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609*)il2cpp_codegen_object_new(GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609_il2cpp_TypeInfo_var);
+						GetScoresOptions__ctor_mB9966489E888AF819E6597D3E24E55D65141B35A(L_348, NULL);
+						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_349 = L_348;
+						int32_t L_350 = V_15;
+						Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_351;
+						memset((&L_351), 0, sizeof(L_351));
+						Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_351), L_350, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+						NullCheck(L_349);
+						PaginationOptions_set_Offset_m542497831443827DB169F88338013F26B7DF5F88_inline(L_349, L_351, NULL);
+						GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* L_352 = L_349;
+						int32_t L_353 = __this->___U3CLimitU3E5__3;
+						Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_354;
+						memset((&L_354), 0, sizeof(L_354));
+						Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703((&L_354), L_353, Nullable_1__ctor_m141FA88563AC0B5179132FB929EABD02C47FF703_RuntimeMethod_var);
+						NullCheck(L_352);
+						PaginationOptions_set_Limit_mA690957A3222817569596E1EB80108DEB3F16B86_inline(L_352, L_354, NULL);
+						NullCheck(L_347);
+						Task_1_t11B88CBF9DF6E72DB4964D9A82AA5CF47C9A84D0* L_355;
+						L_355 = InterfaceFuncInvoker2< Task_1_t11B88CBF9DF6E72DB4964D9A82AA5CF47C9A84D0*, String_t*, GetScoresOptions_t1D2CDBE6D8406D317BAA25B9B3D8346964CDA609* >::Invoke(3, ILeaderboardsService_t5A529616BC966CE7E8F1F73643679B52CB68723E_il2cpp_TypeInfo_var, L_347, _stringLiteral7507921CB4EC2D0DE9B1F05C28E9E9BC03792810, L_352);
+						NullCheck(L_355);
+						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_356;
+						L_356 = Task_1_GetAwaiter_m175D7C1CBCE59B3C4CAAEB062D646887986F63CC(L_355, Task_1_GetAwaiter_m175D7C1CBCE59B3C4CAAEB062D646887986F63CC_RuntimeMethod_var);
+						V_11 = L_356;
+						bool L_357;
+						L_357 = TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B((&V_11), TaskAwaiter_1_get_IsCompleted_mED498199797F37A4635A175A27025D1FABE1BE0B_RuntimeMethod_var);
+						if (L_357)
 						{
-							goto IL_0913_3;
+							goto IL_08d2_3;
 						}
 					}
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:216>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_366 = V_1;
-						int32_t L_367 = V_24;
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_368 = V_22;
-						NullCheck(L_368);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_369;
-						L_369 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_368, NULL);
-						int32_t L_370 = V_24;
-						NullCheck(L_369);
-						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_371;
-						L_371 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_369, L_370, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
-						Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_372;
-						memset((&L_372), 0, sizeof(L_372));
-						Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_372), (0.325490206f), (0.623529434f), (0.356862754f), NULL);
-						NullCheck(L_366);
-						LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9(L_366, L_367, L_371, L_372, NULL);
-						goto IL_0942_3;
+						int32_t L_358 = 4;
+						V_0 = L_358;
+						__this->___U3CU3E1__state = L_358;
+						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_359 = V_11;
+						__this->___U3CU3Eu__2 = L_359;
+						Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__2))->___m_task), (void*)NULL);
+						AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_360 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
+						AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36(L_360, (&V_11), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E_TisU3CFillLeaderboardListU3Ed__13_t3919113DBD93488EBC330B9F0BE967C201A97232_m433F592A8C3DB9A1E0C52E17EB4A45E6DEA78F36_RuntimeMethod_var);
+						goto IL_0b3d;
 					}
 
-IL_0913_3:
+IL_08b5_3:
+					{
+						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E L_361 = __this->___U3CU3Eu__2;
+						V_11 = L_361;
+						TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E* L_362 = (TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E*)(&__this->___U3CU3Eu__2);
+						il2cpp_codegen_initobj(L_362, sizeof(TaskAwaiter_1_t9474BC3440FD85876351B9F41316EDFF3A40BE0E));
+						int32_t L_363 = (-1);
+						V_0 = L_363;
+						__this->___U3CU3E1__state = L_363;
+					}
+
+IL_08d2_3:
+					{
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_364;
+						L_364 = TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B((&V_11), TaskAwaiter_1_GetResult_m124444AEB0FC5B0E3A7A1CAD88E94B5276F7F45B_RuntimeMethod_var);
+						V_24 = L_364;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:216>
+						V_27 = 0;
+						goto IL_0964_3;
+					}
+
+IL_08e3_3:
+					{
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:218>
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_365 = V_24;
+						NullCheck(L_365);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_366;
+						L_366 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_365, NULL);
+						int32_t L_367 = V_27;
+						NullCheck(L_366);
+						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_368;
+						L_368 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_366, L_367, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
+						NullCheck(L_368);
+						int32_t L_369;
+						L_369 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_368, NULL);
+						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_370 = __this->___U3CscoreResponseU3E5__2;
+						NullCheck(L_370);
+						int32_t L_371;
+						L_371 = LeaderboardEntry_get_Rank_mAD43B56C6CCBADB0235638801008274D72D71F47_inline(L_370, NULL);
+						if ((!(((uint32_t)L_369) == ((uint32_t)L_371))))
+						{
+							goto IL_092f_3;
+						}
+					}
 					{
 						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:221>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_373 = V_1;
-						int32_t L_374 = V_24;
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_375 = V_22;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_372 = V_1;
+						int32_t L_373 = V_27;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_374 = V_24;
+						NullCheck(L_374);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_375;
+						L_375 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_374, NULL);
+						int32_t L_376 = V_27;
 						NullCheck(L_375);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_376;
-						L_376 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_375, NULL);
-						int32_t L_377 = V_24;
-						NullCheck(L_376);
-						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_378;
-						L_378 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_376, L_377, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
-						Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_379;
-						memset((&L_379), 0, sizeof(L_379));
-						Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_379), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
-						NullCheck(L_373);
-						LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9(L_373, L_374, L_378, L_379, NULL);
+						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_377;
+						L_377 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_375, L_376, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
+						Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_378;
+						memset((&L_378), 0, sizeof(L_378));
+						Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_378), (0.325490206f), (0.623529434f), (0.356862754f), NULL);
+						NullCheck(L_372);
+						LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9(L_372, L_373, L_377, L_378, NULL);
+						goto IL_095e_3;
 					}
 
-IL_0942_3:
+IL_092f_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:211>
-						int32_t L_380 = V_24;
-						V_24 = ((int32_t)il2cpp_codegen_add(L_380, 1));
-					}
-
-IL_0948_3:
-					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:211>
-						int32_t L_381 = V_24;
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_382 = V_22;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:226>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_379 = V_1;
+						int32_t L_380 = V_27;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_381 = V_24;
+						NullCheck(L_381);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_382;
+						L_382 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_381, NULL);
+						int32_t L_383 = V_27;
 						NullCheck(L_382);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_383;
-						L_383 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_382, NULL);
-						NullCheck(L_383);
-						int32_t L_384;
-						L_384 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_383, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
-						if ((((int32_t)L_381) < ((int32_t)L_384)))
-						{
-							goto IL_08c7_3;
-						}
+						LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366* L_384;
+						L_384 = List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0(L_382, L_383, List_1_get_Item_mC6085E0CBBAA2648AD2A4AA01452FB79EBA58EE0_RuntimeMethod_var);
+						Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_385;
+						memset((&L_385), 0, sizeof(L_385));
+						Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_385), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
+						NullCheck(L_379);
+						LeaderboardController_FillLeaderboardRow_m8C3B7FE1572B99B2C9089F8480F671DCD7C07CB9(L_379, L_380, L_384, L_385, NULL);
 					}
+
+IL_095e_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:225>
-						V_23 = (0.0f);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:227>
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_385 = V_22;
-						NullCheck(L_385);
-						int32_t L_386;
-						L_386 = LeaderboardScoresPage_get_Total_m29A996096A141E0290A6DD91035A5B68EABA320D_inline(L_385, NULL);
-						int32_t L_387 = __this->___U3CLimitU3E5__3;
-						if ((((int32_t)L_386) <= ((int32_t)L_387)))
-						{
-							goto IL_09f4_3;
-						}
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:216>
+						int32_t L_386 = V_27;
+						V_27 = ((int32_t)il2cpp_codegen_add(L_386, 1));
 					}
+
+IL_0964_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:229>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_388 = V_1;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:216>
+						int32_t L_387 = V_27;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_388 = V_24;
 						NullCheck(L_388);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_389 = L_388->___TemplateBrace;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_390 = V_1;
-						NullCheck(L_390);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_391 = L_390->___RowParent;
-						NullCheck(L_391);
-						Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_392;
-						L_392 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_391, NULL);
-						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_393;
-						L_393 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_389, L_392, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_389;
+						L_389 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_388, NULL);
+						NullCheck(L_389);
+						int32_t L_390;
+						L_390 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_389, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
+						if ((((int32_t)L_387) < ((int32_t)L_390)))
+						{
+							goto IL_08e3_3;
+						}
+					}
+					{
 						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:230>
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_394 = L_393;
+						V_25 = (0.0f);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:232>
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_391 = V_24;
+						NullCheck(L_391);
+						int32_t L_392;
+						L_392 = LeaderboardScoresPage_get_Total_m29A996096A141E0290A6DD91035A5B68EABA320D_inline(L_391, NULL);
+						int32_t L_393 = __this->___U3CLimitU3E5__3;
+						if ((((int32_t)L_392) <= ((int32_t)L_393)))
+						{
+							goto IL_0a10_3;
+						}
+					}
+					{
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:234>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_394 = V_1;
 						NullCheck(L_394);
-						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_394, (bool)1, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:231>
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_395 = L_394;
-						NullCheck(L_395);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_396;
-						L_396 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_395, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_397 = V_22;
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_395 = L_394->___TemplateBrace;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_396 = V_1;
+						NullCheck(L_396);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_397 = L_396->___RowParent;
 						NullCheck(L_397);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_398;
-						L_398 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_397, NULL);
-						NullCheck(L_398);
-						int32_t L_399;
-						L_399 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_398, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_400 = V_1;
+						Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_398;
+						L_398 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_397, NULL);
+						il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_399;
+						L_399 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_395, L_398, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:235>
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_400 = L_399;
 						NullCheck(L_400);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_401 = L_400->___TemplateRow;
+						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_400, (bool)1, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:236>
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_401 = L_400;
 						NullCheck(L_401);
 						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_402;
 						L_402 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_401, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_402);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_403;
-						L_403 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_402, NULL);
-						float L_404 = L_403.___y;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_405 = V_1;
-						NullCheck(L_405);
-						int32_t L_406 = L_405->___LineSpacing;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_407 = V_1;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_403 = V_24;
+						NullCheck(L_403);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_404;
+						L_404 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_403, NULL);
+						NullCheck(L_404);
+						int32_t L_405;
+						L_405 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_404, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_406 = V_1;
+						NullCheck(L_406);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_407 = L_406->___TemplateRow;
 						NullCheck(L_407);
-						int32_t L_408 = L_407->___LineSpacing;
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_408;
+						L_408 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_407, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_408);
 						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_409;
-						memset((&L_409), 0, sizeof(L_409));
-						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_409), (0.0f), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_399, (-1)))), ((float)il2cpp_codegen_add(L_404, ((float)L_406))))), ((float)L_408))), NULL);
-						NullCheck(L_396);
-						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_396, L_409, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:232>
-						NullCheck(L_395);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_410;
-						L_410 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_395, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_410);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_411;
-						L_411 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_410, NULL);
-						float L_412 = L_411.___y;
+						L_409 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_408, NULL);
+						float L_410 = L_409.___y;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_411 = V_1;
+						NullCheck(L_411);
+						int32_t L_412 = L_411->___LineSpacing;
 						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_413 = V_1;
 						NullCheck(L_413);
 						int32_t L_414 = L_413->___LineSpacing;
-						V_23 = ((float)il2cpp_codegen_subtract(L_412, ((float)L_414)));
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_415;
+						memset((&L_415), 0, sizeof(L_415));
+						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_415), (0.0f), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_405, (-1)))), ((float)il2cpp_codegen_add(L_410, ((float)L_412))))), ((float)L_414))), NULL);
+						NullCheck(L_402);
+						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_402, L_415, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:237>
+						NullCheck(L_401);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_416;
+						L_416 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_401, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_416);
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_417;
+						L_417 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_416, NULL);
+						float L_418 = L_417.___y;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_419 = V_1;
+						NullCheck(L_419);
+						int32_t L_420 = L_419->___LineSpacing;
+						V_25 = ((float)il2cpp_codegen_subtract(L_418, ((float)L_420)));
 					}
 
-IL_09f4_3:
+IL_0a10_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:236>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_415 = V_1;
-						NullCheck(L_415);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_416 = L_415->___TotalRecordText;
-						NullCheck(L_416);
-						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_416, (bool)1, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:237>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_417 = V_1;
-						NullCheck(L_417);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_418 = L_417->___TotalRecordText;
-						NullCheck(L_418);
-						TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_419;
-						L_419 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_418, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
-						LocalizedStringDatabase_tACE9FD9021269D20788D130D96F7B2244DD67406* L_420;
-						L_420 = LocalizationSettings_get_StringDatabase_m8CF0CEF6CDD79DD76D575C0E0D7BF093EF57306A(NULL);
-						il2cpp_codegen_runtime_class_init_inline(TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147_il2cpp_TypeInfo_var);
-						TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147 L_421;
-						L_421 = TableReference_op_Implicit_mDF9424E08672E3C6647FA41BADD7616BB6126846(_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21, NULL);
-						TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224 L_422;
-						L_422 = TableEntryReference_op_Implicit_mCBC6786CFB287012A2B80FDAC1EC06C83465A249(_stringLiteral44EE6C16B361AF984DE871897FDED43002CA0C67, NULL);
-						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_423;
-						L_423 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-						NullCheck(L_420);
-						String_t* L_424;
-						L_424 = VirtualFuncInvoker5< String_t*, TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147, TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224, Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*, int32_t, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(20, L_420, L_421, L_422, (Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*)NULL, 0, L_423);
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_425 = V_22;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:241>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_421 = V_1;
+						NullCheck(L_421);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_422 = L_421->___TotalRecordText;
+						NullCheck(L_422);
+						GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_422, (bool)1, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:242>
+						Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_423 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+						Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_423, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+						Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_424 = L_423;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_425 = V_24;
 						NullCheck(L_425);
 						int32_t L_426;
 						L_426 = LeaderboardScoresPage_get_Total_m29A996096A141E0290A6DD91035A5B68EABA320D_inline(L_425, NULL);
-						V_12 = L_426;
+						V_13 = L_426;
 						String_t* L_427;
-						L_427 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_12), NULL);
-						String_t* L_428;
-						L_428 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_424, _stringLiteral1168E92C164109D6220480DEDA987085B2A21155, L_427, NULL);
-						NullCheck(L_419);
-						VirtualActionInvoker1< String_t* >::Invoke(66, L_419, L_428);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:238>
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_429 = V_1;
+						L_427 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_13), NULL);
+						NullCheck(L_424);
+						Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13(L_424, _stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8, L_427, Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13_RuntimeMethod_var);
+						V_26 = L_424;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:243>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_428 = V_1;
+						NullCheck(L_428);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_429 = L_428->___TotalRecordText;
 						NullCheck(L_429);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_430 = L_429->___TotalRecordText;
-						NullCheck(L_430);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_431;
-						L_431 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_430, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_432 = V_1;
-						NullCheck(L_432);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_433 = L_432->___TotalRecordText;
-						NullCheck(L_433);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_434;
-						L_434 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_433, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_434);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_435;
-						L_435 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_434, NULL);
-						float L_436 = L_435.___x;
-						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_437 = V_22;
-						NullCheck(L_437);
-						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_438;
-						L_438 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_437, NULL);
-						NullCheck(L_438);
-						int32_t L_439;
-						L_439 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_438, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_440 = V_1;
-						NullCheck(L_440);
-						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_441 = L_440->___TemplateRow;
-						NullCheck(L_441);
-						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_442;
-						L_442 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_441, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-						NullCheck(L_442);
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_443;
-						L_443 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_442, NULL);
-						float L_444 = L_443.___y;
-						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_445 = V_1;
-						NullCheck(L_445);
-						int32_t L_446 = L_445->___LineSpacing;
-						float L_447 = V_23;
-						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_448;
-						memset((&L_448), 0, sizeof(L_448));
-						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_448), L_436, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_439, (-1)))), ((float)il2cpp_codegen_add(L_444, ((float)L_446))))), L_447)), NULL);
+						TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_430;
+						L_430 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_429, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
+						LocalizedStringDatabase_tACE9FD9021269D20788D130D96F7B2244DD67406* L_431;
+						L_431 = LocalizationSettings_get_StringDatabase_m8CF0CEF6CDD79DD76D575C0E0D7BF093EF57306A(NULL);
+						il2cpp_codegen_runtime_class_init_inline(TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147_il2cpp_TypeInfo_var);
+						TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147 L_432;
+						L_432 = TableReference_op_Implicit_mDF9424E08672E3C6647FA41BADD7616BB6126846(_stringLiteral6B37B06CC70BB207582C540FB6F4ED9509D61E21, NULL);
+						TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224 L_433;
+						L_433 = TableEntryReference_op_Implicit_mCBC6786CFB287012A2B80FDAC1EC06C83465A249(_stringLiteral44EE6C16B361AF984DE871897FDED43002CA0C67, NULL);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_434 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_435 = L_434;
+						Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_436 = V_26;
+						NullCheck(L_435);
+						ArrayElementTypeCheck (L_435, L_436);
+						(L_435)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_436);
 						NullCheck(L_431);
-						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_431, L_448, NULL);
+						String_t* L_437;
+						L_437 = VirtualFuncInvoker5< String_t*, TableReference_t96A5F0161FDA37E187436FC17A3B6D7AB676A147, TableEntryReference_tF899CF4E8EF8DC219E8DDB13CFB1B5ED86077224, RuntimeObject*, Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*, int32_t >::Invoke(23, L_431, L_432, L_433, (RuntimeObject*)L_435, (Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9*)NULL, 0);
+						NullCheck(L_430);
+						VirtualActionInvoker1< String_t* >::Invoke(66, L_430, L_437);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:244>
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_438 = V_1;
+						NullCheck(L_438);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_439 = L_438->___TotalRecordText;
+						NullCheck(L_439);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_440;
+						L_440 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_439, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_441 = V_1;
+						NullCheck(L_441);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_442 = L_441->___TotalRecordText;
+						NullCheck(L_442);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_443;
+						L_443 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_442, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_443);
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_444;
+						L_444 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_443, NULL);
+						float L_445 = L_444.___x;
+						LeaderboardScoresPage_tF18396010D69844BDD6949C152037083C2430232* L_446 = V_24;
+						NullCheck(L_446);
+						List_1_tD37F95A0F8066F8D9F640583372C74564F33E976* L_447;
+						L_447 = LeaderboardScoresPage_get_Results_m70A898823EBD69DF63969967EE43DC15E46C1532_inline(L_446, NULL);
+						NullCheck(L_447);
+						int32_t L_448;
+						L_448 = List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_inline(L_447, List_1_get_Count_m8C39300991A73F78EE3A436F56CBF2AE0117A930_RuntimeMethod_var);
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_449 = V_1;
+						NullCheck(L_449);
+						GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_450 = L_449->___TemplateRow;
+						NullCheck(L_450);
+						RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_451;
+						L_451 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_450, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+						NullCheck(L_451);
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_452;
+						L_452 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_451, NULL);
+						float L_453 = L_452.___y;
+						LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_454 = V_1;
+						NullCheck(L_454);
+						int32_t L_455 = L_454->___LineSpacing;
+						float L_456 = V_25;
+						Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_457;
+						memset((&L_457), 0, sizeof(L_457));
+						Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_457), L_445, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_multiply(L_448, (-1)))), ((float)il2cpp_codegen_add(L_453, ((float)L_455))))), L_456)), NULL);
+						NullCheck(L_440);
+						RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_440, L_457, NULL);
 					}
 
-IL_0aa9_3:
+IL_0ad3_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:241>
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:247>
 						__this->___U3CscoreResponseU3E5__2 = (LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366*)NULL;
 						Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CscoreResponseU3E5__2), (void*)(LeaderboardEntry_t090D48BCD659601057DCE39DE0F35ADF36730366*)NULL);
 					}
 
-IL_0ab0_3:
+IL_0ada_3:
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:242>
-						goto IL_0ad3_2;
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:248>
+						goto IL_0afd_2;
 					}
 				}
 				catch(Il2CppExceptionWrapper& e)
@@ -18655,58 +18646,58 @@ IL_0ab0_3:
 					if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 					{
 						IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-						goto CATCH_0ab2_2;
+						goto CATCH_0adc_2;
 					}
 					throw e;
 				}
 
-CATCH_0ab2_2:
+CATCH_0adc_2:
 				{
 					{
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:243>
-						V_25 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:245>
-						Exception_t* L_449 = V_25;
-						Exception_t* L_450 = L_449;
-						if (L_450)
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:249>
+						V_28 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:251>
+						Exception_t* L_458 = V_28;
+						Exception_t* L_459 = L_458;
+						if (L_459)
 						{
-							G_B66_0 = L_450;
+							G_B66_0 = L_459;
 							G_B66_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3580FB899C7E880AE01641E1A5D3D7449AD53452));
-							goto IL_0ac2_2;
+							goto IL_0aec_2;
 						}
-						G_B65_0 = L_450;
+						G_B65_0 = L_459;
 						G_B65_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3580FB899C7E880AE01641E1A5D3D7449AD53452));
 					}
 					{
 						G_B67_0 = ((String_t*)(NULL));
 						G_B67_1 = G_B65_1;
-						goto IL_0ac7_2;
+						goto IL_0af1_2;
 					}
 
-IL_0ac2_2:
+IL_0aec_2:
 					{
 						NullCheck(G_B66_0);
-						String_t* L_451;
-						L_451 = VirtualFuncInvoker0< String_t* >::Invoke(3, G_B66_0);
-						G_B67_0 = L_451;
+						String_t* L_460;
+						L_460 = VirtualFuncInvoker0< String_t* >::Invoke(3, G_B66_0);
+						G_B67_0 = L_460;
 						G_B67_1 = G_B66_1;
 					}
 
-IL_0ac7_2:
+IL_0af1_2:
 					{
-						String_t* L_452;
-						L_452 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B67_1, G_B67_0, NULL);
+						String_t* L_461;
+						L_461 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B67_1, G_B67_0, NULL);
 						il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-						Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_452, NULL);
-						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:246>
+						Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_461, NULL);
+						//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:252>
 						IL2CPP_POP_ACTIVE_EXCEPTION();
-						goto IL_0ad3_2;
+						goto IL_0afd_2;
 					}
 				}
 
-IL_0ad3_2:
+IL_0afd_2:
 				{
-					goto IL_0ae5_1;
+					goto IL_0b0f_1;
 				}
 			}
 			catch(Il2CppExceptionWrapper& e)
@@ -18715,9 +18706,9 @@ IL_0ad3_2:
 			}
 		}
 
-IL_0ae5_1:
+IL_0b0f_1:
 		{
-			goto IL_0b00;
+			goto IL_0b2a;
 		}
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -18725,31 +18716,31 @@ IL_0ae5_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0ae7;
+			goto CATCH_0b11;
 		}
 		throw e;
 	}
 
-CATCH_0ae7:
+CATCH_0b11:
 	{
-		V_26 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		V_29 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 		__this->___U3CU3E1__state = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_453 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
-		Exception_t* L_454 = V_26;
-		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_453, L_454, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_462 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
+		Exception_t* L_463 = V_29;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_462, L_463, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0b13;
+		goto IL_0b3d;
 	}
 
-IL_0b00:
+IL_0b2a:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:252>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:258>
 		__this->___U3CU3E1__state = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_455 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
-		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_455, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_464 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_464, NULL);
 	}
 
-IL_0b13:
+IL_0b3d:
 	{
 		return;
 	}
@@ -18823,19 +18814,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetPlayerNameU3Ed__11_MoveNext_m4AF5E
 			}
 		}
 		{
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:62>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:63>
 			String_t* L_2 = __this->___name;
 			V_1 = L_2;
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:64>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:65>
 			String_t* L_3 = V_1;
 			NullCheck(L_3);
 			String_t* L_4;
 			L_4 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_3, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, NULL);
 			V_1 = L_4;
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:65>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:66>
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral418F6531E3D3F30B48C4CA5B3F867F56DE64ADE9, NULL);
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:68>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:69>
 			String_t* L_5 = V_1;
 			NullCheck(L_5);
 			int32_t L_6;
@@ -18856,7 +18847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetPlayerNameU3Ed__11_MoveNext_m4AF5E
 			}
 		}
 		{
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:70>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:71>
 			RuntimeObject* L_9;
 			L_9 = AuthenticationService_get_Instance_m84EBB538A503492BD441FFB825CF257EE1365BD1(NULL);
 			String_t* L_10 = V_1;
@@ -18931,7 +18922,7 @@ CATCH_009f:
 
 IL_00b6:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:72>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:73>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_23 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_23, NULL);
@@ -19017,10 +19008,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSignInAnonymouslyU3Ed__10_MoveNext_m7
 			}
 		}
 		{
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:47>
 			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:48>
 			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:49>
 			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:50>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:51>
 			RuntimeObject* L_2;
 			L_2 = AuthenticationService_get_Instance_m84EBB538A503492BD441FFB825CF257EE1365BD1(NULL);
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tFC8B4E8FAD65819C2B9348F70489B12CA60DF6DD_il2cpp_TypeInfo_var);
@@ -19051,11 +19042,11 @@ IL_0031_1:
 		{
 			NullCheck(G_B4_1);
 			InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(0, IAuthenticationService_tFE9A837104B06EF3DFCDA3A7D2B59DC2FF2A1737_il2cpp_TypeInfo_var, G_B4_1, G_B4_0);
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:51>
 			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:52>
 			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:53>
 			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:54>
 			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:55>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:56>
 			RuntimeObject* L_8;
 			L_8 = AuthenticationService_get_Instance_m84EBB538A503492BD441FFB825CF257EE1365BD1(NULL);
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tFC8B4E8FAD65819C2B9348F70489B12CA60DF6DD_il2cpp_TypeInfo_var);
@@ -19086,7 +19077,7 @@ IL_005a_1:
 		{
 			NullCheck(G_B6_1);
 			InterfaceActionInvoker1< Action_1_tBF3D0A2B57171A142B7E5430B25E9CFF5F30B860* >::Invoke(6, IAuthenticationService_tFE9A837104B06EF3DFCDA3A7D2B59DC2FF2A1737_il2cpp_TypeInfo_var, G_B6_1, G_B6_0);
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:57>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:58>
 			RuntimeObject* L_14;
 			L_14 = AuthenticationService_get_Instance_m84EBB538A503492BD441FFB825CF257EE1365BD1(NULL);
 			NullCheck(L_14);
@@ -19157,7 +19148,7 @@ CATCH_00be:
 
 IL_00d5:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:58>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:59>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_26 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -19248,7 +19239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__9_MoveNext_mD6FD56A648E4E6
 			}
 		}
 		{
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:33>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:34>
 			il2cpp_codegen_runtime_class_init_inline(UnityServices_t4749F0FB88F542DAC1E287ACFFAB146EF9759317_il2cpp_TypeInfo_var);
 			int32_t L_4;
 			L_4 = UnityServices_get_State_mF530C62B86FBF1BF3B379006DACF9C110FD7BC9D(NULL);
@@ -19269,7 +19260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__9_MoveNext_mD6FD56A648E4E6
 
 IL_0028_1:
 		{
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:35>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:36>
 			il2cpp_codegen_runtime_class_init_inline(UnityServices_t4749F0FB88F542DAC1E287ACFFAB146EF9759317_il2cpp_TypeInfo_var);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
 			L_6 = UnityServices_InitializeAsync_mDC1CB3B695B5497E7159CE261445C907B26D223A(NULL);
@@ -19314,7 +19305,7 @@ IL_007b_1:
 
 IL_0082_1:
 		{
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:39>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:40>
 			RuntimeObject* L_15;
 			L_15 = AuthenticationService_get_Instance_m84EBB538A503492BD441FFB825CF257EE1365BD1(NULL);
 			NullCheck(L_15);
@@ -19326,7 +19317,7 @@ IL_0082_1:
 			}
 		}
 		{
-			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:41>
+			//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:42>
 			LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565* L_17 = V_1;
 			NullCheck(L_17);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_18;
@@ -19398,7 +19389,7 @@ CATCH_00e8:
 
 IL_00ff:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:43>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/LeaderboardController.cs:44>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_29 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_29, NULL);
@@ -20167,14 +20158,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter_Update_mF6CD53B46094E9543E0C96FA
 		bool L_0 = __this->___isStarted;
 		if (!L_0)
 		{
-			goto IL_0118;
+			goto IL_0122;
 		}
 	}
 	{
 		bool L_1 = __this->___isChallengeModeActive;
 		if (L_1)
 		{
-			goto IL_0118;
+			goto IL_0122;
 		}
 	}
 	{
@@ -20182,207 +20173,223 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter_Update_mF6CD53B46094E9543E0C96FA
 		int32_t L_2 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
 		if (L_2)
 		{
-			goto IL_0118;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:26>
-		float L_3 = __this->___count;
-		float L_4;
-		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		__this->___count = ((float)il2cpp_codegen_add(L_3, L_4));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:27>
-		float L_5 = __this->___count;
-		__this->___miliSecond = ((float)il2cpp_codegen_multiply((fmodf(L_5, (1.0f))), (100.0f)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:28>
-		float L_6 = __this->___count;
-		__this->___second = ((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_6)%((int32_t)60)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:29>
-		float L_7 = __this->___count;
-		__this->___minute = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_7)/((int32_t)60)))%((int32_t)60)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:30>
-		float L_8 = __this->___count;
-		__this->___hour = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_8)/((int32_t)3600)))%((int32_t)24)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:32>
-		int32_t L_9 = __this->___hour;
-		if (L_9)
-		{
-			goto IL_00c3;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:33>
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_10 = __this->___text;
-		int32_t L_11 = __this->___minute;
-		int32_t L_12 = L_11;
-		RuntimeObject* L_13 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_12);
-		int32_t L_14 = __this->___second;
-		int32_t L_15 = L_14;
-		RuntimeObject* L_16 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_15);
-		float L_17 = __this->___miliSecond;
-		int32_t L_18 = il2cpp_codegen_cast_double_to_int<int32_t>(L_17);
-		RuntimeObject* L_19 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_18);
-		String_t* L_20;
-		L_20 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralA8239D7D184C3B9CB62A6BDF5686BE90EB8CF240, L_13, L_16, L_19, NULL);
-		NullCheck(L_10);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_10, L_20);
-		return;
-	}
-
-IL_00c3:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:35>
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_21 = __this->___text;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_22 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = L_22;
-		int32_t L_24 = __this->___hour;
-		int32_t L_25 = L_24;
-		RuntimeObject* L_26 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_25);
-		NullCheck(L_23);
-		ArrayElementTypeCheck (L_23, L_26);
-		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_26);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_27 = L_23;
-		int32_t L_28 = __this->___minute;
-		int32_t L_29 = L_28;
-		RuntimeObject* L_30 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_29);
-		NullCheck(L_27);
-		ArrayElementTypeCheck (L_27, L_30);
-		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_30);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_31 = L_27;
-		int32_t L_32 = __this->___second;
-		int32_t L_33 = L_32;
-		RuntimeObject* L_34 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_33);
-		NullCheck(L_31);
-		ArrayElementTypeCheck (L_31, L_34);
-		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_34);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_35 = L_31;
-		float L_36 = __this->___miliSecond;
-		int32_t L_37 = il2cpp_codegen_cast_double_to_int<int32_t>(L_36);
-		RuntimeObject* L_38 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_37);
-		NullCheck(L_35);
-		ArrayElementTypeCheck (L_35, L_38);
-		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_38);
-		String_t* L_39;
-		L_39 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral957FCA6CED63712694CFF237F639DC016C96C733, L_35, NULL);
-		NullCheck(L_21);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_21, L_39);
-		return;
-	}
-
-IL_0118:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:37>
-		bool L_40 = __this->___isStarted;
-		if (!L_40)
-		{
-			goto IL_024a;
-		}
-	}
-	{
-		bool L_41 = __this->___isChallengeModeActive;
-		if (!L_41)
-		{
-			goto IL_024a;
+			goto IL_0122;
 		}
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_42 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if (L_42)
+		bool L_3 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
+		if (!L_3)
 		{
-			goto IL_024a;
+			goto IL_0122;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:26>
+		float L_4 = __this->___count;
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___count = ((float)il2cpp_codegen_add(L_4, L_5));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:27>
+		float L_6 = __this->___count;
+		__this->___miliSecond = ((float)il2cpp_codegen_multiply((fmodf(L_6, (1.0f))), (100.0f)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:28>
+		float L_7 = __this->___count;
+		__this->___second = ((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_7)%((int32_t)60)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:29>
+		float L_8 = __this->___count;
+		__this->___minute = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_8)/((int32_t)60)))%((int32_t)60)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:30>
+		float L_9 = __this->___count;
+		__this->___hour = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_9)/((int32_t)3600)))%((int32_t)24)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:32>
+		int32_t L_10 = __this->___hour;
+		if (L_10)
+		{
+			goto IL_00cd;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:33>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_11 = __this->___text;
+		int32_t L_12 = __this->___minute;
+		int32_t L_13 = L_12;
+		RuntimeObject* L_14 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_13);
+		int32_t L_15 = __this->___second;
+		int32_t L_16 = L_15;
+		RuntimeObject* L_17 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_16);
+		float L_18 = __this->___miliSecond;
+		int32_t L_19 = il2cpp_codegen_cast_double_to_int<int32_t>(L_18);
+		RuntimeObject* L_20 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_19);
+		String_t* L_21;
+		L_21 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralA8239D7D184C3B9CB62A6BDF5686BE90EB8CF240, L_14, L_17, L_20, NULL);
+		NullCheck(L_11);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, L_21);
+		return;
+	}
+
+IL_00cd:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:35>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_22 = __this->___text;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = L_23;
+		int32_t L_25 = __this->___hour;
+		int32_t L_26 = L_25;
+		RuntimeObject* L_27 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_26);
+		NullCheck(L_24);
+		ArrayElementTypeCheck (L_24, L_27);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_27);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_28 = L_24;
+		int32_t L_29 = __this->___minute;
+		int32_t L_30 = L_29;
+		RuntimeObject* L_31 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_30);
+		NullCheck(L_28);
+		ArrayElementTypeCheck (L_28, L_31);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_31);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_32 = L_28;
+		int32_t L_33 = __this->___second;
+		int32_t L_34 = L_33;
+		RuntimeObject* L_35 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_34);
+		NullCheck(L_32);
+		ArrayElementTypeCheck (L_32, L_35);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_35);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_36 = L_32;
+		float L_37 = __this->___miliSecond;
+		int32_t L_38 = il2cpp_codegen_cast_double_to_int<int32_t>(L_37);
+		RuntimeObject* L_39 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_38);
+		NullCheck(L_36);
+		ArrayElementTypeCheck (L_36, L_39);
+		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_39);
+		String_t* L_40;
+		L_40 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral957FCA6CED63712694CFF237F639DC016C96C733, L_36, NULL);
+		NullCheck(L_22);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_22, L_40);
+		return;
+	}
+
+IL_0122:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:37>
+		bool L_41 = __this->___isStarted;
+		if (!L_41)
+		{
+			goto IL_025e;
+		}
+	}
+	{
+		bool L_42 = __this->___isChallengeModeActive;
+		if (!L_42)
+		{
+			goto IL_025e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_43 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if (L_43)
+		{
+			goto IL_025e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		bool L_44 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
+		if (!L_44)
+		{
+			goto IL_025e;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:39>
-		float L_43 = __this->___count;
-		__this->___miliSecond = ((float)il2cpp_codegen_multiply((fmodf(L_43, (1.0f))), (100.0f)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:40>
-		float L_44 = __this->___count;
-		__this->___second = ((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_44)%((int32_t)60)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:41>
 		float L_45 = __this->___count;
-		__this->___minute = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_45)/((int32_t)60)))%((int32_t)60)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:42>
+		__this->___miliSecond = ((float)il2cpp_codegen_multiply((fmodf(L_45, (1.0f))), (100.0f)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:40>
 		float L_46 = __this->___count;
-		__this->___hour = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_46)/((int32_t)3600)))%((int32_t)24)));
+		__this->___second = ((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_46)%((int32_t)60)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:41>
+		float L_47 = __this->___count;
+		__this->___minute = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_47)/((int32_t)60)))%((int32_t)60)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:42>
+		float L_48 = __this->___count;
+		__this->___hour = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_48)/((int32_t)3600)))%((int32_t)24)));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:44>
-		int32_t L_47 = __this->___hour;
-		if (L_47)
+		int32_t L_49 = __this->___hour;
+		if (L_49)
 		{
-			goto IL_01ca;
+			goto IL_01de;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:45>
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_48 = __this->___text;
-		int32_t L_49 = __this->___minute;
-		int32_t L_50 = L_49;
-		RuntimeObject* L_51 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_50);
-		int32_t L_52 = __this->___second;
-		int32_t L_53 = L_52;
-		RuntimeObject* L_54 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_53);
-		float L_55 = __this->___miliSecond;
-		int32_t L_56 = il2cpp_codegen_cast_double_to_int<int32_t>(L_55);
-		RuntimeObject* L_57 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_56);
-		String_t* L_58;
-		L_58 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralA8239D7D184C3B9CB62A6BDF5686BE90EB8CF240, L_51, L_54, L_57, NULL);
-		NullCheck(L_48);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_48, L_58);
-		goto IL_021e;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_50 = __this->___text;
+		int32_t L_51 = __this->___minute;
+		int32_t L_52 = L_51;
+		RuntimeObject* L_53 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_52);
+		int32_t L_54 = __this->___second;
+		int32_t L_55 = L_54;
+		RuntimeObject* L_56 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_55);
+		float L_57 = __this->___miliSecond;
+		int32_t L_58 = il2cpp_codegen_cast_double_to_int<int32_t>(L_57);
+		RuntimeObject* L_59 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_58);
+		String_t* L_60;
+		L_60 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralA8239D7D184C3B9CB62A6BDF5686BE90EB8CF240, L_53, L_56, L_59, NULL);
+		NullCheck(L_50);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_50, L_60);
+		goto IL_0232;
 	}
 
-IL_01ca:
+IL_01de:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:47>
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_59 = __this->___text;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_60 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_61 = L_60;
-		int32_t L_62 = __this->___hour;
-		int32_t L_63 = L_62;
-		RuntimeObject* L_64 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_63);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_61 = __this->___text;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_62 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_63 = L_62;
+		int32_t L_64 = __this->___hour;
+		int32_t L_65 = L_64;
+		RuntimeObject* L_66 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_65);
+		NullCheck(L_63);
+		ArrayElementTypeCheck (L_63, L_66);
+		(L_63)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_66);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_67 = L_63;
+		int32_t L_68 = __this->___minute;
+		int32_t L_69 = L_68;
+		RuntimeObject* L_70 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_69);
+		NullCheck(L_67);
+		ArrayElementTypeCheck (L_67, L_70);
+		(L_67)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_70);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_71 = L_67;
+		int32_t L_72 = __this->___second;
+		int32_t L_73 = L_72;
+		RuntimeObject* L_74 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_73);
+		NullCheck(L_71);
+		ArrayElementTypeCheck (L_71, L_74);
+		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_74);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_75 = L_71;
+		float L_76 = __this->___miliSecond;
+		int32_t L_77 = il2cpp_codegen_cast_double_to_int<int32_t>(L_76);
+		RuntimeObject* L_78 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_77);
+		NullCheck(L_75);
+		ArrayElementTypeCheck (L_75, L_78);
+		(L_75)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_78);
+		String_t* L_79;
+		L_79 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral957FCA6CED63712694CFF237F639DC016C96C733, L_75, NULL);
 		NullCheck(L_61);
-		ArrayElementTypeCheck (L_61, L_64);
-		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_64);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_65 = L_61;
-		int32_t L_66 = __this->___minute;
-		int32_t L_67 = L_66;
-		RuntimeObject* L_68 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_67);
-		NullCheck(L_65);
-		ArrayElementTypeCheck (L_65, L_68);
-		(L_65)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_68);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_69 = L_65;
-		int32_t L_70 = __this->___second;
-		int32_t L_71 = L_70;
-		RuntimeObject* L_72 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_71);
-		NullCheck(L_69);
-		ArrayElementTypeCheck (L_69, L_72);
-		(L_69)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_72);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_73 = L_69;
-		float L_74 = __this->___miliSecond;
-		int32_t L_75 = il2cpp_codegen_cast_double_to_int<int32_t>(L_74);
-		RuntimeObject* L_76 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_75);
-		NullCheck(L_73);
-		ArrayElementTypeCheck (L_73, L_76);
-		(L_73)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_76);
-		String_t* L_77;
-		L_77 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral957FCA6CED63712694CFF237F639DC016C96C733, L_73, NULL);
-		NullCheck(L_59);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_59, L_77);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_61, L_79);
 	}
 
-IL_021e:
+IL_0232:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:48>
-		float L_78 = __this->___count;
-		float L_79;
-		L_79 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		__this->___count = ((float)il2cpp_codegen_subtract(L_78, L_79));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:49>
 		float L_80 = __this->___count;
-		if ((!(((float)L_80) < ((float)(0.0f)))))
+		float L_81;
+		L_81 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___count = ((float)il2cpp_codegen_subtract(L_80, L_81));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:49>
+		float L_82 = __this->___count;
+		if ((!(((float)L_82) < ((float)(0.0f)))))
 		{
-			goto IL_024a;
+			goto IL_025e;
 		}
 	}
 	{
@@ -20393,7 +20400,7 @@ IL_021e:
 		((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState = 7;
 	}
 
-IL_024a:
+IL_025e:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:55>
 		return;

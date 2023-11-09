@@ -397,7 +397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Activator_CreateInstance_mFF03
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62298
+// Method Definition Index: 62425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentDebugSettings__ctor_m55A234F30D3B678E063DFBB6B9D838DC5768744D (ConsentDebugSettings_t21BCD70B1E4DB762E04807E88E78285CC51370C6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -424,7 +424,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentDebugSettings__ctor_m55A234F30D3B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62299
+// Method Definition Index: 62426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentForm__ctor_m7E621E44264000847F539870184EB3230EDFEF41 (ConsentForm_t5610A8E6FEE812A11649F04979CB8679F9B0E1EF* __this, RuntimeObject* ___0_client, const RuntimeMethod* method) 
 {
 	{
@@ -435,7 +435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentForm__ctor_m7E621E44264000847F539
 		return;
 	}
 }
-// Method Definition Index: 62300
+// Method Definition Index: 62427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentForm_Load_mAB879496A1456226F52B4CE47B53975BB4ED5656 (Action_2_t635A5B9FAB4E7C090556DCA3F0CD60AD640D41CF* ___0_formLoadCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -483,7 +483,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentForm_Load_mAB879496A1456226F52B4C
 		return;
 	}
 }
-// Method Definition Index: 62301
+// Method Definition Index: 62428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentForm_Show_m4B7187A682576C0A936E602958AFEDB712583C24 (ConsentForm_t5610A8E6FEE812A11649F04979CB8679F9B0E1EF* __this, Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ___0_onDismissed, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -508,7 +508,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentForm_Show_m4B7187A682576C0A936E60
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62302
+// Method Definition Index: 62429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey0__ctor_m5D157B75B884DF130C17084209BA0045F3BB4B3F (U3CLoadU3Ec__AnonStorey0_t4CE6008F4737411514DA60A638B984ACF49F3012* __this, const RuntimeMethod* method) 
 {
 	{
@@ -516,7 +516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey0__ctor_m5D157B75
 		return;
 	}
 }
-// Method Definition Index: 62303
+// Method Definition Index: 62430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey0_U3CU3Em__0_mCFE7B081E5FED930F60A770B0E64AC16CEA21861 (U3CLoadU3Ec__AnonStorey0_t4CE6008F4737411514DA60A638B984ACF49F3012* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -544,7 +544,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 62304
+// Method Definition Index: 62431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey0_U3CU3Em__1_m5E93B0194710C897FF8CDEE171D209D8E67CF953 (U3CLoadU3Ec__AnonStorey0_t4CE6008F4737411514DA60A638B984ACF49F3012* __this, FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* ___0_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -587,7 +587,7 @@ IL_0030:
 		return;
 	}
 }
-// Method Definition Index: 62305
+// Method Definition Index: 62432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey0_U3CU3Em__2_m200EBAF519788BED08C1EA99141B2BF31ED3F766 (U3CLoadU3Ec__AnonStorey0_t4CE6008F4737411514DA60A638B984ACF49F3012* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -614,7 +614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey0_U3CU3Em__2_m200
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62306
+// Method Definition Index: 62433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey1__ctor_m4230348DB164723CA9736F7188B2824F682C03E6 (U3CLoadU3Ec__AnonStorey1_tAED083EC5BC483A9A7E6A51E812AF8A0887B62F3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -622,7 +622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey1__ctor_m4230348D
 		return;
 	}
 }
-// Method Definition Index: 62307
+// Method Definition Index: 62434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey1_U3CU3Em__0_m5179274E91CFEEC3DC12EB844759CACD2FC1CEB5 (U3CLoadU3Ec__AnonStorey1_tAED083EC5BC483A9A7E6A51E812AF8A0887B62F3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -643,7 +643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadU3Ec__AnonStorey1_U3CU3Em__0_m517
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62308
+// Method Definition Index: 62435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformation__ctor_m4AAE892486EE0F86EC031392CBAD7B3EBC65623A (ConsentInformation_t7D85F62D07F64B8B78347A408923F50AF7C9DDC3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -651,7 +651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformation__ctor_m4AAE892486EE0F
 		return;
 	}
 }
-// Method Definition Index: 62309
+// Method Definition Index: 62436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ConsentInformation_get_ClientFactory_mD99BFD395187E5C21F07E369A6DF612D300060A6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -680,7 +680,7 @@ IL_0014:
 		return L_2;
 	}
 }
-// Method Definition Index: 62310
+// Method Definition Index: 62437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformation_set_ClientFactory_mAAB3100B64265BF4448A1B1F68162F21F837749A (RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -696,7 +696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformation_set_ClientFactory_mAA
 		return;
 	}
 }
-// Method Definition Index: 62311
+// Method Definition Index: 62438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConsentInformation_get_ConsentStatus_m0FD7B16BCB11F667C11CA56AB894BFFFDB12656D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -721,7 +721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConsentInformation_get_ConsentStatus_
 		return (int32_t)(L_3);
 	}
 }
-// Method Definition Index: 62312
+// Method Definition Index: 62439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformation_Update_m77C30ED8853B66168D77E0F02666360C78671046 (ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516* ___0_request, Action_1_tB03D82616088D202ABD23F934CC2976A2ED530B4* ___1_consentInfoUpdateCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -766,7 +766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformation_Update_m77C30ED8853B6
 		return;
 	}
 }
-// Method Definition Index: 62313
+// Method Definition Index: 62440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformation_Reset_mB83967662435D6A76D49F22DEB2BEAFC4C6512DE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -790,7 +790,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentInformation_Reset_mB83967662435D6
 		return;
 	}
 }
-// Method Definition Index: 62314
+// Method Definition Index: 62441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConsentInformation_IsConsentFormAvailable_m55FB09EEC81648619F52F648D75AA6DBAC5B6ECE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -823,7 +823,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConsentInformation_IsConsentFormAvailabl
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62315
+// Method Definition Index: 62442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ec__AnonStorey0__ctor_m3525CFA3A371A63BCAF453F55D8BCC95E94D4C3C (U3CUpdateU3Ec__AnonStorey0_t0206FA681FB9288FC1AD58C3A4E25EEFF274393D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -831,7 +831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ec__AnonStorey0__ctor_m3525CF
 		return;
 	}
 }
-// Method Definition Index: 62316
+// Method Definition Index: 62443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ec__AnonStorey0_U3CU3Em__0_mFDFF30F7D0A0146CFE54AE0C9028996BE6132B57 (U3CUpdateU3Ec__AnonStorey0_t0206FA681FB9288FC1AD58C3A4E25EEFF274393D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -859,7 +859,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 62317
+// Method Definition Index: 62444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ec__AnonStorey0_U3CU3Em__1_mCFBF3F6B526674C5E2093DDEE1F4C5A7DDDF5DBC (U3CUpdateU3Ec__AnonStorey0_t0206FA681FB9288FC1AD58C3A4E25EEFF274393D* __this, FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* ___0_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -902,7 +902,7 @@ IL_0030:
 		return;
 	}
 }
-// Method Definition Index: 62318
+// Method Definition Index: 62445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ec__AnonStorey0_U3CU3Em__2_m09B6D5C6B963E2B42A5559B3755F25C47324EFFD (U3CUpdateU3Ec__AnonStorey0_t0206FA681FB9288FC1AD58C3A4E25EEFF274393D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -920,7 +920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ec__AnonStorey0_U3CU3Em__2_m0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62319
+// Method Definition Index: 62446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ec__AnonStorey1__ctor_mCE49B6C8A8E97FDC7FDA2642E82FEAE6BD1BDF68 (U3CUpdateU3Ec__AnonStorey1_t4DCCA3AA69929F3A51FC97B23F0DDAE47AC18FB7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -928,7 +928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ec__AnonStorey1__ctor_mCE49B6
 		return;
 	}
 }
-// Method Definition Index: 62320
+// Method Definition Index: 62447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ec__AnonStorey1_U3CU3Em__0_m6D326C370DDADE82DB806657F000BAD5C5B77CCF (U3CUpdateU3Ec__AnonStorey1_t4DCCA3AA69929F3A51FC97B23F0DDAE47AC18FB7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -949,7 +949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ec__AnonStorey1_U3CU3Em__0_m6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62321
+// Method Definition Index: 62448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentRequestParameters__ctor_mB689D636424571F47A023696E0916A769EE1EC5C (ConsentRequestParameters_t34C1E8C04ED21B543DFE57708C303AABEA447516* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -975,7 +975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentRequestParameters__ctor_mB689D636
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62322
+// Method Definition Index: 62449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FormError__ctor_m74D2F9BD01E242B45657155A11219192DF02A8A7 (FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* __this, int32_t ___0_errorCode, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	{
@@ -987,7 +987,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FormError__ctor_m74D2F9BD01E242B45657155
 		return;
 	}
 }
-// Method Definition Index: 62323
+// Method Definition Index: 62450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FormError_get_ErrorCode_m56DA072ADC0AC19C1684477D7262DD62E532A946 (FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* __this, const RuntimeMethod* method) 
 {
 	{
@@ -995,7 +995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FormError_get_ErrorCode_m56DA072ADC0A
 		return L_0;
 	}
 }
-// Method Definition Index: 62324
+// Method Definition Index: 62451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FormError_set_ErrorCode_mCC38EFF4FB071A3DA5B2E0D0F77A527E1D5B5426 (FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1004,7 +1004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FormError_set_ErrorCode_mCC38EFF4FB071A3
 		return;
 	}
 }
-// Method Definition Index: 62325
+// Method Definition Index: 62452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FormError_get_Message_mF77BE1DEF78A279C9B197AFF203EA2E014E952F7 (FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1012,7 +1012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FormError_get_Message_mF77BE1DEF78A
 		return L_0;
 	}
 }
-// Method Definition Index: 62326
+// Method Definition Index: 62453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FormError_set_Message_mA6F54ADCA0D8A37C7CBD0A68B213AAE392BA8F1F (FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1030,7 +1030,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FormError_set_Message_mA6F54ADCA0D8A37C7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 62327
+// Method Definition Index: 62454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utils__ctor_mAE90DD551BBEFCA5F13B374F88688158B7C1BACC (Utils_t2CF23FFC5ED202531D5A300162B6AD7CCF89B94D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1038,7 +1038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utils__ctor_mAE90DD551BBEFCA5F13B374F886
 		return;
 	}
 }
-// Method Definition Index: 62328
+// Method Definition Index: 62455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Utils_GetClientFactory_m94A1DAB83A77761C867D03DD43103387F9ABF409 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1107,7 +1107,7 @@ IL_0035:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 62324
+// Method Definition Index: 62451
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FormError_set_ErrorCode_mCC38EFF4FB071A3DA5B2E0D0F77A527E1D5B5426_inline (FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1116,7 +1116,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FormError_set_ErrorCode_mCC3
 		return;
 	}
 }
-// Method Definition Index: 62326
+// Method Definition Index: 62453
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FormError_set_Message_mA6F54ADCA0D8A37C7CBD0A68B213AAE392BA8F1F_inline (FormError_t925BBA051FDAC8CC3DECB9E5511864E8ED383026* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{

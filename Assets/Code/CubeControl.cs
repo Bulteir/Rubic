@@ -66,13 +66,13 @@ public class CubeControl : MonoBehaviour
 
     private void Update()
     {
-        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && rubicCube.GetComponent<CubeCameraControl>().isTiltRubicCube == false)
+        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && rubicCube.GetComponent<CubeCameraControl>().isTiltRubicCube == false && GlobalVariable.internetAvaible == true)
             cubeSwipe();
     }
 
     private void FixedUpdate()
     {
-        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame)
+        if (GlobalVariable.gameState == GlobalVariable.gameState_inGame && GlobalVariable.internetAvaible == true)
             Rotate();
     }
 

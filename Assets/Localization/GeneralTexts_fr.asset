@@ -196,6 +196,11 @@ MonoBehaviour:
     m_Localized: "\u20AC"
     m_Metadata:
       m_Items: []
+  - m_Id: 179729707329257472
+    m_Localized: "Ce jeu n\xE9cessite une connexion internet. Veuillez vous assurer
+      que votre appareil est connect\xE9 \xE0 internet."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

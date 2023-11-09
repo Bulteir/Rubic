@@ -405,11 +405,13 @@ IL2CPP_EXTERN_C String_t* _stringLiteral2064F80F811DB79A33C4E51C10221454E30C74AE
 IL2CPP_EXTERN_C String_t* _stringLiteral21ED4C7AF50D987589A9029FC0422151BE3A0FC2;
 IL2CPP_EXTERN_C String_t* _stringLiteral220F4CEDE4CB5E249DED91786284BD29E5E8A7D4;
 IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
+IL2CPP_EXTERN_C String_t* _stringLiteral25D74BC981E6316A5E3CAEEA0BAF3C438F5C94DA;
 IL2CPP_EXTERN_C String_t* _stringLiteral2AAD8146F83728B6A117D63ABBB56868A45DA201;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C3D4826D5236B3C9A914C5CE2E3D8CEA48AC7CE;
 IL2CPP_EXTERN_C String_t* _stringLiteral2DB7600A13953710FD2E94DEAB8CC342295077F5;
 IL2CPP_EXTERN_C String_t* _stringLiteral2EDAFBAB37BD60206E4BD4C3407EA625AC16F3F1;
 IL2CPP_EXTERN_C String_t* _stringLiteral2F493AED9F98721EEE447695361191540BC04584;
+IL2CPP_EXTERN_C String_t* _stringLiteral2F7234099CCD07F9C0939ACCC13D7F7F6E95DBAD;
 IL2CPP_EXTERN_C String_t* _stringLiteral385A3F00319A5A164D8F37EB690D86A55732F2BA;
 IL2CPP_EXTERN_C String_t* _stringLiteral3BC20E88DF89F628AAF59D68D64C799BAABC619C;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E48D9827E218D1CEB898CDF70BFC32C78C25882;
@@ -424,6 +426,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteral6B69EF0FE17C5A4A1F5726EE5046ECC4AEBA58A5
 IL2CPP_EXTERN_C String_t* _stringLiteral6B8008AA305A5D35119B3AE9DEF6B2B6B5A6D22A;
 IL2CPP_EXTERN_C String_t* _stringLiteral6CD3DC9FEC81CCCBAE63099636E2C5FD07B10E5B;
 IL2CPP_EXTERN_C String_t* _stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973;
+IL2CPP_EXTERN_C String_t* _stringLiteral7402F76B2D6078A455F77607AF6E7350B6DE019E;
+IL2CPP_EXTERN_C String_t* _stringLiteral7454695E25D304C65D0C1333D8008E862569CAE9;
 IL2CPP_EXTERN_C String_t* _stringLiteral766C95B990F0A8A68768622E540735CC331AD06D;
 IL2CPP_EXTERN_C String_t* _stringLiteral7E70AF961A2F88ADB9DB7B9C3B5F25A532C1570A;
 IL2CPP_EXTERN_C String_t* _stringLiteral7FAFFCD4CAB09B3C7AFD1A99C18DEA355DE6D69C;
@@ -440,6 +444,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA019FB7F17AA36A9743C530E1F11D5613B8B1158
 IL2CPP_EXTERN_C String_t* _stringLiteralA36CEB74DB13B20C364555CD23219E1C94F30015;
 IL2CPP_EXTERN_C String_t* _stringLiteralA39854868AB059AECE65CBB1DF7BC61DD7E9A8BA;
 IL2CPP_EXTERN_C String_t* _stringLiteralAB69FA1AB6BB831506EFCAD83900FEE751E85F6F;
+IL2CPP_EXTERN_C String_t* _stringLiteralB16CF3324CA15FF0851B0F99DD86AC638C3E0CAE;
 IL2CPP_EXTERN_C String_t* _stringLiteralB84B652CB8D5AB6F2DB99207B753EFA2A77B2F50;
 IL2CPP_EXTERN_C String_t* _stringLiteralCF869BA6D4AFDE5254C5E7ED65BFA5EC2724542B;
 IL2CPP_EXTERN_C String_t* _stringLiteralCFCD901695300693C2208813C19FA8E9FA1E7BF0;
@@ -6542,8 +6547,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsMenu_Language_Dropdown_ChangeSel
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisSettingMenu_Quality_Dropdown_t28AA0609D83C7609E30729D1B81C1584D162B8C2_m207C621B3AE2DE29EFE2C279C1D7390C7CE40072_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILocalesProvider_t61A5B94D50A769527BFEF945350EA16D17BAFBB0_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2064F80F811DB79A33C4E51C10221454E30C74AE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral21ED4C7AF50D987589A9029FC0422151BE3A0FC2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral25D74BC981E6316A5E3CAEEA0BAF3C438F5C94DA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2F7234099CCD07F9C0939ACCC13D7F7F6E95DBAD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7402F76B2D6078A455F77607AF6E7350B6DE019E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7454695E25D304C65D0C1333D8008E862569CAE9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB16CF3324CA15FF0851B0F99DD86AC638C3E0CAE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF7DDF59B44DDF9253B657C54053522CF694D3FBE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -6559,7 +6572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsMenu_Language_Dropdown_ChangeSel
 		int32_t L_2 = V_0;
 		if (L_2)
 		{
-			goto IL_0035;
+			goto IL_0038;
 		}
 	}
 	{
@@ -6575,16 +6588,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsMenu_Language_Dropdown_ChangeSel
 		LocalizationSettings_set_SelectedLocale_m19FDCECD3A7667D216F3CD160E0A9F7078D262A1(L_5, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:18>
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
-		goto IL_005d;
+		goto IL_01c1;
 	}
 
-IL_0035:
+IL_0038:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:20>
 		int32_t L_6 = V_0;
 		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
 		{
-			goto IL_005d;
+			goto IL_0065;
 		}
 	}
 	{
@@ -6600,20 +6613,220 @@ IL_0035:
 		LocalizationSettings_set_SelectedLocale_m19FDCECD3A7667D216F3CD160E0A9F7078D262A1(L_9, NULL);
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:23>
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
+		goto IL_01c1;
 	}
 
-IL_005d:
+IL_0065:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:25>
-		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:26>
-		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_10 = __this->___qualityDropdownList;
-		NullCheck(L_10);
-		SettingMenu_Quality_Dropdown_t28AA0609D83C7609E30729D1B81C1584D162B8C2* L_11;
-		L_11 = Component_GetComponent_TisSettingMenu_Quality_Dropdown_t28AA0609D83C7609E30729D1B81C1584D162B8C2_m207C621B3AE2DE29EFE2C279C1D7390C7CE40072(L_10, Component_GetComponent_TisSettingMenu_Quality_Dropdown_t28AA0609D83C7609E30729D1B81C1584D162B8C2_m207C621B3AE2DE29EFE2C279C1D7390C7CE40072_RuntimeMethod_var);
-		NullCheck(L_11);
-		SettingMenu_Quality_Dropdown_UpdateQualityOptions_mEA70F54FFFCB76AB1274B0D8000926A4FAF6F07C(L_11, NULL);
+		int32_t L_10 = V_0;
+		if ((!(((uint32_t)L_10) == ((uint32_t)2))))
+		{
+			goto IL_0092;
+		}
+	}
+	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:27>
+		RuntimeObject* L_11;
+		L_11 = LocalizationSettings_get_AvailableLocales_m95587473945EA5E4DF6638412151A0FEE83A0BCC(NULL);
+		NullCheck(L_11);
+		List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* L_12;
+		L_12 = InterfaceFuncInvoker0< List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* >::Invoke(0, ILocalesProvider_t61A5B94D50A769527BFEF945350EA16D17BAFBB0_il2cpp_TypeInfo_var, L_11);
+		NullCheck(L_12);
+		Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9* L_13;
+		L_13 = List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71(L_12, 2, List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71_RuntimeMethod_var);
+		LocalizationSettings_set_SelectedLocale_m19FDCECD3A7667D216F3CD160E0A9F7078D262A1(L_13, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:28>
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973, _stringLiteral21ED4C7AF50D987589A9029FC0422151BE3A0FC2, NULL);
+		goto IL_01c1;
+	}
+
+IL_0092:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:30>
+		int32_t L_14 = V_0;
+		if ((!(((uint32_t)L_14) == ((uint32_t)3))))
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:32>
+		RuntimeObject* L_15;
+		L_15 = LocalizationSettings_get_AvailableLocales_m95587473945EA5E4DF6638412151A0FEE83A0BCC(NULL);
+		NullCheck(L_15);
+		List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* L_16;
+		L_16 = InterfaceFuncInvoker0< List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* >::Invoke(0, ILocalesProvider_t61A5B94D50A769527BFEF945350EA16D17BAFBB0_il2cpp_TypeInfo_var, L_15);
+		NullCheck(L_16);
+		Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9* L_17;
+		L_17 = List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71(L_16, 3, List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71_RuntimeMethod_var);
+		LocalizationSettings_set_SelectedLocale_m19FDCECD3A7667D216F3CD160E0A9F7078D262A1(L_17, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:33>
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973, _stringLiteral2064F80F811DB79A33C4E51C10221454E30C74AE, NULL);
+		goto IL_01c1;
+	}
+
+IL_00bf:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:35>
+		int32_t L_18 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)4))))
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:37>
+		RuntimeObject* L_19;
+		L_19 = LocalizationSettings_get_AvailableLocales_m95587473945EA5E4DF6638412151A0FEE83A0BCC(NULL);
+		NullCheck(L_19);
+		List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* L_20;
+		L_20 = InterfaceFuncInvoker0< List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* >::Invoke(0, ILocalesProvider_t61A5B94D50A769527BFEF945350EA16D17BAFBB0_il2cpp_TypeInfo_var, L_19);
+		NullCheck(L_20);
+		Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9* L_21;
+		L_21 = List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71(L_20, 4, List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71_RuntimeMethod_var);
+		LocalizationSettings_set_SelectedLocale_m19FDCECD3A7667D216F3CD160E0A9F7078D262A1(L_21, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:38>
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973, _stringLiteral7454695E25D304C65D0C1333D8008E862569CAE9, NULL);
+		goto IL_01c1;
+	}
+
+IL_00ec:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:40>
+		int32_t L_22 = V_0;
+		if ((!(((uint32_t)L_22) == ((uint32_t)5))))
+		{
+			goto IL_0119;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:42>
+		RuntimeObject* L_23;
+		L_23 = LocalizationSettings_get_AvailableLocales_m95587473945EA5E4DF6638412151A0FEE83A0BCC(NULL);
+		NullCheck(L_23);
+		List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* L_24;
+		L_24 = InterfaceFuncInvoker0< List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* >::Invoke(0, ILocalesProvider_t61A5B94D50A769527BFEF945350EA16D17BAFBB0_il2cpp_TypeInfo_var, L_23);
+		NullCheck(L_24);
+		Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9* L_25;
+		L_25 = List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71(L_24, 5, List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71_RuntimeMethod_var);
+		LocalizationSettings_set_SelectedLocale_m19FDCECD3A7667D216F3CD160E0A9F7078D262A1(L_25, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:43>
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973, _stringLiteralF7DDF59B44DDF9253B657C54053522CF694D3FBE, NULL);
+		goto IL_01c1;
+	}
+
+IL_0119:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:45>
+		int32_t L_26 = V_0;
+		if ((!(((uint32_t)L_26) == ((uint32_t)6))))
+		{
+			goto IL_0143;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:47>
+		RuntimeObject* L_27;
+		L_27 = LocalizationSettings_get_AvailableLocales_m95587473945EA5E4DF6638412151A0FEE83A0BCC(NULL);
+		NullCheck(L_27);
+		List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* L_28;
+		L_28 = InterfaceFuncInvoker0< List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* >::Invoke(0, ILocalesProvider_t61A5B94D50A769527BFEF945350EA16D17BAFBB0_il2cpp_TypeInfo_var, L_27);
+		NullCheck(L_28);
+		Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9* L_29;
+		L_29 = List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71(L_28, 6, List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71_RuntimeMethod_var);
+		LocalizationSettings_set_SelectedLocale_m19FDCECD3A7667D216F3CD160E0A9F7078D262A1(L_29, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:48>
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973, _stringLiteral2F7234099CCD07F9C0939ACCC13D7F7F6E95DBAD, NULL);
+		goto IL_01c1;
+	}
+
+IL_0143:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:50>
+		int32_t L_30 = V_0;
+		if ((!(((uint32_t)L_30) == ((uint32_t)7))))
+		{
+			goto IL_016d;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:52>
+		RuntimeObject* L_31;
+		L_31 = LocalizationSettings_get_AvailableLocales_m95587473945EA5E4DF6638412151A0FEE83A0BCC(NULL);
+		NullCheck(L_31);
+		List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* L_32;
+		L_32 = InterfaceFuncInvoker0< List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* >::Invoke(0, ILocalesProvider_t61A5B94D50A769527BFEF945350EA16D17BAFBB0_il2cpp_TypeInfo_var, L_31);
+		NullCheck(L_32);
+		Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9* L_33;
+		L_33 = List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71(L_32, 7, List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71_RuntimeMethod_var);
+		LocalizationSettings_set_SelectedLocale_m19FDCECD3A7667D216F3CD160E0A9F7078D262A1(L_33, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:53>
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973, _stringLiteral7402F76B2D6078A455F77607AF6E7350B6DE019E, NULL);
+		goto IL_01c1;
+	}
+
+IL_016d:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:55>
+		int32_t L_34 = V_0;
+		if ((!(((uint32_t)L_34) == ((uint32_t)8))))
+		{
+			goto IL_0197;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:57>
+		RuntimeObject* L_35;
+		L_35 = LocalizationSettings_get_AvailableLocales_m95587473945EA5E4DF6638412151A0FEE83A0BCC(NULL);
+		NullCheck(L_35);
+		List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* L_36;
+		L_36 = InterfaceFuncInvoker0< List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* >::Invoke(0, ILocalesProvider_t61A5B94D50A769527BFEF945350EA16D17BAFBB0_il2cpp_TypeInfo_var, L_35);
+		NullCheck(L_36);
+		Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9* L_37;
+		L_37 = List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71(L_36, 8, List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71_RuntimeMethod_var);
+		LocalizationSettings_set_SelectedLocale_m19FDCECD3A7667D216F3CD160E0A9F7078D262A1(L_37, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:58>
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973, _stringLiteralB16CF3324CA15FF0851B0F99DD86AC638C3E0CAE, NULL);
+		goto IL_01c1;
+	}
+
+IL_0197:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:60>
+		int32_t L_38 = V_0;
+		if ((!(((uint32_t)L_38) == ((uint32_t)((int32_t)9)))))
+		{
+			goto IL_01c1;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:62>
+		RuntimeObject* L_39;
+		L_39 = LocalizationSettings_get_AvailableLocales_m95587473945EA5E4DF6638412151A0FEE83A0BCC(NULL);
+		NullCheck(L_39);
+		List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* L_40;
+		L_40 = InterfaceFuncInvoker0< List_1_tBD0AC994E5F9C7F539E0378F0CBB119065136548* >::Invoke(0, ILocalesProvider_t61A5B94D50A769527BFEF945350EA16D17BAFBB0_il2cpp_TypeInfo_var, L_39);
+		NullCheck(L_40);
+		Locale_t7BD9FB50247883E73B4CC92360943B0455CF02B9* L_41;
+		L_41 = List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71(L_40, ((int32_t)9), List_1_get_Item_m371BFB123C54FBBA612036D55FABF370481EFB71_RuntimeMethod_var);
+		LocalizationSettings_set_SelectedLocale_m19FDCECD3A7667D216F3CD160E0A9F7078D262A1(L_41, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:63>
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral70DFCE4C517AFB79CD31B66C4F9C3BA8BDDB3973, _stringLiteral25D74BC981E6316A5E3CAEEA0BAF3C438F5C94DA, NULL);
+	}
+
+IL_01c1:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:65>
+		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:66>
+		TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* L_42 = __this->___qualityDropdownList;
+		NullCheck(L_42);
+		SettingMenu_Quality_Dropdown_t28AA0609D83C7609E30729D1B81C1584D162B8C2* L_43;
+		L_43 = Component_GetComponent_TisSettingMenu_Quality_Dropdown_t28AA0609D83C7609E30729D1B81C1584D162B8C2_m207C621B3AE2DE29EFE2C279C1D7390C7CE40072(L_42, Component_GetComponent_TisSettingMenu_Quality_Dropdown_t28AA0609D83C7609E30729D1B81C1584D162B8C2_m207C621B3AE2DE29EFE2C279C1D7390C7CE40072_RuntimeMethod_var);
+		NullCheck(L_43);
+		SettingMenu_Quality_Dropdown_UpdateQualityOptions_mEA70F54FFFCB76AB1274B0D8000926A4FAF6F07C(L_43, NULL);
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/SettingsMenu_Language_Dropdown.cs:67>
 		return;
 	}
 }

@@ -24507,9 +24507,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonConverter_1__ctor_m7ED503C340F5D2F73
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonableListWrapper_1__ctor_m8DC1476CE9609B8911E5857ED720430D34BFD6F8_gshared (JsonableListWrapper_1_t65722D4190D5038BC491C242FFF8BB1F550B5D08* __this, List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* ___0_list, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:544>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:545>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:544>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:545>
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_0 = ___0_list;
 		__this->___list = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___list), (void*)L_0);
@@ -24528,9 +24528,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonableListWrapper_1__ctor_m8DC1476CE96
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonableListWrapper_1__ctor_m1083402715A1640E054664EC298623CC7EAE65C6_gshared (JsonableListWrapper_1_tFEF567A68BFB5C4DA9A02F8863EACFB9EC0D25A1* __this, List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* ___0_list, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:544>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:545>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:544>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:545>
 		List_1_tCC34466850DEDC296B0E26EF52FD7696EAB1F0D3* L_0 = ___0_list;
 		__this->___list = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___list), (void*)L_0);

@@ -187,6 +187,10 @@ MonoBehaviour:
     m_Key: Currencies symbols
     m_Metadata:
       m_Items: []
+  - m_Id: 179729707329257472
+    m_Key: Internet Required Info
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

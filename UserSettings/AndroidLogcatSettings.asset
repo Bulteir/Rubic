@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "5203ab16ecf86337",
         "name": "com.Alpay.Kubiks",
-        "processId": 21144,
+        "processId": 23554,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -66,6 +66,24 @@
             "deviceId": "5203ab16ecf86337",
             "name": "com.Alpay.Kubiks",
             "processId": 21144,
+            "exited": false
+        },
+        {
+            "deviceId": "5203ab16ecf86337",
+            "name": "com.Alpay.Kubiks",
+            "processId": 14016,
+            "exited": false
+        },
+        {
+            "deviceId": "5203ab16ecf86337",
+            "name": "com.Alpay.Kubiks",
+            "processId": 22229,
+            "exited": false
+        },
+        {
+            "deviceId": "5203ab16ecf86337",
+            "name": "com.Alpay.Kubiks",
+            "processId": 23554,
             "exited": false
         }
     ],
