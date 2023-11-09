@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
   m_DefaultGroup: a6c3cc1340199ed47b5fead393d27ce0
-  m_CachedHash:
+  m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 602a83005b7ab41a2be486b0f4a695f1
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -32,11 +32,14 @@ MonoBehaviour:
   m_ShaderBundleNaming: 0
   m_ShaderBundleCustomNaming: 
   m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
     m_Id: 
   m_RemoteCatalogLoadPath:
     m_Id: 
+  m_ContentStateBuildPathProfileVariableName: 
+  m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: 
@@ -47,6 +50,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ddf858e293de67346acc90e98ed21398, type: 2}
   - {fileID: 11400000, guid: 93847380b66c9ab4ca6eb63ea25b0e6b, type: 2}
   - {fileID: 11400000, guid: 61780f974b317ba409af53ab16cff8da, type: 2}
+  - {fileID: 11400000, guid: ca3e30e7bdd4a9f4eb7fcab87555d4f8, type: 2}
+  - {fileID: 11400000, guid: 2216331d313f1ef4aa9f203556ca20ef, type: 2}
+  - {fileID: 11400000, guid: d5b393a0930777042aebe844a1cff629, type: 2}
+  - {fileID: 11400000, guid: c715b776c7991974db99313f44cb330a, type: 2}
+  - {fileID: 11400000, guid: 0d59cdc68a0de8642a83c926c8dbab57, type: 2}
+  - {fileID: 11400000, guid: d8db7e6558fafa746b5a0e6011b3b913, type: 2}
+  - {fileID: 11400000, guid: c6ff4601c8e0de64089c519959b99ffd, type: 2}
+  - {fileID: 11400000, guid: e8cfb1479f9f6e84db469d050aa16b3f, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -92,6 +103,14 @@ MonoBehaviour:
     - Locale-en
     - Preload
     - Locale-tr
+    - Locale-ar
+    - Locale-zh-Hans
+    - Locale-fr
+    - Locale-de
+    - Locale-ja
+    - Locale-pt
+    - Locale-ru
+    - Locale-es
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 4b9a3ffef3d8536428e3820351d783cc, type: 2}
@@ -111,3 +130,4 @@ MonoBehaviour:
     m_Settings: {fileID: 11400000}
     m_NextInstanceId: 0
     m_RegisteredServiceTypeRefs: []
+    m_PingTimeoutInMilliseconds: 5000

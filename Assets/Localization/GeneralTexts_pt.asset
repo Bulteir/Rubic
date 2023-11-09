@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GeneralTexts_pt
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt
+  m_SharedData: {fileID: 11400000, guid: 15373f390996f9448a51312aa4b4986c, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 2442027500237225990
+  m_TableData:
+  - m_Id: 487662280704
+    m_Localized: "Melhor Tempo\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126750810112
+    m_Localized: "Novo jogo\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255566274560
+    m_Localized: "Configura\xE7\xF5es\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45747916427264
+    m_Localized: "Sair\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1364218614898688
+    m_Localized: "Retomar\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1364802793365504
+    m_Localized: "Menu Principal\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1365462611910656
+    m_Localized: "Reiniciar\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2098395517804544
+    m_Localized: "Parab\xE9ns!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2121094487072768
+    m_Localized: 'Tempo:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2121162128613376
+    m_Localized: 'Movimentos:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6153450298531840
+    m_Localized: Novo Melhor Tempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6275343735316480
+    m_Localized: "Voltar\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6283340314304512
+    m_Localized: Tempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6283414272466944
+    m_Localized: Movimento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172492770201698304
+    m_Localized: "Remove os an\xFAncios no jogo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6283515262918656
+    m_Localized: "Data\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6633171406807040
+    m_Localized: Apagar Melhores Tempos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6644202380189696
+    m_Localized: Todos os melhores tempos apagados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6821374403272704
+    m_Localized: "Selecionar idioma\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6833866684751872
+    m_Localized: "Configura\xE7\xE3o de Qualidade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853212618350592
+    m_Localized: Baixo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853276841533440
+    m_Localized: "M\xE9dio"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6853336765554688
+    m_Localized: Alto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7539844495364096
+    m_Localized: Modo Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7539922702356480
+    m_Localized: Modo Desafio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7741719559720960
+    m_Localized: Tempo Esgotado!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9379223668969472
+    m_Localized: Dica
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22889074260889600
+    m_Localized: "F\xE1cil\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22889118418522112
+    m_Localized: "Muito F\xE1cil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171152258383347712
+    m_Localized: "Tabela de classifica\xE7\xE3o\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171461845925888000
+    m_Localized: Total:{value}
+    m_Metadata:
+      m_Items:
+      - rid: 2442027500237225990
+  - m_Id: 172037271698145280
+    m_Localized: "Tabela de Classifica\xE7\xE3o (Mensal)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172072201979297792
+    m_Localized: "Classifica\xE7\xE3o\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172127872003211264
+    m_Localized: "Inserir texto\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172072361199271936
+    m_Localized: "Nome\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172132179427590144
+    m_Localized: "Alterar Nome de Usu\xE1rio\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172483892982448128
+    m_Localized: "Loja\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172491486270717952
+    m_Localized: "{val} melhorias f\xE1ceis\r"
+    m_Metadata:
+      m_Items:
+      - rid: 2442027500237225990
+  - m_Id: 172492649556738048
+    m_Localized: "{val} melhorias muito f\xE1ceis"
+    m_Metadata:
+      m_Items:
+      - rid: 2442027500237225990
+  - m_Id: 172492805547098112
+    m_Localized: "Aumenta a quantidade de dicas no in\xEDcio e vistas em an\xFAncios
+      para {val}."
+    m_Metadata:
+      m_Items:
+      - rid: 2442027500237225990
+  - m_Id: 173953351924449280
+    m_Localized: "Restaurar compra\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177564720984883200
+    m_Localized: "Portugu\xEAs"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177565176154947584
+    m_Localized: "\u20AC"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 2442027500237225990
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0000f2c517d064020000329f26d164020000f2f04ad164020000f2f2a3276102

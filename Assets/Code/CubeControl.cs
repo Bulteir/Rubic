@@ -139,7 +139,7 @@ public class CubeControl : MonoBehaviour
                             float groupJointTouchDirectionUp = Vector3.Angle(firstTouchedPoint - secondTouchedPoint, item.position - (item.position + (item.up * 10f)));
                             float groupJointTouchDirectionForward = Vector3.Angle(firstTouchedPoint - secondTouchedPoint, item.position - (item.position + (item.forward * 10f)));
                             float groupJointTouchDirectionRight = Vector3.Angle(firstTouchedPoint - secondTouchedPoint, item.position - (item.position + (item.right * 10f)));
-                            
+
                             bool reverseUpDirecton = false;
                             bool reverseForwardDirecton = false;
                             bool reverseRightDirecton = false;
@@ -232,7 +232,7 @@ public class CubeControl : MonoBehaviour
 
                         PlayerPrefs.DeleteKey("Solution");
                         startRotate();
-                    }                
+                    }
                 }
             }
         }
@@ -497,23 +497,24 @@ public class CubeControl : MonoBehaviour
         }
         else //normal mod
         {
-            victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\n" +
-                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + " " +
-                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
+            victoryMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Congratulations!") + "\r\n" +
+    LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time:") + counter.GetComponent<TMP_Text>().text + "\r\n" +
+    LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Moves:") + resolveMoves;
+
 
             int totalMiliSecond = 0;
             //sayacý mili saniyeye dönüþtürüp o þekilde kaydediyoruz.
-            string [] times = counter.GetComponent<TMP_Text>().text.Split(':');
+            string[] times = counter.GetComponent<TMP_Text>().text.Split(':');
             if (times.Length > 3)//sayaçta saat vardýr
             {
                 totalMiliSecond += Int32.Parse(times[0]) * 3600 * 100; // saat
-                totalMiliSecond += Int32.Parse(times[1]) * 60*100; // dakika
+                totalMiliSecond += Int32.Parse(times[1]) * 60 * 100; // dakika
                 totalMiliSecond += Int32.Parse(times[2]) * 100; //saniye
                 totalMiliSecond += Int32.Parse(times[3]); //milisaniye
             }
             else // sayaçta milisaniye,saniye, dakika vardýr.
             {
-                totalMiliSecond += Int32.Parse(times[0]) * 60*100; // dakika
+                totalMiliSecond += Int32.Parse(times[0]) * 60 * 100; // dakika
                 totalMiliSecond += Int32.Parse(times[1]) * 100; // saniye
                 totalMiliSecond += Int32.Parse(times[2]); //milisaniye
             }
@@ -604,9 +605,7 @@ public class CubeControl : MonoBehaviour
     {
         string json = PlayerPrefs.GetString("Bests");
 
-        string bestTimesString = "       " + LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Time") + "           " +
-                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Move") + "	    " +
-                LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Date") + "\n";
+        string bestTimesString="";
 
         if (json != "")
         {

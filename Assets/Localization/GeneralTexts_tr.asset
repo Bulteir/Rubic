@@ -36,7 +36,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1364218614898688
-    m_Localized: Devam
+    m_Localized: "Devam et\r"
     m_Metadata:
       m_Items: []
   - m_Id: 1364802793365504
@@ -136,11 +136,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 171461845925888000
-    m_Localized: Toplam
+    m_Localized: Toplam:{value}
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - rid: 939405602768289797
   - m_Id: 172037271698145280
-    m_Localized: "Ayl\u0131k Liderlik Tablosu"
+    m_Localized: "Liderlik Tablosu (Ayl\u0131k)"
     m_Metadata:
       m_Items: []
   - m_Id: 172072201979297792
@@ -187,10 +188,18 @@ MonoBehaviour:
     m_Localized: "Sat\u0131n Al\u0131mlar\u0131 Geri Y\xFCkle"
     m_Metadata:
       m_Items: []
+  - m_Id: 177564720984883200
+    m_Localized: "T\xFCrk\xE7e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177565176154947584
+    m_Localized: "\u20BA"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
     - rid: 939405602768289797
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 0000f2c517d064020000329f26d164020000f2f04ad16402
+        m_Entries: 0000f2c517d064020000329f26d164020000f2f04ad164020000f2f2a3276102

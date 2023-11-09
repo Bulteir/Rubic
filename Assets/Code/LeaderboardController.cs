@@ -9,6 +9,7 @@ using Unity.Services.Authentication;
 using Unity.Services.Core;
 using Unity.Services.Leaderboards;
 using Unity.Services.Leaderboards.Models;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
@@ -138,7 +139,10 @@ public class LeaderboardController : MonoBehaviour
 
                     //toplam kayýt sayýsý Text'i
                     TotalRecordText.SetActive(true);
-                    TotalRecordText.GetComponent<TMP_Text>().text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Total") + ": " + topScores.Total.ToString();
+
+                    Dictionary<string, string> arguments = new Dictionary<string, string> { { "value", topScores.Total.ToString() } };
+                    TotalRecordText.GetComponent<TMP_Text>().text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Total", new object[] { arguments });
+
                     TotalRecordText.GetComponent<RectTransform>().anchoredPosition = new Vector2(TotalRecordText.GetComponent<RectTransform>().anchoredPosition.x, (topScores.Results.Count * -1 * (TemplateRow.GetComponent<RectTransform>().sizeDelta.y + LineSpacing)) - newBraceSpacing);
                 }
                 else//kullanýcýnýn leaderboarda kayýtlý puaný varsa
@@ -197,7 +201,8 @@ public class LeaderboardController : MonoBehaviour
                         //toplam kayýt sayýsý Text'i
                         LastRowIndex++;
                         TotalRecordText.SetActive(true);
-                        TotalRecordText.GetComponent<TMP_Text>().text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Total") + ": " + topScores.Total.ToString();
+                        Dictionary<string, string> arguments = new Dictionary<string, string> { { "value", topScores.Total.ToString() } };
+                        TotalRecordText.GetComponent<TMP_Text>().text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Total", new object[] { arguments });
                         TotalRecordText.GetComponent<RectTransform>().anchoredPosition = new Vector2(TotalRecordText.GetComponent<RectTransform>().anchoredPosition.x, nextPosY + -1 * (TemplateRow.GetComponent<RectTransform>().sizeDelta.y + LineSpacing) + rowGroupSpacing);
                     }
                     else//oyuncu puan olarak ilk 10'da ise
@@ -234,7 +239,8 @@ public class LeaderboardController : MonoBehaviour
 
                         //toplam kayýt sayýsý Text'i
                         TotalRecordText.SetActive(true);
-                        TotalRecordText.GetComponent<TMP_Text>().text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Total") + ": " + topScores.Total.ToString();
+                        Dictionary<string, string> arguments = new Dictionary<string, string> { { "value", topScores.Total.ToString() } };
+                        TotalRecordText.GetComponent<TMP_Text>().text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "Total", new object[] { arguments });
                         TotalRecordText.GetComponent<RectTransform>().anchoredPosition = new Vector2(TotalRecordText.GetComponent<RectTransform>().anchoredPosition.x, (topScores.Results.Count * -1 * (TemplateRow.GetComponent<RectTransform>().sizeDelta.y + LineSpacing)) - newBraceSpacing);
                     }
                 }

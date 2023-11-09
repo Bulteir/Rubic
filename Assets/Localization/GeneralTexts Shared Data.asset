@@ -179,6 +179,14 @@ MonoBehaviour:
     m_Key: Restore Purchase
     m_Metadata:
       m_Items: []
+  - m_Id: 177564720984883200
+    m_Key: LanguageNames
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177565176154947584
+    m_Key: Currencies symbols
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

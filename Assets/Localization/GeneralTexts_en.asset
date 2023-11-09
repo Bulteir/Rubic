@@ -32,7 +32,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 45747916427264
-    m_Localized: Exit
+    m_Localized: Quit
     m_Metadata:
       m_Items: []
   - m_Id: 1364218614898688
@@ -136,11 +136,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 171461845925888000
-    m_Localized: Total
+    m_Localized: Total:{value}
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - rid: 939405602768289796
   - m_Id: 172037271698145280
-    m_Localized: Monthly Leaderboard
+    m_Localized: Leaderboard (Monthly)
     m_Metadata:
       m_Items: []
   - m_Id: 172072201979297792
@@ -186,10 +187,18 @@ MonoBehaviour:
     m_Localized: Restore Purchase
     m_Metadata:
       m_Items: []
+  - m_Id: 177564720984883200
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177565176154947584
+    m_Localized: "\xA3"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
     - rid: 939405602768289796
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 0000f2c517d064020000329f26d164020000f2f04ad16402
+        m_Entries: 0000f2c517d064020000329f26d164020000f2f04ad164020000f2f2a3276102
