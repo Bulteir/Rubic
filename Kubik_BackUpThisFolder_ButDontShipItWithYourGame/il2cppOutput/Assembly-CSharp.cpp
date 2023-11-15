@@ -2938,6 +2938,7 @@ struct InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD 
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___storeController;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___mainMenuNoAdsButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___InternetRequiredPopup;
 };
 struct LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -7281,7 +7282,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeCameraControl_Update_m8CA3C10599B902
 		int32_t L_0 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
 		if (L_0)
 		{
-			goto IL_000d;
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		bool L_1 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
+		if (!L_1)
+		{
+			goto IL_0014;
 		}
 	}
 	{
@@ -7289,7 +7298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeCameraControl_Update_m8CA3C10599B902
 		CubeCameraControl_controlWithTouch_m0D7E74C78785C066F31411D8A8C551C2AC3468CD(__this, NULL);
 	}
 
-IL_000d:
+IL_0014:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeCameraControl.cs:37>
 		return;
@@ -8150,7 +8159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_Update_mC1C97EE07C4C4B709724
 		int32_t L_0 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
 		if (L_0)
 		{
-			goto IL_001f;
+			goto IL_0026;
 		}
 	}
 	{
@@ -8162,7 +8171,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_Update_mC1C97EE07C4C4B709724
 		bool L_3 = L_2->___isTiltRubicCube;
 		if (L_3)
 		{
-			goto IL_001f;
+			goto IL_0026;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		bool L_4 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
+		if (!L_4)
+		{
+			goto IL_0026;
 		}
 	}
 	{
@@ -8170,7 +8187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_Update_mC1C97EE07C4C4B709724
 		CubeControl_cubeSwipe_m8D32F42E540FFDC194B208046F42C3A4F0E547A1(__this, NULL);
 	}
 
-IL_001f:
+IL_0026:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:71>
 		return;
@@ -8191,7 +8208,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_FixedUpdate_mC9A3DF59269648A
 		int32_t L_0 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
 		if (L_0)
 		{
-			goto IL_000d;
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		bool L_1 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
+		if (!L_1)
+		{
+			goto IL_0014;
 		}
 	}
 	{
@@ -8199,7 +8224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeControl_FixedUpdate_mC9A3DF59269648A
 		CubeControl_Rotate_mE9E541B26B296A1CA9F1D36167D92F31AB330067(__this, NULL);
 	}
 
-IL_000d:
+IL_0014:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/CubeControl.cs:77>
 		return;
@@ -15979,9 +16004,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_Start_m82
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:12>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:14>
 		MonoBehaviour_InvokeRepeating_mF208501E0E4918F9168BBBA5FC50D8F80D01514D(__this, _stringLiteral35EDA38B45FF13CBC504639410F008D9CC4BF6BB, (5.0f), (5.0f), NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:13>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:15>
 		return;
 	}
 }
@@ -15996,34 +16021,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_CheckNetw
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:17>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:19>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = Application_get_internetReachability_m3FECA8BA005340369BB952CE8CDF3E1A53F3BA0E(NULL);
 		if (L_0)
 		{
-			goto IL_000f;
+			goto IL_001b;
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:20>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:22>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible = (bool)0;
-		goto IL_0015;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:23>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___InternetRequiredPopup;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
+		goto IL_002d;
 	}
 
-IL_000f:
+IL_001b:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:24>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:27>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible = (bool)1;
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:28>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___InternetRequiredPopup;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
 	}
 
-IL_0015:
+IL_002d:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:26>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:30>
 		InternetAvailabilityController_IAPItemsVisibleControl_m6F11F664BE248F2DECE910D77FB79C6BE6E10BDC(__this, NULL);
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:27>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:31>
 		return;
 	}
 }
@@ -16046,7 +16079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_IAPItemsV
 	Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:31>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:35>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		bool L_0 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
 		if (L_0)
@@ -16055,7 +16088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternetAvailabilityController_IAPItemsV
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:33>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:37>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___storeController;
 		NullCheck(L_1);
 		StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* L_2;
@@ -16085,13 +16118,13 @@ FINALLY_0043:
 
 IL_001f_1:
 			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:33>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:37>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 				L_5 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:35>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:39>
 				NullCheck(L_5);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:36>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:40>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___mainMenuNoAdsButton;
 				NullCheck(L_6);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
@@ -16099,7 +16132,7 @@ IL_001f_1:
 
 IL_0038_1:
 			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:33>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:37>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_7)
@@ -16119,7 +16152,7 @@ IL_0038_1:
 
 IL_0051:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:39>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
 		bool L_8 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
 		if (!L_8)
@@ -16138,7 +16171,7 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:41>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:45>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___storeController;
 		NullCheck(L_11);
 		StoreController_t6713917F4384F6932CBE463496C1105856BA4EA4* L_12;
@@ -16168,13 +16201,13 @@ FINALLY_00aa:
 
 IL_0086_1:
 			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:41>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:45>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
 				L_15 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:43>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:47>
 				NullCheck(L_15);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)1, NULL);
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:44>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:48>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___mainMenuNoAdsButton;
 				NullCheck(L_16);
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
@@ -16182,7 +16215,7 @@ IL_0086_1:
 
 IL_009f_1:
 			{
-				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:41>
+				//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:45>
 				bool L_17;
 				L_17 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_17)
@@ -16202,7 +16235,7 @@ IL_009f_1:
 
 IL_00b8:
 	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:48>
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/InternetAvailabilityController.cs:52>
 		return;
 	}
 }
@@ -20125,14 +20158,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter_Update_mF6CD53B46094E9543E0C96FA
 		bool L_0 = __this->___isStarted;
 		if (!L_0)
 		{
-			goto IL_0118;
+			goto IL_0122;
 		}
 	}
 	{
 		bool L_1 = __this->___isChallengeModeActive;
 		if (L_1)
 		{
-			goto IL_0118;
+			goto IL_0122;
 		}
 	}
 	{
@@ -20140,207 +20173,223 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Counter_Update_mF6CD53B46094E9543E0C96FA
 		int32_t L_2 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
 		if (L_2)
 		{
-			goto IL_0118;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:26>
-		float L_3 = __this->___count;
-		float L_4;
-		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		__this->___count = ((float)il2cpp_codegen_add(L_3, L_4));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:27>
-		float L_5 = __this->___count;
-		__this->___miliSecond = ((float)il2cpp_codegen_multiply((fmodf(L_5, (1.0f))), (100.0f)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:28>
-		float L_6 = __this->___count;
-		__this->___second = ((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_6)%((int32_t)60)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:29>
-		float L_7 = __this->___count;
-		__this->___minute = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_7)/((int32_t)60)))%((int32_t)60)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:30>
-		float L_8 = __this->___count;
-		__this->___hour = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_8)/((int32_t)3600)))%((int32_t)24)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:32>
-		int32_t L_9 = __this->___hour;
-		if (L_9)
-		{
-			goto IL_00c3;
-		}
-	}
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:33>
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_10 = __this->___text;
-		int32_t L_11 = __this->___minute;
-		int32_t L_12 = L_11;
-		RuntimeObject* L_13 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_12);
-		int32_t L_14 = __this->___second;
-		int32_t L_15 = L_14;
-		RuntimeObject* L_16 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_15);
-		float L_17 = __this->___miliSecond;
-		int32_t L_18 = il2cpp_codegen_cast_double_to_int<int32_t>(L_17);
-		RuntimeObject* L_19 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_18);
-		String_t* L_20;
-		L_20 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralA8239D7D184C3B9CB62A6BDF5686BE90EB8CF240, L_13, L_16, L_19, NULL);
-		NullCheck(L_10);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_10, L_20);
-		return;
-	}
-
-IL_00c3:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:35>
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_21 = __this->___text;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_22 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = L_22;
-		int32_t L_24 = __this->___hour;
-		int32_t L_25 = L_24;
-		RuntimeObject* L_26 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_25);
-		NullCheck(L_23);
-		ArrayElementTypeCheck (L_23, L_26);
-		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_26);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_27 = L_23;
-		int32_t L_28 = __this->___minute;
-		int32_t L_29 = L_28;
-		RuntimeObject* L_30 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_29);
-		NullCheck(L_27);
-		ArrayElementTypeCheck (L_27, L_30);
-		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_30);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_31 = L_27;
-		int32_t L_32 = __this->___second;
-		int32_t L_33 = L_32;
-		RuntimeObject* L_34 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_33);
-		NullCheck(L_31);
-		ArrayElementTypeCheck (L_31, L_34);
-		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_34);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_35 = L_31;
-		float L_36 = __this->___miliSecond;
-		int32_t L_37 = il2cpp_codegen_cast_double_to_int<int32_t>(L_36);
-		RuntimeObject* L_38 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_37);
-		NullCheck(L_35);
-		ArrayElementTypeCheck (L_35, L_38);
-		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_38);
-		String_t* L_39;
-		L_39 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral957FCA6CED63712694CFF237F639DC016C96C733, L_35, NULL);
-		NullCheck(L_21);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_21, L_39);
-		return;
-	}
-
-IL_0118:
-	{
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:37>
-		bool L_40 = __this->___isStarted;
-		if (!L_40)
-		{
-			goto IL_024a;
-		}
-	}
-	{
-		bool L_41 = __this->___isChallengeModeActive;
-		if (!L_41)
-		{
-			goto IL_024a;
+			goto IL_0122;
 		}
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
-		int32_t L_42 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
-		if (L_42)
+		bool L_3 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
+		if (!L_3)
 		{
-			goto IL_024a;
+			goto IL_0122;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:26>
+		float L_4 = __this->___count;
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___count = ((float)il2cpp_codegen_add(L_4, L_5));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:27>
+		float L_6 = __this->___count;
+		__this->___miliSecond = ((float)il2cpp_codegen_multiply((fmodf(L_6, (1.0f))), (100.0f)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:28>
+		float L_7 = __this->___count;
+		__this->___second = ((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_7)%((int32_t)60)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:29>
+		float L_8 = __this->___count;
+		__this->___minute = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_8)/((int32_t)60)))%((int32_t)60)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:30>
+		float L_9 = __this->___count;
+		__this->___hour = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_9)/((int32_t)3600)))%((int32_t)24)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:32>
+		int32_t L_10 = __this->___hour;
+		if (L_10)
+		{
+			goto IL_00cd;
+		}
+	}
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:33>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_11 = __this->___text;
+		int32_t L_12 = __this->___minute;
+		int32_t L_13 = L_12;
+		RuntimeObject* L_14 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_13);
+		int32_t L_15 = __this->___second;
+		int32_t L_16 = L_15;
+		RuntimeObject* L_17 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_16);
+		float L_18 = __this->___miliSecond;
+		int32_t L_19 = il2cpp_codegen_cast_double_to_int<int32_t>(L_18);
+		RuntimeObject* L_20 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_19);
+		String_t* L_21;
+		L_21 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralA8239D7D184C3B9CB62A6BDF5686BE90EB8CF240, L_14, L_17, L_20, NULL);
+		NullCheck(L_11);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, L_21);
+		return;
+	}
+
+IL_00cd:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:35>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_22 = __this->___text;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = L_23;
+		int32_t L_25 = __this->___hour;
+		int32_t L_26 = L_25;
+		RuntimeObject* L_27 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_26);
+		NullCheck(L_24);
+		ArrayElementTypeCheck (L_24, L_27);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_27);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_28 = L_24;
+		int32_t L_29 = __this->___minute;
+		int32_t L_30 = L_29;
+		RuntimeObject* L_31 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_30);
+		NullCheck(L_28);
+		ArrayElementTypeCheck (L_28, L_31);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_31);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_32 = L_28;
+		int32_t L_33 = __this->___second;
+		int32_t L_34 = L_33;
+		RuntimeObject* L_35 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_34);
+		NullCheck(L_32);
+		ArrayElementTypeCheck (L_32, L_35);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_35);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_36 = L_32;
+		float L_37 = __this->___miliSecond;
+		int32_t L_38 = il2cpp_codegen_cast_double_to_int<int32_t>(L_37);
+		RuntimeObject* L_39 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_38);
+		NullCheck(L_36);
+		ArrayElementTypeCheck (L_36, L_39);
+		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_39);
+		String_t* L_40;
+		L_40 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral957FCA6CED63712694CFF237F639DC016C96C733, L_36, NULL);
+		NullCheck(L_22);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_22, L_40);
+		return;
+	}
+
+IL_0122:
+	{
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:37>
+		bool L_41 = __this->___isStarted;
+		if (!L_41)
+		{
+			goto IL_025e;
+		}
+	}
+	{
+		bool L_42 = __this->___isChallengeModeActive;
+		if (!L_42)
+		{
+			goto IL_025e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		int32_t L_43 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState;
+		if (L_43)
+		{
+			goto IL_025e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var);
+		bool L_44 = ((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___internetAvaible;
+		if (!L_44)
+		{
+			goto IL_025e;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:39>
-		float L_43 = __this->___count;
-		__this->___miliSecond = ((float)il2cpp_codegen_multiply((fmodf(L_43, (1.0f))), (100.0f)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:40>
-		float L_44 = __this->___count;
-		__this->___second = ((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_44)%((int32_t)60)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:41>
 		float L_45 = __this->___count;
-		__this->___minute = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_45)/((int32_t)60)))%((int32_t)60)));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:42>
+		__this->___miliSecond = ((float)il2cpp_codegen_multiply((fmodf(L_45, (1.0f))), (100.0f)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:40>
 		float L_46 = __this->___count;
-		__this->___hour = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_46)/((int32_t)3600)))%((int32_t)24)));
+		__this->___second = ((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_46)%((int32_t)60)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:41>
+		float L_47 = __this->___count;
+		__this->___minute = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_47)/((int32_t)60)))%((int32_t)60)));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:42>
+		float L_48 = __this->___count;
+		__this->___hour = ((int32_t)(((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(L_48)/((int32_t)3600)))%((int32_t)24)));
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:44>
-		int32_t L_47 = __this->___hour;
-		if (L_47)
+		int32_t L_49 = __this->___hour;
+		if (L_49)
 		{
-			goto IL_01ca;
+			goto IL_01de;
 		}
 	}
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:45>
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_48 = __this->___text;
-		int32_t L_49 = __this->___minute;
-		int32_t L_50 = L_49;
-		RuntimeObject* L_51 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_50);
-		int32_t L_52 = __this->___second;
-		int32_t L_53 = L_52;
-		RuntimeObject* L_54 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_53);
-		float L_55 = __this->___miliSecond;
-		int32_t L_56 = il2cpp_codegen_cast_double_to_int<int32_t>(L_55);
-		RuntimeObject* L_57 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_56);
-		String_t* L_58;
-		L_58 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralA8239D7D184C3B9CB62A6BDF5686BE90EB8CF240, L_51, L_54, L_57, NULL);
-		NullCheck(L_48);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_48, L_58);
-		goto IL_021e;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_50 = __this->___text;
+		int32_t L_51 = __this->___minute;
+		int32_t L_52 = L_51;
+		RuntimeObject* L_53 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_52);
+		int32_t L_54 = __this->___second;
+		int32_t L_55 = L_54;
+		RuntimeObject* L_56 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_55);
+		float L_57 = __this->___miliSecond;
+		int32_t L_58 = il2cpp_codegen_cast_double_to_int<int32_t>(L_57);
+		RuntimeObject* L_59 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_58);
+		String_t* L_60;
+		L_60 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralA8239D7D184C3B9CB62A6BDF5686BE90EB8CF240, L_53, L_56, L_59, NULL);
+		NullCheck(L_50);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_50, L_60);
+		goto IL_0232;
 	}
 
-IL_01ca:
+IL_01de:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:47>
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_59 = __this->___text;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_60 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_61 = L_60;
-		int32_t L_62 = __this->___hour;
-		int32_t L_63 = L_62;
-		RuntimeObject* L_64 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_63);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_61 = __this->___text;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_62 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_63 = L_62;
+		int32_t L_64 = __this->___hour;
+		int32_t L_65 = L_64;
+		RuntimeObject* L_66 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_65);
+		NullCheck(L_63);
+		ArrayElementTypeCheck (L_63, L_66);
+		(L_63)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_66);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_67 = L_63;
+		int32_t L_68 = __this->___minute;
+		int32_t L_69 = L_68;
+		RuntimeObject* L_70 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_69);
+		NullCheck(L_67);
+		ArrayElementTypeCheck (L_67, L_70);
+		(L_67)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_70);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_71 = L_67;
+		int32_t L_72 = __this->___second;
+		int32_t L_73 = L_72;
+		RuntimeObject* L_74 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_73);
+		NullCheck(L_71);
+		ArrayElementTypeCheck (L_71, L_74);
+		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_74);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_75 = L_71;
+		float L_76 = __this->___miliSecond;
+		int32_t L_77 = il2cpp_codegen_cast_double_to_int<int32_t>(L_76);
+		RuntimeObject* L_78 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_77);
+		NullCheck(L_75);
+		ArrayElementTypeCheck (L_75, L_78);
+		(L_75)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_78);
+		String_t* L_79;
+		L_79 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral957FCA6CED63712694CFF237F639DC016C96C733, L_75, NULL);
 		NullCheck(L_61);
-		ArrayElementTypeCheck (L_61, L_64);
-		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_64);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_65 = L_61;
-		int32_t L_66 = __this->___minute;
-		int32_t L_67 = L_66;
-		RuntimeObject* L_68 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_67);
-		NullCheck(L_65);
-		ArrayElementTypeCheck (L_65, L_68);
-		(L_65)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_68);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_69 = L_65;
-		int32_t L_70 = __this->___second;
-		int32_t L_71 = L_70;
-		RuntimeObject* L_72 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_71);
-		NullCheck(L_69);
-		ArrayElementTypeCheck (L_69, L_72);
-		(L_69)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_72);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_73 = L_69;
-		float L_74 = __this->___miliSecond;
-		int32_t L_75 = il2cpp_codegen_cast_double_to_int<int32_t>(L_74);
-		RuntimeObject* L_76 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_75);
-		NullCheck(L_73);
-		ArrayElementTypeCheck (L_73, L_76);
-		(L_73)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_76);
-		String_t* L_77;
-		L_77 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral957FCA6CED63712694CFF237F639DC016C96C733, L_73, NULL);
-		NullCheck(L_59);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_59, L_77);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_61, L_79);
 	}
 
-IL_021e:
+IL_0232:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:48>
-		float L_78 = __this->___count;
-		float L_79;
-		L_79 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		__this->___count = ((float)il2cpp_codegen_subtract(L_78, L_79));
-		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:49>
 		float L_80 = __this->___count;
-		if ((!(((float)L_80) < ((float)(0.0f)))))
+		float L_81;
+		L_81 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___count = ((float)il2cpp_codegen_subtract(L_80, L_81));
+		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:49>
+		float L_82 = __this->___count;
+		if ((!(((float)L_82) < ((float)(0.0f)))))
 		{
-			goto IL_024a;
+			goto IL_025e;
 		}
 	}
 	{
@@ -20351,7 +20400,7 @@ IL_021e:
 		((GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_StaticFields*)il2cpp_codegen_static_fields_for(GlobalVariable_t40BDA556CB280848D4B82337244FCA3F7041C76E_il2cpp_TypeInfo_var))->___gameState = 7;
 	}
 
-IL_024a:
+IL_025e:
 	{
 		//<source_info:E:/Program Files/Unity Projeler/Rubic/Assets/Code/UI/Counter.cs:55>
 		return;

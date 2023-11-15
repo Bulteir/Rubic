@@ -167,7 +167,7 @@ public class StoreController : MonoBehaviour, IDetailedStoreListener
 
         if (storeController != null)
         {
-            Product product_noAds = storeController.products.all.Where(i => i.definition.id == "no_ads").FirstOrDefault();
+            Product product_noAds = storeController.products.all.Where(i => i.definition.id == "kubik_no_ads").FirstOrDefault();
             if (product_noAds != null)
             {
                 if (product_noAds.hasReceipt)
@@ -183,7 +183,7 @@ public class StoreController : MonoBehaviour, IDetailedStoreListener
                 }
             }
 
-            Product product_increaseHint = storeController.products.all.Where(i => i.definition.id == "increase_hint").FirstOrDefault();
+            Product product_increaseHint = storeController.products.all.Where(i => i.definition.id == "kubik_increase_hint").FirstOrDefault();
             if (product_increaseHint != null)
             {
                 if (product_increaseHint.hasReceipt)
@@ -223,13 +223,13 @@ public class StoreController : MonoBehaviour, IDetailedStoreListener
     //maðazadan bir ürün satýn alýndýðýnda oyuna nasýl etki edecekse ayarlamalar yapýlýr.
     void ApplyPurchasedItemEffect(string itemId, string description)
     {
-        if (itemId == "no_ads")
+        if (itemId == "kubik_no_ads")
         {
             PlayerPrefs.SetString("NoAdsActive", "1");
             PlayerPrefs.Save();
 
         }
-        else if (itemId == "joker_easy1")
+        else if (itemId == "kubik_joker_easy1")
         {
             string easyJokerQuantity = PlayerPrefs.GetString("EasyJoker");
             if (easyJokerQuantity == "")
@@ -246,7 +246,7 @@ public class StoreController : MonoBehaviour, IDetailedStoreListener
                 PlayerPrefs.Save();
             }
         }
-        else if (itemId == "joker_very_easy1")
+        else if (itemId == "kubik_joker_very_easy1")
         {
             string veryEasyJokerQuantity = PlayerPrefs.GetString("VeryEasyJoker");
             if (veryEasyJokerQuantity == "")
@@ -263,7 +263,7 @@ public class StoreController : MonoBehaviour, IDetailedStoreListener
                 PlayerPrefs.Save();
             }
         }
-        else if (itemId == "increase_hint")
+        else if (itemId == "kubik_increase_hint")
         {
             PlayerPrefs.SetString("increaseHintPowerupActive", "1");
             PlayerPrefs.Save();

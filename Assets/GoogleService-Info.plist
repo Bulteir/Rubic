@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAFMkP_CfM7YqcQ61tykSlSuVaNNfNUm8I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>104491265119</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.alpaymobilegames.kubik</string>
+	<key>PROJECT_ID</key>
+	<string>kubik-s</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kubik-s.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:104491265119:ios:1092b0053fd39cbf2bffea</string>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "104491265119",
+    "project_id": "kubik-s",
+    "storage_bucket": "kubik-s.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104491265119:android:dc499dffcc63f2992bffea",
+        "android_client_info": {
+          "package_name": "com.Alpay.Kubiks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104491265119-9sbpgm5jcrsg5a1p9u7ifdldq17s8l0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt2TeCXtNXH7wGMFkEX1mRg6jcDg2J2Ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104491265119-9sbpgm5jcrsg5a1p9u7ifdldq17s8l0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

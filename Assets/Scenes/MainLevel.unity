@@ -6580,7 +6580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: -688}
+  m_AnchoredPosition: {x: 6, y: -973}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &471079333
@@ -8984,7 +8984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 790e0fb71bfacf44990b84e099eda807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Item_Id: joker_easy1
+  Item_Id: kubik_joker_easy1
   StoreController: {fileID: 1592783602}
   PurchaseButton: {fileID: 1042032728}
   PriceText: {fileID: 149901279}
@@ -14306,7 +14306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &886052701
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18559,7 +18559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 790e0fb71bfacf44990b84e099eda807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Item_Id: no_ads
+  Item_Id: kubik_no_ads
   StoreController: {fileID: 1592783602}
   PurchaseButton: {fileID: 120445578}
   PriceText: {fileID: 1495397379}
@@ -25494,7 +25494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 790e0fb71bfacf44990b84e099eda807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Item_Id: joker_very_easy1
+  Item_Id: kubik_joker_very_easy1
   StoreController: {fileID: 1592783602}
   PurchaseButton: {fileID: 949626054}
   PriceText: {fileID: 2138055052}
@@ -32638,7 +32638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 790e0fb71bfacf44990b84e099eda807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Item_Id: increase_hint
+  Item_Id: kubik_increase_hint
   StoreController: {fileID: 1592783602}
   PurchaseButton: {fileID: 1339681124}
   PriceText: {fileID: 974751936}

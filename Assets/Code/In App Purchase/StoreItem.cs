@@ -30,21 +30,21 @@ public class StoreItem : MonoBehaviour
         //ideal olan IAP servisten gelen title ve description'ý göstermek ancak bunun localizationu nasýl idere edilir bilmediðimiz için kullanmýyoruz.
         PriceText.text = Price;
 
-        if (Item_Id.Contains("no_ads"))
+        if (Item_Id.Contains("kubik_no_ads"))
         {
             ContentText.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "IAP_no_ads");
         }
-        else if (Item_Id.Contains("joker_easy1"))
+        else if (Item_Id.Contains("kubik_joker_easy1"))
         {
             Dictionary<string, string> arguments = new Dictionary<string, string> { { "val", Description } };
             ContentText.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "IAP_joker_easy", new object[] { arguments });
         }
-        else if (Item_Id.Contains("joker_very_easy1"))
+        else if (Item_Id.Contains("kubik_joker_very_easy1"))
         {
             Dictionary<string, string> arguments = new Dictionary<string, string> { { "val", Description } };
             ContentText.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "IAP_joker_very_easy", new object[] { arguments });
         }
-        else if (Item_Id.Contains("increase_hint"))
+        else if (Item_Id.Contains("kubik_increase_hint"))
         {
             Dictionary<string, string> arguments = new Dictionary<string, string> { { "val", "15" } };
             ContentText.text = LocalizationSettings.StringDatabase.GetLocalizedString("GeneralTexts", "IAP_increase_hint", new object[] { arguments });

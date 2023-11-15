@@ -15769,6 +15769,7 @@ struct InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD 
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___storeController;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___mainMenuNoAdsButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___InternetRequiredPopup;
 };
 struct LeaderboardController_tEB5B5558DBB30010B1366BE23BC223322F6A2565  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -22829,9 +22830,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7611[8] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7612[5] = 
 {
 	static_cast<int32_t>(offsetof(StoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446, ___Item_Id)),static_cast<int32_t>(offsetof(StoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446, ___StoreController)),static_cast<int32_t>(offsetof(StoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446, ___PurchaseButton)),static_cast<int32_t>(offsetof(StoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446, ___PriceText)),static_cast<int32_t>(offsetof(StoreItem_t90A44CC49F6A7B49AD05BF5D7B260668CA34D446, ___ContentText)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7613[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7613[3] = 
 {
-	static_cast<int32_t>(offsetof(InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD, ___storeController)),static_cast<int32_t>(offsetof(InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD, ___mainMenuNoAdsButton)),};
+	static_cast<int32_t>(offsetof(InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD, ___storeController)),static_cast<int32_t>(offsetof(InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD, ___mainMenuNoAdsButton)),static_cast<int32_t>(offsetof(InternetAvailabilityController_tD3E4008675C86C3CA2390E24B5C8C5FC833812DD, ___InternetRequiredPopup)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7614[3] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec_tFC8B4E8FAD65819C2B9348F70489B12CA60DF6DD_StaticFields, ___U3CU3E9)),static_cast<int32_t>(offsetof(U3CU3Ec_tFC8B4E8FAD65819C2B9348F70489B12CA60DF6DD_StaticFields, ___U3CU3E9__10_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tFC8B4E8FAD65819C2B9348F70489B12CA60DF6DD_StaticFields, ___U3CU3E9__10_1)),};
