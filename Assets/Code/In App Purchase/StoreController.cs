@@ -167,7 +167,11 @@ public class StoreController : MonoBehaviour, IDetailedStoreListener
 
         if (storeController != null)
         {
+#if UNITY_ANDROID
+            Product product_noAds = storeController.products.all.Where(i => i.definition.id == "no_ads").FirstOrDefault();
+#elif UNITY_IOS
             Product product_noAds = storeController.products.all.Where(i => i.definition.id == "kubik_no_ads").FirstOrDefault();
+#endif
             if (product_noAds != null)
             {
                 if (product_noAds.hasReceipt)
@@ -183,7 +187,11 @@ public class StoreController : MonoBehaviour, IDetailedStoreListener
                 }
             }
 
+#if UNITY_ANDROID
+            Product product_increaseHint = storeController.products.all.Where(i => i.definition.id == "increase_hint").FirstOrDefault();
+#elif UNITY_IOS
             Product product_increaseHint = storeController.products.all.Where(i => i.definition.id == "kubik_increase_hint").FirstOrDefault();
+#endif
             if (product_increaseHint != null)
             {
                 if (product_increaseHint.hasReceipt)
@@ -223,6 +231,57 @@ public class StoreController : MonoBehaviour, IDetailedStoreListener
     //maðazadan bir ürün satýn alýndýðýnda oyuna nasýl etki edecekse ayarlamalar yapýlýr.
     void ApplyPurchasedItemEffect(string itemId, string description)
     {
+#if UNITY_ANDROID
+        if (itemId == "no_ads")
+        {
+            PlayerPrefs.SetString("NoAdsActive", "1");
+            PlayerPrefs.Save();
+
+        }
+        else if (itemId == "joker_easy1")
+        {
+            string easyJokerQuantity = PlayerPrefs.GetString("EasyJoker");
+            if (easyJokerQuantity == "")
+            {
+                easyJokerQuantity = description;
+                PlayerPrefs.SetString("EasyJoker", easyJokerQuantity);
+                PlayerPrefs.Save();
+            }
+            else
+            {
+                int amount = Int32.Parse(easyJokerQuantity);
+                amount += Int32.Parse(description);
+                PlayerPrefs.SetString("EasyJoker", amount.ToString());
+                PlayerPrefs.Save();
+            }
+        }
+        else if (itemId == "joker_very_easy1")
+        {
+            string veryEasyJokerQuantity = PlayerPrefs.GetString("VeryEasyJoker");
+            if (veryEasyJokerQuantity == "")
+            {
+                veryEasyJokerQuantity = description;
+                PlayerPrefs.SetString("VeryEasyJoker", veryEasyJokerQuantity);
+                PlayerPrefs.Save();
+            }
+            else
+            {
+                int amount = Int32.Parse(veryEasyJokerQuantity);
+                amount += Int32.Parse(description);
+                PlayerPrefs.SetString("VeryEasyJoker", amount.ToString());
+                PlayerPrefs.Save();
+            }
+        }
+        else if (itemId == "increase_hint")
+        {
+            PlayerPrefs.SetString("increaseHintPowerupActive", "1");
+            PlayerPrefs.Save();
+
+            GlobalVariable.defaultSolvingQuantity = 15;
+            PlayerPrefs.SetInt("SolvingQuantity", GlobalVariable.defaultSolvingQuantity);
+            PlayerPrefs.Save();
+        }
+#elif UNITY_IOS
         if (itemId == "kubik_no_ads")
         {
             PlayerPrefs.SetString("NoAdsActive", "1");
@@ -272,7 +331,7 @@ public class StoreController : MonoBehaviour, IDetailedStoreListener
             PlayerPrefs.SetInt("SolvingQuantity", GlobalVariable.defaultSolvingQuantity);
             PlayerPrefs.Save();
         }
-
+#endif
         successfulPurchaseSound.Play();
     }
 }

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">104491265119</string>
+  <string name="google_storage_bucket" translatable="false">kubik-s.appspot.com</string>
+  <string name="project_id" translatable="false">kubik-s</string>
+  <string name="google_api_key" translatable="false">AIzaSyAt2TeCXtNXH7wGMFkEX1mRg6jcDg2J2Ps</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAt2TeCXtNXH7wGMFkEX1mRg6jcDg2J2Ps</string>
+  <string name="google_app_id" translatable="false">1:104491265119:android:dc499dffcc63f2992bffea</string>
+  <string name="default_web_client_id" translatable="false">104491265119-9sbpgm5jcrsg5a1p9u7ifdldq17s8l0r.apps.googleusercontent.com</string>
+</resources>
